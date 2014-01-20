@@ -1,0 +1,331 @@
+
+body {
+    background-image: url("../images/gradient_background_1x488.png");
+    background-repeat: repeat-x;
+    font: 1.05em "Helvetica Neue",helvetica,Arial,sans-serif;
+}
+a:link, a:visited {
+    border-bottom: 1px dotted #004357;
+    color: #0379AF;
+    text-decoration: none;
+}
+a:hover, a:active {
+    background-color: #D4EDEC;
+    border-bottom: 1px dotted #004357;
+    color: #004357;
+}
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.3em;
+}
+h1 {
+    font-size: 52px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0 0 0.5em;
+}
+h2 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    margin-top: 0;
+}
+h3 {
+    font-size: 1.4em;
+    margin-bottom: 1em;
+}
+h4 {
+    font-size: 1.2em;
+    margin-bottom: 0.3em;
+}
+h5 {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+h6 {
+    font-size: 1em;
+    font-weight: bold;
+}
+#logo-title {
+    margin: 0 auto;
+    width: 920px;
+}
+#logo-title h1 {
+    display: inline;
+    float: left;
+    font-weight: 900;
+    line-height: 0.45em;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+#logo-title img {
+    float: left;
+}
+#logo-title h1 a {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0 none;
+    color: #000000;
+}
+#site-slogan {
+    font-size: 0.4em;
+    font-weight: 400;
+    margin-top: 8px;
+}
+h2#home-title {
+    color: #F37021;
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 100%;
+    margin: 0 260px 0.5em 0;
+}
+#home-logo {
+    float: right;
+}
+#header {
+    padding-bottom: 5px;
+    padding-top: 30px;
+    vertical-align: bottom;
+    width: 100%;
+}
+#page {
+    width: 100%;
+}
+#main {
+    background-color: #F2F9F8;
+    border-bottom: 3px solid #D4EDEC;
+    border-top: 3px solid #D4EDEC;
+    clear: both;
+    margin: 0 auto;
+    padding: 20px;
+    width: 920px;
+}
+#home-main {
+    float: right;
+    height: 200px;
+    margin-right: 10px;
+    margin-top: -35px;
+    width: 224px;
+    z-index: 1;
+}
+p {
+    line-height: 160%;
+}
+.content {
+    clear: both;
+    width: 650px;
+}
+#sidebar-second .inner {
+    margin-left: -20px;
+    margin-top: 70px;
+}
+#sidebar-second .content {
+    width: 220px;
+}
+#footer {
+    padding-top: 60px;
+    text-align: center;
+    width: 100%;
+}
+#footer img {
+    padding-top: 10px;
+}
+.fl-tabs {
+    border-bottom: 0 none;
+    clear: both;
+    margin-bottom: -1px;
+    padding-top: 8px;
+}
+.fl-tabs li {
+    margin-right: 30px;
+    padding: 10px;
+}
+.fl-tabs li:first-child {
+    margin-left: -8px;
+}
+.fl-tabs li a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: -moz-use-text-color -moz-use-text-color #004357;
+    border-image: none;
+    border-style: none none dotted;
+    border-width: 0 0 1px;
+    color: #000000;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.fl-tabs li a:hover, .fl-tabs li a:active {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #004357;
+    border-image: none;
+    border-style: none none dotted;
+    border-width: 0 0 1px;
+    color: #004357;
+}
+.fl-tabs li:hover, .fl-tabs li.current, .fl-tabs li.current a {
+    background-color: #D4EDEC;
+    color: #004357;
+}
+.fl-tabs li a:focus {
+    border: 0 none;
+}
+ul, ol {
+    margin-left: 0;
+    padding-left: 2em;
+}
+table {
+    width: 99%;
+}
+tr.even td, tr.odd td {
+    padding: 10px 5px;
+}
+tr.odd {
+    background-color: #FFFFFF;
+}
+pre, code, tt {
+    font: 1em/1.5 'andale mono','lucida console',monospace;
+}
+pre {
+    background-color: #EFEFEF;
+    border: 1px solid #AAAAAA;
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
+}
+ul {
+    list-style-type: disc;
+}
+ul ul {
+    list-style-type: circle;
+}
+ul ul ul {
+    list-style-type: square;
+}
+ul ul ul ul {
+    list-style-type: circle;
+}
+ol {
+    list-style-type: decimal;
+}
+ol ol {
+    list-style-type: lower-alpha;
+}
+ol ol ol {
+    list-style-type: decimal;
+}
+abbr {
+    border-bottom: 1px dotted #666666;
+    cursor: help;
+    white-space: nowrap;
+}
+#edit-title {
+    font-size: 24px;
+}
+#system-themes-form img {
+    width: 100px;
+}
+.form-item .description {
+    color: #777777;
+    font-size: 0.8em;
+    font-style: italic;
+    line-height: 1.2em;
+    margin-top: 5px;
+}
+#edit-delete {
+    color: #CC0000;
+}
+div.messages {
+    background: none repeat scroll 0 0 #BBDDFF;
+    border: 1px solid #AACCEE;
+    color: #003366;
+    margin: 1em 0;
+    padding: 9px;
+}
+div.warning {
+    background: none repeat scroll 0 0 #FFEE66;
+    border-color: #EEDD55;
+    color: #884400;
+}
+div.error {
+    background: none repeat scroll 0 0 #EE6633;
+    border-color: #DD5522;
+    color: #FFFFFF;
+}
+div.status {
+    background: none repeat scroll 0 0 #CCFF88;
+    border-color: #BBEE77;
+    color: #336600;
+}
+#content-bottom {
+    clear: both;
+    margin: 0 auto;
+    width: 920px;
+}
+#content-bottom h3 {
+    background-color: #D4EDEC;
+    color: #004357;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 5px;
+}
+img.back-arrow {
+    border: 0 none;
+    margin-bottom: -6px;
+}
+a.img-link {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0 none;
+}
+.date {
+    color: #585858;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.older-entries {
+    font-size: 1.3em;
+}
+.older-entries a {
+    background-image: url("../images/back_arrow.png");
+    background-position: 0 -2px;
+    background-repeat: no-repeat;
+    border: 0 none;
+    padding-left: 28px;
+}
+.older-entries a span {
+    border-bottom: 1px dotted #004357;
+    color: #0379AF;
+    text-decoration: none;
+}
+#home-boxes {
+    height: 18em;
+    width: 52em;
+}
+.home-box {
+    border: 5px solid #D4EDEC;
+    float: left;
+    height: 100%;
+    margin-right: 10px;
+    width: 215px;
+}
+.home-box h3 {
+    background-color: #D4EDEC;
+    color: #0379AF;
+    font-size: 110%;
+    margin: 0;
+    padding: 3px 3px 7px;
+    text-align: center;
+}
+.home-box p {
+    font-size: 95%;
+    padding: 10px 10px 0;
+}
