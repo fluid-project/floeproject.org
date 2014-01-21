@@ -1,6 +1,6 @@
 
 body {
-    background-image: url("../images/gradient_background_1x488.png");
+    background-image: url("../files/images/gradient_background_1x488.png");
     background-repeat: repeat-x;
     font: 1.05em "Helvetica Neue",helvetica,Arial,sans-serif;
 }
@@ -327,4 +327,13 @@ a.img-link {
 
 .home-box dd {
     margin-left: 2em;
+}
+
+.news-item {
+    margin-bottom: 3em;
+    padding-left: 3em;
+}
+
+.news-item h4 {
+    margin-left: -2.3em;
 }
