@@ -46,6 +46,11 @@ h6 {
     font-size: 1em;
     font-weight: bold;
 }
+
+.floe-front-image {
+    width: 100%;
+}
+
 #logo-title {
     margin: 0 auto;
     width: 920px;
@@ -70,6 +75,7 @@ h6 {
     font-size: 0.4em;
     font-weight: 400;
     margin-top: 8px;
+    display:block;
 }
 h2#home-title {
     color: #F37021;
@@ -114,13 +120,7 @@ p {
     clear: both;
     width: 650px;
 }
-#sidebar-second .inner {
-    margin-left: -20px;
-    margin-top: 70px;
-}
-#sidebar-second .content {
-    width: 220px;
-}
+
 #footer {
     padding-top: 60px;
     text-align: center;
@@ -306,26 +306,25 @@ a.img-link {
     color: #0379AF;
     text-decoration: none;
 }
-#home-boxes {
-    height: 18em;
-    width: 52em;
-}
+
 .home-box {
     border: 5px solid #D4EDEC;
-    float: left;
-    height: 100%;
-    margin-right: 10px;
-    width: 215px;
+    margin-bottom: 1em;
 }
 .home-box h3 {
     background-color: #D4EDEC;
     color: #0379AF;
-    font-size: 110%;
+    font-size: 1.2em;
     margin: 0;
     padding: 3px 3px 7px;
     text-align: center;
 }
-.home-box p {
-    font-size: 95%;
-    padding: 10px 10px 0;
+
+.home-box dt {
+    font-weight: bold;
+    margin-top: 1.2em;
+}
+
+.home-box dd {
+    margin-left: 2em;
 }
