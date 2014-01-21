@@ -1,0 +1,507 @@
+
+.fl-fix {
+    overflow: auto;
+}
+.fl-push {
+    clear: both;
+}
+.fl-force-right {
+    display: inline;
+    float: right;
+}
+.fl-force-left {
+    display: inline;
+    float: left;
+}
+.fl-centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fl-container {
+}
+.fl-container-50 {
+    width: 50px;
+}
+.fl-container-100 {
+    width: 100px;
+}
+.fl-container-150 {
+    width: 150px;
+}
+.fl-container-200 {
+    width: 200px;
+}
+.fl-container-250 {
+    width: 250px;
+}
+.fl-container-300 {
+    width: 300px;
+}
+.fl-container-350 {
+    width: 350px;
+}
+.fl-container-400 {
+    width: 400px;
+}
+.fl-container-450 {
+    width: 450px;
+}
+.fl-container-500 {
+    width: 500px;
+}
+.fl-container-550 {
+    width: 550px;
+}
+.fl-container-600 {
+    width: 600px;
+}
+.fl-container-650 {
+    width: 650px;
+}
+.fl-container-700 {
+    width: 700px;
+}
+.fl-container-750 {
+    width: 750px;
+}
+.fl-container-800 {
+    width: 800px;
+}
+.fl-container-850 {
+    width: 850px;
+}
+.fl-container-900 {
+    width: 900px;
+}
+.fl-container-950 {
+    width: 950px;
+}
+.fl-container-1000 {
+    width: 1000px;
+}
+.fl-container-auto {
+    width: auto;
+}
+.fl-container-flex {
+    clear: both;
+    width: 100%;
+}
+.fl-container-flex10 {
+    width: 10%;
+}
+.fl-container-flex20 {
+    width: 20%;
+}
+.fl-container-flex25 {
+    width: 25%;
+}
+.fl-container-flex30 {
+    width: 30%;
+}
+.fl-container-flex33 {
+    width: 33%;
+}
+.fl-container-flex40 {
+    width: 40%;
+}
+.fl-container-flex50 {
+    width: 50%;
+}
+.fl-container-flex60 {
+    width: 60%;
+}
+.fl-container-flex66 {
+    width: 66%;
+}
+.fl-container-flex75 {
+    width: 75%;
+}
+.fl-layout-linear *, .fl-layout-linear .fl-linearEnabled {
+    clear: both !important;
+    float: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    overflow: visible !important;
+}
+.fl-layout-linear .fl-container, .fl-layout-linear .fl-container-100, .fl-layout-linear .fl-container-150, .fl-layout-linear .fl-container-200, .fl-layout-linear .fl-container-250, .fl-layout-linear .fl-container-300, .fl-layout-linear .fl-container-400, .fl-layout-linear .fl-container-750, .fl-layout-linear .fl-container-950, .fl-layout-linear .fl-container-auto, .fl-layout-linear .fl-container-flex25, .fl-layout-linear .fl-container-flex30, .fl-layout-linear .fl-container-flex33, .fl-layout-linear .fl-container-flex50, .fl-layout-linear .fl-col, .fl-layout-linear .fl-col-side, .fl-layout-linear .fl-col-flex, .fl-layout-linear .fl-col-main, .fl-layout-linear .fl-col-fixed, .fl-layout-linear .fl-col-justified {
+    margin: auto;
+    padding: 0 !important;
+    width: 100% !important;
+}
+.fl-layout-linear .fl-force-left, .fl-layout-linear .fl-force-right, .fl-layout-linear li {
+    display: block !important;
+    float: none !important;
+}
+.fl-layout-linear .fl-linearEnabled {
+    display: block;
+    width: 100% !important;
+}
+.fl-layout-linear .fl-button-left, .fl-layout-linear .fl-button-right {
+    padding: 1em;
+}
+.fl-col-justified {
+    display: inline;
+    float: left;
+    overflow: auto;
+    text-align: justify;
+}
+.fl-col-flex2, .fl-col-flex3, .fl-col-flex4, .fl-col-flex5 {
+    overflow: auto;
+}
+.fl-col {
+    display: inline;
+    float: left;
+}
+.fl-col-flex5 .fl-col {
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    padding-left: 0.25%;
+    padding-right: 0.25%;
+    width: 18.95%;
+}
+.fl-col-flex4 .fl-col {
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    padding-left: 0.25%;
+    padding-right: 0.25%;
+    width: 24%;
+}
+.fl-col-flex3 .fl-col {
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    padding-left: 0.25%;
+    padding-right: 0.25%;
+    width: 32.33%;
+}
+.fl-col-flex2 .fl-col {
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    padding-left: 0.25%;
+    padding-right: 0.25%;
+    width: 48.85%;
+}
+.fl-col-mixed, .fl-col-mixed2, .fl-col-mixed3 {
+    overflow: auto;
+}
+.fl-col-mixed .fl-col-side {
+    width: 200px;
+}
+.fl-col-mixed .fl-col-side, .fl-col-mixed .fl-col-main {
+    padding: 0 10px;
+}
+.fl-col-mixed2 .fl-col-side {
+    float: left;
+    padding: 0 10px;
+    width: 200px;
+}
+.fl-col-mixed2 .fl-col-main {
+    margin-left: 220px;
+    padding: 0 10px;
+}
+.fl-col-mixed3 .fl-col-main {
+    margin: 0 220px;
+}
+.fl-col-fixed, .fl-col-flex {
+    padding: 0 10px;
+}
+.fl-col-mixed .fl-col-fixed {
+    padding: 0 10px;
+    width: 200px;
+}
+.fl-col-mixed .fl-col-flex {
+    margin-left: 220px;
+    padding: 0 10px;
+}
+.fl-col-mixed-100 .fl-col-fixed {
+    width: 100px;
+}
+.fl-col-mixed-100 .fl-col-flex {
+    margin-left: 120px;
+}
+.fl-col-mixed-150 .fl-col-fixed {
+    width: 150px;
+}
+.fl-col-mixed-150 .fl-col-flex {
+    margin-left: 170px;
+}
+.fl-col-mixed-200 .fl-col-fixed {
+    width: 200px;
+}
+.fl-col-mixed-200 .fl-col-flex {
+    margin-left: 220px;
+}
+.fl-col-mixed-250 .fl-col-fixed {
+    width: 250px;
+}
+.fl-col-mixed-250 .fl-col-flex {
+    margin-left: 270px;
+}
+.fl-col-mixed-300 .fl-col-fixed {
+    width: 300px;
+}
+.fl-col-mixed-300 .fl-col-flex {
+    margin-left: 320px;
+}
+.fl-tabs {
+    border-bottom: 1px solid #000000;
+    margin: 10px 0 0;
+    padding-bottom: 2px;
+    text-align: center;
+}
+.fl-tabs li {
+    display: inline;
+    list-style-type: none;
+}
+.fl-tabs li a {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    color: #999999;
+    margin-left: -5px;
+    padding: 3px 16px 2px;
+}
+.fl-tabs li a:hover {
+}
+.fl-tabs-center {
+    text-align: center;
+}
+.fl-tabs-left {
+    padding-left: 10px;
+    text-align: left;
+}
+.fl-tabs-right {
+    padding-right: 15px;
+    text-align: right;
+}
+.fl-tabs .fl-reorderer-dropMarker {
+    background-color: #CC0000;
+    margin: 0 5px 0 -5px;
+    padding: 0 3px;
+}
+.fl-tabs .fl-tabs-active a {
+    border-bottom: medium none;
+    color: #000000;
+    padding: 3px 16px;
+}
+.fl-tabs-content {
+    padding: 5px;
+}
+@media not all {
+.fl-tabs li a {
+    padding: 3px 16px;
+}
+.fl-tabs .fl-tabs-active a {
+    padding: 3px 16px 4px;
+}
+}
+.fl-listmenu, .fl-list-menu {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin: 0;
+    padding: 0;
+}
+.fl-listmenu li, .fl-list-menu li {
+    border-bottom: medium none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    list-style-type: none;
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+}
+.fl-listmenu a, .fl-list-menu a {
+    display: block;
+    outline: medium none;
+    overflow: auto;
+    padding: 5px;
+}
+ul.fl-grid, .fl-grid ul {
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+}
+.fl-grid li {
+    display: inline;
+    list-style-type: none;
+}
+.fl-grid li {
+    display: inline;
+    float: left;
+    height: 150px;
+    margin: 0.5%;
+    overflow: hidden;
+    position: relative;
+    width: 19%;
+}
+.fl-grid li img {
+    display: block;
+    margin: 5px auto;
+}
+.fl-grid li .caption, .fl-grid li .fl-grid-caption {
+    bottom: 0;
+    height: 1em;
+    left: 0;
+    padding: 3px 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.fl-icon {
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: block;
+    height: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+    text-indent: -5000px;
+    width: 16px;
+}
+input.fl-icon {
+    padding-left: 16px;
+}
+.fl-button-left {
+    background-position: left center;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 10px;
+    padding: 0 0 0 16px;
+}
+.fl-button-right {
+    background-position: left center;
+    background-repeat: no-repeat;
+    float: right;
+    margin-left: 10px;
+    padding: 0 0 0 16px;
+}
+.fl-button-inner {
+    background-position: right center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    float: left;
+    padding: 5px 16px 5px 0;
+}
+.fl-widget {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.fl-widget .button {
+    margin: 0 5px;
+}
+.fl-grabbable .fl-widget-titlebar {
+    background-position: center top;
+    background-repeat: no-repeat;
+    cursor: move;
+}
+.fl-widget .fl-widget-titlebar {
+}
+.fl-widget .fl-widget-titlebar h2 {
+    font-size: 105%;
+    margin: 0;
+    padding: 0;
+}
+.fl-widget .fl-widget-titlebar .fl-button-inner {
+    font-size: 0.8em;
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+}
+.fl-widget .fl-widget-controls {
+    margin: -1.3em 0 1.5em;
+}
+.fl-widget .fl-widget-options {
+    margin-top: 5px;
+    padding: 0 10px;
+}
+.fl-widget .fl-widget-options ul {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.fl-widget .fl-widget-options li {
+    display: inline;
+    float: left;
+    list-style-type: none;
+    margin-left: -5px;
+    padding: 0 5px;
+}
+.fl-widget .fl-widget-options a {
+    margin-right: 5px;
+}
+.fl-widget .fl-widget-content {
+    margin: 5px 0 0;
+    overflow: auto;
+}
+.fl-widget .fl-widget-content ul {
+}
+.fl-widget .empty * {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    text-align: center;
+}
+.fl-widget .menu {
+    margin: 0;
+}
+.fl-widget .toggle {
+    width: 32px;
+}
+.fl-widget .on {
+    background-position: left top;
+}
+.fl-widget .off {
+    background-position: left bottom;
+}
+.fl-controls-left li {
+    list-style-type: none;
+    text-align: left;
+}
+.fl-controls-left .fl-label {
+    float: left;
+    margin-right: 5px;
+    text-align: left;
+    width: 50%;
+}
+.fl-controls-right li {
+    display: block;
+    list-style-type: none;
+    text-align: left;
+}
+.fl-controls-right .fl-label {
+    float: left;
+    margin-right: 5px;
+    text-align: right;
+    width: 50%;
+}
+.fl-controls-centered li {
+    display: block;
+    list-style-type: none;
+    text-align: left;
+}
+.fl-controls-centered .fl-label {
+    float: left;
+    margin-right: 5px;
+    text-align: center;
+    width: 50%;
+}
+.fl-noBackgroundImages, .fl-noBackgroundImages * {
+    background-image: none !important;
+}
+.fl-noBackgroundImages .fl-icon {
+    background-color: rgba(0, 0, 0, 0) !important;
+    text-indent: 0 !important;
+    width: auto !important;
+}
+.fl-ProgEnhance-enhanced, .fl-progEnhance-enhanced {
+    display: none;
+}
+.fl-ProgEnhance-basic, .fl-progEnhance-basic {
+}
+.fl-offScreen-hidden {
+    height: 1px;
+    left: -10000px;
+    overflow: hidden;
+    position: absolute;
+    top: auto;
+    width: 1px;
+}

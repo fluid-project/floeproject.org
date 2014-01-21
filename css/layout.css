@@ -1,0 +1,53 @@
+
+#page {
+    margin: 0 auto;
+    width: 960px;
+}
+#content {
+    float: left;
+    margin-right: -100%;
+    padding: 0;
+    width: 100%;
+}
+.sidebar {
+    float: left;
+}
+#sidebar-second {
+    float: right;
+}
+#footer {
+    clear: both;
+    float: none;
+}
+#header, #footer, .mission, .breadcrumb, .node {
+    clear: both;
+}
+.two-sidebars .center, .sidebar-left .center {
+    margin-left: 190px;
+}
+#sidebar-first {
+    margin-right: -190px;
+    width: 190px;
+}
+.two-sidebars .center, .sidebar-right .center {
+    margin-right: 200px;
+}
+#sidebar-second {
+    width: 200px;
+}
+.inner {
+    padding: 0;
+}
+#navigation {
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    padding: 0;
+    width: 100%;
+}
+.with-navigation #content, .with-navigation .sidebar {
+    margin-top: 40px;
+}
+#navigation {
+    height: 40px;
+}
