@@ -36,7 +36,8 @@
     float: right;
     margin: 0 0 5px 10px;
 }
-#skip a, #skip a:hover, #skip a:visited {
+
+.floe #skip a, .floe #skip a:hover, .floe #skip a:visited {
     height: 1px;
     left: -10000px;
     overflow: hidden;
@@ -44,11 +45,15 @@
     top: auto;
     width: 1px;
 }
-#skip a:active, #skip a:focus {
+.floe #skip a:active, #skip a:focus {
     height: auto;
     position: static;
     width: auto;
 }
+.floe #navigation {
+    height: 28px;
+}
+
 div.view div.views-admin-links {
     width: auto;
 }
