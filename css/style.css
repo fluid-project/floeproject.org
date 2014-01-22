@@ -3,6 +3,26 @@
     margin: 0;
     padding: 0;
 }
+
+
+/* Clearfix courtesy of CSS Tricks http://css-tricks.com/snippets/css/clear-fix/
+ */
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/*
+
 .clearfix:after {
     clear: both;
     content: ".";
@@ -15,9 +35,6 @@
 }
 * html .clearfix {
     height: 1%;
-}
-.clearfix {
-    display: block;
 }
 .clearleft, .clearl, .cleft {
     clear: left;
@@ -36,8 +53,21 @@
     float: right;
     margin: 0 0 5px 10px;
 }
+*/
 
-.floe #skip a, .floe #skip a:hover, .floe #skip a:visited {
+/*
+.floe #navigation {
+    height: 20px;
+}
+*/
+body {
+    background: #fafafa;
+}
+
+
+#skip a,
+#skip a:hover,
+#skip a:visited {
     height: 1px;
     left: -10000px;
     overflow: hidden;
@@ -45,282 +75,266 @@
     top: auto;
     width: 1px;
 }
-.floe #skip a:active, #skip a:focus {
+#skip a:active,
+#skip a:focus {
     height: auto;
     position: static;
     width: auto;
 }
-.floe #navigation {
-    height: 20px;
+
+.floe {
+    font-family: "Helvetica Neue",helvetica,Arial,sans-serif;
+    width: 76em;
+    margin: 0 auto;
 }
 
-.floe body {
-    background-image: url("../files/images/gradient_background_1x488.png");
-    background-repeat: repeat-x;
-    font: 1.05em "Helvetica Neue",helvetica,Arial,sans-serif;
+/* FLOE Header area, tagline, and logo. */
+.floe-header {
+    margin-left: 1.8em;
+    margin-top: 0.6em;
+    height: 4em;
+    display: inline-block;
 }
-.floe a:link,
-.floe a:visited {
+
+.floe-header h1 {
+    display: inline;
+    float: left;
+    line-height: 0.45em;
+    margin: 0.2em 0 0 0.2em;
+    font-size: 4em;
+}
+.floe-header img {
+    float: left;
+}
+.floe-header a {
+    background-color: none;
+    color: #000000;
+    text-decoration: none;
+}
+
+.floe-header-tagline {
+    font-size: 0.4em;
+    margin-top: 0.4em;
+    display:block;
+}
+
+
+/* FLOE Content Containers - not header. Header has its own styles above. */
+.floe-content {
+    clear: both;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+
+.floe-content a:link,
+.floe-content a:visited {
     border-bottom: 1px dotted #004357;
     color: #0379AF;
     text-decoration: none;
 }
-.floe a:hover,
-.floe a:active {
+.floe-content a:hover,
+.floe-content a:active {
     background-color: #D4EDEC;
     border-bottom: 1px dotted #004357;
     color: #004357;
 }
-.floe h1,
-.floe h2,
-.floe h3,
-.floe h4,
-.floe h5,
-.floe h6 {
+
+
+.floe-content .floe-more-link {
+    font-weight: bold;
+}
+
+
+.floe-content h1,
+.floe-content h2,
+.floe-content h3 {
     line-height: 1.3em;
 }
-.floe h1 {
-    font-size: 52px;
+
+.floe-content h1 {
+    font-size: 3.6em;
     font-weight: 300;
     margin: 0;
     padding: 0 0 0.5em;
 }
-.floe h2 {
-    font-size: 3em;
+
+.floe-content h2 {
+    font-size: 2.2em;
     font-weight: bold;
     margin-bottom: 0.5em;
     margin-top: 0;
 }
-.floe h3 {
+.floe-content h3 {
     font-size: 1.4em;
     margin-bottom: 1em;
 }
-.floe h4 {
-    font-size: 1.2em;
-    margin-bottom: 0.3em;
-}
-.floe h5 {
-    font-size: 1.1em;
-    font-weight: 600;
-    margin-bottom: 0;
-}
-.floe h6 {
-    font-size: 1em;
-    font-weight: bold;
+.floe-content ul,
+.floe-content ol,
+.floe-content dl,
+.floe-content dd {
+    margin-left: 0;
 }
 
-.floe-front-image {
-    width: 100%;
+.floe-content dt {
+    margin: 1.2em 0 0.4em 0;
+    font-weight:bold;    
 }
 
-#logo-title {
-    margin: 0 auto;
-    width: 920px;
-}
-#logo-title h1 {
-    display: inline;
-    float: left;
-    font-weight: 900;
-    line-height: 0.45em;
-    margin-left: 10px;
-    margin-top: 8px;
-}
-#logo-title img {
-    float: left;
-}
-#logo-title h1 a {
-    background-color: rgba(0, 0, 0, 0);
-    border: 0 none;
-    color: #000000;
-}
-#site-slogan {
-    font-size: 0.4em;
-    font-weight: 400;
-    margin-top: 8px;
-    display:block;
-}
-.floe h2#home-title {
-    color: #F37021;
-    font-size: 2.5em;
-    font-weight: bold;
-    line-height: 100%;
-    margin: 0 260px 0.5em 0;
-}
-#home-logo {
-    float: right;
-}
-#header {
-    padding-bottom: 5px;
-    padding-top: 30px;
-    vertical-align: bottom;
-    width: 100%;
-}
-#page {
-    width: 100%;
-}
-#main {
-    background-color: #F2F9F8;
-    border-bottom: 3px solid #D4EDEC;
-    border-top: 3px solid #D4EDEC;
-    clear: both;
-    margin: 0 auto;
-    padding: 20px;
-    width: 920px;
-}
-#home-main {
-    float: right;
-    height: 200px;
-    margin-right: 10px;
-    margin-top: -35px;
-    width: 224px;
-    z-index: 1;
-}
-.floe p {
+.floe-content p {
     line-height: 160%;
 }
-.floe .content {
-    clear: both;
-    width: 650px;
-}
 
-#page {
-    margin: 0 auto;
-    width: 960px;
-}
-#content {
-    float: left;
-    margin-right: -100%;
-    padding: 0;
-    width: 100%;
-}
-
-#navigation {
-    height: 40px;
-}
-
-
-#footer {
-    padding-top: 60px;
-    text-align: center;
-    width: 100%;
-}
-#footer img {
-    padding-top: 10px;
-}
-
-/* FSS Overrides */
-.floe .fl-tabs {
-    border-bottom: 0 none;
-    clear: both;
-    margin-bottom: -1px;
-    padding-top: 8px;
-}
-.floe .fl-tabs li {
-    margin-right: 30px;
-    padding: 10px;
-}
-.floe .fl-tabs li:first-child {
-    margin-left: -8px;
-}
-.floe .fl-tabs li a {
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
-    background-color: rgba(0, 0, 0, 0);
-    border-color: -moz-use-text-color -moz-use-text-color #004357;
-    border-image: none;
-    border-style: none none dotted;
-    border-width: 0 0 1px;
-    color: #000000;
-    font-size: 1.2em;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-.floe .fl-tabs li a:hover, 
-.floe .fl-tabs li a:active {
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
-    border-color: -moz-use-text-color -moz-use-text-color #004357;
-    border-image: none;
-    border-style: none none dotted;
-    border-width: 0 0 1px;
-    color: #004357;
-}
-
-.floe .fl-tabs li:hover, 
-.floe .fl-tabs li.current,
-.floe .fl-tabs li.current a {
-    background-color: #D4EDEC;
-    color: #004357;
-}
-.floe .fl-tabs li a:focus {
-    border: 0 none;
-}
-
-.floe ul,
-.floe ol {
-    margin-left: 0;
-    padding-left: 2em;
-}
-
-#content-bottom {
-    clear: both;
-    margin: 0 auto;
-    width: 920px;
-}
-#content-bottom h3 {
-    background-color: #D4EDEC;
-    color: #004357;
-    float: left;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    padding: 5px;
-}
-
-.floe a.img-link {
-    background-color: rgba(0, 0, 0, 0);
-    border: 0 none;
-}
-
-.floe .date {
+.floe-content .floe-date {
     color: #585858;
     font-weight: bold;
     margin-bottom: 7px;
 }
 
-.floe .home-box {
-    border: 5px solid #D4EDEC;
-    margin-bottom: 1em;
+.floe-content .floe-column {
+    width: 48%;
+    float: left;
+    padding: 0 0.9em;
+    width: 46.6%;
 }
-.floe .home-box h3 {
-    background-color: #D4EDEC;
-    color: #0379AF;
+
+
+/* BEGIN The grid of featured work */
+.floe-featured-list {
+    list-style: none outside none;
+    height:41em;
     font-size: 1.2em;
-    margin: 0;
-    padding: 3px 3px 7px;
-    text-align: center;
 }
 
-.floe .home-box dt {
+.floe-featured-list .floe-feature-header,
+.floe-featured-list h2{
+    font-size: 1.4em;
+    color: #000;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.floe-featured-list h2 a{
+    text-decoration: none;
+    color: #000;
+}
+
+.floe-feature-header {
     font-weight: bold;
-    margin-top: 1.2em;
+    display: block;
+    
 }
 
-.floe .home-box dd {
+.floe-featured-list .floe-project-title {
+    color: #F37021;
+    background: none;
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: 1.2em;
+    margin-bottom: 0;
+}
+
+.floe-featured-list>li {
+    display: block;
+    float: left;
+    list-style: none outside none;
+    width: 48%;
+    height: 15em;
+    margin: 0.4em;
+}
+
+.floe-feature-ui-options{
+    background: url("../files/images/floe-uio.jpg") no-repeat;
+    background-size: 100% auto;
+}
+
+.floe-feature-videoplayer{
+    background: url("../files/images/floe-videoplayer.jpg") no-repeat;
+    background-size: 100% auto;
+}
+
+.floe-feature-metadata{
+    background: url("../files/images/floe-metadata.jpg") no-repeat;
+    background-size: 100% auto;
+}
+
+.floe-feature-author{
+    background: url("../files/images/floe-authoring.jpg") no-repeat;
+    background-size: 100% auto;
+}
+
+.floe-feature-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #fdff84;
+    opacity: 0.5;
+}
+
+.floe-feature-videoplayer .floe-feature-overlay {
+    background-color: #84d4cd;
+}
+
+.floe-feature-metadata .floe-feature-overlay {
+    background-color: #8ad484;
+}
+
+.floe-featured-text {
+    background-color: rgba(255,255,255,0.5);
+    height: 36%;
+    position: relative;
+    top: -6em;
+    padding: 0.3em;
+}
+/* END The grid of featured work */
+
+
+/* FLOE bottom content container */
+
+.floe-bottom-content {
+    background-color: #e6e6e6;
+}
+
+.floe-bottom-content .floe-content{
+   padding-top: 0; 
+}
+
+
+/* FLOE Footer - contact and organization info. */
+.floe-footer {
+    background-color: #333;
+}
+
+.floe-footer .floe-content {
+    color: #fff;
+    line-height: 1.7em;
+}
+
+.floe-footer .floe-content a {
+    color: #fccd00;
+    border-color: #fccd00;
+}
+
+.floe-footer .floe-content a:hover {
+    background: none;
+    text-decoration: none;
+}
+
+.floe-footer .floe-content .floe-image-link {
+    border: 0;
+}
+
+.floe-footer .floe-content .floe-image-link img {
+    margin-top: 0.7em;
+    border: 1px solid #fff;
+}
+
+/* News and News Items */
+.floe-news-item {
+    margin-bottom: 2em;
+}
+
+.floe-news-item ul {
     margin-left: 2em;
 }
 
-.floe .news-item {
-    margin-bottom: 3em;
-    padding-left: 3em;
-}
-
-.floe .news-item h4 {
-    margin-left: -2.3em;
+.floe-news-item h3 {
+    background-color: #efefef;
 }
