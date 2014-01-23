@@ -206,12 +206,17 @@ body {
 }
 
 .floe-featured-list .floe-feature-header {
-    font-size: 1.4em;
-    color: #000;
     background-color: rgba(255,255,255,0.5);
-    font-weight: bold;
     display: block;
     margin-bottom: 0.2em;
+    font-size: 1.4em;
+    color: #000;
+    font-weight: bold;
+}
+
+.floe-featured-list .floe-feature-links {
+    font-size: 1.0em;
+    font-weight: bold;
 }
 
 .floe-featured-list .floe-project-title {
@@ -232,31 +237,20 @@ body {
     margin: 0.4em;
 }
 
-.floe-feature-ui-options{
-    background: url("../images/floe-uio.jpg") no-repeat;
-    background-size: 100% auto;
-}
-
-.floe-feature-videoplayer{
-    background: url("../images/floe-videoplayer.jpg") no-repeat;
-    background-size: 100% auto;
-}
-
-.floe-feature-metadata{
-    background: url("../images/floe-metadata.jpg") no-repeat;
-    background-size: 100% auto;
-}
-
-.floe-feature-author{
-    background: url("../images/floe-authoring.jpg") no-repeat;
-    background-size: 100% auto;
-}
-
 .floe-feature-overlay {
     width: 100%;
     height: 100%;
-    background-color: #fdff84;
     opacity: 0.5;
+    overflow: hidden;
+}
+
+.floe-feature-overlay img{
+    width: 100%;
+    height: auto;
+}
+
+.floe-feature-ui-options .floe-feature-overlay {
+    background-color: #fdff84;
 }
 
 .floe-feature-videoplayer .floe-feature-overlay {
@@ -320,6 +314,7 @@ body {
 /* News and News Items */
 .floe-news-item {
     margin-bottom: 2em;
+    font-size: 1.2em;
 }
 
 .floe-news-item ul {
