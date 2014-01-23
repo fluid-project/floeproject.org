@@ -209,9 +209,14 @@ body {
     background-color: rgba(255,255,255,0.5);
     display: block;
     margin-bottom: 0.2em;
+}
+
+.floe-featured-list .floe-featured-text .floe-feature-header-link{
     font-size: 1.4em;
-    color: #000;
     font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    border: 0;
 }
 
 .floe-featured-list .floe-feature-links {
