@@ -205,22 +205,13 @@ body {
     font-size: 1.2em;
 }
 
-.floe-featured-list .floe-feature-header,
-.floe-featured-list h2{
+.floe-featured-list .floe-feature-header {
     font-size: 1.4em;
     color: #000;
     background-color: rgba(255,255,255,0.5);
-}
-
-.floe-featured-list h2 a{
-    text-decoration: none;
-    color: #000;
-}
-
-.floe-feature-header {
     font-weight: bold;
     display: block;
-    
+    margin-bottom: 0.2em;
 }
 
 .floe-featured-list .floe-project-title {
@@ -242,22 +233,22 @@ body {
 }
 
 .floe-feature-ui-options{
-    background: url("../files/images/floe-uio.jpg") no-repeat;
+    background: url("../images/floe-uio.jpg") no-repeat;
     background-size: 100% auto;
 }
 
 .floe-feature-videoplayer{
-    background: url("../files/images/floe-videoplayer.jpg") no-repeat;
+    background: url("../images/floe-videoplayer.jpg") no-repeat;
     background-size: 100% auto;
 }
 
 .floe-feature-metadata{
-    background: url("../files/images/floe-metadata.jpg") no-repeat;
+    background: url("../images/floe-metadata.jpg") no-repeat;
     background-size: 100% auto;
 }
 
 .floe-feature-author{
-    background: url("../files/images/floe-authoring.jpg") no-repeat;
+    background: url("../images/floe-authoring.jpg") no-repeat;
     background-size: 100% auto;
 }
 
