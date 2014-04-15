@@ -1,7 +1,13 @@
 
+@font-face {
+    font-family: 'Roboto Slab';
+    src:url('fonts/RobotoSlab-Light.ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -55,11 +61,6 @@
 }
 */
 
-/*
-.floe #navigation {
-    height: 20px;
-}
-*/
 body {
     background: #fafafa;
 }
@@ -97,9 +98,10 @@ body {
 }
 
 .floe-header h1 {
+    font-family: 'Open Sans', sans-serif;
     display: inline;
     float: left;
-    line-height: 0.45em;
+    line-height: 0.45;
     margin: 0.2em 0 0 0.2em;
     font-size: 4em;
 }
@@ -113,14 +115,35 @@ body {
 }
 
 .floe-header-tagline {
+    font-family: 'Open Sans', sans-serif;
     font-size: 0.4em;
-    margin-top: 0.4em;
+    margin-top: 0.7em;
     display:block;
 }
 
+.floe-header nav {
+    float: right;
+}
+.floe-header nav ul li {
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline;
+    padding: 0.5em;
+}
+.floe-header nav ul li.active {
+    background-color: #FFFFFF;
+    border: 2px solid #FFCB00;
+}
+.floe-header nav ul li a {
+}
+.floe-header nav ul li a:hover,
+.floe-header nav ul li a:focus {
+    background-color: #FFCB00;
+}
 
 /* FLOE Content Containers - not header. Header has its own styles above. */
 .floe-content {
+    font-family: 'Roboto Slab', serif;
     clear: both;
     margin: 0 auto;
     padding: 1.5em;
@@ -148,7 +171,7 @@ body {
 .floe-content h1,
 .floe-content h2,
 .floe-content h3 {
-    line-height: 1.3em;
+    line-height: 1.3;
 }
 
 .floe-content h1 {
@@ -181,7 +204,7 @@ body {
 }
 
 .floe-content p {
-    line-height: 160%;
+    line-height: 1.6;
 }
 
 .floe-content .floe-date {
@@ -229,7 +252,7 @@ body {
     background: none;
     font-size: 1.4em;
     font-weight: bold;
-    line-height: 1.2em;
+    line-height: 1.2;
     margin-bottom: 0;
 }
 
@@ -294,7 +317,7 @@ body {
 
 .floe-footer .floe-content {
     color: #fff;
-    line-height: 1.7em;
+    line-height: 1.7;
 }
 
 .floe-footer .floe-content a {
@@ -305,6 +328,8 @@ body {
 .floe-footer .floe-content a:hover {
     background: none;
     text-decoration: none;
+    color: #000000;
+    background-color: #fccd00;
 }
 
 .floe-footer .floe-content .floe-image-link {
@@ -328,4 +353,73 @@ body {
 
 .floe-news-item h3 {
     background-color: #efefef;
+}
+
+/* "Floe Story" page */
+.floe-story * {
+    font-family: 'Roboto Slab', serif;
+}
+.floe-story {
+    font-size: 1.2em;
+}
+.floe-story > ul {
+    overflow: auto;
+    margin-bottom: 7em;
+}
+.floe-story  > ul > li {
+    display: block;
+    float: left;
+    list-style: none outside none;
+    margin-right: 4em;
+    width: 21em;
+}
+.floe-story  > ul > li img {
+    width: 21em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.floe-story h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+}
+.floe-content.floe-story h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-style: italic;
+}
+.floe-content.floe-story a {
+    font-weight: bold;
+    color: #000000;
+    background-color: #FFCB00;
+    text-decoration: none;
+    border-bottom: none;
+    padding: 0.2em 0.4em;
+}
+.floe-content.floe-story a:hover,
+.floe-content.floe-story a:focus {
+    color: #FFCB00;
+    background-color: #000000;
+}
+
+.floe-story-cloud {
+    margin-top: 12em;
+}
+.floe-image-caption {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    padding: 0.8em;
+    font-size: 0.8em;
+}
+.floe-image-caption-heading {
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.85em;
+    margin-bottom: 0;
+}
+.floe-story-textBeside {
+    margin-top: 1em;
 }
