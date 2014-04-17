@@ -370,8 +370,10 @@ body {
     display: block;
     float: left;
     list-style: none outside none;
+    width: 27em;
+}
+.floe-story  > ul > li:first-child {
     margin-right: 4em;
-    width: 21em;
 }
 .floe-story  > ul > li img {
     width: 21em;
