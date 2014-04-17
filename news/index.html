@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html lang="en" dir="ltr" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
     <head>
         <title>News | floe</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
@@ -9,15 +9,25 @@
         <link href="../css/fss/fss-text.css" rel="stylesheet" type="text/css" />
         <link href="../css/style.css" media="all" rel="stylesheet" type="text/css" />
         <link href="../css/print.css" media="print" rel="stylesheet" type="text/css" />
+
+        <!--[if lte IE 8]>  
+        <script type="text/javascript">document.createElement("header")</script>    
+        <script type="text/javascript">document.createElement("nav")</script>       
+        <script type="text/javascript">document.createElement("footer")</script>
+        <script type="text/javascript">document.createElement("section")</script>
+        <script type="text/javascript">document.createElement("aside")</script>
+        <![endif]-->    
     </head>
     <body>
         <div id="skip">
             <a href="#content">Skip to Content</a>
+<!--
             <a href="#navigation">Skip to Navigation</a>
+-->
         </div>
         
         <div class="floe">
-            <div class="floe-header">
+            <header class="floe-header">
                 <a rel="home" title="Home" href="../index.html">
                     <img alt="Home" src="../images/logo.png"/>
                 </a>
@@ -26,9 +36,9 @@
                         flexible learning for open education
                     </span></a>
                 </h1>
-            </div>
+            </header>
             
-            <div class="floe-content">
+            <div id="content" class="floe-content">
                 <h2> News </h2>
 
                 <div class="floe-news-item">
@@ -225,7 +235,7 @@
                 </div>
             </div>
         
-            <div class="floe-footer">
+            <footer class="floe-footer">
                 <div class="floe-content clearfix">
                     <div class="floe-column">
                         Floe is a project of the
@@ -250,7 +260,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </footer>
         </div>
     </body>
 </html>
