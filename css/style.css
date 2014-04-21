@@ -92,7 +92,8 @@ body {
 /* FLOE Header area, tagline, and logo. */
 .floe-header {
     margin-left: 1.8em;
-    margin-top: 0.6em;
+    margin-top: 4em;
+    margin-bottom: 2em;
     height: 4em;
     display: inline-block;
 }
@@ -196,6 +197,14 @@ body {
 .floe-content dl,
 .floe-content dd {
     margin-left: 0;
+}
+.floe-content ol.floe-id-defn {
+    margin-left: inherit;
+}
+.floe-content ol.floe-id-defn li {
+    list-style-position: inside;
+    list-style-type: decimal;
+    margin-left: 1em;
 }
 
 .floe-content dt {
