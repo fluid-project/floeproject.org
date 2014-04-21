@@ -356,10 +356,12 @@ body {
 }
 
 /* "Floe Story" page */
-.floe-story * {
+.floe-story *,
+.floe-video * {
     font-family: 'Roboto Slab', serif;
 }
-.floe-story {
+.floe-story,
+.floe-video {
     font-size: 1.2em;
 }
 .floe-story > ul {
@@ -381,7 +383,8 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-.floe-story h2 {
+.floe-story h2,
+.floe-video h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3em;
 }
@@ -424,4 +427,7 @@ body {
 }
 .floe-story-textBeside {
     margin-top: 1em;
+}
+.floe-breadcrumbs {
+    margin: 1em;
 }
