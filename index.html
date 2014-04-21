@@ -10,6 +10,20 @@
         <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
         <link href="css/print.css" media="print" rel="stylesheet" type="text/css" />
 
+        <link rel="stylesheet" type="text/css" href="lib/infusion/framework/preferences/css/fss/fss-theme-bw-prefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/framework/preferences/css/fss/fss-theme-wb-prefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/framework/preferences/css/fss/fss-theme-by-prefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/framework/preferences/css/fss/fss-theme-yb-prefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/framework/preferences/css/fss/fss-theme-lgdg-prefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/framework/preferences/css/fss/fss-text-prefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/lib/jquery/ui/css/fl-theme-by/by.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/lib/jquery/ui/css/fl-theme-yb/yb.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/lib/jquery/ui/css/fl-theme-bw/bw.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/lib/jquery/ui/css/fl-theme-wb/wb.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/lib/jquery/ui/css/fl-theme-lgdg/lgdg.css" />
+        <link href="lib/infusion/framework/preferences/css/PrefsEditor.css" rel="stylesheet" type="text/css" />
+        <link href="lib/infusion/framework/preferences/css/SeparatedPanelPrefsEditor.css" rel="stylesheet" type="text/css" />
+
         <!--[if lte IE 8]>  
         <script type="text/javascript">document.createElement("header")</script>    
         <script type="text/javascript">document.createElement("nav")</script>       
@@ -17,8 +31,37 @@
         <script type="text/javascript">document.createElement("section")</script>
         <script type="text/javascript">document.createElement("aside")</script>
         <![endif]-->    
+        
+        <script type="text/javascript" src="lib/infusion/infusion-custom.js"></script>
+        <script type="text/javascript" src="js/floe.js"></script>
     </head>
     <body>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                floe.setupUIO({
+                    templatePrefix: "lib/infusion/framework/preferences/html/",
+                    messagePrefix: "lib/infusion/framework/preferences/messages/",
+                    tocTemplate: "lib/infusion/components/tableOfContents/html/TableOfContents.html",
+                    template: "lib/infusion/framework/preferences/html/SeparatedPanelPrefsEditor.html"
+                });
+            });
+        </script>
+
+        <!-- BEGIN markup for Preference Editor -->
+        <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
+            <!-- This is the div that will contain the Preference Editor component -->
+            <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div>
+
+            <!-- This div is for the sliding panel that shows and hides the Preference Editor controls -->
+            <div class="fl-panelBar">
+                <span class="fl-prefsEditor-buttons">
+                    <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                    <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                </span>
+            </div>
+        </div>
+        <!-- END markup for Preference Editor -->
+
         <div id="skip">
             <a href="#content">Skip to Content</a>
 <!--
@@ -40,6 +83,7 @@
             </header>
             
             <div id="content" class="floe-content floe-story">
+                <div class="flc-toc-tocContainer toc"> </div>
                 <ul>
                     <li>
                         <h2>Paving the way toward inclusive Open Education Resources.</h2>
