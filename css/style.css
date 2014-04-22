@@ -369,7 +369,8 @@ body {
 }
 .floe-story > ul {
     overflow: auto;
-    margin-bottom: 2em;
+    margin-bottom: 0em;
+    margin-top: 4em;
 }
 .floe-story  > ul > li {
     display: block;
@@ -439,6 +440,12 @@ body {
     margin: 1em;
 }
 
+.floe-story > ul.floe-close-top {
+    margin-top: 0;
+}
+.floe-space-above {
+    padding-top: 5em;
+}
 .fl-theme-prefsEditor-bw .floe-bottom-content,
 .fl-theme-prefsEditor-bw .floe-footer,
 .fl-theme-prefsEditor-by .floe-bottom-content,
