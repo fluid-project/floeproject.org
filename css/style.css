@@ -67,7 +67,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     line-height: 0.45;
     margin: 0.2em 0 0 0.2em;
-    font-size: 4.2em;
+    font-size: 4.3em;
 }
 
 .floe-header a {
@@ -76,13 +76,13 @@ body {
     text-decoration: none;
     background: url('../images/logo.png') no-repeat;
     padding-left: 1.4em;
-    line-height: 1em;
+    line-height: 0.8em;
+    display: block;
 }
 
 .floe-header-tagline {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.4em;
-    margin-top: 1.5em;
     display:block;
 }
 
