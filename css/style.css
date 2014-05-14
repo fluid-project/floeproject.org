@@ -27,40 +27,6 @@
 .clearfix { display: block; }
 /* close commented backslash hack */
 
-/*
-
-.clearfix:after {
-    clear: both;
-    content: ".";
-    display: block;
-    height: 0;
-    visibility: hidden;
-}
-.clearfix {
-    display: inline-block;
-}
-* html .clearfix {
-    height: 1%;
-}
-.clearleft, .clearl, .cleft {
-    clear: left;
-}
-.clearright, .clearr, .cright {
-    clear: right;
-}
-.clear, .clearboth, .clearall {
-    clear: both;
-}
-.floatleft, .fleft, .floatl {
-    float: left;
-    margin: 0 10px 5px 0;
-}
-.floatright, .fright, .floatr {
-    float: right;
-    margin: 0 0 5px 10px;
-}
-*/
-
 body {
     background: #fafafa;
 }
@@ -86,7 +52,7 @@ body {
 .floe {
     font-family: "Helvetica Neue",helvetica,Arial,sans-serif;
     width: 76em;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 /* FLOE Header area, tagline, and logo. */
@@ -99,25 +65,24 @@ body {
 
 .floe-header h1 {
     font-family: 'Open Sans', sans-serif;
-    display: inline;
-    float: left;
     line-height: 0.45;
     margin: 0.2em 0 0 0.2em;
-    font-size: 4em;
+    font-size: 4.3em;
 }
-.floe-header img {
-    float: left;
-}
+
 .floe-header a {
     background-color: none;
     color: #000000;
     text-decoration: none;
+    background: url('../images/logo.png') no-repeat;
+    padding-left: 1.4em;
+    line-height: 0.8em;
+    display: block;
 }
 
 .floe-header-tagline {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.4em;
-    margin-top: 0.7em;
     display:block;
 }
 
@@ -339,9 +304,11 @@ body {
     border: 0;
 }
 
-.floe-footer .floe-content .floe-image-link img {
-    margin-top: 0.7em;
-    border: 1px solid #fff;
+.floe-footer .floe-content .floe-hewlett-logo {
+    background: url("../images/hewlett_foundation_logo.png") no-repeat;
+    display:block;
+    padding-left: 8em;
+    height:3em;
 }
 
 /* News and News Items */
@@ -418,6 +385,20 @@ body {
 .floe-story-cloud {
     margin-top: 12em;
 }
+
+.floe .floe-image {
+    width: 325px;
+    height: 325px;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+.floe .floe-image-UIO             { background: url("../images/floe-02.png") no-repeat 0 0 / 325px 325px; }
+.floe .floe-image-exploreTool     { background: url("../images/floe-01.png") no-repeat 0 0 / 325px 325px; }
+.floe .floe-image-cloud           { background: url("../images/floe-05.png") no-repeat 0 0 / 325px 325px; }
+.floe .floe-image-preferenceIcons { background: url("../images/floe-04.png") no-repeat 0 0 / 325px 325px; }
+.floe .floe-image-videoPlayer     { background: url("../images/floe-03.png") no-repeat 0 0 / 325px 325px; }
+
 .floe-image-caption {
     background-color: white;
     font-family: 'Open Sans', sans-serif;
@@ -460,3 +441,44 @@ body {
 .fl-theme-prefsEditor-wb .floe-footer {
     border-top: 1px solid #FFFFFF;
 }
+
+/* Themed images */
+.fl-theme-prefsEditor-bw .floe .floe-image-UIO             { background: url("../images/bw-floe-02.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-bw .floe .floe-image-exploreTool     { background: url("../images/bw-floe-01.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-bw .floe .floe-image-cloud           { background: url("../images/bw-floe-05.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-bw .floe .floe-image-preferenceIcons { background: url("../images/bw-floe-04.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-bw .floe .floe-image-videoPlayer     { background: url("../images/bw-floe-03.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-bw .floe .floe-header a              { background: url("../images/bw-logo.png") no-repeat; }
+.fl-theme-prefsEditor-bw .floe-footer .floe-content .floe-hewlett-logo { background: url("../images/bw-hewlett_foundation_logo.png") no-repeat; }
+
+.fl-theme-prefsEditor-wb .floe .floe-image-UIO             { background: url("../images/wb-floe-02.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-wb .floe .floe-image-exploreTool     { background: url("../images/wb-floe-01.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-wb .floe .floe-image-cloud           { background: url("../images/wb-floe-05.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-wb .floe .floe-image-preferenceIcons { background: url("../images/wb-floe-04.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-wb .floe .floe-image-videoPlayer     { background: url("../images/wb-floe-03.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-wb .floe .floe-header a              { background: url("../images/wb-logo.png") no-repeat; }
+.fl-theme-prefsEditor-wb .floe-footer .floe-content .floe-hewlett-logo { background: url("../images/wb-hewlett_foundation_logo.png") no-repeat; }
+
+.fl-theme-prefsEditor-by .floe .floe-image-UIO             { background: url("../images/by-floe-02.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-by .floe .floe-image-exploreTool     { background: url("../images/by-floe-01.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-by .floe .floe-image-cloud           { background: url("../images/by-floe-05.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-by .floe .floe-image-preferenceIcons { background: url("../images/by-floe-04.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-by .floe .floe-image-videoPlayer     { background: url("../images/by-floe-03.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-by .floe .floe-header a              { background: url("../images/by-logo.png") no-repeat; }
+.fl-theme-prefsEditor-by .floe-footer .floe-content .floe-hewlett-logo { background: url("../images/by-hewlett_foundation_logo.png") no-repeat; }
+
+.fl-theme-prefsEditor-yb .floe .floe-image-UIO             { background: url("../images/yb-floe-02.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-yb .floe .floe-image-exploreTool     { background: url("../images/yb-floe-01.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-yb .floe .floe-image-cloud           { background: url("../images/yb-floe-05.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-yb .floe .floe-image-preferenceIcons { background: url("../images/yb-floe-04.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-yb .floe .floe-image-videoPlayer     { background: url("../images/yb-floe-03.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-yb .floe .floe-header a              { background: url("../images/yb-logo.png") no-repeat; }
+.fl-theme-prefsEditor-yb .floe-footer .floe-content .floe-hewlett-logo { background: url("../images/yb-hewlett_foundation_logo.png") no-repeat; }
+
+.fl-theme-prefsEditor-lgdg .floe .floe-image-UIO             { background: url("../images/lgdg-floe-02.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-lgdg .floe .floe-image-exploreTool     { background: url("../images/lgdg-floe-01.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-lgdg .floe .floe-image-cloud           { background: url("../images/lgdg-floe-05.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-lgdg .floe .floe-image-preferenceIcons { background: url("../images/lgdg-floe-04.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-lgdg .floe .floe-image-videoPlayer     { background: url("../images/lgdg-floe-03.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-lgdg .floe .floe-header a              { background: url("../images/lgdg-logo.png") no-repeat; }
+.fl-theme-prefsEditor-lgdg .floe-footer .floe-content .floe-hewlett-logo { background: url("../images/lgdg-hewlett_foundation_logo.png") no-repeat; }
