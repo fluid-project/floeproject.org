@@ -88,7 +88,7 @@ body {
     display: block;
 }
 
-.floe-header a:before {
+.floe-header .floe-header-logo:before {
     font-family: 'floe-logo';
     color:#42abe0;
     content: '\e600';
