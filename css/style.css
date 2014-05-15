@@ -4,6 +4,13 @@
     src:url('fonts/RobotoSlab-Light.ttf');
 }
 
+@font-face {
+    font-family: 'floe-logo';
+    src:url('fonts/floe-logo.eot?#iefix') format('embedded-opentype'),
+        url('fonts/floe-logo.eot'),
+        url('fonts/floe-logo.ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -21,45 +28,14 @@
     clear: both;
     height: 0;
 }
+
 .clearfix { display: inline-block; }
+
 /* start commented backslash hack \*/
 * html .clearfix { height: 1%; }
+
 .clearfix { display: block; }
 /* close commented backslash hack */
-
-/*
-
-.clearfix:after {
-    clear: both;
-    content: ".";
-    display: block;
-    height: 0;
-    visibility: hidden;
-}
-.clearfix {
-    display: inline-block;
-}
-* html .clearfix {
-    height: 1%;
-}
-.clearleft, .clearl, .cleft {
-    clear: left;
-}
-.clearright, .clearr, .cright {
-    clear: right;
-}
-.clear, .clearboth, .clearall {
-    clear: both;
-}
-.floatleft, .fleft, .floatl {
-    float: left;
-    margin: 0 10px 5px 0;
-}
-.floatright, .fright, .floatr {
-    float: right;
-    margin: 0 0 5px 10px;
-}
-*/
 
 body {
     background: #fafafa;
@@ -86,7 +62,7 @@ body {
 .floe {
     font-family: "Helvetica Neue",helvetica,Arial,sans-serif;
     width: 76em;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 /* FLOE Header area, tagline, and logo. */
@@ -99,43 +75,51 @@ body {
 
 .floe-header h1 {
     font-family: 'Open Sans', sans-serif;
-    display: inline;
-    float: left;
     line-height: 0.45;
     margin: 0.2em 0 0 0.2em;
-    font-size: 4em;
+    font-size: 4.3em;
 }
-.floe-header img {
-    float: left;
-}
+
 .floe-header a {
     background-color: none;
     color: #000000;
     text-decoration: none;
+    line-height: 0.8em;
+    display: block;
+}
+
+.floe-header a:before {
+    font-family: 'floe-logo';
+    color:#42abe0;
+    content: '\e600';
+    letter-spacing: 0.2em;
 }
 
 .floe-header-tagline {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.4em;
-    margin-top: 0.7em;
     display:block;
 }
 
 .floe-header nav {
     float: right;
 }
+
 .floe-header nav ul li {
     font-weight: bold;
     text-transform: uppercase;
     display: inline;
     padding: 0.5em;
 }
+
 .floe-header nav ul li.active {
     background-color: #FFFFFF;
     border: 2px solid #FFCB00;
 }
+
 .floe-header nav ul li a {
 }
+
 .floe-header nav ul li a:hover,
 .floe-header nav ul li a:focus {
     background-color: #FFCB00;
@@ -339,9 +323,11 @@ body {
     border: 0;
 }
 
-.floe-footer .floe-content .floe-image-link img {
-    margin-top: 0.7em;
-    border: 1px solid #fff;
+.floe-footer .floe-content .floe-hewlett-logo {
+    background: url("../images/hewlett_foundation_logo.png") no-repeat;
+    display:block;
+    padding-left: 8em;
+    height:3em;
 }
 
 /* News and News Items */
@@ -363,24 +349,29 @@ body {
 .floe-video * {
     font-family: 'Roboto Slab', serif;
 }
+
 .floe-story,
 .floe-video {
     font-size: 1.2em;
 }
+
 .floe-story > ul {
     overflow: auto;
     margin-bottom: 0em;
     margin-top: 4em;
 }
+
 .floe-story  > ul > li {
     display: block;
     float: left;
     list-style: none outside none;
     width: 27em;
 }
+
 .floe-story  > ul > li:first-child {
     margin-right: 4em;
 }
+
 .floe-story  > ul > li img {
     width: 21em;
     display: block;
@@ -388,11 +379,13 @@ body {
     margin-right: auto;
     margin-bottom: 1em;
 }
+
 .floe-story h2,
 .floe-video h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3em;
 }
+
 .floe-content.floe-story h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
@@ -406,11 +399,13 @@ body {
     border-bottom: none;
     padding: 0 0.2em;
 }
+
 .floe-content.floe-story a:hover,
 .floe-content.floe-story a:focus {
     color: #FFCB00;
     background-color: #000000;
 }
+
 .floe-content.floe-story a.flc-toc-anchors {
     background-color: transparent;
 }
@@ -418,6 +413,20 @@ body {
 .floe-story-cloud {
     margin-top: 12em;
 }
+
+.floe .floe-image {
+    width: 325px;
+    height: 325px;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+.floe .floe-image-UIO             { background: url("../images/floe-02.png") no-repeat 0 0 / 325px 325px; }
+.floe .floe-image-exploreTool     { background: url("../images/floe-01.png") no-repeat 0 0 / 325px 325px; }
+.floe .floe-image-cloud           { background: url("../images/floe-05.png") no-repeat 0 0 / 325px 325px; }
+.floe .floe-image-preferenceIcons { background: url("../images/floe-04.png") no-repeat 0 0 / 325px 325px; }
+.floe .floe-image-videoPlayer     { background: url("../images/floe-03.png") no-repeat 0 0 / 325px 325px; }
+
 .floe-image-caption {
     background-color: white;
     font-family: 'Open Sans', sans-serif;
@@ -425,6 +434,7 @@ body {
     padding: 0.8em;
     font-size: 0.8em;
 }
+
 .floe-image-caption-heading {
     font-family: 'Open Sans', sans-serif;
     display: block;
@@ -436,6 +446,7 @@ body {
 .floe-story-textBeside {
     margin-top: 1em;
 }
+
 .floe-breadcrumbs {
     margin: 1em;
 }
@@ -443,20 +454,73 @@ body {
 .floe-story > ul.floe-close-top {
     margin-top: 0;
 }
+
 .floe-space-above {
     padding-top: 5em;
 }
+
 .fl-theme-prefsEditor-bw .floe-bottom-content,
 .fl-theme-prefsEditor-bw .floe-footer,
 .fl-theme-prefsEditor-by .floe-bottom-content,
 .fl-theme-prefsEditor-by .floe-footer {
     border-top: 1px solid #000000;
 }
+
 .fl-theme-prefsEditor-yb .floe-bottom-content,
 .fl-theme-prefsEditor-yb .floe-footer {
     border-top: 1px solid #FFFF00;
 }
+
 .fl-theme-prefsEditor-wb .floe-bottom-content,
 .fl-theme-prefsEditor-wb .floe-footer {
     border-top: 1px solid #FFFFFF;
 }
+
+.fl-theme-prefsEditor-bw .floe-header a:before,
+.fl-theme-prefsEditor-by .floe-header a:before {
+    color:#000;
+}
+
+.fl-theme-prefsEditor-wb .floe-header a:before {
+    color:#fff;
+}
+
+.fl-theme-prefsEditor-yb .floe-header a:before {
+    color:#ffff00;
+}
+
+.fl-theme-prefsEditor-lgdg .floe-header a:before {
+    color:#bdbdbb;
+}
+
+
+/* Themed images */
+.fl-theme-prefsEditor-bw .floe .floe-image-UIO             { background: url("../images/bw-floe-02.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-bw .floe .floe-image-exploreTool     { background: url("../images/bw-floe-01.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-bw .floe .floe-image-cloud           { background: url("../images/bw-floe-05.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-bw .floe .floe-image-preferenceIcons { background: url("../images/bw-floe-04.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-bw .floe .floe-image-videoPlayer     { background: url("../images/bw-floe-03.png") no-repeat 0 0 / 325px 325px; }
+
+.fl-theme-prefsEditor-wb .floe .floe-image-UIO             { background: url("../images/wb-floe-02.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-wb .floe .floe-image-exploreTool     { background: url("../images/wb-floe-01.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-wb .floe .floe-image-cloud           { background: url("../images/wb-floe-05.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-wb .floe .floe-image-preferenceIcons { background: url("../images/wb-floe-04.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-wb .floe .floe-image-videoPlayer     { background: url("../images/wb-floe-03.png") no-repeat 0 0 / 325px 325px; }
+
+.fl-theme-prefsEditor-by .floe .floe-image-UIO             { background: url("../images/by-floe-02.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-by .floe .floe-image-exploreTool     { background: url("../images/by-floe-01.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-by .floe .floe-image-cloud           { background: url("../images/by-floe-05.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-by .floe .floe-image-preferenceIcons { background: url("../images/by-floe-04.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-by .floe .floe-image-videoPlayer     { background: url("../images/by-floe-03.png") no-repeat 0 0 / 325px 325px; }
+
+.fl-theme-prefsEditor-yb .floe .floe-image-UIO             { background: url("../images/yb-floe-02.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-yb .floe .floe-image-exploreTool     { background: url("../images/yb-floe-01.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-yb .floe .floe-image-cloud           { background: url("../images/yb-floe-05.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-yb .floe .floe-image-preferenceIcons { background: url("../images/yb-floe-04.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-yb .floe .floe-image-videoPlayer     { background: url("../images/yb-floe-03.png") no-repeat 0 0 / 325px 325px; }
+
+.fl-theme-prefsEditor-lgdg .floe .floe-image-UIO             { background: url("../images/lgdg-floe-02.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-lgdg .floe .floe-image-exploreTool     { background: url("../images/lgdg-floe-01.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-lgdg .floe .floe-image-cloud           { background: url("../images/lgdg-floe-05.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-lgdg .floe .floe-image-preferenceIcons { background: url("../images/lgdg-floe-04.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-prefsEditor-lgdg .floe .floe-image-videoPlayer     { background: url("../images/lgdg-floe-03.png") no-repeat 0 0 / 325px 325px; }
