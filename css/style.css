@@ -70,7 +70,7 @@ body {
     margin-left: 1.8em;
     margin-top: 2em;
     height: 4em;
-    display: inline-block;
+    display: inline;
 }
 
 .floe-header h1 {
