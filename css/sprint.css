@@ -1,0 +1,115 @@
+
+/* A11y Sprint styles */
+
+header {
+    height: 4em;
+    background-color: rgb(254,206,131);
+}
+header h1 {
+    float: left;
+}
+nav {
+    float: right;
+}
+nav li {
+    display: inline;
+}
+nav a {
+    padding-right: 1em;
+    color: #000000;
+    text-decoration: none;
+}
+nav a:hover,
+nav a:focus {
+    font-weight: bold;
+}
+
+.introduction {
+    clear: both;
+    background-image: url('../images/sprint/colin_mouse_edited.jpg');
+    background-size: cover;
+    height: 60em;
+    background-position: center;
+}
+.circle {
+    position: relative;
+    opacity: 0.5;
+    float: left
+}
+.blue-circle {
+    background-color: rgb(56,158,171);
+    height: 30em;
+    width: 30em;
+    border-radius: 15em;
+    top: 9em;
+    left: 6em;
+}
+.red-circle {
+    background-color: red;
+    height: 26em;
+    width: 26em;
+    border-radius: 13em;
+    top: 16em;
+    left: -30em;
+}
+.yellow-circle {
+    background-color: rgb(254,206,131);
+    height: 16em;
+    width: 16em;
+    border-radius: 8em;
+    top: 6em;
+    left: -18em;
+}
+.intro-blurb {
+    font-size: 0.8em;
+    opacity: 1;
+    color: #ffffff;
+    height: 10em;
+    width: 20em;
+    top: -9em;
+    left: -47em;
+}
+
+.about,
+.signup-skills,
+.agenda,
+.partners {
+    padding: 10em;
+}
+.about h1,
+.agenda h1,
+.partners h1 {
+    margin-left: 3em;
+}
+
+.signup-intro {
+    background-image: url('../images/sprint/yura_progs_edited.jpg');
+    background-size: cover;
+    height: 60em;
+    background-position: center;
+
+}
+.agenda {
+    background-color: rgb(56,158,171);
+}
+.agenda h1 {
+    color: #ffffff;
+}
+.agenda-table {
+    width: 100%;
+    margin: 0 auto;
+    border-spacing: 1em;
+    border-collapse: separate;
+}
+.agenda-table td:first-child {
+    color: #ffffff;
+    background-color: rgb(88,51,94);
+    border: 1px solid rgb(254,206,131);
+    width: 20%;
+    text-align: center;
+}
+.agenda-table td:last-child {
+    color: rgb(88,51,94);
+    background-color: rgb(254,206,131);
+    border: none;
+}
