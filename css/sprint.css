@@ -7,6 +7,7 @@ header {
 }
 header h1 {
     float: left;
+    padding-left: 3em;
 }
 nav {
     float: right;
@@ -60,21 +61,30 @@ nav a:focus {
     top: 6em;
     left: -18em;
 }
-.intro-blurb {
-    font-size: 0.8em;
-    opacity: 1;
+.intro-blurb,
+.signup-blurb {
+    opacity: 0.9;
     color: #ffffff;
-    height: 10em;
-    width: 20em;
-    top: -9em;
-    left: -47em;
+    background-color: #000000;
+    height: 17em;
+    width: 22em;
+    position: relative;
+    top: 10em;
+    left: 30em;
+    padding: 1em 1em 2em 1em;
 }
 
-.about,
-.signup-skills,
-.agenda,
+.about {
+    padding: 5em 10em;
+}
+.signup-skills {
+    padding: 1em 10em 5em 10em;
+}
+.agenda {
+    padding: 5em 10em;
+}
 .partners {
-    padding: 10em;
+    padding: 5em 10em;
 }
 .about h1,
 .agenda h1,
@@ -113,3 +123,66 @@ nav a:focus {
     background-color: rgb(254,206,131);
     border: none;
 }
+
+
+.fl-theme-prefsEditor-bw .introduction,
+.fl-theme-prefsEditor-bw .signup-intro,
+.fl-theme-prefsEditor-by .introduction,
+.fl-theme-prefsEditor-by .signup-intro,
+.fl-theme-prefsEditor-bw .agenda,
+.fl-theme-prefsEditor-by .agenda {
+    border-color: #000000 !important;
+}
+.fl-theme-prefsEditor-yb .introduction,
+.fl-theme-prefsEditor-yb .signup-intro,
+.fl-theme-prefsEditor-yb .agenda {
+    border-color: #ffff00 !important;
+}
+.fl-theme-prefsEditor-wb .introduction,
+.fl-theme-prefsEditor-wb .signup-intro,
+.fl-theme-prefsEditor-wb .agenda {
+    border-color: #ffffff !important;
+}
+.fl-theme-prefsEditor-lgdg .introduction,
+.fl-theme-prefsEditor-lgdg .signup-intro,
+.fl-theme-prefsEditor-lgdg .agenda {
+    border-color: #bdbdbb !important;
+}
+.fl-theme-prefsEditor-bw .intro-blurb, .fl-theme-prefsEditor-wb .intro-blurb,
+.fl-theme-prefsEditor-by .intro-blurb, .fl-theme-prefsEditor-yb .intro-blurb,
+.fl-theme-prefsEditor-lgdg .intro-blurb,
+.fl-theme-prefsEditor-bw .signup-blurb,.fl-theme-prefsEditor-wb .signup-blurb,
+.fl-theme-prefsEditor-by .signup-blurb,.fl-theme-prefsEditor-yb .signup-blurb,
+.fl-theme-prefsEditor-lgdg .signup-blurb {
+    top: 0;
+}
+.fl-theme-prefsEditor-bw .introduction, .fl-theme-prefsEditor-wb .introduction,
+.fl-theme-prefsEditor-by .introduction, .fl-theme-prefsEditor-yb .introduction,
+.fl-theme-prefsEditor-lgdg .introduction,
+.fl-theme-prefsEditor-bw .signup-intro, .fl-theme-prefsEditor-wb .signup-intro,
+.fl-theme-prefsEditor-by .signup-intro, .fl-theme-prefsEditor-yb .signup-intro,
+.fl-theme-prefsEditor-lgdg .signup-intro,
+.fl-theme-prefsEditor-bw .agenda, .fl-theme-prefsEditor-wb .agenda,
+.fl-theme-prefsEditor-by .agenda, .fl-theme-prefsEditor-yb .agenda,
+.fl-theme-prefsEditor-lgdg .agenda {
+    background-image: none;
+    border: 1px solid;
+}
+
+.fl-theme-prefsEditor-bw .introduction, .fl-theme-prefsEditor-wb .introduction,
+.fl-theme-prefsEditor-by .introduction, .fl-theme-prefsEditor-yb .introduction,
+.fl-theme-prefsEditor-lgdg .introduction {
+    height: 25em;
+}
+.fl-theme-prefsEditor-bw .signup-intro, .fl-theme-prefsEditor-wb .signup-intro,
+.fl-theme-prefsEditor-by .signup-intro, .fl-theme-prefsEditor-yb .signup-intro,
+.fl-theme-prefsEditor-lgdg .signup-intro {
+    height: 20em;
+}
+.fl-theme-prefsEditor-bw .agenda, .fl-theme-prefsEditor-wb .agenda,
+.fl-theme-prefsEditor-by .agenda, .fl-theme-prefsEditor-yb .agenda,
+.fl-theme-prefsEditor-lgdg .agenda {
+    padding: 2em 10em;
+}
+
+
