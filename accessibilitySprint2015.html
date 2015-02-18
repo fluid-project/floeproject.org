@@ -4,9 +4,8 @@
         <title>OER Accessibility Sprint 2015 | floe</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
         <link type="image/x-icon" href="images/favicon.ico" rel="shortcut icon"/>
-        <link href="css/fss/fss-reset.css" rel="stylesheet" type="text/css" />
-        <link href="css/fss/fss-layout.css" rel="stylesheet" type="text/css" />
-        <link href="css/fss/fss-text.css" rel="stylesheet" type="text/css" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/css/foundation.min.css" rel="stylesheet" type="text/css" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/css/normalize.min.css" rel="stylesheet" type="text/css" />
         <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
         <link href="css/print.css" media="print" rel="stylesheet" type="text/css" />
 
@@ -68,41 +67,62 @@
             <a href="#content">Skip to Content</a>
         </div>
 
-         <section class="introduction" id="intro">
-           <header>
-                <h1>2015 OER Accessibility Sprint</h1>
+        <section class="introduction" id="top-intro">
+
+            <!-- Navigation for large screens -->
+            <header class="show-for-large-up">
+                <div class="row">
+                    <h1 class="large-6 columns">2015 OER <strong>Accessibility</strong> Sprint</h1>
+
+                    <nav class="large-6 columns">
+                        <ul class="inline-list">
+                            <li><a href="#intro">Introduction</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#signup">Sign-up</a></li>
+                            <!--
+                            <li><a href="#agenda">Agenda</a></li>
+                            -->
+                            <li><a href="#partners">Partners &amp; Attendees</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <!-- Navigation for small screens -->
+            <header class="hide-for-large-up">
+                <h1>2015 OER <strong>Accessibility</strong> Sprint</h1>
                 <nav>
-                    <ul>
+                    <ul class="row inline-list">
                         <li><a href="#intro">Introduction</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#signup">Sign-up</a></li>
-<!--
+                        <!--
                         <li><a href="#agenda">Agenda</a></li>
--->
+                        -->
                         <li><a href="#partners">Partners &amp; Attendees</a></li>
                     </ul>
                 </nav>
             </header>
 
-<!--
-            <div class="blue-circle circle"></div>
-            <div class="red-circle circle"></div>
-            <div class="yellow-circle circle"></div>
--->
-            <div class="intro-blurb">
-                <h1>OER ACCESSIBILITY SPRINT</h1>
-                <div class="date">February 25-27, 2015</div>
-                <div class="location">IDRC at OCAD University, Toronto, ON</div>
-                <p>On February 25-27, 2015, the Inclusive Design Research
-                Centre (IDRC) at OCAD University will be hosting an
-                OER Accessibility Sprint. Experts in the field of Open
-                Educational Resources (OER) will gather to design
-                and develop tools and exemplars that make practical
-                progress in the important agenda of inclusive
-                learning through OER.</p>
+            <div class="text-center introduction-circles">
+                <div class="purple-circle circle">
+                    <h2>OER ACCESSIBILITY SPRINT</h2>
+                    <p class="date">February 25-27, 2015</p>
+                    <p class="location">IDRC at OCAD University, Toronto, ON</p>
+                    <p>On February 25-27, 2015, the Inclusive Design Research
+                    Centre (IDRC) at OCAD University will be hosting an
+                    OER Accessibility Sprint. Experts in the field of Open
+                    Educational Resources (OER) will gather to design
+                    and develop tools and exemplars that make practical
+                    progress in the important agenda of inclusive
+                    learning through OER.</p>
+                </div>
+                <div class="blue-circle circle"></div>
+                <div class="yellow-circle circle"></div>
             </div>
+
         </section>
-        
+
         <section class="about" id="about">
             <h1>About</h1>
             <p>In this moment we have a tremendous challenge and opportunity to leap forward in the accessibility of interactive resources. HTML5
@@ -110,37 +130,40 @@ and EPUB3 development is gaining popularity. Development tools and authoring env
 are being populated. The timing is critical, we need to make an impact before the conventions lock in. We can help to ensure that all
 learners can participate in experiential, game-based, problem-based learning and that students using alternative access means can
 benefit from the innovative advances in open textbooks.</p>
- <p>We hope you will join us for two days of collaboration, great food and drink, and real progress on important topics. Among the challenges on the agenda are a special focus on HTML5 and EPUB3 applied in:</p>
-<ul>
-    <li>simulations and highly interactive content,</li>
-    <li>video and timed media,</li>
-    <li>gaming,</li>
-    <li>mobile and responsive content, and</li>
-    <li>OER delivery platforms.</li>
-</ul>
- <p>We need coders but we also need designers, educators, policy makers, experts in addressing accessibility barriers, problem solvers
+            <p>We hope you will join us for two days of collaboration, great food and drink, and real progress on important topics. Among the challenges on the agenda are a special focus on HTML5 and EPUB3 applied in:</p>
+            <ul>
+                <li>simulations and highly interactive content,</li>
+                <li>video and timed media,</li>
+                <li>gaming,</li>
+                <li>mobile and responsive content, and</li>
+                <li>OER delivery platforms.</li>
+            </ul>
+            <p>We need coders but we also need designers, educators, policy makers, experts in addressing accessibility barriers, problem solvers
 and people willing to assist in any way they can. At the IDRC we have proven time and again that the more diverse the perspectives,
 knowledge and skills, the better the collective outcomes.</p>
         </section>
 
         <section class="signup" id="signup">
-            <div class="signup-intro">
-                <div class="signup-blurb">
-                    <h1>Sign-Up</h1>
+            <div class="signup-circles">
+                <div class="purple-circle circle text-center">
+                    <h2>Sign-Up</h2>
                     <p>As preparation for our "barn raising" we would like to take stock
-                of our workforce.
-                Please RSVP by email to jmitchell@ocadu.ca.
-                In
-                your email, let us know which skills/resources/talents from the list
-                below you will generously contribute. Please also send a short bio to
-                speed up the "getting to know you" process within this large team
-                (just a paragraph or a URL to a bio online).
-                Please tell us which of these skills, areas of knowledge
-                and talents you can contribute</p>
+                    of our workforce.
+                    Please RSVP by email to <a href="mailto:jmitchell@ocadu.ca" title="Accessibility Sprint 2015 RSVP">jmitchell@ocadu.ca</a>.
+                    In
+                    your email, let us know which skills/resources/talents from the list
+                    below you will generously contribute. Please also send a short bio to
+                    speed up the "getting to know you" process within this large team
+                    (just a paragraph or a URL to a bio online).</p>
+                    <p>Please tell us which of these skills, areas of knowledge
+                    and talents you can contribute</p>
                 </div>
+                <div class="blue-circle circle"></div>
+                <div class="yellow-circle circle"></div>
             </div>
-            <div class="signup-skills fl-col-flex3">
-                <ul class="fl-col">
+
+            <div class="signup-skills sprint-columns">
+                <ul>
                     <li>sketcher - capture ideas in creative scribbles</li>
                     <li>listener and documenter</li>
                     <li>pedagog</li>
@@ -153,8 +176,6 @@ knowledge and skills, the better the collective outcomes.</p>
                     <li>alternative learner</li>
                     <li>magnification expert</li>
                     <li>text to speech expert</li>
-                </ul>
-                <ul class="fl-col">
                     <li>description master</li>
                     <li>devil's advocate - judiciously add friction to spark ideas</li>
                     <li>HTML5 dabbler</li>
@@ -166,8 +187,6 @@ knowledge and skills, the better the collective outcomes.</p>
                     <li>file converter</li>
                     <li>shy, quiet, brilliant type</li>
                     <li>facilitator — make sure everyone contributes!</li>
-                </ul>
-                <ul class="fl-col">
                     <li>coach - keep people on task when energy drifts</li>
                     <li>listener and distiller — use your corpus callosum to make disparate connections</li>
                     <li>code hacker - make the designs happen</li>
@@ -203,17 +222,13 @@ knowledge and skills, the better the collective outcomes.</p>
 
         <section class="partners" id="partners">
             <h1>Partners &amp; Attendees</h1>
-            <div class="fl-col-flex3">
-                <ul class="fl-col">
+            <div class="sprint-columns-3">
+                <ul>
                     <li>Inclusive Design Research Centre, OCAD University</li>
                     <li>Mozilla</li>
                     <li>PhET</li>
-                </ul>
-                <ul class="fl-col">
                     <li>WGBH National Center for Accessible Media</li>
                     <li>MIT</li>
-                </ul>
-                <ul class="fl-col">
                     <li>Raising the Floor</li>
                     <li>George Brown College</li>
                     <li>... and many more!</li>

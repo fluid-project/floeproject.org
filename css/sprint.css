@@ -1,95 +1,191 @@
 
 /* A11y Sprint styles */
 
+body, h1{
+    color: #633b5e; /* purple */
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
 header {
-    height: 4em;
-    background-color: rgb(254,206,131);
+    background-color: #fece88; /* orange-yellow */
+    opacity: 0.7;
+    width: 100%;
 }
+
 header h1 {
-    float: left;
-    padding-left: 3em;
+    margin: 0;
+    padding: 1rem 0;
+    font-weight: normal;
 }
-nav {
-    float: right;
-}
-nav li {
-    display: inline;
-}
+
 nav a {
-    padding-right: 1em;
-    color: #000000;
+    color: #144f4d; /* dark blue */
     text-decoration: none;
 }
 nav a:hover,
 nav a:focus {
+/*    font-weight: bold;  remove for now*/
+}
+
+
+.sprint-columns{
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+}
+
+/* Large screens */
+@media only screen and (min-width: 64.063em) {
+    .sprint-columns{
+        -webkit-column-count: 3; /* Chrome, Safari, Opera */
+        -moz-column-count: 3; /* Firefox */
+        column-count: 3;
+    }
+}
+
+
+header.show-for-large-up nav{
+    padding-top: 1.8rem;
+}
+
+header.show-for-large-up nav a {
     font-weight: bold;
+}
+
+header.hide-for-large-up nav {
+    background-color: #fff;
+}
+
+header.hide-for-large-up h1,
+header.hide-for-large-up nav {
+    padding: 1rem 0.5rem;
+}
+
+header.hide-for-large-up nav a{
+    font-size: 1.5rem;
 }
 
 .introduction {
     clear: both;
     background-image: url('../images/sprint/colin_mouse_edited.jpg');
     background-size: cover;
-    height: 60em;
+    height: 60rem;
     background-position: center;
 }
-.circle {
-    position: relative;
-    opacity: 0.5;
-    float: left
-}
-.blue-circle {
-    background-color: rgb(56,158,171);
-    height: 30em;
-    width: 30em;
-    border-radius: 15em;
-    top: 9em;
-    left: 6em;
-}
-.red-circle {
-    background-color: red;
-    height: 26em;
-    width: 26em;
-    border-radius: 13em;
-    top: 16em;
-    left: -30em;
-}
-.yellow-circle {
-    background-color: rgb(254,206,131);
-    height: 16em;
-    width: 16em;
-    border-radius: 8em;
-    top: 6em;
-    left: -18em;
-}
-.intro-blurb,
-.signup-blurb {
-    opacity: 0.9;
-    color: #ffffff;
-    background-color: #000000;
-    height: 17em;
-    width: 22em;
-    position: relative;
-    top: 10em;
-    left: 30em;
-    padding: 1em 1em 2em 1em;
+.introduction h2,
+.introduction p {
+    color: #dff2f8; /*robin's egg blue*/
 }
 
+.introduction-circles {
+    top: 5rem;
+}
+
+.circle {
+    position: relative;
+    border-radius: 100rem;
+}
+
+.purple-circle {
+    background-color: rgba(99,59,94,0.8); /*  #4197A7 blue-green */
+    height: 35rem;
+    width: 35em;
+}
+
+.blue-circle {
+    background-color: #4197A7; /* blue */
+    height: 30rem;
+    width: 30rem;
+}
+
+.yellow-circle {
+    background-color: #fece88; /* yellow */
+    height: 16rem;
+    width: 16rem;
+}
+
+.introduction-circles .purple-circle,
+.signup-circles .purple-circle {
+    position: relative;
+    padding: 5rem;
+    z-index: 1;
+}
+
+.introduction-circles .blue-circle{
+    left: -15rem;
+    top: -20rem;
+    opacity: 0.7;
+}
+
+.introduction-circles .yellow-circle{
+    left: 20rem;
+    top:-37rem;
+    opacity: 0.7;
+
+}
+
+.introduction-circles,
+.signup-circles {
+    color: #ffffff;
+    padding: 3rem 1rem 2rem 1rem;
+    margin: 0 auto;
+    width: 30rem;
+}
+
+.signup-circles .blue-circle {
+    top: -41rem;
+    left: -3rem;
+}
+
+.signup-circles .yellow-circle {
+    top: -57rem;
+    left: -5rem;
+}
+
+.signup-circles a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.signup-skills,
 .about {
     padding: 5em 10em;
 }
-.signup-skills {
-    padding: 1em 10em 5em 10em;
+
+.about p,
+.about ul {
+    line-height: 2.2rem;
 }
+
 .agenda {
     padding: 5em 10em;
 }
 .partners {
     padding: 5em 10em;
 }
+
+.about ul,
 .about h1,
 .agenda h1,
 .partners h1 {
-    margin-left: 3em;
+    margin-left: 4rem;
+}
+
+.signup-circles p,
+.signup-circles h2 {
+    color: #fece88;
+    line-height: 1.8rem;
+}
+
+.signup-circles {
+    height: 40rem;
 }
 
 .signup-intro {
@@ -184,5 +280,3 @@ nav a:focus {
 .fl-theme-prefsEditor-lgdg .agenda {
     padding: 2em 10em;
 }
-
-
