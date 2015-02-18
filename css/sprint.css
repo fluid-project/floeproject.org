@@ -123,7 +123,14 @@ nav a:focus {
     background-color: rgb(254,206,131);
     border: none;
 }
-
+footer {
+    text-align: center;
+    margin: 2rem 0 4rem 0;
+}
+footer img {
+    height: 6rem;
+    margin: 0 2rem;
+}
 
 .fl-theme-prefsEditor-bw .introduction,
 .fl-theme-prefsEditor-bw .signup-intro,
@@ -184,5 +191,3 @@ nav a:focus {
 .fl-theme-prefsEditor-lgdg .agenda {
     padding: 2em 10em;
 }
-
-
