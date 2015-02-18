@@ -125,6 +125,7 @@ nav a:focus {
 }
 footer {
     text-align: center;
+    margin: 2rem 0 4rem 0;
 }
 footer img {
     height: 6rem;
