@@ -94,7 +94,7 @@ header.hide-for-large-up nav a{
 }
 
 .purple-circle {
-    background-color: rgba(99,59,94,0.8); /*  #4197A7 blue-green */
+    background-color: rgba(99,59,94,0.8);
     height: 35rem;
     width: 35em;
 }
@@ -149,9 +149,40 @@ header.hide-for-large-up nav a{
     left: -5rem;
 }
 
+.signup-circles p,
+.signup-circles h2 {
+    color: #fece88; /* yellow */
+    line-height: 1.8rem;
+}
+
+.signup-circles {
+    height: 40rem;
+
+}
+
+.signup-background{
+    background-image: url('../images/sprint/yura_progs_edited.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 40rem;
+}
+
+.signup-intro {
+    background-image: url('../images/sprint/yura_progs_edited.jpg');
+    background-size: cover;
+    height: 60em;
+    background-position: center;
+
+}
+
 .signup-circles a {
     color: #fff;
     text-decoration: underline;
+}
+
+.signup-circles a:hover {
+    color: #633b5e;
+    background-color: #fece88;
 }
 
 .signup-skills,
@@ -171,6 +202,26 @@ header.hide-for-large-up nav a{
     padding: 5em 10em;
 }
 
+.partners a:hover {
+    background-color: #633b5e;
+}
+
+a .partner-org {
+    color: #144f4d;
+}
+
+a .partner-attendee {
+    color: #221f20;
+}
+
+a:hover .partner-org {
+    color: #fece88;
+}
+
+a:hover .partner-attendee {
+    color: #fff;
+}
+
 .about ul,
 .about h1,
 .agenda h1,
@@ -178,23 +229,6 @@ header.hide-for-large-up nav a{
     margin-left: 4rem;
 }
 
-.signup-circles p,
-.signup-circles h2 {
-    color: #fece88;
-    line-height: 1.8rem;
-}
-
-.signup-circles {
-    height: 40rem;
-}
-
-.signup-intro {
-    background-image: url('../images/sprint/yura_progs_edited.jpg');
-    background-size: cover;
-    height: 60em;
-    background-position: center;
-
-}
 .agenda {
     background-color: rgb(56,158,171);
 }
