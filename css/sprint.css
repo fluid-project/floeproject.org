@@ -1,6 +1,16 @@
 
 /* A11y Sprint styles */
 
+.sprint p,
+.sprint h1,
+.sprint h2,
+.sprint ul {
+    line-height: inherit;
+    /* UIO line space adjuster does not work with Foundation.
+       To work around this, specify line-height to inherit from
+       the parent. */
+}
+
 body, h1{
     color: #633b5e; /* purple */
 }
@@ -152,7 +162,7 @@ header.hide-for-large-up nav a{
 .signup-circles p,
 .signup-circles h2 {
     color: #fece88; /* yellow */
-    line-height: 1.8rem;
+
 }
 
 .signup-circles {
@@ -165,14 +175,6 @@ header.hide-for-large-up nav a{
     background-size: cover;
     background-position: center;
     height: 40rem;
-}
-
-.signup-intro {
-    background-image: url('../images/sprint/yura_progs_edited.jpg');
-    background-size: cover;
-    height: 60em;
-    background-position: center;
-
 }
 
 .signup-circles a {
@@ -313,4 +315,8 @@ a:hover .partner-attendee {
 .fl-theme-prefsEditor-by .agenda, .fl-theme-prefsEditor-yb .agenda,
 .fl-theme-prefsEditor-lgdg .agenda {
     padding: 2em 10em;
+}
+
+.fl-prefsEditor-separatedPanel-iframe {
+    width: 100%;
 }
