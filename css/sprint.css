@@ -23,10 +23,13 @@ h1, h2 {
     font-weight: bold;
 }
 
-header {
-    background-color: #fece88; /* orange-yellow */
-    opacity: 0.7;
+footer, header {
+    background-color: rgba(254, 206, 136,0.68); /* orange-yellow */
     width: 100%;
+}
+
+a:focus {
+    outline: 0.2rem solid #000;
 }
 
 header h1 {
@@ -36,6 +39,7 @@ header h1 {
 }
 
 nav a {
+    margin: 0.5rem;
     color: #144f4d; /* dark blue */
     text-decoration: none;
 }
@@ -43,7 +47,6 @@ nav a:hover,
 nav a:focus {
 /*    font-weight: bold;  remove for now*/
 }
-
 
 .sprint-columns{
     -webkit-column-count: 1; /* Chrome, Safari, Opera */
@@ -255,7 +258,14 @@ a:hover .partner-attendee {
     background-color: rgb(254,206,131);
     border: none;
 }
-
+footer {
+    text-align: center;
+    padding: 2rem 0 4rem 0;
+}
+footer img {
+    height: 6rem;
+    margin: 0 2rem;
+}
 
 .fl-theme-prefsEditor-bw .introduction,
 .fl-theme-prefsEditor-bw .signup-intro,
