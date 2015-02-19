@@ -307,6 +307,9 @@ div[role="img"] {
     background-image: url("../images/sprint/nroc.png");
 }
 
+#hewlett-logo {
+    background-image: url("../images/sprint/hewlett.png");
+}
 
 /* Contrast themes */
 .fl-theme-prefsEditor-yb a:focus {
@@ -484,6 +487,22 @@ div[role="img"] {
     background-image: url("../images/sprint/lgdg-nroc.png");
 }
 
+.fl-theme-prefsEditor-bw #hewlett-logo,
+.fl-theme-prefsEditor-by #hewlett-logo {
+    background-image: url("../images/sprint/bw-hewlett.png");
+}
+
+.fl-theme-prefsEditor-wb #hewlett-logo{
+    background-image: url("../images/sprint/wb-hewlett.png");
+}
+
+.fl-theme-prefsEditor-yb #hewlett-logo{
+    background-image: url("../images/sprint/yb-hewlett.png");
+}
+
+.fl-theme-prefsEditor-lgdg #hewlett-logo{
+    background-image: url("../images/sprint/lgdg-hewlett.png");
+}
 
 /* UIO Tweaks */
 .fl-prefsEditor-separatedPanel-iframe {
