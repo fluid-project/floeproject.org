@@ -312,6 +312,10 @@ div[role="img"] {
     background-image: url("../images/sprint/hewlett.png");
 }
 
+#floe-logo {
+    background-image: url("../images/sprint/floe.png");
+}
+
 /* Contrast themes */
 .fl-theme-prefsEditor-yb a:focus {
     outline-color: #ffff00;
@@ -503,6 +507,23 @@ div[role="img"] {
 
 .fl-theme-prefsEditor-lgdg #hewlett-logo{
     background-image: url("../images/sprint/lgdg-hewlett.png");
+}
+
+.fl-theme-prefsEditor-bw #floe-logo,
+.fl-theme-prefsEditor-by #floe-logo {
+    background-image: url("../images/sprint/bw-floe.png");
+}
+
+.fl-theme-prefsEditor-wb #floe-logo{
+    background-image: url("../images/sprint/wb-floe.png");
+}
+
+.fl-theme-prefsEditor-yb #floe-logo{
+    background-image: url("../images/sprint/yb-floe.png");
+}
+
+.fl-theme-prefsEditor-lgdg #floe-logo{
+    background-image: url("../images/sprint/lgdg-floe.png");
 }
 
 /* UIO Tweaks */
