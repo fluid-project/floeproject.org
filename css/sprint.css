@@ -274,7 +274,7 @@ footer {
 }
 
 .footer-logos {
-    width: 45rem;
+    min-width: 40rem;
     margin: 0 auto;
 }
 
