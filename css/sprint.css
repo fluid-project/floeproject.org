@@ -1,8 +1,6 @@
 
 /* A11y Sprint styles */
 
-
-
 body {
     background-color: rgb(254, 206, 136); /* orange-yellow */
 }
@@ -61,44 +59,6 @@ nav a:focus {
     }
 }
 
-
-header.show-for-large-up nav{
-    padding-top: 1.8rem;
-}
-
-header.show-for-large-up nav a {
-    font-weight: bold;
-}
-
-header.hide-for-large-up nav {
-    background-color: #fff;
-}
-
-header.hide-for-large-up h1,
-header.hide-for-large-up nav {
-    padding: 1rem 0.5rem;
-}
-
-header.hide-for-large-up nav a{
-    font-size: 1.5rem;
-}
-
-.introduction {
-    clear: both;
-    background-image: url('../images/sprint/colin_mouse_edited.jpg');
-    background-size: cover;
-    height: 60rem;
-    background-position: center;
-}
-.introduction h2,
-.introduction p {
-    color: #dff2f8; /*robin's egg blue*/
-}
-
-.introduction-circles {
-    top: 5rem;
-}
-
 .circle {
     position: relative;
     border-radius: 100rem;
@@ -122,11 +82,81 @@ header.hide-for-large-up nav a{
     width: 16rem;
 }
 
+header.show-for-large-up nav{
+    padding-top: 1.8rem;
+}
+
+header.show-for-large-up nav a {
+    font-weight: bold;
+}
+
+header.hide-for-large-up nav {
+    background-color: #fff;
+}
+
+header.hide-for-large-up .title{
+    margin-left:0.2rem;
+}
+header.hide-for-large-up h1,
+header.hide-for-large-up nav {
+    padding: 1rem 0.5rem;
+}
+
+header.hide-for-large-up nav a{
+    font-size: 1.5rem;
+}
+
+.title {
+    padding:0;
+}
+
+.title-logo {
+    margin-top:1.2rem;
+    margin-right:0.7rem;
+}
+
+.title-logo-purple-circle {
+    background-color: rgba(99,59,94,0.7); /* purple */
+    width:1.5rem;
+    height:1.5rem;
+}
+
+.title-logo-red-circle {
+    background-color: rgba(241,128,137,0.7); /* red */
+    width:1rem;
+    height:1rem;
+    top:-1.3rem;
+    left:1rem;
+}
+
+.title-logo-blue-circle {
+    background-color: rgba(65,151,167,0.7); /* blue */
+    width:1.8rem;
+    height:1.8rem;
+    top:-1.8rem;
+    left:0.4rem;
+}
+
+.introduction {
+    clear: both;
+    background-image: url('../images/sprint/colin_mouse_edited.jpg');
+    background-size: cover;
+    height: 60rem;
+    background-position: center;
+}
+.introduction h2,
+.introduction p {
+    color: #dff2f8; /*robin's egg blue*/
+}
+
+.introduction-circles {
+    top: 5rem;
+}
+
 .introduction-circles .purple-circle,
 .signup-circles .purple-circle {
-    position: relative;
     padding: 5rem;
-    z-index: 1;
+    z-index: 1; /*make sure this circle is on top so text isn't covered */
 }
 
 .introduction-circles .blue-circle{
@@ -182,7 +212,7 @@ header.hide-for-large-up nav a{
 }
 
 .signup-circles a:hover {
-    color: #633b5e;
+    color: #633b5e; /*purple */
     background-color: #fece88;
 }
 
@@ -205,7 +235,7 @@ header.hide-for-large-up nav a{
 }
 
 .partners a:hover {
-    background-color: #633b5e;
+    background-color: #633b5e; /*purple*/
 }
 
 a .partner-org {
@@ -260,7 +290,6 @@ footer {
     padding: 2rem 0 4rem 0;
 }
 
-
 .footer-logos {
     width: 45rem;
     margin: 0 auto;
@@ -289,6 +318,8 @@ div[role="img"] {
     background-image: url("../images/sprint/nroc.png");
 }
 
+
+/* Contrast themes */
 .fl-theme-prefsEditor-yb a:focus {
     outline-color: #ffff00;
 }
