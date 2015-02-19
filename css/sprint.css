@@ -40,10 +40,6 @@ nav a {
     color: #144f4d; /* dark blue */
     text-decoration: none;
 }
-nav a:hover,
-nav a:focus {
-/*    font-weight: bold;  remove for now*/
-}
 
 .sprint-columns{
     -webkit-column-count: 1; /* Chrome, Safari, Opera */
@@ -145,6 +141,7 @@ header.hide-for-large-up nav a{
     height: 60rem;
     background-position: center;
 }
+
 .introduction h2,
 .introduction p {
     color: #dff2f8; /*robin's egg blue*/
@@ -193,7 +190,6 @@ header.hide-for-large-up nav a{
 .signup-circles p,
 .signup-circles h2 {
     color: #fece88; /* yellow */
-
 }
 
 .signup-circles {
@@ -231,6 +227,7 @@ header.hide-for-large-up nav a{
 .agenda {
     padding: 5em 10em;
 }
+
 .partners {
     padding: 5em 10em;
 }
@@ -265,27 +262,11 @@ a:hover .partner-attendee {
 .agenda {
     background-color: rgb(56,158,171);
 }
+
 .agenda h1 {
     color: #ffffff;
 }
-.agenda-table {
-    width: 100%;
-    margin: 0 auto;
-    border-spacing: 1em;
-    border-collapse: separate;
-}
-.agenda-table td:first-child {
-    color: #ffffff;
-    background-color: rgb(88,51,94);
-    border: 1px solid rgb(254,206,131);
-    width: 20%;
-    text-align: center;
-}
-.agenda-table td:last-child {
-    color: rgb(88,51,94);
-    background-color: rgb(254,206,131);
-    border: none;
-}
+
 footer {
     text-align: center;
     padding: 2rem 0 4rem 0;
