@@ -48,6 +48,10 @@
             });
         </script>
 
+        <div id="skip" class="left">
+            <a href="#content">Skip to Content</a>
+        </div>
+
         <!-- BEGIN markup for Preference Editor -->
         <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
             <!-- This is the div that will contain the Preference Editor component -->
@@ -63,36 +67,13 @@
         </div>
         <!-- END markup for Preference Editor -->
 
-        <div id="skip">
-            <a href="#content">Skip to Content</a>
-        </div>
+        <!-- Navigation for large screens -->
+        <header class="show-for-large-up">
+            <div class="row">
+                <h1 class="large-6 columns">2015 OER <strong>Accessibility</strong> Sprint</h1>
 
-        <section class="introduction" id="top-intro">
-
-            <!-- Navigation for large screens -->
-            <header class="show-for-large-up">
-                <div class="row">
-                    <h1 class="large-6 columns">2015 OER <strong>Accessibility</strong> Sprint</h1>
-
-                    <nav class="large-6 columns">
-                        <ul class="inline-list">
-                            <li><a href="#intro">Introduction</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#signup">Sign-up</a></li>
-                            <!--
-                            <li><a href="#agenda">Agenda</a></li>
-                            -->
-                            <li><a href="#partners">Partners &amp; Attendees</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
-
-            <!-- Navigation for small screens -->
-            <header class="hide-for-large-up">
-                <h1>2015 OER <strong>Accessibility</strong> Sprint</h1>
-                <nav>
-                    <ul class="row inline-list">
+                <nav class="large-6 columns">
+                    <ul class="inline-list">
                         <li><a href="#intro">Introduction</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#signup">Sign-up</a></li>
@@ -102,8 +83,28 @@
                         <li><a href="#partners">Partners &amp; Attendees</a></li>
                     </ul>
                 </nav>
-            </header>
+            </div>
+        </header>
 
+        <!-- Navigation for small screens -->
+        <header class="hide-for-large-up">
+            <h1>2015 OER <strong>Accessibility</strong> Sprint</h1>
+            <nav>
+                <ul class="row inline-list">
+                    <li><a href="#intro">Introduction</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#signup">Sign-up</a></li>
+                    <!--
+                    <li><a href="#agenda">Agenda</a></li>
+                    -->
+                    <li><a href="#partners">Partners &amp; Attendees</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="row flc-toc-tocContainer toc"> </div>
+
+        <section class="introduction" id="top-intro">
             <div id="content" class="text-center introduction-circles">
                 <div class="purple-circle circle">
                     <h2>OER ACCESSIBILITY SPRINT</h2>
@@ -120,7 +121,6 @@
                 <div class="blue-circle circle"></div>
                 <div class="yellow-circle circle"></div>
             </div>
-
         </section>
 
         <section class="about" id="about">

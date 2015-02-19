@@ -1,14 +1,10 @@
 
 /* A11y Sprint styles */
 
-.sprint p,
-.sprint h1,
-.sprint h2,
-.sprint ul {
-    line-height: inherit;
-    /* UIO line space adjuster does not work with Foundation.
-       To work around this, specify line-height to inherit from
-       the parent. */
+
+
+body {
+    background-color: rgb(254, 206, 136); /* orange-yellow */
 }
 
 body, h1{
@@ -24,10 +20,12 @@ h1, h2 {
 }
 
 footer, header {
-    background-color: rgba(254, 206, 136,0.68); /* orange-yellow */
+    background-color: rgb(254, 206, 136); /* orange-yellow */
     width: 100%;
+    clear:both;
 }
 
+button:focus,
 a:focus {
     outline: 0.2rem solid #000;
 }
@@ -190,6 +188,7 @@ header.hide-for-large-up nav a{
 
 .signup-skills,
 .about {
+    background-color: #fff;
     padding: 5em 10em;
 }
 
@@ -474,4 +473,14 @@ div[role="img"] {
 .fl-prefsEditor-separatedPanel .fl-prefsEditor-showHide, .fl-prefsEditor-separatedPanel .fl-prefsEditor-reset,
 .sprint .fl-prefsEditor-separatedPanel .fl-panelBar .fl-prefsEditor-buttons {
     min-height: 4rem;
+}
+
+.sprint p,
+.sprint h1,
+.sprint h2,
+.sprint ul {
+    line-height: inherit;
+    /* UIO line space adjuster does not work with Foundation.
+       To work around this, specify line-height to inherit from
+       the parent. */
 }
