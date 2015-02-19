@@ -32,6 +32,7 @@ header h1 {
     margin: 0;
     padding: 1rem 0;
     font-weight: normal;
+    font-size: 2rem;
 }
 
 nav a {
@@ -294,16 +295,23 @@ footer {
     width: 45rem;
     margin: 0 auto;
 }
+
+.footer-logos a {
+    display: inline-block;
+    width: 13rem;
+}
+
 .footer-logos div {
     height: 6rem;
     width: 10rem;
-    margin: 0 2rem;
+    margin: 0 auto;
 }
 
 div[role="img"] {
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
+    background-position: center;
 }
 
 #idi-logo {
@@ -503,7 +511,7 @@ div[role="img"] {
 
 .fl-prefsEditor-separatedPanel .fl-prefsEditor-showHide, .fl-prefsEditor-separatedPanel .fl-prefsEditor-reset,
 .sprint .fl-prefsEditor-separatedPanel .fl-panelBar .fl-prefsEditor-buttons {
-    min-height: 4rem;
+    min-height: 2.5rem;
 }
 
 .sprint p,
