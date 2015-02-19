@@ -3,6 +3,7 @@
 
 body {
     background-color: rgb(254, 206, 136); /* orange-yellow */
+    min-width: 40em;
 }
 
 body, h1{
