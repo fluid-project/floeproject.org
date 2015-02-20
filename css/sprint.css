@@ -48,12 +48,26 @@ nav a {
     column-count: 1;
 }
 
+.signup-skills,
+.about,
+.agenda,
+.partners {
+    padding: 2rem 5rem;
+}
+
 /* Large screens */
 @media only screen and (min-width: 64.063em) {
     .sprint-columns{
         -webkit-column-count: 3; /* Chrome, Safari, Opera */
         -moz-column-count: 3; /* Firefox */
         column-count: 3;
+    }
+
+    .signup-skills,
+    .about,
+    .agenda,
+    .partners {
+        padding: 5rem 10rem;
     }
 }
 
@@ -225,14 +239,6 @@ header.hide-for-large-up nav a{
     line-height: 2.2rem;
 }
 
-td {
-    valign: top;
-}
-
-.partners {
-    padding: 5em 10em;
-}
-
 .partners a:hover {
     background-color: #633b5e; /*purple*/
 }
@@ -256,19 +262,35 @@ a:hover .partner-attendee {
 .about ul,
 .about h1,
 .agenda h1,
+.agenda h2,
 .partners h1 {
     margin-left: 4rem;
 }
 
+.agenda h1,
+.agenda h2 {
+    color: #ffffff;
+}
+
+.agenda h2 {
+    padding-top: 2rem;
+}
+
 .agenda {
     background-color: rgb(56,158,171);
-    padding: 5em 10em;
 }
 
 .agenda table {
+    width: 38rem;
     max-width: 60rem;
     margin: 0 auto;
 }
+
+.agenda .time,
+.agenda .locations {
+    width: 10rem;
+}
+
 .agenda tr {
     border: 0.2rem solid #389EAB;
     height: 3rem;
@@ -284,16 +306,8 @@ a:hover .partner-attendee {
     vertical-align: top;
 }
 
-.agenda h1 {
-    color: #ffffff;
-}
-
 .agenda .agenda-break td {
     background-color: #fce6ca;
-}
-
-.agenda .day-break {
-    border-top: 0.5rem solid #389EAB;
 }
 
 footer {
