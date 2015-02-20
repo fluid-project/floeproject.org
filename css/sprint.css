@@ -51,7 +51,8 @@ nav a {
 .signup-skills,
 .about,
 .agenda,
-.partners {
+.partners,
+.resources {
     padding: 2rem 5rem;
 }
 
@@ -66,7 +67,8 @@ nav a {
     .signup-skills,
     .about,
     .agenda,
-    .partners {
+    .partners,
+    .resources {
         padding: 5rem 10rem;
     }
 }
@@ -308,6 +310,13 @@ a:hover .partner-attendee {
 
 .agenda .agenda-break td {
     background-color: #fce6ca;
+}
+
+.resources {
+    background-color: #fff;
+}
+.resources .sprint-columns {
+    padding: 5em 10em;
 }
 
 footer {
