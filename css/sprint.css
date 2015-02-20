@@ -51,7 +51,8 @@ nav a {
 .signup-skills,
 .about,
 .agenda,
-.partners {
+.partners,
+.resources {
     padding: 2rem 5rem;
 }
 
@@ -66,7 +67,8 @@ nav a {
     .signup-skills,
     .about,
     .agenda,
-    .partners {
+    .partners,
+    .resources {
         padding: 5rem 10rem;
     }
 }
@@ -92,10 +94,6 @@ nav a {
     background-color: #fece88; /* yellow */
     height: 16rem;
     width: 16rem;
-}
-
-header.show-for-large-up nav{
-    padding-top: 1.8rem;
 }
 
 header.show-for-large-up nav a {
@@ -231,7 +229,7 @@ header.hide-for-large-up nav a{
 .signup-skills,
 .about {
     background-color: #fff;
-    padding: 5em 10em;
+    padding: 5rem 10rem;
 }
 
 .about p,
@@ -308,6 +306,13 @@ a:hover .partner-attendee {
 
 .agenda .agenda-break td {
     background-color: #fce6ca;
+}
+
+.resources {
+    background-color: #fff;
+}
+.resources .sprint-columns {
+    padding: 1rem 10rem;
 }
 
 footer {
@@ -581,7 +586,8 @@ div[role="img"] {
 .sprint p,
 .sprint h1,
 .sprint h2,
-.sprint ul {
+.sprint ul,
+.sprint td {
     line-height: inherit;
     /* UIO line space adjuster does not work with Foundation.
        To work around this, specify line-height to inherit from
