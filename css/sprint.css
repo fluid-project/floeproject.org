@@ -225,8 +225,8 @@ header.hide-for-large-up nav a{
     line-height: 2.2rem;
 }
 
-.agenda {
-    padding: 5em 10em;
+td {
+    valign: top;
 }
 
 .partners {
@@ -262,10 +262,38 @@ a:hover .partner-attendee {
 
 .agenda {
     background-color: rgb(56,158,171);
+    padding: 5em 10em;
+}
+
+.agenda table {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+.agenda tr {
+    border: 0.2rem solid #389EAB;
+    height: 3rem;
+}
+
+.agenda th {
+    background-color: #623a5e;
+    color: #fff;
+}
+
+.agenda td {
+    background: #fff;
+    vertical-align: top;
 }
 
 .agenda h1 {
     color: #ffffff;
+}
+
+.agenda .agenda-break td {
+    background-color: #fce6ca;
+}
+
+.agenda .day-break {
+    border-top: 0.5rem solid #389EAB;
 }
 
 footer {
