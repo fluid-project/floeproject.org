@@ -6,7 +6,7 @@ body {
     min-width: 40em;
 }
 
-body, h1{
+body, h1, h2{
     color: #633b5e; /* purple */
 }
 
@@ -306,6 +306,37 @@ a:hover .partner-attendee {
 
 .agenda .agenda-break td {
     background-color: #fce6ca;
+}
+
+.agenda p,
+.agenda a,
+.agenda figcaption {
+    color: #fff;
+}
+
+.agenda a {
+    text-decoration: underline;
+}
+
+.agenda a:hover {
+    background-color: #fff;
+    color: rgb(56,158,171);
+}
+
+.agenda a:focus {
+    outline-color: #fff;
+}
+
+.agenda .axsmap {
+    margin: 0 auto;
+    display:block;
+    width: 30rem;
+    height: auto;
+}
+
+.agenda ul {
+    margin-left: 4rem;
+    color: #fff;
 }
 
 .resources {
