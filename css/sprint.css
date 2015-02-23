@@ -18,6 +18,10 @@ h1, h2 {
     font-weight: bold;
 }
 
+a.external {
+    font-weight: bold;
+}
+
 footer, header {
     background-color: rgb(254, 206, 136); /* orange-yellow */
     width: 100%;
@@ -69,7 +73,7 @@ nav a {
     .agenda,
     .partners,
     .resources {
-        padding: 5rem 10rem;
+        padding: 5rem 20rem;
     }
 }
 
@@ -257,11 +261,7 @@ a:hover .partner-attendee {
     color: #fff;
 }
 
-.about ul,
-.about h1,
-.agenda h1,
-.agenda h2,
-.partners h1 {
+.about ul {
     margin-left: 4rem;
 }
 
@@ -343,7 +343,7 @@ a:hover .partner-attendee {
     background-color: #fff;
 }
 .resources .sprint-columns {
-    padding: 1rem 10rem;
+    padding: 1rem 5rem;
 }
 
 footer {
