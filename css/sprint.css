@@ -82,10 +82,15 @@ nav a {
     border-radius: 100rem;
 }
 
+.purple-box {
+    background-color: rgba(99,59,94,0.8);
+    width: 38rem;
+}
+
 .purple-circle {
     background-color: rgba(99,59,94,0.8);
-    height: 35rem;
-    width: 35em;
+    min-height: 35rem;
+    min-width: 35rem;
 }
 
 .blue-circle {
@@ -155,7 +160,7 @@ header.hide-for-large-up nav a{
     clear: both;
     background-image: url('../images/sprint/colin_mouse_edited.jpg');
     background-size: cover;
-    height: 60rem;
+    height: 61rem;
     background-position: center;
 }
 
@@ -164,68 +169,80 @@ header.hide-for-large-up nav a{
     color: #dff2f8; /*robin's egg blue*/
 }
 
-.introduction-circles {
-    top: 5rem;
-}
-
-.introduction-circles .purple-circle,
-.signup-circles .purple-circle {
-    padding: 5rem;
-    z-index: 1; /*make sure this circle is on top so text isn't covered */
-}
-
-.introduction-circles .blue-circle{
-    left: -15rem;
-    top: -20rem;
-    opacity: 0.7;
-}
-
-.introduction-circles .yellow-circle{
-    left: 20rem;
-    top:-37rem;
-    opacity: 0.7;
-}
-
-.introduction-circles,
-.signup-circles {
-    color: #ffffff;
-    padding: 3rem 1rem 2rem 1rem;
+.introduction .purple-box {
+    top: 10rem;
+    padding: 1.5rem;
+    position: relative;
     margin: 0 auto;
-    width: 30rem;
 }
 
-.signup-circles .blue-circle {
-    top: -41rem;
-    left: -3rem;
+.circles-intro {
+    background-image: url("../images/sprint/circles-intro.png");
+    background-size: 18rem auto;
+    width: 18rem;
+    height: 19rem;
+    background-repeat: no-repeat;
+    position:relative;
+    top: 18rem;
+    margin: 0  auto;
+    left: -16rem;
+    z-index:1;
 }
 
-.signup-circles .yellow-circle {
-    top: -57rem;
-    left: -5rem;
+.intro-meta {
+    color: #fff;
+    margin-bottom: 1rem;
+    margin-left: 10rem;
 }
 
-.signup-circles p,
-.signup-circles h2 {
+.date, .location {
+    display:block;
+}
+
+.signup p,
+.signup h2 {
     color: #fece88; /* yellow */
 }
 
-.signup-circles {
-    height: 100%;
+.signup h2 {
+    margin-left: 5rem;
+}
+
+.signup .purple-box {
+    padding: 2rem;
+    top:-12rem;
+    position:relative;
+    width: 34rem;
+    margin: 0 auto;
+}
+
+.circles-signup {
+    margin: 0 auto;
+    background-image: url("../images/sprint/circles-signup.png");
+    background-size: 18rem auto;
+    width: 18rem;
+    height: 20rem;
+    background-repeat: no-repeat;
+    position:relative;
+    top: -7rem;
+    left: -17rem;
+    z-index:1;
 }
 
 .signup-background{
     background-image: url('../images/sprint/yura_progs_edited.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 40rem;
+    background-size: 120% auto;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 41rem;
 }
 
-.signup-circles a {
+.signup a {
     color: #fff;
     text-decoration: underline;
 }
 
-.signup-circles a:hover {
+.signup a:hover {
     color: #633b5e; /*purple */
     background-color: #fece88;
 }
@@ -236,9 +253,13 @@ header.hide-for-large-up nav a{
     padding: 5rem 10rem;
 }
 
+.about {
+    padding-bottom: 7rem;
+}
+
 .about p,
 .about ul {
-    line-height: 2.2rem;
+    /*line-height: 2.2rem;*/
 }
 
 .partners a:hover {
@@ -485,45 +506,26 @@ div[role="img"] {
     padding: 2em 10em;
 }
 
-.fl-theme-prefsEditor-bw .circle, .fl-theme-prefsEditor-wb .circle,
-.fl-theme-prefsEditor-by .circle, .fl-theme-prefsEditor-yb .circle,
-.fl-theme-prefsEditor-lgdg .circle {
-    background: none !important;
-}
-
-.fl-theme-prefsEditor-bw .signup-circles,
-.fl-theme-prefsEditor-wb .signup-circles,
-.fl-theme-prefsEditor-by .signup-circles,
-.fl-theme-prefsEditor-yb .signup-circles,
-.fl-theme-prefsEditor-lgdg .signup-circles,
-.fl-theme-prefsEditor-bw .signup-circles .purple-circle,
-.fl-theme-prefsEditor-wb .signup-circles .purple-circle,
-.fl-theme-prefsEditor-by .signup-circles .purple-circle,
-.fl-theme-prefsEditor-yb .signup-circles .purple-circle,
-.fl-theme-prefsEditor-lgbg .signup-circles .purple-circle {
-    padding: 0;
-    height: auto;
-}
-
-.fl-theme-prefsEditor-bw .signup-circles .yellow-circle,
-.fl-theme-prefsEditor-wb .signup-circles .yellow-circle,
-.fl-theme-prefsEditor-by .signup-circles .yellow-circle,
-.fl-theme-prefsEditor-yb .signup-circles .yellow-circle,
-.fl-theme-prefsEditor-lgdg .signup-circles .yellow-circle,
-.fl-theme-prefsEditor-bw .signup-circles .blue-circle,
-.fl-theme-prefsEditor-wb .signup-circles .blue-circle,
-.fl-theme-prefsEditor-by .signup-circles .blue-circle,
-.fl-theme-prefsEditor-yb .signup-circles .blue-circle,
-.fl-theme-prefsEditor-lgdg .signup-circles .blue-circle {
-    display: none;
-}
-
 .fl-theme-prefsEditor-bw .signup-background,
 .fl-theme-prefsEditor-wb .signup-background,
 .fl-theme-prefsEditor-by .signup-background,
 .fl-theme-prefsEditor-yb .signup-background,
 .fl-theme-prefsEditor-lgdg .signup-background {
     height: auto;
+}
+
+.fl-theme-prefsEditor-bw .circles-signup,
+.fl-theme-prefsEditor-wb .circles-signup,
+.fl-theme-prefsEditor-by .circles-signup,
+.fl-theme-prefsEditor-yb .circles-signup,
+.fl-theme-prefsEditor-lgdg .circles-signup,
+.fl-theme-prefsEditor-bw .circles-intro,
+.fl-theme-prefsEditor-wb .circles-intro,
+.fl-theme-prefsEditor-by .circles-intro,
+.fl-theme-prefsEditor-yb .circles-intro,
+.fl-theme-prefsEditor-lgdg .circles-intro {
+    background: none;
+    z-index:0;
 }
 
 .fl-theme-prefsEditor-bw #idi-logo,
@@ -636,6 +638,10 @@ div[role="img"] {
     width: 100%;
 }
 
+.sprint table td {
+    font-size: 1rem;
+}
+
 .fl-prefsEditor-separatedPanel .fl-prefsEditor-showHide, .fl-prefsEditor-separatedPanel .fl-prefsEditor-reset,
 .sprint .fl-prefsEditor-separatedPanel .fl-panelBar .fl-prefsEditor-buttons {
     min-height: 2.5rem;
@@ -645,7 +651,8 @@ div[role="img"] {
 .sprint h1,
 .sprint h2,
 .sprint ul,
-.sprint td {
+.sprint td
+ {
     line-height: inherit;
     /* UIO line space adjuster does not work with Foundation.
        To work around this, specify line-height to inherit from
