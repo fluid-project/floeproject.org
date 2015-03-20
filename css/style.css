@@ -459,6 +459,10 @@ body {
     padding-top: 5em;
 }
 
+address {
+    margin-bottom: 1em;
+}
+
 .fl-theme-prefsEditor-bw .floe-bottom-content,
 .fl-theme-prefsEditor-bw .floe-footer,
 .fl-theme-prefsEditor-by .floe-bottom-content,
