@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+        <title>News: Learner Options WordPress Plugin | floe</title>
+        <link type="image/x-icon" href="../images/favicon.ico" rel="shortcut icon"/>
+        <link href="../css/fss/fss-reset.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/fss/fss-layout.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/fss/fss-text.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/style.css" media="all" rel="stylesheet" type="text/css"/>
+        <link href="../css/print.css" media="print" rel="stylesheet" type="text/css"/>
+
+        <link rel="stylesheet" type="text/css" href="../lib/infusion/framework/preferences/css/fss/fss-theme-bw-prefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="../lib/infusion/framework/preferences/css/fss/fss-theme-wb-prefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="../lib/infusion/framework/preferences/css/fss/fss-theme-by-prefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="../lib/infusion/framework/preferences/css/fss/fss-theme-yb-prefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="../lib/infusion/framework/preferences/css/fss/fss-theme-lgdg-prefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="../lib/infusion/framework/preferences/css/fss/fss-text-prefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="../lib/infusion/lib/jquery/ui/css/fl-theme-by/by.css" />
+        <link rel="stylesheet" type="text/css" href="../lib/infusion/lib/jquery/ui/css/fl-theme-yb/yb.css" />
+        <link rel="stylesheet" type="text/css" href="../lib/infusion/lib/jquery/ui/css/fl-theme-bw/bw.css" />
+        <link rel="stylesheet" type="text/css" href="../lib/infusion/lib/jquery/ui/css/fl-theme-wb/wb.css" />
+        <link rel="stylesheet" type="text/css" href="../lib/infusion/lib/jquery/ui/css/fl-theme-lgdg/lgdg.css" />
+        <link href="../lib/infusion/framework/preferences/css/PrefsEditor.css" rel="stylesheet" type="text/css" />
+        <link href="../lib/infusion/framework/preferences/css/SeparatedPanelPrefsEditor.css" rel="stylesheet" type="text/css" />
+
+        <!--[if lte IE 8]>  
+        <script type="text/javascript">document.createElement("header")</script>    
+        <script type="text/javascript">document.createElement("nav")</script>       
+        <script type="text/javascript">document.createElement("footer")</script>
+        <script type="text/javascript">document.createElement("section")</script>
+        <script type="text/javascript">document.createElement("aside")</script>
+        <![endif]-->    
+
+        <script type="text/javascript" src="../lib/infusion/infusion-custom.js"></script>
+        <script type="text/javascript" src="../js/floe.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                floe.setupUIO({
+                    templatePrefix: "../lib/infusion/framework/preferences/html/",
+                    messagePrefix: "../lib/infusion/framework/preferences/messages/",
+                    tocTemplate: "../lib/infusion/components/tableOfContents/html/TableOfContents.html",
+                    template: "../lib/infusion/framework/preferences/html/SeparatedPanelPrefsEditor.html"
+                });
+            });
+        </script>
+
+        <!-- BEGIN markup for Preference Editor -->
+        <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
+            <!-- This is the div that will contain the Preference Editor component -->
+            <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div>
+
+            <!-- This div is for the sliding panel that shows and hides the Preference Editor controls -->
+            <div class="fl-panelBar">
+                <span class="fl-prefsEditor-buttons">
+                    <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                    <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                </span>
+            </div>
+        </div>
+        <!-- END markup for Preference Editor -->
+
+        <div id="skip">
+            <a href="#content">Skip to Content</a>
+        </div>
+        
+        <div class="floe">
+            <header class="floe-header">
+                <h1><a rel="home" title="Home" href="../index.html" class="floe-header-logo">floe
+                    <span class="floe-header-tagline">
+                        flexible learning for open education
+                    </span></a>
+                </h1>
+            </header>
+
+            <div class="flc-toc-tocContainer toc"> </div>
+            <div class="floe-content floe-news-item">
+                <h2> News </h2>
+    
+                <h3>Learner Options WordPress Plugin</h3>
+                <p class="floe-date">March 26, 2015</p>
+                <p>A WordPress plugin is now available for
+                    <a href="http://build.fluidproject.org/infusion/demos/uiOptions/">Learner Options</a>.
+                    The plugin adds the Learner Options component to any WordPress site, allowing visitors to adjust
+                    things like text size, text style, contrast, and line spacing.</p>
+                <p>The Learner Options plugin is still in early development, but it has been deployed on
+                    <a href="http://tjbliss.org/a-one-size-fits-one-experience-on-tjbliss-org/">this blog.</a></p>
+                <p>The plugin is <a href="https://github.com/fluid-project/uio-wordpress-plugin/">available on GitHub</a>,
+                    and questions and comments are welcomed on the <a href="http://lists.idrc.ocad.ca/mailman/listinfo/fluid-work">fluid-work mailing list</a>.</p>
+            </div>
+        
+            <div class="floe-footer">
+                <div class="floe-content clearfix">
+                    <div class="floe-column">
+                        Floe is a project of the
+                        <a href="http://idrc.ocadu.ca">Inclusive Design Research Centre</a>, <a href="http://ocadu.ca">OCAD University</a>, funded by a grant from
+                        <a href="http://www.hewlett.org">The William and Flora Hewlett Foundation</a>.
+                        <br/>
+                        <a class="floe-image-link" href="http://www.hewlett.org/"> <img alt="Hewlett foundation logo" src="../images/hewlett_foundation_logo.png"/> </a>
+                    </div>
+                    
+                    <div class="floe-column">
+                        <address>
+                            205 Richmond St. W., Second Floor<br/>
+                            Toronto, Ontario, Canada<br/>
+                            M5V 1V3<br/>
+                            Telephone: (416) 977-6000 #3968<br/>
+                            Fax: (416) 977-9844
+                        </address>
+                        <p>
+                            <a href="mailto:jtreviranus@faculty.ocadu.ca">Jutta Treviranus</a> Principal Investigator, Director and Professor<br/>
+                            <a href="mailto:jmitchell@ocadu.ca">Jess Mitchell</a> Senior Manager, Research and Development<br/>
+                            <a href="mailto:cclark@ocadu.ca">Colin Clark</a> Lead Software Architect
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+    </body>
+</html>
