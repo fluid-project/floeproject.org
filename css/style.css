@@ -61,8 +61,7 @@ body {
 
 .floe {
     font-family: "Helvetica Neue",helvetica,Arial,sans-serif;
-    width: 76em;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 /* FLOE Header area, tagline, and logo. */
@@ -192,7 +191,7 @@ body {
 
 .floe-content dt {
     margin: 1.2em 0 0.4em 0;
-    font-weight:bold;    
+    font-weight:bold;
 }
 
 .floe-content .floe-date {
@@ -207,7 +206,6 @@ body {
     padding: 0 0.9em;
     width: 46.6%;
 }
-
 
 /* BEGIN The grid of featured work */
 .floe-featured-list {
@@ -294,7 +292,7 @@ body {
 }
 
 .floe-bottom-content .floe-content{
-   padding-top: 0; 
+   padding-top: 0;
 }
 
 
