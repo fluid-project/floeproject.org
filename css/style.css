@@ -62,6 +62,7 @@ body {
 .floe {
     font-family: "Helvetica Neue",helvetica,Arial,sans-serif;
     margin: 0 auto;
+    max-width: 78em;
 }
 
 /* FLOE Header area, tagline, and logo. */
