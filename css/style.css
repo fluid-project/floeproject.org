@@ -39,6 +39,7 @@
 
 body {
     background: #fafafa;
+    line-height: 1.2;
 }
 
 
@@ -496,6 +497,11 @@ address {
     color:#bdbdbb;
 }
 
+/* New responsive layout styles */
+
+.floe .row {
+    margin-top: 4em;
+}
 
 /* Themed images */
 .fl-theme-prefsEditor-bw .floe .floe-image-UIO             { background: url("../images/bw-floe-02.png") no-repeat 0 0 / 325px 325px; }
