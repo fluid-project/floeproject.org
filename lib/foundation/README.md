@@ -2,4 +2,8 @@
 
 *Version*: 6.3.1
 *Components Included*: Flex Grid
-*Additional Notes*: Normalize.css include was stripped due to interference with existing "fss-reset.css" stylesheet.
+
+* Build was downloaded from http://foundation.zurb.com/sites/download.html/#customizeFoundation with all components unchecked except for "Flex Grid"
+  * Grid max-width was set to 76rem
+* All files removed from the extracted ZIP file except *foundation.css*
+* The Normalize.css include in *foundation.css* by default was stripped from the file due to interference / conflict with existing "fss-reset.css" stylesheet.
