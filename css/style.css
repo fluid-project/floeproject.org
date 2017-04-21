@@ -501,7 +501,7 @@ address {
 }
 
 .floe .hewlett-logo-container svg {
-    background-color: #FFFFFF;
+    background-color: #FFFFFF !important;
     padding: 0.5em;
 }
 
