@@ -323,13 +323,6 @@ body {
     border: 0;
 }
 
-.floe-footer .floe-content .floe-hewlett-logo {
-    background: url("../images/hewlett_foundation_logo.png") no-repeat;
-    display:block;
-    padding-left: 8em;
-    height:3em;
-}
-
 /* News and News Items */
 .floe-news-item {
     margin-bottom: 2em;
@@ -505,6 +498,11 @@ address {
 
 .floe #content .row.floe-close-top{
     margin-top: 0em;
+}
+
+.floe .hewlett-logo-container svg {
+    background-color: #FFFFFF;
+    padding: 0.5em;
 }
 
 /* Themed images */
