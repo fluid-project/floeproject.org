@@ -37,7 +37,7 @@ html .fl-hidden-accessible {
   line-height: 1.2 !important;
   width: 1px;
   min-width: 100%;
-  overflow: scroll;
+  overflow-x: scroll;
 }
 .fl-prefsEditor-separatedPanel .fl-prefsEditor-panels {
   white-space: nowrap;
@@ -115,12 +115,12 @@ html .fl-hidden-accessible {
     display: inline;
   }
   .fl-prefsEditor-separatedPanel .fl-prefsEditor-panels .fl-prefsEditor-panel .fl-prefsEditor-panel-descr {
-    clip: auto;
     height: auto;
-    margin: 1rem 0;
-    overflow: auto;
+    margin: 0;
+    margin-bottom: 1rem;
+    overflow: visible;
     position: inherit;
-    width: auto;
+    width: 100%;
   }
   .fl-prefsEditor-separatedPanel .fl-prefsEditor-panels .fl-prefsEditor-panel .fl-textfieldStepper [class*='fl-icon-'] {
     display: inline;

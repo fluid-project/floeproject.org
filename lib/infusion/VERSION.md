@@ -1,5 +1,5 @@
 
-The version of Infusion included in this folder was created using a custom build from commit [f8d92a56023a3ae6c1c2a20773f7ac44e1514d31](https://github.com/fluid-project/infusion/tree/f8d92a56023a3ae6c1c2a20773f7ac44e1514d31) of the Infusion master branch [https://github.com/fluid-project/infusion/](https://github.com/fluid-project/infusion/) using the command line:
+The version of Infusion included in this folder was created using a custom build from commit [56cc1caafba6907f1ecf93cc3baf17b0e357ee97](https://github.com/fluid-project/infusion/tree/56cc1caafba6907f1ecf93cc3baf17b0e357ee97) of the Infusion master branch [https://github.com/fluid-project/infusion/](https://github.com/fluid-project/infusion/) using the command line:
 
     grunt custom --source=true --include="uiOptions"
 
