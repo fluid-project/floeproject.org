@@ -506,6 +506,44 @@ address {
     width: 100%;
 }
 
+/* Reduce front page image size on very small mobile screens */
+@media (max-width: 320px) {
+    .floe .floe-image-UIO, .floe .floe-image-exploreTool, .floe .floe-image-cloud, .floe .floe-image-preferenceIcons, .floe .floe-image-videoPlayer {
+        background-size: 250px 250px;
+    }
+}
+
+/* Themed images */
+.fl-theme-bw .floe .floe-image-UIO             { background-image: url("../images/bw-floe-02.png"); }
+.fl-theme-bw .floe .floe-image-exploreTool     { background-image: url("../images/bw-floe-01.png"); }
+.fl-theme-bw .floe .floe-image-cloud           { background-image: url("../images/bw-floe-05.png"); }
+.fl-theme-bw .floe .floe-image-preferenceIcons { background-image: url("../images/bw-floe-04.png"); }
+.fl-theme-bw .floe .floe-image-videoPlayer     { background-image: url("../images/bw-floe-03.png"); }
+
+.fl-theme-wb .floe .floe-image-UIO             { background-image: url("../images/wb-floe-02.png"); }
+.fl-theme-wb .floe .floe-image-exploreTool     { background-image: url("../images/wb-floe-01.png"); }
+.fl-theme-wb .floe .floe-image-cloud           { background-image: url("../images/wb-floe-05.png"); }
+.fl-theme-wb .floe .floe-image-preferenceIcons { background-image: url("../images/wb-floe-04.png"); }
+.fl-theme-wb .floe .floe-image-videoPlayer     { background-image: url("../images/wb-floe-03.png"); }
+
+.fl-theme-by .floe .floe-image-UIO             { background-image: url("../images/by-floe-02.png"); }
+.fl-theme-by .floe .floe-image-exploreTool     { background-image: url("../images/by-floe-01.png"); }
+.fl-theme-by .floe .floe-image-cloud           { background-image: url("../images/by-floe-05.png"); }
+.fl-theme-by .floe .floe-image-preferenceIcons { background-image: url("../images/by-floe-04.png"); }
+.fl-theme-by .floe .floe-image-videoPlayer     { background-image: url("../images/by-floe-03.png"); }
+
+.fl-theme-yb .floe .floe-image-UIO             { background-image: url("../images/yb-floe-02.png"); }
+.fl-theme-yb .floe .floe-image-exploreTool     { background-image: url("../images/yb-floe-01.png"); }
+.fl-theme-yb .floe .floe-image-cloud           { background-image: url("../images/yb-floe-05.png"); }
+.fl-theme-yb .floe .floe-image-preferenceIcons { background-image: url("../images/yb-floe-04.png"); }
+.fl-theme-yb .floe .floe-image-videoPlayer     { background-image: url("../images/yb-floe-03.png"); }
+
+.fl-theme-lgdg .floe .floe-image-UIO             { background-image: url("../images/lgdg-floe-02.png"); }
+.fl-theme-lgdg .floe .floe-image-exploreTool     { background-image: url("../images/lgdg-floe-01.png"); }
+.fl-theme-lgdg .floe .floe-image-cloud           { background-image: url("../images/lgdg-floe-05.png"); }
+.fl-theme-lgdg .floe .floe-image-preferenceIcons { background-image: url("../images/lgdg-floe-04.png"); }
+.fl-theme-lgdg .floe .floe-image-videoPlayer     { background-image: url("../images/lgdg-floe-03.png"); }
+
 .fl-theme-bw .floe .hewlett-logo-container svg {
     border: 1px solid #000;
 }
@@ -545,41 +583,3 @@ address {
 .fl-theme-lgdg .floe .hewlett-logo-container svg path {
     fill: #bdbdbb;
 }
-
-/* Reduce front page image size on very small mobile screens */
-@media (max-width: 320px) {
-    .floe .floe-image-UIO, .floe .floe-image-exploreTool, .floe-image-cloud, .floe-image-preferenceIcons, .floe .floe-image-videoPlayer {
-        background-size: 250px 250px;
-    }
-}
-
-/* Themed images */
-.fl-theme-bw .floe .floe-image-UIO             { background: url("../images/bw-floe-02.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-bw .floe .floe-image-exploreTool     { background: url("../images/bw-floe-01.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-bw .floe .floe-image-cloud           { background: url("../images/bw-floe-05.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-bw .floe .floe-image-preferenceIcons { background: url("../images/bw-floe-04.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-bw .floe .floe-image-videoPlayer     { background: url("../images/bw-floe-03.png") no-repeat 0 0 / 325px 325px; }
-
-.fl-theme-wb .floe .floe-image-UIO             { background: url("../images/wb-floe-02.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-wb .floe .floe-image-exploreTool     { background: url("../images/wb-floe-01.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-wb .floe .floe-image-cloud           { background: url("../images/wb-floe-05.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-wb .floe .floe-image-preferenceIcons { background: url("../images/wb-floe-04.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-wb .floe .floe-image-videoPlayer     { background: url("../images/wb-floe-03.png") no-repeat 0 0 / 325px 325px; }
-
-.fl-theme-by .floe .floe-image-UIO             { background: url("../images/by-floe-02.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-by .floe .floe-image-exploreTool     { background: url("../images/by-floe-01.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-by .floe .floe-image-cloud           { background: url("../images/by-floe-05.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-by .floe .floe-image-preferenceIcons { background: url("../images/by-floe-04.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-by .floe .floe-image-videoPlayer     { background: url("../images/by-floe-03.png") no-repeat 0 0 / 325px 325px; }
-
-.fl-theme-yb .floe .floe-image-UIO             { background: url("../images/yb-floe-02.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-yb .floe .floe-image-exploreTool     { background: url("../images/yb-floe-01.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-yb .floe .floe-image-cloud           { background: url("../images/yb-floe-05.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-yb .floe .floe-image-preferenceIcons { background: url("../images/yb-floe-04.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-yb .floe .floe-image-videoPlayer     { background: url("../images/yb-floe-03.png") no-repeat 0 0 / 325px 325px; }
-
-.fl-theme-lgdg .floe .floe-image-UIO             { background: url("../images/lgdg-floe-02.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-lgdg .floe .floe-image-exploreTool     { background: url("../images/lgdg-floe-01.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-lgdg .floe .floe-image-cloud           { background: url("../images/lgdg-floe-05.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-lgdg .floe .floe-image-preferenceIcons { background: url("../images/lgdg-floe-04.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-lgdg .floe .floe-image-videoPlayer     { background: url("../images/lgdg-floe-03.png") no-repeat 0 0 / 325px 325px; }
