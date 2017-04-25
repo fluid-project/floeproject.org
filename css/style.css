@@ -505,6 +505,13 @@ address {
     padding: 0.5em;
 }
 
+/* Reduce front page image size on very small mobile screens */
+@media (max-width: 320px) {
+    .floe .floe-image-UIO, .floe .floe-image-exploreTool, .floe-image-cloud, .floe-image-preferenceIcons, .floe .floe-image-videoPlayer {
+        background-size: 250px 250px;
+    }
+}
+
 /* Themed images */
 .fl-theme-bw .floe .floe-image-UIO             { background: url("../images/bw-floe-02.png") no-repeat 0 0 / 325px 325px; }
 .fl-theme-bw .floe .floe-image-exploreTool     { background: url("../images/bw-floe-01.png") no-repeat 0 0 / 325px 325px; }
