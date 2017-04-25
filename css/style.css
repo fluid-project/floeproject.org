@@ -503,22 +503,43 @@ address {
 .floe .hewlett-logo-container svg {
     background-color: #FFFFFF;
     padding: 0.5em;
+    width: 100%;
+}
+
+.fl-theme-bw .floe .hewlett-logo-container svg {
+    border: 1px solid #000;
 }
 
 .fl-theme-bw .floe .hewlett-logo-container svg path {
     fill: #000000;
 }
 
+.fl-theme-wb .floe .hewlett-logo-container svg {
+    border: 1px solid #FFFFFF;
+}
+
 .fl-theme-wb .floe .hewlett-logo-container svg path {
     fill: #FFFFFF;
+}
+
+.fl-theme-by .floe .hewlett-logo-container svg {
+    border: 1px solid #000000;
 }
 
 .fl-theme-by .floe .hewlett-logo-container svg path {
     fill: #000000;
 }
 
+.fl-theme-yb .floe .hewlett-logo-container svg {
+    border: 1px solid #FFFF00;
+}
+
 .fl-theme-yb .floe .hewlett-logo-container svg path {
     fill: #FFFF00;
+}
+
+.fl-theme-lgdg .floe .hewlett-logo-container svg {
+    border: 1px solid #bdbdbb;
 }
 
 .fl-theme-lgdg .floe .hewlett-logo-container svg path {
