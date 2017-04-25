@@ -1,5 +1,6 @@
 /*
 Copyright 2014 OCAD University
+Copyright 2017 OCAD University
 
 Licensed under the Educational Community License (ECL), Version 2.0 or the New
 BSD license. You may not use this file except in compliance with one these
@@ -16,31 +17,21 @@ var floe = floe || {};
 
 (function ($, fluid) {
 
-    floe.setupUIO = function (config) {
+    /**
+     * Instantiate UI Options
+     * @param path {String} The relative path to infusion library from the location of the web page within which UI Options is integrated.
+     */
+    floe.setupUIO = function (path) {
+        path = path || "";
 
-        // specifically for overriding the paths in the default UIO auxSchema
-        fluid.defaults("floe.auxSchema", {
-            auxiliarySchema: {
-                // adjust paths
-                templatePrefix: config.templatePrefix,
-                messagePrefix: config.messagePrefix,
-                tableOfContents: {
-                    enactor: {
-                        tocTemplate: config.tocTemplate
-                    }
-                },
-                template: config.template,
-            }
+        fluid.uiOptions.prefsEditor(".flc-prefsEditor-separatedPanel", {
+            terms: {
+                "templatePrefix": path + "lib/infusion/src/framework/preferences/html",
+                "messagePrefix": path + "lib/infusion/src/framework/preferences/messages"
+            },
+            "tocTemplate": path + "lib/infusion/src/components/tableOfContents/html/TableOfContents.html"
         });
 
-        var prefsEditor = fluid.prefs.create(".flc-prefsEditor-separatedPanel", {
-            build: {
-                gradeNames: [
-                    "fluid.prefs.auxSchema.starter",
-                    "floe.auxSchema"
-                ]
-            }
-        });
     };
 
 })(jQuery, fluid);
