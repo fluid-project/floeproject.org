@@ -544,42 +544,10 @@ address {
 .fl-theme-lgdg .floe .floe-image-preferenceIcons { background-image: url("../images/lgdg-floe-04.png"); }
 .fl-theme-lgdg .floe .floe-image-videoPlayer     { background-image: url("../images/lgdg-floe-03.png"); }
 
-.fl-theme-bw .floe .hewlett-logo-container svg {
-    border: 1px solid #000;
+.fl-theme-bw .floe .hewlett-logo-container svg, .fl-theme-wb .floe .hewlett-logo-container svg, .fl-theme-by .floe .hewlett-logo-container svg, .fl-theme-yb .floe .hewlett-logo-container svg, .fl-theme-lgdg .floe .hewlett-logo-container svg {
+    border: 1px solid currentColor;
 }
 
-.fl-theme-bw .floe .hewlett-logo-container svg path {
-    fill: #000000;
-}
-
-.fl-theme-wb .floe .hewlett-logo-container svg {
-    border: 1px solid #FFFFFF;
-}
-
-.fl-theme-wb .floe .hewlett-logo-container svg path {
-    fill: #FFFFFF;
-}
-
-.fl-theme-by .floe .hewlett-logo-container svg {
-    border: 1px solid #000000;
-}
-
-.fl-theme-by .floe .hewlett-logo-container svg path {
-    fill: #000000;
-}
-
-.fl-theme-yb .floe .hewlett-logo-container svg {
-    border: 1px solid #FFFF00;
-}
-
-.fl-theme-yb .floe .hewlett-logo-container svg path {
-    fill: #FFFF00;
-}
-
-.fl-theme-lgdg .floe .hewlett-logo-container svg {
-    border: 1px solid #bdbdbb;
-}
-
-.fl-theme-lgdg .floe .hewlett-logo-container svg path {
-    fill: #bdbdbb;
+.fl-theme-bw .floe .hewlett-logo-container svg path, .fl-theme-wb .floe .hewlett-logo-container svg path, .fl-theme-by .floe .hewlett-logo-container svg path, .fl-theme-yb .floe .hewlett-logo-container svg path, .fl-theme-lgdg .floe .hewlett-logo-container svg path {
+    fill: currentColor;
 }
