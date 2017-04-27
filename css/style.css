@@ -512,6 +512,27 @@ address {
     width: 100%;
 }
 
+.floe .idrc-credit-row {
+    margin-bottom: 3.1em;
+}
+
+/* Reduce spacing between logo rows in single-column layout */
+
+@media (max-width: 64em) {
+    .floe .idrc-credit-row {
+        margin-bottom: 1em;
+    }
+}
+
+/* Add border below logo rows in single-column layout */
+
+@media (max-width: 64em) {
+    .floe .hewlett-credit-row {
+        border-bottom: 1px solid currentColor;
+        margin-bottom: 1em;
+    }
+}
+
 /* Reduce front page image size on very small mobile screens */
 @media (max-width: 320px) {
     .floe .floe-image-UIO, .floe .floe-image-exploreTool, .floe .floe-image-cloud, .floe .floe-image-preferenceIcons, .floe .floe-image-videoPlayer {
