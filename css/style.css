@@ -516,6 +516,14 @@ address {
     margin-bottom: 1em;
 }
 
+/* Add border between logos and contact information in double-column layout */
+
+@media (min-width: 64em) {
+    .floe .idrc-contact-container {
+        border-left: 1px solid currentColor;
+    }
+}
+
 /* Add border below logo rows in single-column layout */
 
 @media (max-width: 64em) {
