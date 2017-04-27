@@ -86,16 +86,19 @@
   margin-right: 5px;
   border: 1px solid #000;
   border-radius: 5px;
-  height: 3em;
-  width: 3em;
+  height: 2.5em;
+  width: 2.5em;
   text-align: center;
   vertical-align: middle;
   display: inline-block;
-  line-height: 3em !important;
+  line-height: 2.2em !important;
   padding: 2px;
 }
+.fl-prefsEditor .fl-choices .fl-choice:last-child label {
+  margin-right: 0;
+}
 .fl-prefsEditor .fl-choices .fl-choice .fl-preview-A {
-  font-size: 2em;
+  font-size: 1.7em;
 }
 .fl-prefsEditor .fl-choices .fl-choice .fl-preview-A:before {
   content: "a";
@@ -166,6 +169,8 @@
   text-transform: uppercase;
   font-weight: 600;
 }
+.fl-prefsEditor .fl-icon-right,
+.fl-prefsEditor .fl-icon-left,
 .fl-prefsEditor .fl-icon-indicator,
 .fl-prefsEditor .fl-icon-crossout,
 .fl-prefsEditor .fl-icon-big-a,
@@ -219,7 +224,7 @@
 }
 .fl-prefsEditor .fl-choice .fl-prefsEditor-contrast-defaultThemeLabel .fl-crossout {
   font-family: 'InfusionIcons' !important;
-  margin-top: -1.75em;
+  margin-top: -1.25em;
   font-size: 1.85em;
 }
 .fl-prefsEditor .fl-choice label.fl-theme-prefsEditor-default,
@@ -228,6 +233,12 @@
   background-color: #fff !important;
   border-color: #433f3d !important;
   color: #433f3d !important;
+}
+.fl-prefsEditor .fl-icon-right:before {
+  content: "\e001";
+}
+.fl-prefsEditor .fl-icon-left:before {
+  content: "\e002";
 }
 .fl-prefsEditor .fl-icon-contrast:before {
   content: "\e005";
