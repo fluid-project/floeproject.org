@@ -468,6 +468,11 @@ address {
     border-top: 1px solid #FFFF00;
 }
 
+.fl-theme-lgdg .floe-bottom-content,
+.fl-theme-lgdg .floe-footer {
+    border-top: 1px solid #bdbdbb;
+}
+
 .fl-theme-wb .floe-bottom-content,
 .fl-theme-wb .floe-footer {
     border-top: 1px solid #FFFFFF;
@@ -500,7 +505,8 @@ address {
     margin-top: 0em;
 }
 
-.floe .idrc-logo-container svg, .floe .hewlett-logo-container svg {
+.floe .idrc-logo-container svg,
+.floe .hewlett-logo-container svg {
     background-color: #FFFFFF;
     padding: 0.5em;
     width: 100%;
@@ -544,10 +550,38 @@ address {
 .fl-theme-lgdg .floe .floe-image-preferenceIcons { background-image: url("../images/lgdg-floe-04.png"); }
 .fl-theme-lgdg .floe .floe-image-videoPlayer     { background-image: url("../images/lgdg-floe-03.png"); }
 
-.fl-theme-bw .floe .hewlett-logo-container svg, .fl-theme-wb .floe .hewlett-logo-container svg, .fl-theme-by .floe .hewlett-logo-container svg, .fl-theme-yb .floe .hewlett-logo-container svg, .fl-theme-lgdg .floe .hewlett-logo-container svg, .fl-theme-bw .floe .idrc-logo-container svg, .fl-theme-wb .floe .idrc-logo-container svg, .fl-theme-by .floe .idrc-logo-container svg, .fl-theme-yb .floe .idrc-logo-container svg, .fl-theme-lgdg .floe .idrc-logo-container svg {
+.fl-theme-bw .floe .hewlett-logo-container svg,
+.fl-theme-wb .floe .hewlett-logo-container svg,
+.fl-theme-by .floe .hewlett-logo-container svg,
+.fl-theme-yb .floe .hewlett-logo-container svg,
+.fl-theme-lgdg .floe .hewlett-logo-container svg,
+.fl-theme-bw .floe .idrc-logo-container svg,
+.fl-theme-wb .floe .idrc-logo-container svg,
+.fl-theme-by .floe .idrc-logo-container svg,
+.fl-theme-yb .floe .idrc-logo-container svg,
+.fl-theme-lgdg .floe .idrc-logo-container svg {
     border: 1px solid currentColor;
 }
 
-.fl-theme-bw .floe .hewlett-logo-container svg path, .fl-theme-wb .floe .hewlett-logo-container svg path, .fl-theme-by .floe .hewlett-logo-container svg path, .fl-theme-yb .floe .hewlett-logo-container svg path, .fl-theme-lgdg .floe .hewlett-logo-container svg path, .fl-theme-bw .floe .idrc-logo-container svg path, .fl-theme-wb .floe .idrc-logo-container svg path, .fl-theme-by .floe .idrc-logo-container svg path, .fl-theme-yb .floe .idrc-logo-container svg path, .fl-theme-lgdg .floe .idrc-logo-container svg path, .fl-theme-bw .floe .idrc-logo-container svg text, .fl-theme-wb .floe .idrc-logo-container svg text, .fl-theme-by .floe .idrc-logo-container svg text, .fl-theme-yb .floe .idrc-logo-container svg text, .fl-theme-lgdg .floe .idrc-logo-container svg text, .fl-theme-bw .floe .idrc-logo-container svg circle, .fl-theme-wb .floe .idrc-logo-container svg circle, .fl-theme-by .floe .idrc-logo-container svg circle, .fl-theme-yb .floe .idrc-logo-container svg circle, .fl-theme-lgdg .floe .idrc-logo-container svg circle {
+.fl-theme-bw .floe .hewlett-logo-container svg path,
+.fl-theme-wb .floe .hewlett-logo-container svg path,
+.fl-theme-by .floe .hewlett-logo-container svg path,
+.fl-theme-yb .floe .hewlett-logo-container svg path,
+.fl-theme-lgdg .floe .hewlett-logo-container svg path,
+.fl-theme-bw .floe .idrc-logo-container svg path,
+.fl-theme-wb .floe .idrc-logo-container svg path,
+.fl-theme-by .floe .idrc-logo-container svg path,
+.fl-theme-yb .floe .idrc-logo-container svg path,
+.fl-theme-lgdg .floe .idrc-logo-container svg path,
+.fl-theme-bw .floe .idrc-logo-container svg text,
+.fl-theme-wb .floe .idrc-logo-container svg text,
+.fl-theme-by .floe .idrc-logo-container svg text,
+.fl-theme-yb .floe .idrc-logo-container svg text,
+.fl-theme-lgdg .floe .idrc-logo-container svg text,
+.fl-theme-bw .floe .idrc-logo-container svg circle,
+.fl-theme-wb .floe .idrc-logo-container svg circle,
+.fl-theme-by .floe .idrc-logo-container svg circle,
+.fl-theme-yb .floe .idrc-logo-container svg circle,
+.fl-theme-lgdg .floe .idrc-logo-container svg circle {
     fill: currentColor;
 }
