@@ -523,7 +523,8 @@ address {
 
 @media (min-width: 64em) {
     .floe .idrc-contact-container {
-        border-left: 1px solid currentColor;
+        border-left: 1px solid #777777;
+        padding-left: 2em;
     }
 }
 
@@ -531,8 +532,9 @@ address {
 
 @media (max-width: 64em) {
     .floe .hewlett-credit-row {
-        border-bottom: 1px solid currentColor;
-        margin-bottom: 1em;
+        border-bottom: 1px solid #777777;
+        margin-bottom: 1.5em;
+        padding-bottom: 1em;
     }
 }
 
@@ -586,4 +588,28 @@ address {
 .fl-theme-lgdg .floe .idrc-logo-container svg path
 {
     fill: currentColor;
+}
+
+@media (min-width: 64em) {
+    .fl-theme-bw .floe .idrc-contact-container,
+    .fl-theme-wb .floe .idrc-contact-container,
+    .fl-theme-by .floe .idrc-contact-container,
+    .fl-theme-yb .floe .idrc-contact-container,
+    .fl-theme-lgdg .floe .idrc-contact-container {
+        border-color: currentColor;
+    }
+}
+
+/* Add border below logo rows in single-column layout */
+
+@media (max-width: 64em) {
+    .fl-theme-bw .floe .hewlett-credit-row,
+    .fl-theme-wb .floe .hewlett-credit-row,
+    .fl-theme-by .floe .hewlett-credit-row,
+    .fl-theme-yb .floe .hewlett-credit-row,
+    .fl-theme-lgdg .floe .hewlett-credit-row {
+        border-bottom: 1px solid #777777;
+        margin-bottom: 1.5em;
+        padding-bottom: 1em;
+    }
 }
