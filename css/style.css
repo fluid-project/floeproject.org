@@ -507,9 +507,12 @@ address {
 
 .floe .idrc-logo-container svg,
 .floe .hewlett-logo-container svg {
-    background-color: #FFFFFF;
     padding: 0.5em;
     width: 100%;
+}
+
+.floe .idrc-logo-container svg path {
+    fill: #FFF;
 }
 
 .floe .idrc-credit-row {
@@ -570,19 +573,6 @@ address {
 .fl-theme-lgdg .floe .floe-image-cloud           { background-image: url("../images/lgdg-floe-05.png"); }
 .fl-theme-lgdg .floe .floe-image-preferenceIcons { background-image: url("../images/lgdg-floe-04.png"); }
 .fl-theme-lgdg .floe .floe-image-videoPlayer     { background-image: url("../images/lgdg-floe-03.png"); }
-
-.fl-theme-bw .floe .hewlett-logo-container svg,
-.fl-theme-wb .floe .hewlett-logo-container svg,
-.fl-theme-by .floe .hewlett-logo-container svg,
-.fl-theme-yb .floe .hewlett-logo-container svg,
-.fl-theme-lgdg .floe .hewlett-logo-container svg,
-.fl-theme-bw .floe .idrc-logo-container svg,
-.fl-theme-wb .floe .idrc-logo-container svg,
-.fl-theme-by .floe .idrc-logo-container svg,
-.fl-theme-yb .floe .idrc-logo-container svg,
-.fl-theme-lgdg .floe .idrc-logo-container svg {
-    border: 1px solid currentColor;
-}
 
 .fl-theme-bw .floe .hewlett-logo-container svg path,
 .fl-theme-wb .floe .hewlett-logo-container svg path,
