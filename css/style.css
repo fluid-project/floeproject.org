@@ -505,10 +505,36 @@ address {
     margin-top: 0em;
 }
 
+/* IE-only hacks for better SVG sizing */
+
+@media all and (min-width: 64em) and (-ms-high-contrast:none)
+ {
+     .floe .idrc-logo-container svg,
+     .floe .hewlett-logo-container svg {
+        height: 50px;
+     }
+ }
+
+ @media all and (min-width: 40.063em) and (max-width: 64em) and (-ms-high-contrast:none)
+  {
+      .floe .idrc-logo-container svg,
+      .floe .hewlett-logo-container svg {
+         height: 150px;
+      }
+  }
+
+  @media all and (max-width: 40em) and (-ms-high-contrast:none)
+   {
+       .floe .idrc-logo-container svg,
+       .floe .hewlett-logo-container svg {
+          height: 50px;
+       }
+   }
+
 .floe .idrc-logo-container svg,
 .floe .hewlett-logo-container svg {
     padding: 0.5em;
-    width: 100%;
+    width: auto;
 }
 
 .floe .idrc-logo-container svg path {
