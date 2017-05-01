@@ -576,11 +576,16 @@ address {
 .fl-theme-lgdg .floe .floe-image-preferenceIcons { background-image: url("../images/lgdg-floe-04.png"); }
 .fl-theme-lgdg .floe .floe-image-videoPlayer     { background-image: url("../images/lgdg-floe-03.png"); }
 
-.fl-theme-bw .floe .hewlett-logo-container svg path,
-.fl-theme-wb .floe .hewlett-logo-container svg path,
-.fl-theme-by .floe .hewlett-logo-container svg path,
-.fl-theme-yb .floe .hewlett-logo-container svg path,
-.fl-theme-lgdg .floe .hewlett-logo-container svg path,
+.fl-theme-bw .floe .hewlett-logo-container svg path.st1,
+.fl-theme-wb .floe .hewlett-logo-container svg path.st1,
+.fl-theme-by .floe .hewlett-logo-container svg path.st1,
+.fl-theme-yb .floe .hewlett-logo-container svg path.st1,
+.fl-theme-lgdg .floe .hewlett-logo-container svg path.st1
+.fl-theme-bw .floe .hewlett-logo-container svg path.st2,
+.fl-theme-wb .floe .hewlett-logo-container svg path.st2,
+.fl-theme-by .floe .hewlett-logo-container svg path.st2,
+.fl-theme-yb .floe .hewlett-logo-container svg path.st2,
+.fl-theme-lgdg .floe .hewlett-logo-container svg path.st2
 .fl-theme-bw .floe .idrc-logo-container svg path,
 .fl-theme-wb .floe .idrc-logo-container svg path,
 .fl-theme-by .floe .idrc-logo-container svg path,
@@ -589,6 +594,7 @@ address {
 {
     fill: currentColor;
 }
+
 
 @media (min-width: 64em) {
     .fl-theme-bw .floe .idrc-contact-container,
