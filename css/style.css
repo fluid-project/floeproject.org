@@ -507,6 +507,7 @@ address {
 
 /* IE-only hacks for better SVG sizing */
 
+/* Large, two column */
 @media all and (min-width: 64em) and (-ms-high-contrast:none)
  {
      .floe .idrc-logo-container svg,
@@ -515,6 +516,8 @@ address {
      }
  }
 
+/* Medium, one column */
+
  @media all and (min-width: 40.063em) and (max-width: 64em) and (-ms-high-contrast:none)
   {
       .floe .idrc-logo-container svg,
@@ -522,6 +525,8 @@ address {
          height: 150px;
       }
   }
+
+/* Small, one column */
 
   @media all and (max-width: 40em) and (-ms-high-contrast:none)
    {
