@@ -505,6 +505,13 @@ address {
     margin-top: 0em;
 }
 
+.floe .idrc-logo-container svg,
+.floe .hewlett-logo-container svg {
+    padding: 0.5em;
+    width: 100%;
+    height: auto;
+}
+
 /* IE-only hacks for better SVG sizing */
 
 /* Large, two column */
@@ -535,12 +542,6 @@ address {
           height: 50px;
        }
    }
-
-.floe .idrc-logo-container svg,
-.floe .hewlett-logo-container svg {
-    padding: 0.5em;
-    width: auto;
-}
 
 .floe .idrc-logo-container svg path {
     fill: #FFF;
