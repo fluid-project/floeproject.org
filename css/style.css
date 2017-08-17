@@ -345,13 +345,9 @@ body {
 }
 
 .floe-news-item img {
-    padding-bottom: 2em;
     padding-top: 0.5em;
-    position: absolute:
-    padding-left: 0;
-    width: 25em;
+    padding-bottom: 1.5em;
 }
-    
 
 /* "Floe Story" page */
 .floe-story *,
