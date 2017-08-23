@@ -16,11 +16,11 @@ This repository contains the markup needed to deploy the floeproject.org website
 News Item Template
 ==================
 
-An html template is provided for the news item here: news/YYYY-MM-DD-news-item-title.html.
-Save your renamed file to the news folder.
+An html template is provided for the news item in `./news/YYYY-MM-DD-news-item-title.html`
+Save your renamed file to the `./news` folder.
 
 Note!
 =====
-1. You will also need to add your news item to the top of the news archive (in news/index.html).
+1. You will also need to add your news item to the top of the news archive (in `./news/index.html`).
 2. Remember to update the floeproject.org page with a short summary of your news item.
---> Three News items appear in the list on the floeproject.org main page. When a new News item is added, the oldest one of the list gets removed.
+--> The three most recent news items should remain in the list on the floeproject.org main page. When a new item is added, the oldest one on the list should be removed.
