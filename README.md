@@ -22,5 +22,5 @@ Save your renamed file to the `./news` folder.
 Note!
 =====
 1. You will also need to add your news item to the top of the news archive (in `./news/index.html`).
-2. Remember to update the floeproject.org page with a short summary of your news item.
---> The three most recent news items should remain in the list on the floeproject.org main page. When a new item is added, the oldest one on the list should be removed.
+2. Remember to update the floeproject.org `./index.html` page with a short summary of your news item.
+--> The three most recent news items should remain in the list on the floeproject.org `./index.html` page. When a new item is added, the oldest one on the list should be removed.
