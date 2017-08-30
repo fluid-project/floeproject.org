@@ -344,6 +344,15 @@ body {
     background-color: #efefef;
 }
 
+.floe-news-item img {
+    padding-top: 1.7em;
+    padding-bottom: 0.25em;
+}
+
+figcaption details p {
+   margin-top: 1rem;
+}
+
 /* "Floe Story" page */
 .floe-story *,
 .floe-video * {
