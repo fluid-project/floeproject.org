@@ -1,5 +1,5 @@
 
-The version of Infusion included in this folder was created using a custom build from commit [c3b3cdf783cdc48f89e8b57ceb46552d02ec967a](https://github.com/fluid-project/infusion/tree/c3b3cdf783cdc48f89e8b57ceb46552d02ec967a) of the Infusion master branch [https://github.com/fluid-project/infusion/](https://github.com/fluid-project/infusion/) using the command line:
+The version of Infusion included in this folder was created using a custom build from commit [a128358e39d948b3884a59a405a2f0e316edd6b6](https://github.com/fluid-project/infusion/tree/a128358e39d948b3884a59a405a2f0e316edd6b6) of the Infusion master branch [https://github.com/fluid-project/infusion/](https://github.com/fluid-project/infusion/) using the command line:
 
     grunt custom --source=true --include="uiOptions"
 
@@ -21,6 +21,7 @@ The following files and directories were stripped out of the build since they co
 * infusion/src/framework/core/js/
 * infusion/src/framework/enhancement/enhancementDependencies.json
 * infusion/src/framework/enhancement/js/
+* infusion/src/framework/preferences/css/stylus
 * infusion/src/framework/preferences/js/
 * infusion/src/framework/preferences/preferencesDependencies.json
 * infusion/src/framework/renderer/

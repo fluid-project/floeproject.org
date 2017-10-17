@@ -60,6 +60,7 @@ html .fl-hidden-accessible {
   min-height: 3.6rem;
   text-transform: lowercase;
   white-space: nowrap;
+  pointer-events: none;
 }
 .fl-prefsEditor-separatedPanel .fl-prefsEditor-panels .fl-prefsEditor-panel h2 [class*='fl-icon-'] {
   display: none;
@@ -80,6 +81,7 @@ html .fl-hidden-accessible {
   text-transform: none;
   -webkit-font-smoothing: antialiased;
   font-size: 3rem;
+  pointer-events: auto;
 }
 .fl-prefsEditor-separatedPanel .fl-prefsEditor-panels .fl-prefsEditor-panel h2:before {
   content: "\2039";
@@ -88,6 +90,16 @@ html .fl-hidden-accessible {
 .fl-prefsEditor-separatedPanel .fl-prefsEditor-panels .fl-prefsEditor-panel h2:after {
   content: "\203a";
   margin-right: 1rem;
+}
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+  .fl-prefsEditor-separatedPanel .fl-prefsEditor-panels .fl-prefsEditor-panel h2 {
+    display: block;
+    text-align: center;
+  }
+  .fl-prefsEditor-separatedPanel .fl-prefsEditor-panels .fl-prefsEditor-panel h2:before,
+  .fl-prefsEditor-separatedPanel .fl-prefsEditor-panels .fl-prefsEditor-panel h2:after {
+    content: none;
+  }
 }
 .fl-prefsEditor-separatedPanel .fl-prefsEditor-panels .fl-prefsEditor-panel:first-of-type h2:before,
 .fl-prefsEditor-separatedPanel .fl-prefsEditor-panels .fl-prefsEditor-panel:last-of-type h2:after {
