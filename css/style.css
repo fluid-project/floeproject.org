@@ -12,7 +12,6 @@
 }
 
 * {
-    margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
@@ -41,7 +40,6 @@ body {
     background: #fafafa;
     line-height: 1.2;
 }
-
 
 #skip a,
 #skip a:hover,
@@ -347,6 +345,21 @@ body {
 .floe-news-item img {
     padding-top: 1.7em;
     padding-bottom: 0.25em;
+}
+
+.floe-news-archive p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.floe-news-archive ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.floe-news-archive li:nth-child(odd) {
+    margin: 1.5rem auto;
 }
 
 figcaption details p {
