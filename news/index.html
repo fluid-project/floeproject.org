@@ -45,8 +45,8 @@
             -->
             <div class="fl-panelBar fl-panelBar-smallScreen">
                 <span class="fl-prefsEditor-buttons">
-                    <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
-                    <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                    <button class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                    <button class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
                 </span>
             </div>
 
@@ -59,8 +59,8 @@
             -->
             <div class="fl-panelBar fl-panelBar-wideScreen">
                 <span class="fl-prefsEditor-buttons">
-                    <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
-                    <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                    <button class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                    <button class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
                 </span>
             </div>
         </div>
@@ -83,553 +83,203 @@
                 <div class="flc-toc-tocContainer toc"> </div>
                 <h2> News </h2>
 
-                <div class="floe-news-item">
-                    <h3>FLOE to Be a Part of the Center on Inclusive Software for Learning</h3>
-                    <p class="floe-date">December 11, 2017</p>
-                    <p>
-                        We're pleased to announce that tools and knowledge from FLOE work on inclusive open education will be a part of to the newly-announced <a href="http://www.cast.org/whats-new/news/2017/center-for-inclusive-software-for-learning.html#.Wi7t9xNSwUE">Center on Inclusive Software for Learning (CISL)</a> as part of the <a href="https://idrc.ocadu.ca/">Inclusive Design Research Centre</a>'s partnership on the project.
-                    </p>
-                        Led by <a href="http://www.cast.org/">CAST</a> and funded by the the U.S. Department of Education's <a href="https://www2.ed.gov/about/offices/list/osers/osep/index.html">Office of Special Education Programs</a>, CISL will support the development of an open-source software suite, industry guidelines and suporting research to ensure K-12 students get engaging personalized learning through Open Education Resources.
-                    </p>
-                    <p>
-                        We look forward to working with CAST and project partner <a href="https://www.sri.com/">SRI International</a> on advancing the state of the art in inclusive open education with FLOE!
-                    </p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>Self-Assessment Learning Toolkit</h3>
-                    <p class="floe-date">August 30, 2017</p>
-                    <p>
-                        We have been working on the design and implementation of an inclusive self-assessment toolkit that will engage learners themselves – supported by personalized learning analytics – as aspiring research scientists in the important subject of self-regulation and self-determination. The toolkit will engage a broad spectrum of learners in a self-directed, personalized learning process, by enabling learners to set flexible goals and customizable milestones towards achieving those goals based on their unique needs and preferences.
-                    </p>
-                    <p>
-                        Recently, the design team has been considering alternate entry points into the toolkit, from highly specific to broad and exploratory. Part of this work has been the exploration of new ways of engaging the learner through customizable “touchnotes”, which would afford the learner a quick and easy manual data collection process. A single data point is collected when a touchnote is selected. This can be combined with inputs from automated data collection sources (e.g. from a weather app or a personal health app, etc.), resulting in a fully personalizable data analysis and self-assessment.
-                    </p>
-                    <p>
-                        The following images show examples of the designs we are currently developing (select to enlarge):
-                    </p>
-                    <figure>
-                        <a href="images/Self-reflection Figure 1.png"><img src="images/Self-reflection Figure 1 thumb.png" alt="view larger version of this image" aria-details="det1"></a>
-                        <figcaption>
-                            <details id="det1">
-                                <summary>
-                                Figure 1. A learner can choose to be prompted for more detailed information when they select a touchnote in their personalized collection.
-                                </summary>
-                                <p>The image shows a collection of square 'touchnotes' buttons on the left with the heading 'Query: When do I feel most clear-headed and focused?'. The touchnotes in the collection include 'Focused', 'Good Idea', 'Meditation', 'Weather', 'Diet', and 'Sleep'. An arrow points from the 'Sleep' touchnote to a dialog box with prompts for more information including 'Time to bed', 'How many hours?', 'Woke up feeling: refreshed/tired', 'Disrupted? Y/N', and an option to add notes to a journal. There is a save button at the bottom of the dialog box.</p>
-                            </details>
-                        </figcaption>
-                    </figure>
-
-                    <figure>
-                        <a href="images/Self-reflection Figure 2.png"><img src="images/Self-reflection Figure 2 thumb.png" alt="view larger version of this image" aria-details="det2"></a>
-                        <figcaption>
-                            <details id="det2">
-                                <summary>
-                                Figure 2. Data collected through touch-notes and automated tracking (e.g. weather) is presented back to the learner in a personalized format.
-                                </summary>
-                                <p>The image shows a column of touchnotes on the left-hand side, some of which have been dragged into a data analysis area in the middle of the screen, where there is a plot showing 4 horizontal and synchronous 'tracks' of touchnote data vs. time. The plot is titled 'Analysis: What is causing my headaches?'. The data plotted in the analysis includes 'Weather', 'Coffee', 'Dairy', and 'Headaches'.</p>
-                            </details>
-                        </figcaption>
-                    </figure>
-
-                    <figure>
-                        <a href="images/Self-reflection Figure 3.png"><img src="images/Self-reflection Figure 3 thumb.png" alt="view larger version of this image" aria-details="det3"></a>
-                        <figcaption>
-                            <details id="det3">
-                                <summary>
-                                Figure 3. A wireframe of a mobile interface showing a possible exploratory entry point into the self-assessment toolkit. Choices made on this screen will help to guide the learner in setting up their data collection process, including touchnotes.
-                                </summary>
-                                <p>The image shows a mobile interface screen with text that states 'Begin by keeping track of one or more of the following:'. This text is followed by a list of checkboxes including: 'Where you go (Places)', 'What you eat (Food), 'What you do (Activities)', and 'How you feel (Mood)'. This list is followed by an option to 'Show me what others have done', with 'Next' and 'Go back' buttons at the bottom of the screen.</p>
-                            </details>
-                        </figcaption>
-                    </figure>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>Inclusive Science Lab</h3>
-                    <p class="floe-date">July 19, 2017</p>
-                    <p>
-                        We've been building an integration technology called the <a href="https://wiki.gpii.net/w/The_Nexus">Nexus</a>. It allows the interconnection of arbitrary devices by co-ordinating device state over HTTP and WebSockets.
-                    </p>
-                    <p>
-                        Using the Nexus we have been exploring designs to make science labs more inclusive. We used the Nexus to connect lab sensors, such as pH sensors and electrical conductivity sensors, to a range of different presentations and interactions. This helps a student pick the interaction that works best for them. For some students this might be a visualization and for others it might be a sonification, or a combination of different presentations.
-                    </p>
-                    <p>
-                        Calum and Miles joined us to try out an inclusive science lab design, and helped us make a video about their experiences:
-                    </p>
-
-                    <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/NNwc0VYRhUU?rel=0&amp;ecver=1" frameborder="0" allowfullscreen></iframe>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>DEEP Conference 2016</h3>
-                    <p class="floe-date">November 30, 2016</p>
-                    <p>
-                        On October 13-14, 2016 the <a href="http://deep.idrc.ocadu.ca">DEEP - Discovery conference</a> brought together an international community of over 100 diverse participants to discuss timely, difficult, and engaging topics.
-                    </p>
-                    <p>
-                        This year’s theme was: “Our Data: Who owns it, who controls it, what can we do with it?”
-                    </p>
-                    <p>
-                        DEEP 2016 welcomed the participation of four initiatives that each brought essential perspectives to the agenda, namely: international collaboration, platforms for inclusive prosperity, privacy, and life-long learning. The EU project Discovery, the SSHRC supported TIPP consortium, the Office of the Privacy Commissioner supported project on privacy and inclusion, and several open education projects all participated in DEEP 2016. Participation from each of these projects helps to ensure that conversations and plans will be acted upon and the work started at DEEP will continue well beyond the conference.
-                    </p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>IIDEX 2016</h3>
-                    <p class="floe-date">November 30, 2016</p>
-                    <p>
-                        The IDRC participated in the <a href="http://www.iidexcanada.com/conference/summits/national-summit-on-accessibility-2016">IIDEX National Summit on Accessibility</a> on November 30th, 2016.
-                    </p>
-                    <p>
-                        This summit focused on appreciating how diverse stakeholders help shape and improve our design.
-                    </p>
-                    <p>
-                        The summit’s panels focused on two essential issues: Inclusive Play and Policy. The IDRC’s Director, Jutta Treviranus, will lead the Summit.
-                    </p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>UN International Day of Persons with Disibilities</h3>
-                    <p class="floe-date">November 30, 2016</p>
-                    <p>
-                        December 3, 2016 marks the <a href="http://www.un.org/en/events/disabilitiesday/">United Nations International Day of Persons with Disabilities</a>.
-                    </p>
-                    <p>
-                        IDRC Director Jutta Treviranus will attend events at the UN Headquarters in New York.
-                    </p>
-                    <p>
-                        To learn more about accessibility rights and legislation in Ontario and in Canada, listen to <a href="http://quantization.ca/podcast/episode-three-aoda/">Episode 3 of the Quantization Podcast</a>.
-                    </p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>Upcoming Talks on Inclusive Digital Education</h3>
-                    <p class="floe-date">March 28, 2016</p>
-
-                    <p>IDRC Director Jutta Treviranus will be speaking at the following conferences on topics crossing digital inclusion in education, to rethinking the role of technology in our institutions.</p>
-
-                    <p>March 2016:</p>
-                    <ul>
-                    	<li>March 15,<a href="http://news.umanitoba.ca/information-and-communication-accessibility-learning-event/"> University of Manitoba. "Information and communication accessibility".</a></li>
-                    </ul>
-                    <p>April 2016:</p>
-                    <ul>
-                    	<li>April 12 -<a href="https://events.keep.edu.hk/webed/2016/"> WWW2016 Workshop on Web Science and Technology for Education (WWW2016 Montreal)</a>. "Evaluating Educational Software in the Web Era".</li>
-                    	<li>April 12 - <a href="http://www.w4a.info/2016/">W4A Conference (WWW2016 Montreal)</a>. "Life-Long Learning on the Inclusive Web".
-                            <ul>
-                            	<li>Conference paper - "<a href="http://inclusivedesign.ca/wp-content/uploads/2016/03/Treviranus-Web4All-Paper_accessible-PDF.pdf">Life-Long Learning on the Inclusive Web</a>".</li>
-                            </ul>
-                        </li>
-                    	<li>April 13 - <a href="http://www.teluq.ca/edu-fiction2030/">Edu-Fiction (WWW2016 Montreal)</a>. "What will the web bring [in 2030]?"</li>
-                    	<li>April 14 - <a href="http://conference.oeconsortium.org/2016/">Open Education Global 2016</a>. "[Action Lab] Salad dressing, pendula, navels, scraped knees and future-proof learning (Accessibility and OER)".</li>
-                    	<li>April 29 - <a href="https://oculaspring.wordpress.com/">OCULA Spring Conferece</a>. "Creating Space: Expanding the Physical, Digital, and Mental Boundaries of the Academic Library"</li>
-                    </ul>
-                    <p>May 2016:</p>
-                    <ul>
-                    	<li>May 12 to 14 - <a href="http://universalinclusion.unito.it/en/">UNIversal Inclusion Rights and Opportunities for Persons with Disabilities in the Academic Conext</a>
-                            <ul>
-                            	<li>The information about this conference is also available in this accessible PDF: <a href="http://en.unito.it/sites/sten/files/universal_inclusion.pdf">http://en.unito.it/sites/sten/files/universal_inclusion.pdf</a></li>
-                            </ul>
-                        </li>
-                    	<li>May 26 - <a href="http://www.thinkconference.ca/">Think Conference</a></li>
-                    </ul>
-                    <p>Visit the conference websites for individual times and details.</p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>Accessible Physics Simulations</h3>
-                    <p class="floe-date">Nov. 16, 2015</p>
-                    <p>Floe is working with <a href="http://phet.colorado.edu/">PhET</a>
-                        to improve the accessibility of their free, open, interactive physics simulations. Over the past
-                        year, we have contributed research, ideas, and evaluations for improvements to two of PhET's simulations:
-                        <a href="https://wiki.fluidproject.org/display/fluid/PhET+Forces+and+Motion+Simulation+Design">Forces and Motion Basics</a> and
-                        <a href="https://wiki.fluidproject.org/display/fluid/PhET+John+Travoltage+Simulation+Design">John Travoltage</a>.
-                    </p>
-                    <p>
-                        The PhET team has been working to incorporate our input into a development version of the
-                        <a href="http://www.colorado.edu/physics/phet/dev/html/forces-and-motion-basics/1.1.5-accessible-instance.3/forces-and-motion-basics_en.html?accessibility&screens=1">Forces and Motion: Basics</a>
-                        simulation, and is now conducting user tests. Implementation of the new designs for the John Travoltage simulation is planned for December 2015.
-                    </p>
-                    <p>
-                        From this collaboration with PhET, a guide "<a href="http://handbook.floeproject.org/WebGamesAndSimulations.html">Web Games and Simulations</a>" has been added to the <a href="http://handbook.floeproject.org/">Inclusive Learning Design Handbook</a> to help educators create more inclusive and accessible web games and educational simulations.
-                    </p>
-                    <p>
-                        For the latest work in this area, visit the <a href=" https://wiki.fluidproject.org/display/fluid/Inclusivity+and+Accessibility+of+Interactive+Web+Games+and+Simulations">Inclusivity and Accessibility of Interactive Web Games and Simulations</a> on the <a href="http://wiki.fluidproject.org/">Fluid Project Wiki</a>.
-                    </p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>Workshop: The Business Advantages of Making Special the Norm</h3>
-                    <p class="floe-date">May 8, 2015</p>
-                    <p>The <a href="http://www.viscardicenter.org/services/nbdc/">National Business and
-                        Disability Council (NBDC)</a> at <a href="http://www.viscardicenter.org/">The Viscardi Center</a>
-                         is offering an educational online workshop to focus on designing for diversity.</p>
-                    <p>No one needs to point out that the current business climate is in a state of flux
-                        and transformation. To thrive requires a good measure of agility, responsiveness,
-                        continuous innovation and dynamic resiliency. These qualities are the by-products of
-                        broadly diverse perspectives, skills, and approaches combined with the conditions
-                        that foster their inclusion. Fortuitously, emerging technologies and associated
-                        practices make it viable to move beyond mass design – in policy, communication,
-                        product development, service, marketing, training and other business practices –
-                        and make special the norm. If we proactively design for diversity we not only comply
-                        with legislative requirements for accessibility but we also reap the benefits of
-                        flexibility, adaptability and a spectrum of possible approaches, to thrive in a
-                        quickly evolving business climate.</p>
-                        <ul>
-                            <li><strong>Date</strong>: May 20, 2015</li>
-                            <li><strong>Time</strong>: 2:00 – 3:00pm</li>
-                            <li><strong>Location</strong>: Online, Webinar</li>
-                        </ul>
-                    <p>The workshop will be presented by Jutta Treviranus, Director of the
-                        <a href="http://idrc.ocadu.ca/">Inclusive Design Research Centre (IDRC)</a>
-                        and professor at <a href="http://ocadu.ca">OCAD University</a> in Toronto.</p>
-                    <p>For more information or to register, visit <a href="http://www.viscardicenter.org/news-events/events/nbdc-distance-learning.html">http://www.viscardicenter.org/news-events/events/nbdc-distance-learning.html</a>.</p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>Learner Options WordPress Plugin</h3>
-                    <p class="floe-date">March 26, 2015</p>
-                    <p>A WordPress plugin is now available for
-                        <a href="http://build.fluidproject.org/infusion/demos/uiOptions/">Learner Options</a>.
-                        The plugin adds the Learner Options component to any WordPress site, allowing visitors to adjust
-                        things like text size, text style, contrast, and line spacing.</p>
-                    <p>The Learner Options plugin is still in early development, but it has been deployed on
-                        <a href="http://tjbliss.org/a-one-size-fits-one-experience-on-tjbliss-org/">this blog.</a></p>
-                    <p>The plugin is <a href="https://github.com/fluid-project/uio-wordpress-plugin/">available on GitHub</a>,
-                        and questions and comments are welcomed on the <a href="http://lists.idrc.ocad.ca/mailman/listinfo/fluid-work">fluid-work mailing list</a>.</p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>OER Accessibility Sprint</h3>
-                    <p class="floe-date">January 13, 2015</p>
-                    <p>On February 25-27, 2015, the <a href="http://idrc.ocadu.ca">Inclusive Design Research Centre (IDRC)</a> at OCAD University will be hosting an OER Accessibility Sprint.
-                        Experts in the field of Open Educational Resources (OER) will gather to design and develop tools and exemplars that make practical progress in the important agenda of inclusive learning through OER.
-                        They will be <a href="https://docs.google.com/document/d/1EPdECgqM7BxDmfh5CHJ7ZYr00ldxUqkcnJOddaMvXTE/edit">sharing their results in open notebooks</a>.</p>
-                    <p>Among the challenges on the agenda are a special focus on HTML5 and EPUB3 applied in:</p>
-                        <ul>
-                            <li>simulations and highly interactive content,</li>
-                            <li>video and timed media,</li>
-                            <li>gaming,</li>
-                            <li>mobile and responsive content, and</li>
-                            <li>OER delivery platforms.</li>
-                        </ul>
-                    <p>For more information, <a href="../accessibilitySprint2015.html">visit the Sprint's website</a>.</p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>Lumen Learning</h3>
-                    <p class="floe-date">September 30, 2014</p>
-                    <p><a href="http://lumenlearning.com/">Lumen Learning</a> has been selected to receive funding as part of the
-                        <a href="http://www.gatesfoundation.org/Media-Center/Press-Releases">Next Generation Courseware Challenge</a>,
-                        a $20 million grant competition from the <a href="http://www.gatesfoundation.org/">Bill & Melinda Gates Foundation</a>
-                        to build exemplary, affordable digital course materials that improve student success among low-income
-                        and disadvantaged learners. Inspired in part by the groundbreaking work of Benjamin Bloom, Lumen’s
-                        courseware will apply educational strategies that show promise for improving learning outcomes: personal
-                        learning pathways for developing subject mastery; personalized teaching; and effective use of open
-                        educational resources. The result will be “next generation” courseware for four introductory-level
-                        college courses that enroll millions of students every year: Introduction to Business; Principles of
-                        Marketing; Microeconomics; and Macroeconomics.</p>
-                    <p>The Floe team is excited to be a partner in this project. Floe will design the courseware’s universally
-                        accessible user experience through a highly iterative, inclusive and learner-centric process.
-                        The courseware developed through this grant will pioneer a new model for digital courseware and
-                        delivery tailored to the needs of disadvantaged students.</p>
-                    <p>For more information about the project, read the <a href="http://lumenlearning.com/ann-courseware-challenge/">Lumen Learning press release</a>.</p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>Metadata Search</h3>
-                    <p class="floe-date">April 21, 2014</p>
-                    <p>The Floe team recently contributed to the development of a set of accessibility
-                        metadata properties that were adopted by <a href="http://schema.org/">Schema.org</a>,
-                        a consortium of major search engines including Bing, Google, Yahoo! and Yandex.
-                        The properties are based on the IMS Global Learning Consortium's <a href="http://www.imsglobal.org/accessibility">Access For All specification</a>.
-                    These additions will make it easier for publishers and webmasters to connect learners
-                    with the most useful content, and help users with special needs locate and consume
-                    content that is most appropriate for their specific needs.
-                    </p>
-                    <p>The Floe team is working on <a href="http://wiki.fluidproject.org/download/attachments/37855787/metadata-search.pdf?api=v2">designs for a search interface</a> that would filter content based on these properties.
-                    </p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>Floe at HCI</h3>
-                    <p class="floe-date">April 15, 2014</p>
-                    <p>The Floe team will be presenting a number of papers at the upcoming <a href="http://www.hcii2014.org/">HCI International conference</a>:</p>
-                    <ul>
-                        <li>An Introduction to the Floe Project </li>
-                        <li>Creating a Global Public Inclusive Infrastructure (GPII) </li>
-                        <li>Prosperity4All – Setting the Stage for a Paradigm Shift in eInclusion </li>
-                        <li>PGA: Preferences for Global Access </li>
-                        <li>Enabling Architecture: How the GPII Supports Cross-Platform Inclusive Software Development </li>
-                        <li>Personalizing Interfaces Using an Inclusive Design Approach </li>
-                        <li>Automatic Metadata Generation </li>
-                        <li>The GPII on Desktops in PCs OSs: Windows & GNOME </li>
-                        <li>Prosperity as a Model for Next-Generation Accessibility </li>
-                        <li>Prosperity4All: Designing a Multi-Stakeholder Network for Economic Inclusion </li>
-                    </ul>
-                    <p>The conference will be held June 22-27, 2014, in Creta Maris, Heraklion, Crete, Greece.</p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>Accessibility in OER: Panel Presentation</h3>
-                    <p class="floe-date">April 4, 2014</p>
-                    <p>This week, the Floe team participated in a panel on emerging accessibility needs in
-                        OER at the <a href="http://conference.cnx.org/index.html">OpenStax CNX annual conference</a>.
-                        The <a href="http://wiki.fluidproject.org/download/attachments/1707985/Connexions.pdf?version=1&modificationDate=1397054988700&api=v2">slides</a> can be downloaded from the project wiki.</p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>Workshop: Inclusive Technology in the Classroom</h3>
-                    <p class="floe-date">March 28, 2014</p>
-                    <p>Earlier this week, the Floe team conducted a workshop with the
-                        <a href="http://www.vteducation.org/en/articles/step/information-and-communication-technology-integration-post-secondary-education">Vitrine technologie-éducation (VTÉ)</a>.
-                        The workshop discussed the use of technology to create an inclusive classroom, and highlighted the work of the Floe project.
-                        The <a href="http://wiki.fluidproject.org/download/attachments/1707985/VTE-InclusiveDesign.pdf?version=1&modificationDate=1395849223451&api=v2">slides</a> can be downloaded from the project wiki.</p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>Floe Presentations at CSUN</h3>
-                    <p class="floe-date">March 24, 2014</p>
-                    <p>Last week, the Floe team presented two papers at CSUN's annual
-                        <a href="http://www.csun.edu/cod/conference/2014/sessions/index.php/public/website_pages/view/1">Internation Technology &amp; Persons With Disabilities conference</a>: "Fluid Infusion: Building the Next Generation of the Accessible Web" and "Personalizing Interfaces: An Inclusive Design Approach to Increase Access."
-                        The <a href="http://wiki.fluidproject.org/download/attachments/1707985/CSUN%202014%20Infusion%20Presentation.pdf?version=1&modificationDate=1395716250038&api=v2">slides for the first talk</a> can be downloaded from the project wiki.</p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>Metadata Editing Components</h3>
-                    <p class="floe-date">March 18, 2014</p>
-                    <p>The Floe team is developing a suite of tools for creating more accessible and
-                        personalizable web content by supporting the creation of accessibility metadata.
-                        These tools will allow content creators to easily generate metadata at the point of creation,
-                        reducing the cost and complexity of pro-ducing and delivering content that can be tailored to a user’s needs and preferences.</p>
-                    <p>A <a href="http://metadata.floeproject.org/demos/html/index.html">demo</a>
-                        of the latest work illustrates the metadata that can be automatically generated during the process of adding a video to an OER. By building tools that focus on content creation at the point of authoring, Floe prioritizes accessibility metadata while providing built-in solutions suitable for any content authoring system.</p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>Harnessing the Open Web</h3>
-                    <p class="floe-date">March 10, 2014</p>
-                    <p>Last week, the Floe team presented a paper entitled
-                        "Harnessing the Open Web To Create Inclusive Learning Environments" at
-                        <a href="http://dml2014.dmlhub.net/">DML2104</a> in Boston, MA. The session included a design activity that helped the participants develop an understanding of inclusive design.
-                        The <a href="http://wiki.fluidproject.org/download/attachments/1707985/DigitalMediaLearning.key?version=1&modificationDate=1398183713676&api=v2">slides</a> can be downloaded from the project wiki.</p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>EDUPUB2 Workshop</h3>
-                    <p class="floe-date">March 1, 2013</p>
-                    <p>Last month, the Floe team participated in an accessibility panel at the
-                        <a href="http://imsglobal.org/edupub/agenda.html">EDUPUB2 Workshop</a> held by the <a href="http://www.imsglobal.org/">IMS Global Learning Consortium</a>.</p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>Inclusive Design of OERs</h3>
-                    <p class="floe-date">Nov. 12, 2013</p>
-                    <p>Last week, the Floe team presented a paper entitled "Inclusive Design of OERs" at
-                        <a href="http://openeducation2013.sched.org/">OpenEd 2013</a>.
-                        The <a href="http://www.slideshare.net/jesshmitchell/inclusive-design-28048597">slides</a> can be downloaded from the project wiki.</p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>Call For Contributions: WAI's Accessible E-Learning Online Symposium</h3>
-                    <p class="floe-date">November 05, 2013</p>
-                    <p>
-                        W3C's Web Accessibility Initiative will be hosting an Accessible E-Learning
-                        online symposium on December 16, 2013. They are currently inviting submission of
-                        new research, ongoing research, and analysis of past research related to e-learning accessibility.
-                    </p>
-                    <p>
-                        Learning and education are the enablers of social and economic change. E-learning
-                        systems allow instructors and students to interact synchronously and asynchronously
-                        from any part of the world that has a viable internet connection. This symposium will
-                        explore the relationship between content accessibility and interface accessibility,
-                        accessibility of e-learning environments used in non-conventional contexts,
-                        privacy issues in profiling learners and e-learning environments users, and other important topics.
-                    </p>
-                    <p>
-                        Participation in the symposium is free.
-                    </p>
-                    <p>
-                        For more information about the symposium, including submission guidelines and partipation information, see
-                        <a title="http://www.w3.org/WAI/RD/2013/e-learning/" href="http://www.w3.org/WAI/RD/2013/e-learning/">http://www.w3.org/WAI/RD/2013/e-learning/</a>
-                    </p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>Fluid Releases New Video Player</h3>
-                    <p class="floe-date">March 05, 2013</p>
-                    <p>
-                        The Fluid community has announced the release of Video Player v0.1
-                    </p>
-                    <p>
-                        Video Player is designed to be a fully accessible HTML5 video player. The designs can be seen at
-                        <br/>
-                        <a title="http://wiki.fluidproject.org/display/fluid/%28Floe%29+video+player+mockups+%28final%29" href="http://wiki.fluidproject.org/display/fluid/%28Floe%29+video+player+mockups+%28final%29">http://wiki.fluidproject.org/display/fluid/%28Floe%29+video+player+mocku...</a>
-                    </p>
-                    <p>
-                        v0.1 is the first public release of Video Player and includes initial support for:
-                    </p>
-                    <ul>
-                        <li> Captions</li>
-                        <li> Transcripts</li>
-                        <li> Integration with UI Options</li>
-                        <li> Keyboard Accessibility</li>
-                        <li> Graceful Degradation for IE8</li>
-                    </ul>
-
-                    <p>
-                        For more information about the Video Player, you can read the README file in the github repository:<br/>
-                        <a title="https://github.com/fluid-project/videoPlayer/blob/master/README.txt" href="https://github.com/fluid-project/videoPlayer/blob/master/README.txt">https://github.com/fluid-project/videoPlayer/blob/master/README.txt</a>
-                    </p>
-                    <p>
-                        You can download or checkout a copy from the github repository:
-                        <br/>
-                        <a title="https://github.com/fluid-project/videoPlayer/tags" href="https://github.com/fluid-project/videoPlayer/tags">https://github.com/fluid-project/videoPlayer/tags</a>
-                    </p>
-                    <p>
-                        For a complete list of known issues, please see the Video Player issue tracker.
-                        <br/>
-                        <a title="http://issues.fluidproject.org/browse/VP" href="http://issues.fluidproject.org/browse/VP">http://issues.fluidproject.org/browse/VP</a>
-                    </p>
-                    <p>
-                        The Fluid community would like to thank all the users and community members who contributed to this release!
-                    </p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>FLOE deployment feasibility study funded by US Dept. of Education</h3>
-                    <p class="floe-date">December 05, 2012</p>
-                    <p>
-                        The U.S. Department of Education’s National Institute on Disability and Rehabilitation Research has recently announced funding for one of the projects that Floe is participating in: "Profile Creation Support for Cloud-based Accessibility." This project will harness global networks and cloud services to support custom preferences that travel with a learner across devices and learning environments, both on and off the Web, delivering appropriate solutions to users anywhere, anytime and on any device or platform. The contract for this project was awarded to the <a href="http://www.iskme.org/">Institute for the Study of Knowledge Management in Education</a> (ISKME), in partnership with the <a href="http://gpii.net/">Global Public Inclusive Infrastructure</a> (GPII) team, including the <a href="http://idrc.ocadu.ca">Inclusive Design Research Center</a> at OCAD U, <a href="http://raisingthefloor.org/">Raising the Floor International</a>, <a href="http://ncam.wgbh.org/">WGBH’s National Center for Accessible Media</a>, <a href="http://www.ibm.com/us/en/">IBM</a>, and <a href="http://inclusive.com/">Inclusive Technologies</a>.
-                    </p>
-                    <p>
-                        For more information about the grant, see <a title="Deptartment of Education Funda Projects Supporting Expanded Level of Disability Access" href="http://www.iskme.org/media/press-releases/dept-education-funds-project-supporting-expanded-level-disability-access">http://www.iskme.org/media/press-releases/dept-education-funds-project-s...</a>
-                    </p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>FLOE leads Inclusive Design workshop at Big Ideas Fest</h3>
-                    <p class="floe-date">December 05, 2012</p>
-                    <p>
-                        On Dec. 3, 2012, Jutta Treviranus led a workshop on Inclusive Learning Design at Big Ideas 2012. The workshop highlighted techniques for creating inclusive open educational resources.
-                    </p>
-                    <p>
-                        Big Ideas is an annual conference that brings together teachers, policy makers, researchers, eduprenuers, students, and funders who are championing the transformation of K-20 education. For information, visit
-                        <a title="http://www.bigideasfest.org/fests" href="http://www.bigideasfest.org/fests">http://www.bigideasfest.org/fests</a>
-                    </p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>Jutta Treviranus Listed Among Zoomer Magazine’s Top 45 Over 45</h3>
-                    <p class="floe-date">October 24, 2012</p>
-                    <p>
-                        Jutta Treviranus, Director of the <a href="http://idrc.ocadu.ca">Inclusive Design Research Centre</a>, has been named by <a href="http://www.zoomermag.com/">Zoomer Magazine</a> as one of <a href="http://www.zoomermag.com/people/the-3rd-annual-zoomer-list-canadas-top-45-over-45-jutta-treviranus/47831">Canada's Top 45 Over 45</a>, people who "have made a difference in their chose fields and passions while improving our lives and that of our country." Jutta is listed among such other illustrious Canadians as astronaut Chris Hadfield, musician Corey Hart, Higgs boson particle discoverers Nigel Lockyer and Rob McPherson, Steve Paiken, Joe MacInnes, equestrian Ian Miller, actor Christopher Plummer, NDP leader Thomas Mulcair, OCAD U alumnus Phil Richards (painted official Diamond Jubliee Portrait of the Queen), Alberta Premier Alison Redford, and many, many others.
-                    </p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>Plans For Floe Year Three</h3>
-                    <p class="floe-date">October 19, 2012</p>
-                    <p>
-                        The Floe project is now in its third year. Our focus moving forward will be to advance the work we've been doing on personalized learning. During the first two years of the Floe project, we
-                    </p>
+                <!-- TODO: Remove duplication by making this a list of links to the articles -->
+                <nav class="floe-news-archive">
                     <ul>
                         <li>
-                            developed the <a href="http://handbook.floeproject.org/">Inclusive Learning Design Handbook (ILDH)</a>;
+                            <a href="2018-01-31-uioPlus.html">
+                                <p>Introducing UI Options Plus (UIO+)</p>
+                            </a>
+                            <time class="floe-date" datetime="2018-01-31">January 31, 2018</time>
                         </li>
                         <li>
-                            worked with our partner, <a href="http://www.iskme.org/">ISKME</a>, to enable personalization of <a href="http://www.oercommons.org/">OER Commons</a>;
+                            <a href="2017-12-11-cast-cisl.html">
+                                <p>FLOE to Be a Part of the Center on Inclusive Software for Learning</p>
+                            </a>
+                            <time class="floe-date" datetime="2017-12-11">December 11, 2017</time>
                         </li>
                         <li>
-                            created an <a href="http://build.fluidproject.org/videoPlayer/videoPlayer/demos/Mammals.html">accessible, transformable, open source HTML5 video player</a>.
+                            <a href="2017-08-30-self-assessment-toolkit.html">
+                                <p>Self-Assessment Learning Toolkit</p>
+                            </a>
+                            <time class="floe-date" datetime="2017-08-30">August 30, 2017</time>
+                        </li>
+                        <li>
+                            <a href="2017-07-19-inclusive-science-lab.html">
+                                <p>Inclusive Science Lab</p>
+                            </a>
+                            <time class="floe-date" datetime="2017-07-19">July 19, 2017</time>
+                        </li>
+                        <li>
+                            <a href="2016-11-30-DEEP-conference-2016.html">
+                                <p>DEEP Conference 2016</p>
+                            </a>
+                            <time class="floe-date" datetime="2016-11-30">November 30, 2016</time>
+                        </li>
+                        <li>
+                            <a href="2016-11-30-IIDEX-2016.html">
+                                <p>IIDEX 2016</p>
+                            </a>
+                            <time class="floe-date" datetime="2016-11-30">November 30, 2016</time>
+                        </li>
+                        <li>
+                            <a href="2016-11-30-UN-international-day-of-persons-with-disabilities.html">
+                                <p>UN International Day of Persons with Disibilities</p>
+                            </a>
+                            <time class="floe-date" datetime="2016-11-30">November 30, 2016</time>
+                        </li>
+                        <li>
+                            <a href="2016-03-28-upcoming-talks-on-inclusive-digital-education.html">
+                                <p>Upcoming Talks on Inclusive Digital Education</p>
+                            </a>
+                            <time class="floe-date" datetime="2016-03-28">March 28, 2016</time>
+                        </li>
+                        <li>
+                            <a href="2015-11-16-phet.html">
+                                <p>Accessible Physics Simulations</p>
+                            </a>
+                            <time class="floe-date" datetime="2015-11-16">November 16, 2015</time>
+                        </li>
+                        <li>
+                            <a href="2015-05-08-workshop-business-advantages.html">
+                                <p>Workshop: The Business Advantages of Making Special the Norm</p>
+                            </a>
+                            <time class="floe-date" datetime="2015-05-08">May 8, 2015</time>
+                        </li>
+                        <li>
+                            <a href="2015-03-26-uio-wp-plugin.html">
+                                <p>Learner Options WordPress Plugin</p>
+                            </a>
+                            <time class="floe-date" datetime="2015-03-26">March 26, 2015</time>
+                        </li>
+                        <li>
+                            <a href="2015-01-13-oer-a11y-sprint.html">
+                                <p>OER Accessibility Sprint</p>
+                            </a>
+                            <time class="floe-date" datetime="2015-01-13">January 13, 2015</time>
+                        </li>
+                        <li>
+                            <a href="2014-09-30-lumen-learning.html">
+                                <p>Lumen Learning</p>
+                            </a>
+                            <time class="floe-date" datetime="2014-09-30">September 30, 2014</time>
+                        </li>
+                        <li>
+                            <a href="2014-04-21-metadata-search.html">
+                                <p>Metadata Search</p>
+                            </a>
+                            <time class="floe-date" datetime="2014-04-21">April 21, 2014</time>
+                        </li>
+                        <li>
+                            <a href="2014-04-15-floe-at-hci.html">
+                                <p>Floe at HCI</p>
+                            </a>
+                            <time class="floe-date" datetime="2014-04-15">April 15, 2014</time>
+                        </li>
+                        <li>
+                            <a href="2014-04-04-panel-presentation-a11y-in-oer.html">
+                                <p>Panel Presentation: Accessibility in OER</p>
+                            </a>
+                            <time class="floe-date" datetime="2014-04-04">April 4, 2014</time>
+                        </li>
+                        <li>
+                            <a href="2014-03-28-workshop-inclusive-technology-in-the-classroom.html">
+                                <p>Workshop: Inclusive Technology in the Classroom</p>
+                            </a>
+                            <time class="floe-date" datetime="2014-03-28">March 28, 2014</time>
+                        </li>
+                        <li>
+                            <a href="2014-03-24-floe-presentations-at-csun.html">
+                                <p>Floe Presentations at CSUN</p>
+                            </a>
+                            <time class="floe-date" datetime="2014-03-24">March 24, 2014</time>
+                        </li>
+                        <li>
+                            <a href="2014-03-18-metadata-editing-components.html">
+                                <p>Metadata Editing Components</p>
+                            </a>
+                            <time class="floe-date" datetime="2014-03-18">March 18, 2014</time>
+                        </li>
+                        <li>
+                            <a href="2014-03-10-harnessing-the-open-web.html">
+                                <p>Harnessing the Open Web</p>
+                            </a>
+                            <time class="floe-date" datetime="2014-03-10">March 10, 2014</time>
+                        </li>
+                        <li>
+                            <a href="2014-03-01-edupub2-workshop.html">
+                                <p>EDUPUB2 Workshop</p>
+                            </a>
+                            <time class="floe-date" datetime="2014-03-01">March 01, 2014</time>
+                        </li>
+                        <li>
+                            <a href="2013-11-12-inclusive-design-of-oers.html">
+                                <p>Inclusive Design of OERs</p>
+                            </a>
+                            <time class="floe-date" datetime="2013-11-12">November 12, 2013</time>
+                        </li>
+                        <li>
+                            <a href="2013-11-05-call-for-contributions-wai-accessible-e-learning-online-symposium.html">
+                                <p>Call For Contributions: WAI's Accessible E-Learning Online Symposium</p>
+                            </a>
+                            <time class="floe-date" datetime="2013-11-05">November 05, 2013</time>
+                        </li>
+                        <li>
+                            <a href="2013-03-05-fluid-releases-new-video-player.html">
+                                <p>Fluid Releases New Video Player</p>
+                            </a>
+                            <time class="floe-date" datetime="2013-03-05">March 05, 2013</time>
+                        </li>
+                        <li>
+                            <a href="2012-12-05-floe-deployment-feasibility-study-funded.html">
+                                <p>FLOE Deployment Feasibility Study Funded by US Dept. of Education</p>
+                            </a>
+                            <time class="floe-date" datetime="2012-12-05">December 05, 2012</time>
+                        </li>
+                        <li>
+                            <a href="2012-12-05-floe-leads-inclusive-design-workshop-at-big-ideas-fest.html">
+                                <p>FLOE leads Inclusive Design Workshop at Big Ideas Fest</p>
+                            </a>
+                            <time class="floe-date" datetime="2012-12-05">December 05, 2012</time>
+                        </li>
+                        <li>
+                            <a href="2012-10-24-jutta-zoomer-mag.html">
+                                <p>Jutta Treviranus Listed Among Zoomer Magazine’s Top 45 Over 45</p>
+                            </a>
+                            <time class="floe-date" datetime="2012-10-24">October 24, 2012</time>
+                        </li>
+                        <li>
+                            <a href="2012-10-19-plans-for-floe-year-three.html">
+                                <p>Plans For FLOE Year Three</p>
+                            </a>
+                            <time class="floe-date" datetime="2012-10-19">October 19, 2012</time>
+                        </li>
+                        <li>
+                            <a href="2012-10-15-floe-open-ed.html">
+                                <p>FLOE at Open Education Conference in Vancouver, B.C.</p>
+                            </a>
+                            <time class="floe-date" datetime="2012-10-15">October 15, 2012</time>
+                        </li>
+                        <li>
+                            <a href="2012-10-12-project-update.html">
+                                <p>Project Update</p>
+                            </a>
+                            <time class="floe-date" datetime="2012-10-12">October 12, 2012</time>
+                        </li>
+                        <li>
+                            <a href="2012-03-06-webinar-outside-in.html">
+                                <p>Webinar: Outside In - Achieving Our Goals by Designing for Diversity</p>
+                            </a>
+                            <time class="floe-date" datetime="2012-03-06">March 06, 2012</time>
+                        </li>
+                        <li>
+                            <a href="2012-02-28-updates-to-ildh.html">
+                                <p>Updates to the Inclusive Learning Design Handbook</p>
+                            </a>
+                            <time class="floe-date" datetime="2012-02-28">February 28, 2012</time>
                         </li>
                     </ul>
-                    <p>
-                        Moving forward, our plans include
-                    </p>
-                    <ul>
-                        <li>
-                            designing and developing tools and technologies to complete the end-to-end personalized learning experience, including matching of learning resources to preferences and refining matches based on learner feedback;
-                        </li>
-                        <li>
-                            working with ISKME to add new use cases and scenarios to the ILDH;
-                        </li>
-                        <li>
-                            developing mobile OER-editing capabilities for OER Commons;
-                        </li>
-                        <li>
-                            creating an accessible <a href="http://idpf.org/epub/30">ePub3</a> textbook exemplar.
-                        </li>
-                    </ul>
-                    <p>
-                        We look forward to providing more details about these initiatives in future posts.
-                    </p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>Floe at Open Education Conference in Vancouver, B.C.</h3>
-                    <p class="floe-date">October 15, 2012</p>
-                    <p>
-                        This week, Jutta Treviranus, Director of the <a href="http://idrc.ocadu.ca">Inclusive Design Research Centre</a> (IDRC) at <a href="http://ocadu.ca">OCAD University</a>, will be attending the <a href="http://openedconference.org/2012/">Open Education Conference</a> in Vancouver, B.C. (Oct. 16-18, 2012). She will be participating in the "Pitchfest" with Una Daly, Community College Outreach Director at the <a href="http://www.ocwconsortium.org/">Open Courseware Consortium</a>. Jutta will be speaking about the Floe project and about the inclusive design of educational resources.
-                    </p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>Project Update</h3>
-                    <p class="floe-date">October 12, 2012</p>
-                    <p>
-                        The Floe team has been involved in a number of activities recently:
-                    </p>
-                    <p>
-                        We have been collaborating with <a href="http://www.oercommons.org/">OER Commons</a> in several areas:
-                    </p>
-                    <ul>
-                        <li> helping to ensure that OER Commons is accessible to all learners and educators,</li>
-                        <li> integrating the Infusion <a href="http://wiki.fluidproject.org/display/fluid/%28Floe%29+User+Interface+Options+%28aka.+Learner+Options%29">User Interface Options component</a>
-                            into OER Commons, and</li>
-                        <li> contributing to the design and development of <a href="http://www.oercommons.org/open-author-about">Open Author</a>.</li>
-                    </ul>
-                    <p>
-                        Our development team is also working on a <a href="http://wiki.fluidproject.org/display/fluid/%28Floe%29%20video%20player%20mockups%20%28final%29">fully accessible, open source HTML5 video player</a>. You can try a demo here: <a href="http://build.fluidproject.org/videodemo/videoPlayer/demos/Mammals.html">http://build.fluidproject.org/videodemo/videoPlayer/demos/Mammals.html</a>
-                    </p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>Webinar: Outside In - Achieving Our Goals by Designing for Diversity. March 8, 2012</h3>
-                    <p class="floe-date">March 06, 2012</p>
-                    <p>
-                        Jutta Treviranus, Director of the Inclusive Design Research Centre at OCAD University, will be co-presenting a webinar as part of
-                        <a href="http://www.openeducationweek.org/">Open Education Week</a>
-                        . The aim of Open Education Week is to raise awareness of the open education movement and its impact on teaching and learning worldwide. The webinar, entitled "Outside In - Achieving Our Goals by Designing for Diversity," will discuss how processes that design open courseware resources and delivery platforms for diverse learners also address many other goals, including deeper learning, delivery on mobile platforms, discovery, internationalization, and many more.
-                    </p>
-                    <p>
-                        The webinar will be presented Thursday, March 8, 2012 at 22:00 GMT.
-                    </p>
-                    <p>
-                        For more information about the webinar, visit
-                        <a href="http://www.openeducationweek.org/webinars/">the webinar page on the Open Education Week website</a>
-                        .
-                    </p>
-                </div>
-
-                <div class="floe-news-item">
-                    <h3>Updates to the Inclusive Learning Design Handbook</h3>
-                    <p class="floe-date">February 28, 2012</p>
-                    <p>
-                        New content has been added to the
-                        <a href="http://handbook.floeproject.org">Inclusive Learning Design Handbook</a>, including
-                    </p>
-                    <ul>
-                        <li> overviews of inclusive learning and accessibility principles,</li>
-                        <li> techniques for designing video and audio content and players to be inclusive,</li>
-                        <li> guidelines for authoring content that is inclusive</li>
-                        <li> and much more!</li>
-                    </ul>
-                    <p>
-                        The Handbook is a free Open Educational Resource (OER) designed to assist teachers, content creators, Web developers, and others in creating adaptable and personalizable content that can accommodate a diversity of learning styles and individual needs. Contributions are welcome and encouraged from all.
-                    </p>
-                </div>
+                </nav>
             </div>
 
             <footer class="floe-footer">

@@ -45,8 +45,8 @@
             -->
             <div class="fl-panelBar fl-panelBar-smallScreen">
                 <span class="fl-prefsEditor-buttons">
-                    <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
-                    <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                    <button class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                    <button class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
                 </span>
             </div>
 
@@ -59,8 +59,8 @@
             -->
             <div class="fl-panelBar fl-panelBar-wideScreen">
                 <span class="fl-prefsEditor-buttons">
-                    <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
-                    <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                    <button class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                    <button class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
                 </span>
             </div>
         </div>
@@ -80,12 +80,12 @@
             </header>
 
             <div class="flc-toc-tocContainer toc"> </div>
-            <div class="floe-content floe-news-item">
+            <article class="floe-content floe-news-item">
                 <h2> News </h2>
 
                 <!-- BEGIN markup for news item -->
                 <h3>News Item Title</h3>
-                <p class="floe-date">Date (Month Day, Year)</p>
+                <time class="floe-date" datetime="YYYY-MM-DD">Date (Month Day, Year)<time>
                 <p>
                     Paragraph 1.
                 </p>
@@ -95,10 +95,10 @@
                 <p>
                     etc.
                 </p>
-            </div>
+            </article>
          <!-- END markup for news item -->
 
-            <div class="floe-footer">
+            <footer class="floe-footer">
                 <div class="floe-content row">
                     <div class="columns large-6 small-12">
                         <div>
@@ -127,7 +127,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </footer>
         </div>
 
     </body>
