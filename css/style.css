@@ -334,12 +334,13 @@ body {
     padding-bottom: 1em;
 }
 
-.floe-resources .floe-resources-showhide a {
+.floe-resources .floe-resources-showhide button {
     border-bottom: solid 0.2em #42abe0;
+    border-radius: 0;
     color: #000000;
 }
 
-.floe-resources .floe-resources-showhide a:hover {
+.floe-resources .floe-resources-showhide button:hover {
     background: none;
     border-bottom: solid 0.2em #0379AF;
 }

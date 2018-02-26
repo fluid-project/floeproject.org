@@ -83,12 +83,12 @@
                 <div class="flc-toc-tocContainer toc"> </div>
 
                 <div class="floe-resources">
-                <div class="floe-resources-showhide"><a href="#">expand all</a>&nbsp;&nbsp;&nbsp;<a href="#">hide all</a></div>
+                <div class="floe-resources-showhide"><button href="#expand" class="floe-resources-show">expand all</button>&nbsp;&nbsp;<button href="#expand" class="floe-resources-hide">hide all</button></div>
                     <!-- TODO: Remove duplication by making this a list of links to the articles -->
                     <ul class="floe-resources-main">
                         <li>
                             <div class="floe-resources-tab">
-                                <h2 class="floe-resources-theme"><a href="#">&#9654; Learning to Learn</a></h2>
+                                <h2 class="floe-resources-theme"><a href="#" role="button" class="floe-resources-toggle" aria-label="open category">&#9654; Learning to Learn</a></h2>
                             </div>
                             <ul class="floe-resources-content">
                                 <li>
@@ -151,5 +151,26 @@
                 </div>
             </footer>
         </div>
+
+        <script>
+            $( ".floe-resources-show" ).click(function() {
+              $( ".floe-resources-content" ).show();
+            });
+            $( ".floe-resources-hide" ).click(function() {
+              $( ".floe-resources-content" ).hide();
+            });
+            $( " .floe-resources-content")
+
+$('.widget .widget-title').click(function() {
+    $(this)
+        .addClass("open")
+        .parent().find('.widget-content').show('slow', function() {
+            // Animation complete.
+        });
+});
+            $( ".floe-resources-toggle" ).click(function() {
+              $( "li" ).toggle();
+            });
+        </script>
     </body>
 </html>
