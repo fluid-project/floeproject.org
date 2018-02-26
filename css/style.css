@@ -328,6 +328,68 @@ body {
     min-height:3em;
 }
 
+/* Floe Resources page */
+
+.floe-resources .floe-resources-showhide {
+    padding-bottom: 1em;
+}
+
+.floe-resources .floe-resources-showhide a {
+    border-bottom: solid 0.2em #42abe0;
+    color: #000000;
+}
+
+.floe-resources .floe-resources-showhide a:hover {
+    background: none;
+    border-bottom: solid 0.2em #0379AF;
+}
+
+.floe-resources-main {
+    list-style: none;
+    padding-left: 0;
+}
+
+.floe-resources-theme h2 {
+    font-size: 0.5em;
+}
+
+.floe-resources .floe-resources-tab a {
+    color: #000000;
+    border-bottom: none;
+    font-family: "Helvetica Neue",helvetica,Arial,sans-serif;
+    font-size: 0.55em;
+    background-color: #fccd00;
+    padding: 0.2em;
+    display: block;
+}
+
+.floe-resources .floe-resources-tab a:hover {
+    background-color: #000000;
+    color: #fccd00;
+}
+
+.floe-resources-content {
+    list-style-type: none;
+    padding: 0.2em 0em 2em 2em;
+}
+
+.floe-resources-content li {
+    padding-bottom: 0.5em;
+}
+
+.floe-resources .floe-resources-content a:first-child {
+    font-weight: bold;
+}
+
+.floe-resources .floe-resources-content a {
+    border-bottom: none;
+}
+
+.floe-resources .floe-resources-content a:hover {
+    background: none;
+    color: #004357;
+}
+
 /* News and News Items */
 .floe-news-item {
     margin-bottom: 2em;
