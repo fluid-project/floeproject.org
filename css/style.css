@@ -350,11 +350,7 @@ body {
     padding-left: 0;
 }
 
-.floe-resources-theme h2 {
-    font-size: 0.5em;
-}
-
-.floe-resources .floe-resources-tab a {
+.floe-resources .floe-resources-category a {
     color: #000000;
     border-bottom: none;
     font-family: "Helvetica Neue",helvetica,Arial,sans-serif;
@@ -364,18 +360,23 @@ body {
     display: block;
 }
 
-.floe-resources .floe-resources-tab a:hover {
+.floe-resources .floe-resources-category a:hover {
     background-color: #000000;
     color: #fccd00;
 }
 
 .floe-resources-content {
     list-style-type: none;
-    padding: 0.2em 0em 2em 2em;
+    padding: 0.2em 0em 0em 2em;
+    display: none;
 }
 
 .floe-resources-content li {
-    padding-bottom: 0.5em;
+    padding-bottom: 0.5em; 
+}
+
+.floe-resources-content-show {
+    display: block;
 }
 
 .floe-resources .floe-resources-content a:first-child {
@@ -390,6 +391,7 @@ body {
     background: none;
     color: #004357;
 }
+
 
 /* News and News Items */
 .floe-news-item {
