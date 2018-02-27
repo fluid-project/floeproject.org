@@ -350,19 +350,28 @@ body {
     padding-left: 0;
 }
 
-.floe-resources .floe-resources-category a {
+.floe-resources .floe-resource-title {
     color: #000000;
-    border-bottom: none;
     font-family: "Helvetica Neue",helvetica,Arial,sans-serif;
-    font-size: 0.55em;
-    background-color: #E6E6E6;
-    padding: 0.2em;
-    display: block;
+    font-size: 1.5em;
 }
 
-.floe-resources .floe-resources-category a:hover {
+.floe-resources .floe-resources-category button {
+    color: #000000;
+    background-color: #E6E6E6;
+    width: 100%;
+    text-align: left;
+    padding: 0.2em;
+}
+
+.floe-resources .floe-resources-category button:hover {
+    background-color: #fccd00;
+    color: #000000;
+}
+
+.floe-resources-category-show button {
     background-color: #000000;
-    color: #fccd00;
+    color: #fccd00; 
 }
 
 .floe-resources-content {
@@ -371,7 +380,11 @@ body {
     display: none;
 }
 
-.floe-resources-content li {
+.floe-resources-content p {
+    padding-bottom: 0.3em; 
+}
+
+.floe-resources-content ul li {
     padding-bottom: 0.5em; 
 }
 
