@@ -29,6 +29,7 @@
 
         <script type="text/javascript" src="lib/infusion/infusion-custom.js"></script>
         <script type="text/javascript" src="js/floe.js"></script>
+        <script type="text/javascript" src="js/resources.js"></script>
     </head>
     <body>
         <script type="text/javascript">
@@ -151,26 +152,5 @@
                 </div>
             </footer>
         </div>
-
-        <script>
-            $( ".floe-resources-show" ).click(function() {
-              $( ".floe-resources-content" ).show();
-            });
-            $( ".floe-resources-hide" ).click(function() {
-              $( ".floe-resources-content" ).hide();
-            });
-            $( " .floe-resources-content")
-
-$('.widget .widget-title').click(function() {
-    $(this)
-        .addClass("open")
-        .parent().find('.widget-content').show('slow', function() {
-            // Animation complete.
-        });
-});
-            $( ".floe-resources-toggle" ).click(function() {
-              $( "li" ).toggle();
-            });
-        </script>
     </body>
 </html>
