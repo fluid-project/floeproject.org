@@ -392,7 +392,7 @@ body {
     display: block;
 }
 
-.floe-resources .floe-resources-content a:first-child {
+.floe-resources .floe-resources-content p>a {
     font-weight: bold;
 }
 

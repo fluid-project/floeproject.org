@@ -2,7 +2,6 @@ $(document).ready(function(){
 
   // Expand all
   $( '.floe-resources-show' ).click(function() {
-      $('.arrow').text('\u25BC');
       $( '.floe-resources-toggle' )
         .attr('aria-expanded', true)
         .closest('.floe-resources-category')
@@ -12,7 +11,6 @@ $(document).ready(function(){
 
   // // Hide all
     $( '.floe-resources-hide' ).click(function() {
-      $( '.arrow' ).text('\u25B6');
       $( '.floe-resources-toggle' )
         .attr('aria-expanded', false)
         .closest('.floe-resources-category')
