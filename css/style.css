@@ -84,7 +84,6 @@ body {
     color: #000000;
     text-decoration: none;
     line-height: 0.8em;
-    display: block;
 }
 
 .floe-header .floe-header-logo:before {
@@ -100,27 +99,25 @@ body {
     display:block;
 }
 
-.floe-header nav {
-    float: right;
-}
-
-.floe-header nav ul li {
+.floe .floe-nav ul li {
+    list-style: none;
     font-weight: bold;
-    text-transform: uppercase;
     display: inline;
     padding: 0.5em;
 }
 
-.floe-header nav ul li.active {
+.floe .floe-nav ul li.active {
     background-color: #FFFFFF;
     border: 2px solid #FFCB00;
 }
 
-.floe-header nav ul li a {
+.floe .floe-nav ul li a {
+    color: #000000;
+    text-decoration: none;
 }
 
-.floe-header nav ul li a:hover,
-.floe-header nav ul li a:focus {
+.floe .floe-nav ul li a:hover,
+.floe .floe-nav ul li a:focus {
     background-color: #FFCB00;
 }
 
