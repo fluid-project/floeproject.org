@@ -371,6 +371,10 @@ body {
     color: #fccd00; 
 }
 
+.arrow::before {
+    content: "\25B6";
+}
+
 .floe-resources-content {
     list-style-type: none;
     padding: 0.9em 0 0.9em 2em;
