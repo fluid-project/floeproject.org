@@ -96,7 +96,7 @@ body {
 .floe-header-tagline {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.4em;
-    display:block;
+    display: block;
 }
 
 .floe .floe-nav ul li {
@@ -373,24 +373,35 @@ body {
 
 .floe-resources-content {
     list-style-type: none;
-    padding: 0.2em 0em 0em 2em;
+    padding: 0.9em 0 0.9em 2em;
     display: none;
 }
 
-.floe-resources-content p {
-    padding-bottom: 0.3em; 
+.floe-resources-content ul {
+    padding-bottom: 0.5em; 
 }
 
-.floe-resources-content ul li {
-    padding-bottom: 0.5em; 
+.floe-resources-content li {
+    padding: 0.5em 0 0.5em 0; 
+    font-size: 1.2em;
 }
 
 .floe-resources-content-show {
     display: block;
 }
 
-.floe-resources .floe-resources-content p>a {
+.floe-resources-items {
+    list-style-type: none;
+    padding: 0.2em 0;
+}
+
+.floe-resources-items > li:first-child {
     font-weight: bold;
+}
+
+.floe-resources-content .floe-resources-items li {
+    padding: 0.2em;
+    font-size: 0.9em;
 }
 
 .floe-resources .floe-resources-content a {
