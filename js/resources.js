@@ -5,7 +5,7 @@ $(document).ready(function(){
       $( '.floe-resources-toggle' )
         .attr('aria-expanded', true)
         .closest('.floe-resources-category')
-        .find('ul')
+        .find('div')
         .toggleClass('floe-resources-content-show', true);
     });
 
@@ -14,7 +14,7 @@ $(document).ready(function(){
       $( '.floe-resources-toggle' )
         .attr('aria-expanded', false)
         .closest('.floe-resources-category')
-        .find('ul')
+        .find('div')
         .toggleClass('floe-resources-content-show', false);
     });
 
@@ -24,7 +24,7 @@ $(document).ready(function(){
     var state = target.attr('aria-expanded') === 'true' ? true : false;
     target.attr('aria-expanded', !state)
       .closest('.floe-resources-category')
-      .find('ul')
+      .find('div')
       .toggleClass('floe-resources-content-show', !state);
       evt.preventDefault();
   });

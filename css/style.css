@@ -96,7 +96,7 @@ body {
 .floe-header-tagline {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.4em;
-    display:block;
+    display: block;
 }
 
 .floe .floe-nav ul li {
@@ -371,26 +371,49 @@ body {
     color: #fccd00; 
 }
 
+.arrow::before {
+    content: "\25B6";
+}
+
 .floe-resources-content {
-    list-style-type: none;
-    padding: 0.2em 0em 0em 2em;
+    padding: 0 0 1.5em 2em;
     display: none;
 }
 
 .floe-resources-content p {
-    padding-bottom: 0.3em; 
+    font-size: 1.2em;
+    padding: 0.5em 0;
+    margin: 0;
 }
 
-.floe-resources-content ul li {
-    padding-bottom: 0.5em; 
+.floe-resources-content li p {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em; 
+    margin: 0;
+    font-size: 1.2em;
 }
 
 .floe-resources-content-show {
     display: block;
 }
 
-.floe-resources .floe-resources-content p>a {
+.floe-resources-items {
+    list-style-type: none;
+    padding: 0.5em 0;
+}
+
+.floe-resources-content .floe-resources-items li {
+    padding: 0.7em 0;
+}
+
+.floe-resources-content .floe-resources-items li>a{
+    font-size: 1em;
     font-weight: bold;
+}
+
+.floe-resources-content .floe-resources-items p {
+    font-size: 1em;
+    padding: 0.4em 0;
 }
 
 .floe-resources .floe-resources-content a {
