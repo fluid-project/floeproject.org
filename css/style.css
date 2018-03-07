@@ -393,7 +393,7 @@ body {
     font-size: 1.2em;
 }
 
-.floe-resources-content-show {
+.floe-resources-content-show .floe-resources-content {
     display: block;
 }
 

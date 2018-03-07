@@ -4,7 +4,6 @@ $(document).ready(function(){
     $( elm )
         .attr('aria-expanded', state)
         .closest('.floe-resources-category')
-        .find('div')
         .toggleClass('floe-resources-content-show', state);
   }
 
