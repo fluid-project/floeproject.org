@@ -9,17 +9,17 @@ $(document).ready(function(){
   }
 
   // Expand all
-  $( '.floe-resources-show' ).click(function() {
-      toggleAll('.floe-resources-toggle', true);
+  $( '.flc-resources-showAll' ).click(function() {
+      toggleAll('.flc-resources-toggleItem', true);
     });
 
   // Hide all
-  $( '.floe-resources-hide' ).click(function() {
-      toggleAll('.floe-resources-toggle', false);
+  $( '.flc-resources-hideAll' ).click(function() {
+      toggleAll('.flc-resources-toggleItem', false);
     });
 
   // Toggle each category to show content
-  $('.floe-resources-toggle').click(function(evt) {
+  $('.flc-resources-toggleItem').click(function(evt) {
     var target = $(evt.delegateTarget);
     var state = target.attr('aria-expanded') === 'true' ? true : false;
     toggleAll(target, !state);
