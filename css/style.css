@@ -327,17 +327,17 @@ body {
 
 /* Floe Resources page */
 
-.floe-resources .floe-resources-showhide {
+.floe-resources .floe-resources-buttons {
     padding-bottom: 1em;
 }
 
-.floe-resources .floe-resources-showhide button {
+.floe-resources .floe-resources-buttons button {
     border-bottom: solid 0.2em #42abe0;
     border-radius: 0;
     color: #000000;
 }
 
-.floe-resources .floe-resources-showhide button:hover {
+.floe-resources .floe-resources-buttons button:hover {
     background: none;
     border-bottom: solid 0.2em #0379AF;
 }
@@ -393,7 +393,7 @@ body {
     font-size: 1.2em;
 }
 
-.floe-resources-content-show {
+.floe-resources-content-show .floe-resources-content {
     display: block;
 }
 
