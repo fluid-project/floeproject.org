@@ -1,5 +1,4 @@
 /*
-Copyright 2014 OCAD University
 Copyright 2018 OCAD University
 
 Licensed under the Educational Community License (ECL), Version 2.0 or the New
@@ -18,7 +17,7 @@ $(document).ready(function () {
 
     /** Shows or hides the contents of a category.
       * @param elm {String} The element (usually a class name) whose contents will be toggled
-      * @param state {Boolean} The aria-expanded state will change each time the element is toggled
+      * @param state {Boolean} True to toggle open, false to toggle closed
       */
     var toggleCategory = function (elm, state) {
         $(elm)
@@ -27,12 +26,12 @@ $(document).ready(function () {
             .toggleClass('floe-resources-content-show', state);
     };
 
-    /** When "expand all" button is clicked, expands all categories to show their contents. */
+    /** When "show all" button is clicked, expands all categories to show their contents. */
     $('.flc-resources-showAll').click(function () {
         toggleCategory('.flc-resources-toggleItem', true);
     });
 
-    /** When "show all" button is clicked, collapses all categories to hide their contents. */
+    /** When "hide all" button is clicked, collapses all categories to hide their contents. */
     $('.flc-resources-hideAll').click(function () {
         toggleCategory('.flc-resources-toggleItem', false);
     });
