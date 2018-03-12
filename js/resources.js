@@ -16,7 +16,7 @@ $(document).ready(function () {
     'use strict';
 
     /** Shows or hides the contents of a category.
-      * @param elm {String} The element (usually a class name) whose contents will be toggled
+      * @param elm {String} The selector of an element whose contents will be toggled
       * @param state {Boolean} True to toggle open, false to toggle closed
       */
     var toggleCategory = function (elm, state) {
@@ -40,9 +40,9 @@ $(document).ready(function () {
       * @param (evt) A jQuery event, happens each time the object is clicked
       */
     $('.flc-resources-toggleItem').click(function (evt) {
-        var target = $(evt.delegateTarget); // Assign the event as the target to be acted upon
+        var target = $(evt.delegateTarget);
         var state = target.attr('aria-expanded') === 'true' ? true : false;
-        toggleCategory(target, !state); // Pass in target as the element to be toggled
+        toggleCategory(target, !state);
         evt.preventDefault();
     });
 
