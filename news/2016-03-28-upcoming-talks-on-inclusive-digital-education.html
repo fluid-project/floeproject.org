@@ -9,9 +9,6 @@
         <!-- Foundation flex grid -->
         <link href="../lib/foundation/foundation.css" rel="stylesheet" type="text/css" />
 
-        <link href="../css/fss/fss-reset.css" rel="stylesheet" type="text/css"/>
-        <link href="../css/fss/fss-layout.css" rel="stylesheet" type="text/css"/>
-        <link href="../css/fss/fss-text.css" rel="stylesheet" type="text/css"/>
         <link href="../css/style.css" media="all" rel="stylesheet" type="text/css"/>
         <link href="../css/print.css" media="print" rel="stylesheet" type="text/css"/>
 
@@ -48,8 +45,8 @@
             -->
             <div class="fl-panelBar fl-panelBar-smallScreen">
                 <span class="fl-prefsEditor-buttons">
-                    <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
-                    <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                    <button class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                    <button class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
                 </span>
             </div>
 
@@ -62,8 +59,8 @@
             -->
             <div class="fl-panelBar fl-panelBar-wideScreen">
                 <span class="fl-prefsEditor-buttons">
-                    <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
-                    <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                    <button class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                    <button class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
                 </span>
             </div>
         </div>
@@ -74,20 +71,32 @@
         </div>
 
         <div class="floe">
-            <header class="floe-header">
-                <h1><a rel="home" title="Home" href="../index.html" class="floe-header-logo">floe
-                    <span class="floe-header-tagline">
-                        flexible learning for open education
-                    </span></a>
-                </h1>
-            </header>
+            <div class="row">
+                <div class="columns small-12 medium-9 large-9">
+                    <header class="floe-header">
+                        <h1><a rel="home" title="Home" href="../index.html" class="floe-header-logo">floe
+                            <span class="floe-header-tagline">
+                                flexible learning for open education
+                            </span></a>
+                        </h1>
+                    </header>
+                </div>
+                <div class="columns small-12 medium-3 large-3 align-self-bottom">
+                    <nav class="floe-nav">
+                        <ul>
+                            <li><a href="index.html">News</a></li>
+                            <li><a href="../resources.html">Resources</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
 
             <div class="flc-toc-tocContainer toc"> </div>
-            <div class="floe-content floe-news-item">
+            <article class="floe-content floe-news-item">
                 <h2> News </h2>
 
                 <h3>Upcoming Talks on Inclusive Digital Education</h3>
-                <p class="floe-date">March 28, 2016</p>
+                <time class="floe-date" datetime="2016-03-28">March 28, 2016</time>
 
                 <p>IDRC Director Jutta Treviranus will be speaking at the following conferences on topics crossing digital inclusion in education, to rethinking the role of technology in our institutions.</p>
 
@@ -105,7 +114,7 @@
                 </ul>
                 <p>May 2016:</p>
                 <ul>
-                	<li>May 12 to 14 - <a href="http://universalinclusion.unito.it/en/">UNIversal Inclusion Rights and Opportunities for Persons with Disabilities in the Academic Conext</a>
+                	<li>May 12 to 14 - <a href="https://www.unito.it/gallerie/universal-inclusion-rights-and-opportunities-persons-disabilities-academic-context">UNIversal Inclusion: Rights and Opportunities for Persons with Disabilities in the Academic Context</a>
                         <ul>
                         	<li>The information about this conference is also available in this accessible PDF: <a href="http://en.unito.it/sites/sten/files/universal_inclusion.pdf">http://en.unito.it/sites/sten/files/universal_inclusion.pdf</a></li>
                         </ul>
@@ -113,9 +122,9 @@
                 	<li>May 26 - <a href="http://www.thinkconference.ca/">Think Conference</a></li>
                 </ul>
                 <p>Visit the conference websites for individual times and details.</p>
-            </div>
+            </article>
 
-            <div class="floe-footer">
+            <footer class="floe-footer">
                 <div class="floe-content row">
                     <div class="columns large-6 small-12">
                         <div>
@@ -144,7 +153,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </footer>
         </div>
 
     </body>

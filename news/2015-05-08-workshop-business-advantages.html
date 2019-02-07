@@ -9,9 +9,6 @@
         <!-- Foundation flex grid -->
         <link href="../lib/foundation/foundation.css" rel="stylesheet" type="text/css" />
 
-        <link href="../css/fss/fss-reset.css" rel="stylesheet" type="text/css"/>
-        <link href="../css/fss/fss-layout.css" rel="stylesheet" type="text/css"/>
-        <link href="../css/fss/fss-text.css" rel="stylesheet" type="text/css"/>
         <link href="../css/style.css" media="all" rel="stylesheet" type="text/css"/>
         <link href="../css/print.css" media="print" rel="stylesheet" type="text/css"/>
 
@@ -48,8 +45,8 @@
             -->
             <div class="fl-panelBar fl-panelBar-smallScreen">
                 <span class="fl-prefsEditor-buttons">
-                    <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
-                    <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                    <button class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                    <button class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
                 </span>
             </div>
 
@@ -62,8 +59,8 @@
             -->
             <div class="fl-panelBar fl-panelBar-wideScreen">
                 <span class="fl-prefsEditor-buttons">
-                    <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
-                    <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                    <button class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                    <button class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
                 </span>
             </div>
         </div>
@@ -74,20 +71,32 @@
         </div>
 
         <div class="floe">
-            <header class="floe-header">
-                <h1><a rel="home" title="Home" href="../index.html" class="floe-header-logo">floe
-                    <span class="floe-header-tagline">
-                        flexible learning for open education
-                    </span></a>
-                </h1>
-            </header>
+            <div class="row">
+                <div class="columns small-12 medium-9 large-9">
+                    <header class="floe-header">
+                        <h1><a rel="home" title="Home" href="../index.html" class="floe-header-logo">floe
+                            <span class="floe-header-tagline">
+                                flexible learning for open education
+                            </span></a>
+                        </h1>
+                    </header>
+                </div>
+                <div class="columns small-12 medium-3 large-3 align-self-bottom">
+                    <nav class="floe-nav">
+                        <ul>
+                            <li><a href="index.html">News</a></li>
+                            <li><a href="../resources.html">Resources</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
 
             <div class="flc-toc-tocContainer toc"> </div>
-            <div class="floe-content floe-news-item">
+            <article class="floe-content floe-news-item">
                 <h2> News </h2>
 
                 <h3>Workshop: The Business Advantages of Making Special the Norm</h3>
-                <p class="floe-date">May 8, 2015</p>
+                <time class="floe-date" datetime="2015-05-08">May 8, 2015</time>
                 <p>The <a href="http://www.viscardicenter.org/services/nbdc/">National Business and
                     Disability Council (NBDC)</a> at <a href="http://www.viscardicenter.org/">The Viscardi Center</a>
                      is offering an educational online workshop to focus on designing for diversity.</p>
@@ -111,9 +120,11 @@
                     <a href="http://idrc.ocadu.ca/">Inclusive Design Research Centre (IDRC)</a>
                     and professor at <a href="http://ocadu.ca">OCAD University</a> in Toronto.</p>
                 <p>For more information or to register, visit <a href="http://www.viscardicenter.org/news-events/events/nbdc-distance-learning.html">http://www.viscardicenter.org/news-events/events/nbdc-distance-learning.html</a>.</p>
-            </div>
 
-            <div class="floe-footer">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cjXKHzcQypw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </article>
+
+            <footer class="floe-footer">
                 <div class="floe-content row">
                     <div class="columns large-6 small-12">
                         <div>
@@ -142,7 +153,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </footer>
         </div>
 
     </body>

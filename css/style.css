@@ -12,7 +12,6 @@
 }
 
 * {
-    margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
@@ -41,7 +40,6 @@ body {
     background: #fafafa;
     line-height: 1.2;
 }
-
 
 #skip a,
 #skip a:hover,
@@ -86,7 +84,6 @@ body {
     color: #000000;
     text-decoration: none;
     line-height: 0.8em;
-    display: block;
 }
 
 .floe-header .floe-header-logo:before {
@@ -99,30 +96,28 @@ body {
 .floe-header-tagline {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.4em;
-    display:block;
+    display: block;
 }
 
-.floe-header nav {
-    float: right;
-}
-
-.floe-header nav ul li {
+.floe .floe-nav ul li {
+    list-style: none;
     font-weight: bold;
-    text-transform: uppercase;
     display: inline;
     padding: 0.5em;
 }
 
-.floe-header nav ul li.active {
+.floe .floe-nav ul li.active {
     background-color: #FFFFFF;
     border: 2px solid #FFCB00;
 }
 
-.floe-header nav ul li a {
+.floe .floe-nav ul li a {
+    color: #000000;
+    text-decoration: none;
 }
 
-.floe-header nav ul li a:hover,
-.floe-header nav ul li a:focus {
+.floe .floe-nav ul li a:hover,
+.floe .floe-nav ul li a:focus {
     background-color: #FFCB00;
 }
 
@@ -330,6 +325,107 @@ body {
     min-height:3em;
 }
 
+/* Floe Resources page */
+
+.floe-resources .floe-resources-buttons {
+    padding-bottom: 1em;
+}
+
+.floe-resources .floe-resources-buttons button {
+    border-bottom: solid 0.2em #42abe0;
+    border-radius: 0;
+    color: #000000;
+}
+
+.floe-resources .floe-resources-buttons button:hover {
+    background: none;
+    border-bottom: solid 0.2em #0379AF;
+}
+
+.floe-resources-main {
+    list-style: none;
+    padding-left: 0;
+}
+
+.floe-resources .floe-resource-title {
+    color: #000000;
+    font-family: "Helvetica Neue",helvetica,Arial,sans-serif;
+    font-size: 1.5em;
+}
+
+.floe-resources .floe-resources-category button {
+    color: #000000;
+    background-color: #E6E6E6;
+    width: 100%;
+    text-align: left;
+    padding: 0.2em;
+}
+
+.floe-resources .floe-resources-category button:hover {
+    background-color: #fccd00;
+    color: #000000;
+}
+
+.floe-resources-category-show button {
+    background-color: #000000;
+    color: #fccd00; 
+}
+
+.arrow::before {
+    content: "\25B6";
+}
+
+.floe-resources-content {
+    padding: 0 0 1.5em 2em;
+    display: none;
+}
+
+.floe-resources-content p {
+    font-size: 1.2em;
+    padding: 0.5em 0;
+    margin: 0;
+}
+
+.floe-resources-content li p {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em; 
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.floe-resources-content-show .floe-resources-content {
+    display: block;
+}
+
+.floe-resources-items {
+    list-style-type: none;
+    padding: 0.5em 0;
+}
+
+.floe-resources-content .floe-resources-items li {
+    padding: 0.7em 0;
+}
+
+.floe-resources-content .floe-resources-items li>a{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.floe-resources-content .floe-resources-items p {
+    font-size: 1em;
+    padding: 0.4em 0;
+}
+
+.floe-resources .floe-resources-content a {
+    border-bottom: none;
+}
+
+.floe-resources .floe-resources-content a:hover {
+    background: none;
+    color: #004357;
+}
+
+
 /* News and News Items */
 .floe-news-item {
     margin-bottom: 2em;
@@ -342,6 +438,30 @@ body {
 
 .floe-news-item h3 {
     background-color: #efefef;
+}
+
+.floe-news-item img {
+    padding-top: 1.7em;
+    padding-bottom: 0.25em;
+}
+
+.floe-news-archive p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.floe-news-archive ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.floe-news-archive li:nth-child(odd) {
+    margin: 1.5rem auto;
+}
+
+figcaption details p {
+   margin-top: 1rem;
 }
 
 /* "Floe Story" page */

@@ -2,22 +2,6 @@
  * General prefs editor styling used to apply preferences
  * !important is used for all styles to ensure that Preferences Framework's enactors are able to override the page's default styles.
  */
-.fl-font-arial,
-.fl-font-arial * {
-  font-family: "Arial" !important;
-}
-.fl-font-verdana,
-.fl-font-verdana * {
-  font-family: "Verdana" !important;
-}
-.fl-font-times,
-.fl-font-times * {
-  font-family: Georgia, Times, "Times New Roman", serif !important;
-}
-.fl-font-comic-sans,
-.fl-font-comic-sans * {
-  font-family: "Comic Sans MS", sans-serif !important;
-}
 .fl-input-enhanced button,
 .fl-input-enhanced input,
 .fl-input-enhanced select,
@@ -1064,4 +1048,20 @@
   margin-right: -0.1em;
   margin-bottom: -0.1em;
   margin-left: -0.1em;
+}
+.fl-font-arial:not([class*='icon']),
+.fl-font-arial *:not([class*='icon']) {
+  font-family: Arial !important;
+}
+.fl-font-verdana:not([class*='icon']),
+.fl-font-verdana *:not([class*='icon']) {
+  font-family: Verdana !important;
+}
+.fl-font-times:not([class*='icon']),
+.fl-font-times *:not([class*='icon']) {
+  font-family: Georgia, Times, Times New Roman, serif !important;
+}
+.fl-font-comic-sans:not([class*='icon']),
+.fl-font-comic-sans *:not([class*='icon']) {
+  font-family: Comic Sans MS, sans-serif !important;
 }

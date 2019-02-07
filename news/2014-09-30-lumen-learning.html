@@ -9,9 +9,6 @@
         <!-- Foundation flex grid -->
         <link href="../lib/foundation/foundation.css" rel="stylesheet" type="text/css" />
 
-        <link href="../css/fss/fss-reset.css" rel="stylesheet" type="text/css"/>
-        <link href="../css/fss/fss-layout.css" rel="stylesheet" type="text/css"/>
-        <link href="../css/fss/fss-text.css" rel="stylesheet" type="text/css"/>
         <link href="../css/style.css" media="all" rel="stylesheet" type="text/css"/>
         <link href="../css/print.css" media="print" rel="stylesheet" type="text/css"/>
 
@@ -48,8 +45,8 @@
             -->
             <div class="fl-panelBar fl-panelBar-smallScreen">
                 <span class="fl-prefsEditor-buttons">
-                    <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
-                    <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                    <button class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                    <button class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
                 </span>
             </div>
 
@@ -62,8 +59,8 @@
             -->
             <div class="fl-panelBar fl-panelBar-wideScreen">
                 <span class="fl-prefsEditor-buttons">
-                    <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
-                    <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                    <button class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                    <button class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
                 </span>
             </div>
         </div>
@@ -74,22 +71,34 @@
         </div>
 
         <div class="floe">
-            <header class="floe-header">
-                <h1><a rel="home" title="Home" href="../index.html" class="floe-header-logo">floe
-                    <span class="floe-header-tagline">
-                        flexible learning for open education
-                    </span></a>
-                </h1>
-            </header>
+            <div class="row">
+                <div class="columns small-12 medium-9 large-9">
+                    <header class="floe-header">
+                        <h1><a rel="home" title="Home" href="../index.html" class="floe-header-logo">floe
+                            <span class="floe-header-tagline">
+                                flexible learning for open education
+                            </span></a>
+                        </h1>
+                    </header>
+                </div>
+                <div class="columns small-12 medium-3 large-3 align-self-bottom">
+                    <nav class="floe-nav">
+                        <ul>
+                            <li><a href="index.html">News</a></li>
+                            <li><a href="../resources.html">Resources</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
 
             <div class="flc-toc-tocContainer toc"> </div>
-            <div class="floe-content floe-news-item">
+            <article class="floe-content floe-news-item">
                 <h2> News </h2>
 
                 <h3>Lumen Learning</h3>
-                <p class="floe-date">September 30, 2014</p>
+                <time class="floe-date" datetime="2014-09-30">September 30, 2014</time>
                 <p><a href="http://lumenlearning.com/">Lumen Learning</a> has been selected to receive funding as part of the
-                    <a href="http://www.gatesfoundation.org/Media-Center/Press-Releases">Next Generation Courseware Challenge</a>,
+                    <a href="https://www.gatesfoundation.org/Media-Center/Press-Releases/2014/09/Gates-Foundation-Announces-Finalists-for-$20-Million-in-Digital-Courseware-Investments">Next Generation Courseware Challenge</a>,
                     a $20 million grant competition from the <a href="http://www.gatesfoundation.org/">Bill & Melinda Gates Foundation</a>
                     to build exemplary, affordable digital course materials that improve student success among low-income
                     and disadvantaged learners. Inspired in part by the groundbreaking work of Benjamin Bloom, Lumen’s
@@ -102,11 +111,10 @@
                     accessible user experience through a highly iterative, inclusive and learner-centric process.
                     The courseware developed through this grant will pioneer a new model for digital courseware and
                     delivery tailored to the needs of disadvantaged students.</p>
-                <p>For more information about the project, read the <a href="http://lumenlearning.com/ann-courseware-challenge/">Lumen Learning press release</a>.</p>
 
-            </div>
+            </article>
 
-            <div class="floe-footer">
+            <footer class="floe-footer">
                 <div class="floe-content row">
                     <div class="columns large-6 small-12">
                         <div>
@@ -135,7 +143,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </footer>
         </div>
 
     </body>

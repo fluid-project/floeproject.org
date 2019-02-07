@@ -9,9 +9,6 @@
         <!-- Foundation flex grid -->
         <link href="lib/foundation/foundation.css" rel="stylesheet" type="text/css" />
 
-        <link href="css/fss/fss-reset.css" rel="stylesheet" type="text/css" />
-        <link href="css/fss/fss-layout.css" rel="stylesheet" type="text/css" />
-        <link href="css/fss/fss-text.css" rel="stylesheet" type="text/css" />
         <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
         <link href="css/print.css" media="print" rel="stylesheet" type="text/css" />
 
@@ -48,8 +45,8 @@
             -->
             <div class="fl-panelBar fl-panelBar-smallScreen">
                 <span class="fl-prefsEditor-buttons">
-                    <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
-                    <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                    <button class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                    <button class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
                 </span>
             </div>
 
@@ -62,8 +59,8 @@
             -->
             <div class="fl-panelBar fl-panelBar-wideScreen">
                 <span class="fl-prefsEditor-buttons">
-                    <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
-                    <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                    <button class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                    <button class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
                 </span>
             </div>
         </div>
@@ -74,13 +71,25 @@
         </div>
 
         <div class="floe">
-            <header class="floe-header">
-                <h1><a rel="home" title="Home" href="index.html" class="floe-header-logo">floe
-                    <span class="floe-header-tagline">
-                        flexible learning for open education
-                    </span></a>
-                </h1>
-            </header>
+            <div class="row">
+                <div class="columns small-12 medium-9 large-9">
+                    <header class="floe-header">
+                        <h1><a rel="home" title="Home" href="index.html" class="floe-header-logo">floe
+                            <span class="floe-header-tagline">
+                                flexible learning for open education
+                            </span></a>
+                        </h1>
+                    </header>
+                </div>
+                <div class="columns small-12 medium-3 large-3 align-self-bottom">
+                    <nav class="floe-nav">
+                        <ul>
+                            <li><a href="news/index.html">News</a></li>
+                            <li><a href="resources.html">Resources</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
 
             <div id="content" class="floe-content floe-story">
                 <div class="flc-toc-tocContainer toc"> </div>
@@ -251,23 +260,38 @@
                         <div>
                             <div class="floe-front-news">
                                 <h3>News</h3>
-                                <h4>DEEP Conference 2016</h4>
-                                <p class="floe-date">November 30, 2016</p>
+                                <h4><a href="./news/2018-11-08-DEEP2018.html">Designing Enabling Economies and Policies 2018</a></h4>
+                                <time class="floe-date" datetime="2018-11-08">November 8, 2018</time>
+                                <p>
+                                    The Floe project participated in both the technical showcase and the half day co-design session at the 2018
+                                    Designing Enabling Economies and Policies event.
+                                </p>
+                                <p><a href="./news/2018-11-08-DEEP2018.html">Read more: Designing Enabling Economies and Policies 2018</a></p>
 
-                                <p>On October 13-14, 2016 the <a href="http://deep.idrc.ocadu.ca">DEEP - Discovery conference</a> brought together an international community of over 100 diverse participants to discuss timely, difficult, and engaging topics.</p>
-                                <p><a href="./news/2016-11-30-DEEP-conference-2016.html">Read more</a></p>
+                                <h4><a href="./news/2018-09-17-GSoC2018.html">Google Summer of Code 2018</a></h4>
+                                <time class="floe-date" datetime="2018-09-17">September 17, 2018</time>
+                                <p>
+                                    The Floe project participated in
+                                    <a href="https://summerofcode.withgoogle.com/organizations/6584170814373888/#projects">Google Summer of Code (GSoC)</a>,
+                                    mentoring five students in a variety of projects which endeavoured to improve accessibility
+                                    in computing, and assist learning. These projects included explorations of inclusive video games,
+                                    personalized data tracking, and accessibility web services.
+                                </p>
+                                <p><a href="./news/2018-09-17-GSoC2018.html">Read more: Google Summer of Code 2018</a></p>
 
-                                <h4>IIDEX 2016</h4>
-                                <p class="floe-date">Nov. 30, 2016</p>
-                                <p>The IDRC participated in the <a href="http://www.iidexcanada.com/conference/summits/national-summit-on-accessibility-2016">IIDEX National Summit on Accessibility</a> on November 30th, 2016.</p>
-                                <p><a href="./news/2016-11-30-IIDEX-2016.html">Read more</a></p>
+                                <h4><a href="./news/2018-08-30-Cities-Co-Design.html">Inclusive Cities Co-Design</a></h4>
+                                <time class="floe-date" datetime="2018-08-30">August 30, 2018</time>
+                                <p>
+                                    The IDRC and Floe organized embedded co-design sessions in elementary and
+                                    middle schools with grade 3, 5, and 6 students. In support of the sessions, a
+                                    <a href="https://docs.google.com/document/d/1FXPRpp6oafkjaGrcbp4RcVFf3mumyk7dQorMY9_zLhc/edit">facilitation OER </a>
+                                    was created which includes instructions for several city design activities.
+                                    The overarching themes that emerged from the co-design sessions show that environmental
+                                    friendliness, accessibility, and inclusivity of neighbourhoods were important factors for
+                                    students in all three grades.
+                                </p>
+                                <p><a href="./news/2018-08-30-Cities-Co-Design.html">Read more: Inclusive Cities Co-Design</a></p>
 
-                                <h4>UN International Day of Persons with Disibilities</h4>
-                                <p class="floe-date">Nov. 30, 2016</p>
-                                <p>December 3, 2016 marks the <a href="http://www.un.org/en/events/disabilitiesday/">United Nations International Day of Persons with Disabilities</a>.</p>
-                                <p><a href="./news/2016-11-30-UN-international-day-of-persons-with-disabilities.html">Read more</a></p>
-
-                                <p><a href="news/">News Archive</a></p>
                             </div>
                         </div>
                     </div>
