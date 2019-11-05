@@ -601,35 +601,31 @@ address {
 .fl-theme-bw .floe-bottom-content,
 .fl-theme-bw .floe-footer,
 .fl-theme-by .floe-bottom-content,
-.fl-theme-by .floe-footer {
-    border-top: 1px solid #000000;
-}
-
+.fl-theme-by .floe-footer,
 .fl-theme-yb .floe-bottom-content,
-.fl-theme-yb .floe-footer {
-    border-top: 1px solid #FFFF00;
-}
-
+.fl-theme-yb .floe-footer,
 .fl-theme-wb .floe-bottom-content,
-.fl-theme-wb .floe-footer {
-    border-top: 1px solid #FFFFFF;
+.fl-theme-wb .floe-footer,
+.fl-theme-lgdg .floe-bottom-content,
+.fl-theme-lgdg .floe-footer,
+.fl-theme-gw .floe-bottom-content,
+.fl-theme-gw .floe-footer,
+.fl-theme-gd .floe-bottom-content,
+.fl-theme-gd .floe-footer,
+.fl-theme-bbr .floe-bottom-content,
+.fl-theme-bbr .floe-footer {
+    border-top: 1px solid currentColor;
 }
 
 .fl-theme-bw .floe-header a:before,
-.fl-theme-by .floe-header a:before {
-    color:#000;
-}
-
-.fl-theme-wb .floe-header a:before {
-    color:#fff;
-}
-
-.fl-theme-yb .floe-header a:before {
-    color:#ffff00;
-}
-
-.fl-theme-lgdg .floe-header a:before {
-    color:#bdbdbb;
+.fl-theme-by .floe-header a:before,
+.fl-theme-wb .floe-header a:before,
+.fl-theme-yb .floe-header a:before,
+.fl-theme-lgdg .floe-header a:before,
+.fl-theme-gw .floe-header a:before,
+.fl-theme-gd .floe-header a:before,
+.fl-theme-bbr .floe-header a:before {
+    color: inherit;
 }
 
 /* New responsive layout styles */
