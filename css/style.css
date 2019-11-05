@@ -368,7 +368,7 @@ body {
 
 .floe-resources-category-show button {
     background-color: #000000;
-    color: #fccd00; 
+    color: #fccd00;
 }
 
 .arrow::before {
@@ -388,7 +388,7 @@ body {
 
 .floe-resources-content li p {
     padding-top: 0.2em;
-    padding-bottom: 0.2em; 
+    padding-bottom: 0.2em;
     margin: 0;
     font-size: 1.2em;
 }
@@ -458,6 +458,21 @@ body {
 
 .floe-news-archive li:nth-child(odd) {
     margin: 1.5rem auto;
+}
+
+ul.floe-news-inlineList {
+    display: inline;
+    list-style: none;
+    margin-left: 0;
+}
+
+ul.floe-news-inlineList li {
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+figcaption {
+    font-size: 1rem;
 }
 
 figcaption details p {
