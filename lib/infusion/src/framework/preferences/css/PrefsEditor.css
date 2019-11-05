@@ -1,7 +1,7 @@
 /* General Preferences Editor styles, used for all layouts */
 @font-face {
-  font-family: 'InfusionIcons';
-  src: url("../fonts/InfusionIcons-PrefsEditor.ttf"), url("../fonts/InfusionIcons-PrefsEditor.eot");
+  font-family: 'PrefsFramework-Icons';
+  src: url("../fonts/PrefsFramework-Icons.woff");
 }
 .fl-prefsEditor {
   font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
@@ -56,6 +56,9 @@
 .fl-prefsEditor select#textFont option.verdana {
   font-family: Verdana;
 }
+.fl-prefsEditor select#textFont option *.open-dyslexic {
+  font-family: OpenDyslexic;
+}
 .fl-prefsEditor select#theme {
   font-weight: bold;
   text-transform: uppercase;
@@ -82,6 +85,12 @@
   display: flex;
   justify-content: center;
 }
+.fl-prefsEditor .fl-choices .fl-choice input.fl-hidden-accessible {
+  position: relative;
+  z-index: -2;
+  top: 1rem;
+  left: 1rem;
+}
 .fl-prefsEditor .fl-choices .fl-choice label {
   margin-right: 5px;
   border: 1px solid #000;
@@ -93,12 +102,14 @@
   display: inline-block;
   line-height: 2.2em !important;
   padding: 2px;
+  overflow: hidden;
 }
 .fl-prefsEditor .fl-choices .fl-choice:last-child label {
   margin-right: 0;
 }
 .fl-prefsEditor .fl-choices .fl-choice .fl-preview-A {
   font-size: 1.7em;
+  letter-spacing: normal;
 }
 .fl-prefsEditor .fl-choices .fl-choice .fl-preview-A:before {
   content: "a";
@@ -169,8 +180,6 @@
   text-transform: uppercase;
   font-weight: 600;
 }
-.fl-prefsEditor .fl-icon-right,
-.fl-prefsEditor .fl-icon-left,
 .fl-prefsEditor .fl-icon-indicator,
 .fl-prefsEditor .fl-icon-crossout,
 .fl-prefsEditor .fl-icon-big-a,
@@ -185,15 +194,24 @@
 .fl-prefsEditor .fl-icon-font,
 .fl-prefsEditor .fl-icon-size,
 .fl-prefsEditor .fl-icon-text-to-speech,
-.fl-prefsEditor .fl-icon-toc {
-  font-family: 'InfusionIcons';
+.fl-prefsEditor .fl-icon-toc,
+.fl-prefsEditor .fl-icon-letter-space,
+.fl-prefsEditor .fl-icon-letter-space-expanded,
+.fl-prefsEditor .fl-icon-letter-space-condensed,
+.fl-prefsEditor .fl-icon-captions,
+.fl-prefsEditor .fl-icon-word-space,
+.fl-prefsEditor .fl-icon-word-space-condensed,
+.fl-prefsEditor .fl-icon-word-space-expanded,
+.fl-prefsEditor .fl-icon-syllabification,
+.fl-prefsEditor .fl-icon-language {
+  font-family: 'PrefsFramework-Icons';
   speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
   -webkit-font-smoothing: antialiased;
-  margin: 0.2em 0.3em 0 0;
+  margin-right: 0.3em;
   font-size: 1.5em;
 }
 .fl-prefsEditor .fl-icon-crossout:before,
@@ -206,6 +224,12 @@
 .fl-prefsEditor .fl-icon-small-a:before {
   content: "\e007";
 }
+.fl-prefsEditor .fl-icon-letter-space-expanded:before {
+  content: "\e000";
+}
+.fl-prefsEditor .fl-icon-letter-space-condensed:before {
+  content: "\e001";
+}
 .fl-prefsEditor .fl-icon-line-space-expanded:before {
   content: "\e009";
 }
@@ -217,15 +241,21 @@
   content: "\e003";
 }
 .fl-prefsEditor .fl-choice .fl-indicator {
-  font-family: 'InfusionIcons' !important;
-  font-size: 1.3em;
-  margin: -0.75em 0 0 0.75em;
+  font-family: 'PrefsFramework-Icons' !important;
+  margin-top: -1.5em;
   height: 1em;
+  width: calc(100% - 5px);
+  text-align: center;
+  font-size: 1.25em;
+}
+.fl-prefsEditor .fl-choice:last-child .fl-indicator {
+  width: 100%;
 }
 .fl-prefsEditor .fl-choice .fl-prefsEditor-themePicker-defaultThemeLabel .fl-crossout {
-  font-family: 'InfusionIcons' !important;
-  margin-top: -1.25em;
-  font-size: 1.85em;
+  font-family: 'PrefsFramework-Icons' !important;
+  background-color: transparent !important;
+  margin-top: -1.05em;
+  font-size: 2.2em;
 }
 .fl-prefsEditor .fl-choice label.fl-theme-prefsEditor-default,
 .fl-prefsEditor .fl-choice label.fl-theme-prefsEditor-default span,
@@ -234,10 +264,7 @@
   border-color: #433f3d !important;
   color: #433f3d !important;
 }
-.fl-prefsEditor .fl-icon-right:before {
-  content: "\e001";
-}
-.fl-prefsEditor .fl-icon-left:before {
+.fl-prefsEditor .fl-icon-letter-space:before {
   content: "\e002";
 }
 .fl-prefsEditor .fl-icon-contrast:before {
@@ -266,6 +293,24 @@
 }
 .fl-prefsEditor .fl-icon-toc:before {
   content: "\e012";
+}
+.fl-prefsEditor .fl-icon-captions:before {
+  content: "\e013";
+}
+.fl-prefsEditor .fl-icon-word-space:before {
+  content: "\e014";
+}
+.fl-prefsEditor .fl-icon-word-space-condensed:before {
+  content: "\e015";
+}
+.fl-prefsEditor .fl-icon-word-space-expanded:before {
+  content: "\e016";
+}
+.fl-prefsEditor .fl-icon-syllabification:before {
+  content: "\e017";
+}
+.fl-prefsEditor .fl-icon-language:before {
+  content: "\e018";
 }
 .fl-theme-bw .fl-prefsEditor .fl-switchUI-control:focus {
   box-shadow: 0 0 0 0.2em #fff, 0 0 0 0.35em #000;
@@ -331,4 +376,43 @@
   background-color: #555 !important;
   border-color: #bdbdbb !important;
   color: #bdbdbb !important;
+}
+.fl-theme-gd .fl-prefsEditor .fl-switchUI-control:focus {
+  box-shadow: 0 0 0 0.2em #222, 0 0 0 0.35em #888;
+}
+.fl-theme-gd .fl-prefsEditor .fl-switchUI-controlKnob {
+  background-color: #888 !important;
+}
+.fl-prefsEditor .fl-choice label.fl-theme-gd,
+.fl-prefsEditor .fl-choice label.fl-theme-gd span,
+.fl-prefsEditor .fl-choice label.fl-theme-gd .fl-crossout {
+  background-color: #222 !important;
+  border-color: #888 !important;
+  color: #888 !important;
+}
+.fl-theme-gw .fl-prefsEditor .fl-switchUI-control:focus {
+  box-shadow: 0 0 0 0.2em #fff, 0 0 0 0.35em #6c6c6c;
+}
+.fl-theme-gw .fl-prefsEditor .fl-switchUI-controlKnob {
+  background-color: #6c6c6c !important;
+}
+.fl-prefsEditor .fl-choice label.fl-theme-gw,
+.fl-prefsEditor .fl-choice label.fl-theme-gw span,
+.fl-prefsEditor .fl-choice label.fl-theme-gw .fl-crossout {
+  background-color: #fff !important;
+  border-color: #6c6c6c !important;
+  color: #6c6c6c !important;
+}
+.fl-theme-bbr .fl-prefsEditor .fl-switchUI-control:focus {
+  box-shadow: 0 0 0 0.2em #b96, 0 0 0 0.35em #000;
+}
+.fl-theme-bbr .fl-prefsEditor .fl-switchUI-controlKnob {
+  background-color: #000 !important;
+}
+.fl-prefsEditor .fl-choice label.fl-theme-bbr,
+.fl-prefsEditor .fl-choice label.fl-theme-bbr span,
+.fl-prefsEditor .fl-choice label.fl-theme-bbr .fl-crossout {
+  background-color: #b96 !important;
+  border-color: #000 !important;
+  color: #000 !important;
 }
