@@ -1,18 +1,18 @@
 @font-face {
   font-family: 'OpenSans';
-  src: url("../../../lib/fonts/OpenSans-Light.ttf");
+  src: url("../../../lib/opensans/fonts/OpenSans-Light.woff");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: 'OpenSans';
-  src: url("../../../lib/fonts/OpenSans-Regular.ttf");
+  src: url("../../../lib/opensans/fonts/OpenSans-Regular.woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'OpenSans';
-  src: url("../../../lib/fonts/OpenSans-Semibold.ttf");
+  src: url("../../../lib/opensans/fonts/OpenSans-SemiBold.woff");
   font-weight: 600;
   font-style: normal;
 }
@@ -64,7 +64,7 @@
   padding-right: 16px;
 }
 .fl-prefsEditor-separatedPanel .fl-icon-undo {
-  font-family: 'InfusionIcons';
+  font-family: 'PrefsFramework-Icons';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -200,5 +200,50 @@
   color: #bdbdbb;
 }
 .fl-theme-lgdg .fl-prefsEditor-separatedPanel .fl-prefsEditor-buttons {
+  box-shadow: none;
+}
+.fl-theme-gd {
+  background-image: none !important;
+  background-color: #222;
+  border-color: #888;
+  color: #888;
+}
+.fl-theme-gd .fl-prefsEditor-separatedPanel .fl-panelBar,
+.fl-theme-gd .fl-prefsEditor-separatedPanel .fl-prefsEditor-reset {
+  background-color: #222;
+  border-color: #888;
+  color: #888;
+}
+.fl-theme-gd .fl-prefsEditor-separatedPanel .fl-prefsEditor-buttons {
+  box-shadow: none;
+}
+.fl-theme-gw {
+  background-image: none !important;
+  background-color: #fff;
+  border-color: #6c6c6c;
+  color: #6c6c6c;
+}
+.fl-theme-gw .fl-prefsEditor-separatedPanel .fl-panelBar,
+.fl-theme-gw .fl-prefsEditor-separatedPanel .fl-prefsEditor-reset {
+  background-color: #fff;
+  border-color: #6c6c6c;
+  color: #6c6c6c;
+}
+.fl-theme-gw .fl-prefsEditor-separatedPanel .fl-prefsEditor-buttons {
+  box-shadow: none;
+}
+.fl-theme-bbr {
+  background-image: none !important;
+  background-color: #b96;
+  border-color: #000;
+  color: #000;
+}
+.fl-theme-bbr .fl-prefsEditor-separatedPanel .fl-panelBar,
+.fl-theme-bbr .fl-prefsEditor-separatedPanel .fl-prefsEditor-reset {
+  background-color: #b96;
+  border-color: #000;
+  color: #000;
+}
+.fl-theme-bbr .fl-prefsEditor-separatedPanel .fl-prefsEditor-buttons {
   box-shadow: none;
 }

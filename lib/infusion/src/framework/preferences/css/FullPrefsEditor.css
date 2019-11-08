@@ -21,9 +21,15 @@
   margin-right: 3px;
   background-color: #f0f0f0;
 }
-.fl-prefsEditor h2 img {
-  margin-bottom: -3px;
-  padding-right: 5px;
+.fl-prefsEditor h2 {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  justify-content: flex-start;
+  white-space: normal;
+}
+.fl-prefsEditor h2 [class*='fl-icon-'] {
+  margin: 0 0.3em 0 0;
 }
 .fl-prefsEditor .fl-prefsEditor-text ul li {
   clear: left;
