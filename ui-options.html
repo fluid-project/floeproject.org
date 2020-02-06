@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+        <title>UI Options | floe</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <title>News: Inclusive Cities Co-Design | floe</title>
-        <link type="image/x-icon" href="../images/favicon.ico" rel="shortcut icon"/>
+        <link type="image/x-icon" href="images/favicon.ico" rel="shortcut icon"/>
 
         <!-- Foundation flex grid -->
-        <link href="../lib/foundation/foundation.css" rel="stylesheet" type="text/css" />
+        <link href="lib/foundation/foundation.css" rel="stylesheet" type="text/css" />
 
-        <link href="../css/style.css" media="all" rel="stylesheet" type="text/css"/>
-        <link href="../css/print.css" media="print" rel="stylesheet" type="text/css"/>
+        <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+        <link href="css/print.css" media="print" rel="stylesheet" type="text/css" />
 
-        <link rel="stylesheet" type="text/css" href="../lib/infusion/src/lib/normalize/css/normalize.css" />
-        <link rel="stylesheet" type="text/css" href="../lib/infusion/src/framework/core/css/fluid.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/lib/normalize/css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/core/css/fluid.css" />
 
-        <link rel="stylesheet" type="text/css" href="../lib/infusion/src/framework/preferences/css/Enactors.css" />
-        <link rel="stylesheet" type="text/css" href="../lib/infusion/src/framework/preferences/css/PrefsEditor.css" />
-        <link rel="stylesheet" type="text/css" href="../lib/infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/Enactors.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/PrefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css" />
 
         <!--[if lte IE 8]>
         <script type="text/javascript">document.createElement("header")</script>
@@ -27,13 +27,14 @@
         <script type="text/javascript">document.createElement("aside")</script>
         <![endif]-->
 
-        <script type="text/javascript" src="../lib/infusion/infusion-custom.js"></script>
-        <script type="text/javascript" src="../js/floe.js"></script>
+        <script type="text/javascript" src="lib/infusion/infusion-custom.js"></script>
+        <script type="text/javascript" src="js/floe.js"></script>
+        <script type="text/javascript" src="js/resources.js"></script>
     </head>
     <body>
         <script type="text/javascript">
             $(document).ready(function () {
-                floe.setupUIO("../");
+                floe.setupUIO("");
             });
         </script>
 
@@ -74,7 +75,7 @@
             <div class="row">
                 <div class="columns small-12 medium-12 large-7">
                     <header class="floe-header">
-                        <h1><a rel="home" title="Home" href="../index.html" class="floe-header-logo">floe
+                        <h1><a rel="home" title="Home" href="index.html" class="floe-header-logo">floe
                             <span class="floe-header-tagline">
                                 flexible learning for open education
                             </span></a>
@@ -84,55 +85,43 @@
                 <div class="columns small-12 medium-12 large-5 align-self-bottom">
                     <nav class="floe-nav">
                         <ul>
-                            <li><a href="index.html">News</a></li>
-                            <li><a href="../resources.html">Resources</a></li>
-                            <li><a href="../ui-options.html">UI Options</a></li>
+                            <li><a href="./news/index.html">News</a></li>
+                            <li><a href="./resources.html">Resources</a></li>
+                            <li><a href="./ui-options.html">UI Options</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
 
-            <div class="flc-toc-tocContainer toc"> </div>
-            <article id="content" class="floe-content floe-news-item">
-                <h2> News </h2>
+            <div id="content" class="floe-content">
+                <div class="flc-toc-tocContainer toc"> </div>
 
-                <!-- BEGIN markup for news item -->
-                <h3>Inclusive Cities Co-Design</h3>
-                <time class="floe-date" datetime="2018-08-30">August 30, 2018</time>
-                <p>
-                    As part of an effort to include diverse perspectives in the creation of inclusive
-                    cities, the IDRC and Floe organized co-design sessions in elementary and
-                    middle schools with students in Grades 3, 5, and 6. The co-design activity was developed
-                    in collaboration with classroom teachers and parents to tailor the activity to
-                    the interests and needs of the children. A
-                    <a href="https://docs.google.com/document/d/1FXPRpp6oafkjaGrcbp4RcVFf3mumyk7dQorMY9_zLhc/edit">facilitation OER </a>
-                    was created which includes instructions for several city design activities.
-                </p>
-                <p>
-                    The design process included giving students blank cards to add their own features
-                    to their neighbourhood which resulted in the inclusion of religious centres, airports,
-                    banks, gyms, and stadiums. The overarching themes that emerged from the co-design
-                    sessions show that environmental friendliness, accessibility, and inclusivity of
-                    neighbourhoods were important factors for students in all three grades.
-                </p>
-                <p>
-                    More information about the co-design sessions can be found on the
-                    <a href="https://cities.inclusivedesign.ca/ideas/students-results/">inclusive cities website</a>.
-                </p>
-                <figure>
-                    <img src="images/CitiesCoDesign.jpg" alt="Student's Neighbourhood Designs" aria-details="det1"></a>
-                    <figcaption>
-                        <details id="det1">
-                            <summary>
-                            Figure 1. Student's Neighbourhood Designs
-                            </summary>
-                            <p>An image showing the design boards of created by students during the co-design sessions.</p>
-                        </details>
-                    </figcaption>
-                </figure>
+                <!-- Begin UI Options Information Container -->
+                <article>
+                  <h2>About UI Options</h2>
+                  <p>
+                  User Interface Options (or UI Options) provides a way to enhance or improve website usability, flexibility, and accessibility by providing a way to customize and control aspects of a website without the need for additional software or tools. For those who design, build, or maintain websites, UI Options can also help reveal areas where the web content and structure can be changed to improve flexibility and robustness.
+                  </p>
+                  <h3>Get UI Options</h3>
+                  <p>
+                  For Wordpress: <a href="https://github.com/fluid-project/uio-wordpress-plugin">UI Options Wordpress Plugin</a>.
+                  </p>
 
-            </article>
-         <!-- END markup for news item -->
+                  <p>
+                  From source code: <a href="https://www.npmjs.com/package/infusion">using npm</a>, or <a href="https://github.com/fluid-project/infusion/releases">GitHub</a>.
+                  </p>
+                  <h3>Guides and Documentation</h3>
+                  <p>
+                  If installing UI Options using npm or from a release on GitHub (not applicable if using the Wordpress plugin), "<a href="https://docs.fluidproject.org/infusion/development/tutorial-userInterfaceOptions/UserInterfaceOptions.html">Setting Up User Interface Options</a>" will help installing and structuring your code.
+                  </p>
+                  <p>
+                  Once UI Options is installed, <a href="https://docs.fluidproject.org/infusion/development/tutorial-userInterfaceOptions/WorkingWithUserInterfaceOptions.html">"Working with UI Options"</a> can help guide you through setting up your site's styles and markup to take advantage of UI Options.
+                  </p>
+                </article>
+
+                <!-- End UI Options Information Container -->
+
+            </div>
 
             <footer class="floe-footer">
                 <div class="floe-content row">
@@ -165,6 +154,5 @@
                 </div>
             </footer>
         </div>
-
     </body>
 </html>
