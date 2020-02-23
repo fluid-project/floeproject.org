@@ -16,6 +16,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+*:focus{
+    outline: none;
+}
+
 
 /* Clearfix courtesy of CSS Tricks http://css-tricks.com/snippets/css/clear-fix/
  */
@@ -335,11 +339,13 @@ body {
     border-bottom: solid 0.2em #42abe0;
     border-radius: 0;
     color: #000000;
+    outline: none;
 }
 
 .floe-resources .floe-resources-buttons button:hover {
     background: none;
     border-bottom: solid 0.2em #0379AF;
+    outline: none;
 }
 
 .floe-resources-main {
