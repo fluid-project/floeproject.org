@@ -353,6 +353,7 @@ body {
     font-size: 1.5em;
 }
 
+
 .floe-resources .floe-resources-category button {
     color: #000000;
     background-color: #E6E6E6;
@@ -364,6 +365,7 @@ body {
 .floe-resources .floe-resources-category button:hover {
     background-color: #fccd00;
     color: #000000;
+    cursor: pointer;
 }
 
 .floe-resources-category-show button {
