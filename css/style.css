@@ -296,6 +296,8 @@ body {
 /* FLOE Footer - contact and organization info. */
 .floe-footer {
     background-color: #333;
+    margin-top: 15px;
+    margin-bottom: 6px;
 }
 
 .floe-footer .floe-content {
@@ -554,6 +556,7 @@ figcaption details p {
     height: 325px;
     margin: 0 auto;
     margin-bottom: 2em;
+    
 }
 
 .floe .floe-image-UIO             { background: url("../images/floe-02.png") no-repeat 0 0 / 325px 325px; }
