@@ -36,5 +36,9 @@ If applicable, add screenshots to help explain your problem.
  - Browser [e.g. stock browser, safari]
  - Version [e.g. 22]
 
+### Assistive technology used
+ - Name: [Name of assistive technology]
+ - Version: [e.g. 22] 
+
 ## Additional context or notes
 Add any other context about the problem here.
