@@ -121,6 +121,12 @@ body {
     background-color: #FFCB00;
 }
 
+/* BEGIN Table of Contents */
+li.flc-toc-levels-items1, li.flc-toc-levels-items2, li.flc-toc-levels-items3, li.flc-toc-levels-items4 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
 /* FLOE Content Containers - not header. Header has its own styles above. */
 .floe-content {
     font-family: 'Roboto Slab', serif;
