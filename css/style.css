@@ -122,7 +122,7 @@ body {
 }
 
 /* BEGIN Table of Contents */
-li.flc-toc-levels-items1, li.flc-toc-levels-items2, li.flc-toc-levels-items3, li.flc-toc-levels-items4 {
+li.fl-toc-levels-items1, li.fl-toc-levels-items2, li.fl-toc-levels-items3, li.fl-toc-levels-items4 {
     margin-top: 8px;
     margin-bottom: 8px;
 }
