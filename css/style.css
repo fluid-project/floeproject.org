@@ -119,7 +119,7 @@ body {
 .floe .floe-nav ul li a:hover,
 .floe .floe-nav ul li a:focus {
     background-color: #FFCB00;
-    padding : 4px;
+    padding : .15rem;
 }
 
 /* FLOE Content Containers - not header. Header has its own styles above. */
@@ -141,7 +141,7 @@ body {
     background-color: #D4EDEC;
     border-bottom: 1px dotted #004357;
     color: #004357;
-    padding : 5px 5px 5px 0px;
+    padding : .2em .02em .2em 0em;
 }
 
 
@@ -543,8 +543,8 @@ figcaption details p {
     background-color: #000000;
 }
 
-.floe-footer .floe-content a{
-    padding : 0px 3.5px ;
+.floe-footer .floe-content a {
+    padding : 0em .1em ;
 }
 
 .floe-content.floe-story a.flc-toc-anchors {
