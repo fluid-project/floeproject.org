@@ -562,6 +562,30 @@ figcaption details p {
 .floe .floe-image-preferenceIcons { background: url("../images/floe-04.png") no-repeat 0 0 / 325px 325px; }
 .floe .floe-image-videoPlayer     { background: url("../images/floe-03.png") no-repeat 0 0 / 325px 325px; }
 
+@media(max-width: 410px){
+    /* This media query scales down the image to 0.6 of it's initial size when the webpage loads on small screen*/
+    .floe .floe-image-UIO             { background: url("../images/floe-02.png") no-repeat 0 0 / 170px 170px; transform: scale(0.7);}
+    .floe .floe-image-exploreTool     { background: url("../images/floe-01.png") no-repeat 0 0 / 170px 170px; transform: scale(0.7);}
+    .floe .floe-image-cloud           { background: url("../images/floe-05.png") no-repeat 0 0 / 170px 170px; transform: scale(0.7);}
+    .floe .floe-image-preferenceIcons { background: url("../images/floe-04.png") no-repeat 0 0 / 170px 170px; transform: scale(0.7);}
+    .floe .floe-image-videoPlayer     { background: url("../images/floe-03.png") no-repeat 0 0 / 170px 170px; transform: scale(0.7);}
+
+    .floe .floe-image{
+        width: 170px;
+        height: 170px;
+        margin: 0 auto;
+    }
+    .floe-header h1{
+    font-size: 2.8em;
+    }
+
+    .floe-header-tagline{
+        line-height: normal;
+        margin: 3vw 0vw;
+    }
+
+}
+
 .floe-image-caption {
     background-color: white;
     font-family: 'Open Sans', sans-serif;
