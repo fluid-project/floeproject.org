@@ -121,6 +121,12 @@ body {
     background-color: #FFCB00;
 }
 
+.floe-nav a{
+    display: inline-block;
+    margin-top: 5px;
+    white-space: nowrap;
+}
+
 /* FLOE Content Containers - not header. Header has its own styles above. */
 .floe-content {
     font-family: 'Roboto Slab', serif;
