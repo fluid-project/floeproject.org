@@ -556,11 +556,11 @@ figcaption details p {
     margin-bottom: 2em;
 }
 
-.floe .floe-image-UIO             { background: url("../images/floe-02.png") no-repeat 0 0 / 325px 325px; }
-.floe .floe-image-exploreTool     { background: url("../images/floe-01.png") no-repeat 0 0 / 325px 325px; }
-.floe .floe-image-cloud           { background: url("../images/floe-05.png") no-repeat 0 0 / 325px 325px; }
-.floe .floe-image-preferenceIcons { background: url("../images/floe-04.png") no-repeat 0 0 / 325px 325px; }
-.floe .floe-image-videoPlayer     { background: url("../images/floe-03.png") no-repeat 0 0 / 325px 325px; }
+.floe .floe-image-UIO             { background: url("../images/floe-02.png") no-repeat 0 0 / 290px 290px; }
+.floe .floe-image-exploreTool     { background: url("../images/floe-01.png") no-repeat 0 0 / 290px 290px; }
+.floe .floe-image-cloud           { background: url("../images/floe-05.png") no-repeat 0 0 / 290px 290px; }
+.floe .floe-image-preferenceIcons { background: url("../images/floe-04.png") no-repeat 0 0 / 280px 280px; }
+.floe .floe-image-videoPlayer     { background: url("../images/floe-03.png") no-repeat 0 0 / 280px 280px; }
 
 .floe-image-caption {
     background-color: white;
