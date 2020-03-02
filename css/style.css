@@ -204,6 +204,10 @@ body {
     width: 46.6%;
 }
 
+div.columns.large-6.small-12 a {
+    display: inline-block;
+}
+
 /* BEGIN The grid of featured work */
 .floe-featured-list {
     list-style: none outside none;
