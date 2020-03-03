@@ -121,6 +121,13 @@ body {
     background-color: #FFCB00;
 }
 
+/* On screens that are 326px or less, set the navbar links font-size to 13.6px */
+@media screen and (max-width: 326px) {
+    .floe-nav {
+      font-size: 13.6px;
+    }
+  }
+
 /* FLOE Content Containers - not header. Header has its own styles above. */
 .floe-content {
     font-family: 'Roboto Slab', serif;
