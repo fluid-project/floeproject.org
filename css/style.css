@@ -121,12 +121,6 @@ body {
     background-color: #FFCB00;
 }
 
-/* BEGIN Table of Contents */
-li.fl-toc-levels-items1, li.fl-toc-levels-items2, li.fl-toc-levels-items3, li.fl-toc-levels-items4 {
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
 /* FLOE Content Containers - not header. Header has its own styles above. */
 .floe-content {
     font-family: 'Roboto Slab', serif;
@@ -539,6 +533,7 @@ figcaption details p {
     text-decoration: none;
     border-bottom: none;
     padding: 0 0.2em;
+    display: inline-block;
 }
 
 .floe-content.floe-story a:hover,
