@@ -84,15 +84,15 @@ pre {
       flex-flow: row wrap; }
   .row .row {
     margin-right: -0.9375rem;
-    margin-left: -0.9375rem; }
+    margin-left: -0.9rem; }
     @media print, screen and (min-width: 40em) {
       .row .row {
         margin-right: -0.9375rem;
-        margin-left: -0.9375rem; } }
+        margin-left: -0.9rem; } }
     @media print, screen and (min-width: 64em) {
       .row .row {
         margin-right: -0.9375rem;
-        margin-left: -0.9375rem; } }
+        margin-left: -0.5rem; } }
     .row .row.collapse {
       margin-right: 0;
       margin-left: 0; }
@@ -113,7 +113,7 @@ pre {
   -ms-flex: 1 1 0px;
       flex: 1 1 0px;
   padding-right: 0.9375rem;
-  padding-left: 0.9375rem;
+  padding-left: 0.95rem;
   min-width: initial; }
 
 .column.row.row, .row.row.columns {
