@@ -5,7 +5,7 @@
  * Licensed under MIT Open Source
  */
 
-.foundation-mq {
+ .foundation-mq {
   font-family: "small=0em&medium=40em&large=64em&xlarge=75em&xxlarge=90em"; }
 
 html {
@@ -84,15 +84,15 @@ pre {
       flex-flow: row wrap; }
   .row .row {
     margin-right: -0.9375rem;
-    margin-left: -0.9rem; }
+    margin-left: -0.9375rem; }
     @media print, screen and (min-width: 40em) {
       .row .row {
         margin-right: -0.9375rem;
-        margin-left: -0.9rem; } }
+        margin-left: -0.9375rem; } }
     @media print, screen and (min-width: 64em) {
       .row .row {
         margin-right: -0.9375rem;
-        margin-left: -0.5rem; } }
+        margin-left: -0.9375rem; } }
     .row .row.collapse {
       margin-right: 0;
       margin-left: 0; }
@@ -113,7 +113,7 @@ pre {
   -ms-flex: 1 1 0px;
       flex: 1 1 0px;
   padding-right: 0.9375rem;
-  padding-left: 0.95rem;
+  padding-left: 0.9375rem;
   min-width: initial; }
 
 .column.row.row, .row.row.columns {
