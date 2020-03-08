@@ -558,22 +558,6 @@ figcaption details p {
 .floe .floe-image-preferenceIcons { background: url("../images/floe-04.png") no-repeat 0 0 / 325px 325px; }
 .floe .floe-image-videoPlayer     { background: url("../images/floe-03.png") no-repeat 0 0 / 325px 325px; }
 
-.floe-image-caption {
-    background-color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-style: italic;
-    padding: 0.8em;
-    font-size: 0.8em;
-}
-
-.floe-image-caption-heading {
-    font-family: 'Open Sans', sans-serif;
-    display: block;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 0.85em;
-    margin-bottom: 0;
-}
 .floe-story-textBeside {
     margin-top: 1em;
 }
