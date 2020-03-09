@@ -29,7 +29,8 @@ var floe = floe || {};
                 "templatePrefix": path + "lib/infusion/src/framework/preferences/html",
                 "messagePrefix": path + "lib/infusion/src/framework/preferences/messages"
             },
-            "tocTemplate": path + "lib/infusion/src/components/tableOfContents/html/TableOfContents.html"
+            "tocTemplate": path + "lib/infusion/src/components/tableOfContents/html/TableOfContents.html",
+            "tocMessage": path + "lib/infusion/src/framework/preferences/messages/tableOfContents-enactor.json"
         });
 
     };
