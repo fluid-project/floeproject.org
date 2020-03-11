@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'Roboto Slab';
     src:url('fonts/RobotoSlab-Light.ttf');
@@ -296,6 +295,7 @@ body {
 /* FLOE Footer - contact and organization info. */
 .floe-footer {
     background-color: #333;
+    margin: 80px 0px 40px 0px;
 }
 
 .floe-footer .floe-content {
@@ -550,17 +550,20 @@ figcaption details p {
 }
 
 .floe .floe-image {
-    width: 325px;
-    height: 325px;
+    width: 270px;
+    display: block;
+    height: 280px;
     margin: 0 auto;
     margin-bottom: 2em;
+    
+
 }
 
-.floe .floe-image-UIO             { background: url("../images/floe-02.png") no-repeat 0 0 / 325px 325px; }
-.floe .floe-image-exploreTool     { background: url("../images/floe-01.png") no-repeat 0 0 / 325px 325px; }
-.floe .floe-image-cloud           { background: url("../images/floe-05.png") no-repeat 0 0 / 325px 325px; }
-.floe .floe-image-preferenceIcons { background: url("../images/floe-04.png") no-repeat 0 0 / 325px 325px; }
-.floe .floe-image-videoPlayer     { background: url("../images/floe-03.png") no-repeat 0 0 / 325px 325px; }
+.floe .floe-image-UIO             { background: url("../images/floe-02.png") no-repeat 0 0 / 270px 280px; }
+.floe .floe-image-exploreTool     { background: url("../images/floe-01.png") no-repeat 0 0 / 270px 280px; }
+.floe .floe-image-cloud           { background: url("../images/floe-05.png") no-repeat 0 0 / 270px 280px; }
+.floe .floe-image-preferenceIcons { background: url("../images/floe-04.png") no-repeat 0 0 / 270px 280px; }
+.floe .floe-image-videoPlayer     { background: url("../images/floe-03.png") no-repeat 0 0 / 270px 280px; }
 
 .floe-image-caption {
     background-color: white;
@@ -639,32 +642,32 @@ address {
 }
 
 /* Themed images */
-.fl-theme-bw .floe .floe-image-UIO             { background: url("../images/bw-floe-02.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-bw .floe .floe-image-exploreTool     { background: url("../images/bw-floe-01.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-bw .floe .floe-image-cloud           { background: url("../images/bw-floe-05.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-bw .floe .floe-image-preferenceIcons { background: url("../images/bw-floe-04.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-bw .floe .floe-image-videoPlayer     { background: url("../images/bw-floe-03.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-bw .floe .floe-image-UIO             { background: url("../images/bw-floe-02.png") no-repeat 0 0 / 270px 280px; }
+.fl-theme-bw .floe .floe-image-exploreTool     { background: url("../images/bw-floe-01.png") no-repeat 0 0 /270px 280px; }
+.fl-theme-bw .floe .floe-image-cloud           { background: url("../images/bw-floe-05.png") no-repeat 0 0 / 270px 280px; }
+.fl-theme-bw .floe .floe-image-preferenceIcons { background: url("../images/bw-floe-04.png") no-repeat 0 0 / 270px 280px; }
+.fl-theme-bw .floe .floe-image-videoPlayer     { background: url("../images/bw-floe-03.png") no-repeat 0 0 / 270px 280px; }
 
-.fl-theme-wb .floe .floe-image-UIO             { background: url("../images/wb-floe-02.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-wb .floe .floe-image-exploreTool     { background: url("../images/wb-floe-01.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-wb .floe .floe-image-cloud           { background: url("../images/wb-floe-05.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-wb .floe .floe-image-preferenceIcons { background: url("../images/wb-floe-04.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-wb .floe .floe-image-videoPlayer     { background: url("../images/wb-floe-03.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-wb .floe .floe-image-UIO             { background: url("../images/wb-floe-02.png") no-repeat 0 0 / 270px 280px; }
+.fl-theme-wb .floe .floe-image-exploreTool     { background: url("../images/wb-floe-01.png") no-repeat 0 0 / 270px 280px; }
+.fl-theme-wb .floe .floe-image-cloud           { background: url("../images/wb-floe-05.png") no-repeat 0 0 / 270px 280px; }
+.fl-theme-wb .floe .floe-image-preferenceIcons { background: url("../images/wb-floe-04.png") no-repeat 0 0 / 270px 280px; }
+.fl-theme-wb .floe .floe-image-videoPlayer     { background: url("../images/wb-floe-03.png") no-repeat 0 0 / 270px 280px; }
 
-.fl-theme-by .floe .floe-image-UIO             { background: url("../images/by-floe-02.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-by .floe .floe-image-exploreTool     { background: url("../images/by-floe-01.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-by .floe .floe-image-cloud           { background: url("../images/by-floe-05.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-by .floe .floe-image-preferenceIcons { background: url("../images/by-floe-04.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-by .floe .floe-image-videoPlayer     { background: url("../images/by-floe-03.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-by .floe .floe-image-UIO             { background: url("../images/by-floe-02.png") no-repeat 0 0 / 270px 280px; }
+.fl-theme-by .floe .floe-image-exploreTool     { background: url("../images/by-floe-01.png") no-repeat 0 0 / 270px 280px; }
+.fl-theme-by .floe .floe-image-cloud           { background: url("../images/by-floe-05.png") no-repeat 0 0 / 270px 280px; }
+.fl-theme-by .floe .floe-image-preferenceIcons { background: url("../images/by-floe-04.png") no-repeat 0 0 / 270px 280px; }
+.fl-theme-by .floe .floe-image-videoPlayer     { background: url("../images/by-floe-03.png") no-repeat 0 0 / 270px 280px; }
 
-.fl-theme-yb .floe .floe-image-UIO             { background: url("../images/yb-floe-02.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-yb .floe .floe-image-exploreTool     { background: url("../images/yb-floe-01.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-yb .floe .floe-image-cloud           { background: url("../images/yb-floe-05.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-yb .floe .floe-image-preferenceIcons { background: url("../images/yb-floe-04.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-yb .floe .floe-image-videoPlayer     { background: url("../images/yb-floe-03.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-yb .floe .floe-image-UIO             { background: url("../images/yb-floe-02.png") no-repeat 0 0 / 270px 280px; }
+.fl-theme-yb .floe .floe-image-exploreTool     { background: url("../images/yb-floe-01.png") no-repeat 0 0 / 270px 280px; }
+.fl-theme-yb .floe .floe-image-cloud           { background: url("../images/yb-floe-05.png") no-repeat 0 0 / 270px 280px; }
+.fl-theme-yb .floe .floe-image-preferenceIcons { background: url("../images/yb-floe-04.png") no-repeat 0 0 / 270px 280px; }
+.fl-theme-yb .floe .floe-image-videoPlayer     { background: url("../images/yb-floe-03.png") no-repeat 0 0 / 270px 280px; }
 
-.fl-theme-lgdg .floe .floe-image-UIO             { background: url("../images/lgdg-floe-02.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-lgdg .floe .floe-image-exploreTool     { background: url("../images/lgdg-floe-01.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-lgdg .floe .floe-image-cloud           { background: url("../images/lgdg-floe-05.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-lgdg .floe .floe-image-preferenceIcons { background: url("../images/lgdg-floe-04.png") no-repeat 0 0 / 325px 325px; }
-.fl-theme-lgdg .floe .floe-image-videoPlayer     { background: url("../images/lgdg-floe-03.png") no-repeat 0 0 / 325px 325px; }
+.fl-theme-lgdg .floe .floe-image-UIO             { background: url("../images/lgdg-floe-02.png") no-repeat 0 0 / 270px 280px; }
+.fl-theme-lgdg .floe .floe-image-exploreTool     { background: url("../images/lgdg-floe-01.png") no-repeat 0 0 / 270px 280px; }
+.fl-theme-lgdg .floe .floe-image-cloud           { background: url("../images/lgdg-floe-05.png") no-repeat 0 0 / 270px 280px; }
+.fl-theme-lgdg .floe .floe-image-preferenceIcons { background: url("../images/lgdg-floe-04.png") no-repeat 0 0 / 270px 280px; }
+.fl-theme-lgdg .floe .floe-image-videoPlayer     { background: url("../images/lgdg-floe-03.png") no-repeat 0 0 / 270px 280px; }
