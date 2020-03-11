@@ -296,6 +296,7 @@ body {
 /* FLOE Footer - contact and organization info. */
 .floe-footer {
     background-color: #333;
+    margin-top:43px;
 }
 
 .floe-footer .floe-content {
