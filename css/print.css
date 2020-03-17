@@ -17,6 +17,6 @@ a:hover, a:active, a:link, a:visited {
 }
 #content a:link:after, #content a:visited:after {
     content: " (" attr(href) ") ";
-    font-size: 0.8em;
+    font-size: 0.7;
     font-weight: normal;
 }
