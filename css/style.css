@@ -425,6 +425,10 @@ body {
     color: #004357;
 }
 
+.floe-resources-cursor-button {
+    cursor: pointer;
+}
+
 
 /* News and News Items */
 .floe-news-item {
