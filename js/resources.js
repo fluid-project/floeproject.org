@@ -28,13 +28,28 @@ $(document).ready(function () {
 
     /** When "show all" button is clicked, expands all categories to show their contents. */
     $('.flc-resources-showAll').click(function () {
-        toggleCategory('.flc-resources-toggleItem', true);
+        var value=$(".flc-resources-showAll").text().trim();
+        if(value=='Show'){
+            $(".flc-resources-showAll").text("Hide");
+            toggleCategory('.flc-resources-toggleItem', true);
+
+
+        }else{
+            
+            $(".flc-resources-showAll").text("Show");
+            toggleCategory('.flc-resources-toggleItem', false);
+
+
+        }
+        
+        
+
     });
 
     /** When "hide all" button is clicked, collapses all categories to hide their contents. */
-    $('.flc-resources-hideAll').click(function () {
-        toggleCategory('.flc-resources-toggleItem', false);
-    });
+    // $('.flc-resources-showAll').click(function () {
+    //     toggleCategory('.flc-resources-toggleItem', false);
+    // });
 
     /** Toggle each category to hide or show their respective content(s).
       * @param (evt) A jQuery event, happens each time the object is clicked
