@@ -39,8 +39,6 @@ $(document).ready(function () {
         }
     });
     
-    
-
     /** Toggle each category to hide or show their respective content(s).
       * @param (evt) A jQuery event, happens each time the object is clicked
       */
