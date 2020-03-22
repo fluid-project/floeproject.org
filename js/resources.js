@@ -26,30 +26,20 @@ $(document).ready(function () {
             .toggleClass('floe-resources-content-show', state);
     };
 
-    /** When "show all" button is clicked, expands all categories to show their contents. */
+    /** When "show" button is clicked, expands all categories to show their contents and shoe to 'Hide' when "Hide" 
+    button is clicked,collapse all categories to hide their contents. */
     $('.flc-resources-showAll').click(function () {
         var value=$(".flc-resources-showAll").text().trim();
         if(value=='Show'){
             $(".flc-resources-showAll").text("Hide");
             toggleCategory('.flc-resources-toggleItem', true);
-
-
         }else{
-            
             $(".flc-resources-showAll").text("Show");
             toggleCategory('.flc-resources-toggleItem', false);
-
-
         }
-        
-        
-
     });
-
-    /** When "hide all" button is clicked, collapses all categories to hide their contents. */
-    // $('.flc-resources-showAll').click(function () {
-    //     toggleCategory('.flc-resources-toggleItem', false);
-    // });
+    
+    
 
     /** Toggle each category to hide or show their respective content(s).
       * @param (evt) A jQuery event, happens each time the object is clicked
