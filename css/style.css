@@ -120,6 +120,13 @@ body {
 .floe .floe-nav ul li a:focus {
     background-color: #FFCB00;
 }
+/* #121 link overlapping */
+div.columns.large-6.small-12 a { 
+    display: inline-block; 
+}
+.floe-content.floe-story a { 
+    display: inline-block; 
+}
 
 /* FLOE Content Containers - not header. Header has its own styles above. */
 .floe-content {
