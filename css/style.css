@@ -16,6 +16,12 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+@media screen and (min-width: 320px) and (max-width: 400px){
+    .mobile{
+        padding: auto;
+    }
+}
+
 
 /* Clearfix courtesy of CSS Tricks http://css-tricks.com/snippets/css/clear-fix/
  */
