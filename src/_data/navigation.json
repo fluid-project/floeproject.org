@@ -1,0 +1,29 @@
+{
+    "items": [
+      {
+        "text": "Home",
+        "url": "/",
+        "external": false
+      },
+      {
+        "text": "GitHub",
+        "url": "https://github.com/fluid-project/floeproject.org",
+        "external": true
+      },
+      {
+        "text": "News",
+        "url": "/newsindex.html",
+        "external": false
+      },
+      {
+          "text": "UI Option",
+          "url": "/uioptions.html",
+          "external": false
+      },
+      {
+          "text": "Resources",
+          "url": "/resources.html",
+          "external": false
+      }
+    ]
+  }
