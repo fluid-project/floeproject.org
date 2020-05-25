@@ -32,7 +32,7 @@ module.exports = function(config) {
    config.addPassthroughCopy({"src/assets/js": "assets/js"});
    config.addPassthroughCopy({"src/lib": "lib"});
    config.addPassthroughCopy({"src/assets/stylesheets": "assets/stylesheets"});
-   config.addPassthroughCopy({"src/posts/images": "assets/posts-images/images"})
+   config.addPassthroughCopy({"src/posts/images": "posts/images"})
 
   const now = new Date();
 

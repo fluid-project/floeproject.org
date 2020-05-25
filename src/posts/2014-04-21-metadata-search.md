@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Metadata Search
 date: '2014-04-21'
 tags: post
-permalink: 2014-04-21-metadata-search.html;
+permalink: posts/2014-04-21-metadata-search.html;
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Floe at the University of Guelph Accessibility Conference
 date: '2019-07-02'
 tags: post
-permalink: 2019-07-02-Guelph-accessibility-conference.html
+permalink: posts//2019-07-02-Guelph-accessibility-conference.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>
@@ -17,7 +17,7 @@ permalink: 2019-07-02-Guelph-accessibility-conference.html
                     On Tuesday morning, Floe principal investigator Jutta Treviranus delivered the keynote to open the conference, titled "From Intelligence to Wisdom: Navigating a Complex Future". Her talk covered a range of topics from changing educational practice to the future of artificial intelligence.
                 </p>
                 <p>
-                        <img src="assets/posts-images/images/guelph-2019-jt.png" alt="Photograph from a distance of Jutta Treviranus delivering a keynote." /><br/>
+                        <img src="images/guelph-2019-jt.png" alt="Photograph from a distance of Jutta Treviranus delivering a keynote." /><br/>
                         <em>Jutta Treviranus's opening keynote slides.</em>
                 </p>
                 <p>

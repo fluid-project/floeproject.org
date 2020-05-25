@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: OER Accessibility Sprint
 date: '2015-01-13'
 tags: post
-permalink: 2015-01-13-oer-a11y-sprint.html
+permalink: posts/2015-01-13-oer-a11y-sprint.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

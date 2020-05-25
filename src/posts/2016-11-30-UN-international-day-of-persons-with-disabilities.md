@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: UN International Day of Persons with Disabilities
 date: '2016-11-30'
 tags: post
-permalink: 2016-11-30-UN-international-day-of-persons-with-disabilities.html
+permalink: posts/2016-11-30-UN-international-day-of-persons-with-disabilities.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

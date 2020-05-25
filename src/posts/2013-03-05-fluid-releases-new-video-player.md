@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Fluid Releases New Video Player
 date: '2013-03-05'
 tags: post
-permalink: 2013-03-05-fluid-releases-new-video-player.html
+permalink: posts/2013-03-05-fluid-releases-new-video-player.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

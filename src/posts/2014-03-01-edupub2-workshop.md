@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: EDUPUB2 Workshop
 date: '2014-03-01'
 tags: post
-permalink: 2014-03-01-edupub2-workshop.html
+permalink: posts/2014-03-01-edupub2-workshop.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

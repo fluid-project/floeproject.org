@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Learner Options WordPress Plugin
 date: '2015-03-26'
 tags: post
-permalink: 2015-03-26-uio-wp-plugin.html
+permalink: posts/2015-03-26-uio-wp-plugin.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

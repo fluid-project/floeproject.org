@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Resistance In A Wire Simulation
 date: '2019-01-24'
 tags: post
-permalink: 2019-01-24-ResistanceInWire.html
+permalink: posts/2019-01-24-ResistanceInWire.html
 ---
 <article id="content" class="floe-content floe-news-item">
                 <h2> News </h2>
@@ -37,6 +37,6 @@ permalink: 2019-01-24-ResistanceInWire.html
                     the development of the simulation resulting in making it accessible to many learners with disabilities, using
                     elegant visual, auditory, and interaction design.
                 </p>
-                <img src="assets/posts-images/images/RIAW.png" alt="Resistance in a Wire Simulation"></a>
+                <img src="images/RIAW.png" alt="Resistance in a Wire Simulation"></a>
             </article>
          <!-- END markup for news item -->

@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Floe at OCAD University's Open Education Week Event
 date: '2019-03-22'
 tags: post
-permalink: 2019-03-22-OCAD-OE-week.html
+permalink: posts//2019-03-22-OCAD-OE-week.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>
@@ -14,7 +14,7 @@ permalink: 2019-03-22-OCAD-OE-week.html
                     Members of the Floe team recently participated in <a href="https://www.ocadu.ca/">OCAD University's</a> <a href="https://www.openeducationweek.org/">Open Education Week</a> event, <a href="https://www2.ocadu.ca/event/guerrilla-education-a-very-hands-on-open-education-week-event">Guerilla Education! A Very Hands-On Open Education Week Event</a>.
                 </p>
                 <p>
-                    <img src="assets/posts-images/images/ocad-open-ed.png" alt="Photograph of a presentation slide on a screen with three blocks of text: 'Understanding: make it accessible and clear', 'Sharing: make it easy to adapt and share', 'Participation & Inclusion: make it inviting, safe and sustainable.'" /><br/>
+                    <img src="images/ocad-open-ed.png" alt="Photograph of a presentation slide on a screen with three blocks of text: 'Understanding: make it accessible and clear', 'Sharing: make it easy to adapt and share', 'Participation & Inclusion: make it inviting, safe and sustainable.'" /><br/>
                     <em>One of panelist Jairus Khan's slides, about elements of openness.</em>
                 </p>
                 <p>

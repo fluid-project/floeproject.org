@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: DEEP Conference 2016
 date: '2016-11-30'
 tags: post
-permalink: 2016-11-30-DEEP-conference-2016.html
+permalink: posts/2016-11-30-DEEP-conference-2016.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

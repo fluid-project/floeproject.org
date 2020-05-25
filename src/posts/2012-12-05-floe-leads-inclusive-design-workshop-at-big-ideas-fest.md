@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: FLOE leads Inclusive Design Workshop at Big Ideas Fest
 date: '2012-05-12'
 tags: post
-permalink: 2012-12-05-floe-leads-inclusive-design-workshop-at-big-ideas-fest.html
+permalink: posts/2012-12-05-floe-leads-inclusive-design-workshop-at-big-ideas-fest.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

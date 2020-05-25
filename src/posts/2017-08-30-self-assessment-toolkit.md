@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Self-Assessment Learning Toolkit
 date: '2017-08-30'
 tags: post
-permalink: 2017-08-30-self-assessment-toolkit.html
+permalink: posts/2017-08-30-self-assessment-toolkit.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>
@@ -19,7 +19,7 @@ permalink: 2017-08-30-self-assessment-toolkit.html
                     The following images show examples of the designs we are currently developing (select to enlarge):
                 </p>
                 <figure>
-                    <a href="assets/posts-images/images/Self-reflection-Figure-1.png"><img src="assets/posts-images/images/Self-reflection-Figure-1-thumb.png" alt="view larger version of this image" aria-details="det1"></a>
+                    <a href="images/Self-reflection-Figure-1.png"><img src="images/Self-reflection-Figure-1-thumb.png" alt="view larger version of this image" aria-details="det1"></a>
                     <figcaption>
                         <details id="det1">
                             <summary>
@@ -30,7 +30,7 @@ permalink: 2017-08-30-self-assessment-toolkit.html
                     </figcaption>
                 </figure>
                 <figure>
-                    <a href="assets/posts-images/images/Self-reflection-Figure-2.png"><img src="assets/posts-images/images/Self-reflection-Figure-2-thumb.png" alt="view larger version of this image" aria-details="det2"></a>
+                    <a href="images/Self-reflection-Figure-2.png"><img src="images/Self-reflection-Figure-2-thumb.png" alt="view larger version of this image" aria-details="det2"></a>
                     <figcaption>
                         <details id="det2">
                             <summary>
@@ -41,7 +41,7 @@ permalink: 2017-08-30-self-assessment-toolkit.html
                     </figcaption>
                 </figure>
                 <figure>
-                    <a href="assets/posts-images/images/Self-reflection-Figure-3.png"><img src="assets/posts-images/images/Self-reflection-Figure-3-thumb.png" alt="view larger version of this image" aria-details="det3"></a>
+                    <a href="images/Self-reflection-Figure-3.png"><img src="images/Self-reflection-Figure-3-thumb.png" alt="view larger version of this image" aria-details="det3"></a>
                     <figcaption>
                         <details id="det3">
                             <summary>

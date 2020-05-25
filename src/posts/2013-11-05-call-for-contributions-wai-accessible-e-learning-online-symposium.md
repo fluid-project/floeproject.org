@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Call For Contributions&#58; WAI's Accessible E-Learning Online Symposium
 date: '2013-11-05'
 tags: post
-permalink: 2013-11-05-call-for-contributions-wai-accessible-e-learning-online-symposium.html
+permalink: posts/2013-11-05-call-for-contributions-wai-accessible-e-learning-online-symposium.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

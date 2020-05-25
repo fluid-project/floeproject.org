@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Metadata Editing Components
 date: '2014-03-18'
 tags: post
-permalink: 2014-03-18-metadata-editing-components.html
+permalink: posts/2014-03-18-metadata-editing-components.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

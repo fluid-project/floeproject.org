@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Plans For FLOE Year Three
 date: '2012-10-19'
 tags: post
-permalink: 2012-10-19-plans-for-floe-year-three.html
+permalink: posts/2012-10-19-plans-for-floe-year-three.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

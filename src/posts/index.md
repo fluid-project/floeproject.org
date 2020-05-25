@@ -1,13 +1,11 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: News | floe
-permalink: newsindex.html
+permalink: posts/index.html
 ---
 <div id="content" class="floe-content">
     <div class="flc-toc-tocContainer toc"> </div>
     <h2> News </h2>
-
-    <!-- TODO: Remove duplication by making this a list of links to the articles -->
     <div class="floe-news-archive">
         <ul>
             {%- for post in collections.post -%}

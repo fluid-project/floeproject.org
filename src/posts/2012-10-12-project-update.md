@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Project Update
 date: '2012-10-12'
 tags: post
-permalink: 2012-10-12-project-update.html
+permalink: posts/2012-10-12-project-update.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

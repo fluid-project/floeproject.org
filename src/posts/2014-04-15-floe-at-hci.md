@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Floe at HCI
 date: '2014-04-15'
 tags: post
-permalink: 2014-04-15-floe-at-hci.html
+permalink: posts/2014-04-15-floe-at-hci.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

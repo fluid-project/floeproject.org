@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Workshop&#58; Inclusive Technology in the Classroom
 date: '2014-03-28'
 tags: post
-permalink: 2014-03-28-workshop-inclusive-technology-in-the-classroom.html
+permalink: posts/2014-03-28-workshop-inclusive-technology-in-the-classroom.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

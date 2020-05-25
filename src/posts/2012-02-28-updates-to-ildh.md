@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Updates to the Inclusive Learning Design Handbook
 date: '2012-02-28'
 tags: post
-permalink: 2012-02-28-updates-to-ildh.html
+permalink: posts/2012-02-28-updates-to-ildh.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
-title: 
+layout: layouts/post
+title: Inclusive Cities Co-Design
 date: '2018-08-30'
 tags: post
-permalink: 2018-08-30-Cities-Co-Design.html
+permalink: posts/2018-08-30-Cities-Co-Design.html
 ---
 <article id="content" class="floe-content floe-news-item">
                 <h2> News </h2>

@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Inclusive Science Lab
 date: '2017-07-19'
 tags: post
-permalink: 2017-07-19-inclusive-science-lab.html
+permalink: posts/2017-07-19-inclusive-science-lab.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

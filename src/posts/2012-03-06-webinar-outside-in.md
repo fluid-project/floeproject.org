@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Webinar&#58; Outside In - Achieving Our Goals by Designing for Diversity
 date: '2012-03-26'
 tags: post
-permalink: 2012-03-06-webinar-outside-in.html
+permalink: posts/2012-03-06-webinar-outside-in.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

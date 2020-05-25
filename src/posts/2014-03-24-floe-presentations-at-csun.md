@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Floe Presentations at CSUN
 date: '2014-03-24'
 tags: post
-permalink: 2014-03-24-floe-presentations-at-csun.html
+permalink: posts/2014-03-24-floe-presentations-at-csun.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

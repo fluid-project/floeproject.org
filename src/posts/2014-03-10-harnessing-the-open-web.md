@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Harnessing the Open Web
 date: '2014-03-10'
 tags: post
-permalink: 2014-03-10-harnessing-the-open-web.html
+permalink: posts/2014-03-10-harnessing-the-open-web.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

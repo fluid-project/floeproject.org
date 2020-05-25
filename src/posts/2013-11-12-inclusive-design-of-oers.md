@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Inclusive Design of OERs
 date: '2013-11-12'
 tags: post
-permalink: 2013-11-12-inclusive-design-of-oers.html
+permalink: posts/2013-11-12-inclusive-design-of-oers.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

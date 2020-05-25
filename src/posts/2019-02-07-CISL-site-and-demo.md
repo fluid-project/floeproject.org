@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: CISL Site and Demo Launched
 date: '2019-02-07'
 tags: post
-permalink: 2019-02-07-CISL-site-and-demo.html
+permalink: posts/2019-02-07-CISL-site-and-demo.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>
@@ -19,6 +19,6 @@ permalink: 2019-02-07-CISL-site-and-demo.html
                 <p>
                     The Floe project is working as a partner on the CISL project to integrate Floe tools such as <a href="https://build.fluidproject.org/infusion/demos/prefsFramework/">Learner Options</a> into the <a href="http://cisl-demo.cast.org/index-readium.html?pub=serp-paper-or-plastic">CISL Reader</a> and other parts of the software suite, and to apply its principles of inclusive design for learning.
                 </p>
-                <a href="http://cisl-demo.cast.org/index-readium.html?pub=serp-paper-or-plastic"><img src="assets/posts-images/images/CISL-reader.png" alt="Screenshot of the CISL Reader demo" /></a>
+                <a href="http://cisl-demo.cast.org/index-readium.html?pub=serp-paper-or-plastic"><img src="images/CISL-reader.png" alt="Screenshot of the CISL Reader demo" /></a>
             </article>
          <!-- END markup for news item -->

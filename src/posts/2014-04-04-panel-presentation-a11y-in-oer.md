@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Panel Presentation&#58; Accessibility in OER
 date: '2014-04-04'
 tags: post
-permalink: 2014-04-04-panel-presentation-a11y-in-oer.html
+permalink: posts/2014-04-04-panel-presentation-a11y-in-oer.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

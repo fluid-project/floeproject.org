@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: El Planeta Es La Escuela Workshops
 date: '2018-06-19'
 tags: post
-permalink: 2018-06-19-El-Planeta-Es-La-Escuela.html
+permalink: posts/2018-06-19-El-Planeta-Es-La-Escuela.html
 ---
 <article id="content" class="floe-content floe-news-item">
                 <h2> News </h2>
@@ -36,7 +36,7 @@ permalink: 2018-06-19-El-Planeta-Es-La-Escuela.html
                     which will now be made available to the students at their rural schools.
                 </p>
                 <figure>
-                    <a href="assets/posts-images/images/Medellin_art.png"><img src="assets/posts-images/images/Medellin_art_thumb.png" alt="view larger version of this image" aria-details="det1"></a>
+                    <a href="images/Medellin_art.png"><img src="images/Medellin_art_thumb.png" alt="view larger version of this image" aria-details="det1"></a>
                     <figcaption>
                         <details id="det1">
                             <summary>

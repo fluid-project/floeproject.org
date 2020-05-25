@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Upcoming Talks on Inclusive Digital Education
 date: '2016-03-28'
 tags: post
-permalink: 2016-03-28-upcoming-talks-on-inclusive-digital-education.html
+permalink: posts/2016-03-28-upcoming-talks-on-inclusive-digital-education.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

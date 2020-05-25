@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Workshop&#58; The Business Advantages of Making Special the Norm
 date: '2015-05-08'
 tags: post
-permalink: 2015-05-08-workshop-business-advantages.html
+permalink: posts/2015-05-08-workshop-business-advantages.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

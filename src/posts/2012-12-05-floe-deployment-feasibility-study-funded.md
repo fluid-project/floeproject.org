@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
-title: 
+layout: layouts/post
+title: FLOE Deployment Feasibility Study Funded by US Dept. of Education
 date: '2012-12-05'
 tags: post
-permalink: 2012-12-05-floe-deployment-feasibility-study-funded.html
+permalink: posts/2012-12-05-floe-deployment-feasibility-study-funded.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

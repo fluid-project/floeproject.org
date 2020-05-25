@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Design-2-Align curriculum alignment in crisis contexts
 date: '2019-11-05'
 tags: post
-permalink: 2019-11-05-Design-2-Align.html
+permalink: posts//2019-11-05-Design-2-Align.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>
@@ -15,7 +15,7 @@ permalink: 2019-11-05-Design-2-Align.html
                     primary and secondary curriculum in crisis contexts.
                 </p>
                 <figure>
-                    <img src="assets/posts-images/images/Design-2-Align_panel.png"
+                    <img src="images/Design-2-Align_panel.png"
                          alt="Two large TV screens on a wall behind a panel of five guests and one moderator in a small meeting room. TV screens show three images of large crowded refugee camp classrooms both indoors and outdoors.">
                     <figcaption>
                         A panel of refugee coaches, host community coach, and Education Officers from Kakuma Refugee
@@ -52,7 +52,7 @@ permalink: 2019-11-05-Design-2-Align.html
                     adjustments back to the rubric.
                 </p>
                 <figure>
-                    <img src="assets/posts-images/images/Design-2-Align_activity.png"
+                    <img src="images/Design-2-Align_activity.png"
                          alt="Several people sitting on chairs, on the floor and standing while interacting with two whiteboards filled with writing and coloured sticky notes.">
                     <figcaption>
                         The Hackathon team broke into various small groups to tackle specific areas of the curriculum
@@ -60,7 +60,7 @@ permalink: 2019-11-05-Design-2-Align.html
                     </figcaption>
                 </figure>
                 <figure>
-                    <img src="assets/posts-images/images/Design-2-Align_team.png"
+                    <img src="images/Design-2-Align_team.png"
                          alt="Group portrait of some of the participants in the hackathon. There are approximately 25 people standing and kneeling in casual poses.">
                     <figcaption>
                         The Hackathon team at the San Francisco Google offices.

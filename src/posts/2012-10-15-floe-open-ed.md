@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: FLOE at Open Education Conference in Vancouver, B.C.
 date: '2012-10-15'
 tags: post
-permalink: 2012-10-15-floe-open-ed.html
+permalink: posts/2012-10-15-floe-open-ed.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

@@ -1,9 +1,9 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Lumen Learning
 date: '2014-09-30'
 tags: post
-permalink: 2014-09-30-lumen-learning.html
+permalink: posts/2014-09-30-lumen-learning.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>
