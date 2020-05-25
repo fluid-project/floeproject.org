@@ -21,9 +21,7 @@ module.exports = function(config) {
   config.addFilter('dateFilter', dateFilter);
   config.addFilter('markdownFilter', markdownFilter);
   config.addFilter('w3DateFilter', w3DateFilter);
-
-  // Layout aliases
-  config.addLayoutAlias('home', 'layouts/home.njk');
+  
 
   // Transforms
   config.addTransform('htmlmin', htmlMinTransform);
