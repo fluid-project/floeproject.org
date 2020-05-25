@@ -1,5 +1,5 @@
 ---
-layout: layouts/post
+layout: layouts/default
 title: Upcoming Talks on Inclusive Digital Education
 date: '2016-03-28'
 tags: post

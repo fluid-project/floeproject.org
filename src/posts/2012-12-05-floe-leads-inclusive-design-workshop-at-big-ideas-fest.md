@@ -1,5 +1,5 @@
 ---
-layout: layouts/post
+layout: layouts/default
 title: FLOE leads Inclusive Design Workshop at Big Ideas Fest
 date: '2012-05-12'
 tags: post

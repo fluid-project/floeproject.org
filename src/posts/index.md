@@ -1,5 +1,5 @@
 ---
-layout: layouts/post
+layout: layouts/default
 title: News | floe
 permalink: posts/index.html
 ---

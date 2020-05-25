@@ -1,5 +1,5 @@
 ---
-layout: layouts/post
+layout: layouts/default
 title: EDUPUB2 Workshop
 date: '2014-03-01'
 tags: post

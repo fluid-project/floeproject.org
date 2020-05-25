@@ -1,5 +1,5 @@
 ---
-layout: layouts/post
+layout: layouts/default
 title: Coding Prototype Co-design
 date: '2019-08-12'
 tags: post

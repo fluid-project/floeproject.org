@@ -1,5 +1,5 @@
 ---
-layout: layouts/post
+layout: layouts/default
 title: FLOE at Open Education Conference in Vancouver, B.C.
 date: '2012-10-15'
 tags: post

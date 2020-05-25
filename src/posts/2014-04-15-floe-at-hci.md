@@ -1,5 +1,5 @@
 ---
-layout: layouts/post
+layout: layouts/default
 title: Floe at HCI
 date: '2014-04-15'
 tags: post

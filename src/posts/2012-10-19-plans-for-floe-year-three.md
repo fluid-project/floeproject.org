@@ -1,5 +1,5 @@
 ---
-layout: layouts/post
+layout: layouts/default
 title: Plans For FLOE Year Three
 date: '2012-10-19'
 tags: post

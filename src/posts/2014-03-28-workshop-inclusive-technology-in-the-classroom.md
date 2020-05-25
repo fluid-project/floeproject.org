@@ -1,5 +1,5 @@
 ---
-layout: layouts/post
+layout: layouts/default
 title: Workshop&#58; Inclusive Technology in the Classroom
 date: '2014-03-28'
 tags: post

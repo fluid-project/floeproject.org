@@ -1,5 +1,5 @@
 ---
-layout: layouts/post
+layout: layouts/default
 title: Harnessing the Open Web
 date: '2014-03-10'
 tags: post

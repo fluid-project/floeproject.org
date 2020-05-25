@@ -1,5 +1,5 @@
 ---
-layout: layouts/post
+layout: layouts/default
 title: El Planeta Es La Escuela Workshops
 date: '2018-06-19'
 tags: post

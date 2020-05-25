@@ -1,5 +1,5 @@
 ---
-layout: layouts/post
+layout: layouts/default
 title: DEEP Conference 2016
 date: '2016-11-30'
 tags: post

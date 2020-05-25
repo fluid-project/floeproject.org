@@ -1,5 +1,5 @@
 ---
-layout: layouts/post
+layout: layouts/default
 title: Design-2-Align curriculum alignment in crisis contexts
 date: '2019-11-05'
 tags: post

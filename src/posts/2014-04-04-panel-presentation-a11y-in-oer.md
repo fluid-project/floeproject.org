@@ -1,5 +1,5 @@
 ---
-layout: layouts/post
+layout: layouts/default
 title: Panel Presentation&#58; Accessibility in OER
 date: '2014-04-04'
 tags: post

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post
+layout: layouts/default
 title: Floe at the University of Guelph Accessibility Conference
 date: '2019-07-02'
 tags: post

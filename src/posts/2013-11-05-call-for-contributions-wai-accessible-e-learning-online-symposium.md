@@ -1,5 +1,5 @@
 ---
-layout: layouts/post
+layout: layouts/default
 title: Call For Contributions&#58; WAI's Accessible E-Learning Online Symposium
 date: '2013-11-05'
 tags: post

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post
+layout: layouts/default
 title: Coding to Learn and Create
 date: '2019-06-28'
 tags: post
