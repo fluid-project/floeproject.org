@@ -1,20 +1,21 @@
 name: Eleventy Build
+
 on:
   push:
-    branches: [ eleventy ]
-  pull_request:
-    branches: [ eleventy ]
+    branches:
+      - eleventy
 
 jobs:
-  build_deploy:
-    runs-on: ubuntu-latest
+  deploy:
+    runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@eleventy
-      - name: Build
-        uses: TartanLlama/actions-eleventy@v1.1
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v1.1.0
-        env:
-          PUBLISH_DIR: dist 
-          PUBLISH_BRANCH: gh-pages
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 13.9.0
+
+      - run: npm ci
+
+      - run: npm run build
