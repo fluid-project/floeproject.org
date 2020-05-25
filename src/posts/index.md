@@ -9,7 +9,7 @@ permalink: posts/index.html
     <div class="floe-news-archive">
         <ul>
             {%- for post in collections.post -%}
-              <li> {{ post.data.permalink }} </li>
+              <li> {{ post.data.title }} </li>
             {%- endfor -%}
         </ul>
     </div>

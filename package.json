@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "eleventy",
-    "eleventy": "eleventy --serve"
+    "eleventy": "eleventy--serve",
+    "eleventyport": "eleventy --serve --port=9778"
   },
   "repository": {
     "url": "git+https://github.com/sachin10101998/floeproject.org.git"

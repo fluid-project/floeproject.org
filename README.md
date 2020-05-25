@@ -26,7 +26,7 @@ Save your renamed file to the `./news` folder.
 
 1. Get the required node modules: `npm install`
 2. Run docpad from the fluid-website directory `npm run eleventy`.
-3. Open `http://localhost:8082/` to see the website. 
+3. Open `http://localhost:9778/` to see the website. 
 
 
 # To deploy to gh-pages (Not implemented Yet) 

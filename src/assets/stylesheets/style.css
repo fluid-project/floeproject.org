@@ -1510,4 +1510,20 @@ address {
     line-height: 1.6;
 }
 
+.floe-resources-content p {
+  font-size: 1.2em;
+  padding: 0.5em 0 !important;
+  margin: 0;
+}
+
+.floe-resources-content .floe-resources-items p {
+  font-size: 1em !important;
+  padding: 0.4em 0 !important;
+}
+
+.floe-resources-content .floe-resources-items li {
+ 
+  padding: 0.4em 0 !important;
+}
+
 
