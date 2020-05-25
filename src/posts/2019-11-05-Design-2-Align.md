@@ -3,7 +3,7 @@ layout: layouts/post
 title: Design-2-Align curriculum alignment in crisis contexts
 date: '2019-11-05'
 tags: post
-permalink: posts//2019-11-05-Design-2-Align.html
+permalink: posts/2019-11-05-Design-2-Align.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

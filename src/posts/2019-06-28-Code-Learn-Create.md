@@ -3,7 +3,7 @@ layout: layouts/post
 title: Coding to Learn and Create
 date: '2019-06-28'
 tags: post
-permalink: posts//2019-06-28-Code-Learn-Create.html
+permalink: posts/2019-06-28-Code-Learn-Create.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>

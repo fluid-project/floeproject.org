@@ -3,7 +3,7 @@ layout: layouts/post
 title: Floe at the University of Guelph Accessibility Conference
 date: '2019-07-02'
 tags: post
-permalink: posts//2019-07-02-Guelph-accessibility-conference.html
+permalink: posts/2019-07-02-Guelph-accessibility-conference.html
 ---
 <article class="floe-content floe-news-item">
                 <h2> News </h2>
