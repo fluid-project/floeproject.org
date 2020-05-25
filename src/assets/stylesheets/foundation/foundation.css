@@ -547,7 +547,6 @@ p,
 blockquote,
 th,
 td {
-  margin: 0;
   padding: 0; }
 
 p {
@@ -700,8 +699,7 @@ abbr, abbr[title] {
   cursor: help;
   text-decoration: none; }
 
-figure {
-  margin: 0; }
+
 
 kbd {
   margin: 0;
