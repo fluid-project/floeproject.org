@@ -27,7 +27,6 @@ module.exports = function (grunt) {
             // Copy external front end dependencies into appropriate directories
             frontEndDependencies: {
                 files: [
-                    // Infusion Components
                     {
                         expand: true,
                         cwd: "./node_modules/infusion/dist/",
@@ -58,15 +57,12 @@ module.exports = function (grunt) {
                         src: "**/*",
                         dest: "./src/lib/infusion/src/components/switch/css/"
                     },
-                    //Infusion License
                     {
                         expand: true,
                         cwd: ".node_modules/infusion/",
                         src: "*.txt",
                         dest: "./src/lib/infusion"
                     },
-                    // Infusion frameworks
-                   
                     {
                         expand: true,
                         cwd: "./node_modules/infusion/src/framework/preferences",
@@ -97,7 +93,6 @@ module.exports = function (grunt) {
                         src: "**/*",
                         dest: "./src/lib/infusion/src/lib/jquery/ui/css/default-theme/"
                     },
-                    // Normalize
                     {
                         expand: true,
                         cwd: "./node_modules/infusion/src/lib/normalize/css/",
