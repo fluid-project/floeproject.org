@@ -114,7 +114,7 @@ body {
 .floe .floe-nav ul li a {
     color: #000000;
     text-decoration: none;
-    padding-right: 1.2em !important;
+    margin-right: 1.2em !important;
 }
 
 .floe .floe-nav ul li a:hover,
@@ -1509,5 +1509,5 @@ address {
 .floe-front-news{
     line-height: 1.6;
 }
-/*Foundation*/
+
 

@@ -1,7 +1,7 @@
 ---
 layout: layouts/default
 title: News | floe
-permalink: news/index.html
+permalink: newsindex.html
 ---
 <div id="content" class="floe-content">
     <div class="flc-toc-tocContainer toc"> </div>
@@ -10,7 +10,9 @@ permalink: news/index.html
     <!-- TODO: Remove duplication by making this a list of links to the articles -->
     <div class="floe-news-archive">
         <ul>
-            
+            {%- for post in collections.post -%}
+              <li> {{ post.data.permalink }} </li>
+            {%- endfor -%}
         </ul>
     </div>
 </div>
