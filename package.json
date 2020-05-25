@@ -4,7 +4,8 @@
   "description": "FLOE Project Website",
   "main": "index.js",
   "scripts": {
-    "build:site": "eleventy --config=.eleventy.js"
+    "build": "eleventy",
+    "eleventy": "eleventy --serve"
   },
   "repository": {
     "url": "git+https://github.com/sachin10101998/floeproject.org.git"
