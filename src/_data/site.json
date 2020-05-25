@@ -5,7 +5,6 @@
   "authorEmail": "schopra@mt.iitr.ac.in",
   "authorHandle": "@sachin10101998",
   "authorName": "Sachin Chopra",
-  "enableThirdPartyComments": false,
   "maxPostsPerPage": 5,
   "faviconPath": "assets/images/favicon.ico"
 }

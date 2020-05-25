@@ -9,7 +9,7 @@
     "eleventyport": "eleventy --serve --port=9778"
   },
   "repository": {
-    "url": "git+https://github.com/sachin10101998/floeproject.org.git"
+    "url": "git+https://github.com/fluid-project/floeproject.org.git"
   },
   "keywords": [
     "Floe",
@@ -26,9 +26,9 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sachin10101998/floeproject.org/issues"
+    "url": "https://github.com/fluid-project/floeproject.org/issues"
   },
-  "homepage": "https://github.com/sachin10101998/floeproject.org#readme",
+  "homepage": "https://github.com/fluid-project/floeproject.org#readme",
   "dependencies": {
     "@11ty/eleventy": "^0.11.0",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
