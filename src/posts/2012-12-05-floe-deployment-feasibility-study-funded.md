@@ -1,5 +1,5 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: FLOE Deployment Feasibility Study Funded by US Dept. of Education
 date: '2012-12-05'
 tags: post

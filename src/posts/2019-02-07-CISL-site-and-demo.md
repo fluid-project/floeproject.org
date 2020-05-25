@@ -1,5 +1,5 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: CISL Site and Demo Launched
 date: '2019-02-07'
 tags: post

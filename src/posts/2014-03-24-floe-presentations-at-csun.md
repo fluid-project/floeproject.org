@@ -1,5 +1,5 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Floe Presentations at CSUN
 date: '2014-03-24'
 tags: post

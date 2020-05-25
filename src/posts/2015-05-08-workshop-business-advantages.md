@@ -1,5 +1,5 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Workshop&#58; The Business Advantages of Making Special the Norm
 date: '2015-05-08'
 tags: post

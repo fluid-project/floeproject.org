@@ -1,5 +1,5 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Updates to the Inclusive Learning Design Handbook
 date: '2012-02-28'
 tags: post

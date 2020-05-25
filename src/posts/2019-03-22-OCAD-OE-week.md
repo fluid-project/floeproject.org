@@ -1,5 +1,5 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Floe at OCAD University's Open Education Week Event
 date: '2019-03-22'
 tags: post

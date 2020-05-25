@@ -1,5 +1,5 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Resistance In A Wire Simulation
 date: '2019-01-24'
 tags: post

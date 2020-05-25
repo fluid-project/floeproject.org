@@ -1,5 +1,5 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Inclusive Science Lab
 date: '2017-07-19'
 tags: post

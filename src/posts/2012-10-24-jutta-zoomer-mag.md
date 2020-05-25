@@ -1,5 +1,5 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Jutta Treviranus Listed Among Zoomer Magazine’s Top 45 Over 45
 date: '2012-10-24'
 tags: post

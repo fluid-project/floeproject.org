@@ -1,5 +1,5 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Metadata Editing Components
 date: '2014-03-18'
 tags: post

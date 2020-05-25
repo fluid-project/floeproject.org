@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>{% if title %} {{ title }} {% else %} {{ site.title }} {% endif %}</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <link type="image/x-icon" href="../images/favicon.ico" rel="shortcut icon"/>
+
+        <!-- Foundation flex grid -->
+
+        {% include partials/foundationpostgrid.html %}
+        <!--[if lte IE 8]>
+        <script type="text/javascript">document.createElement("header")</script>
+        <script type="text/javascript">document.createElement("nav")</script>
+        <script type="text/javascript">document.createElement("footer")</script>
+        <script type="text/javascript">document.createElement("section")</script>
+        <script type="text/javascript">document.createElement("aside")</script>
+        <![endif]-->
+
+        <script type="text/javascript" src="{{ '/' | url }}lib/infusion/infusion-all.js"></script>
+        <script type="text/javascript" src="{{ '/' | url }}assets/js/floe.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                floe.setupUIO("../");
+            });
+        </script>
+        {% include partials/uio.html %}
+
+        <div id="skip">
+            <a href="#content">Skip to Content</a>
+        </div>
+
+        <div class="floe">
+            {% include partials/header.html %}
+            {{content}}
+            {% include partials/footer.html %}
+        </div>
+    </body>
+</html>

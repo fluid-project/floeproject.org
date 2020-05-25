@@ -1,5 +1,5 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: UN International Day of Persons with Disabilities
 date: '2016-11-30'
 tags: post

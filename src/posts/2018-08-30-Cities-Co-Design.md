@@ -1,5 +1,5 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Inclusive Cities Co-Design
 date: '2018-08-30'
 tags: post

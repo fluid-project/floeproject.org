@@ -1,5 +1,5 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Self-Assessment Learning Toolkit
 date: '2017-08-30'
 tags: post

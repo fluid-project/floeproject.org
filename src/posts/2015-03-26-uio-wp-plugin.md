@@ -1,5 +1,5 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Learner Options WordPress Plugin
 date: '2015-03-26'
 tags: post

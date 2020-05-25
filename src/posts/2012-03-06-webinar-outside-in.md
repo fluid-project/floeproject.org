@@ -1,5 +1,5 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Webinar&#58; Outside In - Achieving Our Goals by Designing for Diversity
 date: '2012-03-26'
 tags: post

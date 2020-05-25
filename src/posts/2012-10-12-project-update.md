@@ -1,5 +1,5 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Project Update
 date: '2012-10-12'
 tags: post

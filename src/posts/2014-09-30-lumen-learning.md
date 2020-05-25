@@ -1,5 +1,5 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Lumen Learning
 date: '2014-09-30'
 tags: post

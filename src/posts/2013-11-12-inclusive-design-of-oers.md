@@ -1,5 +1,5 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Inclusive Design of OERs
 date: '2013-11-12'
 tags: post

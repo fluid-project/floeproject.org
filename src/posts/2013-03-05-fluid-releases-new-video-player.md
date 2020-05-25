@@ -1,5 +1,5 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Fluid Releases New Video Player
 date: '2013-03-05'
 tags: post

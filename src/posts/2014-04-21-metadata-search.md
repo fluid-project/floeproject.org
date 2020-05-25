@@ -1,5 +1,5 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: Metadata Search
 date: '2014-04-21'
 tags: post

@@ -1,5 +1,5 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: New Content Added to Inclusive Design Resources
 date: '2018-04-18'
 tags: post

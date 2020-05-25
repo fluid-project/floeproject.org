@@ -1,5 +1,5 @@
 ---
-layout: layouts/default
+layout: layouts/post
 title: OER Accessibility Sprint
 date: '2015-01-13'
 tags: post
