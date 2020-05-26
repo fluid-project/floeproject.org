@@ -5,9 +5,10 @@
     "main": "index.js",
     "scripts": {
         "build": "eleventy",
-        "lint": "grunt",
+        "lint": "grunt lint",
         "eleventy": "eleventy --serve",
-        "eleventyport": "eleventy --serve --port=9778"
+        "eleventyport": "eleventy --serve --port=9778",
+        "prepare": "grunt installFrontEnd"
     },
     "repository": {
         "type": "git",
