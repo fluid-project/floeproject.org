@@ -9,6 +9,7 @@
     "eleventyport": "eleventy --serve --port=9778"
   },
   "repository": {
+    "type": "git",
     "url": "git+https://github.com/fluid-project/floeproject.org.git"
   },
   "keywords": [
