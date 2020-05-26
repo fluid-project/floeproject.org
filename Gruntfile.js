@@ -129,7 +129,7 @@ compliance with this License.
         grunt.loadNpmTasks("grunt-contrib-copy");
     
         // Custom tasks:
-        grunt.registerTask("default", ["clean", "installFrontEnd","lint"]);
+        grunt.registerTask("default", ["clean", "installFrontEnd"]);
         grunt.registerTask("installFrontEnd", "Install front-end dependencies from the node_modules directory after 'npm install'", ["copy:frontEndDependencies"]);
         grunt.registerTask("lint", "Perform all standard lint checks.", ["lint-all"]);
         

@@ -8,7 +8,7 @@
         "lint": "grunt lint",
         "eleventy": "eleventy --serve",
         "eleventyport": "eleventy --serve --port=9778",
-        "prepare": "grunt installFrontEnd"
+        "prepare": "grunt"
     },
     "repository": {
         "type": "git",
@@ -35,8 +35,7 @@
     "dependencies": {
         "@11ty/eleventy": "^0.11.0",
         "@11ty/eleventy-plugin-rss": "^1.0.7",
-        "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
-        "@tbranyen/jsdom": "^13.0.0"
+        "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1"
     },
     "devDependencies": {
         "babel-eslint": "^10.1.0",
@@ -52,6 +51,7 @@
         "infusion": "^3.0.0-dev.20200326T173810Z.24ddb2718",
         "sanitize-html": "^1.24.0",
         "sanitize.css": "^11.0.1",
-        "slugify": "^1.4.0"
+        "slugify": "^1.4.0",
+        "@tbranyen/jsdom": "^13.0.0"
     }
 }
