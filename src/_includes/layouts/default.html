@@ -7,18 +7,7 @@
         <link type="image/x-icon" href="{{ '/' | url }}assets/images/favicon.ico" rel="shortcut icon"/>
 
         <!-- Foundation flex grid -->
-      
         {% include partials/foundationflexgrid.html %}
-        
-
-        <!--[if lte IE 8]>
-        <script type="text/javascript">document.createElement("header")</script>
-        <script type="text/javascript">document.createElement("nav")</script>
-        <script type="text/javascript">document.createElement("footer")</script>
-        <script type="text/javascript">document.createElement("section")</script>
-        <script type="text/javascript">document.createElement("aside")</script>
-        <![endif]-->
-
         <script type="text/javascript" src="{{ '/' | url }}lib/infusion/infusion-all.js"></script>
         <script type="text/javascript" src="{{ '/' | url }}assets/js/floe.js"></script>
         {% if page.url == "/resources.html" %}
@@ -28,9 +17,6 @@
         {% if page.url == "/uioptions.html" %}
         <script type="text/javascript" src="{{ '/' | url }}assets/js/resources.js"></script>
         {% endif %}
-
-        
-
     </head>
     <body>
         <script type="text/javascript">
@@ -38,13 +24,10 @@
                 floe.setupUIO();
             });
         </script>
-
         {% include partials/uio.html %}
-
         <div id="skip">
             <a href="#content">Skip to Content</a>
         </div>
-
         <div class="floe">
             {% include partials/header.html %}
             {{content}}

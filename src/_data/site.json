@@ -2,8 +2,7 @@
   "name": "FLOE Project",
   "shortDesc": "Flexible Learning for Open Education",
   "url": "https://www.floeproject.org",
-  "authorEmail": "schopra@mt.iitr.ac.in",
-  "authorHandle": "@sachin10101998",
-  "authorName": "Sachin Chopra",
-  "faviconPath": "assets/images/favicon.ico"
+  "authorName": "OCAD University",
+  "authorWebsite": "https://www.ocadu.ca/",
+  "faviconPath": "{{ '/' | url }}assets/images/favicon.ico"
 }

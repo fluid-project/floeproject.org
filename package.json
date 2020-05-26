@@ -2,7 +2,6 @@
   "name": "floeproject.org",
   "version": "1.0.0",
   "description": "FLOE Project Website",
-  "main": "index.js",
   "scripts": {
     "build": "eleventy",
     "eleventy": "eleventy --serve",
@@ -22,10 +21,7 @@
     "Education"
   ],
   "author": "OCAD University <idrc@ocadu.ca>",
-  "contributors": [
-    "Sachin Chopra <schopra@mt.iitr.ac.in> (www.github.com/sachin10101998)"
-  ],
-  "license": "ISC",
+  "license": "CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE",
   "bugs": {
     "url": "https://github.com/fluid-project/floeproject.org/issues"
   },
@@ -33,23 +29,21 @@
   "dependencies": {
     "@11ty/eleventy": "^0.11.0",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
-    "@tbranyen/jsdom": "^13.0.0",
-    "concurrently": "^5.2.0",
-    "grunt": "^1.1.0",
-    "grunt-contrib-clean": "^2.0.0",
-    "grunt-contrib-copy": "^1.0.0",
-    "html-minifier": "^4.0.0",
-    "image-size": "^0.8.3",
-    "infusion": "^3.0.0-dev.20200326T173810Z.24ddb2718",
-    "sanitize.css": "^11.0.1",
-    "slugify": "^1.4.0"
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1"
   },
   "devDependencies": {
     "debug": "^4.1.1",
     "eslint-config-fluid": "^1.4.0",
     "fluid-grunt-eslint": "^18.1.2",
+    "grunt": "^1.1.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
     "grunt-jsonlint": "^2.1.2",
-    "sanitize-html": "^1.24.0"
+    "infusion": "^3.0.0-dev.20200326T173810Z.24ddb2718",
+    "sanitize-html": "^1.24.0",
+    "sanitize.css": "^11.0.1",
+    "slugify": "^1.4.0",
+    "html-minifier": "^4.0.0",
+    "@tbranyen/jsdom": "^13.0.0"
   }
 }
