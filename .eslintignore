@@ -1,11 +1,3 @@
 **/lib/**
 dist/**
-"{
-    "parserOptions": {
-        "ecmaVersion": 2017
-    },
-
-    "env": {
-        "es6": true
-    }
-}
+src/lib/infusion/infusion-all.js

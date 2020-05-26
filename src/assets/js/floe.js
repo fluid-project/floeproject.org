@@ -12,20 +12,20 @@ https://github.com/fluid-project/infusion/raw/master/Infusion-LICENSE.txt
 */
 
 // Declare dependencies
-/*global floe:true, fluid, jQuery*/
+/*global fluid, jQuery*/
+"use strict";
+var floe = floe || {};
+(function ($, fluid) {
 
-    var floe = floe || {};
-    (function ($, fluid) {
-        "use strict";
-        floe.setupUIO = function (path) {
-            path = path || "";
-            fluid.uiOptions.prefsEditor(".flc-prefsEditor-separatedPanel", {
-                terms: {
-                    "templatePrefix": path + "lib/infusion/src/framework/preferences/html",
-                    "messagePrefix": path + "lib/infusion/src/framework/preferences/messages"
-                },
-                "tocTemplate": path + "lib/infusion/src/components/tableOfContents/html/TableOfContents.html",
-                "tocMessage": path + "lib/infusion/src/framework/preferences/messages/tableOfContents-enactor.json"
-            });
-        };
-    })(jQuery, fluid);
+    floe.setupUIO = function (path) {
+        path = path || "";
+        fluid.uiOptions.prefsEditor(".flc-prefsEditor-separatedPanel", {
+            terms: {
+                "templatePrefix": path + "lib/infusion/src/framework/preferences/html",
+                "messagePrefix": path + "lib/infusion/src/framework/preferences/messages"
+            },
+            "tocTemplate": path + "lib/infusion/src/components/tableOfContents/html/TableOfContents.html",
+            "tocMessage": path + "lib/infusion/src/framework/preferences/messages/tableOfContents-enactor.json"
+        });
+    };
+})(jQuery, fluid);

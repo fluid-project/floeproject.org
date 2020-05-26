@@ -15,7 +15,6 @@ const parseTransform = require('./src/transforms/parse-transform.js');
 // Import data files
 const site = require('./src/_data/site.json');
 
-
 module.exports = function(config) {
   // Filters
   config.addFilter('dateFilter', dateFilter);
@@ -43,7 +42,7 @@ module.exports = function(config) {
       ...collection.getFilteredByGlob('./src/posts/*.md').filter(livePosts)
     ].reverse();
   });
-
+  // The following xollection is ues to distribute posts into different pages. However, the default pagination has not been set in floeproject.org and all posts are shown on single page
   config.addCollection('postFeed', collection => {
     return [...collection.getFilteredByGlob('./src/posts/*.md').filter(livePosts)]
       .reverse()
@@ -84,6 +83,3 @@ module.exports = function(config) {
     passthroughFileCopy: true
   };
 };
-
-
-
