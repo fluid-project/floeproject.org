@@ -1,8 +1,8 @@
 {
-  "name": "FLOE Project",
-  "shortDesc": "Flexible Learning for Open Education",
-  "url": "https://www.floeproject.org",
-  "authorName": "OCAD University",
-  "authorWebsite": "https://www.ocadu.ca/",
-  "faviconPath": "{{ '/' | url }}assets/images/favicon.ico"
+    "name": "FLOE Project",
+    "shortDesc": "Flexible Learning for Open Education",
+    "url": "https://www.floeproject.org",
+    "authorName": "OCAD University",
+    "authorWebsite": "https://www.ocadu.ca/",
+    "faviconPath": "{{ '/' | url }}assets/images/favicon.ico"
 }
