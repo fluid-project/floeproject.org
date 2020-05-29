@@ -5,5 +5,5 @@
     "authorName": "OCAD University",
     "authorWebsite": "https://www.ocadu.ca/",
     "faviconPath": "{{ '/' | url }}assets/images/favicon.ico",
-    "title": "FLOE Project - Flecible Learning for open educaation"
+    "title": "FLOE Project - Flexible Learning for open educaation"
 }
