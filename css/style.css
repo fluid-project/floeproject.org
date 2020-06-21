@@ -109,13 +109,26 @@ body {
 .floe .floe-nav ul li.active {
     background-color: #FFFFFF;
     border: 2px solid #FFCB00;
+    
 }
 
 .floe .floe-nav ul li a {
-    color: #000000;
+    color: #5d5a5a;
     text-decoration: none;
 }
-
+.floe .floe-nav ul li .news {
+    font-size: 1.1em;
+    color: #000000;
+}
+.floe .floe-nav ul li .resources {
+    font-size: 1.1em;  
+    color: #000000;   
+}
+.floe .floe-nav ul li .ui-option {
+    font-size: 1.1em;
+    color: #000000;
+    
+}
 .floe .floe-nav ul li a:hover,
 .floe .floe-nav ul li a:focus {
     background-color: #FFCB00;
