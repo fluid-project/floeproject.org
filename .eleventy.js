@@ -40,12 +40,12 @@ module.exports = function(config) {
   config.addCollection('posts', collection => {
     return [
       ...collection.getFilteredByGlob('./src/posts/*.md').filter(livePosts)
-    ].reverse();
+    ]
   });
   // The following xollection is ues to distribute posts into different pages. However, the default pagination has not been set in floeproject.org and all posts are shown on single page
   config.addCollection('postFeed', collection => {
     return [...collection.getFilteredByGlob('./src/posts/*.md').filter(livePosts)]
-      .reverse()
+      
       .slice(0, site.maxPostsPerPage);
   });
 
