@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title>News: New Resources from Coding to Learn | floe</title>
+        <link type="image/x-icon" href="../images/favicon.ico" rel="shortcut icon"/>
+
+        <!-- Foundation flex grid -->
+        <link href="../lib/foundation/foundation.css" rel="stylesheet" type="text/css" />
+
+        <link href="../css/style.css" media="all" rel="stylesheet" type="text/css"/>
+        <link href="../css/print.css" media="print" rel="stylesheet" type="text/css"/>
+
+        <link rel="stylesheet" type="text/css" href="../lib/infusion/src/lib/normalize/css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="../lib/infusion/src/framework/core/css/fluid.css" />
+
+        <link rel="stylesheet" type="text/css" href="../lib/infusion/src/framework/preferences/css/Enactors.css" />
+        <link rel="stylesheet" type="text/css" href="../lib/infusion/src/framework/preferences/css/PrefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="../lib/infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css" />
+
+        <!--[if lte IE 8]>
+        <script type="text/javascript">document.createElement("header")</script>
+        <script type="text/javascript">document.createElement("nav")</script>
+        <script type="text/javascript">document.createElement("footer")</script>
+        <script type="text/javascript">document.createElement("section")</script>
+        <script type="text/javascript">document.createElement("aside")</script>
+        <![endif]-->
+
+        <script type="text/javascript" src="../lib/infusion/infusion-custom.js"></script>
+        <script type="text/javascript" src="../js/floe.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                floe.setupUIO("../");
+            });
+        </script>
+
+        <!-- BEGIN markup for Preference Editor -->
+        <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
+            <!--
+                This div is for the sliding panel bar that shows and hides the Preference Editor controls in the mobile view.
+                A separate panel bar for mobile displays is needed to preserve the correct tab order.
+            -->
+            <div class="fl-panelBar fl-panelBar-smallScreen">
+                <span class="fl-prefsEditor-buttons">
+                    <button class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                    <button class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                </span>
+            </div>
+
+            <!-- This is the div that will contain the Preference Editor component -->
+            <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div>
+
+            <!--
+                This div is for the sliding panel bar that shows and hides the Preference Editor controls in the desktop view.
+                A separate panel bar for desktop displays is needed to preserve the correct tab order.
+            -->
+            <div class="fl-panelBar fl-panelBar-wideScreen">
+                <span class="fl-prefsEditor-buttons">
+                    <button class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                    <button class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                </span>
+            </div>
+        </div>
+        <!-- END markup for Preference Editor -->
+
+        <div id="skip">
+            <a href="#content">Skip to Content</a>
+        </div>
+
+        <div class="floe">
+            <div class="row">
+                <div class="columns small-12 medium-12 large-7">
+                    <header class="floe-header">
+                        <h1><a rel="home" title="Home" href="../index.html" class="floe-header-logo">floe
+                            <span class="floe-header-tagline">
+                                flexible learning for open education
+                            </span></a>
+                        </h1>
+                    </header>
+                </div>
+                <div class="columns small-12 medium-12 large-5 align-self-bottom">
+                    <nav class="floe-nav">
+                        <ul>
+                            <li><a href="index.html">News</a></li>
+                            <li><a href="../resources.html">Resources</a></li>
+                            <li><a href="../ui-options.html">UI Options</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="flc-toc-tocContainer toc"> </div>
+            <article class="floe-content floe-news-item">
+                <h2> News </h2>
+
+                <!-- BEGIN markup for news item -->
+                <h3>New Co-Design Toolkit from Coding to Learn</h3>
+                <time class="floe-date" datetime="2020-07-14">July 14, 2020</time>
+                <p>
+                  The Coding to Learn project team has <a href="https://wiki.fluidproject.org/display/C2LC/Coding+to+Learn+and+Create+Co-Design+Kit">created a co-design kit</a> aimed at engaging kids with complex disabilities in coding skills and education is being created. The growing collection of activities includes multi-modal collaborative art creation.
+                </p>
+
+                <p>
+                  Since the COVID-19 isolation period, the team has explored remote coding and creativity workshops. Working with teachers, parents and students with complex disabilities, the team is developing a set of activities and processes to engage students remotely. These new insights will be added to the co-design kit in the coming weeks.
+                </p>
+
+                <p>
+                  <a href="https://build.codelearncreate.org/">The Inclusive Coding Environment</a> is being developed through a collaborative co-design process, currently including remote co-design coding sessions.
+                </p>
+
+                <p>
+                  An <a href="https://resources.codelearncreate.org/">Educator’s Toolkit</a> has been created to provide teachers with resources for teaching coding to diverse students. The toolkit will be redesigned and new resources will be added in the coming year.
+                </p>
+            </article>
+         <!-- END markup for news item -->
+
+            <footer class="floe-footer">
+                <div class="floe-content row">
+                    <div class="columns large-6 small-12">
+                        <div>
+                            <p>
+                                Floe is a project of the
+                                <a href="http://idrc.ocadu.ca">Inclusive Design Research Centre</a>, <a href="http://ocadu.ca">OCAD University</a>.<br/>
+                            </p>
+                            <p>
+                                <span class="floe-hewlett-logo">Funded by a grant from <a href="http://www.hewlett.org">The William and Flora Hewlett Foundation</a>.</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="columns large-6 small-12">
+                        <address>
+                            205 Richmond St. W., Second Floor<br/>
+                            Toronto, Ontario, Canada<br/>
+                            M5V 1V3<br/>
+                            Telephone: (416) 977-6000 #3968<br/>
+                            Fax: (416) 977-9844
+                        </address>
+                        <p>
+                            <a href="mailto:jtreviranus@faculty.ocadu.ca">Jutta Treviranus</a> Principal Investigator, Director and Professor<br/>
+                            <a href="mailto:jmitchell@ocadu.ca">Jess Mitchell</a> Senior Manager, Research and Development<br/>
+                            <a href="mailto:cclark@ocadu.ca">Colin Clark</a> Lead Software Architect
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </body>
+</html>
