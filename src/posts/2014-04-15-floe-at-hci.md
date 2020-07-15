@@ -6,7 +6,7 @@ tags: post
 permalink: posts/2014-04-15-floe-at-hci.html
 ---
 <p>The Floe team will be presenting a number of papers at the upcoming
- <a href="http://2014.hci.international/">HCI International conference</a>:</p>
+<a href="http://2014.hci.international/">HCI International conference</a>:</p>
 <ul>
 <li>An Introduction to the Floe Project </li>
 <li>Creating a Global Public Inclusive Infrastructure (GPII) </li>

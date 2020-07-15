@@ -6,13 +6,13 @@ tags: post
 permalink: posts/2016-03-28-upcoming-talks-on-inclusive-digital-education.html
 ---
 <p>IDRC Director Jutta Treviranus will be speaking at the following conferences
- on topics crossing digital inclusion in education, to rethinking the role of technology
-  in our institutions.</p>
+on topics crossing digital inclusion in education, to rethinking the role of technology
+in our institutions.</p>
 <p>April 2016:</p>
 <ul>
 <li>April 12 -<a href="https://events.keep.edu.hk/webed/2016/"> WWW2016 Workshop on
- Web Science and Technology for Education (WWW2016 Montreal)</a>. "Evaluating Educational
-  Software in the Web Era".</li>
+Web Science and Technology for Education (WWW2016 Montreal)</a>. "Evaluating Educational
+Software in the Web Era".</li>
 <li>April 12 - <a href="http://www.w4a.info/2016/">W4A Conference (WWW2016 Montreal)
 </a>. "Life-Long Learning on the Inclusive Web".
 <ul>
@@ -26,8 +26,8 @@ ntreal)</a>. "What will the web bring [in 2030]?"</li>
 al 2016</a>. "[Action Lab] Salad dressing, pendula, navels, scraped knees and futur
 e-proof learning (Accessibility and OER)".</li>
 <li>April 29 - <a href="https://oculaspring.wordpress.com/">OCULA Spring Conferece</a>.
- "Creating Space: Expanding the Physical, Digital, and Mental Boundaries of the Academic
-  Library"</li>
+"Creating Space: Expanding the Physical, Digital, and Mental Boundaries of the Academic
+Library"</li>
 </ul>
 <p>May 2016:</p>
 <ul>
