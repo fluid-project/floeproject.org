@@ -5,12 +5,7 @@ date: '2019-08-12'
 tags: post
 permalink: posts/2019-08-12-Coding-Prototype-Co-design.html
 ---
-<article class="floe-content floe-news-item">
-                <h2> News </h2>
-                <!-- BEGIN markup for news item -->
-                <h3>Coding Prototype Co-design</h3>
-                <time class="floe-date" datetime="2019-08-12">August 12, 2019</time>
-                <p>
+<p>
                     At the
                     <a href="https://conference.iste.org/2019/">ISTE 2019 conference</a>,
                     we shared a
@@ -28,5 +23,4 @@ permalink: posts/2019-08-12-Coding-Prototype-Co-design.html
                     spent some of the day considering how to redesign the prototype and
                     their insight is being used to update this prototype and to create new ones.
                 </p>
-            </article>
-         <!-- END markup for news item -->
+           

@@ -5,11 +5,7 @@ date: '2013-03-05'
 tags: post
 permalink: posts/2013-03-05-fluid-releases-new-video-player.html
 ---
-<article class="floe-content floe-news-item">
-                <h2> News </h2>
-                <h3>Fluid Releases New Video Player</h3>
-                <time class="floe-date" datetime="2013-03-05">March 05, 2013</time>
-                <p>
+<p>
                     The Fluid community has announced the release of Video Player v0.1
                 </p>
                 <p>
@@ -44,4 +40,4 @@ permalink: posts/2013-03-05-fluid-releases-new-video-player.html
                 <p>
                     The Fluid community would like to thank all the users and community members who contributed to this release!
                 </p>
-            </article>
+       

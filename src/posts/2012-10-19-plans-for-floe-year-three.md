@@ -5,11 +5,7 @@ date: '2012-10-19'
 tags: post
 permalink: posts/2012-10-19-plans-for-floe-year-three.html
 ---
-<article class="floe-content floe-news-item">
-                <h2> News </h2>
-                <h3>Plans For FLOE Year Three</h3>
-                <time class="floe-date" datetime="2012-10-19">October 19, 2012</time>
-                <p>
+<p>
                     The Floe project is now in its third year. Our focus moving forward will be to advance the work we've been doing on personalized learning. During the first two years of the Floe project, we
                 </p>
                 <ul>
@@ -43,4 +39,3 @@ permalink: posts/2012-10-19-plans-for-floe-year-three.html
                 <p>
                     We look forward to providing more details about these initiatives in future posts.
                 </p>
-            </article>

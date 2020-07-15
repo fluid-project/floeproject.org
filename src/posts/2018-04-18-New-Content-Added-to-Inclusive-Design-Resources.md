@@ -5,12 +5,7 @@ date: '2018-04-18'
 tags: post
 permalink: posts/2018-04-18-New-Content-Added-to-Inclusive-Design-Resources.html
 ---
-<article class="floe-content floe-news-item">
-                <h2> News </h2>
-                <!-- BEGIN markup for news item -->
-                <h3>New Content Added to Inclusive Design Resources</h3>
-                <time class="floe-date" datetime="2018-04-18">April 18, 2018</time>
-                <p>
+<p>
                     The activities described in the <a href="https://guide.inclusivedesign.ca/index.html">Inclusive Design Guide</a> cover a range of needs from collaborative “ice-breakers” to more comprehensive design activities, all of which can be used by any group to learn about and reflect on the practice of inclusive design in a particular context. Several activities have recently been added to the Guide including the <a href="https://guide.inclusivedesign.ca/activities/CollaborativeArtWarmup.html">Collaborative Art Warmup</a>, <a href="https://guide.inclusivedesign.ca/activities/FunctionalMashup.html">Functional Mashup</a>, <a href="https://guide.inclusivedesign.ca/activities/VirtuousTornado.html">Virtuous Tornado</a>, and <a href="https://guide.inclusivedesign.ca/activities/WebOfStrings.html">Web of Strings</a>. We invite you to give them a try!
                 </p>
                 <p>
@@ -34,4 +29,4 @@ permalink: posts/2018-04-18-New-Content-Added-to-Inclusive-Design-Resources.html
                         </details>
                     </figcaption>
                 </figure>
-            </article>
+           

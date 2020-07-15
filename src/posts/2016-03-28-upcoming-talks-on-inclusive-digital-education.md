@@ -5,11 +5,7 @@ date: '2016-03-28'
 tags: post
 permalink: posts/2016-03-28-upcoming-talks-on-inclusive-digital-education.html
 ---
-<article class="floe-content floe-news-item">
-                <h2> News </h2>
-                <h3>Upcoming Talks on Inclusive Digital Education</h3>
-                <time class="floe-date" datetime="2016-03-28">March 28, 2016</time>
-                <p>IDRC Director Jutta Treviranus will be speaking at the following conferences on topics crossing digital inclusion in education, to rethinking the role of technology in our institutions.</p>
+<p>IDRC Director Jutta Treviranus will be speaking at the following conferences on topics crossing digital inclusion in education, to rethinking the role of technology in our institutions.</p>
                 <p>April 2016:</p>
                 <ul>
                 	<li>April 12 -<a href="https://events.keep.edu.hk/webed/2016/"> WWW2016 Workshop on Web Science and Technology for Education (WWW2016 Montreal)</a>. "Evaluating Educational Software in the Web Era".</li>
@@ -32,4 +28,4 @@ permalink: posts/2016-03-28-upcoming-talks-on-inclusive-digital-education.html
                 	<li>May 26 - <a href="http://www.thinkconference.ca/">Think Conference</a></li>
                 </ul>
                 <p>Visit the conference websites for individual times and details.</p>
-            </article>
+      

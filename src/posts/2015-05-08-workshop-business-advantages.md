@@ -5,11 +5,7 @@ date: '2015-05-08'
 tags: post
 permalink: posts/2015-05-08-workshop-business-advantages.html
 ---
-<article class="floe-content floe-news-item">
-                <h2> News </h2>
-                <h3>Workshop: The Business Advantages of Making Special the Norm</h3>
-                <time class="floe-date" datetime="2015-05-08">May 8, 2015</time>
-                <p>The <a href="http://www.viscardicenter.org/services/nbdc/">National Business and
+<p>The <a href="http://www.viscardicenter.org/services/nbdc/">National Business and
                     Disability Council (NBDC)</a> at <a href="http://www.viscardicenter.org/">The Viscardi Center</a>
                      is offering an educational online workshop to focus on designing for diversity.</p>
                 <p>No one needs to point out that the current business climate is in a state of flux
@@ -33,4 +29,4 @@ permalink: posts/2015-05-08-workshop-business-advantages.html
                     and professor at <a href="http://ocadu.ca">OCAD University</a> in Toronto.</p>
                 <p>For more information or to register, visit <a href="http://www.viscardicenter.org/news-events/events/nbdc-distance-learning.html">http://www.viscardicenter.org/news-events/events/nbdc-distance-learning.html</a>.</p>
                 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cjXKHzcQypw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </article>
+

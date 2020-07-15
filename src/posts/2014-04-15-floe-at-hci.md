@@ -5,11 +5,7 @@ date: '2014-04-15'
 tags: post
 permalink: posts/2014-04-15-floe-at-hci.html
 ---
-<article class="floe-content floe-news-item">
-                <h2> News </h2>
-                <h3>Floe at HCI</h3>
-                <time class="floe-date" datetime="2014-04-15">April 15, 2014</time>
-                <p>The Floe team will be presenting a number of papers at the upcoming <a href="http://2014.hci.international/">HCI International conference</a>:</p>
+<p>The Floe team will be presenting a number of papers at the upcoming <a href="http://2014.hci.international/">HCI International conference</a>:</p>
                 <ul>
                     <li>An Introduction to the Floe Project </li>
                     <li>Creating a Global Public Inclusive Infrastructure (GPII) </li>
@@ -23,4 +19,4 @@ permalink: posts/2014-04-15-floe-at-hci.html
                     <li>Prosperity4All: Designing a Multi-Stakeholder Network for Economic Inclusion </li>
                 </ul>
                 <p>The conference will be held June 22-27, 2014, in Creta Maris, Heraklion, Crete, Greece.</p>
-            </article>
+      

@@ -5,12 +5,7 @@ date: '2018-08-30'
 tags: post
 permalink: posts/2018-08-30-Cities-Co-Design.html
 ---
-<article id="content" class="floe-content floe-news-item">
-                <h2> News </h2>
-                <!-- BEGIN markup for news item -->
-                <h3>Inclusive Cities Co-Design</h3>
-                <time class="floe-date" datetime="2018-08-30">August 30, 2018</time>
-                <p>
+<p>
                     As part of an effort to include diverse perspectives in the creation of inclusive
                     cities, the IDRC and Floe organized co-design sessions in elementary and
                     middle schools with students in Grades 3, 5, and 6. The co-design activity was developed
@@ -41,5 +36,4 @@ permalink: posts/2018-08-30-Cities-Co-Design.html
                         </details>
                     </figcaption>
                 </figure>
-            </article>
-         <!-- END markup for news item -->
+          

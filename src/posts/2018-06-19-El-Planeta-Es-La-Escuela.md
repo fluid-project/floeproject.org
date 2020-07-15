@@ -5,12 +5,7 @@ date: '2018-06-19'
 tags: post
 permalink: posts/2018-06-19-El-Planeta-Es-La-Escuela.html
 ---
-<article id="content" class="floe-content floe-news-item">
-                <h2> News </h2>
-                <!-- BEGIN markup for news item -->
-                <h3>El Planeta Es La Escuela Workshops</h3>
-                <time class="floe-date" datetime="2018-06-19">June 19, 2018</time>
-                <p>
+<p>
                     As part of a series of activities happening under the project
                     <a href="https://karisma.org.co/el-planeta-es-la-escuela/">‘El Planeta Es La Escuela’</a>
                     and the Social Justice Repair Kit (SJRK) project, Karisma Foundation organised a 3-day gathering that took place on May 24th-26th at
@@ -46,5 +41,5 @@ permalink: posts/2018-06-19-El-Planeta-Es-La-Escuela.html
                         </details>
                     </figcaption>
                 </figure>
-            </article>
-         <!-- END markup for news item -->
+        
+    

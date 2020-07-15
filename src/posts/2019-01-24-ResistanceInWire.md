@@ -5,12 +5,7 @@ date: '2019-01-24'
 tags: post
 permalink: posts/2019-01-24-ResistanceInWire.html
 ---
-<article id="content" class="floe-content floe-news-item">
-                <h2> News </h2>
-                <!-- BEGIN markup for news item -->
-                <h3>Resistance In A Wire Simulation</h3>
-                <time class="floe-date" datetime="2019-01-24">January 24, 2019</time>
-                <p>
+<p>
                     The PhET project recently published the
                     <a href="https://phet.colorado.edu/en/simulation/resistance-in-a-wire">Resistance in a Wire (RIAW)</a>
                     simulation, complete with sound, description, and alternative input. This simulation, along with the
@@ -38,5 +33,4 @@ permalink: posts/2019-01-24-ResistanceInWire.html
                     elegant visual, auditory, and interaction design.
                 </p>
                 <img src="images/RIAW.png" alt="Resistance in a Wire Simulation"></a>
-            </article>
-         <!-- END markup for news item -->
+         

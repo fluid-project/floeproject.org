@@ -5,11 +5,7 @@ date: '2017-07-19'
 tags: post
 permalink: posts/2017-07-19-inclusive-science-lab.html
 ---
-<article class="floe-content floe-news-item">
-                <h2> News </h2>
-                <h3>Inclusive Science Lab</h3>
-                <time class="floe-date" datetime="2017-07-19">July 19, 2017</time>
-                <p>
+<p>
                     We've been building an integration technology called the <a href="https://wiki.gpii.net/w/The_Nexus">Nexus</a>. It allows the interconnection of arbitrary devices by co-ordinating device state over HTTP and WebSockets.
                 </p>
                 <p>
@@ -18,5 +14,5 @@ permalink: posts/2017-07-19-inclusive-science-lab.html
                 <p>
                     Calum and Miles joined us to try out an inclusive science lab design, and helped us make a video about their experiences:
                 </p>
-                <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/NNwc0VYRhUU?rel=0&amp;ecver=1" frameborder="0" allowfullscreen></iframe>
-            </article>
+                <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/NNwc0VYRhUU?rel=0&amp;ecver=1" frameborder="0" allowfullscreen>
+                </iframe>

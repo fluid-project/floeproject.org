@@ -5,12 +5,7 @@ date: '2019-11-05'
 tags: post
 permalink: posts/2019-11-05-Design-2-Align.html
 ---
-<article class="floe-content floe-news-item">
-                <h2> News </h2>
-                <!-- BEGIN markup for news item -->
-                <h3>Design-2-Align curriculum alignment in crisis contexts</h3>
-                <time class="floe-date" datetime="2019-11-05">November 5, 2019</time>
-                <p>
+<p>
                     In October the IDRC participated in a three-day hackathon in San Francisco focused on aligning
                     primary and secondary curriculum in crisis contexts.
                 </p>
@@ -87,5 +82,4 @@ permalink: posts/2019-11-05-Design-2-Align.html
                 <p>
                     <strong>#design2align</strong>
                 </p>
-            </article>
-         <!-- END markup for news item -->
+         
