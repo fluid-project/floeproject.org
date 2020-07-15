@@ -1,4 +1,4 @@
-# Fluid Project Website
+# What is the Floe Project?
 
 Floe is creating tools that help transform, augment, and personalize the learning experience.
 
@@ -13,7 +13,7 @@ This repository contains the markup needed to deploy the floeproject.org website
 
 1. Get the required node modules: `npm install`
 2. Run eleventy from the fluid-website directory `npm run eleventyport`.
-3. Open `http://localhost:9778/` to see the website. 
+3. Open `http://localhost:9778/` to see the website.
 
 # To deploy to a personal webserver
 
