@@ -1,6 +1,5 @@
 ---
-layout: layouts/post
-title: News | floe
+layout: layouts/default
 permalink: posts/index.html
 ---
 <div id="content" class="floe-content">
