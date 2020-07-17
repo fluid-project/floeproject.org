@@ -17,5 +17,7 @@ collaborative lessons. <a href="https://wiki.fluidproject.org/display/AIHEC/AIHE
 Visit this Wiki page for the details and schedule</a>.
 </p>
 <p>
-Using the Storytelling Tool, AIHEC has started sharing a <a href="https://aihec.inclusivedesign.ca/storyView.html?id=96f85d00-8a74-11ea-820b-c9772cf8ea15">collection of learning stories</a> from teachers and learners.
+Using the Storytelling Tool, AIHEC has started sharing a
+ <a href="https://aihec.inclusivedesign.ca/storyView.html?id=96f85d00-8a74-11ea-820b-c9772cf8ea15">
+ collection of learning stories</a> from teachers and learners.
 </p>
