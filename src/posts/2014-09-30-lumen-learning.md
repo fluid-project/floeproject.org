@@ -3,7 +3,7 @@ layout: layouts/post
 title: Lumen Learning
 date: '2014-09-30'
 tags: post
-permalink: posts/2014-09-30-lumen-learning.html
+permalink: 2014-09-30-lumen-learning.html
 ---
 <p><a href="http://lumenlearning.com/">Lumen Learning</a> has been selected to receive funding as part of the
 <a href="https://www.gatesfoundation.org/Media-Center/Press-Releases/2014/09/Gates-Foundation-Announces-Finalists-for-$20-Million-in-Digital-Courseware-Investments">Next

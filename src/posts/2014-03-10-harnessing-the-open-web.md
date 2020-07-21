@@ -3,7 +3,7 @@ layout: layouts/post
 title: Harnessing the Open Web
 date: '2014-03-10'
 tags: post
-permalink: posts/2014-03-10-harnessing-the-open-web.html
+permalink: 2014-03-10-harnessing-the-open-web.html
 ---
 <p>Last week, the Floe team presented a paper entitled
 "Harnessing the Open Web To Create Inclusive Learning Environmen

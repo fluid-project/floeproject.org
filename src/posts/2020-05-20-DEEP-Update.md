@@ -3,7 +3,7 @@ layout: layouts/post
 title: Webinar - Machine Learning; Bias in, Bias out
 date: '2020-05-20'
 tags: post
-permalink: posts/2020-05-20-DEEP-Update.html
+permalink: 2020-05-20-DEEP-Update.html
 ---
 <p>
 Together, We Count and DEEP project teams have begun planning the We Count

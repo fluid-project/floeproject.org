@@ -3,7 +3,7 @@ layout: layouts/post
 title: New Resources from Coding to Learn
 date: '2020-07-14'
 tags: post
-permalink: posts/2020-07-14-New-Resources-from-Coding-to-Learn.html
+permalink: 2020-07-14-New-Resources-from-Coding-to-Learn.html
 ---
 <p>
 The Coding to Learn project team has <a href="https://wiki.fluidproject.org/display/C2LC/

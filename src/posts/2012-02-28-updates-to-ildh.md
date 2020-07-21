@@ -3,7 +3,7 @@ layout: layouts/post
 title: Updates to the Inclusive Learning Design Handbook
 date: '2012-02-28'
 tags: post
-permalink: posts/2012-02-28-updates-to-ildh.html
+permalink: 2012-02-28-updates-to-ildh.html
 ---
 <p>
 New content has been added to the

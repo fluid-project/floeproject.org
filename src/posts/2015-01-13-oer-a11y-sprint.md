@@ -3,7 +3,7 @@ layout: layouts/post
 title: OER Accessibility Sprint
 date: '2015-01-13'
 tags: post
-permalink: posts/2015-01-13-oer-a11y-sprint.html
+permalink: 2015-01-13-oer-a11y-sprint.html
 ---
 <p>On February 25-27, 2015, the <a href="http://idrc.ocadu.ca">Inclusiv
 e Design Research Centre (IDRC)</a> at OCAD University will be hosting a

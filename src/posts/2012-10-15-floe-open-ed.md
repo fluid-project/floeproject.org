@@ -3,7 +3,7 @@ layout: layouts/post
 title: FLOE at Open Education Conference in Vancouver, B.C.
 date: '2012-10-15'
 tags: post
-permalink: posts/2012-10-15-floe-open-ed.html
+permalink: 2012-10-15-floe-open-ed.html
 ---
 <p>
 This week, Jutta Treviranus, Director of the <a href="http://idrc.ocadu.ca">

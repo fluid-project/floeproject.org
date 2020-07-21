@@ -3,7 +3,7 @@ layout: layouts/post
 title: Title of News Article
 date: '2020-03-27'
 tags: post
-permalink: posts/2020-03-27-ODAO-Update.html
+permalink: 2020-03-27-ODAO-Update.html
 ---
 <p>
 Our Doors Are Open continues to engage in the faith community on inclusion of people with disabilities.

@@ -3,7 +3,7 @@ layout: layouts/post
 title: Call For Contributions&#58; WAI's Accessible E-Learning Online Symposium
 date: '2013-11-05'
 tags: post
-permalink: posts/2013-11-05-call-for-contributions-wai-accessible-e-learning-online-symposium.html
+permalink: 2013-11-05-call-for-contributions-wai-accessible-e-learning-online-symposium.html
 ---
 <p>
 W3C's Web Accessibility Initiative will be hosting an Accessible E-Learning

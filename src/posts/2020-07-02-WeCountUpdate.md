@@ -3,7 +3,7 @@ layout: layouts/post
 title: We Count Update - Inclusion in the Data Economy
 date: '2020-07-02'
 tags: post
-permalink: posts/2020-07-02-WeCountUpdate.html
+permalink: 2020-07-02-WeCountUpdate.html
 ---
 <p>
 We Count is <a href="https://wecount.inclusivedesign.ca/inclusion-challenges/">

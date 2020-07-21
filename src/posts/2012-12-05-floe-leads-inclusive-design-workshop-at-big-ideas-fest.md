@@ -3,7 +3,7 @@ layout: layouts/post
 title: FLOE leads Inclusive Design Workshop at Big Ideas Fest
 date: '2012-05-12'
 tags: post
-permalink: posts/2012-12-05-floe-leads-inclusive-design-workshop-at-big-ideas-fest.html
+permalink: 2012-12-05-floe-leads-inclusive-design-workshop-at-big-ideas-fest.html
 ---
 <p>
 On Dec. 3, 2012, Jutta Treviranus led a workshop on Inclusive Learning Des

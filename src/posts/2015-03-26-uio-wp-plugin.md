@@ -3,7 +3,7 @@ layout: layouts/post
 title: Learner Options WordPress Plugin
 date: '2015-03-26'
 tags: post
-permalink: posts/2015-03-26-uio-wp-plugin.html
+permalink: 2015-03-26-uio-wp-plugin.html
 ---
 <p>A WordPress plugin is now available for
 <a href="http://build.fluidproject.org/infusion/demos/uiOptions/">Learner Options</a>.

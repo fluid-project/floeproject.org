@@ -3,7 +3,7 @@ layout: layouts/post
 title: CISL Site and Demo Launched
 date: '2019-02-07'
 tags: post
-permalink: posts/2019-02-07-CISL-site-and-demo.html
+permalink: 2019-02-07-CISL-site-and-demo.html
 ---
 <p>
 The <a href="http://cisl.cast.org/">Center on Inclusive Software for Learning</a>

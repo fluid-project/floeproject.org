@@ -3,7 +3,7 @@ layout: layouts/post
 title: Project Update
 date: '2012-10-12'
 tags: post
-permalink: posts/2012-10-12-project-update.html
+permalink: 2012-10-12-project-update.html
 ---
 <p>
 The Floe team has been involved in a number of activities recently:

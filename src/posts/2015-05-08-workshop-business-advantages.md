@@ -3,7 +3,7 @@ layout: layouts/post
 title: Workshop&#58; The Business Advantages of Making Special the Norm
 date: '2015-05-08'
 tags: post
-permalink: posts/2015-05-08-workshop-business-advantages.html
+permalink: 2015-05-08-workshop-business-advantages.html
 ---
 <p>The <a href="http://www.viscardicenter.org/services/nbdc/">National Business and
 Disability Council (NBDC)</a> at <a href="http://www.viscardicenter.org/">The Viscardi Center</a>

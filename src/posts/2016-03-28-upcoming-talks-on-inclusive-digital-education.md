@@ -3,7 +3,7 @@ layout: layouts/post
 title: Upcoming Talks on Inclusive Digital Education
 date: '2016-03-28'
 tags: post
-permalink: posts/2016-03-28-upcoming-talks-on-inclusive-digital-education.html
+permalink: 2016-03-28-upcoming-talks-on-inclusive-digital-education.html
 ---
 <p>IDRC Director Jutta Treviranus will be speaking at the following conferences
 on topics crossing digital inclusion in education, to rethinking the role of technology

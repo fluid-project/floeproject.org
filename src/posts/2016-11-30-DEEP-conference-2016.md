@@ -3,7 +3,7 @@ layout: layouts/post
 title: DEEP Conference 2016
 date: '2016-11-30'
 tags: post
-permalink: posts/2016-11-30-DEEP-conference-2016.html
+permalink: 2016-11-30-DEEP-conference-2016.html
 ---
 <p>
 On October 13-14, 2016 the <a href="http://deep.idrc.ocadu.ca">DEEP -

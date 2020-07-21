@@ -3,7 +3,7 @@ layout: layouts/post
 title: American Indian Higher Education Consortium Using Floe Tools and Resources
 date: '2020-06-28'
 tags: post
-permalink: posts/2020-06-28-AIHEC-Update.html
+permalink: 2020-06-28-AIHEC-Update.html
 ---
 <p>
 The American Indian Higher Education Consortium is using Floe tools and resources to
