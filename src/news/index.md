@@ -1,6 +1,6 @@
 ---
 layout: layouts/default
-permalink: posts/index.html
+permalink: newsindex.html
 ---
 <div id="content" class="floe-content">
 <div class="flc-toc-tocContainer toc"> </div>
