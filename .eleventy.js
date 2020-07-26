@@ -37,7 +37,7 @@ module.exports = function(config) {
 
   // Custom collections
 
-  // The following xollection is ues to distribute news into different pages. However, the default pagination has not been set in floeproject.org and all posts are shown on single page
+  // The following xollection is ues to distribute news into different pages. However, the default pagination has not been set in floeproject.org and all news are shown on single page
 
 
   // Plugins

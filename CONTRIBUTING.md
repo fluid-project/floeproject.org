@@ -37,7 +37,7 @@ The present version of the Floe Project website is generated using 11ty (https:/
 
 2. *Submitting new blog posts or news articles*
  - Answer submission through Github:
-   - Go to the `src/posts` folder
+   - Go to the `src/news` folder
    - Create a new Markdown file with title in the following format - `YYYY-MM-DD-titleOfNewsArticle.md`.
    - Use the YYYY-MM-DD-newsarticlename.md file as template.
    - Update the date, title and permalink in the front matter.
@@ -48,7 +48,7 @@ The present version of the Floe Project website is generated using 11ty (https:/
       `title: Title of News Article`
       `date: 'YYYY-MM-DD'`
       `tags: post`
-      `permalink: posts/YYYY-MM-DD-newsArticleName.html`
+      `permalink: news/YYYY-MM-DD-newsArticleName.html`
       `---`
       `Content Data`
 
