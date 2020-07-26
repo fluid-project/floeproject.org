@@ -31,23 +31,14 @@ module.exports = function(config) {
    config.addPassthroughCopy({"src/assets/js": "assets/js"});
    config.addPassthroughCopy({"src/lib": "lib"});
    config.addPassthroughCopy({"src/assets/stylesheets": "assets/stylesheets"});
-   config.addPassthroughCopy({"src/posts/images": "posts/images"})
+   config.addPassthroughCopy({"src/news/images": "news/images"})
 
   const now = new Date();
 
   // Custom collections
-  const livePosts = post => post.date <= now && !post.data.draft;
-  config.addCollection('posts', collection => {
-    return [
-      ...collection.getFilteredByGlob('./src/posts/*.md').filter(livePosts)
-    ]
-  });
-  // The following xollection is ues to distribute posts into different pages. However, the default pagination has not been set in floeproject.org and all posts are shown on single page
-  config.addCollection('postFeed', collection => {
-    return [...collection.getFilteredByGlob('./src/posts/*.md').filter(livePosts)]
-      
-      .slice(0, site.maxPostsPerPage);
-  });
+
+  // The following xollection is ues to distribute news into different pages. However, the default pagination has not been set in floeproject.org and all posts are shown on single page
+
 
   // Plugins
   config.addPlugin(rssPlugin);

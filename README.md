@@ -30,30 +30,8 @@ If you make changes to the website, repeat the steps to build the image and star
 
 # To deploy to a personal webserver
 
-<<<<<<< HEAD
 1. Run: `npm run build`
 2. Copy the contents of `dist` directory to your server.
-=======
-Building a Docker image
-=======================
-
-You can serve the website from a [Docker](https://docs.docker.com/get-docker) container.
-
-Once you have Docker installed, run the following commands to build a Docker image and start a container:
-
-* Build the image: `docker build -t floeproject .`
-* Run the container: `docker run --name floeproject -p 8000:80 floeproject`
-
-The website will be available at [http://localhost:8000](http://localhost:8000)
-
-* To stop and remove the container: `docker rm -f floeproject`
-
-If you make changes to the HTML code, repeat the steps to build the image and start a new container.
-
-
-News Item Template
-==================
->>>>>>> master
 
 ## Notes
 
