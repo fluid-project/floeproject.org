@@ -3,7 +3,7 @@ layout: layouts/post
 title: Workshop&#58; Inclusive Technology in the Classroom
 date: '2014-03-28'
 tags: post
-permalink: 2014-03-28-workshop-inclusive-technology-in-the-classroom.html
+permalink: news/2014-03-28-workshop-inclusive-technology-in-the-classroom.html
 ---
 <p>Earlier this week, the Floe team conducted a workshop with the
 <a href="http://www.vteducation.org/en/articles/step/informat

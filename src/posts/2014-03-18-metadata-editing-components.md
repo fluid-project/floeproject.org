@@ -3,7 +3,7 @@ layout: layouts/post
 title: Metadata Editing Components
 date: '2014-03-18'
 tags: post
-permalink: 2014-03-18-metadata-editing-components.html
+permalink: news/2014-03-18-metadata-editing-components.html
 ---
 <p>The Floe team is developing a suite of tools for cr
 eating more accessible and

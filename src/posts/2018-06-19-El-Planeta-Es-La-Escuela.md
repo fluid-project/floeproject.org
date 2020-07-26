@@ -3,7 +3,7 @@ layout: layouts/post
 title: El Planeta Es La Escuela Workshops
 date: '2018-06-19'
 tags: post
-permalink: 2018-06-19-El-Planeta-Es-La-Escuela.html
+permalink: news/2018-06-19-El-Planeta-Es-La-Escuela.html
 ---
 <p>
 As part of a series of activities happening under the project

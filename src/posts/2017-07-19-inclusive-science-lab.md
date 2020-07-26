@@ -3,7 +3,7 @@ layout: layouts/post
 title: Inclusive Science Lab
 date: '2017-07-19'
 tags: post
-permalink: 2017-07-19-inclusive-science-lab.html
+permalink: news/2017-07-19-inclusive-science-lab.html
 ---
 <p>
 We've been building an integration technology called the <a href="https://wiki.gpii.net

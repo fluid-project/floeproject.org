@@ -3,7 +3,7 @@ layout: layouts/post
 title: Plans For FLOE Year Three
 date: '2012-10-19'
 tags: post
-permalink: 2012-10-19-plans-for-floe-year-three.html
+permalink: news/2012-10-19-plans-for-floe-year-three.html
 ---
 <p>
 The Floe project is now in its third year. Our focus moving forward will be to advance the

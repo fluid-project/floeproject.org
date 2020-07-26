@@ -3,7 +3,7 @@ layout: layouts/post
 title: Metadata Search
 date: '2014-04-21'
 tags: post
-permalink: 2014-04-21-metadata-search.html;
+permalink: news/2014-04-21-metadata-search.html;
 ---
 <p><a href="http://schema.org/">Schema.org</a>, a consortium of major search
 engines including Bing, Google, Yahoo! and Yandex, recently adopted accessibility

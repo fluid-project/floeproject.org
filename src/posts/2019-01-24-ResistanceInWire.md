@@ -3,7 +3,7 @@ layout: layouts/post
 title: Resistance In A Wire Simulation
 date: '2019-01-24'
 tags: post
-permalink: 2019-01-24-ResistanceInWire.html
+permalink: news/2019-01-24-ResistanceInWire.html
 ---
 <p>
 The PhET project recently published the

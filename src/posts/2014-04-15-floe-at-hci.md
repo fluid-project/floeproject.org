@@ -3,7 +3,7 @@ layout: layouts/post
 title: Floe at HCI
 date: '2014-04-15'
 tags: post
-permalink: 2014-04-15-floe-at-hci.html
+permalink: news/2014-04-15-floe-at-hci.html
 ---
 <p>The Floe team will be presenting a number of papers at the upcoming
 <a href="http://2014.hci.international/">HCI International conference</a>:</p>

@@ -3,7 +3,7 @@ layout: layouts/post
 title: Floe Presentations at CSUN
 date: '2014-03-24'
 tags: post
-permalink: 2014-03-24-floe-presentations-at-csun.html
+permalink: news/2014-03-24-floe-presentations-at-csun.html
 ---
 <p>Last week, the Floe team presented two papers at CSUN's annual
 <a href="http://www.csun.edu/cod/conference/2014/sessions/index.php/p

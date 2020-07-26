@@ -3,7 +3,7 @@ layout: layouts/post
 title: Collaborative Co-Design with Cooperatives
 date: '2020-07-15'
 tags: post
-permalink: 2020-07-15-Platform-Co-op-Update.html
+permalink: news/2020-07-15-Platform-Co-op-Update.html
 ---
 <p>
 The Platform Cooperative Development Kit project engaged in a number of co-design activities with

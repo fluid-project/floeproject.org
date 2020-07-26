@@ -3,7 +3,7 @@ layout: layouts/post
 title: Coding Prototype Co-design
 date: '2019-08-12'
 tags: post
-permalink: 2019-08-12-Coding-Prototype-Co-design.html
+permalink: news/2019-08-12-Coding-Prototype-Co-design.html
 ---
 <p>
 At the
