@@ -5,9 +5,9 @@
     "scripts": {
         "build": "eleventy",
         "eleventy": "eleventy --serve",
-    "eleventyport": "eleventy --serve --port=9778",
-    "prepare": "grunt installFrontEnd",
-    "lint": "grunt lint"
+        "eleventyport": "eleventy --serve --port=9778",
+        "prepare": "grunt installFrontEnd",
+        "lint": "grunt lint"
     },
     "repository": {
         "type": "git",
@@ -47,4 +47,4 @@
         "sanitize.css": "11.0.1",
         "slugify": "1.4.0"
     }
-    }
+}
