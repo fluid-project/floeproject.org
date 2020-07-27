@@ -10,7 +10,6 @@
         <script type="text/javascript" src="{{ '/' | url }}lib/infusion/infusion-all.js"></script>
         <script type="text/javascript" src="{{ '/' | url }}assets/js/floe.js"></script>
         <script type="text/javascript" src="{{ '/' | url }}assets/js/analytics.js"></script>
-        
     </head>
     <body>
         <script type="text/javascript">
@@ -27,7 +26,9 @@
             <article id="content" class="floe-content floe-news-item">
                 <h2> News </h2>
                 <h3>{{ title }} </h3>
-                        <time class="floe-date" datetime="{{ date }}">{{ date | dateFilter }}</time>
+                {% if permalink != "news/index.html" %}
+                    <time class="floe-date" datetime="{{ date }}">{{ date | dateFilter }}</time>
+                    {% endif %}
              {{content}}
              </article>
             {% include partials/footer.html %}
