@@ -11,4 +11,5 @@ Topics include conducting engaging online education, video lesson storyboarding,
 collaborative lessons. [Visit this Wiki page for the details and schedule](https://wiki.fluidproject.org/display/AIHEC/AIHEC+Home)
 
 Using the Storytelling Tool, AIHEC has started sharing a
-[collection of learning stories](https://aihec.inclusivedesign.ca/storyView.html?id=96f85d00-8a74-11ea-820b-c9772cf8ea15) from teachers and learners.
+[collection of learning stories](https://aihec.inclusivedesign.ca/storyView.html?id=96f85d00-8a74-11ea-820b-c9772cf8ea15)
+from teachers and learners.

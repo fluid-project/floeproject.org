@@ -28,6 +28,7 @@ around preservation, continued access, future-proofing. (the &quot;robustness&qu
 [#a11y](https://twitter.com/hashtag/a11y?src=hash&ref_src=twsrc%5Etfw)
 [#wcag](https://twitter.com/hashtag/wcag?src=hash&ref_src=twsrc%5Etfw) POUR model)
 [#OEWeek](https://twitter.com/hashtag/OEWeek?src=hash&ref_src=twsrc%5Etfw)&mdash;
-Alan Harnum (@waharnum) [March 8, 2019](https://twitter.com/waharnum/status/1104058862863376384?ref_src=twsrc%5Etfw </blockquote>
+Alan Harnum (@waharnum) [March 8, 2019](https://twitter.com/waharnum/status/1104058862863376384?ref_src=twsrc%5Etfw )
+</blockquote>
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

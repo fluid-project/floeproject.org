@@ -7,7 +7,8 @@ on topics crossing digital inclusion in education, to rethinking the role of tec
 in our institutions.
 April 2016:
 
-- April 12 -[WWW2016 Workshop onWeb Science and Technology for Education (WWW2016 Montreal)](https://events.keep.edu.hk/webed/2016/). "Evaluating Educational
+- April 12 -[WWW2016 Workshop onWeb Science and Technology for Education (WWW2016 Montreal)](https://events.keep.edu.hk/webed/2016/)
+  . "Evaluating Educational
 Software in the Web Era".
 - April 12 - [W4A Conference (WWW2016 Montreal)](http://www.w4a.info/2016/).
   "Life-Long Learning on the Inclusive Web".
@@ -15,10 +16,11 @@ Software in the Web Era".
 - Conference paper - "[Life-Long Learning on the Inclusive Web](http://inclusivedesign.ca/wp-content/uploads/2016/03/Treviranus-Web4All-Paper_accessible-PDF.pdf)".
 
 - April 13 - [Edu-Fiction (WWW2016 Montreal)](http://www.teluq.ca/edu-fiction2030/). "What will the web bring [in 2030]?"
-- April 14 - [Open Education Global 2016](http://conference.oeconsortium.org/2016/). "[Action Lab] Salad dressing, pendula, navels, scraped knees and futur
-e-proof learning (Accessibility and OER)".
-- April 29 - [OCULA Spring Conferece](https://oculaspring.wordpress.com/). "Creating Space: Expanding the Physical, Digital, and Mental Boundaries of the Academic
-Library"
+- April 14 - [Open Education Global 2016](http://conference.oeconsortium.org/2016/)
+  "[Action Lab] Salad dressing, pendula, navels,
+   scraped knees and future-proof learning (Accessibility and OER)".
+- April 29 - [OCULA Spring Conferece](https://oculaspring.wordpress.com/).
+  "Creating Space: Expanding the Physical, Digital, and Mental Boundaries of the Academic Library"
 
 May 2016:
 

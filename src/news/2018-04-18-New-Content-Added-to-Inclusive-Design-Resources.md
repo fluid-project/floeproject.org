@@ -4,17 +4,18 @@ date: '2018-04-18'
 ---
 
 The activities described in the
-[Inclusive Design Guide](https://guide.inclusivedesign.ca/index.html) cover a range of needs from collaborative “ice-breakers” to more
-comprehensive design activities, all of which can be used by any group to learn about and
+[Inclusive Design Guide](https://guide.inclusivedesign.ca/index.html) cover a range of needs from collaborative “ice-breakers”
+to more comprehensive design activities, all of which can be used by any group to learn about and
 reflect on the practice of inclusive design in a particular context. Several activities
-have recently been added to the Guide including the [Collaborative Art Warmup](https://guide.inclusivedesign.ca/activities/CollaborativeArtWarmup.html),
-[Functional Mashup](https://guide.inclusivedesign.ca/activities/FunctionalMashup.html),
+have recently been added to the Guide including the [Collaborative Art Warmup](https://guide.inclusivedesign.ca/activities/CollaborativeArtWarmup.html)
+,[Functional Mashup](https://guide.inclusivedesign.ca/activities/FunctionalMashup.html),
 [Virtuous Tornado](https://guide.inclusivedesign.ca/activities/VirtuousTornado.html), and
 [Web of Strings](https://guide.inclusivedesign.ca/activities/WebOfStrings.html). We invite you to give them a try!
 
-In addition, [Creating Inclusive Learning Experiences](https://handbook.floeproject.org/CreatingInclusiveLearningExperiences.html) is a new entry to the [Inclusive Learning Design Handbook](https://handbook.floeproject.org/index.html). This entry describes ways
-of addressing and embracing learning differences in both formal and informal education, with
-a focus on cultivating learners’ self-knowledge and encouraging self-reflection throughout
+In addition, [Creating Inclusive Learning Experiences](https://handbook.floeproject.org/CreatingInclusiveLearningExperiences.html)
+is a new entry to the [Inclusive Learning Design Handbook](https://handbook.floeproject.org/index.html).
+This entry describes ways of addressing and embracing learning differences in both formal and informal
+education, with a focus on cultivating learners’ self-knowledge and encouraging self-reflection throughout
 the learning process.
 
 As we practice and learn more about inclusive design we will continue to develop our ideas and

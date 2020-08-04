@@ -9,5 +9,5 @@ These additions will make it easier for publishers and webmasters to connect
 learners with the most useful content, and help users with special needs locate
 and consume content that is most appropriate for their specific needs.
 
-The Floe team is working on [designs for a search interface](http://wiki.fluidproject.org/download/attachments/37855787/metadata-search.pdf?version=1&modificationDate=1397078966717&api=v2) that would filter content based on
-these properties.
+The Floe team is working on [designs for a search interface](http://wiki.fluidproject.org/download/attachments/37855787/metadata-search.pdf?version=1&modificationDate=1397078966717&api=v2)
+that would filter content based on these properties.

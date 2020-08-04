@@ -70,4 +70,4 @@ The Hackathon team at the San Francisco Google offices.
 
 </ul>
 
-**#design2align**
+### #design2align
