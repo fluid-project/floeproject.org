@@ -1,0 +1,15 @@
+---
+layout: layouts/post
+title: UN International Day of Persons with Disabilities
+date: '2016-11-30'
+tags: post
+permalink: news/2016-11-30-UN-international-day-of-persons-with-disabilities.html
+---
+
+December 3, 2016 marks the
+[United Nations International Day of Persons with Disabilities](http://www.un.org/en/events/disabilitiesday/).
+
+IDRC Director Jutta Treviranus will attend events at the UN Headquarters in New York.
+
+To learn more about accessibility rights and legislation in Ontario and in Canada,
+listen to [Episode 3 of the Quantization Podcast](http://quantization.ca/podcast/episode-three-aoda/).
