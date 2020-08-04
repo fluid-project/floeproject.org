@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: Coding Prototype Co-design
 date: '2019-08-12'
-tags: post
-permalink: news/2019-08-12-Coding-Prototype-Co-design.html
 ---
 At the [ISTE 2019 conference](https://conference.iste.org/2019/),
 we shared a [coding environment prototype](https://prototype.codelearncreate.org/)

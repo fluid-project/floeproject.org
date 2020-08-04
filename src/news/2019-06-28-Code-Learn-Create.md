@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: Coding to Learn and Create
 date: '2019-06-28'
-tags: post
-permalink: news/2019-06-28-Code-Learn-Create.html
 ---
 Floe is working with the
 [Coding to Learn and Create project]((https://codelearncreate.ca/))

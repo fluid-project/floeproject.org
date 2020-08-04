@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: Floe at OCAD University's Open Education Week Event
 date: '2019-03-22'
-tags: post
-permalink: news/2019-03-22-OCAD-OE-week.html
 ---
 Members of the Floe team recently participated in [OCAD University's](https://www.ocadu.ca/)
 [Open EducationWeek](https://www.openeducationweek.org/) event,

@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: Metadata Editing Components
 date: '2014-03-18'
-tags: post
-permalink: news/2014-03-18-metadata-editing-components.html
 ---
 The Floe team is developing a suite of tools for cr
 eating more accessible and

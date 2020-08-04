@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: Webinar&#58; Outside In - Achieving Our Goals by Designing for Diversity
 date: '2012-03-26'
-tags: post
-permalink: news/2012-03-06-webinar-outside-in.html
 ---
 Jutta Treviranus, Director of the Inclusive Design Research Centre at OCAD University,
 will be co-presenting a webinar as part of

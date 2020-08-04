@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: Metadata Search
 date: '2014-04-21'
-tags: post
-permalink: news/2014-04-21-metadata-search.html
 ---
 [Schema.org](http://schema.org/), a consortium of major search
 engines including Bing, Google, Yahoo! and Yandex, recently adopted accessibility

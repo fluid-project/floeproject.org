@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: FLOE at Open Education Conference in Vancouver, B.C.
 date: '2012-10-15'
-tags: post
-permalink: news/2012-10-15-floe-open-ed.html
 ---
 This week, Jutta Treviranus, Director of the [Inclusive Design Research Centre](http://idrc.ocadu.ca)
 (IDRC) at [OCAD University](http://ocadu.ca), will be attending the

@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: Jutta Treviranus Listed Among Zoomer Magazine’s Top 45 Over 45
 date: '2012-10-24'
-tags: post
-permalink: news/2012-10-24-jutta-zoomer-mag.html
 ---
 Jutta Treviranus, Director of the
 [Inclusive Design Research Centre](http://idrc.ocadu.ca), has been named by

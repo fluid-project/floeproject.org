@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: Inclusive Cities Co-Design
 date: '2018-08-30'
-tags: post
-permalink: news/2018-08-30-Cities-Co-Design.html
 ---
 
 As part of an effort to include diverse perspectives in the creation of inclusive

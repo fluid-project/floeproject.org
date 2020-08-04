@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: Fluid Releases New Video Player
 date: '2013-03-05'
-tags: post
-permalink: news/2013-03-05-fluid-releases-new-video-player.html
 ---
 The Fluid community has announced the release of Video Player v0.1
 

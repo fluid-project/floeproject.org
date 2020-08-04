@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: We Count Update - Inclusion in the Data Economy
 date: '2020-07-02'
-tags: post
-permalink: news/2020-07-02-WeCountUpdate.html
 ---
 We Count is [gathering challenges](https://wecount.inclusivedesign.ca/inclusion-challenges/)
 faced by the community related to data ecosystem inclusion.

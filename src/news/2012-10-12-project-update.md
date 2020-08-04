@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: Project Update
 date: '2012-10-12'
-tags: post
-permalink: news/2012-10-12-project-update.html
 ---
 The Floe team has been involved in a number of activities recently:
 

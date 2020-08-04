@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: Call For Contributions&#58; WAI's Accessible E-Learning Online Symposium
 date: '2013-11-05'
-tags: post
-permalink: news/2013-11-05-call-for-contributions-wai-accessible-e-learning-online-symposium.html
 ---
 W3C's Web Accessibility Initiative will be hosting an Accessible E-Learning
 online symposium on December 16, 2013. They are currently inviting submission of

@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: CISL Site and Demo Launched
 date: '2019-02-07'
-tags: post
-permalink: news/2019-02-07-CISL-site-and-demo.html
 ---
 The [Center on Inclusive Software for Learning](http://cisl.cast.org/)
 (CISL) is creating a suite of innovative tools to create, discover and use accessible,

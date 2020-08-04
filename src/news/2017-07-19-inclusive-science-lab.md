@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: Inclusive Science Lab
 date: '2017-07-19'
-tags: post
-permalink: news/2017-07-19-inclusive-science-lab.html
 ---
 We've been building an integration technology called the [Nexus](https://wiki.gpii.net/w/The_Nexus).
 It allows the interconnection of arbitrary devices by co-ordinating

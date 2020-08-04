@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: Plans For FLOE Year Three
 date: '2012-10-19'
-tags: post
-permalink: news/2012-10-19-plans-for-floe-year-three.html
 ---
 The Floe project is now in its third year. Our focus moving forward will be to advance the
 work we've been doing on personalized learning. During the first two years of the Floe project, we

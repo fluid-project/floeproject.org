@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: FLOE Deployment Feasibility Study Funded by US Dept. of Education
 date: '2012-12-05'
-tags: post
-permalink: news/2012-12-05-floe-deployment-feasibility-study-funded.html
 ---
 The U.S. Department of Education’s National Institute on Disability and Rehabilitation
 Research has recently announced funding for one of the projects that Floe is

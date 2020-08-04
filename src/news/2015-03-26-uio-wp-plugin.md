@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: Learner Options WordPress Plugin
 date: '2015-03-26'
-tags: post
-permalink: news/2015-03-26-uio-wp-plugin.html
 ---
 A WordPress plugin is now available for
 [Learner Options](http://build.fluidproject.org/infusion/demos/uiOptions/).

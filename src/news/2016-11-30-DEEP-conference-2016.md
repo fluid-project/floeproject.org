@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: DEEP Conference 2016
 date: '2016-11-30'
-tags: post
-permalink: news/2016-11-30-DEEP-conference-2016.html
 ---
 
 On October 13-14, 2016 the [DEEP -Discovery conference](http://deep.idrc.ocadu.ca)

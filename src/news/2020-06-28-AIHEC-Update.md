@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: American Indian Higher Education Consortium Using Floe Tools and Resources
 date: '2020-06-28'
-tags: post
-permalink: news/2020-06-28-AIHEC-Update.html
 ---
 The American Indian Higher Education Consortium is using Floe tools and resources to
 conduct collaborative workshops and documenting experiences.

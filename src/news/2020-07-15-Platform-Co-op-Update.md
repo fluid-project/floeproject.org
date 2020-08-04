@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: Collaborative Co-Design with Cooperatives
 date: '2020-07-15'
-tags: post
-permalink: news/2020-07-15-Platform-Co-op-Update.html
 ---
 The Platform Cooperative Development Kit project engaged in a number of co-design activities with
 cooperative members-owners, and created the [Resource Library](https://resources.platform.coop/)

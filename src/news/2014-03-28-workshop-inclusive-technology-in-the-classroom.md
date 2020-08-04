@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: Workshop&#58; Inclusive Technology in the Classroom
 date: '2014-03-28'
-tags: post
-permalink: news/2014-03-28-workshop-inclusive-technology-in-the-classroom.html
 ---
 Earlier this week, the Floe team conducted a workshop with the
 [Vitrine technologie-éducation (VTÉ)](http://www.vteducation.org/en/articles/step/information-and-communication-technology-integration-post-secondary-education).

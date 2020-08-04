@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: Panel Presentation&#58; Accessibility in OER
 date: '2014-04-04'
-tags: post
-permalink: news/2014-04-04-panel-presentation-a11y-in-oer.html
 ---
 This week, the Floe team participated in a panel on emerging accessibility needs in
 OER at the [OpenStax CNX](https://cnx.org/) annual conference.

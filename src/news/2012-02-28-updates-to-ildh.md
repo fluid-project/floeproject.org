@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: Updates to the Inclusive Learning Design Handbook
 date: '2012-02-28'
-tags: post
-permalink: news/2012-02-28-updates-to-ildh.html
 ---
 New content has been added to the
 [Inclusive Learning Design Handbook](http://handbook.floeproject.org), including

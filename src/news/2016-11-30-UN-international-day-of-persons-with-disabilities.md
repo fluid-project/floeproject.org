@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: UN International Day of Persons with Disabilities
 date: '2016-11-30'
-tags: post
-permalink: news/2016-11-30-UN-international-day-of-persons-with-disabilities.html
 ---
 
 December 3, 2016 marks the

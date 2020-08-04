@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: Self-Assessment Learning Toolkit
 date: '2017-08-30'
-tags: post
-permalink: news/2017-08-30-self-assessment-toolkit.html
 ---
 
 We have been working on the design and implementation of an inclusive self-assessment

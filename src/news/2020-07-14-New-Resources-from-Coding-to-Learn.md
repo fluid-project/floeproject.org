@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: New Resources from Coding to Learn
 date: '2020-07-14'
-tags: post
-permalink: news/2020-07-14-New-Resources-from-Coding-to-Learn.html
 ---
 The Coding to Learn project team has [created a co-design kit](https://wiki.fluidproject.org/display/C2LC/Coding+to+Learn+and+Create+Co-Design+Kit)
 aimed at engaging kids with complex disabilities in coding skills and education is being created.

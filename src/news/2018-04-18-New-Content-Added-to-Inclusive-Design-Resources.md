@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: New Content Added to Inclusive Design Resources
 date: '2018-04-18'
-tags: post
-permalink: news/2018-04-18-New-Content-Added-to-Inclusive-Design-Resources.html
 ---
 
 The activities described in the

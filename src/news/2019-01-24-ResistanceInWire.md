@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: Resistance In A Wire Simulation
 date: '2019-01-24'
-tags: post
-permalink: news/2019-01-24-ResistanceInWire.html
 ---
 The PhET project recently published the
 [Resistance in a Wire (RIAW)](https://phet.colorado.edu/en/simulation/resistance-in-a-wire)

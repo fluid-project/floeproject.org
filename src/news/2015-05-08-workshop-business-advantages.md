@@ -1,9 +1,6 @@
 ---
-layout: layouts/post
 title: Workshop&#58; The Business Advantages of Making Special the Norm
 date: '2015-05-08'
-tags: post
-permalink: news/2015-05-08-workshop-business-advantages.html
 ---
 The [National Business and Disability Council (NBDC)](http://www.viscardicenter.org/services/nbdc/) at [The Viscardi Center](http://www.viscardicenter.org/) is offering an educational online workshop to focus on designing for diversity.
 No one needs to point out that the current business climate is in a state of flux
