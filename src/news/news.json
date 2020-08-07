@@ -1,5 +1,5 @@
 {
     "layout": "layouts/post",
     "tags": "post",
-    "permalink": "/news/{{ title | slug }}/"
+    "permalink": "/news/{{ title | slug }}.html"
 }
