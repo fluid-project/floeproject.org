@@ -19,8 +19,8 @@ module.exports = function (grunt) {
         lintAll: {
             sources: {
                 json: ["package.json", ".eslintrc.json","./src/_data/*.json"],
-                js: ["./src/transforms/*.js","./src/filters/*.js","./src/assets/js/floe.js","./src/assets/js/url.js","./src/assets/js/resources.js","./src/filters/*.js","./src/utils/*.js",".eleventy.js","Gruntfile.js"],
-                md: ["./src/news/*.md"]
+                js: ["./src/assets/js/analytics.js","./src/transforms/*.js","./src/filters/*.js","./src/assets/js/floe.js","./src/assets/js/url.js","./src/assets/js/resources.js","./src/filters/*.js","./src/utils/*.js",".eleventy.js","Gruntfile.js"],
+                md: ["./src/news/*.md","README.md","CONTRIBUTING.md","AUTHORS.md","./src/newsindex.md"]
             }
         },
         clean: {

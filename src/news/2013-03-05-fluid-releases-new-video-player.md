@@ -21,11 +21,11 @@ For more information about the Video Player, you can read the README file in the
 [https://github.com/fluid-project/videoPlayer/blob/master/README.txt](https://github.com/fluid-project/videoPlayer/blob/master/README.txt)
 
 You can download or checkout a copy from the github repository:
-</br/>
+</br>
 [https://github.com/fluid-project/videoPlayer/tags](https://github.com/fluid-project/videoPlayer/tags)
 
 For a complete list of known issues, please see the Video Player issue tracker.
-</br/>
+</br>
 
 [http://issues.fluidproject.org/browse/VP](http://issues.fluidproject.org/browse/VP)
 

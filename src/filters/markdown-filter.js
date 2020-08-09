@@ -1,5 +1,4 @@
 /* eslint-env es6 */
-/* eslint-disable no-console */
 "use strict";
 const markdownIt = require("markdown-it")({
     html: true,

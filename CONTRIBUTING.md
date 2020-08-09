@@ -3,7 +3,7 @@
 Floe is creating tools that help transform, augment, and personalize the learning experience.
 Floe provides the resources needed to enable inclusive access to personally relevant, engaging learning opportunities
 for the full diversity of learners and content producers.
-The present version of the Floe Project website is generated using 11ty (https://www.11ty.dev/).
+The present version of the Floe Project website is generated using [11ty](https://www.11ty.dev/).
 
 **To run the project locally**:
 
@@ -16,10 +16,14 @@ The present version of the Floe Project website is generated using 11ty (https:/
 **The directory structure is as follows:**
 
 * `_.github` - It includes the issue and PR templates for the FLOE Project Repository.
-* `src` - The src folder contains all the files needed to build the site using 11ty. It contains content of all the blog posts/news articles, CSS files, Index Pages, layouts for pages, partial templates, Javascript codes etc.
-* `.eleventy.js` - The Configuration file used by 11ty in order to build the site. Specifies the collections for 11ty, passthroughcopy files, and other settings including the source folder for input and output.
+* `src` - The src folder contains all the files needed to build the site using 11ty.
+  It contains content of all the blog posts/news articles, CSS files, Index Pages, layouts for pages, partial templates,
+  Javascript codes etc.
+* `.eleventy.js` - The Configuration file used by 11ty in order to build the site. Specifies the collections for 11ty,
+  passthroughcopy files, and other settings including the source folder for input and output.
 * `.eleventyignore` - Contains folder which are ignored by Eleventy while building the site.
-* `.gitignore` - List of folders not to be uploaded to Github. contains node_modules and dist folder, which is the folder where 11ty saves output files.
+* `.gitignore` - List of folders not to be uploaded to Github. contains node_modules and dist folder, which is the folder
+  where 11ty saves output files.
 * `.eslintrc.json` - EsLint Configuration data.
 * `.eslintignore` - EsLint exempted files.
 * `AUTHORS.md` - List of copyright holders and Contributors
@@ -30,27 +34,31 @@ The present version of the Floe Project website is generated using 11ty (https:/
 **Contributions to the project can be made in following ways:**
 
 1. *Contribution towards building features for the project.*
-  - There are several features that still require attention.
-    - Improving the User interface of submitted answers.
-    - Search functionality among the site data.
-    - Support for Comments.
 
-2. *Submitting new blog posts or news articles*
- - Answer submission through Github:
-   - Go to the `src/news` folder
-   - Create a new Markdown file with title in the following format - `YYYY-MM-DD-titleOfNewsArticle.md`.
-   - Use the YYYY-MM-DD-newsarticlename.md file as template.
-   - Update the date, title and permalink in the front matter.
-   - Your article must have a specific template as mentioned below to get merged. make sure to follow the template while submitting the answer.
-   - The template is as follows:
-      `---`
-      `layout: layouts/post`
-      `title: Title of News Article`
-      `date: 'YYYY-MM-DD'`
-      `tags: post`
-      `permalink: news/YYYY-MM-DD-newsArticleName.html`
-      `---`
-      `Content Data`
+* There are several features that still require attention.
+  * Improving the User interface of submitted answers.
+  * Search functionality among the site data.
+  * Support for Comments.
+
+1. *Submitting new blog posts or news articles*
+
+* Post submission through Github:
+  * Go to the `src/news` folder
+  * Create a new Markdown file with title in the following format - `YYYY-MM-DD-titleOfNewsArticle.md`.
+  * Use the YYYY-MM-DD-newsarticlename.md file as template.
+  * Update the date, title and permalink in the front matter.
+  * Your article must have a specific template as mentioned below to get merged. make sure to follow the
+    template while submitting the answer.
+  * The template is as follows:
+   `---`
+   `layout: layouts/post`
+   `title: Title of News Article`
+   `date: 'YYYY-MM-DD'`
+   `tags: post`
+   `permalink: news/YYYY-MM-DD-newsArticleName.html`
+   `---`
+   `Content Data`
 
 If you still have any queries/doubts regarding the project, feel free to join our IRC Channel #fluid-work on Freenode.
-Feel free to create a new issue if you find any bugs in the project that requires our attention or you may even send a Pull Request for fixing it.
+Feel free to create a new issue if you find any bugs in the project that requires our attention or you may
+even send a Pull Request for fixing it.

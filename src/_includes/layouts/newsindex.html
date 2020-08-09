@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
         <title>{% if title %} {{ title }} {% else %} {{ site.title }} {% endif %} | floe</title>
@@ -9,18 +9,12 @@
         {% include partials/foundationflexgrid.html %}
         <script type="text/javascript" src="{{ '/' | url }}lib/infusion/infusion-all.js"></script>
         <script type="text/javascript" src="{{ '/' | url }}assets/js/floe.js"></script>
-        <script type="text/javascript" src="{{ '/' | url }}assets/js/analytics.js"></script>
-        {% if page.url == "/resources.html" %}
-        <script type="text/javascript" src="{{ '/' | url }}assets/js/resources.js"></script>
-        {% endif %}
-        {% if page.url == "/uioptions.html" %}
-        <script type="text/javascript" src="{{ '/' | url }}assets/js/resources.js"></script>
-        {% endif %}
+        <script type="text/javascript" src="{{ '/' | url }}assets/js/analytics.js"></script> 
     </head>
     <body>
         <script type="text/javascript">
             $(document).ready(function () {
-                floe.setupUIO();
+                floe.setupUIO("../");
             });
         </script>
         {% include partials/uio.html %}
@@ -29,9 +23,10 @@
         </div>
         <div class="floe">
             {% include partials/header.html %}
-                {{content}}
+            {{content}}
             {% include partials/footer.html %}
         </div>
     </body>
-    </head>
 </html>
+
+
