@@ -631,9 +631,9 @@ address {
 /* New responsive layout styles */
 
 .floe #content .row {
-    margin-top: 4rem;
+    margin-top: 4em;
 }
-    .floe #content .row.floe-close-top{
+.floe #content .row.floe-close-top{
     margin-top: 0em;
 }
 
