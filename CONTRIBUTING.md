@@ -15,21 +15,19 @@ The present version of the Floe Project website is generated using [11ty](https:
 
 **The directory structure is as follows:**
 
-* `_.github` - It includes the issue and PR templates for the FLOE Project Repository.
-* `src` - The src folder contains all the files needed to build the site using 11ty.
-  It contains content of all the blog posts/news articles, CSS files, Index Pages, layouts for pages, partial templates,
-  Javascript codes etc.
-* `.eleventy.js` - The Configuration file used by 11ty in order to build the site. Specifies the collections for 11ty,
-  passthroughcopy files, and other settings including the source folder for input and output.
-* `.eleventyignore` - Contains folder which are ignored by Eleventy while building the site.
-* `.gitignore` - List of folders not to be uploaded to Github. contains node_modules and dist folder, which is the folder
-  where 11ty saves output files.
-* `.eslintrc.json` - EsLint Configuration data.
-* `.eslintignore` - EsLint exempted files.
-* `AUTHORS.md` - List of copyright holders and Contributors
-* `Gruntfile.js` - Grunt file used to copy data from node_modules and do linting process.
-* `package.json` - Pinned list of dependencies required to build the site.
-* `README.md` - Read Me file provides introduction to the repository.
+| File or Folder            | Description                                                                                                                                                                                                                         |
+|-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `.github`        | Directory containing the Issue templates as well as GitHub Actions workflow configuration files                                                                          |
+| `src`             | Contains all the files needed to build the site using 11ty. This includes the content for all pages and news articles, CSS files, layout and partial templates, and JavaScript files.                                               |
+| `.eleventy.js`    | The Configuration file used by 11ty in order to build the site. Specifies the collections for 11ty, [passthrough copy files](https://www.11ty.dev/docs/copy/), and other settings including the source folder for input and output. |
+| `.eleventyignore` | A list of files and folders which are ignored by Eleventy while building the site                                                                                                                                                              |
+| `.gitignore`      | A list of files and folders which won't be tracked by Git.                                                                                                                                                                          |
+| `.eslintrc.json`  | [ESLint configuration data](https://eslint.org/docs/user-guide/configuring).                                                                                                                                                        |
+| `.eslintignore`   | A list of files and folders which won't be passed through ESLint                                                                                                                                                                    |
+| `AUTHORS.md`      | List of copyright holders and contributors                                                                                                                                                                                          |
+| `Gruntfile.js`    | Grunt file used to copy data from node_modules and do linting process.                                                                                                                                                              |
+| `package.json`    | Contains scripts and a list of dependencies required to build the site, as well as general information about the repository                                                                                                                                                                             |
+| `README.md`       | Read Me file provides introduction to the repository.                                                                                                                                                                               |
 
 **Contributions to the project can be made in following ways:**
 
