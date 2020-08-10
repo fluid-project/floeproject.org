@@ -1,5 +1,6 @@
 ---
 title: Workshop&#58; The Business Advantages of Making Special the Norm
+filename: workshop business advantages
 date: '2015-05-08'
 ---
 The [National Business and Disability Council (NBDC)](http://www.viscardicenter.org/services/nbdc/)

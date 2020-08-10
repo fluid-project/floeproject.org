@@ -1,5 +1,5 @@
 {
     "layout": "layouts/post",
     "tags": "post",
-    "permalink": "/news/{{ date | slug }}-{{ title | slug }}.html"
+    "permalink": "/news/{% if filename %}{{ date | slug }}-{{ filename | slug }}{% else %}{{ date | slug }}-{{ title | slug }}{% endif %}.html"
 }

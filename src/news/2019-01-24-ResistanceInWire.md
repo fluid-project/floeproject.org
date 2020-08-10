@@ -1,5 +1,6 @@
 ---
 title: Resistance In A Wire Simulation
+filename: ResistanceInWire
 date: '2019-01-24'
 ---
 The PhET project recently published the

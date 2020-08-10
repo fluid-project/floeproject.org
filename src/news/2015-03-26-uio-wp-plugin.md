@@ -1,5 +1,6 @@
 ---
 title: Learner Options WordPress Plugin
+filename: uio-wp-plugin
 date: '2015-03-26'
 ---
 A WordPress plugin is now available for
