@@ -1,6 +1,6 @@
 ---
 title: Updates to the Inclusive Learning Design Handbook
-filename: updates to ildh
+filename: updates-to-ildh
 date: '2012-02-28'
 ---
 New content has been added to the

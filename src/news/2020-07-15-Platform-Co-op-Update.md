@@ -1,6 +1,6 @@
 ---
 title: Collaborative Co-Design with Cooperatives
-filename: Platform Co op Update
+filename: Platform-Co-op-Update
 date: '2020-07-15'
 ---
 The Platform Cooperative Development Kit project engaged in a number of co-design activities with

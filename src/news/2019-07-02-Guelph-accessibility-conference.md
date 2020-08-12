@@ -1,6 +1,6 @@
 ---
 title: Floe at the University of Guelph Accessibility Conference
-filename: Guelph accessibility conference
+filename: Guelph-accessibility-conference
 date: '2019-07-02'
 ---
 On May 28 and 29, Floe made an appearance at the 2019 [Accessibility Conference](https://opened.uoguelph.ca/accessibility-conference)

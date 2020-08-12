@@ -1,6 +1,6 @@
 ---
-title: Webinar - Machine Learning; Bias in, Bias out
-filename: DEEP Update
+title: "Webinar with Dr. Toon Calders on July 9, 2020: Machine Learning: Bias in, Bias out"
+filename: DEEP-Update
 date: '2020-05-20'
 ---
 Together, We Count and DEEP project teams have begun planning the We Count

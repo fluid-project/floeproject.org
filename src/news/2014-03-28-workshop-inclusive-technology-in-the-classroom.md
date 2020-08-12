@@ -1,5 +1,6 @@
 ---
 title: Workshop&#58; Inclusive Technology in the Classroom
+filename: workshop-inclusive-technology-in-the-classroom
 date: '2014-03-28'
 ---
 Earlier this week, the Floe team conducted a workshop with the

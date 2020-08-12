@@ -1,5 +1,6 @@
 ---
-title: Coding Prototype Co-design
+title: Co-design at Summer Coding Camps
+filename: Coding-Prototype-Co-design
 date: '2019-08-12'
 ---
 At the [ISTE 2019 conference](https://conference.iste.org/2019/),

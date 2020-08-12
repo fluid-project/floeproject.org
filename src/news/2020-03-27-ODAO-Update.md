@@ -1,6 +1,6 @@
 ---
 title: Updates from Our Doors are Open
-filename: ODAO Update
+filename: ODAO-Update
 date: '2020-03-27'
 ---
 Our Doors Are Open continues to engage in the faith community on inclusion of people with disabilities.
