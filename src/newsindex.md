@@ -9,7 +9,7 @@ permalink: news/index.html
 <ul >
 {%- for post in collections.post reversed -%}
 <li><a href="{{ post.url }}"><p> {{ post.data.title }}</p></a>
-<time class="floe-date" datetime="{{ post.data.date | w3DateFilter }}">{{ post.data.date | dateFilter }}</time>
+<time class="floe-date" datetime="{{ post.data.date }}">{{ post.data.date | dateFilter }}</time>
 </li>
 {%- endfor -%}
 </ul>

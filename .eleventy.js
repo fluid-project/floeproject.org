@@ -20,7 +20,7 @@ module.exports = function(config) {
   config.addFilter('dateFilter', dateFilter);
   config.addFilter('markdownFilter', markdownFilter);
   config.addFilter('w3DateFilter', w3DateFilter);
-  
+
 
   // Transforms
   config.addTransform('htmlmin', htmlMinTransform);
@@ -32,13 +32,6 @@ module.exports = function(config) {
    config.addPassthroughCopy({"src/lib": "lib"});
    config.addPassthroughCopy({"src/assets/stylesheets": "assets/stylesheets"});
    config.addPassthroughCopy({"src/news/images": "news/images"})
-
-  const now = new Date();
-
-  // Custom collections
-
-  // The following xollection is ues to distribute news into different pages. However, the default pagination has not been set in floeproject.org and all news are shown on single page
-
 
   // Plugins
   config.addPlugin(rssPlugin);
