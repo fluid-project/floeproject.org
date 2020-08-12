@@ -31,13 +31,6 @@ The present version of the Floe Project website is generated using [11ty](https:
 
 **Contributions to the project can be made in following ways:**
 
-1. *Contribution towards building features for the project.*
-
-* There are several features that still require attention.
-  * Improving the User interface of submitted answers.
-  * Search functionality among the site data.
-  * Support for Comments.
-
 1. *Submitting new blog posts or news articles*
 
 * Post submission through Github:
@@ -53,9 +46,17 @@ The present version of the Floe Project website is generated using [11ty](https:
    `title: Title of News Article`
    `date: 'YYYY-MM-DD'`
    `tags: post`
-   `permalink: news/YYYY-MM-DD-newsArticleName.html`
+   `filename: Shorter URL. Can also contain capital characters`
    `---`
    `Content Data`
+
+  * The URL for news articles can be generated from title and date or filename or date metadata in front matter.
+  * If filename metadata is present, then filename and date will be used for creating URL else title and date would be used.
+  * The filename metadata is used for creating custom URLs.
+  * There is a bit of inconsistence in older blog filenames. Some old news articles have capital
+    characters in their URL and hence 'filename' metadata has been set in front matter of such files.
+  * You need to set 'filename' metadata in front matter only if the title of your news article is quite long and
+    you need a shorter URL for the post thereby creating a custom URL as mentioned above.
 
 If you still have any queries/doubts regarding the project, feel free to join our IRC Channel #fluid-work on Freenode.
 Feel free to create a new issue if you find any bugs in the project that requires our attention or you may
