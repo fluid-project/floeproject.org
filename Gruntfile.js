@@ -24,7 +24,9 @@ module.exports = function (grunt) {
             }
         },
         clean: {
-            infusion: "src/lib/infusion"
+            infusion: "src/lib/infusion",
+            node_modules: "node_modules",
+            dist: "dist"
         },
         copy: {
             // Copy external front end dependencies into appropriate directories

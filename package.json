@@ -3,11 +3,12 @@
     "version": "1.0.0",
     "description": "FLOE Project Website",
     "scripts": {
-        "build": "eleventy",
-        "eleventy": "eleventy --serve",
-        "eleventyport": "eleventy --serve --port=9778",
-        "prepare": "grunt installFrontEnd",
-        "lint": "grunt lint"
+        "start": "npm run clean && npm run serve",
+        "serve": "eleventy --serve",
+        "build": "rimraf dist && eleventy",
+        "lint": "grunt lint",
+        "clean": "rimraf dist",
+        "cleandependencies": "rimraf node_modules"
     },
     "repository": {
         "type": "git",
