@@ -364,6 +364,7 @@ body {
 .floe-resources .floe-resources-category button:hover {
     background-color: #fccd00;
     color: #000000;
+    cursor: pointer;
 }
 
 .floe-resources-category-show button {
