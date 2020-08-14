@@ -1,6 +1,5 @@
 ---
 title: Inclusive Science Lab
-filename: Inclusive-Science-Lab
 date: '2017-07-19'
 ---
 We've been building an integration technology called the [Nexus](https://wiki.gpii.net/w/The_Nexus).
