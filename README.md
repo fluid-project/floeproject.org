@@ -12,8 +12,8 @@ This repository contains the markup needed to deploy the floeproject.org website
 ## To Build Locally
 
 1. Get the required node modules: `npm install`
-2. Run eleventy from the fluid-website directory `npm run eleventyport`.
-3. Open `http://localhost:9778/` to see the website.
+2. Run eleventy from the fluid-website directory `npm run start`.
+3. Open `http://localhost:8080/` to see the website.
 
 ## To build locally using Docker
 

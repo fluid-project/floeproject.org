@@ -41,22 +41,20 @@ The present version of the Floe Project website is generated using [11ty](https:
   * Your article must have a specific template as mentioned below to get merged. make sure to follow the
     template while submitting the answer.
   * The template is as follows:
-   `---`
-   `layout: layouts/post`
-   `title: Title of News Article`
-   `date: 'YYYY-MM-DD'`
-   `tags: post`
-   `filename: Shorter URL. Can also contain capital characters`
-   `---`
-   `Content Data`
 
-  * The URL for news articles can be generated from title and date or filename or date metadata in front matter.
-  * If filename metadata is present, then filename and date will be used for creating URL else title and date would be used.
-  * The filename metadata is used for creating custom URLs.
-  * There is a bit of inconsistence in older blog filenames. Some old news articles have capital
-    characters in their URL and hence 'filename' metadata has been set in front matter of such files.
-  * You need to set 'filename' metadata in front matter only if the title of your news article is quite long and
-    you need a shorter URL for the post thereby creating a custom URL as mentioned above.
+  ```---
+  title: Title of News Article
+  date: 'YYYY-MM-DD'
+  filename: Shorter URL. Can also contain capital characters
+  ---
+  Content Data```
+
+  * The URL for news articles is generated from the date and title metadata.
+  * If filename metadata is present, then output filename will be created using the date and filename
+    (instead of the default date and title filename). Use this option if the article title is too long
+    for a good filename, or for supporting legacy posts with unusual naming.
+  * The use of filename metadata in front matter is optional and should be used only if
+    automatic filename of {date}-{title} is not sufficient.
 
 If you still have any queries/doubts regarding the project, feel free to join our IRC Channel #fluid-work on Freenode.
 Feel free to create a new issue if you find any bugs in the project that requires our attention or you may
