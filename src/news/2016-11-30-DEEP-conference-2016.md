@@ -1,6 +1,6 @@
 ---
 title: DEEP Conference 2016
-filename: DEEP-Conference-2016
+filename: DEEP-conference-2016
 date: '2016-11-30'
 ---
 

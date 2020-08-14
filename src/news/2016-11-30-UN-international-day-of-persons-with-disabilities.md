@@ -1,6 +1,6 @@
 ---
 title: UN International Day of Persons with Disabilities
-filename: UN-International-Day-of-Persons-with-Disabilities
+filename: UN-International-Day-of-persons-with-Disabilities
 date: '2016-11-30'
 ---
 
