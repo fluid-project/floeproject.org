@@ -12,12 +12,12 @@
         },
         {
             "text":"News",
-            "url":"/newsindex.html",
+            "url":"/news/index.html",
             "external":false
         },
         {
             "text":"UI Option",
-            "url":"/uioptions.html",
+            "url":"/ui-options.html",
             "external":false
         },
         {
