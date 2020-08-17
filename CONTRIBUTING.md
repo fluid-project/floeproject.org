@@ -11,7 +11,7 @@ The present version of the Floe Project website is generated using [11ty](https:
 2. Go to the folder directory where you cloned the project in terminal.
 3. Get the required node modules: `npm install`
 4. Run eleventy from the fluid-website directory `npm run eleventyport`.
-5. Open `http://localhost:9778/` to see the website.
+5. Open `http://localhost:8080/` to see the website.
 
 **The directory structure is as follows:**
 
