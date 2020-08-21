@@ -9,6 +9,7 @@ Experts in the field of Open Educational Resources (OER) will gather to de
 sign and develop tools and exemplars that make practical progress in the
 important agenda of inclusive learning through OER.
 They will be [sharing their results in open notebooks](https://docs.google.com/document/d/1EPdECgqM7BxDmfh5CHJ7ZYr00ldxUqkcnJOddaMvXTE/edit)
+
 Among the challenges on the agenda are a special focus on HTML5 and EPU
 B3 applied in:
 

@@ -4,14 +4,13 @@ filename: OCAD-OE-week
 date: '2019-03-22'
 ---
 Members of the Floe team recently participated in [OCAD University's](https://www.ocadu.ca/)
-[Open EducationWeek](https://www.openeducationweek.org/) event,
+[Open Education Week](https://www.openeducationweek.org/) event,
 [Guerilla Education! A Very Hands-On Open Education Week Event](https://www2.ocadu.ca/event/guerrilla-education-a-very-hands-on-open-education-week-event)
 
 <img src="images/ocad-open-ed.png" alt="Photograph of a presentation slide on a screen with
 three blocks of text: 'Understanding: make it accessible and clear', 'Sharing: make it easy
-to adapt and share', 'Participation & Inclusion: make it inviting, safe and sustainable.'" /></br/>
-
-**One of panelist Jairus Khan's slides, about elements of openness.**
+to adapt and share', 'Participation & Inclusion: make it inviting, safe and sustainable.'" /></br>
+*One of panelist Jairus Khan's slides, about elements of openness.*
 
 Moderated by Floe team member Jess Mitchell of the [Inclusive Design Research Centre](https://idrc.ocadu.ca/),
 the panel event brought together a diverse range of speakers from

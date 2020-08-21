@@ -31,7 +31,7 @@ and findability of content.
 
 <figure>
 <a href ="images/collaborative_art.png"><img src="images/collaborative_art_thumb.png"
-alt="view larger version of this image" aria-details="det1">]()
+alt="view larger version of this image" aria-details="det1"></a>
 <figcaption>
 <details id="det1">
 <summary>

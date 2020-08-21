@@ -10,7 +10,7 @@ The present version of the Floe Project website is generated using [11ty](https:
 1. Clone the project locally.
 2. Go to the folder directory where you cloned the project in terminal.
 3. Get the required node modules: `npm install`
-4. Run eleventy from the fluid-website directory `npm run eleventyport`.
+4. Run eleventy from the fluid-website directory `npm run start`.
 5. Open `http://localhost:8080/` to see the website.
 
 **The directory structure is as follows:**
@@ -36,18 +36,19 @@ The present version of the Floe Project website is generated using [11ty](https:
 * Post submission through Github:
   * Go to the `src/news` folder
   * Create a new Markdown file with title in the following format - `YYYY-MM-DD-titleOfNewsArticle.md`.
-  * Use the YYYY-MM-DD-newsarticlename.md file as template.
-  * Update the date, title and permalink in the front matter.
-  * Your article must have a specific template as mentioned below to get merged. make sure to follow the
-    template while submitting the answer.
+  * The front matter of the article must follow the given format in order to work properly.
+    Please note that the `filename` is optional and should only be used if you would like to have a URL
+    different from the `title` value.
   * The template is as follows:
 
-  ```---
+  ```yml
+  ---
   title: Title of News Article
   date: 'YYYY-MM-DD'
   filename: Shorter URL. Can also contain capital characters
   ---
-  Content Data```
+  Content Data
+  ```
 
   * The URL for news articles is generated from the date and title metadata.
   * If filename metadata is present, then output filename will be created using the date and filename

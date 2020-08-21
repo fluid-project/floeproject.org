@@ -1,10 +1,11 @@
 ---
-title: We Count Update - Inclusion in the Data Economy
+title: "We Count Update: Inclusion in the Data Economy"
 filename: WeCountUpdate
 date: '2020-07-02'
 ---
 We Count is [gathering challenges](https://wecount.inclusivedesign.ca/inclusion-challenges/)
 faced by the community related to data ecosystem inclusion.
+
 In two co-creation activities, We Count engaged diverse perspectives to consider
 the needs and requirements for a more equitable Smart City. Stories were co-created
 to uncover and explain challenges, needs, benefits and potential dangers of data-driven

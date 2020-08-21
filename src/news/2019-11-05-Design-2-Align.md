@@ -61,14 +61,25 @@ The Hackathon team at the San Francisco Google offices.
 </figcaption>
 </figure>
 <span>Co-convened by</span>
+
 <ul class="floe-news-inlineList">
-
-- [@VodafoneFdn](https://twitter.com/vodafonefdn)
-- [Googleorg](https://twitter.com/Googleorg)
-- [UNHCR_Education](https://twitter.com/UNHCR_Education)
-- [@LearnEQ](https://twitter.com/LearnEQ)
-- [@UNESCOICTs](https://twitter.com/UNESCOICTs)
-
+    <li>
+        <a href="https://twitter.com/vodafonefdn">@VodafoneFdn</a>
+    </li>
+    <li>
+        <a href="https://twitter.com/Googleorg">@Googleorg</a>
+    </li>
+    <li>
+        <a href="https://twitter.com/UNHCR_Education">@UNHCR_Education</a>
+    </li>
+    <li>
+        <a href="https://twitter.com/LearnEQ">@LearnEQ</a>
+    </li>
+    <li>
+        <a href="https://twitter.com/UNESCOICTs">@UNESCOICTs</a>
+    </li>
 </ul>
 
-### #design2align
+<p>
+    <strong>#design2align</strong>
+</p>

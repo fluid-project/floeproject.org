@@ -1,13 +1,11 @@
 /* eslint-env es6 */
 "use strict";
-const appendSuffix = n => {
-    var s = ["th", "st", "nd", "rd"],
-        v = n % 100;
-    return n + (s[(v - 20) % 10] || s[v] || s[0]);
-};
 module.exports = function dateFilter(value) {
     const dateObject = new Date(value);
     const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-    const dayWithSuffix = appendSuffix(dateObject.getDate());
-    return `${months[dateObject.getMonth()]} ${dayWithSuffix} ${dateObject.getFullYear()}`;
+    const dayWithSuffix = dateObject.getUTCDate();
+    var temp1 = `${months[dateObject.getMonth()]}`;
+    var temp2 = ` ${dayWithSuffix}`;
+    var temp3 = ` ${dateObject.getFullYear()}`;
+    return temp1 + temp2 + "," + temp3;
 };

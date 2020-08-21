@@ -4,7 +4,7 @@ filename: DEEP-conference-2016
 date: '2016-11-30'
 ---
 
-On October 13-14, 2016 the [DEEP -Discovery conference](http://deep.idrc.ocadu.ca)
+On October 13-14, 2016 the [DEEP - Discovery conference](http://deep.idrc.ocadu.ca)
 brought together an international community of over 100
 diverse participants to discuss timely, difficult, and engaging topics.
 

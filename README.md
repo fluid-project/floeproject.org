@@ -41,5 +41,5 @@ If you make changes to the website, repeat the steps to build the image and star
 * The 404 error page will only appear when deployed to the *root* of a gh-pages domain or gh-pages custom domain. It
   will not appear when deployed locally or when deployed through a gh-pages (sub) project. To test the 404 error page,
   either load the 404.html directly in a browser, or deploy to the root of a gh-pages domain.
-* The most recent news items should remain in the list on the floeproject.org `src/index.html` page. When a new item is added, the
-  oldest one on the list should be removed. The list is currently manually maintained.
+* The most recent news items should remain in the list on the floeproject.org `src/index.html` page. When a new item is
+  added, the oldest one on the list should be removed. The list is currently manually maintained.

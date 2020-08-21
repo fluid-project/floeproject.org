@@ -18,5 +18,5 @@ this project was awarded to the [Institute for the Study of Knowledge Management
 [IBM](http://www.ibm.com/us/en/),
 and [Inclusive Technologies](http://inclusive.com/).
 
-For more information about the grant,see
+For more information about the grant, see
 [http://www.iskme.org/media/press-releases/dept-education-funds-project-s...](http://www.iskme.org/media/press-releases/dept-education-funds-project-supporting-expanded-level-disability-access)
