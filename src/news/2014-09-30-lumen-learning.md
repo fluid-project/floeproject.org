@@ -11,7 +11,7 @@ courseware will apply educational strategies that show promise for improving lea
 learning pathways for developing subject mastery; personalized teaching; and effective use of open
 educational resources. The result will be “next generation” courseware for four introductory-level
 college courses that enroll millions of students every year: Introduction to Business; Principles of
-Marketing; Microeconomics; and Macroeconomics..
+Marketing; Microeconomics; and Macroeconomics.
 
 The Floe team is excited to be a partner in this project. Floe will design the courseware’s universally
 accessible user experience through a highly iterative, inclusive and learner-centric process.
