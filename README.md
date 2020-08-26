@@ -1,20 +1,21 @@
-What is the Floe Project?
-=========================
+# What is the Floe Project
 
 Floe is creating tools that help transform, augment, and personalize the learning experience.
 
 Floe provides the resources needed to enable inclusive access to personally relevant, engaging learning opportunities
 for the full diversity of learners and content producers.
 
-
-This Repository
-===============
+## This Repository
 
 This repository contains the markup needed to deploy the floeproject.org website.
 
+## To Build Locally
 
-Building a Docker image
-=======================
+1. Get the required node modules: `npm install`
+2. Run eleventy from the fluid-website directory `npm run start`.
+3. Open `http://localhost:8080/` to see the website.
+
+## To build locally using Docker
 
 You can serve the website from a [Docker](https://docs.docker.com/get-docker) container.
 
@@ -25,19 +26,20 @@ Once you have Docker installed, run the following commands to build a Docker ima
 
 The website will be available at [http://localhost:8000](http://localhost:8000)
 
-* To stop and remove the container: `docker rm -f floeproject`
+If you make changes to the website, repeat the steps to build the image and start a new container.
 
-If you make changes to the HTML code, repeat the steps to build the image and start a new container.
+## To deploy to a personal webserver
 
+1. Run: `npm run build`
+2. Copy the contents of `dist` directory to your server.
 
-News Item Template
-==================
+## Notes
 
-An html template is provided for the news item in `./news/YYYY-MM-DD-news-item-title.html`
-Save your renamed file to the `./news` folder.
-
-Note!
-=====
-1. You will also need to add your news item (title and date) to the top of the news archive (in `./news/index.html`).
-2. Remember to update the floeproject.org `./index.html` page with a short summary of your news item.
---> The three most recent news items should remain in the list on the floeproject.org `./index.html` page. When a new item is added, the oldest one on the list should be removed.
+* Modifications can be done to any source file or directory except for the contents of the `dist/` directory. The `dist`
+  directory and its contents are not to be versioned since it contains the generated output made by eleventy from the
+  source files and are overwritten.
+* The 404 error page will only appear when deployed to the *root* of a gh-pages domain or gh-pages custom domain. It
+  will not appear when deployed locally or when deployed through a gh-pages (sub) project. To test the 404 error page,
+  either load the 404.html directly in a browser, or deploy to the root of a gh-pages domain.
+* The most recent news items should remain in the list on the floeproject.org `src/index.html` page. When a new item is
+  added, the oldest one on the list should be removed. The list is currently manually maintained.
