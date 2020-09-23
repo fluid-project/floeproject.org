@@ -6,10 +6,10 @@
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <link type="image/x-icon" href="{{ '/' | url }}assets/images/favicon.ico" rel="shortcut icon"/>
         <!-- Foundation flex grid -->
-        {% include partials/foundationflexgrid.html %}
+        {% include "partials/foundationflexgrid.html" %}
         <script type="text/javascript" src="{{ '/' | url }}lib/infusion/infusion-all.js"></script>
         <script type="text/javascript" src="{{ '/' | url }}assets/js/floe.js"></script>
-        <script type="text/javascript" src="{{ '/' | url }}assets/js/analytics.js"></script> 
+        <script type="text/javascript" src="{{ '/' | url }}assets/js/analytics.js"></script>
     </head>
     <body>
         <script type="text/javascript">
@@ -17,12 +17,12 @@
                 floe.setupUIO("../");
             });
         </script>
-        {% include partials/uio.html %}
+        {% include "partials/uio.html" %}
         <div id="skip">
             <a href="#content">Skip to Content</a>
         </div>
         <div class="floe">
-            {% include partials/header.html %}
+            {% include "partials/header.html" %}
             <article id="content" class="floe-content floe-news-item">
                 <h2> News </h2>
                 <h3>{{ title }} </h3>
@@ -31,7 +31,7 @@
                     {% endif %}
              {{content}}
              </article>
-            {% include partials/footer.html %}
+            {% include "partials/footer.html" %}
         </div>
     </body>
 </html>
