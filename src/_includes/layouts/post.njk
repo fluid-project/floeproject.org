@@ -29,7 +29,7 @@
                 {% if permalink != "news/index.html" %}
                     <time class="floe-date" datetime="{{ date }}">{{ date | dateFilter }}</time>
                     {% endif %}
-             {{content}}
+             {{content | safe}}
              </article>
             {% include "partials/footer.html" %}
         </div>
