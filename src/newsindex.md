@@ -7,11 +7,11 @@ permalink: news/index.html
 <div class="floe-news-archive">
 <h2> News </h2>
 <ul >
-{%- for post in collections.post reversed -%}
+{% for post in collections.news %}
 <li><a href="{{ post.url }}"><p> {{ post.data.title }}</p></a>
 <time class="floe-date" datetime="{{ post.data.date }}">{{ post.data.date | dateFilter }}</time>
 </li>
-{%- endfor -%}
+{% endfor %}
 </ul>
 </div>
 </div>

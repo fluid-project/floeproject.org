@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
-        <title>News: {% if title %} {{ title }} {% else %} {{ site.title }} {% endif %} | floe</title>
+        <title>{% if title %} {{ title }} {% else %} {{ site.title }} {% endif %} | floe</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <link type="image/x-icon" href="{{ '/' | url }}assets/images/favicon.ico" rel="shortcut icon"/>
         <!-- Foundation flex grid -->
-        {% include partials/foundationflexgrid.html %}
+        {% include "partials/foundationflexgrid.html" %}
         <script type="text/javascript" src="{{ '/' | url }}lib/infusion/infusion-uio.min.js"></script>
         <script type="text/javascript" src="{{ '/' | url }}assets/js/floe.js"></script>
-        <script type="text/javascript" src="{{ '/' | url }}assets/js/analytics.js"></script> 
+        <script type="text/javascript" src="{{ '/' | url }}assets/js/analytics.js"></script>
     </head>
     <body>
         <script type="text/javascript">
@@ -17,21 +17,16 @@
                 floe.setupUIO("../");
             });
         </script>
-        {% include partials/uio.html %}
+        {% include "partials/uio.html" %}
         <div id="skip">
             <a href="#content">Skip to Content</a>
         </div>
         <div class="floe">
-            {% include partials/header.html %}
-            <article id="content" class="floe-content floe-news-item">
-                <h2> News </h2>
-                <h3>{{ title }} </h3>
-                {% if permalink != "news/index.html" %}
-                    <time class="floe-date" datetime="{{ date }}">{{ date | dateFilter }}</time>
-                    {% endif %}
-             {{content}}
-             </article>
-            {% include partials/footer.html %}
+            {% include "partials/header.html" %}
+            {{ content | safe }}
+            {% include "partials/footer.html" %}
         </div>
     </body>
 </html>
+
+
