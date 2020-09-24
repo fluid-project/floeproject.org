@@ -5,6 +5,7 @@ const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 
 // Import filters
 const dateFilter = require('./src/filters/date-filter.js');
+const limitFilter = require('./src/filters/limit-filter.js');
 const markdownFilter = require('./src/filters/markdown-filter.js');
 
 // Import transforms
@@ -15,10 +16,17 @@ const parseTransform = require('./src/transforms/parse-transform.js');
 const site = require('./src/_data/site.json');
 
 module.exports = function(config) {
+  // Collections
+  config.addCollection('news', collection => {
+    return [
+      ...collection.getFilteredByGlob('src/news/*.md').sort((a, b) => b.data.date - a.data.date)
+    ].reverse();
+  });
+
   // Filters
   config.addFilter('dateFilter', dateFilter);
+  config.addFilter('limit', limitFilter);
   config.addFilter('markdownFilter', markdownFilter);
-
 
   // Transforms
   config.addTransform('htmlmin', htmlMinTransform);
@@ -59,8 +67,7 @@ module.exports = function(config) {
       output: 'dist',
       includes: "_includes"
     },
-    templateFormats: ["html", "md"],
-    htmlTemplateEngine: "liquid",
+    htmlTemplateEngine: "njk",
     	// 1.1 Enable elventy to pass dirs specified above
     passthroughFileCopy: true
   };
