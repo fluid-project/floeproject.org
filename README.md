@@ -1,4 +1,4 @@
-# What is the Floe Project
+# What is this project about
 
 Floe is creating tools that help transform, augment, and personalize the learning experience.
 
