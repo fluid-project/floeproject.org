@@ -23,8 +23,7 @@ The following images show examples of the designs we are currently developing
 (select to enlarge):
 
 <figure>
-<a href="images/Self-reflection-Figure-1.png"><img src="images/Self-reflection-Figure-1
--thumb.png" alt="view larger version of this image" aria-details="det1"></a>
+<a href="images/Self-reflection-Figure-1.png"><img src="images/Self-reflection-Figure-1-thumb.png" alt="view larger version of this image" aria-details="det1"></a>
 <figcaption>
 <details id="det1">
 <summary>
