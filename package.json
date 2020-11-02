@@ -24,7 +24,7 @@
         "Education"
     ],
     "author": "OCAD University <idrc@ocadu.ca>",
-    "license": "CC-BY-4.0",
+    "license": "BSD-3-Clause",
     "bugs": {
         "url": "https://github.com/fluid-project/floeproject.org/issues"
     },

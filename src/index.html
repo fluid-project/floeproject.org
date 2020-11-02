@@ -117,7 +117,7 @@ title: Paving the way toward inclusive Open Education Resources
                 <p>The Metadata Editor makes it simple to provide useful labels regarding the learner preferences the resource can meet,
                 and supports authors in adding accessibility features.
                 The Feedback Tool allows users to help in the refinement of content and its metadata.</p>
-                <p>Floe has added a <a href="https://github.com/fluid-project/infusion-docs/blob/master/src/documents/TextToSpeechAPI.md">text-to-speech component</a>
+                <p>Floe has added a <a href="https://github.com/fluid-project/infusion-docs/blob/main/src/documents/TextToSpeechAPI.md">text-to-speech component</a>
                 to the Infusion JavaScript framework. The component uses browser-based speech synthesis
                 to provide self-voicing capabilities to web resources.The<a href="https://github.com/fluid-project/metadata)">source code for the Metadata Editor and Feedback Tool</a>is available on Github.</p>
             </div>
@@ -165,13 +165,9 @@ title: Paving the way toward inclusive Open Education Resources
                 <div class="floe-front-news">
                     <h3>News</h3>
                     <ul>
-                        <li><time class="floe-date" datetime="2019-11-05">August 28, 2020</time>: <a href="./news/2020-08-28-new-guide-on-creating-open-educational-resources-published.html">New Guide on Creating Open Educational Resources Published</a></li>
-                        <li><time class="floe-date" datetime="2019-11-05">July 15, 2020</time>: <a href="./news/2020-07-15-Platform-Co-op-Update.html">Collaborative Co-Design with Cooperatives</a></li>
-                        <li><time class="floe-date" datetime="2019-11-05">July 14, 2020</time>: <a href="./news/2020-07-14-New-Resources-from-Coding-to-Learn.html">New Resources from Coding to Learn</a></li>
-                        <li><time class="floe-date" datetime="2020-07-02">July 2, 2020</time>: <a href="./news/2020-07-02-WeCountUpdate.html">We Count Update: Inclusion in the Data Economy</a></li>
-                        <li><time class="floe-date" datetime="2020-07-02">June 28, 2020</time>: <a href="./news/2020-06-28-AIHEC-Update.html">American Indian Higher Education Consortium Using Floe Tools and Resources</a></li>
-                        <li><time class="floe-date" datetime="2020-05-20">May 20, 2020</time>: <a href="./news/2020-05-20-DEEP-Update.html">Webinar with Dr. Toon Calders on July 9, 2020: Machine Learning: Bias in, Bias out</a></li>
-                        <li><time class="floe-date" datetime="2020-03-27">March 27, 2020</time>: <a href="./news/2020-03-27-ODAO-Update.html">Updates from Our Doors are Open</a></li>
+                        {% for post in collections.news | limit(7) %}
+                        <li><time class="floe-date" datetime="{{ post.data.date }}">{{ post.data.date | dateFilter }}</time>: <a href="{{ post.url }}">{{ post.data.title }}</a></li>
+                        {% endfor %}
                     </ul>
                 </div>
             </div>

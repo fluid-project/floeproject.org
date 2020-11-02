@@ -1,10 +1,13 @@
 /*
-Copyright 2020 OCAD University
-Licensed under the New BSD license. You may not use this file except in
-compliance with this License.
+ Copyright the FLOE Project copyright holders.
 
-See the AUTHORS.md file at the top-level directory of this distribution and at
-https://github.com/fluid-project/floeproject.org/master/AUTHORS.md.
+ See the AUTHORS.md file at the top-level directory of this distribution and at
+ https://github.com/fluid-project/floeproject.org/raw/main/AUTHORS.md.
+
+ Licensed under the New BSD license. You may not use this file except in compliance with this License.
+
+ You may obtain a copy of the New BSD License at
+ https://github.com/fluid-project/floeproject.org/raw/main/LICENSE.md.
 */
 
 /* eslint-env node */
@@ -27,104 +30,6 @@ module.exports = function (grunt) {
             infusion: "src/lib/infusion",
             node_modules: "node_modules",
             dist: "dist"
-        },
-        copy: {
-            // Copy external front end dependencies into appropriate directories
-            frontEndDependencies: {
-                files: [
-                    {
-                        expand: true,
-                        cwd: "./node_modules/infusion/dist/",
-                        src: "infusion-all.js",
-                        dest: "./src/lib/infusion"
-                    },
-                    {
-                        expand: true,
-                        cwd: "./node_modules/infusion/src/components/tableOfContents/css/",
-                        src: "**/*",
-                        dest: "./src/lib/infusion/src/components/tableOfContents/css/"
-                    },
-                    {
-                        expand: true,
-                        cwd: "./node_modules/infusion/src/components/tableOfContents/html/",
-                        src: "**/*",
-                        dest: "./src/lib/infusion/src/components/tableOfContents/html/"
-                    },
-                    {
-                        expand: true,
-                        cwd: "./node_modules/infusion/src/components/textfieldControl/css/",
-                        src: "**/*",
-                        dest: "./src/lib/infusion/src/components/textfieldControl/css/"
-                    },
-                    {
-                        expand: true,
-                        cwd: "./node_modules/infusion/src/components/switch/css/",
-                        src: "**/*",
-                        dest: "./src/lib/infusion/src/components/switch/css/"
-                    },
-                    {
-                        expand: true,
-                        cwd: ".node_modules/infusion/",
-                        src: "*.txt",
-                        dest: "./src/lib/infusion"
-                    },
-                    {
-                        expand: true,
-                        cwd: "./node_modules/infusion/src/framework/preferences",
-                        src: ["**/*", "!**/js/**"],
-                        dest: "./src/lib/infusion/src/framework/preferences"
-                    },
-                    {
-                        expand: true,
-                        cwd: "./node_modules/infusion/src/framework/enhancement/css/",
-                        src: "**/*",
-                        dest: "./src/lib/infusion/src/framework/enhancement/css/"
-                    },
-                    {
-                        expand: true,
-                        cwd: "./node_modules/infusion/src/framework/core/css/",
-                        src: "**/*",
-                        dest: "./src/lib/infusion/src/framework/core/css/"
-                    },
-                    {
-                        expand: true,
-                        cwd: "./node_modules/infusion/src/framework/core/images/",
-                        src: "**/*",
-                        dest: "./src/lib/infusion/src/framework/core/images/"
-                    },
-                    {
-                        expand: true,
-                        cwd: "./node_modules/infusion/src/lib/jquery/ui/css/default-theme/",
-                        src: "**/*",
-                        dest: "./src/lib/infusion/src/lib/jquery/ui/css/default-theme/"
-                    },
-                    {
-                        expand: true,
-                        cwd: "./node_modules/infusion/src/lib/normalize/css/",
-                        src: "**/*",
-                        dest: "./src/lib/infusion/src/lib/normalize/css/"
-                    },
-
-                    {
-                        expand: true,
-                        cwd: "./node_modules/infusion/src/lib/open-dyslexic/fonts/",
-                        src: "**/*",
-                        dest: "./src/lib/infusion/src/lib/open-dyslexic/fonts"
-                    },
-                    {
-                        expand: true,
-                        cwd: "./node_modules/infusion/src/lib/opensans/fonts/",
-                        src: "**/*",
-                        dest: "./src/lib/infusion/src/lib/opensans/fonts/"
-                    },
-                    {
-                        expand: true,
-                        cwd: "./node_modules/infusion/src/lib/roboto/fonts/",
-                        src: "**/*",
-                        dest: "./src/lib/infusion/src/lib/roboto/fonts/"
-                    }
-                ]
-            }
         }
     });
     // Load the plugin(s):
@@ -132,7 +37,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks("grunt-contrib-clean");
     grunt.loadNpmTasks("grunt-contrib-copy");
     // Custom tasks:
-    grunt.registerTask("default", ["clean", "installFrontEnd"]);
-    grunt.registerTask("installFrontEnd", "Install front-end dependencies from the node_modules directory after 'npm install'", ["copy:frontEndDependencies"]);
+    grunt.registerTask("default", ["clean"]);
     grunt.registerTask("lint", "Perform all standard lint checks.", ["lint-all"]);
 };
