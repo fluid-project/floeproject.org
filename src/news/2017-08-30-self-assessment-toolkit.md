@@ -23,7 +23,9 @@ The following images show examples of the designs we are currently developing
 (select to enlarge):
 
 <figure>
-<a href="images/Self-reflection-Figure-1.png"><img src="images/Self-reflection-Figure-1-thumb.png" alt="view larger version of this image" aria-details="det1"></a>
+<a href="images/Self-reflection-Figure-1.png">
+    <img src="images/Self-reflection-Figure-1-thumb.png" alt="view larger version of this image" aria-details="det1">
+</a>
 <figcaption>
 <details id="det1">
 <summary>
@@ -41,8 +43,9 @@ of the dialog box.
 </figcaption>
 </figure>
 <figure>
-<a href="images/Self-reflection-Figure-2.png"><img src="images/Self-reflection-Figure-2-thumb.png
-" alt="view larger version of this image" aria-details="det2"></a>
+<a href="images/Self-reflection-Figure-2.png">
+    <img src="images/Self-reflection-Figure-2-thumb.png" alt="view larger version of this image" aria-details="det2">
+</a>
 <figcaption>
 <details id="det2">
 <summary>
