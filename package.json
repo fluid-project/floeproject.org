@@ -44,7 +44,7 @@
         "html-minifier": "4.0.0",
         "image-size": "0.8.3",
         "infusion": "3.0.0-dev.20200326T173810Z.24ddb2718",
-        "sanitize-html": "1.24.0",
+        "sanitize-html": "2.3.2",
         "sanitize.css": "11.0.1",
         "slugify": "1.4.0"
     }
