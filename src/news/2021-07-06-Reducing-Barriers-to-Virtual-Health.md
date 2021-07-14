@@ -10,16 +10,17 @@ and its accompanying [Personal Preferences Approach to personalizing healthcare]
 The guide has two main purposes: 1) to identify the virtual healthcare needs of Canadians and 2) to provide guidance for
 reducing the barriers in receiving care. The guide incorporates the input and collaboration of co-design participants of
 various lived experiences and backgrounds, and healthcare practitioners from across Canada. It also includes insights
-from literature research and our collective experiences in Inclusive Design. For more information on the methodology
-used to create this initial version of the guide, please visit this project wiki page: [Methodology used to create the Guide](https://wiki.fluidproject.org/display/IUIGFVP/Methodology+used+to+create+the+Guide).
+from literature research and the project team's collective experiences in Inclusive Design. For more information on the
+methodology used to create this initial version of the guide, please visit this project wiki page:
+[Methodology used to create the Guide](https://wiki.fluidproject.org/display/IUIGFVP/Methodology+used+to+create+the+Guide).
 
 The Personal Preferences Approach explores a system that allows for the expression of personal preferences for virtual
 healthcare and responding to these preferences in a meaningful way that reduces barriers. This system is informed by the
 principles, practices, and approaches from the Guide for Reducing Barriers to Virtual Healthcare and builds on previous
-work for Learner Options. Although this approach is contextualized for healthcare, the ideas can be applied to other
-domains such as education, and more.
+work for [UI Options](../ui-options.html). Although this approach is contextualized for healthcare, the ideas can be
+applied to other domains such as education, and more.
 
-As always, this work is not intended to be complete or static. We welcome input, participation, and further evolution of
-these ideas!
+As always, this work is not intended to be complete or static. The project team welcomes input, participation, and
+further evolution of these ideas!
 
 For more information, please visit the [project wiki](https://wiki.fluidproject.org/display/IUIGFVP/Intelligent+User+Interfaces+and+Guidelines+for+Vulnerable+Populations).

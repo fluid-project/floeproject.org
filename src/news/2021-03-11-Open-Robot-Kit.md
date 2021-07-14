@@ -8,4 +8,4 @@ An Open Robot Kit to enable learners and educators to easily create a ‘one-siz
 [Weavly](https://weavly.org) coding environment is in progress. The kit will include a Robot Building Guide with easy to
 follow instructions.
 
-For more details, see Code Learn Create's [Open Robot Kit](https://www.codelearncreate.org/blog/open-robot-kit/) post.
+For more details, see ["Open Robot Kit"](https://www.codelearncreate.org/blog/open-robot-kit/).

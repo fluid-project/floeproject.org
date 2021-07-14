@@ -10,4 +10,4 @@ regarding the collection, use, and disclosure of their personal information.
 
 For more details, see We Count's [W3C Portable Personal Data Preferences Community Group](https://wecount.inclusivedesign.ca/views/w3c-portable-personal-data-preferences-community-group/)
 post, and the [Portable Personal Data Preferences Community Group](https://www.w3.org/community/prtbl-prsnl-prefs/) page
-on the W3C website.
+on the [W3C website](https://www.w3.org).
