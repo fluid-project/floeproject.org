@@ -8,7 +8,8 @@ build from and maintain over time.
 
 [Trivet](https://github.com/fluid-project/trivet) is a simple starter kit to create accessible, localizable static sites
 with [Eleventy](https://www.11ty.dev). Trivet was used to create
-[Accessibility in Action](https://accessibility-in-action.inclusivedesign.ca), and port the
+[Accessibility in Action](https://accessibility-in-action.inclusivedesign.ca) and the
+[Community-Led Co-design kit](https://co-design.inclusivedesign.ca), and port the
 [Inclusive Design Guide](https://guide.inclusivedesign.ca) and the
 [Inclusive Learning Design Handbook](https://handbook.floeproject.org) to Eleventy.
 
