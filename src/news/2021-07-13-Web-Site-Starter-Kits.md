@@ -6,12 +6,13 @@ date: '2021-07-13'
 The FLOE Team is developing starter kits to accelerate the development of web sites; providing a solid foundation to
 build from and maintain over time.
 
-[Trivet](https://github.com/fluid-project/trivet) is a simple starter kit for using [Eleventy](https://www.11ty.dev) to
-create accessible, localizable static sites. Trivet has been used to create the [Accessibilit in Action](https://accessibility-in-action.inclusivedesign.ca)
-site, and port the [Inclusive Design Guide](https://guide.inclusivedesign.ca) and the
-[Inclusive Learning Design Handbook](https://handbook.floeproject.org) sites to Eleventy.
+[Trivet](https://github.com/fluid-project/trivet) is a simple starter kit to create accessible, localizable static sites
+with [Eleventy](https://www.11ty.dev). Trivet was used to create
+[Accessibility in Action](https://accessibility-in-action.inclusivedesign.ca), and port the
+[Inclusive Design Guide](https://guide.inclusivedesign.ca) and the
+[Inclusive Learning Design Handbook](https://handbook.floeproject.org) to Eleventy.
 
-[Hearth](https://github.com/fluid-project/hearth) supports the creation of and access to libraries of open
+[Hearth](https://github.com/fluid-project/hearth) will support the creation of and access to libraries of open
 educational resources. Hearth is a starter kit for the [Laravel](https://laravel.com) framework, providing the following
 out of the box:
 
