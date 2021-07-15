@@ -9,32 +9,24 @@ is for the minority to fade away into the background. With their work on Inverte
 a way to invert that relationship and provide a means to amplify those minority voices.
 
 <figure>
-    <img src="images/wordle.png"
+    <img src="images/wordle.jpg"
         alt="A screenshot showing a wordle generated for the question,
         What are the three most important problems to be addressed by inclusive design?">
     <figcaption>
         <details>
             <summary>
-                A screenshot showing a wordle generated for the question, "What are the three most important problems to
-                be addressed by inclusive design?"
+                A screenshot showing a wordle generated for the question, "What are the qualities of our Learning
+                Imaginary?"
             </summary>
-            Answers include:
-            <ul>
-                <li>hope</li>
-                <li>engagement</li>
-                <li>power</li>
-                <li>empathy</li>
-                <li>co-design</li>
-                <li>captitalism</li>
-                <li>needs</li>
-                <li>shelter</li>
-                <li>barriers</li>
-                <li>outliers</li>
-                <li>inflexibility</li>
-                <li>communication</li>
-                <li>margins</li>
-                <li>etc.</li>
-            </ul>
+            <p>
+                In this Inverted Wordle, the minority answers are emphasised, appearing larger, while the
+                majority responses appear smaller. For example "formative feedback" and "differentiation in design"
+                appear more prominently; where as, "open" and "safety" appear smaller. Visually all of the words are
+                arranged at different angles and appear in different colours. However, the most salient dimension is the
+                size of the font the words are displayed in. It's also worth noting that some of the de-emphasized words
+                are sufficiently small that they are unreadable. If there was no option to invert the word cloud, these
+                ideas would be lost.
+            </p>
         </details>
     </figcaption>
 </figure>
