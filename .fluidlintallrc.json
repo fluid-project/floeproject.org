@@ -1,0 +1,23 @@
+{
+    "eslint": {
+        "js": {
+            "includes": [
+                "./*js",
+                "src/**/*.js"
+            ]
+        }
+    },
+    "lintspaces": {
+        "newlines": {
+            "excludes": [
+                "src/assets/stylesheets/foundation /**/*.*",
+                "src/assets/stylesheets/fonts/**/*.*"
+            ]
+        }
+    },
+    "stylelint": {
+        "excludes": [
+            "src/assets/stylesheets/foundation/**/*.*"
+        ]
+    }
+}

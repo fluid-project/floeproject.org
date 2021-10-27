@@ -4,20 +4,14 @@
         <title>News: {% if title %} {{ title }} {% else %} {{ site.title }} {% endif %} | floe</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <link type="image/x-icon" href="{{ '/' | url }}assets/images/favicon.ico" rel="shortcut icon"/>
+        <link type="image/x-icon" href="/assets/images/favicon.ico" rel="shortcut icon"/>
         <!-- Foundation flex grid -->
         {% include "partials/foundationflexgrid.html" %}
-        <script type="text/javascript" src="{{ '/' | url }}lib/infusion/infusion-uio.min.js"></script>
-        <script type="text/javascript" src="{{ '/' | url }}assets/js/floe.js"></script>
-        <script type="text/javascript" src="{{ '/' | url }}assets/js/analytics.js"></script>
+        {% uioScripts %}
+        <script type="text/javascript" src="/assets{{ assets['/scripts/matomo.js'] }}"></script>
     </head>
     <body>
-        <script type="text/javascript">
-            $(document).ready(function () {
-                floe.setupUIO("../");
-            });
-        </script>
-        {% include "partials/uio.html" %}
+        {% uioTemplate %}
         <div id="skip">
             <a href="#content">Skip to Content</a>
         </div>
@@ -28,10 +22,11 @@
                 <h3>{{ title }} </h3>
                 {% if permalink != "news/index.html" %}
                     <time class="floe-date" datetime="{{ date }}">{{ date | dateFilter }}</time>
-                    {% endif %}
+                {% endif %}
              {{content | safe}}
              </article>
             {% include "partials/footer.html" %}
+            {% uioInit %}
         </div>
     </body>
 </html>
