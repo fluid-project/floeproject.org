@@ -1,5 +1,5 @@
 ---
-layout: layouts/newsindex
+layout: layouts/base
 permalink: news/index.html
 ---
 <div id="content" class="floe-content">
