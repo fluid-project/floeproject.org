@@ -27,7 +27,8 @@ const parseTransform = require("./src/transforms/parse-transform.js");
 
 module.exports = function (config) {
     // Collections
-    config.addCollection("news", collection => collection.getFilteredByGlob("src/news/*.md").reverse());
+    config.addCollection("news", collection => collection.getFilteredByGlob("src/collections/news/*.md").reverse());
+    config.addCollection("resources", collection => collection.getFilteredByGlob("src/collections/resources/*.md"));
 
     // Filters
     config.addFilter("dateFilter", dateFilter);
@@ -38,7 +39,7 @@ module.exports = function (config) {
 
     // Passthrough copy
     config.addPassthroughCopy({"src/assets/images": "assets/images"});
-    config.addPassthroughCopy({"src/assets/stylesheets": "assets/stylesheets"}); // TODO: remove after updateing CSS
+    config.addPassthroughCopy({"src/assets/fonts": "assets/fonts"}); // TODO: remove after updateing CSS
     config.addPassthroughCopy({"src/news/images": "news/images"});
 
     // Plugins

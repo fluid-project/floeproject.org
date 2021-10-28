@@ -1,0 +1,13 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+    <ul id="content">
+        {% for post in collections.resources %}
+            <li>
+                <a href="{{ post.url }}">
+                    <p> {{ post.data.title }}</p>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
