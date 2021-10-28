@@ -1,0 +1,14 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+    <ul id="content">
+        {% for post in collections.news %}
+            <li>
+                <a href="{{ post.url }}">
+                    <p> {{ post.data.title }}</p>
+                </a>
+                <time class="floe-date" datetime="{{ post.data.date }}">{{ post.data.date | dateFilter }}</time>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

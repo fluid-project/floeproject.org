@@ -1,0 +1,5 @@
+{% set homeUrl = "/" %}
+
+<a rel="home" title="Home" href="{{ homeUrl }}" {% if page.url === homeUrl %} aria-current="page"{% endif %}>
+    {{ site.name }} <span>{{ site.shortDesc }}</span>
+</a>

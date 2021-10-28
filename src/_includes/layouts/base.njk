@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
-        <title>{% if title %} {{ title }} {% else %} {{ site.title }} {% endif %} | floe</title>
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <link type="image/x-icon" href="/assets/images/favicon.ico" rel="shortcut icon"/>
-        <!-- Foundation flex grid -->
-        {% include "partials/foundationflexgrid.html" %}
-        {% uioScripts %}
-        <script type="text/javascript" src="/assets{{ assets['/scripts/matomo.js'] }}"></script>
-        {% if page.url == "/resources.html" %}
-        <script type="text/javascript" src="/assets{{ assets['/scripts/app.js'] }}"></script>
-        {% endif %}
+        <title>{% if title %} {{ title }} {% else %} {{ site.title }} {% endif %} | {{ site.name }}</title>
+
+        {% include "partials/global/meta.njk" %}
+        {% include "partials/global/icons.njk" %}
+
+
+        {% include "partials/global/stylesheets.njk" %}
+
+        {% include "partials/global/scripts.njk" %}
     </head>
     <body>
         {% uioTemplate %}
         <div id="skip">
             <a href="#content">Skip to Content</a>
         </div>
-        <div class="floe">
-            {% include "partials/header.html" %}
-                {{ content | safe }}
-            {% include "partials/footer.html" %}
-        </div>
+        {% include "partials/global/header.njk" %}
+        <main>
+            {% block pageHeader %}
+                <header>
+                    <h1>{{ title }}</h1>
+                </header>
+            {% endblock %}
+            <nav class="flc-toc-tocContainer"></nav>
+            {% block content %}
+                <div id="content">
+                    {{ content | safe }}
+                </div>
+            {% endblock %}
+        </main>
+        {% include "partials/global/footer.njk" %}
         {% uioInit %}
     </body>
 </html>
