@@ -20,8 +20,6 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 // Import filters
 const dateFilter = require("./src/filters/date-filter.js");
-const limitFilter = require("./src/filters/limit-filter.js");
-const markdownFilter = require("./src/filters/markdown-filter.js");
 
 // Import transforms
 const htmlMinTransform = require("./src/transforms/html-min-transform.js");
@@ -29,16 +27,10 @@ const parseTransform = require("./src/transforms/parse-transform.js");
 
 module.exports = function (config) {
     // Collections
-    config.addCollection("news", collection => {
-        return [
-            ...collection.getFilteredByGlob("src/news/*.md").sort((a, b) => b.data.date - a.data.date)
-        ].reverse();
-    });
+    config.addCollection("news", collection => collection.getFilteredByGlob("src/news/*.md").reverse());
 
     // Filters
     config.addFilter("dateFilter", dateFilter);
-    config.addFilter("limit", limitFilter);
-    config.addFilter("markdownFilter", markdownFilter);
 
     // Transforms
     config.addTransform("htmlmin", htmlMinTransform);
