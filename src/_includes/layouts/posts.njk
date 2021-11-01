@@ -1,0 +1,17 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+    <ul id="content">
+        {% set posts = collections.all | eleventyNavigation(eleventyNavigation.key) %}
+        {% for post in posts |sort(reverseSort, true, sortAttr) %}
+            <li>
+                <a href="{{ post.url }}">
+                    <p> {{ post.title | safe }}</p>
+                </a>
+                {% if post.date %}
+                    <time class="floe-date" datetime="{{ post.date }}">{{ post.date | dateFilter }}</time>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends "layouts/base.njk" %}
+{% block pageHeader %}
+    <header>
+        {% set ancestorPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
+        {% set parent = ancestorPages[ancestorPages.length - 1] %}
+        <h1>{{ parent.title }}</h1>
+        <h2>{{ title | safe }}</h2>
+        {% if date %}
+            <time class="floe-date" datetime="{{ date }}">{{ date | dateFilter }}</time>
+        {% endif %}
+    </header>
+{% endblock %}

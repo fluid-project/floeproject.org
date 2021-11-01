@@ -1,5 +1,4 @@
 ---
-layout: layouts/resource
 title: Multimodal Presentation, Content Adaptation and Personal Preferences
 ---
 

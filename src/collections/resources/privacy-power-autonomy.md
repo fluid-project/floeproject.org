@@ -1,5 +1,4 @@
 ---
-layout: layouts/resource
 title: Privacy, Power and Autonomy
 ---
 
