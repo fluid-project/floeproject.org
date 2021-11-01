@@ -10,14 +10,8 @@
     "lintspaces": {
         "newlines": {
             "excludes": [
-                "src/assets/stylesheets/foundation /**/*.*",
-                "src/assets/stylesheets/fonts/**/*.*"
+                "src/assets/fonts/**/*.*"
             ]
         }
-    },
-    "stylelint": {
-        "excludes": [
-            "src/assets/stylesheets/foundation/**/*.*"
-        ]
     }
 }
