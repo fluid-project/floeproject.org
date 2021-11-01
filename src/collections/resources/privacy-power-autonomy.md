@@ -1,8 +1,9 @@
 ---
 title: Privacy, Power and Autonomy
+excerpt: New technologies are impacting education, the economy and the wider world.
 ---
 
-New technologies are impacting education, the economy and the wider world. How do we safeguard values such as privacy and autonomy with promising but challenging technologies such as AI, and avoid entrenching unjust systems in technology?</p>
+New technologies are impacting education, the economy and the wider world. How do we safeguard values such as privacy and autonomy with promising but challenging technologies such as AI, and avoid entrenching unjust systems in technology?
 
 * [How Artificial Intelligence Creates Discrimination in #HR &amp; #Recruiting Podcast (2017)](https://workology.com/ep-121-artificial-intelligence-discrimination/)
 A podcast looking at the inclusiveness of machine learning technology and exploring the implications for people with disabilities.

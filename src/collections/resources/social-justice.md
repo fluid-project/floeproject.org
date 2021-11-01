@@ -1,8 +1,9 @@
 ---
 title: Social Justice, Activism and Digital Equity
+excerpt: Technology can be leveraged to advocate for social justice, build community and affect change in the world.
 ---
 
-Technology can be leveraged to advocate for social justice, build community and affect change in the world. How do we consciously approach the design of technology for social justice to maximize its reach, adaptability and inclusiveness?</p>
+Technology can be leveraged to advocate for social justice, build community and affect change in the world. How do we consciously approach the design of technology for social justice to maximize its reach, adaptability and inclusiveness?
 
 * [Digital Inclusion (2017)](http://pub.rehabmagazine.ca/publication/?i=462308&ver=html5&p=10)
 Read about digital inclusion in ‘The bad news, the good news and what to do about it’

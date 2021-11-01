@@ -1,5 +1,6 @@
 ---
 title: Inclusive Technology for Learning
+excerpt: Articles on the possibilities of inclusive learning technologies, and selected examples.
 ---
 
 Articles on the possibilities of inclusive learning technologies, and selected examples.
