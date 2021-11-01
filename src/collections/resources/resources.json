@@ -1,4 +1,6 @@
 {
-    "layout": "layouts/resource",
-    "permalink": "/resources/{{ title | slug }}.html"
+    "permalink": "/resources/{{ title | slug }}.html",
+    "eleventyNavigation": {
+        "parent": "Resources"
+    }
 }

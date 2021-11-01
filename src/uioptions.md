@@ -2,6 +2,9 @@
 layout: layouts/base
 title: UI Options
 permalink: ui-options.html
+eleventyNavigation:
+    key: UI Options
+    order: 3
 ---
 <div id="content" class="floe-content">
     <div class="flc-toc-tocContainer toc"> </div>

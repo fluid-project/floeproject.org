@@ -1,7 +1,12 @@
 <nav aria-label="menu">
     <ul>
-        <li><a href="/news/index.html">News</a></li>
-        <li><a href="/resources.html">Resources</a></li>
-        <li><a href="/ui-options.html">UI Options</a></li>
+        {% set siteNav = collections.all | eleventyNavigation %}
+        {% for item in siteNav %}
+            <li>
+                <a href="{{ item.url }}" {% if item.url === page.url %} aria-current="page"{% endif %}>
+                    {{ item.title }}
+                </a>
+            </li>
+        {% endfor %}
     </ul>
 </nav>

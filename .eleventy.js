@@ -15,6 +15,7 @@
 const fs = require("fs");
 
 const fluidPlugin = require("eleventy-plugin-fluid");
+const navigationPlugin = require("@11ty/eleventy-navigation");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
@@ -44,6 +45,7 @@ module.exports = function (config) {
 
     // Plugins
     config.addPlugin(fluidPlugin);
+    config.addPlugin(navigationPlugin);
     config.addPlugin(rssPlugin);
     config.addPlugin(syntaxHighlight);
 

@@ -1,5 +1,4 @@
 ---
-layout: layouts/resource
 title: Finding Open Educational Resources
 ---
 

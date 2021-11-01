@@ -1,5 +1,4 @@
 ---
-layout: layouts/resource
 title: Social Justice, Activism and Digital Equity
 ---
 

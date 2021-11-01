@@ -1,5 +1,4 @@
 ---
-layout: layouts/resource
 title: Inclusive Technology for Learning
 ---
 
