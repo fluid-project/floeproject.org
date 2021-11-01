@@ -1,5 +1,6 @@
 ---
 title: Inclusive Design Practice
+excerpt: Inclusive design is a diverse, evolving set of practices and insights.
 ---
 
 Inclusive design is a diverse, evolving set of practices and insights. What have we learned, and where is our learning taking us?

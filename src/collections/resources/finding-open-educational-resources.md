@@ -1,8 +1,9 @@
 ---
-title: Finding Open Educational Resources
+title: Finding Open Educational Resources,
+excerpt: OER-specific resources, such as directories or authoring tools.
 ---
 
-These sites offer OER-specific resources, such as directories or authoring tools.</p>
+These sites offer OER-specific resources, such as directories or authoring tools.
 
 * [Connexions](https://cnx.org/)
 Discover learning materials in an Open Space. View and share free educational material in small modules that can be organized as courses, books, reports or other academic assignments.

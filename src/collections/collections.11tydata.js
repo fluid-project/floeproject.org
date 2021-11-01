@@ -7,6 +7,7 @@ module.exports = {
             return {
                 key: data.title,
                 ...(data.date ? {date: data.date} : {}),
+                ...(data.excerpt ? {excerpt: data.excerpt} : {}),
                 ...data.eleventyNavigation
             };
         }
