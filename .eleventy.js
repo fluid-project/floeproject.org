@@ -70,7 +70,7 @@ module.exports = function (config) {
             output: "dist",
             includes: "_includes"
         },
-        htmlTemplateEngine: "njk", // remove if all the templates are .njk files
-        passthroughFileCopy: true
+        passthroughFileCopy: true,
+        markdownTemplateEngine: "njk"
     };
 };
