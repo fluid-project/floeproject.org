@@ -2,8 +2,11 @@
 
 module.exports = {
     eleventyComputed: {
-        layout: "layouts/post",
         eleventyNavigation: data => {
+            if (!data.eleventyNavigation) {
+                return false;
+            }
+
             return {
                 key: data.title,
                 ...(data.date ? {date: data.date} : {}),
