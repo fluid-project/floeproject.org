@@ -1,0 +1,29 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+    <ul id="content">
+        {% for post in posts %}
+            <li>
+                <a href="{{ post.url }}">
+                    <p> {{ post.data.title | safe }}</p>
+                </a>
+                {% if post.date %}
+                    <time class="floe-date" datetime="{{ post.date }}">{{ post.date | dateFilter }}</time>
+                {% endif %}
+                {% if post.data.excerpt %}
+                    <p>{{ post.data.excerpt }}</p>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+
+    <nav aria-label="pagination">
+        <ol>
+            <li>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Previous</a>{% else %}Previous{% endif %}</li>
+        {%- for pageEntry in pagination.pages %}
+            <li><a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}>Page {{ loop.index }}</a></li>
+        {%- endfor %}
+            <li>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Next</a>{% else %}Next{% endif %}</li>
+        </ol>
+    </nav>
+{% endblock %}
