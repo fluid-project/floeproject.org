@@ -1,6 +1,5 @@
 ---
 title: Web Site Starter Kits
-filename: Web-Site-Starter-Kits
 date: '2021-07-13'
 ---
 The FLOE Team is developing starter kits to accelerate the development of web sites; providing a solid foundation to

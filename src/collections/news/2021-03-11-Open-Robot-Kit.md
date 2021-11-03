@@ -1,6 +1,5 @@
 ---
 title: Open Robot Kit
-filename: Open-Robot-Kit
 date: '2021-03-11'
 ---
 

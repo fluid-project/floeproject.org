@@ -39,6 +39,7 @@ module.exports = function (config) {
     config.addTransform("parse", parseTransform);
 
     // Passthrough copy
+    config.addPassthroughCopy({"src/_redirects": "_redirects"});
     config.addPassthroughCopy({"src/assets/images": "assets/images"});
     config.addPassthroughCopy({"src/assets/fonts": "assets/fonts"}); // TODO: remove after updateing CSS
     config.addPassthroughCopy({"src/news/images": "news/images"});

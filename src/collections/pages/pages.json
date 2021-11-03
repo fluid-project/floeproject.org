@@ -1,0 +1,4 @@
+{
+    "layout": "layouts/base",
+    "permalink": "/{{ slug | default(title) | slug }}/"
+}

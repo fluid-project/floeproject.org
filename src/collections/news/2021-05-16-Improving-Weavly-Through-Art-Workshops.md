@@ -1,6 +1,5 @@
 ---
 title: Improving Weavly Through Art Workshops
-filename: Improving-Weavly-Through-Art-Workshops
 date: '2021-05-16'
 ---
 

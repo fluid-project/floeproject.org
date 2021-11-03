@@ -1,6 +1,6 @@
 ---
 title: Inclusive Cities Co-Design
-filename: Cities-Co-Design
+slug: Cities-Co-Design
 date: '2018-08-30'
 ---
 

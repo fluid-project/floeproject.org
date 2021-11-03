@@ -1,6 +1,6 @@
 ---
 title: New Content Added to Inclusive Design Resources
-filename: New-Content-Added-to-Inclusive-Design-Resources
+slug: inclusive-design-resources
 date: '2018-04-18'
 ---
 

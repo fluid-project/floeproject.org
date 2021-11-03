@@ -1,6 +1,5 @@
 ---
 title: Inverted Wordles
-filename: Inverted-Wordles
 date: '2021-05-08'
 ---
 

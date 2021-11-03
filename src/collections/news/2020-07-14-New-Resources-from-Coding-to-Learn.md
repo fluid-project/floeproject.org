@@ -1,6 +1,5 @@
 ---
 title: New Resources from Coding to Learn
-filename: New-Resources-from-Coding-to-Learn
 date: '2020-07-14'
 ---
 The Coding to Learn project team has [created a co-design kit](https://wiki.fluidproject.org/display/C2LC/Coding+to+Learn+and+Create+Co-Design+Kit)

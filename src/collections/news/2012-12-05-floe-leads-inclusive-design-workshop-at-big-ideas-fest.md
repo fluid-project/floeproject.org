@@ -1,5 +1,6 @@
 ---
 title: FLOE leads Inclusive Design Workshop at Big Ideas Fest
+slug: workshop-big-ideas-fest
 date: '2012-12-05'
 ---
 

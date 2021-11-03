@@ -1,6 +1,6 @@
 ---
 title: "We Count Update: Inclusion in the Data Economy"
-filename: WeCountUpdate
+slug: we-count-update
 date: '2020-07-02'
 ---
 We Count is [gathering challenges](https://wecount.inclusivedesign.ca/inclusion-challenges/)

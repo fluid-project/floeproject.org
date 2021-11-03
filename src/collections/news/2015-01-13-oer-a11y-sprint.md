@@ -1,6 +1,6 @@
 ---
 title: OER Accessibility Sprint
-filename: oer-a11y-sprint
+slug: oer-a11y-sprint
 date: '2015-01-13'
 ---
 On February 25-27, 2015, the [Inclusive Design Research Centre (IDRC)](http://idrc.ocadu.ca)
@@ -19,4 +19,4 @@ B3 applied in:
 - mobile and responsive content, and
 - OER delivery platforms.
 
-For more information, [visit the Sprint's website](../accessibilitySprint2015.html).
+For more information, [visit the Sprint's website](/accessibility-sprint-2015/).
