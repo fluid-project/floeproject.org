@@ -37,7 +37,7 @@ Open Educational Resources such as
 which will now be made available to the students at their rural schools.
 
 <figure>
-<a href="images/Medellin_art.png"><img src="images/Medellin_art_thumb.png" alt="view larger version of this image"
+<a href="/news/images/Medellin_art.png"><img src="/news/images/Medellin_art_thumb.png" alt="view larger version of this image"
 aria-details="det1"></a>
 <figcaption>
 <details id="det1">

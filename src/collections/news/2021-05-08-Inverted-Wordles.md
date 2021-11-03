@@ -8,7 +8,7 @@ is for the minority to fade away into the background. With their work on Inverte
 a way to invert that relationship and provide a means to amplify those minority voices.
 
 <figure>
-    <img src="images/wordle.jpg"
+    <img src="/news/images/wordle.jpg"
         alt="A screenshot showing a wordle generated for the question,
         What are the three most important problems to be addressed by inclusive design?">
     <figcaption>

@@ -9,7 +9,7 @@ with educators interested in teaching coding skills to students
 who are currently left out. We also gave a presentation entitled
 [Coding for All: Instruction That Includes Students With Special Needs](https://conference.iste.org/2019/program/search/detail_session.php?id=112083158).
 
-<img src="images/CodingCamp.png" alt="Camper coding sequences to create art with paint,
+<img src="/news/images/CodingCamp.png" alt="Camper coding sequences to create art with paint,
  markers and the Dash and Sphero robots." />
 
 This summer, the project particpated in coding camps at

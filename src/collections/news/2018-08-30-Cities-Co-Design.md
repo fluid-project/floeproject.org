@@ -21,7 +21,7 @@ More information about the co-design sessions can be found on the
 [inclusive cities website](https://cities.inclusivedesign.ca/ideas/students-results/)
 
 <figure>
-<img src="images/CitiesCoDesign.jpg" alt="Student's Neighbourhood Designs" aria-details="det1"></a>
+<img src="/news/images/CitiesCoDesign.jpg" alt="Student's Neighbourhood Designs" aria-details="det1"></a>
 <figcaption>
 <details id="det1">
 <summary>

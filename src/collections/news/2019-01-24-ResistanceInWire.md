@@ -26,4 +26,4 @@ of this simulation in its many iterations. The information gathered through thes
 the development of the simulation resulting in making it accessible to many learners with disabilities, using
 elegant visual, auditory, and interaction design.
 
-<img src="images/RIAW.png" alt="Resistance in a Wire Simulation">
+<img src="/news/images/RIAW.png" alt="Resistance in a Wire Simulation">

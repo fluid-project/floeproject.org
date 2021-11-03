@@ -30,7 +30,7 @@ Learning Design Handbook, as well as a restructuring of the Handbook that will i
 and findability of content.
 
 <figure>
-<a href ="images/collaborative_art.png"><img src="images/collaborative_art_thumb.png"
+<a href ="/news/images/collaborative_art.png"><img src="/news/images/collaborative_art_thumb.png"
 alt="view larger version of this image" aria-details="det1"></a>
 <figcaption>
 <details id="det1">
