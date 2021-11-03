@@ -115,4 +115,3 @@ also integrated the Floe designs for content authoring in Open Author.
 ### News
 
 {% include "partials/components/latest-news.njk" %}
-
