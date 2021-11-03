@@ -17,5 +17,5 @@ such as [Learner Options](https://build.fluidproject.org/infusion/demos/prefsFra
 and to apply its principles of inclusive design for learning.
 
 <a href="http://cisl-demo.cast.org/index-readium.html?pub=serp-paper-or-plastic">
-<img src="images/CISL-reader.png" alt="Screenshot
+<img src="/news/images/CISL-reader.png" alt="Screenshot
 of the CISL Reader demo" /></a>

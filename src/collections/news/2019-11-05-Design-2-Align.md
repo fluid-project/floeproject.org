@@ -7,7 +7,7 @@ In October the IDRC participated in a three-day hackathon in San Francisco focus
  aligning
 primary and secondary curriculum in crisis contexts.
 <figure>
-<img src="images/Design-2-Align_panel.png"
+<img src="/news/images/Design-2-Align_panel.png"
 alt="Two large TV screens on a wall behind a panel of five guests and one moderator
 in a small meeting room. TV screens show three images of large crowded refugee camp classrooms both indoors and outdoors.">
 <figcaption>
@@ -44,7 +44,7 @@ learners and learning in a marginalized context. The diverse contributors then f
 adjustments back to the rubric.
 
 <figure>
-<img src="images/Design-2-Align_activity.png"
+<img src="/news/images/Design-2-Align_activity.png"
 alt="Several people sitting on chairs, on the floor and standing while interacting with two
  whiteboards filled with writing and coloured sticky notes.">
 <figcaption>
@@ -53,7 +53,7 @@ alignment project.
 </figcaption>
 </figure>
 <figure>
-<img src="images/Design-2-Align_team.png"
+<img src="/news/images/Design-2-Align_team.png"
 alt="Group portrait of some of the participants in the hackathon. There are approximately
  25 people standing and kneeling in casual poses.">
 <figcaption>

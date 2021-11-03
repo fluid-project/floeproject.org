@@ -12,7 +12,7 @@ On Tuesday morning, Floe principal investigator Jutta Treviranus delivered the k
 titled "From Intelligence to Wisdom: Navigating a Complex Future". Her talk covered a range of topics from
 changing educational practice to the future of artificial intelligence.
 
-<img src="images/guelph-2019-jt.png" alt="Photograph from a distance of Jutta Treviranus delivering a keynote." /></br>
+<img src="/news/images/guelph-2019-jt.png" alt="Photograph from a distance of Jutta Treviranus delivering a keynote." /></br>
 *Jutta Treviranus's opening keynote slides*
 
 On Wednesday, Floe developer and researcher Alan Harnum presented on the work Floe is contributing to the

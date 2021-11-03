@@ -13,7 +13,7 @@ communities. The [resulting reports](https://wecount.inclusivedesign.ca/views/jo
 are openly available.
 
 <figure>
-<img src="images/we-count-smart-city.png"
+<img src="/news/images/we-count-smart-city.png"
 alt="An illustration of a resident answering their front door, with a person in an
  authoratative uniform on the other side.">
 <figcaption>

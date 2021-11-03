@@ -23,8 +23,8 @@ The following images show examples of the designs we are currently developing
 (select to enlarge):
 
 <figure>
-<a href="images/Self-reflection-Figure-1.png">
-    <img src="images/Self-reflection-Figure-1-thumb.png" alt="view larger version of this image" aria-details="det1">
+<a href="/news/images/Self-reflection-Figure-1.png">
+    <img src="/news/images/Self-reflection-Figure-1-thumb.png" alt="view larger version of this image" aria-details="det1">
 </a>
 <figcaption>
 <details id="det1">
@@ -43,8 +43,8 @@ of the dialog box.
 </figcaption>
 </figure>
 <figure>
-<a href="images/Self-reflection-Figure-2.png">
-    <img src="images/Self-reflection-Figure-2-thumb.png" alt="view larger version of this image" aria-details="det2">
+<a href="/news/images/Self-reflection-Figure-2.png">
+    <img src="/news/images/Self-reflection-Figure-2-thumb.png" alt="view larger version of this image" aria-details="det2">
 </a>
 <figcaption>
 <details id="det2">
@@ -61,7 +61,7 @@ causing my headaches?'. The data plotted in the analysis includes 'Weather', 'Co
 </figcaption>
 </figure>
 <figure>
-<a href="images/Self-reflection-Figure-3.png"><img src="images/Self-reflection-Figure-3-thumb.png
+<a href="/news/images/Self-reflection-Figure-3.png"><img src="/news/images/Self-reflection-Figure-3-thumb.png
 " alt="view larger version of this image" aria-details="det3"></a>
 <figcaption>
 <details id="det3">
