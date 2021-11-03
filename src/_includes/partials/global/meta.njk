@@ -2,7 +2,7 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
 <meta name="description" content="{{ site.description }}">
-<meta property="og:title" content="{% if title %} {{ title }} | {% endif %} {{ site.name }}">
+<meta property="og:title" content="{% if title %} {{ title | safe }} | {% endif %} {{ site.name }}">
 <meta property="og:description" content="{{ site.shortDesc }}">
 <meta property="og:locale" content="en">
 <meta property="og:type" content="website">
