@@ -16,5 +16,5 @@ changing educational practice to the future of artificial intelligence.
 *Jutta Treviranus's opening keynote slides*
 
 On Wednesday, Floe developer and researcher Alan Harnum presented on the work Floe is contributing to the
-[CISL project](2019-02-07-CISL-site-and-demo.html), a multi-year effort to research, design
+[CISL project](/news/2019-02-07-cisl-site-and-demo/), a multi-year effort to research, design
 and build inclusive tools for learning.
