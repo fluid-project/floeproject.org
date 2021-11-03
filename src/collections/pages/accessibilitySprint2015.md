@@ -271,7 +271,11 @@ For <time datetime="2015-02-26">Thursday</time> night we encourage you to explor
 * [Other ideas](https://docs.google.com/document/d/1Y-CQLOw31__WrGcNlORPTyHbWEkl21zHyWD6HZeqOFk/edit)
 
 <figure class="axsmap">
-    <div id="axsmap-image" aria-label="A screen capture of the axsmap.com Toronto interface showing a restaurant with an accessibility rating." role="img"></div>
+    <div
+        id="axsmap-image"
+        aria-label="A screen capture of the axsmap.com Toronto interface showing a restaurant with an accessibility rating."
+        role="img">
+    </div>
     <figcaption>Find accessible venues using <a  class="external" href="https://www.axsmap.com">AXS Map</a>.</figcaption>
 </figure>
 
