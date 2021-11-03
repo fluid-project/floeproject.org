@@ -1,6 +1,6 @@
 ---
 title: W3C Portable Personal Data Preferences Community Group
-filename: Portable-Personal-Data-Preferences-Community-Group
+slug: Portable-Personal-Data-Preferences-Community-Group
 date: '2021-06-09'
 ---
 

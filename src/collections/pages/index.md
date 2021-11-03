@@ -1,7 +1,7 @@
 ---
 layout: layouts/base
 title: Paving the way toward inclusive Open Education Resources
-permalink: index.html
+permalink: /
 ---
 
 ## Designing for Diverse Learners.
@@ -25,7 +25,7 @@ build knowledge about what works best for each learner.
 ## Want to select, refine and apply your preferences?
 
 Preference editing tools help learners personalize their learning experience. [UI Options](https://build-infusion.fluidproject.org/demos/prefsframework/)
-allows selection and fine-tuning of preferences. [Learn more](./ui-options.html) about adding it to your site or
+allows selection and fine-tuning of preferences. [Learn more](/ui-options/) about adding it to your site or
 application.
 
 Not sure how you learn best?
@@ -40,9 +40,9 @@ interactions so it's easier to use.
 The [My Lifelong Learning Lab](https://wiki.fluidproject.org/x/CQHBAg) helps learners keep track of their progress, and
 personalize their learning goals and learning experience through self-reflection.
 
-The [Preference Management Tools](prefsEditors.html) support portable preferences - you can apply preferences across
+The [Preference Management Tools](/preference-editing-tools/) support portable preferences - you can apply preferences across
 devices, resources and learning applications using the <a href="http://gpii.net">Global Public Inclusive Infrastructure.
-The GPII [security architecture](security.html) gives you complete control over who has access to your preferences.
+The GPII [security architecture](/security-architecture/) gives you complete control over who has access to your preferences.
 
 ## Looking for help making rich content more inclusive?
 

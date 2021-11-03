@@ -1,6 +1,6 @@
 ---
 title: Design-2-Align curriculum alignment in crisis contexts
-filename: Design-2-Align
+slug: Design-2-Align
 date: '2019-11-05'
 ---
 In October the IDRC participated in a three-day hackathon in San Francisco focused on

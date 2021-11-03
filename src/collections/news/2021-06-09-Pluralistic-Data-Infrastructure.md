@@ -1,6 +1,5 @@
 ---
 title: Pluralistic Data Infrastructure
-filename: Pluralistic-Data-Infrastructure
 date: '2021-06-09'
 ---
 

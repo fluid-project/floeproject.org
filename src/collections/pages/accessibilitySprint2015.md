@@ -1,7 +1,7 @@
 ---
 layout: layouts/base
 title: OER ACCESSIBILITY SPRINT
-permalink: accessibilitySprint2015.html
+slug: accessibility-sprint-2015
 ---
 
 <time datetime="2015-02-25">February 25</time> - <time datetime="2015-02-27">27, 2015</time>

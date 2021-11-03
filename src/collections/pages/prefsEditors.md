@@ -1,7 +1,6 @@
 ---
 layout: layouts/base
 title: Preference Editing Tools
-permalink: prefsEditors.html
 ---
 
 The Floe Project is collaborating with the [Global Public Inclusive Infrastructure](http://gpii.net) to build tools to

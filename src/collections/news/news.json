@@ -1,6 +1,6 @@
 {
     "layout": "layouts/post",
-    "permalink": "/news/{% if filename %}{{ date | slug }}-{{ filename }}{% else %}{{ date | slug }}-{{ title | slug }}{% endif %}.html",
+    "permalink": "/news/{{ date | slug }}-{{ slug | default(title) | slug }}/",
     "eleventyNavigation": {
         "parent": "News"
     }

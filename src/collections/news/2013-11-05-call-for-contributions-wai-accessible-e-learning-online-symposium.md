@@ -1,6 +1,6 @@
 ---
 title: Call For Contributions&#58; WAI's Accessible E-Learning Online Symposium
-filename: call-for-contributions-wai-accessible-e-learning-online-symposium
+slug: wai-a11y-e-learning-symposium
 date: '2013-11-05'
 ---
 W3C's Web Accessibility Initiative will be hosting an Accessible E-Learning
