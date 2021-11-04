@@ -29,10 +29,19 @@ const parseTransform = require("./src/transforms/parse-transform.js");
 module.exports = function (config) {
     // Collections
     config.addCollection("news", collection => collection.getFilteredByGlob("src/collections/news/*.md").reverse());
+    config.addCollection("projects", collection => collection.getFilteredByGlob("src/collections/projects/*.md"));
     config.addCollection("resources", collection => collection.getFilteredByGlob("src/collections/resources/*.md"));
 
     // Filters
     config.addFilter("dateFilter", dateFilter);
+
+    // Shortcodes
+    config.addShortcode("projects", function (collection = []) {
+        let output = "";
+        collection.forEach(item => output += `<h3>${item.data.title}</h3>${item.templateContent}`)
+
+        return output;
+    });
 
     // Transforms
     config.addTransform("htmlmin", htmlMinTransform);
