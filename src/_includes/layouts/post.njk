@@ -6,7 +6,7 @@
         <a href="{{ parent.url }}">{{ parent.title }}</a>
         <h1>{{ title | safe }}</h1>
         {% if date %}
-            <time class="floe-date" datetime="{{ date }}">{{ date | dateFilter }}</time>
+            <time class="floe-date" datetime="{{ date | isoDate }}">{{ date | dateFilter }}</time>
         {% endif %}
     </header>
 {% endblock %}
