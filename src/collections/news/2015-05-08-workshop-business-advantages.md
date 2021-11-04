@@ -20,9 +20,9 @@ the norm. If we proactively design for diversity we not only comply with legisla
 we also reap the benefits of flexibility, adaptability and a spectrum of possible approaches, to thrive in a quickly
 evolving business climate.
 
-- **Date**: <time datetime="2015-05-20">May 20, 2015</time>
-- **Time**: <time datetime="14:00">2:00</time> – <time datetime="15:00">3:00pm</time>
-- **Location**: Online, Webinar
+* **Date**: <time datetime="2015-05-20">May 20, 2015</time>
+* **Time**: <time datetime="14:00">2:00</time> – <time datetime="15:00">3:00pm</time>
+* **Location**: Online, Webinar
 
 The workshop will be presented by Jutta Treviranus, Director of the [Inclusive Design Research Centre (IDRC)](https://idrc.ocadu.ca/)
 and professor at [OCAD University](https://www.ocadu.ca/) in Toronto.
