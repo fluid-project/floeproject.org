@@ -8,6 +8,12 @@ excerpt: |
 We all learn differently. How can we develop greater understanding of our own learning styles and preferences, and learn
 to better understand the learning styles and preferences of others?
 
+## Current Projects
+
+{% projects collections[title] %}
+
+## Resources
+
 * [Stories About Learning to Learn](https://stories.floeproject.org/storyBrowse.html)
   See a diverse collection of stories about current barriers, challenges, successes and exclusionary situations that we
   all experience in our learning journeys.
