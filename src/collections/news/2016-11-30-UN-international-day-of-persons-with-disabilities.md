@@ -1,10 +1,13 @@
 ---
 title: UN International Day of Persons with Disabilities
-date: '2016-11-30'
+date: "2016-11-30"
+excerpt: |
+    IDRC Director Jutta Treviranus will attend events at the UN Headquarters in New York for the UN International Day of
+    Persons with Disabilities.
 ---
 
-December 3, 2016 marks the
-[United Nations International Day of Persons with Disabilities](http://www.un.org/en/events/disabilitiesday/).
+<time datetime="2016-12-03">December 3, 2016</time> marks the
+[United Nations International Day of Persons with Disabilities](https://www.un.org/en/observances/day-of-persons-with-disabilities).
 
 IDRC Director Jutta Treviranus will attend events at the UN Headquarters in New York.
 

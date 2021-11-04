@@ -1,6 +1,7 @@
 ---
 title: Pluralistic Data Infrastructure
-date: '2021-06-09'
+date: "2021-06-09"
+excerpt: The pluralistic data infrastructure allows learners to take control of their data and its relationships.
 ---
 
 The pluralistic data infrastructure allows learners to take control of their data and its relationships. Featuring an

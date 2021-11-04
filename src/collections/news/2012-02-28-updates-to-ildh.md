@@ -1,10 +1,12 @@
 ---
 title: Updates to the Inclusive Learning Design Handbook
 slug: updates-to-ildh
-date: '2012-02-28'
+date: "2012-02-28"
+excerpt: New content has been added to the Inclusive Learning Design Handbook.
 ---
+
 New content has been added to the
-[Inclusive Learning Design Handbook](http://handbook.floeproject.org), including
+[Inclusive Learning Design Handbook](https://handbook.floeproject.org/), including
 
 - overviews of inclusive learning and accessibility principles,
 - techniques for designing video and audio content and players to be inclusive,

@@ -1,7 +1,11 @@
 ---
 title: Web Site Starter Kits
-date: '2021-07-13'
+date: "2021-07-13"
+excerpt: |
+    The FLOE Team is developing starter kits to accelerate the development of web sites; providing a solid foundation to
+    build from and maintain over time.
 ---
+
 The FLOE Team is developing starter kits to accelerate the development of web sites; providing a solid foundation to
 build from and maintain over time.
 
@@ -20,6 +24,7 @@ out of the box:
 * An organization model.
 * A membership model which reflects users' roles within organizations.
 * An invitation model which allows users to be invited to join organizations.
-* A resource model supporting creation of and access to a library of open educational resources in a wide range of formats.
+* A resource model supporting creation of and access to a library of open educational resources in a wide range of
+  formats.
 * Multilingual support, including localized routes.
 * Bare bones views which can be published and customized as needed.

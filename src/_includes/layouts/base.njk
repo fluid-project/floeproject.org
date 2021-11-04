@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
-        <title>{% if title %} {{ title | safe }} {% else %} {{ site.title }} {% endif %} | {{ site.name }}</title>
+        <title>{% if title %} {{ title }} {% else %} {{ site.title }} {% endif %} | {{ site.name }}</title>
 
         {% include "partials/global/meta.njk" %}
         {% include "partials/global/icons.njk" %}
@@ -20,7 +20,7 @@
         <main>
             {% block pageHeader %}
                 <header>
-                    <h1>{{ title | safe }}</h1>
+                    <h1>{{ title }}</h1>
                 </header>
             {% endblock %}
             <nav class="flc-toc-tocContainer"></nav>

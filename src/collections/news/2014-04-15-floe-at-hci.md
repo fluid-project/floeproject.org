@@ -1,9 +1,11 @@
 ---
 title: Floe at HCI
-date: '2014-04-15'
+date: "2014-04-15"
+excerpt: The Floe team will be presenting several papers at the upcoming HCI International conference
 ---
+
 The Floe team will be presenting a number of papers at the upcoming
-[HCI International conference](http://2014.hci.international/):
+[HCI International conference](https://2014.hci.international/):
 
 - An Introduction to the Floe Project
 - Creating a Global Public Inclusive Infrastructure (GPII)
@@ -16,4 +18,5 @@ The Floe team will be presenting a number of papers at the upcoming
 - Prosperity as a Model for Next-Generation Accessibility
 - Prosperity4All: Designing a Multi-Stakeholder Network for Economic Inclusion
 
-The conference will be held June 22-27, 2014, in Creta Maris, Heraklion, Crete, Greece.
+The conference will be held <time datetime="2014-06-22">June 22</time>-<time datetime="2014-06-27">27, 2014</time>, in
+Creta Maris, Heraklion, Crete, Greece.

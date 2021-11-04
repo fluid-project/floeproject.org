@@ -6,7 +6,7 @@
         {% for post in posts |sort(reverseSort, true, sortAttr) %}
             <li>
                 <a href="{{ post.url }}">
-                    <p> {{ post.title | safe }}</p>
+                    <p> {{ post.title }}</p>
                 </a>
                 {% if post.date %}
                     <time class="floe-date" datetime="{{ post.date | isoDate }}">{{ post.date | dateFilter }}</time>

@@ -1,7 +1,10 @@
 ---
 title: W3C Portable Personal Data Preferences Community Group
 slug: Portable-Personal-Data-Preferences-Community-Group
-date: '2021-06-09'
+date: "2021-06-09"
+excerpt: |
+    The W3C Portable Personal Data Preferences Community Group was formed to define a way for learners to express
+    preferences regarding the collection, use, and disclosure of their personal information.
 ---
 
 Building on past work on Learner Options and preferences, a W3C Community Group whose mission is to put control of

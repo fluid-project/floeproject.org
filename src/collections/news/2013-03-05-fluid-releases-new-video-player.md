@@ -1,11 +1,13 @@
 ---
 title: Fluid Releases New Video Player
-date: '2013-03-05'
+date: "2013-03-05"
+excerpt: The Fluid community has announced the release of Video Player v0.1
 ---
+
 The Fluid community has announced the release of Video Player v0.1
 
-Video Player is designed to be a fully accessible HTML5 video player. The designs can be seen at
-[http://wiki.fluidproject.org/display/fluid/%28Floe%29+video+player+mocku...](http://wiki.fluidproject.org/display/fluid/%28Floe%29+video+player+mockups+%28final%29)
+Video Player is designed to be a fully accessible HTML5 video player. See the
+[designs](https://wiki.fluidproject.org/display/fluid/%28Floe%29+video+player+mockups+%28final%29).
 
 v0.1 is the first public release of Video Player and includes initial support for:
 
@@ -15,14 +17,12 @@ v0.1 is the first public release of Video Player and includes initial support fo
 - Keyboard Accessibility
 - Graceful Degradation for IE8
 
-For more information about the Video Player, you can read the README file in the github repository:<br/>
-[https://github.com/fluid-project/videoPlayer/blob/main/README.txt](https://github.com/fluid-project/videoPlayer/blob/main/README.txt)
+For more information about the Video Player, you can read the [README](https://github.com/fluid-project/videoPlayer/blob/main/README.txt)
+file in the [GitHub repository](https://github.com/fluid-project/videoPlayer).
 
-You can download or checkout a copy from the github repository:
-</br>
-[https://github.com/fluid-project/videoPlayer/tags](https://github.com/fluid-project/videoPlayer/tags)
+You can download or checkout a copy from the [GitHub repository](https://github.com/fluid-project/videoPlayer)
 
-For a complete list of known issues, please see the Video Player issue tracker.</br>
-[http://issues.fluidproject.org/browse/VP](http://issues.fluidproject.org/browse/VP)
+For a complete list of known issues, please see the
+[Video Player issue tracker](https://issues.fluidproject.org/projects/VP).
 
 The Fluid community would like to thank all the users and community members who contributed to this release!
