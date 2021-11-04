@@ -17,10 +17,10 @@ They will be [sharing their results in open notebooks](https://docs.google.com/d
 Among the challenges on the agenda are a special focus on HTML5 and EPU
 B3 applied in:
 
-- simulations and highly interactive content,
-- video and timed media,
-- gaming,
-- mobile and responsive content, and
-- OER delivery platforms.
+* simulations and highly interactive content,
+* video and timed media,
+* gaming,
+* mobile and responsive content, and
+* OER delivery platforms.
 
 For more information, visit [OER ACCESSIBILITY SPRINT](/accessibility-sprint-2015/).
