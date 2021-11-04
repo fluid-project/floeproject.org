@@ -38,8 +38,7 @@ module.exports = function (config) {
     // Shortcodes
     config.addShortcode("projects", function (collection = []) {
         let output = "";
-        collection.forEach(item => output += `<h3>${item.data.title}</h3>${item.templateContent}`)
-
+        collection.forEach(item => output += `<h3>${item.data.title}</h3>${item.templateContent}`);
         return output;
     });
 
