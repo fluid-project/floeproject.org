@@ -1,6 +1,9 @@
 ---
 title: Open Robot Kit
-date: '2021-03-11'
+date: "2021-03-11"
+excerpt: |
+    An Open Robot Kit to enable learners and educators to easily create a ‘one-size-fits-one’ robot that works with the
+    Weavly coding environment.
 ---
 
 An Open Robot Kit to enable learners and educators to easily create a ‘one-size-fits-one’ robot that works with the

@@ -1,6 +1,8 @@
 ---
 title: We Count Badges
-date: '2021-04-08'
+date: "2021-04-08"
+excerpt: |
+    Twelve micro-badges that support learning about the growing fields of AI, data systems and inclusive data practices.
 ---
 
 Earn badges with [We Count](https://wecount.inclusivedesign.ca)! Twelve micro-badges that support learning about the
