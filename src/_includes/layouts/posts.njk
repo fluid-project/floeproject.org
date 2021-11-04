@@ -9,7 +9,7 @@
                     <p> {{ post.title | safe }}</p>
                 </a>
                 {% if post.date %}
-                    <time class="floe-date" datetime="{{ post.date }}">{{ post.date | dateFilter }}</time>
+                    <time class="floe-date" datetime="{{ post.date | isoDate }}">{{ post.date | dateFilter }}</time>
                 {% endif %}
                 {% if post.excerpt %}
                     <p>{{ post.excerpt }}</p>
