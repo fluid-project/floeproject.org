@@ -3,7 +3,7 @@ layout: layouts/posts_paged
 title: News
 eleventyNavigation:
     key: News
-    order: 1
+    order: 2
 pagination:
   data: collections.news
   size: 5
