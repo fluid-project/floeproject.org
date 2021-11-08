@@ -1,7 +1,7 @@
 ---
 title: Coding to Learn and Create
 tags:
-  - highlight
+  - featured
   - Learning to Learn
 ---
 
