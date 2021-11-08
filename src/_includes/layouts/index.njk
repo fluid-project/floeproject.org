@@ -1,0 +1,16 @@
+{% extends "layouts/base.njk" %}
+{% block content %}
+    <div id="content">
+        {{ content | safe }}
+
+        <h2>News</h2>
+
+        {% include "partials/components/latest-news.njk" %}
+
+        <a href="/news/">Other news items</a>
+
+        <h2>Featured Projects</h2>
+
+        {% projects collections.featured %}
+    </div>
+{% endblock %}

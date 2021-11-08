@@ -1,7 +1,15 @@
-{% for post in collections.news %}
-{{ post.url | dump | safe }}
-<li>
-    <time class="floe-date" datetime="{{ post.date | isoDate }}">{{ post.date | dateFilter }}</time>:
-    <a href="{{ post.url }}">{{ post.title }}</a>
-</li>
-{% endfor %}
+<ul>
+    {% for post in collections.news | limit(3) %}
+        <li>
+            <a href="{{ post.url }}">
+                <p> {{ post.data.title }}</p>
+            </a>
+            {% if post.date %}
+                <time class="floe-date" datetime="{{ post.date | isoDate }}">{{ post.date | dateFilter }}</time>
+            {% endif %}
+            {% if post.data.excerpt %}
+                <p>{{ post.data.excerpt }}</p>
+            {% endif %}
+        </li>
+    {% endfor %}
+</ul>
