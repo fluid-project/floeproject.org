@@ -1,0 +1,32 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+    <ul id="content">
+        {% for post in posts %}
+            <li>
+                <a href="{{ post.url }}">
+                    <p> {{ post.data.title }}</p>
+                </a>
+                {% if post.date %}
+                    <time class="floe-date" datetime="{{ post.date | isoDate }}">{{ post.date | dateFilter }}</time>
+                {% endif %}
+                {% if post.data.excerpt %}
+                    <p>{{ post.data.excerpt }}</p>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+
+    {% if pagination.pages.length > 1 %}
+        <nav aria-label="pagination">
+            <ol>
+                {% if pagination.href.previous %}
+                    <li><a href="{{ pagination.href.previous }}">Newer</a></li>
+                {% endif %}
+                {% if pagination.href.next %}
+                <li><a href="{{ pagination.href.next }}">Older</a></li>
+                {% endif %}
+            </ol>
+        </nav>
+    {% endif %}
+{% endblock %}

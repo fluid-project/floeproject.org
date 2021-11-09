@@ -1,9 +1,10 @@
 {
-    "name": "FLOE Project",
+    "name": "FLOE",
     "shortDesc": "Flexible Learning for Open Education",
-    "url": "https://www.floeproject.org",
+    "url": "https://floeproject.org",
+    "authorEmail": "idrc@ocadu.ca",
     "authorName": "Inclusive Design Research Centre, OCAD University",
     "authorWebsite": "https://idrc.ocadu.ca",
-    "faviconPath": "{{ '/' | url }}assets/images/favicon.ico",
+    "faviconPath": "/assets/images/favicon.ico",
     "title": "FLOE Project - Flexible Learning for open educaation"
 }

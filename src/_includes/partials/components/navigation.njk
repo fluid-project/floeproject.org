@@ -1,0 +1,12 @@
+<nav aria-label="menu">
+    <ul>
+        {% set siteNav = collections.all | eleventyNavigation %}
+        {% for item in siteNav %}
+            <li>
+                <a href="{{ item.url }}" {% if item.url === page.url %} aria-current="page"{% endif %}>
+                    {{ item.title }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>
