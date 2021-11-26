@@ -1,1 +1,296 @@
-/* TODO: migrate site styles here */
+@font-face {
+    font-family: "RobotoSlab";
+    src: url("../fonts/RobotoSlab-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "RobotoSlab-Bold";
+    src: url("../fonts/RobotoSlab-Bold.ttf") format('truetype');
+}
+
+/* Components */
+body {
+    --headerFooterColor: var(--fl-bgColor, #fff);
+    --headerFooterBGColor: var(--fl-fgColor, #003749);
+    --headerFooterLinkColor: var(--fl-linkColor, var(--fl-fgColor, #fff));
+    --mainBackground: var(--fl-bgColor, #e5e5e5);
+    --mainColor: var(--fl-fgColor, #000);
+    --mainLinkColor: var(--fl-linkColor, var(--fl-fgColor, #275287));
+    --resourcesBGColor: var(--fl-bgColor, #f2f0dc);
+    --resourcesCornerShadow: var(--fl-bgColor, #b7ad55);
+    --newsBGColor: var(--fl-bgColor, #e6f7fd);
+    --newsCornerShadow: var(--fl-bgColor, #00abe9);
+
+    font-family: OpenSans, Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 64rem;
+    width: 100%;
+}
+
+/* Utilities */
+
+.inline-list {
+    list-style: none;
+    padding: 0;
+}
+
+.inline-list li {
+    display: inline-block;
+}
+
+/*
+Folded corner effect based on this example:
+https://codepen.io/MacintoshRobinson/pen/ZEzJvdo
+*/
+.corner-effect {
+    background-color: inherit;
+    position: relative;
+}
+
+.corner-effect::after {
+    background-color: #efefef;
+    content: '';
+    display: block;
+    height: 4rem;
+    position: absolute;
+    transform: rotate(27deg);
+    width: 2.5rem;
+}
+
+.screen-reader-only {
+    border-width: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 0.0625rem;
+    margin: -0.0625rem;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 0.0625rem;
+}
+
+/* Blocks */
+
+main {
+    font-family: RobotoSlab, Arial, Helvetica, sans-serif;
+}
+
+main header h1 {
+    font-family: OpenSans, Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    font-weight: bolder;
+    text-transform: lowercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+#skip {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+#skip:focus {
+    background-color: var(--mainColor);
+    border: 0.2rem solid var(--headerFooterColor);
+    clip: auto;
+    clip-path: none;
+    color: var(--headerFooterColor);
+    height: auto;
+    margin: 0.4rem;
+    outline-color: var(--headerFooterBGColor);
+    overflow: auto;
+    padding: 0.4rem;
+    width: auto;
+    z-index: 2;
+}
+
+.disclosure-button {
+    align-items: center;
+    align-self: flex-end;
+    background-color: inherit;
+    border: none;
+    color: inherit;
+    display: flex;
+    height: 2rem;
+    justify-content: center;
+    margin: 0.4rem;
+}
+
+.disclosure-button svg {
+    fill: var(--headerFooterColor);
+    margin-inline-end: 0.5rem;
+    width: 1.7rem;
+}
+
+.site-header,
+.site-footer {
+    background-color: var(--headerFooterBGColor);
+    color: var(--headerFooterColor);
+}
+
+.site-header .wrapper {
+    align-items: center;
+
+    /* saving this for reference clip-path: ellipse(100vw 100% at 25% 0); */
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header a,
+.site-footer a {
+    color: var(--headerFooterLinkColor);
+}
+
+.site-header a:focus,
+.site-footer a:focus {
+    outline: 0.2rem solid var(--headerFooterColor);
+}
+
+.site-brand {
+    color: inherit;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.site-brand-subtitle {
+    display: none;
+    padding-inline-start: 0.8rem;
+}
+
+.site-brand-logo svg {
+    fill: var(--headerFooterColor);
+    height: 6rem;
+    width: 14rem;
+}
+
+.site-nav {
+    display: flex;
+    margin: 0.5rem;
+}
+
+.site-nav-list {
+    display: none;
+    list-style: none;
+    list-style-type: none;
+}
+
+.site-footer .wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.site-footer svg {
+    fill: var(--headerFooterColor);
+    height: 5rem;
+}
+
+@media all and (min-width: 640px) {
+    .disclosure-button {
+        display: none;
+    }
+
+    .site-brand {
+        margin-top: 1rem;
+    }
+
+    .site-brand-subtitle {
+        display: block;
+        font-size: 1.8rem;
+    }
+
+    .site-header .wrapper {
+        display: block;
+    }
+
+    .site-nav {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+    }
+
+    .site-nav-list {
+        display: block;
+        padding: 0;
+    }
+
+    .site-nav-list li {
+        padding-inline-end: 2rem;
+    }
+
+    .site-nav-list a {
+        font-size: 1.2rem;
+    }
+}
+
+.breadcrumbs li + li::before {
+    content: ">";
+    padding: 0 0.6rem;
+}
+
+/*
+.posts-grid is a responsive grid layout based on Evan Minto's work:
+https://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/
+*/
+.posts {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(16rem, 100%), 1fr));
+    list-style: none;
+    padding: 0;
+}
+
+.post {
+    background: #efefef;
+    display: flex;
+    flex-direction: column;
+    min-height: 10rem;
+    padding: 2rem;
+}
+
+.post a {
+    color: var(--mainColor);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.post time {
+    align-self: flex-end;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.posts-resources .corner-effect {
+    background-color: var(--resourcesBGColor);
+    clip-path: polygon(0 0, 0 100%, calc(100% - 2.5rem) 100%, 100% calc(100% - 1.5rem), 100% 0);
+}
+
+.posts-resources .corner-effect::after {
+    background-color: var(--resourcesCornerShadow);
+    bottom: -2rem;
+    right: 0;
+}
+
+.posts-news .corner-effect {
+    background-color: var(--newsBGColor);
+    clip-path: polygon(0 1.5rem, 0 100%, 100% 100%, 100% 0%, 2.5rem 0);
+}
+
+.posts-news .corner-effect::after {
+    background-color: var(--newsCornerShadow);
+    left: 0;
+    top: -2rem;
+}

@@ -11,24 +11,25 @@
 
         {% include "partials/global/scripts.njk" %}
     </head>
-    <body>
-        {% uioTemplate %}
+    <body class="fl-focus">
         <div id="skip">
             <a href="#content">Skip to Content</a>
         </div>
         {% include "partials/global/header.njk" %}
         <main>
-            {% block pageHeader %}
-                <header>
-                    <h1>{{ title }}</h1>
-                </header>
-            {% endblock %}
-            <nav class="flc-toc-tocContainer"></nav>
-            {% block content %}
-                <div id="content">
-                    {{ content | safe }}
-                </div>
-            {% endblock %}
+            <div class="wrapper">
+                {% block pageHeader %}
+                    <header>
+                        <h1>{{ title }}</h1>
+                    </header>
+                {% endblock %}
+                <nav class="flc-toc-tocContainer"></nav>
+                {% block content %}
+                    <div id="content">
+                        {{ content | safe }}
+                    </div>
+                {% endblock %}
+            </div>
         </main>
         {% include "partials/global/footer.njk" %}
         {% uioInit %}
