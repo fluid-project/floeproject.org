@@ -1,6 +1,6 @@
-<ul>
+<ul class="posts posts-news">
     {% for post in collections.news | limit(3) %}
-        <li>
+        <li class="post corner-effect">
             <a href="{{ post.url }}">
                 <p> {{ post.data.title }}</p>
             </a>

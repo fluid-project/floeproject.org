@@ -83,11 +83,8 @@ main header h1 {
     font-family: OpenSans, Arial, Helvetica, sans-serif;
     font-size: 4rem;
     font-weight: bolder;
+    margin: 2rem 0;
     text-transform: lowercase;
-}
-
-a {
-    text-decoration: none;
 }
 
 #skip {
@@ -151,6 +148,7 @@ a {
 .site-header a,
 .site-footer a {
     color: var(--headerFooterLinkColor);
+    text-decoration: none;
 }
 
 .site-header a:focus,
@@ -186,6 +184,11 @@ a {
     display: none;
     list-style: none;
     list-style-type: none;
+}
+
+.site-footer {
+    margin-top: 6rem;
+    padding: 2rem 0;
 }
 
 .site-footer .wrapper {
@@ -234,6 +237,10 @@ a {
     .site-nav-list a {
         font-size: 1.2rem;
     }
+}
+
+.breadcrumbs {
+    margin-top: 2rem;
 }
 
 .breadcrumbs li + li::before {
@@ -293,4 +300,8 @@ https://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/
     background-color: var(--newsCornerShadow);
     left: 0;
     top: -2rem;
+}
+
+.index-content section {
+    margin: 3rem 0;
 }
