@@ -1,5 +1,9 @@
-<nav aria-label="menu">
-    <ul>
+<nav class="site-nav" aria-label="menu" aria-labelledBy="floe-menu-nav-button">
+    <button id="floe-menu-nav-button" class="disclosure-button" aria-expanded="false" aria-controls="floe-nav-menu-list">
+        {% svg_sprite "icon-menu" %}
+    </button>
+
+    <ul id="floe-nav-menu-list" class="site-nav-list inline-list">
         {% set siteNav = collections.all | eleventyNavigation %}
         {% for item in siteNav %}
             <li>

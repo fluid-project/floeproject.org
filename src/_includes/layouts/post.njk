@@ -1,10 +1,17 @@
 {% extends "layouts/base.njk" %}
 {% block pageHeader %}
     <header>
-        {% set ancestorPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
-        {% set parent = ancestorPages[ancestorPages.length - 1] %}
-        <a href="{{ parent.url }}">{{ parent.title }}</a>
+        <nav class="breadcrumbs">
+            {% set ancestorPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
+            {% set parent = ancestorPages[ancestorPages.length - 1] %}
+            <ul class="inline-list">
+                <li><a href="{{ parent.url }}">{{ parent.title }}</a></li>
+                <li aria-current="page">{{ title }}</li>
+            </ul>
+        </nav>
+
         <h1>{{ title }}</h1>
+
         {% if date %}
             <time class="floe-date" datetime="{{ date | isoDate }}">{{ date | dateFilter }}</time>
         {% endif %}

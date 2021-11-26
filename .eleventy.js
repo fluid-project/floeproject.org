@@ -41,6 +41,9 @@ module.exports = function (config) {
         collection.forEach(item => output += `<h3>${item.data.title}</h3>${item.templateContent}`);
         return output;
     });
+    config.addShortcode("svg_sprite", function (sprite) {
+        return `<svg class="floe-${sprite}" aria-hidden="true"><use xlink:href="/assets/images/sprites.svg#${sprite}"></use></svg>`;
+    });
 
     // Transforms
     config.addTransform("htmlmin", htmlMinTransform);
