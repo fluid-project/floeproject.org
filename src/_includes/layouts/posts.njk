@@ -1,10 +1,10 @@
 {% extends "layouts/base.njk" %}
 
 {% block content %}
-    <ul id="content">
+    <ul id="content" class="posts posts-{{ eleventyNavigation.key | lower }}">
         {% set posts = collections.all | eleventyNavigation(eleventyNavigation.key) %}
         {% for post in posts |sort(reverseSort, true, sortAttr) %}
-            <li>
+            <li class="post corner-effect">
                 <a href="{{ post.url }}">
                     <p> {{ post.title }}</p>
                 </a>

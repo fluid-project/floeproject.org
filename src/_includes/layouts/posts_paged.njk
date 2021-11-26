@@ -1,15 +1,15 @@
 {% extends "layouts/base.njk" %}
 
 {% block content %}
-    <ul id="content">
+    <ul id="content" class="posts posts-{{ eleventyNavigation.key | lower }}">
         {% for post in posts %}
-            <li>
-                <a href="{{ post.url }}">
-                    <p> {{ post.data.title }}</p>
-                </a>
+            <li class="post corner-effect">
                 {% if post.date %}
                     <time class="floe-date" datetime="{{ post.date | isoDate }}">{{ post.date | dateFilter }}</time>
                 {% endif %}
+                <a href="{{ post.url }}">
+                    <p> {{ post.data.title }}</p>
+                </a>
                 {% if post.data.excerpt %}
                     <p>{{ post.data.excerpt }}</p>
                 {% endif %}
