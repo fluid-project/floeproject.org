@@ -1,5 +1,5 @@
 ---
-title: Inclusive Design Toolkit
+title: The FLOE Infrastructure
 tags:
   - featured
   - Inclusive Design Practice
