@@ -5,6 +5,8 @@ excerpt: OER-specific resources, such as directories or authoring tools.
 
 These sites offer OER-specific resources, such as directories or authoring tools.
 
+{% unmarkedList %}
+
 * [Connexions](https://cnx.org/)
   Discover learning materials in an Open Space. View and share free educational material in small modules that can be
   organized as courses, books, reports or other academic assignments.
@@ -40,3 +42,5 @@ These sites offer OER-specific resources, such as directories or authoring tools
   and operating worldwide.
 * [The Orange Grove](https://florida.theorangegrove.org/og/home.do)
   Florida’s open educational resource repository.
+
+{% endunmarkedList %}

@@ -1,13 +1,11 @@
 {% extends "layouts/base.njk" %}
 
 {% block content %}
-    <ul id="content" class="posts posts-{{ eleventyNavigation.key | lower }}">
+    <ul id="content" class="grid-layout posts-{{ eleventyNavigation.key | lower }}">
         {% set posts = collections.all | eleventyNavigation(eleventyNavigation.key) %}
         {% for post in posts |sort(reverseSort, true, sortAttr) %}
-            <li class="post corner-effect">
-                <a href="{{ post.url }}">
-                    <p> {{ post.title }}</p>
-                </a>
+            <li class="card-layout post corner-effect">
+                <p><a class="card-title" href="{{ post.url }}">{{ post.title }}</a></p>
                 {% if post.date %}
                     <time class="floe-date" datetime="{{ post.date | isoDate }}">{{ post.date | dateFilter }}</time>
                 {% endif %}
