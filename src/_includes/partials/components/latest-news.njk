@@ -1,15 +1,5 @@
-<ul class="posts posts-news">
+<ul class="grid-layout posts-news">
     {% for post in collections.news | limit(3) %}
-        <li class="post corner-effect">
-            <a href="{{ post.url }}">
-                <p> {{ post.data.title }}</p>
-            </a>
-            {% if post.date %}
-                <time class="floe-date" datetime="{{ post.date | isoDate }}">{{ post.date | dateFilter }}</time>
-            {% endif %}
-            {% if post.data.excerpt %}
-                <p>{{ post.data.excerpt }}</p>
-            {% endif %}
-        </li>
+        {% include "partials/components/news-item.njk" %}
     {% endfor %}
 </ul>

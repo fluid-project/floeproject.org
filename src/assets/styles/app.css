@@ -20,6 +20,8 @@ body {
     --resourcesCornerShadow: var(--fl-bgColor, #b7ad55);
     --newsBGColor: var(--fl-bgColor, #e6f7fd);
     --newsCornerShadow: var(--fl-bgColor, #00abe9);
+    --resourceItemBGColor: var(--fl-bgColor, #fafafa);
+    --resourceItemBorderColor: var(--fgColor, #b2b2b2);
 
     font-family: OpenSans, Arial, Helvetica, sans-serif;
     min-height: 100vh;
@@ -71,6 +73,28 @@ https://codepen.io/MacintoshRobinson/pen/ZEzJvdo
     position: absolute;
     white-space: nowrap;
     width: 0.0625rem;
+}
+
+.card-layout {
+    min-height: 10rem;
+    padding: 2rem;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/*
+.posts-grid is a responsive grid layout based on Evan Minto's work:
+https://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/
+*/
+.grid-layout {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(16rem, 100%), 1fr));
+    list-style: none;
+    padding: 0;
 }
 
 /* Blocks */
@@ -248,30 +272,14 @@ main header h1 {
     padding: 0 0.6rem;
 }
 
-/*
-.posts-grid is a responsive grid layout based on Evan Minto's work:
-https://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/
-*/
-.posts {
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(auto-fill, minmax(min(16rem, 100%), 1fr));
-    list-style: none;
-    padding: 0;
-}
-
 .post {
     background: #efefef;
     display: flex;
     flex-direction: column;
-    min-height: 10rem;
-    padding: 2rem;
 }
 
 .post a {
     color: var(--mainColor);
-    font-size: 1.2rem;
-    font-weight: bold;
 }
 
 .post time {
@@ -304,4 +312,15 @@ https://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/
 
 .index-content section {
     margin: 3rem 0;
+}
+
+.list-resources ul {
+    list-style: none;
+    margin: 0;
+}
+
+.list-resources li {
+    background-color: var(--resourceItemBGColor);
+    border: 0.1rem solid var(--resourceItemBorderColor);
+    margin-block-end: 0.5rem;
 }
