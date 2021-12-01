@@ -101,6 +101,7 @@ https://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/
 
 main {
     font-family: RobotoSlab, Arial, Helvetica, sans-serif;
+    padding-inline: 1rem;
 }
 
 main header h1 {
