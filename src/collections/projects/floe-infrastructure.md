@@ -1,5 +1,6 @@
 ---
 title: The FLOE Infrastructure
+order: 1
 tags:
   - featured
   - Inclusive Design Practice

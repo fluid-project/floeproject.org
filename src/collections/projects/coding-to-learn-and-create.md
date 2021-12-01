@@ -1,5 +1,6 @@
 ---
 title: Coding to Learn and Create
+order: 3
 tags:
   - featured
   - Learning to Learn

@@ -1,5 +1,6 @@
 ---
 title: Inclusive Design Toolkit
+order: 2
 tags:
   - featured
   - Inclusive Design Practice
