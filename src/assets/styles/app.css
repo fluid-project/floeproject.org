@@ -206,9 +206,12 @@ main header h1 {
 }
 
 .site-nav-list {
-    display: none;
     list-style: none;
     list-style-type: none;
+}
+
+.site-nav > [aria-expanded="false"] + .site-nav-list {
+    display: none;
 }
 
 .site-footer {
@@ -251,7 +254,8 @@ main header h1 {
     }
 
     .site-nav-list {
-        display: block;
+        /* Need important to beat specificy of narrow screen menu style */
+        display: block !important;
         padding: 0;
     }
 
