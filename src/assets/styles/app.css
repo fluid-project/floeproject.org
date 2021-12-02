@@ -16,6 +16,8 @@ body {
     --mainBackground: var(--fl-bgColor, #e5e5e5);
     --mainColor: var(--fl-fgColor, #000);
     --mainLinkColor: var(--fl-linkColor, var(--fl-fgColor, #275287));
+    --menuExpandedColor: var(--fl-fgColor, #003749);
+    --menuExpandedBGColor: var(--fl-bgColor, #fff);
     --resourcesBGColor: var(--fl-bgColor, #f2f0dc);
     --resourcesCornerShadow: var(--fl-bgColor, #b7ad55);
     --newsBGColor: var(--fl-bgColor, #e6f7fd);
@@ -42,6 +44,10 @@ body {
 
 .inline-list li {
     display: inline-block;
+}
+
+.position-relative {
+    position: relative;
 }
 
 /*
@@ -151,7 +157,6 @@ main header h1 {
 
 .disclosure-button svg {
     fill: var(--headerFooterColor);
-    margin-inline-end: 0.5rem;
     width: 1.7rem;
 }
 
@@ -202,12 +207,67 @@ main header h1 {
 
 .site-nav {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     margin: 0.5rem;
 }
 
 .site-nav-list {
+    background-color: var(--menuExpandedBGColor);
+    border-bottom: 0.4rem solid var(--menuExpandedColor);
+    inset-inline-start: 0;
     list-style: none;
-    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 6.32rem;
+    width: 100%;
+    z-index: 2;
+}
+
+.site-nav-list li {
+    border-bottom: 0.1rem solid var(--menuExpandedColor);
+    padding: 0.4rem;
+}
+
+.site-nav-list a {
+    background-color: var(--menuExpandedBGColor);
+    color: var(--menuExpandedColor);
+    display: block;
+    margin: 0.2rem;
+    padding: 0.4rem;
+    text-decoration: underline;
+}
+
+.site-nav-list a::before {
+    content: " ";
+    display: inline-block;
+    padding-inline-end: 0.4rem;
+    width: 1ch;
+}
+
+.site-nav-list a:focus {
+    outline-color: var(--menuExpandedColor);
+}
+
+.site-nav-list a[aria-current="page"] {
+    font-weight: bolder;
+    margin-left: 0.2;
+    padding-inline-start: 0.4rem;
+    text-decoration: none;
+}
+
+.site-nav-list a[aria-current="page"]::before {
+    content: "\2713";
+}
+
+.site-nav > [aria-expanded="true"] {
+    background-color: var(--menuExpandedBGColor);
+    color: var(--menuExpandedColor);
+}
+
+.site-nav > [aria-expanded="true"] svg {
+    fill: currentColor;
 }
 
 .site-nav > [aria-expanded="false"] + .site-nav-list {
@@ -248,23 +308,50 @@ main header h1 {
     }
 
     .site-nav {
-        display: flex;
+        flex-direction: row;
         justify-content: flex-end;
         margin: 0;
     }
 
     .site-nav-list {
-        /* Need important to beat specificy of narrow screen menu style */
-        display: block !important;
-        padding: 0;
+        background-color: var(--headerFooterBGColor);
+        border-bottom: none;
+        display: block !important; /* Need important to beat specificy of narrow screen menu style */
+        margin-block: 1rem;
+        margin-inline: 0;
+        position: initial;
+        width: auto;
     }
 
     .site-nav-list li {
+        border-bottom: none;
+        display: inline-block;
+        padding: 0;
         padding-inline-end: 2rem;
     }
 
     .site-nav-list a {
+        background-color: inherit;
+        color: currentColor;
         font-size: 1.2rem;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    .site-nav-list a::before {
+        content: none;
+    }
+
+    .site-nav-list a[aria-current="page"] {
+        border-bottom: 1px solid currentColor;
+        font-weight: normal;
+        margin-left: 0;
+        padding-inline-start: 0;
+    }
+
+    .site-nav-list a[aria-current="page"]::before {
+        content: none;
     }
 }
 

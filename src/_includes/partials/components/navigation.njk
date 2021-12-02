@@ -3,7 +3,7 @@
         {% svg_sprite "icon-menu" %}
     </button>
 
-    <ul id="floe-nav-menu-list" class="site-nav-list inline-list">
+    <ul id="floe-nav-menu-list" class="site-nav-list">
         {% set siteNav = collections.all | eleventyNavigation %}
         {% for item in siteNav %}
             <li>
