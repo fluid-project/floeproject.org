@@ -9,12 +9,12 @@
 
     {% if pagination.pages.length > 1 %}
         <nav aria-label="pagination">
-            <ol>
+            <ol class="pagination inline-list">
                 {% if pagination.href.previous %}
-                    <li><a href="{{ pagination.href.previous }}">Newer</a></li>
+                    <li class="pagination-previous"><a href="{{ pagination.href.previous }}">Newer</a></li>
                 {% endif %}
                 {% if pagination.href.next %}
-                <li><a href="{{ pagination.href.next }}">Older</a></li>
+                    <li class="pagination-next"><a href="{{ pagination.href.next }}">Older</a></li>
                 {% endif %}
             </ol>
         </nav>

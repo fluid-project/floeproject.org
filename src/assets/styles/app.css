@@ -329,3 +329,28 @@ main header h1 {
     border: 0.1rem solid var(--resourceItemBorderColor);
     margin-block-end: 0.5rem;
 }
+
+.pagination {
+    display: grid;
+    grid-template-columns: [start] 1fr [end] 1fr;
+}
+
+.pagination-previous {
+    grid-column-start: start;
+    justify-self: start;
+}
+
+.pagination-previous::before {
+    content: "<";
+    padding-inline-end: 0.5rem;
+}
+
+.pagination-next {
+    grid-column-start: end;
+    justify-self: end;
+}
+
+.pagination-next::after {
+    content: ">";
+    padding-inline-start: 0.5rem;
+}
