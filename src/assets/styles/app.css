@@ -332,6 +332,7 @@ main header h1 {
 
 .pagination {
     display: grid;
+    font-size: 0.875rem;
     grid-template-columns: [start] 1fr [end] 1fr;
 }
 
