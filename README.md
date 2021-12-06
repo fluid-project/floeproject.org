@@ -45,3 +45,9 @@ If you make changes to the website, repeat the steps to build the image and star
   either load the 404.html directly in a browser, or deploy to the root of a gh-pages domain.
 * The most recent news items should remain in the list on the floeproject.org `src/index.html` page. When a new item is
   added, the oldest one on the list should be removed. The list is currently manually maintained.
+
+## Third party resources included
+
+### Open Font License (OFL 1.1)
+
+* [Literata](https://fonts.google.com/specimen/Literata?query=literata)
