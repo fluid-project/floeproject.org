@@ -1,7 +1,8 @@
 @font-face {
     font-family: "Literata";
-    src: url("../fonts/Literata-VariableFont_opsz,wght.woff2") format('woff2 supports variations'),
-         url("../fonts/Literata-VariableFont_opsz,wght.woff2") format('woff2-variations');
+    src:
+        url("../fonts/Literata-VariableFont_opsz,wght.woff2") format('woff2 supports variations'),
+        url("../fonts/Literata-VariableFont_opsz,wght.woff2") format('woff2-variations');
 }
 
 /* Components */
@@ -370,8 +371,8 @@ main header h1 {
 }
 
 .pagination {
-    font-family: var(--fl-font-family, OpenSans, Arial, Helvetica, sans-serif);
     display: grid;
+    font-family: var(--fl-font-family, OpenSans, Arial, Helvetica, sans-serif);
     font-size: 0.875rem;
     grid-template-columns: [start] 1fr [end] 1fr;
 }
