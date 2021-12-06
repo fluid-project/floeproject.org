@@ -106,7 +106,7 @@ https://codepen.io/MacintoshRobinson/pen/ZEzJvdo
 
 .card-title {
     font-size: 1.2rem;
-    font-weight: bold;
+    font-weight: var(--fl-enhance-font-weight, 800);
 }
 
 /*
@@ -129,7 +129,7 @@ main {
 
 main header h1 {
     font-size: 4rem;
-    font-weight: bolder;
+    font-weight: 800;
     margin: 2rem 0;
     text-transform: lowercase;
 }
@@ -267,7 +267,7 @@ main header h1 {
 }
 
 .site-nav-list a[aria-current="page"] {
-    font-weight: bolder;
+    font-weight: var(--fl-enhance-font-weight, bolder);
     margin-left: 0.2;
     padding-inline-start: 0.4rem;
     text-decoration: none;
@@ -306,72 +306,6 @@ main header h1 {
     height: 5rem;
 }
 
-@media all and (min-width: 640px) {
-    .disclosure-button {
-        display: none;
-    }
-
-    .site-brand {
-        margin-top: 1rem;
-    }
-
-    .site-brand-subtitle {
-        display: block;
-        font-size: 1.8rem;
-    }
-
-    .site-header .wrapper {
-        display: block;
-    }
-
-    .site-nav {
-        flex-direction: row;
-        justify-content: flex-end;
-        margin: 0;
-    }
-
-    .site-nav-list {
-        background-color: var(--headerFooterBGColor);
-        border-bottom: none;
-        display: block !important; /* Need important to beat specificy of narrow screen menu style */
-        margin-block: 1rem;
-        margin-inline: 0;
-        position: initial;
-        width: auto;
-    }
-
-    .site-nav-list li {
-        border-bottom: none;
-        display: inline-block;
-        padding: 0;
-        padding-inline-end: 2rem;
-    }
-
-    .site-nav-list a {
-        background-color: inherit;
-        color: var(--fl-linkColor, currentColor);
-        font-size: 1.2rem;
-        margin: 0;
-        padding: 0;
-        text-decoration: none;
-    }
-
-    .site-nav-list a::before {
-        content: none;
-    }
-
-    .site-nav-list a[aria-current="page"] {
-        border-bottom: 1px solid currentColor;
-        font-weight: normal;
-        margin-left: 0;
-        padding-inline-start: 0;
-    }
-
-    .site-nav-list a[aria-current="page"]::before {
-        content: none;
-    }
-}
-
 .breadcrumbs {
     font-family: var(--fl-font-family, OpenSans, Arial, Helvetica, sans-serif);
     margin-top: 2rem;
@@ -394,7 +328,7 @@ main header h1 {
 
 .post time {
     align-self: flex-end;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     text-transform: uppercase;
 }
 
@@ -509,4 +443,76 @@ main header h1 {
     padding: 0;
     position: absolute;
     width: 0;
+}
+
+@media all and (min-width: 40rem) {
+    .fl-prefsEditor-separatedPanel {
+        /* Solves an overlap issue between the header and the UIO buttons */
+        position: relative;
+        z-index: 1;
+    }
+
+    .disclosure-button {
+        display: none;
+    }
+
+    .site-brand {
+        margin-top: 1rem;
+    }
+
+    .site-brand-subtitle {
+        display: block;
+        font-size: 1.8rem;
+    }
+
+    .site-header .wrapper {
+        display: block;
+    }
+
+    .site-nav {
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: 0;
+    }
+
+    .site-nav-list {
+        background-color: var(--headerFooterBGColor);
+        border-bottom: none;
+        display: block !important; /* Need important to beat specificy of narrow screen menu style */
+        margin-block: 1rem;
+        margin-inline: 0;
+        position: initial;
+        width: auto;
+    }
+
+    .site-nav-list li {
+        border-bottom: none;
+        display: inline-block;
+        padding: 0;
+        padding-inline-end: 2rem;
+    }
+
+    .site-nav-list a {
+        background-color: inherit;
+        color: var(--fl-linkColor, currentColor);
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    .site-nav-list a::before {
+        content: none;
+    }
+
+    .site-nav-list a[aria-current="page"] {
+        border-bottom: 1px solid currentColor;
+        font-weight: var(--fl-enhance-font-weight, normal);
+        margin-left: 0;
+        padding-inline-start: 0;
+    }
+
+    .site-nav-list a[aria-current="page"]::before {
+        content: none;
+    }
 }
