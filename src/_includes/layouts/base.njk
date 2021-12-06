@@ -12,9 +12,12 @@
         {% include "partials/global/scripts.njk" %}
     </head>
     <body class="fl-focus">
-        <div id="skip">
-            <a href="#content">Skip to Content</a>
-        </div>
+        <nav>
+            <a id="skip" href="#content">Skip to Content</a>
+        </nav>
+        {# Due to https://bugs.webkit.org/show_bug.cgi?id=127102 we need to access the SVG filter from an embedded SVG
+        instead of an external one. #}
+        {% include "svg/filters.svg" %}
         {% include "partials/global/header.njk" %}
         <main>
             <div class="wrapper">
