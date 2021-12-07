@@ -17,6 +17,8 @@ body {
     --headerFooterColor: var(--fl-fgColor, #fff);
     --headerFooterBGColor: var(--fl-bgColor, #003749);
     --headerFooterLinkColor: var(--fl-linkColor, var(--fl-fgColor, #fff));
+    --headerOrgColor: var(--fl-fgColor, #000);
+    --headerOrgBGColor: var(--fl-bgColor, #fcde49);
     --mainBackground: var(--fl-bgColor, #e5e5e5);
     --mainColor: var(--fl-fgColor, #000);
     --mainLinkColor: var(--fl-linkColor, var(--fl-fgColor, #275287));
@@ -183,6 +185,10 @@ main header h1 {
     width: 1.7rem;
 }
 
+.site-header {
+    border-bottom: solid 0.5rem var(--fl-fgColor, var(--headerOrgBGColor));
+}
+
 .site-header,
 .site-footer {
     background-color: var(--headerFooterBGColor);
@@ -209,6 +215,28 @@ main header h1 {
 .site-header button:focus,
 .site-header button:hover {
     outline: 0.2rem solid currentColor;
+}
+
+.site-header-org {
+    background-color: var(--headerOrgBGColor);
+    color: var(--headerOrgColor);
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: calc(var(----fl-lineSpace-factor, 1) * 2.5);
+    padding-block-start: 1.75rem;
+}
+
+.site-header-org > * {
+    padding-inline-start: 0.8rem;
+}
+
+.site-header-org a {
+    color: var(--fl-linkColor);
+    text-decoration: underline;
+}
+
+.site-header-org .wrapper {
+    justify-content: start;
 }
 
 .site-brand {
@@ -433,6 +461,35 @@ main header h1 {
     outline: 2px solid var(--fl-fgColor, currentColor);
 }
 
+.fl-prefsEditor-separatedPanel {
+    background-color: var(--headerOrgBGColor);
+    border-bottom: none;
+}
+
+.fl-prefsEditor-separatedPanel .fl-panelBar-smallScreen,
+.fl-panelBar-smallScreen .fl-prefsEditor-showHide {
+    border-radius: 0 0 1.875rem 1.875rem;
+}
+
+.fl-prefsEditor-separatedPanel .fl-panelBar-smallScreen button {
+    height: 100%;
+    text-align: center;
+}
+
+.fl-prefsEditor-separatedPanel .fl-panelBar-smallScreen button:focus,
+.fl-prefsEditor-separatedPanel .fl-panelBar-smallScreen button:hover {
+    background-color: var(--fl-buttonFgColor, #000);
+    color: var(--fl-buttonBgColor, #fff);
+}
+
+.fl-panelBar-smallScreen [aria-pressed="true"].fl-prefsEditor-showHide {
+    border-radius: 0 0 0 1.875rem;
+}
+
+.fl-panelBar-smallScreen [aria-pressed="true"].fl-prefsEditor-showHide + button {
+    border-radius: 0 0 1.875rem 0;
+}
+
 .fl-input-enhanced a,
 .fl-input-enhanced button,
 .fl-input-enhanced input,
@@ -483,6 +540,10 @@ main header h1 {
 
     .site-header .wrapper {
         display: block;
+    }
+
+    .site-header-org > * {
+        padding-inline-start: 1.8rem;
     }
 
     .site-nav {
