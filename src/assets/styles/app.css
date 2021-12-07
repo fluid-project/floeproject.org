@@ -1,8 +1,10 @@
 @font-face {
+    font-display: swap;
     font-family: "Literata";
+    font-weight: 200 900;
     src:
-        url("../fonts/Literata-VariableFont_opsz,wght.woff2") format('woff2 supports variations'),
-        url("../fonts/Literata-VariableFont_opsz,wght.woff2") format('woff2-variations');
+        url("../fonts/Literata-VariableFont_opsz,wght.woff2") format('woff2-variations'),
+        url("../fonts/Literata-VariableFont_opsz,wght.woff2") format('woff2');
 }
 
 /* Components */
@@ -434,6 +436,10 @@ main header h1 {
 .fl-input-enhanced a {
     font-weight: var(--fl-enhance-font-weight);
     text-decoration: var(--fl-enhance-text-decoration);
+}
+
+.fl-input-enhanced .card-title {
+    font-weight: 900;
 }
 
 /* hide the colour filters used for theming images */
