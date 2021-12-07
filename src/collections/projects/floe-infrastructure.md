@@ -6,7 +6,7 @@ tags:
   - Inclusive Design Practice
 ---
 
-The Floe Infrastructure for Individualized Learning provides a digital toolkit for learners that supports them in
+The FLOE Infrastructure for Individualized Learning provides a digital toolkit for learners that supports them in
 discovering, gathering, and reflecting upon personal data about learning needs and approaches. The goal is to give
 learners agency over their own data, and to encourage a curiosity-based approach in which it's okay to experiment,
 gather different kinds of apparently unrelated data, and make tentative and unconventional correlations between their

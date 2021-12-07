@@ -4,7 +4,7 @@ title: Empowering Diverse Learners
 permalink: /
 ---
 
-The Floe project focuses on learner agency and life-long learning for all learners.
+Learner agency and life-long learning for all learners are central to the FLOE project.
 
 We share **strategies** and **techniques** for **inclusive teaching** that have come out of real world situations and
 co-design with marginalized learners.

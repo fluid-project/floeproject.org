@@ -1,10 +1,10 @@
-# What is the Floe Project
+# What is the FLOE Project
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/fac64dc9-f556-4caf-8694-3ef2f902ac9c/deploy-status)](https://app.netlify.com/sites/fluid-floeproject-org/deploys)
 
-Floe is creating tools that help transform, augment, and personalize the learning experience.
+FLOE is creating tools that help transform, augment, and personalize the learning experience.
 
-Floe provides the resources needed to enable inclusive access to personally relevant, engaging learning opportunities
+FLOE provides the resources needed to enable inclusive access to personally relevant, engaging learning opportunities
 for the full diversity of learners and content producers.
 
 ## This Repository

@@ -6,7 +6,7 @@ tags:
   - Inclusive Design Practice
 ---
 
-Floe's Inclusive Design Toolkit is a set of Open Educational Resources (OER) and open source technologies that can be
+FLOE's Inclusive Design Toolkit is a set of Open Educational Resources (OER) and open source technologies that can be
 used when designing and building inclusive educational content, resources and technologies.
 
 * [Community-Led Co-design Kit](https://co-design.inclusivedesign.ca/)

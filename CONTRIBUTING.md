@@ -1,9 +1,9 @@
 # `FLOE Project`
 
-Floe is creating tools that help transform, augment, and personalize the learning experience.
-Floe provides the resources needed to enable inclusive access to personally relevant, engaging learning opportunities
+FLOE is creating tools that help transform, augment, and personalize the learning experience.
+FLOE provides the resources needed to enable inclusive access to personally relevant, engaging learning opportunities
 for the full diversity of learners and content producers.
-The present version of the Floe Project website is generated using [11ty](https://www.11ty.dev/).
+The present version of the FLOE Project website is generated using [11ty](https://www.11ty.dev/).
 
 **To run the project locally**:
 
