@@ -32,6 +32,7 @@ body {
     background-color: var(--mainBackground);
     color: var(--mainColor);
     font-family: var(--fl-font-family, Literata, Arial, Helvetica, sans-serif);
+    font-optical-sizing: none;
     line-height: var(--fl-lineSpace);
     min-height: 100vh;
 }
