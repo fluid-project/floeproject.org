@@ -167,9 +167,9 @@ main header h1 {
 .disclosure-button {
     align-items: center;
     align-self: flex-end;
-    background-color: inherit;
+    background-color: var(--fl-buttonBgColor, inherit);
     border: none;
-    color: inherit;
+    color: var(--fl-buttonFgColor, currentColor);;
     display: flex;
     height: 2rem;
     justify-content: center;
@@ -289,8 +289,8 @@ main header h1 {
 }
 
 .site-nav > [aria-expanded="true"] {
-    background-color: var(--menuExpandedBGColor);
-    color: var(--menuExpandedColor);
+    background-color: var(--fl-buttonFgColor, var(--menuExpandedBGColor));
+    color: var(--fl-buttonBgColor, var(--menuExpandedColor));
 }
 
 .site-nav > [aria-expanded="true"] svg {
