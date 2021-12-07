@@ -6,8 +6,8 @@ tags:
   - Learning to Learn
 ---
 
-The FLOE project is working with [Coding to Learn and Create](https://www.codelearncreate.org/) in designing educational coding
-tools and resources for students who have been left out of learning—especially those with complex needs.
+The FLOE project is working with [Coding to Learn and Create](https://www.codelearncreate.org/) in designing educational
+coding tools and resources for students who have been left out of learning—especially those with complex needs.
 
 * [Educator's Toolkit](https://weavly.org/learn/activities/?type=On-Screen)
   * A collection of open, coding related activities and resources for learners, parents and educators.

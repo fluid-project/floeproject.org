@@ -169,7 +169,7 @@ main header h1 {
     align-self: flex-end;
     background-color: var(--fl-buttonBgColor, inherit);
     border: none;
-    color: var(--fl-buttonFgColor, currentColor);;
+    color: var(--fl-buttonFgColor, currentColor);
     display: flex;
     height: 2rem;
     justify-content: center;
@@ -178,8 +178,8 @@ main header h1 {
 
 .disclosure-button svg {
     fill: var(--headerFooterColor);
-    width: 1.7rem;
     height: 100%;
+    width: 1.7rem;
 }
 
 .site-header,
@@ -273,9 +273,9 @@ main header h1 {
 
 .site-nav-list a:focus,
 .site-nav-list a:hover {
-    outline-color: transparent;
     background-color: var(--fl-linkColor, var(--menuExpandedColor));
     color: var(--fl-bgColor, var(--menuExpandedBGColor));
+    outline-color: transparent;
 }
 
 .site-nav-list a[aria-current="page"] {
