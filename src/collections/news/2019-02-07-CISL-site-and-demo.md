@@ -15,7 +15,7 @@ Led by [CAST](https://www.cast.org/) and funded by the U.S Department of Educati
 [Office of Special Education Programs](https://www2.ed.gov/about/offices/list/osers/osep/index.html), the CISL suite
 will make digital educational materials accessible, flexible, and engaging for all students.
 
-The Floe project is working as a partner on the CISL project to integrate Floe tools such as
+The FLOE project is working as a partner on the CISL project to integrate FLOE tools such as
 [Learner Options](https://build.fluidproject.org/infusion/demos/prefsFramework/) into the
 [CISL Reader](http://cisl-demo.cast.org/index-readium.html?pub=serp-paper-or-plastic) and other parts of the software
 suite, and to apply its principles of inclusive design for learning.

@@ -1,13 +1,13 @@
 ---
-title: Floe at OCAD University's Open Education Week Event
+title: FLOE at OCAD University's Open Education Week Event
 slug: OCAD-OE-week
 date: "2019-03-22"
 excerpt: |
-    Members of the Floe team recently participated in OCAD University's Open Education Week event, "Guerilla Education!
+    Members of the FLOE team recently participated in OCAD University's Open Education Week event, "Guerilla Education!
     A Very Hands-On Open Education Week Event"
 ---
 
-Members of the Floe team recently participated in [OCAD University's](https://www.ocadu.ca/)
+Members of the FLOE team recently participated in [OCAD University's](https://www.ocadu.ca/)
 [Open Education Week](https://www.openeducationweek.org/) event,
 [Guerilla Education! A Very Hands-On Open Education Week Event](https://www2.ocadu.ca/event/guerrilla-education-a-very-hands-on-open-education-week-event).
 
@@ -31,11 +31,11 @@ Members of the Floe team recently participated in [OCAD University's](https://ww
     </figcaption>
 </figure>
 
-Moderated by Floe team member Jess Mitchell of the [Inclusive Design Research Centre](https://idrc.ocadu.ca/), the
+Moderated by FLOE team member Jess Mitchell of the [Inclusive Design Research Centre](https://idrc.ocadu.ca/), the
 panel event brought together a diverse range of speakers from inside and outside OCAD University to talk about openness,
 education and innovation.
 
-Another Floe team member, IDRC developer and researcher Alan Harnum, particularly liked panelist Amy Buckland's point
+Another FLOE team member, IDRC developer and researcher Alan Harnum, particularly liked panelist Amy Buckland's point
 that the long-term sustainability of open educational resources is closely tied to their accessibility and inclusion:
 
 <!-- Emmedded Tweet -->
