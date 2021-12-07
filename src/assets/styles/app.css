@@ -40,7 +40,9 @@ a {
     color: var(--fl-linkColor);
 }
 
-*:focus {
+*:focus,
+a:hover,
+button:hover {
     outline: 2px solid var(--fl-fgColor, #000);
 }
 
@@ -177,6 +179,7 @@ main header h1 {
 .disclosure-button svg {
     fill: var(--headerFooterColor);
     width: 1.7rem;
+    height: 100%;
 }
 
 .site-header,
@@ -201,8 +204,10 @@ main header h1 {
 }
 
 .site-header a:focus,
-.site-footer a:focus {
-    outline: 0.2rem solid var(--headerFooterLinkColor);
+.site-footer a:focus,
+.site-header button:focus,
+.site-header button:hover {
+    outline: 0.2rem solid currentColor;
 }
 
 .site-brand {
@@ -246,16 +251,17 @@ main header h1 {
 
 .site-nav-list li {
     border-bottom: 0.1rem solid var(--menuExpandedColor);
-    padding: 0.4rem;
 }
 
 .site-nav-list a {
-    background-color: var(--menuExpandedBGColor);
-    color: var(--menuExpandedColor);
-    display: block;
-    margin: 0.2rem;
-    padding: 0.4rem;
+    align-items: center;
+    background-color: var(--fl-bgColor, var(--menuExpandedBGColor));
+    color: var(--fl-linkColor, var(--menuExpandedColor));
+    display: flex;
+    height: 2.7rem;
+    padding-inline-start: 1.875rem;
     text-decoration: underline;
+    width: 100%;
 }
 
 .site-nav-list a::before {
@@ -265,14 +271,16 @@ main header h1 {
     width: 1ch;
 }
 
-.site-nav-list a:focus {
-    outline-color: var(--fl-linkColor, var(--menuExpandedBGColor));
+.site-nav-list a:focus,
+.site-nav-list a:hover {
+    outline-color: transparent;
+    background-color: var(--fl-linkColor, var(--menuExpandedColor));
+    color: var(--fl-bgColor, var(--menuExpandedBGColor));
 }
 
 .site-nav-list a[aria-current="page"] {
     font-weight: var(--fl-enhance-font-weight, bolder);
     margin-left: 0.2;
-    padding-inline-start: 0.4rem;
     text-decoration: none;
 }
 
@@ -506,6 +514,11 @@ main header h1 {
         margin: 0;
         padding: 0;
         text-decoration: none;
+    }
+
+    .site-nav-list a:focus,
+    .site-nav-list a:hover {
+        outline-color: var(--fl-linkColor, var(--menuExpandedBGColor));
     }
 
     .site-nav-list a::before {
