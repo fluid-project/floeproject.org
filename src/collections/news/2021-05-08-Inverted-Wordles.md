@@ -2,13 +2,13 @@
 title: Inverted Wordles
 date: "2021-05-08"
 excerpt: |
-    In a traditional word cloud, the most popular answers are emphasized. With their work on Inverted Wordles, the We
-    Count team is seaking a way to invert that relationship and provide a means to amplify those minority voices.
+    In a traditional word cloud, the most popular answers are emphasized. With Inverted Wordles, we are exploring ways to
+    invert that relationship and amplify minority voices.
 ---
 
 In a traditional word cloud, the most popular answers (e.g. words, phrases) are emphasized. The result of this emphasis
-is for the minority to fade away into the background. With their work on Inverted Wordles, the We Count team is seaking
-a way to invert that relationship and provide a means to amplify those minority voices.
+is for the minority to fade away into the background. We are building an Inverted Wordle tool, that inverts this relationship
+and provides a means to amplify minority voices.
 
 <figure>
     <img
@@ -35,5 +35,4 @@ a way to invert that relationship and provide a means to amplify those minority 
     </figcaption>
 </figure>
 
-For more details, see ["Inverted Wordles"](https://wecount.inclusivedesign.ca/views/inverted-wordles/) on
-[We Count's website](https://wecount.inclusivedesign.ca).
+For more details, see ["Inverted Wordles"](https://wecount.inclusivedesign.ca/views/inverted-wordles/).

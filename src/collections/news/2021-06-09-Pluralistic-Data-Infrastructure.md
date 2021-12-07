@@ -11,5 +11,4 @@ provenance, the system can automatically retrigger the republishing of a visuali
 The aim is to put tools in the hands of communities for publishing their own data and visualizations derived from it,
 while maintaining the relationship with data managed by other communities.
 
-For more details, see ["COVID-19 Vaccination Centre Data Monitor: Accessibility Map Demonstration"](https://wecount.inclusivedesign.ca/views/mapdemo/)
-on [We Count's website](https://wecount.inclusivedesign.ca).
+For more details, see ["COVID-19 Vaccination Centre Data Monitor: Accessibility Map Demonstration"](https://wecount.inclusivedesign.ca/views/mapdemo/).
