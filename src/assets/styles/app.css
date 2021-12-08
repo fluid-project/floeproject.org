@@ -55,7 +55,7 @@ a {
 *:focus,
 a:hover,
 button:hover {
-    outline: 2px solid var(--fl-fgColor, #000);
+    outline: 0.125rem solid var(--fl-fgColor, #000);
 }
 
 a:focus,
@@ -116,7 +116,7 @@ https://codepen.io/MacintoshRobinson/pen/ZEzJvdo
 }
 
 .card-layout {
-    border: 1px solid var(--fl-fgColor, transparent);
+    border: 0.0625rem solid var(--fl-fgColor, transparent);
     font-size: 1.125rem;
     line-height: 1.5rem;
     min-height: 10rem;
@@ -200,6 +200,7 @@ main header .breadcrumbs + h1 {
     height: 2rem;
     justify-content: center;
     margin: 0.4rem;
+    margin-inline-end: 1.4rem;
 }
 
 .disclosure-button svg {
@@ -223,7 +224,7 @@ main header .breadcrumbs + h1 {
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    padding: 0 1rem;
+    padding-inline: 1.5rem;
 }
 
 .site-header a {
@@ -264,6 +265,7 @@ main header .breadcrumbs + h1 {
     color: inherit;
     display: inline-block;
     font-weight: bold;
+    padding-block: 1.28125rem;
     text-decoration: none;
     text-transform: lowercase;
 }
@@ -275,8 +277,8 @@ main header .breadcrumbs + h1 {
 
 .site-brand-logo svg {
     fill: var(--headerFooterLinkColor);
-    height: 2rem;
-    width: 6rem;
+    height: 2.125rem;
+    width: 6.5rem;
 }
 
 .site-nav {
@@ -515,7 +517,7 @@ main header .breadcrumbs + h1 {
 
 .fl-prefsEditor-buttons button:focus,
 .fl-prefsEditor-buttons button:hover {
-    outline: 2px solid var(--fl-fgColor, currentColor);
+    outline: 0.125rem solid var(--fl-fgColor, currentColor);
 }
 
 .fl-prefsEditor-separatedPanel {
@@ -586,6 +588,10 @@ main header .breadcrumbs + h1 {
         display: none;
     }
 
+    .site-header .wrapper {
+        padding-inline: 1rem;
+    }
+
     .site-header-org > * {
         padding-inline-start: 1.8rem;
     }
@@ -632,7 +638,7 @@ main header .breadcrumbs + h1 {
     }
 
     .site-nav-list a[aria-current="page"] {
-        border-bottom: 1px solid currentColor;
+        border-bottom: 0.125rem solid currentColor;
         font-weight: var(--fl-enhance-font-weight, normal);
         margin-left: 0;
         padding-inline-start: 0;
