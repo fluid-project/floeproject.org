@@ -244,8 +244,8 @@ main header .breadcrumbs + h1 {
     color: var(--headerOrgColor);
     font-size: 0.75rem;
     font-weight: 600;
-    line-height: calc(var(----fl-lineSpace-factor, 1) * 2.5);
-    padding-block-start: 1.75rem;
+    line-height: 1.875rem;
+    padding-block-start: 1rem;
 }
 
 .site-header-org > * {
@@ -590,6 +590,10 @@ main header .breadcrumbs + h1 {
 
     .site-header .wrapper {
         padding-inline: 1rem;
+    }
+
+    .site-header-org {
+        padding-block-start: 2.1rem;
     }
 
     .site-header-org > * {
