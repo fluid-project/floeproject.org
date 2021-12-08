@@ -28,7 +28,7 @@ body {
     --headerFooterLinkColor: var(--fl-linkColor, var(--fl-fgColor, #fff));
     --headerOrgColor: var(--fl-fgColor, #000);
     --headerOrgBGColor: var(--fl-bgColor, #fcde49);
-    --mainBackground: var(--fl-bgColor, #ffffff);
+    --mainBackground: var(--fl-bgColor, #fff);
     --mainColor: var(--fl-fgColor, #000);
     --mainLinkColor: var(--fl-linkColor, var(--fl-fgColor, #275287));
     --menuExpandedColor: var(--fl-fgColor, #003749);
@@ -157,11 +157,11 @@ main header h1 {
     text-transform: lowercase;
 }
 
-main header .breadcrumbs+h1 {
+main header .breadcrumbs + h1 {
     font-size: 2.25rem;
     font-weight: 700;
-    margin: 1rem 0 2rem 0;
     line-height: 2.875rem;
+    margin: 1rem 0 2rem 0;
     text-transform: none;
 }
 
@@ -220,14 +220,13 @@ main header .breadcrumbs+h1 {
 
 .site-header .wrapper {
     align-items: center;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     padding: 0 1rem;
-    box-sizing: border-box;
 }
 
-.site-header a,
-.site-footer a {
+.site-header a {
     color: var(--headerFooterLinkColor);
     text-decoration: none;
 }
@@ -290,8 +289,8 @@ main header .breadcrumbs+h1 {
 .site-nav-list {
     background-color: var(--menuExpandedBGColor);
     border-bottom: 0.4rem solid var(--menuExpandedColor);
-    inset-inline-start: 0;
     font-family: var(--fl-font-family, OpenSans, Arial, Helvetica, sans-serif);
+    inset-inline-start: 0;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -353,19 +352,42 @@ main header .breadcrumbs+h1 {
 }
 
 .site-footer {
+    color: var(--headerFooterColor);
     font-family: var(--fl-font-family, OpenSans, Arial, Helvetica, sans-serif);
-    margin-top: 6rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+    line-height: 2rem;
+    margin-top: 4rem;
     padding: 2rem 0;
 }
 
+.site-footer a {
+    color: var(--headerFooterLinkColor);
+}
+
+.site-footer strong {
+    font-weight: 800;
+}
+
 .site-footer .wrapper {
-    display: flex;
-    justify-content: center;
+    margin: 0 1rem 2rem 1rem;
+    width: auto;
 }
 
 .site-footer svg {
     fill: var(--headerFooterColor);
     height: 5rem;
+}
+
+.site-footer .floe-logo-floe-leaf {
+    height: 2rem;
+    width: 2rem;
+}
+
+.site-footer .cc-icons svg {
+    height: 2rem;
+    width: 2rem;
 }
 
 .breadcrumbs {
@@ -447,8 +469,8 @@ main header .breadcrumbs+h1 {
     font-family: var(--fl-font-family, OpenSans, Arial, Helvetica, sans-serif);
     font-size: 0.875rem;
     font-weight: var(--fl-enhance-font-weight, 600);
-    line-height: 1.375rem;
     grid-template-columns: [start] 1fr [end] 1fr;
+    line-height: 1.375rem;
 }
 
 .pagination-previous {
@@ -618,5 +640,9 @@ main header .breadcrumbs+h1 {
 
     .site-nav-list a[aria-current="page"]::before {
         content: none;
+    }
+
+    .site-footer {
+        margin-top: 6rem;
     }
 }
