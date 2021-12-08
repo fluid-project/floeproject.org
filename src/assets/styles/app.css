@@ -429,7 +429,7 @@ main header .breadcrumbs + h1 {
 }
 
 .posts-resources .corner-effect:focus-within {
-    box-shadow: 0px 0px 0px 10px var(--fl-linkColor, var(--resourcesCornerShadow)) inset;
+    box-shadow: 0 0 0 10px var(--fl-linkColor, var(--resourcesCornerShadow)) inset;
 }
 
 .posts-resources .corner-effect::after {
@@ -448,7 +448,7 @@ main header .breadcrumbs + h1 {
 }
 
 .posts-news .corner-effect:focus-within {
-    box-shadow: 0px 0px 0px 10px var(--fl-linkColor, var(--newsCornerShadow)) inset;
+    box-shadow: 0 0 0 10px var(--fl-linkColor, var(--newsCornerShadow)) inset;
 }
 
 .posts-news .corner-effect::after {
