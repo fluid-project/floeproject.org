@@ -3,12 +3,12 @@ title: Coding to Learn and Create Project Launch
 slug: Code-Learn-Create
 date: "2019-06-28"
 excerpt: |
-    Floe is working with the Coding to Learn and Create project] to design educational coding tools for kids who've been
+    FLOE is working with the Coding to Learn and Create project] to design educational coding tools for kids who've been
     left out of learning, and to create Open Educational Resources (OER) that help kids learn, develop social and
     communication skills, and express themselves with code.
 ---
 
-Floe is working with the [Coding to Learn and Create project](https://codelearncreate.ca/) to design educational coding
+FLOE is working with the [Coding to Learn and Create project](https://codelearncreate.ca/) to design educational coding
 tools for kids who've been left out of learning, and to create Open Educational Resources (OER) including activities,
 lessons, and projects that help kids learn, develop social and communication skills, and express themselves with code.
 

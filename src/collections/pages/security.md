@@ -2,7 +2,7 @@
 layout: layouts/base
 title: Security Architecture
 ---
-The Floe Project is working with the [Global Public Inclusive Infrastructure](http://gpii.net) to provide learners with
+The FLOE Project is working with the [Global Public Inclusive Infrastructure](http://gpii.net) to provide learners with
 friendly and comprehensive tools for sharing their data with the web sites, access features and assistive technologies
 that they trust. These tools will give learners complete control over which preferences are shared with any GPII-enabled
 services.

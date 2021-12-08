@@ -1,10 +1,10 @@
-# What is the Floe Project
+# What is the FLOE Project
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/fac64dc9-f556-4caf-8694-3ef2f902ac9c/deploy-status)](https://app.netlify.com/sites/fluid-floeproject-org/deploys)
 
-Floe is creating tools that help transform, augment, and personalize the learning experience.
+FLOE is creating tools that help transform, augment, and personalize the learning experience.
 
-Floe provides the resources needed to enable inclusive access to personally relevant, engaging learning opportunities
+FLOE provides the resources needed to enable inclusive access to personally relevant, engaging learning opportunities
 for the full diversity of learners and content producers.
 
 ## This Repository
@@ -45,3 +45,9 @@ If you make changes to the website, repeat the steps to build the image and star
   either load the 404.html directly in a browser, or deploy to the root of a gh-pages domain.
 * The most recent news items should remain in the list on the floeproject.org `src/index.html` page. When a new item is
   added, the oldest one on the list should be removed. The list is currently manually maintained.
+
+## Third party resources included
+
+### Open Font License (OFL 1.1)
+
+* [Literata](https://fonts.google.com/specimen/Literata?query=literata)

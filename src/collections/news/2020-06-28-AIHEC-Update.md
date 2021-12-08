@@ -1,13 +1,13 @@
 ---
-title: American Indian Higher Education Consortium Using Floe Tools and Resources
+title: American Indian Higher Education Consortium Using FLOE Tools and Resources
 slug: AIHEC-Update
 date: "2020-06-28"
 excerpt: |
-    The American Indian Higher Education Consortium is using Floe tools and resources to conduct collaborative workshops
+    The American Indian Higher Education Consortium is using FLOE tools and resources to conduct collaborative workshops
     and documenting experiences.
 ---
 
-The [American Indian Higher Education Consortium](http://www.aihec.org/) is using Floe tools and resources to conduct
+The [American Indian Higher Education Consortium](http://www.aihec.org/) is using FLOE tools and resources to conduct
 collaborative workshops and documenting experiences.
 
 The American Indian Higher Education Consortium Mixed Media Collective is holding a set of workshops supporting the

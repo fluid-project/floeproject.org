@@ -7,7 +7,7 @@ Inclusive design is a diverse, evolving set of practices and insights. What have
 taking us?
 
 * [Inclusive Learning Design Handbook](https://handbook.floeproject.org/)
-  The Floe Inclusive Learning Design Handbook is a free Open Educational Resource (OER) designed to assist teachers,
+  The FLOE Inclusive Learning Design Handbook is a free Open Educational Resource (OER) designed to assist teachers,
   content creators, web developers, and others in creating adaptable and personalizable educational resources that can
   meet the needs of learners with a diversity of learning styles.
 * [Realizing the Potential of Inclusive Education (2018)](http://openresearch.ocadu.ca/id/eprint/2193/1/Treviranus_UnitoPaper_2018.pdf)

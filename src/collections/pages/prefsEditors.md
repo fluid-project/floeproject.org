@@ -3,7 +3,7 @@ layout: layouts/base
 title: Preference Editing Tools
 ---
 
-The Floe Project is collaborating with the [Global Public Inclusive Infrastructure](http://gpii.net) to build tools to
+The FLOE Project is collaborating with the [Global Public Inclusive Infrastructure](http://gpii.net) to build tools to
 allow users to create personalized digital interfaces. These preference management tools enable and promote the
 discovery, adjustment and application of user preferences across multiple devices. A user will be able to customize any
 interface they might encounter by exploring and then declaring preferences, saving them to the cloud, and applying them

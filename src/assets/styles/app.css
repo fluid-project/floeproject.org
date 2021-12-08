@@ -1,7 +1,10 @@
 @font-face {
+    font-display: swap;
     font-family: "Literata";
-    src: url("../fonts/Literata-VariableFont_opsz,wght.woff2") format('woff2 supports variations'),
-         url("../fonts/Literata-VariableFont_opsz,wght.woff2") format('woff2-variations');
+    font-weight: 200 900;
+    src:
+        url("../fonts/Literata-VariableFont_opsz,wght.woff2") format('woff2-variations'),
+        url("../fonts/Literata-VariableFont_opsz,wght.woff2") format('woff2');
 }
 
 /* Components */
@@ -14,6 +17,8 @@ body {
     --headerFooterColor: var(--fl-fgColor, #fff);
     --headerFooterBGColor: var(--fl-bgColor, #003749);
     --headerFooterLinkColor: var(--fl-linkColor, var(--fl-fgColor, #fff));
+    --headerOrgColor: var(--fl-fgColor, #000);
+    --headerOrgBGColor: var(--fl-bgColor, #fcde49);
     --mainBackground: var(--fl-bgColor, #e5e5e5);
     --mainColor: var(--fl-fgColor, #000);
     --mainLinkColor: var(--fl-linkColor, var(--fl-fgColor, #275287));
@@ -29,6 +34,7 @@ body {
     background-color: var(--mainBackground);
     color: var(--mainColor);
     font-family: var(--fl-font-family, Literata, Arial, Helvetica, sans-serif);
+    font-optical-sizing: none;
     line-height: var(--fl-lineSpace);
     min-height: 100vh;
 }
@@ -37,7 +43,9 @@ a {
     color: var(--fl-linkColor);
 }
 
-*:focus {
+*:focus,
+a:hover,
+button:hover {
     outline: 2px solid var(--fl-fgColor, #000);
 }
 
@@ -162,9 +170,9 @@ main header h1 {
 .disclosure-button {
     align-items: center;
     align-self: flex-end;
-    background-color: inherit;
+    background-color: var(--fl-buttonBgColor, inherit);
     border: none;
-    color: inherit;
+    color: var(--fl-buttonFgColor, currentColor);
     display: flex;
     height: 2rem;
     justify-content: center;
@@ -173,7 +181,12 @@ main header h1 {
 
 .disclosure-button svg {
     fill: var(--headerFooterColor);
+    height: 100%;
     width: 1.7rem;
+}
+
+.site-header {
+    border-bottom: solid 0.5rem var(--fl-fgColor, var(--headerOrgBGColor));
 }
 
 .site-header,
@@ -198,8 +211,32 @@ main header h1 {
 }
 
 .site-header a:focus,
-.site-footer a:focus {
-    outline: 0.2rem solid var(--headerFooterLinkColor);
+.site-footer a:focus,
+.site-header button:focus,
+.site-header button:hover {
+    outline: 0.2rem solid currentColor;
+}
+
+.site-header-org {
+    background-color: var(--headerOrgBGColor);
+    color: var(--headerOrgColor);
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: calc(var(----fl-lineSpace-factor, 1) * 2.5);
+    padding-block-start: 1.75rem;
+}
+
+.site-header-org > * {
+    padding-inline-start: 0.8rem;
+}
+
+.site-header-org a {
+    color: var(--fl-linkColor);
+    text-decoration: underline;
+}
+
+.site-header-org .wrapper {
+    justify-content: start;
 }
 
 .site-brand {
@@ -243,16 +280,17 @@ main header h1 {
 
 .site-nav-list li {
     border-bottom: 0.1rem solid var(--menuExpandedColor);
-    padding: 0.4rem;
 }
 
 .site-nav-list a {
-    background-color: var(--menuExpandedBGColor);
-    color: var(--menuExpandedColor);
-    display: block;
-    margin: 0.2rem;
-    padding: 0.4rem;
+    align-items: center;
+    background-color: var(--fl-bgColor, var(--menuExpandedBGColor));
+    color: var(--fl-linkColor, var(--menuExpandedColor));
+    display: flex;
+    height: 2.7rem;
+    padding-inline-start: 1.875rem;
     text-decoration: underline;
+    width: 100%;
 }
 
 .site-nav-list a::before {
@@ -262,14 +300,16 @@ main header h1 {
     width: 1ch;
 }
 
-.site-nav-list a:focus {
-    outline-color: var(--fl-linkColor, var(--menuExpandedBGColor));
+.site-nav-list a:focus,
+.site-nav-list a:hover {
+    background-color: var(--fl-linkColor, var(--menuExpandedColor));
+    color: var(--fl-bgColor, var(--menuExpandedBGColor));
+    outline-color: transparent;
 }
 
 .site-nav-list a[aria-current="page"] {
     font-weight: var(--fl-enhance-font-weight, bolder);
     margin-left: 0.2;
-    padding-inline-start: 0.4rem;
     text-decoration: none;
 }
 
@@ -278,8 +318,8 @@ main header h1 {
 }
 
 .site-nav > [aria-expanded="true"] {
-    background-color: var(--menuExpandedBGColor);
-    color: var(--menuExpandedColor);
+    background-color: var(--fl-buttonFgColor, var(--menuExpandedBGColor));
+    color: var(--fl-buttonBgColor, var(--menuExpandedColor));
 }
 
 .site-nav > [aria-expanded="true"] svg {
@@ -370,8 +410,8 @@ main header h1 {
 }
 
 .pagination {
-    font-family: var(--fl-font-family, OpenSans, Arial, Helvetica, sans-serif);
     display: grid;
+    font-family: var(--fl-font-family, OpenSans, Arial, Helvetica, sans-serif);
     font-size: 0.875rem;
     grid-template-columns: [start] 1fr [end] 1fr;
 }
@@ -421,6 +461,35 @@ main header h1 {
     outline: 2px solid var(--fl-fgColor, currentColor);
 }
 
+.fl-prefsEditor-separatedPanel {
+    background-color: var(--headerOrgBGColor);
+    border-bottom: none;
+}
+
+.fl-prefsEditor-separatedPanel .fl-panelBar-smallScreen,
+.fl-panelBar-smallScreen .fl-prefsEditor-showHide {
+    border-radius: 0 0 1.875rem 1.875rem;
+}
+
+.fl-prefsEditor-separatedPanel .fl-panelBar-smallScreen button {
+    height: 100%;
+    text-align: center;
+}
+
+.fl-prefsEditor-separatedPanel .fl-panelBar-smallScreen button:focus,
+.fl-prefsEditor-separatedPanel .fl-panelBar-smallScreen button:hover {
+    background-color: var(--fl-buttonFgColor, #000);
+    color: var(--fl-buttonBgColor, #fff);
+}
+
+.fl-panelBar-smallScreen [aria-pressed="true"].fl-prefsEditor-showHide {
+    border-radius: 0 0 0 1.875rem;
+}
+
+.fl-panelBar-smallScreen [aria-pressed="true"].fl-prefsEditor-showHide + button {
+    border-radius: 0 0 1.875rem 0;
+}
+
 .fl-input-enhanced a,
 .fl-input-enhanced button,
 .fl-input-enhanced input,
@@ -433,6 +502,10 @@ main header h1 {
 .fl-input-enhanced a {
     font-weight: var(--fl-enhance-font-weight);
     text-decoration: var(--fl-enhance-text-decoration);
+}
+
+.fl-input-enhanced .card-title {
+    font-weight: 900;
 }
 
 /* hide the colour filters used for theming images */
@@ -469,6 +542,10 @@ main header h1 {
         display: block;
     }
 
+    .site-header-org > * {
+        padding-inline-start: 1.8rem;
+    }
+
     .site-nav {
         flex-direction: row;
         justify-content: flex-end;
@@ -499,6 +576,11 @@ main header h1 {
         margin: 0;
         padding: 0;
         text-decoration: none;
+    }
+
+    .site-nav-list a:focus,
+    .site-nav-list a:hover {
+        outline-color: var(--fl-linkColor, var(--menuExpandedBGColor));
     }
 
     .site-nav-list a::before {

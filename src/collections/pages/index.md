@@ -1,10 +1,15 @@
 ---
 layout: layouts/index.njk
-title: Designing for Diverse Learners
+title: Empowering Diverse Learners
 permalink: /
 ---
 
-FLOE provides the resources to personalize how we each learning and to address barriers to diverse life-long learning.
+Learner agency and life-long learning for all learners are central to the FLOE project.
 
-FLOE supports learners, educators and curriculum producers in achieving diverse one-size-fits-one learning design
-through exploration, reflection and discovery.
+We share **strategies** and **techniques** for **inclusive teaching** that have come out of real world situations and
+co-design with marginalized learners.
+
+We build **inclusive tools** which prioritize personalized learning and individual reflection.
+
+We are an open community that welcomes new ideas, content and contributions in the space of
+**Inclusive Open Education**.
