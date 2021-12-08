@@ -450,7 +450,8 @@ main header .breadcrumbs + h1 {
 
 .posts-news .corner-effect a:focus,
 .posts-news .corner-effect:hover a {
-    background-color: var(--newsCornerShadow);
+    background-color: var(--fl-linkColor, var(--newsCornerShadow));
+    color: var(--fl-bgColor);
     outline: none;
 }
 
