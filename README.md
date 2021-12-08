@@ -48,6 +48,10 @@ If you make changes to the website, repeat the steps to build the image and star
 
 ## Third party resources included
 
-### Open Font License (OFL 1.1)
+### Open Font License (OFL 1.1) - [License text](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
 
-* [Literata](https://fonts.google.com/specimen/Literata?query=literata)
+* [Literata](https://fonts.google.com/specimen/Literata)
+
+### Apache License, Version 2.0 - [License text](https://www.apache.org/licenses/LICENSE-2.0)
+
+* [Open Sans](https://fonts.google.com/specimen/Open+Sans)
