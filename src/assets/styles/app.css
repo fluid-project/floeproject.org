@@ -7,6 +7,15 @@
         url("../fonts/Literata-VariableFont_opsz,wght.woff2") format('woff2');
 }
 
+@font-face {
+    font-display: swap;
+    font-family: "OpenSans";
+    font-weight: 200 900;
+    src:
+        url("../fonts/OpenSans-VariableFont_wdth,wght.woff2") format('woff2-variations'),
+        url("../fonts/OpenSans-VariableFont_wdth,wght.woff2") format('woff2');
+}
+
 /* Components */
 
 :root {
@@ -19,7 +28,7 @@ body {
     --headerFooterLinkColor: var(--fl-linkColor, var(--fl-fgColor, #fff));
     --headerOrgColor: var(--fl-fgColor, #000);
     --headerOrgBGColor: var(--fl-bgColor, #fcde49);
-    --mainBackground: var(--fl-bgColor, #e5e5e5);
+    --mainBackground: var(--fl-bgColor, #ffffff);
     --mainColor: var(--fl-fgColor, #000);
     --mainLinkColor: var(--fl-linkColor, var(--fl-fgColor, #275287));
     --menuExpandedColor: var(--fl-fgColor, #003749);
@@ -108,13 +117,19 @@ https://codepen.io/MacintoshRobinson/pen/ZEzJvdo
 
 .card-layout {
     border: 1px solid var(--fl-fgColor, transparent);
+    font-size: 1.125rem;
+    line-height: 1.5rem;
     min-height: 10rem;
     padding: 2rem;
 }
 
 .card-title {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: var(--fl-enhance-font-weight, 800);
+    line-height: 1.875rem;
+    margin-block: 1rem;
+    text-align: center;
+    text-decoration: none;
 }
 
 /*
@@ -140,6 +155,14 @@ main header h1 {
     font-weight: 800;
     margin: 2rem 0;
     text-transform: lowercase;
+}
+
+main header .breadcrumbs+h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin: 1rem 0 2rem 0;
+    line-height: 2.875rem;
+    text-transform: none;
 }
 
 #skip {
@@ -197,11 +220,10 @@ main header h1 {
 
 .site-header .wrapper {
     align-items: center;
-
-    /* saving this for reference clip-path: ellipse(100vw 100% at 25% 0); */
-
     display: flex;
     justify-content: space-between;
+    padding: 0 1rem;
+    box-sizing: border-box;
 }
 
 .site-header a,
@@ -254,8 +276,8 @@ main header h1 {
 
 .site-brand-logo svg {
     fill: var(--headerFooterLinkColor);
-    height: 6rem;
-    width: 14rem;
+    height: 2rem;
+    width: 6rem;
 }
 
 .site-nav {
@@ -269,6 +291,7 @@ main header h1 {
     background-color: var(--menuExpandedBGColor);
     border-bottom: 0.4rem solid var(--menuExpandedColor);
     inset-inline-start: 0;
+    font-family: var(--fl-font-family, OpenSans, Arial, Helvetica, sans-serif);
     list-style: none;
     margin: 0;
     padding: 0;
@@ -309,7 +332,6 @@ main header h1 {
 
 .site-nav-list a[aria-current="page"] {
     font-weight: var(--fl-enhance-font-weight, bolder);
-    margin-left: 0.2;
     text-decoration: none;
 }
 
@@ -348,6 +370,8 @@ main header h1 {
 
 .breadcrumbs {
     font-family: var(--fl-font-family, OpenSans, Arial, Helvetica, sans-serif);
+    font-size: var(--fl-textSize, 0.8125rem);
+    line-height: 1.375rem;
     margin-top: 2rem;
 }
 
@@ -367,8 +391,12 @@ main header h1 {
 }
 
 .post time {
-    align-self: flex-end;
+    align-self: center;
+    font-feature-settings: 'pnum' on, 'lnum' on, 'ss03' on;
     font-size: 0.75rem;
+    font-variant: small-caps;
+    letter-spacing: 0.08rem;
+    line-height: 1.375rem;
     text-transform: uppercase;
 }
 
@@ -398,6 +426,11 @@ main header h1 {
     margin: 3rem 0;
 }
 
+#content {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
 .list-resources ul {
     list-style: none;
     margin: 0;
@@ -413,6 +446,8 @@ main header h1 {
     display: grid;
     font-family: var(--fl-font-family, OpenSans, Arial, Helvetica, sans-serif);
     font-size: 0.875rem;
+    font-weight: var(--fl-enhance-font-weight, 600);
+    line-height: 1.375rem;
     grid-template-columns: [start] 1fr [end] 1fr;
 }
 
@@ -529,19 +564,6 @@ main header h1 {
         display: none;
     }
 
-    .site-brand {
-        margin-top: 1rem;
-    }
-
-    .site-brand-subtitle {
-        display: block;
-        font-size: 1.8rem;
-    }
-
-    .site-header .wrapper {
-        display: block;
-    }
-
     .site-header-org > * {
         padding-inline-start: 1.8rem;
     }
@@ -572,7 +594,7 @@ main header h1 {
     .site-nav-list a {
         background-color: inherit;
         color: var(--fl-linkColor, currentColor);
-        font-size: 1.2rem;
+        font-size: 1.125rem;
         margin: 0;
         padding: 0;
         text-decoration: none;
