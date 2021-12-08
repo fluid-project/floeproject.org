@@ -35,8 +35,8 @@ body {
     --menuExpandedBGColor: var(--fl-bgColor, #fff);
     --resourcesBGColor: var(--fl-bgColor, #f2f0dc);
     --resourcesCornerShadow: var(--fl-bgColor, #b7ad55);
-    --newsBGColor: var(--fl-bgColor, #e6f7fd);
-    --newsCornerShadow: var(--fl-bgColor, #00abe9);
+    --newsBGColor: var(--fl-bgColor, #e7f0f3);
+    --newsCornerShadow: var(--fl-bgColor, #aaccdc);
     --resourceItemBGColor: var(--fl-bgColor, #fafafa);
     --resourceItemBorderColor: var(--fgColor, #b2b2b2);
 
