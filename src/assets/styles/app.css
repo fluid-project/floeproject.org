@@ -116,6 +116,7 @@ https://codepen.io/MacintoshRobinson/pen/ZEzJvdo
 }
 
 .card-layout {
+    cursor: pointer;
     font-size: 1.125rem;
     line-height: 1.5rem;
     min-height: 10rem;
@@ -447,12 +448,14 @@ main header .breadcrumbs + h1 {
     clip-path: polygon(0 1.5rem, 0 100%, 100% 100%, 100% 0%, 2.5rem 0);
 }
 
-.posts-news .corner-effect a:focus {
+.posts-news .corner-effect a:focus,
+.posts-news .corner-effect:hover a {
     background-color: var(--newsCornerShadow);
     outline: none;
 }
 
-.posts-news .corner-effect:focus-within {
+.posts-news .corner-effect:focus-within,
+.posts-news .corner-effect:hover {
     box-shadow: 0 0 0 10px var(--fl-linkColor, var(--newsCornerShadow)) inset;
 }
 
@@ -462,7 +465,8 @@ main header .breadcrumbs + h1 {
     top: -2rem;
 }
 
-.posts-news .corner-effect:focus-within::after {
+.posts-news .corner-effect:focus-within::after,
+.posts-news .corner-effect:hover::after {
     background-color: var(--fl-linkColor, var(--newsCornerShadow));
 }
 
