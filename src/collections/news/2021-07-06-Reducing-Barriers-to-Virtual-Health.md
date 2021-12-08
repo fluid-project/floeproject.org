@@ -1,5 +1,5 @@
 ---
-title: Reducing Barriers to Virtual Health
+title: Virtual Health OER
 date: "2021-07-06"
 excerpt: |
     The Guide for Reducing Barriers to Virtual Health and its accompanying
