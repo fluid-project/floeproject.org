@@ -378,8 +378,9 @@ main header .breadcrumbs + h1 {
 }
 
 .site-footer svg {
-    fill: var(--headerFooterColor);
+    display: block;
     height: 5rem;
+    fill: var(--headerFooterColor);
 }
 
 .site-footer .floe-logo-floe-leaf {
@@ -390,6 +391,23 @@ main header .breadcrumbs + h1 {
 .site-footer .cc-icons svg {
     height: 2rem;
     width: 2rem;
+    display: inline;
+}
+
+.site-footer .floe-logo-hewlett {
+    max-width: 19rem;
+    width: 100%;
+}
+
+.site-footer .floe-logo-idrc-wordmark {
+    margin-block: 1rem;
+    max-width: 14rem;
+    width: 100%;
+}
+
+.site-footer .floe-logo-ocadu {
+    max-width: 5rem;
+    width: 100%;
 }
 
 .breadcrumbs {
