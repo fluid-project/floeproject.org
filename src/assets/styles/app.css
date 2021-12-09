@@ -175,6 +175,14 @@ main header .breadcrumbs + h1 {
     text-transform: none;
 }
 
+aside {
+    border: 0.5rem solid var(--fl-fgColor, var(--headerFooterBGColor));
+    padding-inline: 1rem;
+    padding-block-end: 1rem;
+    background-color: var(--fl-bgColor, var(--headerOrgBGColor));
+    color: var(--mainColor);
+}
+
 #skip {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
