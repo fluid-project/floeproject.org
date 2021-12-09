@@ -701,5 +701,38 @@ main header .breadcrumbs + h1 {
 
     .site-footer {
         margin-top: 6rem;
+        padding-inline: 1rem;
+    }
+    
+    .site-footer .footer-grid {
+        display: grid;
+        grid-gap: 2rem;
+        margin: 0 auto;
+        max-width: 64rem;
+    }
+
+    .site-footer .wrapper {
+        margin: 0;
+    }
+
+    .site-footer .wrapper.floe {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .site-footer .wrapper.netlify {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .site-footer .wrapper.cc {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    .site-footer .wrapper.orgs {
+        align-self: center;
+        grid-column: 2;
+        grid-row: span 3;
     }
 }
