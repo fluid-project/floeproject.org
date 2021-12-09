@@ -6,10 +6,10 @@
     <div id="content" class="index-content">
         {{ content | safe }}
 
-        <section>
+        <section class="news">
             <h2>News</h2>
             {% include "partials/components/latest-news.njk" %}
-            <a href="/news/">Other news items</a>
+            <div class="news-other"><span><a href="/news/">Other news items</a></span></div>
         </section>
 
         <section class="featured-projects">
