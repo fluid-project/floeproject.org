@@ -1,6 +1,10 @@
 ---
-layout: layouts/base
 title: Preference Editing Tools
+slug: "prefsEditors"
+date: "2014-04-21"
+excerpt: |
+    The FLOE Project is collaborating with the Global Public Inclusive Infrastructure to build tools to allow users to
+    create personalized digital interfaces.
 ---
 
 The FLOE Project is collaborating with the [Global Public Inclusive Infrastructure](http://gpii.net) to build tools to
