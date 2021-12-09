@@ -646,6 +646,7 @@ aside {
     main header h1 {
         font-size: 4rem;
     }
+
     .fl-prefsEditor-separatedPanel {
         /* Solves an overlap issue between the header and the UIO buttons */
         position: relative;
