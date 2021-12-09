@@ -1,6 +1,6 @@
 ---
 title: Weavly
-order: 5
+order: 7
 tags:
   - featured
   - Inclusive Technology for Learning

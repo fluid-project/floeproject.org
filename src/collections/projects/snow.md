@@ -5,4 +5,5 @@ tags:
   - featured
   - Inclusive Design Practice
 ---
-[SNOW](https://snow.idrc.ocadu.ca/) focuses on technologies for learning and promotes understanding of inclusive learning practices.
+[SNOW](https://snow.idrc.ocadu.ca/) focuses on technologies for learning and promotes understanding of inclusive
+learning practices.
