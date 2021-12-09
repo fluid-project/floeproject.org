@@ -176,11 +176,11 @@ main header .breadcrumbs + h1 {
 }
 
 aside {
-    border: 0.5rem solid var(--fl-fgColor, var(--headerFooterBGColor));
-    padding-inline: 1rem;
-    padding-block-end: 1rem;
     background-color: var(--fl-bgColor, var(--headerOrgBGColor));
+    border: 0.5rem solid var(--fl-fgColor, var(--headerFooterBGColor));
     color: var(--mainColor);
+    padding-block-end: 1rem;
+    padding-inline: 1rem;
 }
 
 #skip {
