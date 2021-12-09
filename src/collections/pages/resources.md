@@ -1,5 +1,5 @@
 ---
-layout: layouts/posts
+layout: layouts/resources
 title: Resources
 sortAttr: "title"
 eleventyNavigation:

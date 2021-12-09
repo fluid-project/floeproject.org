@@ -1,0 +1,26 @@
+{% extends "layouts/base.njk" %}
+
+{% set pageType = "page-posts" %}
+
+{% block content %}
+    <!-- Buttons to expand all or hide all -->
+    <div class="floe-resources-buttons">
+        <button class="flc-resources-showAll">expand all</button>
+        &nbsp;&nbsp;
+        <button class="flc-resources-hideAll">hide all</button>
+    </div>
+
+    <ul id="content" class="floe-resources-main">
+        {% for resource in collections.resources %}
+            <li class="floe-resources-category">
+                <h2 class="floe-resource-title"><button aria-expanded="false" class="flc-resources-toggleItem"><span class="arrow"></span>{{ resource.data.title | safe }}</button></h2>
+                <div class="floe-resources-content">
+                    {% if post.excerpt %}
+                        <p>{{ resource.data.excerpt | safe }}</p>
+                    {% endif %}
+                    {{ resource.data.content | safe }}
+                </div>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

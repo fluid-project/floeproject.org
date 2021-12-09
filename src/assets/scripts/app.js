@@ -38,7 +38,7 @@ $(document).ready(function () {
 });
 
 /**
- * Toggle's the aria-expanded state of an element.
+ * Toggles the aria-expanded state of an element.
  *
  * @param {DOMNode} element - the DOM Node to toggle the aria-expanded state on.
  * @param {Boolean} [state] - (optional) explicit state to set aria-expanded to.
