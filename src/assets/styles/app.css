@@ -161,7 +161,7 @@ main {
 }
 
 main header h1 {
-    font-size: 4rem;
+    font-size: 3.125rem;
     font-weight: 800;
     margin: 2rem 0;
     text-transform: lowercase;
@@ -643,6 +643,9 @@ aside {
 }
 
 @media all and (min-width: 40rem) {
+    main header h1 {
+        font-size: 4rem;
+    }
     .fl-prefsEditor-separatedPanel {
         /* Solves an overlap issue between the header and the UIO buttons */
         position: relative;
