@@ -5,5 +5,5 @@ tags:
   - featured
   - Multimodal Presentation, Content Adaptation and Personal Preferences
 ---
-[User Interface Options](https://floeproject.org/ui-options.html) allows individuals to customize, control, or enhance
+[User Interface Options](/ui-options/) allows individuals to customize, control, or enhance
 website usability, flexibility, and accessibility without needing additional software or tools.
