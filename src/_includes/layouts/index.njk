@@ -9,13 +9,17 @@
         <section class="news">
             <h2>News</h2>
             {% include "partials/components/latest-news.njk" %}
-            <div class="news-other"><span><a href="/news/">Other news items</a></span></div>
+            <div class="more-link"><span><a href="/news/">Other news items</a></span></div>
         </section>
 
         <section class="featured-projects">
             <h2>Featured Projects</h2>
-            {% projects collections.featured %}
-            <a href="#">Other projects</a>
+            <span class="grid-layout">
+            {% for project in collections.featured %}
+                {{ project.templateContent | markdown | safe }}
+            {% endfor %}
+            </span>
+            <div class="more-link"><span><a href="#">See more projects</a></span></div>
         </section>
     </div>
 {% endblock %}
