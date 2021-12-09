@@ -764,3 +764,44 @@ aside {
 .page-index main header h1 {
     text-transform: none;
 }
+
+.page-index h2 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-block: 0.875rem 3.125rem;
+}
+
+.page-index .news,
+.page-index .featured-projects {
+    border-block-start: 0.5rem solid;
+}
+
+.page-index .news {
+    border-block-start-color: var(--fl-fgColor, var(--newsCornerShadow));
+}
+
+.page-index .news-other {
+    display: grid;
+}
+
+.page-index .news-other a {
+    font-family: var(--fl-font-family, OpenSans, Open Sans, Arial, Helvetica, sans-serif);
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: right;
+    text-decoration-line: underline;
+}
+
+.page-index .news-other > span {
+    justify-self: end;
+}
+
+.page-index .news-other > span::after {
+    content: ">";
+    padding-inline-start: 0.5ch;
+}
+
+.page-index .featured-projects {
+    border-block-start-color: var(--fl-fgColor, var(--resourcesCornerShadow));
+    margin-block-start: 4rem;
+}
