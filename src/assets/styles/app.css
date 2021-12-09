@@ -23,6 +23,7 @@
 }
 
 body {
+    --codeBGColour: var(--fl-buttonBgColor, #ededed);
     --headerFooterColor: var(--fl-fgColor, #fff);
     --headerFooterBGColor: var(--fl-bgColor, #003749);
     --headerFooterLinkColor: var(--fl-linkColor, var(--fl-fgColor, #fff));
@@ -61,6 +62,15 @@ button:hover {
 a:focus,
 a:hover {
     outline-color: var(--fl-linkColor);
+}
+
+code {
+    background-color: var(--codeBGColour);
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    padding-block: 0.2rem;
+    padding-inline: 0.5rem;
 }
 
 .wrapper {
@@ -379,8 +389,8 @@ main header .breadcrumbs + h1 {
 
 .site-footer svg {
     display: block;
-    height: 5rem;
     fill: var(--headerFooterColor);
+    height: 5rem;
 }
 
 .site-footer .floe-logo-floe-leaf {
@@ -389,9 +399,9 @@ main header .breadcrumbs + h1 {
 }
 
 .site-footer .cc-icons svg {
+    display: inline;
     height: 2rem;
     width: 2rem;
-    display: inline;
 }
 
 .site-footer .floe-logo-hewlett {
@@ -703,7 +713,7 @@ main header .breadcrumbs + h1 {
         margin-top: 6rem;
         padding-inline: 1rem;
     }
-    
+
     .site-footer .footer-grid {
         display: grid;
         grid-gap: 2rem;
@@ -729,7 +739,7 @@ main header .breadcrumbs + h1 {
         grid-column: 1;
         grid-row: 3;
     }
-    
+
     .site-footer .wrapper.orgs {
         align-self: center;
         grid-column: 2;
