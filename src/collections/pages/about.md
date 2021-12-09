@@ -5,15 +5,27 @@ eleventyNavigation:
     key: About
     order: 1
 ---
-The FLOE (Flexible Learning for Open Education) project aims to provide the resources needed to enable inclusive access
-to personally relevant, engaging learning opportunities for the full diversity of learners and content producers.
-Through the Open Education Resources community, FLOE will build tools that transform, augment, and personalize the
-learning experience.
+The FLOE (Flexible Learning for Open Education) project aims to support diverse learners and educators in
+learning to learn, life long learning and enabling learner agency.
 
-Learners learn best when the experience is personalized to individual needs. OER is an ideal learning environment to
-meet the diverse needs of learners, including learners with disabilities. FLOE Project will support the OER community in
-providing a sustainable, integrated approach to accessible learning, addressing the needs of learners who currently face
-barriers.
+Learners learn best when the experience is personalized to individual needs and Open Educational Resources (OER)
+provide an opportunity to meet the diverse needs of learners, including learners with disabilities. The FLOE Project
+supports the OER community in providing a sustainable, integrated approach to accessible learning,
+addressing the needs of learners who currently face barriers. FLOE shares strategies and techniques that can be
+used for inclusive learning and teaching through a variety of open guides and toolkits including the
+[Community-Led Co-design Kit](https://co-design.inclusivedesign.ca/),
+the [Inclusive Learning Design Handbook](https://handbook.floeproject.org/followaccessibilityprinciples),
+and the [Inclusive Design Guide](https://guide.inclusivedesign.ca/)
+
+Creating an ecosystem of inclusive tools that can be used for learning and teaching is another aspect
+of the FLOE project. Focussing on tools that transform, augment, and personalize the learning experience
+FLOE has been contributing to the [Fluid Infusion Framework](https://fluidproject.org/infusion.html)
+which provides a technical base that can be used to create tools that are flexible and transformable.
+The work on transforming web pages based on personal preferences can be seen in the 'show preferences'
+panel at the top of this site and more information can be found on the [UI Options](/ui-options) page.
+
+The FLOE project is integral to the Fluid open community where a global community of designers, developers and
+people with varied lived experience provide support and advice for people working on learning content and tools.
 
 FLOE is a project of the [Inclusive Design Research Centre](https://idrc.ocadu.ca/), [OCAD University](https://ocadu.ca/).
 

@@ -1,0 +1,14 @@
+{% extends "layouts/base.njk" %}
+
+{% set pageType = "page-archived" %}
+
+{% block content %}
+    <div id="content" class="index-content">
+        <aside>
+            <h2>Please Note</h2>
+            {{ notice }}
+        </aside>
+
+        {{ content | safe }}
+    </div>
+{% endblock %}

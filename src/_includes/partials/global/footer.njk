@@ -1,29 +1,30 @@
 <footer class="site-footer">
-    <div class="wrapper">
-        {% svg_sprite "logo-floe-leaf" %}
-        <p>
-            <strong>FLOE</strong> (Flexible Learning for Open Education) is a project of
-            <a href="https://idrc.ocadu.ca">The Inclusive Design Research Centre</a> and <a href="https://ocadu.ca">OCAD University</a>.
-        </p>
-        <p>
-            Funded by a grant from <a href="https://www.hewlett.org">The William + Flora Hewlett Foundation</a>.
-        </p>
-    </div>
-    <div class="wrapper">
-        Hosted with <a href="https://netlify.com/">Netlify</a>.
-    </div>
-    <div class="wrapper">
-        <div class="cc-icons">
-            {% svg_sprite "cc-logo" %}
-            {% svg_sprite "cc-by" %}
+    <div class="footer-grid">
+        <div class="wrapper floe">
+            {% svg_sprite "logo-floe-leaf" %}
+            <p>
+                <strong>FLOE</strong> (Flexible Learning for Open Education) is a project of
+                <a href="https://idrc.ocadu.ca">The Inclusive Design Research Centre</a> and <a href="https://ocadu.ca">OCAD University</a>.
+                <br/>
+                Funded by a grant from <a href="https://www.hewlett.org">The William + Flora Hewlett Foundation</a>.
+            </p>
         </div>
-        <div>
-            This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 License</a>
+        <div class="wrapper netlify">
+            Hosted with <a href="https://netlify.com/">Netlify</a>.
         </div>
-    </div>
-    <div class="wrapper">
-        {% svg_sprite "logo-hewlett" %}
-        {% svg_sprite "logo-idrc-wordmark" %}
-        {% svg_sprite "logo-ocadu" %}
+        <div class="wrapper cc">
+            <div class="cc-icons">
+                {% svg_sprite "cc-logo" %}
+                {% svg_sprite "cc-by" %}
+            </div>
+            <div>
+                This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 License</a>
+            </div>
+        </div>
+        <div class="wrapper orgs">
+            {% svg_sprite "logo-hewlett" %}
+            {% svg_sprite "logo-idrc-wordmark" %}
+            {% svg_sprite "logo-ocadu" %}
+        </div>
     </div>
 </footer>
