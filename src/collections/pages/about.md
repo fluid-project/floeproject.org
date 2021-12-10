@@ -45,6 +45,8 @@ FLOE is a project of the [Inclusive Design Research Centre](https://idrc.ocadu.c
 
 Funded by a grant from [The William and Flora Hewlett Foundation](https://hewlett.org/).
 
-Address: 205 Richmond St. W., Second Floor Toronto, Ontario, Canada M5V 1V3
-Email: idrc@ocadu.ca
-Phone: (416) 977-6000 #3968
+<address>
+    Address: 205 Richmond St. W., Second Floor Toronto, Ontario, Canada M5V 1V3</br>
+    Email: <a href="mailto:idrc@ocadu.ca">idrc@ocadu.ca</a></br>
+    Phone: <a href="tel:+14169776000,3968">(416) 977-6000 #3968</a></br>
+</address>
