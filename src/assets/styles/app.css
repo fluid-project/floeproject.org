@@ -727,6 +727,60 @@ aside h2 {
     width: 0;
 }
 
+/* page specific styling */
+
+.page-index main header h1 {
+    text-transform: none;
+}
+
+.page-index h2 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-block: 0.875rem 3.125rem;
+}
+
+.page-index .news,
+.page-index .featured-projects {
+    border-block-start: 0.5rem solid;
+}
+
+.page-index .news {
+    border-block-start-color: var(--fl-fgColor, var(--newsCornerShadow));
+}
+
+.page-index .more-link {
+    display: grid;
+}
+
+.page-index .more-link a {
+    font-family: var(--fl-font-family, OpenSans, Open Sans, Arial, Helvetica, sans-serif);
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: right;
+    text-decoration-line: underline;
+}
+
+.page-index .more-link > span {
+    justify-self: end;
+}
+
+.page-index .more-link > span::after {
+    content: ">";
+    padding-inline-start: 0.5ch;
+}
+
+.page-index .featured-projects {
+    border-block-start-color: var(--fl-fgColor, var(--projectsCornerShadow));
+}
+
+.page-index .featured-projects .grid-layout {
+    grid-template-columns: repeat(auto-fill, minmax(min(45%, 100%), 1fr));
+}
+
+.page-index .featured-projects a {
+    font-weight: 600;
+}
+
 @media all and (min-width: 40rem) {
     main header h1 {
         font-size: 4rem;
@@ -842,58 +896,4 @@ aside h2 {
         grid-column: 2;
         grid-row: span 3;
     }
-}
-
-/* page specific styling */
-
-.page-index main header h1 {
-    text-transform: none;
-}
-
-.page-index h2 {
-    font-size: 2.25rem;
-    font-weight: 800;
-    margin-block: 0.875rem 3.125rem;
-}
-
-.page-index .news,
-.page-index .featured-projects {
-    border-block-start: 0.5rem solid;
-}
-
-.page-index .news {
-    border-block-start-color: var(--fl-fgColor, var(--newsCornerShadow));
-}
-
-.page-index .more-link {
-    display: grid;
-}
-
-.page-index .more-link a {
-    font-family: var(--fl-font-family, OpenSans, Open Sans, Arial, Helvetica, sans-serif);
-    font-size: 1rem;
-    font-weight: 600;
-    text-align: right;
-    text-decoration-line: underline;
-}
-
-.page-index .more-link > span {
-    justify-self: end;
-}
-
-.page-index .more-link > span::after {
-    content: ">";
-    padding-inline-start: 0.5ch;
-}
-
-.page-index .featured-projects {
-    border-block-start-color: var(--fl-fgColor, var(--projectsCornerShadow));
-}
-
-.page-index .featured-projects .grid-layout {
-    grid-template-columns: repeat(auto-fill, minmax(min(45%, 100%), 1fr));
-}
-
-.page-index .featured-projects a {
-    font-weight: 600;
 }
