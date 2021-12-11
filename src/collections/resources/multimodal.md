@@ -1,6 +1,7 @@
 ---
 title: Multimodal Presentation, Content Adaptation and Personal Preferences
 excerpt: Digital design offers diverse possibilities for transformation and adaptation of learning content.
+permalink: false
 ---
 
 Digital design offers diverse possibilities for transformation and adaptation of learning content. How do we leverage
