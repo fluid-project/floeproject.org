@@ -548,12 +548,17 @@ aside h2 {
     border-inline-end: none;
     padding: 0.25rem 1rem 0.25rem 0.5rem;
     text-align: start;
+    text-transform: lowercase;
     width: 100%;
 }
 
 .resources-main button.expanded .resources-title {
     border: 0.625rem solid var(--resourcesBorderColor);
     border-inline-end: none;
+}
+
+.resources-main button .resources-title::first-letter {
+    text-transform: capitalize;
 }
 
 .resources-main button .resources-expand-icon {
@@ -585,6 +590,10 @@ aside h2 {
 .resources-main .resources-content-show .resources-content {
     display: block;
     margin-block-end: 2.5rem;
+}
+
+.resources-main .resources-content h3 {
+    display: none;
 }
 
 .resources-main .resources-content p {
@@ -858,6 +867,45 @@ aside h2 {
 
     .site-nav-list a[aria-current="page"]::before {
         content: none;
+    }
+
+    .resources-main button .resources-expand-icon::after {
+        content: "";
+    }
+
+    .resources-main button.expanded .resources-expand-icon::after {
+        content: "";
+    }
+
+    .resources-main .resources-category {
+        display: grid;
+        grid-gap: 6rem;
+        grid-template-columns: 4fr 6fr;
+    }
+
+    .resources-main h2 {
+        grid-column: 1;
+    }
+
+    .resources-main .resources-content {
+        display: none;
+        grid-column: 2;
+    }
+
+    .resources-main .resources-content-show .resources-content {
+        display: block;
+        margin-block-end: 2.5rem;
+    }
+
+    .resources-main .resources-content h3 {
+        display: initial;
+        font-size: 2.25rem;
+        font-weight: 800;
+        line-height: 2.5rem;
+    }
+
+    .resources-main .resources-content p {
+        margin-block-end: 3rem;
     }
 
     .site-footer {

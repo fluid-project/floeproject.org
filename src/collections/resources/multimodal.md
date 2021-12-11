@@ -4,6 +4,8 @@ excerpt: Digital design offers diverse possibilities for transformation and adap
 permalink: false
 ---
 
+### Multimodal presentation, content adaptation and personal preferences
+
 Digital design offers diverse possibilities for transformation and adaptation of learning content. How do we leverage
 these possibilities in envisioning, building and evolving tools for learning to support diverse learning needs?
 

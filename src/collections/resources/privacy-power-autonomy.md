@@ -4,6 +4,8 @@ excerpt: New technologies are impacting education, the economy and the wider wor
 permalink: false
 ---
 
+### Privacy, power and autonomy
+
 New technologies are impacting education, the economy and the wider world. How do we safeguard values such as privacy
 and autonomy with promising but challenging technologies such as AI, and avoid entrenching unjust systems in technology?
 

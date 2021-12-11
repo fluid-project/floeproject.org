@@ -1,8 +1,10 @@
 ---
-title: Finding Open Educational Resources,
+title: Finding Open Educational Resources
 excerpt: OER-specific resources, such as directories or authoring tools.
 permalink: false
 ---
+
+### Finding open educational resources
 
 These sites offer OER-specific resources, such as directories or authoring tools.
 
