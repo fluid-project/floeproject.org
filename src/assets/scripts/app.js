@@ -18,18 +18,18 @@ $(document).ready(function () {
     var toggleCategory = function (elm, state) {
         $(elm)
             .attr("aria-expanded", state)
-            .closest(".floe-resources-category")
-            .toggleClass("floe-resources-content-show", state);
+            .closest(".resources-category")
+            .toggleClass("resources-content-show", state);
     };
     /** When "show all" button is clicked, expands all categories to show their contents. */
-    $(".flc-resources-showAll").click(function () {
-        toggleCategory(".flc-resources-toggleItem", true);
+    $(".resources-showAll").click(function () {
+        toggleCategory(".resources-toggleItem", true);
     });
     /** When "hide all" button is clicked, collapses all categories to hide their contents. */
-    $(".flc-resources-hideAll").click(function () {
-        toggleCategory(".flc-resources-toggleItem", false);
+    $(".resources-hideAll").click(function () {
+        toggleCategory(".resources-toggleItem", false);
     });
-    $(".flc-resources-toggleItem").click(function (evt) {
+    $(".resources-toggleItem").click(function (evt) {
         var target = $(evt.delegateTarget);
         var state = target.attr("aria-expanded") === "true" ? true : false;
         toggleCategory(target, !state);

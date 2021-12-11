@@ -34,12 +34,12 @@ body {
     --mainLinkColor: var(--fl-linkColor, var(--fl-fgColor, #275287));
     --menuExpandedColor: var(--fl-fgColor, #003749);
     --menuExpandedBGColor: var(--fl-bgColor, #fff);
-    --resourcesBGColor: var(--fl-bgColor, #f2f0dc);
-    --resourcesCornerShadow: var(--fl-bgColor, #b7ad55);
+    --projectsBGColor: var(--fl-bgColor, #f2f0dc);
+    --projectsCornerShadow: var(--fl-bgColor, #b7ad55);
     --newsBGColor: var(--fl-bgColor, #e7f0f3);
     --newsCornerShadow: var(--fl-bgColor, #aaccdc);
-    --resourceItemBGColor: var(--fl-bgColor, #fafafa);
-    --resourceItemBorderColor: var(--fgColor, #b2b2b2);
+    --resourcesBGColor: var(--fl-bgColor, #edf3e7);
+    --resourcesBorderColor: var(--fgColor, #c9dca9);
 
     background-color: var(--mainBackground);
     color: var(--mainColor);
@@ -463,23 +463,23 @@ aside h2 {
     text-transform: uppercase;
 }
 
-.posts-resources .corner-effect {
-    background-color: var(--resourcesBGColor);
+.posts-projects .corner-effect {
+    background-color: var(--projectsBGColor);
     clip-path: polygon(0 0, 0 100%, calc(100% - 2.5rem) 100%, 100% calc(100% - 1.5rem), 100% 0);
 }
 
-.posts-resources .corner-effect:focus-within {
-    box-shadow: 0 0 0 10px var(--fl-linkColor, var(--resourcesCornerShadow)) inset;
+.posts-projects .corner-effect:focus-within {
+    box-shadow: 0 0 0 10px var(--fl-linkColor, var(--projectsCornerShadow)) inset;
 }
 
-.posts-resources .corner-effect::after {
-    background-color: var(--fl-fgColor, var(--resourcesCornerShadow));
+.posts-projects .corner-effect::after {
+    background-color: var(--fl-fgColor, var(--projectsCornerShadow));
     bottom: -2rem;
     right: 0;
 }
 
 .posts-resources .corner-effect:focus-within::after {
-    background-color: var(--fl-linkColor, var(--resourcesCornerShadow));
+    background-color: var(--fl-linkColor, var(--projectsCornerShadow));
 }
 
 .posts-news .corner-effect {
@@ -525,9 +525,40 @@ aside h2 {
 }
 
 .list-resources li {
-    background-color: var(--resourceItemBGColor);
-    border: 0.1rem solid var(--resourceItemBorderColor);
     margin-block-end: 0.5rem;
+}
+
+.resources-main {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.resources-main h2 {
+    line-height: 1.5rem;
+    margin: 0;
+}
+
+.resources-main button {
+    background-color: var(--resourcesBGColor);
+    border: none;
+    font-family: var(--fl-font-family, OpenSans, Open Sans, Arial, Helvetica, sans-serif);
+    font-size: 1.375rem;
+    line-height: 1.625rem;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+.resources-main .resources-category {
+    margin-block-end: 1rem;
+}
+
+.resources-main .resources-content {
+    display: none;
+}
+
+.resources-main .resources-content-show .resources-content {
+    display: block;
 }
 
 .pagination {
@@ -805,7 +836,7 @@ aside h2 {
 }
 
 .page-index .featured-projects {
-    border-block-start-color: var(--fl-fgColor, var(--resourcesCornerShadow));
+    border-block-start-color: var(--fl-fgColor, var(--projectsCornerShadow));
 }
 
 .page-index .featured-projects .grid-layout {
