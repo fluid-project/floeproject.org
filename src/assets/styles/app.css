@@ -519,15 +519,6 @@ aside h2 {
     line-height: 1.75rem;
 }
 
-.list-resources ul {
-    list-style: none;
-    margin: 0;
-}
-
-.list-resources li {
-    margin-block-end: 0.5rem;
-}
-
 .resources-main {
     list-style: none;
     margin: 0;
@@ -540,17 +531,51 @@ aside h2 {
 }
 
 .resources-main button {
+    align-items: stretch;
     background-color: var(--resourcesBGColor);
     border: none;
+    display: flex;
     font-family: var(--fl-font-family, OpenSans, Open Sans, Arial, Helvetica, sans-serif);
     font-size: 1.375rem;
-    line-height: 1.625rem;
-    padding: 0.75rem;
+    justify-content: space-between;
+    line-height: 2rem;
+    padding: 0;
     width: 100%;
 }
 
+.resources-main button .resources-title {
+    border: 0.625rem solid var(--resourcesBGColor);
+    border-inline-end: none;
+    padding: 0.25rem 1rem 0.25rem 0.5rem;
+    text-align: start;
+    width: 100%;
+}
+
+.resources-main button.expanded .resources-title {
+    border: 0.625rem solid var(--resourcesBorderColor);
+    border-inline-end: none;
+}
+
+.resources-main button .resources-expand-icon {
+    align-items: center;
+    background-color: var(--resourcesBorderColor);
+    display: flex;
+    font-size: var(--fl-enhance-font-size, 1.125rem);
+    font-weight: var(--fl-enhance-font-weight, 800);
+    justify-content: center;
+    min-width: 3rem;
+}
+
+.resources-main button .resources-expand-icon::after {
+    content: "+";
+}
+
+.resources-main button.expanded .resources-expand-icon::after {
+    content: "—";
+}
+
 .resources-main .resources-category {
-    margin-block-end: 1rem;
+    margin-block-end: 1.25rem;
 }
 
 .resources-main .resources-content {
@@ -559,6 +584,32 @@ aside h2 {
 
 .resources-main .resources-content-show .resources-content {
     display: block;
+    margin-block-end: 2.5rem;
+}
+
+.resources-main .resources-content p {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+.resources-main .resources-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.resources-main .resources-content ul li {
+    font-size: var(--fl-enhance-font-size, 1.125rem);
+    margin-block-end: 0.5rem;
+}
+
+.resources-main .resources-content ul li a:first-child {
+    display: block;
+    font-size: var(--fl-enhance-font-size, 1.25rem);
+    font-weight: var(--fl-enhance-font-weight, 700);
+    line-height: 1.625rem;
+    margin-block: 1.5rem 1rem;
+    text-underline-position: from-font;
 }
 
 .pagination {

@@ -13,7 +13,12 @@
     <ul id="content" class="resources-main">
         {% for resource in collections.resources %}
             <li class="resources-category">
-                <h2 class="resource-title"><button aria-expanded="false" class="resources-toggleItem"><span class="arrow"></span>{{ resource.data.title | safe }}</button></h2>
+                <h2>
+                    <button aria-expanded="false" class="resources-toggleItem">
+                        <span class="resources-title">{{ resource.data.title | safe }}</span>
+                        <span class="resources-expand-icon" aria-hidden="true"></span>
+                    </button>
+                </h2>
                 <div class="resources-content">
                     {% if post.excerpt %}
                         <p>{{ resource.data.excerpt | safe }}</p>

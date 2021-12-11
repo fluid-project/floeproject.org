@@ -18,6 +18,7 @@ $(document).ready(function () {
     var toggleCategory = function (elm, state) {
         $(elm)
             .attr("aria-expanded", state)
+            .toggleClass("expanded", state)
             .closest(".resources-category")
             .toggleClass("resources-content-show", state);
     };

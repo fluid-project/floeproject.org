@@ -18,7 +18,6 @@ const fluidPlugin = require("eleventy-plugin-fluid");
 const navigationPlugin = require("@11ty/eleventy-navigation");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const wrap = require("./src/shortcodes/wrap.js");
 
 // Import filters
 const dateFilter = require("./src/filters/date-filter.js");
@@ -46,7 +45,6 @@ module.exports = function (config) {
     config.addShortcode("svg_sprite", function (sprite) {
         return `<svg class="floe-${sprite}" aria-hidden="true"><use xlink:href="/assets/images/sprites.svg#${sprite}"></use></svg>`;
     });
-    config.addPairedShortcode("unmarkedList", (content) => wrap(content, "list-resources"));
 
     // Transforms
     config.addTransform("htmlmin", htmlMinTransform);
