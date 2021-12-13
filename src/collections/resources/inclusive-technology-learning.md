@@ -4,8 +4,6 @@ excerpt: Articles on the possibilities of inclusive learning technologies, and s
 permalink: false
 ---
 
-### Inclusive technology for learning
-
 Articles on the possibilities of inclusive learning technologies, and selected examples.
 
 * [Interactive Simulations for Science and Math](https://phet.colorado.edu/en/accessibility/prototypes)
