@@ -17,6 +17,9 @@ There are a number of ways to get UI Options for your project. Visit
 [Infusion Docs | Getting User Interface Options](https://docs.fluidproject.org/infusion/development/tutorial-userinterfaceoptions/gettinguioptions)
 to find the best method for your project.
 
+UI Options is now available as a [Chrome browser extension](https://chrome.google.com/webstore/detail/ui-options-plus-uio%2B/okenndailhmikjjfcnmolpaefecbpaek)
+enabling the web browser to transform web pages directly.
+
 ## Guides and Documentation
 
 [Infusion Docs | Setting Up User Interface Options](https://docs.fluidproject.org/infusion/development/tutorial-userinterfaceoptions/userinterfaceoptions)

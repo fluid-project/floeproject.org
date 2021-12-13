@@ -36,7 +36,8 @@ taking us?
   Practice co-design with elementary and middle school students using this guide which includes instructions for several
   city design activities.
 * [The International Handbook of Virtual Learning Environments (2006)](https://pdfs.semanticscholar.org/f9bc/a101763769a22df0733bc3388bc2fa3df30c.pdf#page=494)
-  A paper by Joel Weiss, Jason Nolan, J. Hensinger, and P. Trifonas providing an early vision for inclusive e-learning that continues to be relevant today.
+  A paper by Joel Weiss, Jason Nolan, J. Hensinger, and P. Trifonas providing an early vision for inclusive e-learning
+  that continues to be relevant today.
 * [Microsoft Inclusive Toolkit](https://www.microsoft.com/design/inclusive/)
   This toolkit is a comprehensive resource for any inclusive session to practice new skills, develop new concepts, or
   create a prototype. This toolkit is made to be retrofitted to a design team’s goals.
