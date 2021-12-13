@@ -670,7 +670,8 @@ aside {
 
 @media all and (min-width: 40rem) {
     main header h1 {
-        font-size: 4rem;
+        font-size: 4.5rem;
+        margin-block: 8.25rem 7.1875rem;
     }
 
     .fl-prefsEditor-separatedPanel {
@@ -771,6 +772,18 @@ aside {
     font-size: 2.25rem;
     font-weight: 800;
     margin-block: 0.875rem 3.125rem;
+}
+
+.page-index .content {
+    line-height: 2.25rem;
+}
+
+.page-index .content em {
+    font-weight: 700;
+}
+
+.page-index .content p {
+    margin-block: 1.5rem;
 }
 
 .page-index .news,
