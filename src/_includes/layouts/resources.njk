@@ -1,6 +1,6 @@
 {% extends "layouts/base.njk" %}
 
-{% set pageType = "page-posts" %}
+{% set pageType = "page-resources" %}
 
 {% block content %}
     {# <!-- Buttons to expand all or hide all -->
@@ -15,8 +15,8 @@
             <li class="resources-category">
                 <h2>
                     <button aria-expanded="false" class="resources-toggleItem">
-                        <span class="resources-title">{{ resource.data.title | safe }}</span>
                         <span class="resources-expand-icon" aria-hidden="true"></span>
+                        <span class="resources-title">{{ resource.data.title | safe }}</span>
                     </button>
                 </h2>
                 <div class="resources-content">

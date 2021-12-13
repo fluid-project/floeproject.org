@@ -38,8 +38,8 @@ body {
     --projectsCornerShadow: var(--fl-bgColor, #b7ad55);
     --newsBGColor: var(--fl-bgColor, #e7f0f3);
     --newsCornerShadow: var(--fl-bgColor, #aaccdc);
-    --resourcesBGColor: var(--fl-bgColor, #edf3e7);
-    --resourcesBorderColor: var(--fgColor, #c9dca9);
+    --resourcesBGColor: var(--fl-bgColor, #e8f3e7);
+    --resourcesBorderColor: var(--fl-fgColor, #bcdca9);
 
     background-color: var(--mainBackground);
     color: var(--mainColor);
@@ -534,6 +534,7 @@ aside h2 {
     align-items: stretch;
     background-color: var(--resourcesBGColor);
     border: none;
+    color: var(--mainColor);
     display: flex;
     font-family: var(--fl-font-family, OpenSans, Open Sans, Arial, Helvetica, sans-serif);
     font-size: 1.375rem;
@@ -545,7 +546,7 @@ aside h2 {
 
 .resources-main button .resources-title {
     border: 0.625rem solid var(--resourcesBGColor);
-    border-inline-end: none;
+    border-inline-start: none;
     padding: 0.25rem 1rem 0.25rem 0.5rem;
     text-align: start;
     width: 100%;
@@ -553,12 +554,14 @@ aside h2 {
 
 .resources-main button.expanded .resources-title {
     border: 0.625rem solid var(--resourcesBorderColor);
-    border-inline-end: none;
+    border-inline-start: none;
+    font-weight: var(--fl-enhance-font-weight, 700);
 }
 
 .resources-main button .resources-expand-icon {
     align-items: center;
     background-color: var(--resourcesBorderColor);
+    color: var(--fl-bgColor, var(--mainColor));
     display: flex;
     font-size: var(--fl-enhance-font-size, 1.125rem);
     font-weight: var(--fl-enhance-font-weight, 800);
