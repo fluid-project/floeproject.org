@@ -9,6 +9,16 @@
 
 @font-face {
     font-display: swap;
+    font-family: "Literata";
+    font-style: italic;
+    font-weight: 200 900;
+    src:
+        url("../fonts/Literata-Italic-VariableFont_opsz,wght.woff2") format('woff2-variations'),
+        url("../fonts/Literata-Italic-VariableFont_opsz,wght.woff2") format('woff2');
+}
+
+@font-face {
+    font-display: swap;
     font-family: "OpenSans";
     font-weight: 200 900;
     src:
