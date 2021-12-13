@@ -1,9 +1,6 @@
 ---
 layout: layouts/base
 title: UI Options
-eleventyNavigation:
-    key: UI Options
-    order: 4
 ---
 
 User Interface Options (UI Options) provides a way to enhance or improve website usability, flexibility, and

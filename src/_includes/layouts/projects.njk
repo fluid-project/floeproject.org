@@ -1,0 +1,30 @@
+{% extends "layouts/base.njk" %}
+
+{% set pageType = "page-projects" %}
+
+{% block content %}
+    <ul id="content">
+        {# Featured Projects #}
+        {% for project in collections.featured | sort(false, true, "data.order") %}
+            <li>
+                {{ project.templateContent | safe }}
+            </li>
+        {% endfor %}
+        {# Non-featured active projects #}
+        {% for project in collections.active %}
+            {% if not "featured" in project.data.tags %}
+                <li>
+                    {{ project.templateContent | safe }}
+                </li>
+            {% endif %}
+        {% endfor %}
+        {# Other projects #}
+        {% for project in collections.projects %}
+            {% if not project.data.tags %}
+                <li>
+                    {{ project.templateContent | safe }}
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+{% endblock %}

@@ -37,12 +37,6 @@ module.exports = function (config) {
     config.addFilter("dateFilter", dateFilter);
 
     // Shortcodes
-    config.addShortcode("projects", function (collection = []) {
-        let output = "";
-        let sorted = collection.sort((a, b) => a.data.order - b.data.order);
-        sorted.forEach(item => output += `<h3>${item.data.title}</h3>${item.templateContent}`);
-        return output;
-    });
     config.addShortcode("svg_sprite", function (sprite) {
         return `<svg class="floe-${sprite}" aria-hidden="true"><use xlink:href="/assets/images/sprites.svg#${sprite}"></use></svg>`;
     });

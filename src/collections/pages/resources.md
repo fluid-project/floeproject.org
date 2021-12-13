@@ -4,5 +4,5 @@ title: Resources
 sortAttr: "title"
 eleventyNavigation:
     key: Resources
-    order: 3
+    order: 4
 ---
