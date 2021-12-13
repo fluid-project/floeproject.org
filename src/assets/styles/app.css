@@ -753,9 +753,9 @@ aside {
 
     .site-footer .footer-grid .orgs {
         align-self: start;
-        grid-row-start: 1;
         grid-column: 2;
         grid-row-end: span 3;
+        grid-row-start: 1;
         padding-block-start: 3rem;
     }
 }
