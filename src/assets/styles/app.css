@@ -685,11 +685,16 @@ aside {
     }
 
     .site-header .wrapper {
-        padding-inline: 1rem;
+        padding-inline: 0;
     }
 
     .site-header-org {
         padding-block-start: 2.1rem;
+    }
+
+    .site-header-org,
+    .site-header-nav {
+        padding-inline: 1rem;
     }
 
     .site-header-org > * {
