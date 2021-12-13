@@ -174,8 +174,8 @@ main {
 main header h1 {
     font-size: 3.125rem;
     font-weight: 800;
-    margin: 2rem 0;
     line-height: 5rem;
+    margin: 2rem 0;
     text-transform: lowercase;
 }
 
