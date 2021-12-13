@@ -15,7 +15,9 @@
             <li class="resources-category">
                 <h2>
                     <button aria-expanded="false" class="resources-toggleItem">
-                        <span class="resources-expand-icon" aria-hidden="true"></span>
+                        <span class="resources-expand-icon" aria-hidden="true">
+                            {% svg_sprite "arrow" %}
+                        </span>
                         <span class="resources-title">{{ resource.data.title | safe }}</span>
                     </button>
                 </h2>

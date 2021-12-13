@@ -561,7 +561,6 @@ aside h2 {
 .resources-main button .resources-expand-icon {
     align-items: center;
     background-color: var(--resourcesBorderColor);
-    color: var(--fl-bgColor, var(--mainColor));
     display: flex;
     font-size: var(--fl-enhance-font-size, 1.125rem);
     font-weight: var(--fl-enhance-font-weight, 800);
@@ -569,12 +568,15 @@ aside h2 {
     min-width: 3rem;
 }
 
-.resources-main button .resources-expand-icon::after {
-    content: "+";
+.resources-main button .resources-expand-icon svg {
+    color: var(--fl-bgColor, var(--mainColor));
+    fill: none;
+    height: 1.375rem;
+    width: 1rem;
 }
 
-.resources-main button.expanded .resources-expand-icon::after {
-    content: "—";
+.resources-main button.expanded .resources-expand-icon svg {
+    transform: rotate(90deg);
 }
 
 .resources-main .resources-category {
