@@ -16,11 +16,11 @@
 
         <section class="featured-projects">
             <h2>Featured Projects</h2>
-            <span class="grid-layout">
+            <ul class="grid-layout">
             {% for project in collections.featured | sort(false, true, "data.order") %}
-                {{ project.templateContent | safe }}
+                <li>{{ project.templateContent | safe }}</li>
             {% endfor %}
-            </span>
+            </ul>
             <div class="more-link"><span><a href="/projects/">See more projects</a></span></div>
         </section>
     </div>
