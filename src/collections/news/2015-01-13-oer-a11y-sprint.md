@@ -22,5 +22,3 @@ B3 applied in:
 * gaming,
 * mobile and responsive content, and
 * OER delivery platforms.
-
-For more information, visit [OER ACCESSIBILITY SPRINT](/accessibility-sprint-2015/).
