@@ -29,8 +29,24 @@ const parseTransform = require("./src/transforms/parse-transform.js");
 module.exports = function (config) {
     // Collections
     config.addCollection("news", collection => collection.getFilteredByGlob("src/collections/news/*.md").reverse());
-    config.addCollection("projects", collection => collection.getFilteredByGlob("src/collections/projects/*.md"));
     config.addCollection("resources", collection => collection.getFilteredByGlob("src/collections/resources/*.md"));
+    config.addCollection("projects", collection => collection.getFilteredByGlob("src/collections/projects/*.md").map(project => {
+        // This function computes an overall sort ranking based on the "order" value as well as certain tags
+        project.data.sortOrder = 0;
+
+        const IS_ACTIVE = 10000;
+        const NO_DATA = 1000000;
+
+        if (project.data.order && typeof project.data.order === "number") { // Featured Projects
+            project.data.sortOrder += project.data.order;
+        } else if (project.data.tags && project.data.tags.includes("active")) { // Non-featured active projects
+            project.data.sortOrder += IS_ACTIVE;
+        } else { // Other projects
+            project.data.sortOrder = NO_DATA;
+        }
+
+        return project;
+    }).sort((first, second) => { return first.data.sortOrder - second.data.sortOrder; }));
 
     // Filters
     config.addFilter("dateFilter", dateFilter);

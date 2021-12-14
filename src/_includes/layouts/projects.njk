@@ -3,28 +3,12 @@
 {% set pageType = "page-projects" %}
 
 {% block content %}
-    <ul id="content">
+    <ul id="content" class="grid-layout posts-{{ eleventyNavigation.key | lower }}">
         {# Featured Projects #}
-        {% for project in collections.featured | sort(false, true, "data.order") %}
-            <li>
-                {{ project.templateContent | safe }}
-            </li>
-        {% endfor %}
-        {# Non-featured active projects #}
-        {% for project in collections.active %}
-            {% if not "featured" in project.data.tags %}
-                <li>
-                    {{ project.templateContent | safe }}
-                </li>
-            {% endif %}
-        {% endfor %}
-        {# Other projects #}
-        {% for project in collections.projects %}
-            {% if not project.data.tags %}
-                <li>
-                    {{ project.templateContent | safe }}
-                </li>
-            {% endif %}
+        {% for project in posts %}
+           {% include "partials/components/projects-item.njk" %}
         {% endfor %}
     </ul>
+
+    {% include "partials/components/pagination.njk" %}
 {% endblock %}
