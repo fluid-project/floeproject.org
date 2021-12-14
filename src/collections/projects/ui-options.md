@@ -1,9 +1,10 @@
 ---
 title: Learner Preferences and UI Options
-order: 4
+date: "2021-09-07"
+order: 6
 tags:
   - featured
-  - Multimodal Presentation, Content Adaptation and Personal Preferences
+  - active
 ---
-[User Interface Options](https://floeproject.org/ui-options.html) allows individuals to customize, control, or enhance
+[User Interface Options](/ui-options/) allows individuals to customize, control, or enhance
 website usability, flexibility, and accessibility without needing additional software or tools.

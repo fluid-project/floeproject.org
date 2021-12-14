@@ -1,9 +1,10 @@
 ---
 title: Inclusive Coding Toolkit
-order: 5
+date: "2021-03-11"
+order: 4
 tags:
   - featured
-  - Inclusive Technology for Learning
+  - active
 ---
 The [Inclusive Coding Toolkit](https://weavly.org/learn/activities/?type=On-Screen) offers a collection of open, coding
 related activities and resources for learners, parents and educators.

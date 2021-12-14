@@ -9,16 +9,12 @@ permalink: false
 We all learn differently. How can we develop greater understanding of our own learning needs and preferences, and learn
 to better understand the learning needs and preferences of others?
 
-## Current Projects
-
-{% projects collections[title] %}
-
 ## Resources
 
 * [Stories About Learning to Learn](https://stories.floeproject.org/storyBrowse.html)
   See a diverse collection of stories about current barriers, challenges, successes and exclusionary situations that we
   all experience in our learning journeys.
-* [My Life Long Learning Lab (MyL3)](https://wiki.fluidproject.org/display/fluid/%28Floe%29+Preference+Exploration+and+Self-Assessment)
+* [Preference Exploration and Self-Assessment (MyL3)](https://wiki.fluidproject.org/x/CQHBAg)
   MyL3 enables learners to keep track of their progress, and personalize their learning goals and learning experience
   through self-reflection. [See the evolution](https://docs.google.com/document/d/1oIqIgJ3H7R_sj7ybrUYq-QZj0Zs-kU3wjUa_rNrHVZM/edit)
   of the tools and the [current designs](https://files.inclusivedesign.ca/s/Irsq4w24gFgEGqF#pdfviewer).

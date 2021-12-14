@@ -20,24 +20,19 @@ These sites offer OER-specific resources, such as directories or authoring tools
   more deliberate course design and digital pedagogical practice.
 * [Gooru](http://www.gooru.org/)
   Gooru is an educational technology non-profit that is dedicated to improving learning outcomes for all students by
-  making education equally accessible and empowering. Gooru is creating technology that enables educators and
-  researchers to “open-source” effective practices and content to improve learning outcomes for all.
+  making education equally accessible and empowering. Gooru uses a unique "GPS for learning" which allows each student
+  to customize learning paths and provides tools to educators to support those learners.
 * [K-12](http://www.k12.com/)
   K12 is a leading online learning provider serving K–12 online schools. The K12 program is offered through tuition-free
-  online public schools* and online private schools.
+  online public and private schools.
 * [Multimedia Educational Resource for Learning and Online Teaching (MERLOT)](https://www.merlot.org/merlot/index.htm)
-  MERLOT is a curated collection of free and open online teaching, learning, and faculty development services
-  contributed and used by an international education community.
+  MERLOT is a curated collection of free and open online teaching, learning, and faculty development resources and
+  services contributed and used by an international education community.
 * [OER Commons](https://www.oercommons.org/)
   OER Commons is a public digital library of open educational resources. Explore, create, and collaborate with educators
   around the world to improve curriculum.
-* [OER Pub](https://oerpub.org/)
-  OERPub is creating innovative open-source tools for authoring, adapting, remixing and publishing open education
-  resources and then delivering them to the web, mobile, tablet and print.
 * [Open Education Consortium](http://www.oeconsortium.org/)
   A global network of educational institutions, individuals and organizations that support an approach to education
   based on openness, including collaboration, innovation and collective development and use of open educational
   materials. The Open Education Consortium is a non-profit, social benefit organization registered in the United States
   and operating worldwide.
-* [The Orange Grove](https://florida.theorangegrove.org/og/home.do)
-  Florida’s open educational resource repository.

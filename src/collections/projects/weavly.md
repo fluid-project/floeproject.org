@@ -1,8 +1,9 @@
 ---
 title: Weavly
-order: 7
+date: "2021-05-16"
+order: 5
 tags:
   - featured
-  - Inclusive Technology for Learning
+  - active
 ---
 [Weavly](https://weavly.org/) is an accessible and customizable coding environment co-designed with kids with complex disabilities.

@@ -1,10 +1,21 @@
 @font-face {
     font-display: swap;
     font-family: "Literata";
+    font-style: normal;
     font-weight: 200 900;
     src:
         url("../fonts/Literata-VariableFont_opsz,wght.woff2") format('woff2-variations'),
         url("../fonts/Literata-VariableFont_opsz,wght.woff2") format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Literata";
+    font-style: italic;
+    font-weight: 200 900;
+    src:
+        url("../fonts/Literata-Italic-VariableFont_opsz,wght.woff2") format('woff2-variations'),
+        url("../fonts/Literata-Italic-VariableFont_opsz,wght.woff2") format('woff2');
 }
 
 @font-face {
@@ -163,6 +174,7 @@ main {
 main header h1 {
     font-size: 3.125rem;
     font-weight: 800;
+    line-height: 5rem;
     margin: 2rem 0;
     text-transform: lowercase;
 }
@@ -382,7 +394,26 @@ aside h2 {
     letter-spacing: 0.02rem;
     line-height: 2rem;
     margin-top: 4rem;
-    padding: 2rem 0;
+    padding: 3.25rem 1rem;
+}
+
+.site-footer .footer-grid {
+    display: grid;
+    grid-template-columns: minmax(1fr, 40.1875rem);
+    row-gap: 2.625rem;
+}
+
+.site-footer .footer-grid p:first-child {
+    margin-block-start: 0;
+}
+
+.site-footer .footer-grid p:last-child,
+.site-footer .footer-grid .netlify {
+    margin-block: 0;
+}
+
+.site-footer .footer-grid .floe p:last-of-type {
+    margin-block-start: 0;
 }
 
 .site-footer a {
@@ -391,11 +422,6 @@ aside h2 {
 
 .site-footer strong {
     font-weight: 800;
-}
-
-.site-footer .wrapper {
-    margin: 0 1rem 2rem 1rem;
-    width: auto;
 }
 
 .site-footer svg {
@@ -744,6 +770,18 @@ aside h2 {
     margin-block: 0.875rem 3.125rem;
 }
 
+.page-index .content {
+    line-height: 2.25rem;
+}
+
+.page-index .content em {
+    font-weight: 700;
+}
+
+.page-index .content p {
+    margin-block: 1.5rem;
+}
+
 .page-index .news,
 .page-index .featured-projects {
     border-block-start: 0.5rem solid;
@@ -775,7 +813,7 @@ aside h2 {
 }
 
 .page-index .featured-projects {
-    border-block-start-color: var(--fl-fgColor, var(--projectsCornerShadow));
+    border-block-start-color: var(--fl-fgColor, var(--resourcesCornerShadow));
 }
 
 .page-index .featured-projects .grid-layout {
@@ -788,7 +826,8 @@ aside h2 {
 
 @media all and (min-width: 40rem) {
     main header h1 {
-        font-size: 4rem;
+        font-size: 4.5rem;
+        margin-block: 8.25rem 7.1875rem;
     }
 
     .fl-prefsEditor-separatedPanel {
@@ -802,11 +841,16 @@ aside h2 {
     }
 
     .site-header .wrapper {
-        padding-inline: 1rem;
+        padding-inline: 0;
     }
 
     .site-header-org {
         padding-block-start: 2.1rem;
+    }
+
+    .site-header-org,
+    .site-header-nav {
+        padding-inline: 1rem;
     }
 
     .site-header-org > * {
@@ -865,40 +909,16 @@ aside h2 {
         content: none;
     }
 
-    .site-footer {
-        margin-top: 6rem;
-        padding-inline: 1rem;
-    }
-
     .site-footer .footer-grid {
-        display: grid;
-        grid-gap: 2rem;
-        margin: 0 auto;
-        max-width: 64rem;
+        column-gap: 5.25rem;
+        grid-template-columns: minmax(1fr, 40.1875rem) 1fr;
     }
 
-    .site-footer .wrapper {
-        margin: 0;
-    }
-
-    .site-footer .wrapper.floe {
-        grid-column: 1;
-        grid-row: 1;
-    }
-
-    .site-footer .wrapper.netlify {
-        grid-column: 1;
-        grid-row: 2;
-    }
-
-    .site-footer .wrapper.cc {
-        grid-column: 1;
-        grid-row: 3;
-    }
-
-    .site-footer .wrapper.orgs {
-        align-self: center;
+    .site-footer .footer-grid .orgs {
+        align-self: start;
         grid-column: 2;
-        grid-row: span 3;
+        grid-row-end: span 3;
+        grid-row-start: 1;
+        padding-block-start: 3rem;
     }
 }
