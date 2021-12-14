@@ -849,7 +849,8 @@ aside h2 {
 }
 
 .page-index .featured-projects .grid-layout {
-    grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
+    grid-column-gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(20.5rem, 100%), 1fr));
 }
 
 .page-index .featured-projects a {
@@ -955,7 +956,7 @@ aside h2 {
     }
 
     .site-footer .footer-grid {
-        column-gap: 5.25rem;
+        column-gap: 7.875rem;
         grid-template-columns: minmax(1fr, 40.1875rem) 1fr;
     }
 
