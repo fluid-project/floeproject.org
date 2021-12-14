@@ -497,6 +497,7 @@ aside h2 {
     font-variant: small-caps;
     letter-spacing: 0.08rem;
     line-height: var(--fl-lineSpace, 1.375rem);
+    text-align: center;
     text-transform: uppercase;
 }
 
