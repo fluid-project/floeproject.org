@@ -875,8 +875,11 @@ aside h2 {
     font-weight: 600;
 }
 
-.page-index .featured-projects a:not(.page-index .more-link a):hover,
-.page-index .featured-projects a:not(.page-index .more-link a):focus {
+/* this rule only applies when no contrast themes are active */
+.page-index.fl-theme-prefsEditor-default .featured-projects a:not(.page-index .more-link a):hover,
+.page-index.fl-theme-prefsEditor-default .featured-projects a:not(.page-index .more-link a):focus,
+.page-index:not([class*="fl-theme-"]) .featured-projects a:not(.page-index .more-link a):hover,
+.page-index:not([class*="fl-theme-"]) .featured-projects a:not(.page-index .more-link a):focus {
     background-color: var(--fl-bgColor, var(--headerOrgBGColor));
     outline: none;
     padding-block-end: 0.15rem;
