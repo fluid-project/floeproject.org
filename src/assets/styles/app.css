@@ -891,10 +891,6 @@ aside h2 {
     position: relative;
 }
 
-.page-index .content p {
-    width: calc(100% - 31rem);
-}
-
 .page-index .content svg {
     height: 40rem;
     position: absolute;
@@ -903,28 +899,12 @@ aside h2 {
     width: 31rem;
 }
 
-.page-index main header {
-    width: calc(100% - 31rem);
+.page-index .intro section {
+    margin-block-start: 1.125rem;
 }
 
-.fleur-small-circle {
-    fill: var(--fleurSmallCircleFillColor);
-}
-
-.fleur-small-circle-outline {
-    fill: var(--fleurSmallCircleOutlineColor);
-}
-
-.fleur-large-circle {
-    fill: var(--fleurLargeCircleFillColor);
-}
-
-.fleur-large-circle-outline {
-    fill: var(--fleurLargeCircleOutlineColor);
-}
-
-.fleur-plant {
-    fill: var(--fleurPlantColor);
+.floe-fleur {
+    display: none;
 }
 
 .page-projects {
@@ -939,7 +919,7 @@ aside h2 {
 
     .page-index main header h1 {
         font-size: 4.5rem;
-        margin-block: 8.25rem 7.1875rem;
+        margin-block: 8.25rem 4.5625rem;
     }
 
     .page-index .content {
@@ -1027,6 +1007,44 @@ aside h2 {
 
     #content figure {
         margin: revert;
+    }
+
+    .page-index main header h1 {
+        width: 55%;
+    }
+
+    .page-index .intro {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .page-index .content {
+        flex-grow: 2;
+    }
+
+    .floe-fleur {
+        display: block;
+        margin-block-start: calc(max(100%, 64rem) / -3);
+    }
+
+    .fleur-small-circle {
+        fill: var(--fleurSmallCircleFillColor);
+    }
+
+    .fleur-small-circle-outline {
+        fill: var(--fleurSmallCircleOutlineColor);
+    }
+
+    .fleur-large-circle {
+        fill: var(--fleurLargeCircleFillColor);
+    }
+
+    .fleur-large-circle-outline {
+        fill: var(--fleurLargeCircleOutlineColor);
+    }
+
+    .fleur-plant {
+        fill: var(--fleurPlantColor);
     }
 
     .site-footer .footer-grid {

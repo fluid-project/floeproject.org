@@ -4,10 +4,13 @@
 
 {% block content %}
     <div id="content" class="index-content">
-        <section class="content">
-            {{ content | safe }}
+        <div class="intro">
+            <section class="content">
+                {{ content | safe }}
+            </section>
+
             {% svg_sprite "fleur" %}
-        </section>
+        </div>
 
         <section class="news">
             <h2>News</h2>
