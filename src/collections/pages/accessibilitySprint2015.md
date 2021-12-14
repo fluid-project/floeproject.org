@@ -4,6 +4,7 @@ title: OER ACCESSIBILITY SPRINT
 slug: accessibility-sprint-2015
 notice: |
     This page was originally created for an event hosted by the IDRC and has been preserved for archival purposes only.
+permalink: false
 ---
 
 <time datetime="2015-02-25">February 25</time> - <time datetime="2015-02-27">27, 2015</time>
