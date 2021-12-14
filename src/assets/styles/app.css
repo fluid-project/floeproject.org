@@ -830,6 +830,10 @@ aside h2 {
 
 @media all and (min-width: 40rem) {
     main header h1 {
+        font-size: 4rem;
+    }
+    
+    .page-index main header h1 {
         font-size: 4.5rem;
         margin-block: 8.25rem 7.1875rem;
     }
