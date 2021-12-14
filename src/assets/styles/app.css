@@ -39,16 +39,16 @@ body {
     --headerFooterBGColor: var(--fl-bgColor, #003749);
     --headerFooterLinkColor: var(--fl-linkColor, var(--fl-fgColor, #fff));
     --headerOrgColor: var(--fl-fgColor, #000);
-    --headerOrgBGColor: var(--fl-bgColor, #fcde49);
+    --headerOrgBGColor: var(--fl-bgColor, #fdf664);
     --mainBackground: var(--fl-bgColor, #fff);
     --mainColor: var(--fl-fgColor, #000);
     --mainLinkColor: var(--fl-linkColor, var(--fl-fgColor, #275287));
     --menuExpandedColor: var(--fl-fgColor, #003749);
     --menuExpandedBGColor: var(--fl-bgColor, #fff);
-    --projectsBGColor: var(--fl-bgColor, #f2f0dc);
-    --projectsCornerShadow: var(--fl-bgColor, #b7ad55);
+    --projectsBGColor: var(--fl-bgColor, #fffde4);
+    --projectsCornerShadow: var(--fl-bgColor, #f0ec96);
     --newsBGColor: var(--fl-bgColor, #e7f0f3);
-    --newsCornerShadow: var(--fl-bgColor, #aaccdc);
+    --newsCornerShadow: var(--fl-bgColor, #a9ccdc);
     --resourcesBGColor: var(--fl-bgColor, #e8f3e7);
     --resourcesBorderColor: var(--fl-fgColor, #bcdca9);
 
@@ -483,6 +483,7 @@ aside h2 {
     color: var(--fl-linkColor, var(--mainColor));
 }
 
+.page-post time,
 .post time {
     align-self: center;
     font-feature-settings: 'pnum' on, 'lnum' on, 'ss03' on;
@@ -526,7 +527,7 @@ aside h2 {
 
 .posts-news .corner-effect:focus-within,
 .posts-news .corner-effect:hover {
-    box-shadow: 0 0 0 10px var(--fl-linkColor, var(--newsCornerShadow)) inset;
+    box-shadow: 0 0 0 0.625rem var(--fl-linkColor, var(--newsCornerShadow)) inset;
 }
 
 .posts-news .corner-effect::after {
@@ -831,11 +832,11 @@ aside h2 {
 }
 
 .page-index .featured-projects {
-    border-block-start-color: var(--fl-fgColor, var(--resourcesCornerShadow));
+    border-block-start-color: var(--fl-fgColor, var(--projectsCornerShadow));
 }
 
 .page-index .featured-projects .grid-layout {
-    grid-template-columns: repeat(auto-fill, minmax(min(45%, 100%), 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
 }
 
 .page-index .featured-projects a {
