@@ -9,6 +9,8 @@
            {% include "partials/components/projects-item.njk" %}
         {% endfor %}
     </ul>
-
+    
+    {% set paginationPreviousText = "Prev" %}
+    {% set paginationNextText = "Next" %}
     {% include "partials/components/pagination.njk" %}
 {% endblock %}

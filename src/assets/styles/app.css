@@ -262,10 +262,16 @@ aside h2 {
 }
 
 .site-header a:focus,
-.site-footer a:focus,
 .site-header button:focus,
 .site-header button:hover {
     outline: 0.2rem solid currentColor;
+}
+
+.site-footer a:focus,
+.site-footer a:hover {
+    background-color: var(--headerFooterColor);
+    color: var(--headerFooterBGColor);
+    outline: none;
 }
 
 .site-header-org {
@@ -294,7 +300,7 @@ aside h2 {
     color: inherit;
     display: inline-block;
     font-weight: bold;
-    padding-block: 1.28125rem;
+    margin-block: 1.28125rem;
     text-decoration: none;
     text-transform: lowercase;
 }
@@ -477,7 +483,7 @@ aside h2 {
     text-decoration: none;
 }
 
-.page-post time,
+.page-post header time,
 .post time {
     align-self: center;
     font-feature-settings: 'pnum' on, 'lnum' on, 'ss03' on;
@@ -558,6 +564,14 @@ aside h2 {
 #content {
     font-size: 1.25rem;
     line-height: 1.85rem;
+}
+
+#content figure {
+    margin: 1rem;
+}
+
+#content img {
+    max-width: 100%;
 }
 
 .resources-buttons {
@@ -861,6 +875,13 @@ aside h2 {
     font-weight: 600;
 }
 
+.page-index .featured-projects a:not(.page-index .more-link a):hover,
+.page-index .featured-projects a:not(.page-index .more-link a):focus {
+    background-color: var(--fl-bgColor, var(--headerOrgBGColor));
+    outline: none;
+    padding-block-end: 0.15rem;
+}
+
 .page-projects {
     background: var(--fl-bgColor, var(--projectsBGColor));
 }
@@ -949,7 +970,7 @@ aside h2 {
     }
 
     .site-nav-list a[aria-current="page"] {
-        border-bottom: 0.125rem solid currentColor;
+        border-bottom: 0.625rem solid currentColor;
         font-weight: var(--fl-enhance-font-weight, normal);
         margin-left: 0;
         padding-inline-start: 0;
@@ -957,6 +978,10 @@ aside h2 {
 
     .site-nav-list a[aria-current="page"]::before {
         content: none;
+    }
+
+    #content figure {
+        margin: revert;
     }
 
     .site-footer .footer-grid {
