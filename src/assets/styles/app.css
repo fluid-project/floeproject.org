@@ -96,6 +96,10 @@ code {
     text-transform: initial;
 }
 
+.small-caps {
+    font-variant: small-caps;
+}
+
 .inline-list {
     list-style: none;
     padding: 0;

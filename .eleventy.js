@@ -55,6 +55,13 @@ module.exports = function (config) {
     config.addShortcode("svg_sprite", function (sprite) {
         return `<svg class="floe-${sprite}" aria-hidden="true"><use xlink:href="/assets/images/sprites.svg#${sprite}"></use></svg>`;
     });
+    config.addShortcode("small_caps", function (text, toReplace) {
+        toReplace.split(",").forEach(substr => {
+            let regExp = new RegExp(substr.trim(), "g");
+            text = text.replace(regExp, `<span class="small-caps">${substr}</span>`);
+        });
+        return text;
+    });
 
     // Transforms
     config.addTransform("htmlmin", htmlMinTransform);
