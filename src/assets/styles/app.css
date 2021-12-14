@@ -51,6 +51,11 @@ body {
     --newsCornerShadow: var(--fl-bgColor, #aaccdc);
     --resourceItemBGColor: var(--fl-bgColor, #fafafa);
     --resourceItemBorderColor: var(--fgColor, #b2b2b2);
+    --fleurSmallCircleFillColor: var(--fl-bgColor, #deeed5);
+    --fleurSmallCircleOutlineColor: var(--fl-fgColor, #deeed5);
+    --fleurLargeCircleFillColor: var(--fl-bgColor, #f0eb96);
+    --fleurLargeCircleOutlineColor: var(--fl-fgColor, #f0eb96);
+    --fleurPlantColor: var(--fl-fgColor, #00394c);
 
     background-color: var(--mainBackground);
     color: var(--mainColor);
@@ -812,4 +817,44 @@ aside {
 
 .page-index .featured-projects a {
     font-weight: 600;
+}
+
+.page-index .floe-description {
+    position: relative;
+}
+
+.page-index .floe-description p {
+    width: calc(100% - 31rem);
+}
+
+.page-index .floe-description svg {
+    height: 40rem;
+    position: absolute;
+    right: 0;
+    top: -23rem;
+    width: 31rem;
+}
+
+.page-index main header {
+    width: calc(100% - 31rem);
+}
+
+.fleur-small-circle {
+    fill: var(--fleurSmallCircleFillColor);
+}
+
+.fleur-small-circle-outline {
+    fill: var(--fleurSmallCircleOutlineColor);
+}
+
+.fleur-large-circle {
+    fill: var(--fleurLargeCircleFillColor);
+}
+
+.fleur-large-circle-outline {
+    fill: var(--fleurLargeCircleOutlineColor);
+}
+
+.fleur-plant {
+    fill: var(--fleurPlantColor);
 }
