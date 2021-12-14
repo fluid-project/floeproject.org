@@ -169,7 +169,7 @@ https://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/
 /* Blocks */
 
 main {
-    padding-inline: 1.5rem;
+    padding-inline: 24px;
 }
 
 main header h1 {
@@ -258,7 +258,7 @@ aside h2 {
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    padding-inline: 1.5rem;
+    padding-inline: 24px;
 }
 
 .site-header a {
@@ -285,8 +285,8 @@ aside h2 {
     font-size: 0.75rem;
     font-weight: 600;
     line-height: var(--fl-lineSpace, 1rem);
-    padding-block-start: 1rem;
     padding-block-end: 0.5rem;
+    padding-block-start: 1rem;
 }
 
 .site-header-org > * {
@@ -402,7 +402,7 @@ aside h2 {
     letter-spacing: 0.02rem;
     line-height: var(--fl-lineSpace, 2rem);
     margin-top: 5.75rem;
-    padding: 3.25rem 1.5rem;
+    padding: 3.25rem 24px;
 }
 
 .site-footer .footer-grid {
@@ -978,7 +978,7 @@ aside h2 {
 
     .site-header-org,
     .site-header-nav {
-        padding-inline: 1.5rem;
+        padding-inline: 24px;
     }
 
     .site-header-org > * {
