@@ -52,8 +52,10 @@ module.exports = function (config) {
     config.addFilter("dateFilter", dateFilter);
 
     // Shortcodes
-    config.addShortcode("svg_sprite", function (sprite) {
-        return `<svg class="floe-${sprite}" aria-hidden="true"><use xlink:href="/assets/images/sprites.svg#${sprite}"></use></svg>`;
+    config.addShortcode("svg_sprite", function (sprite, altText, ariaHidden = true) {
+        const altTextMarkup = altText ? `<title>${altText}</title>` : "";
+        const ariaHiddenMarkup = ariaHidden ? " aria-hidden=\"true\"" : "";
+        return `<svg class="floe-${sprite}"${ariaHiddenMarkup}>${altTextMarkup}<use xlink:href="/assets/images/sprites.svg#${sprite}"></use></svg>`;
     });
     config.addShortcode("small_caps", function (text, toReplace) {
         toReplace.split(",").forEach(substr => {
