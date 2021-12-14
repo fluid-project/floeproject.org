@@ -168,7 +168,7 @@ https://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/
 /* Blocks */
 
 main {
-    padding: 0 1.5rem;
+    padding: 0 24px;
 }
 
 main header h1 {
@@ -257,7 +257,7 @@ aside h2 {
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    padding: 0 1.5rem;
+    padding: 0 24px;
 }
 
 .site-header a {
@@ -959,7 +959,7 @@ aside h2 {
 
     .site-header-org,
     .site-header-nav {
-        padding: 0 1.5rem;
+        padding: 0 24px;
     }
 
     .site-header-org > * {
