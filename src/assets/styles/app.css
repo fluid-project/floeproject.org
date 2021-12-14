@@ -938,26 +938,6 @@ aside h2 {
         margin-block-start: calc(max(100%, 64rem) / -3);
     }
 
-    .fleur-small-circle {
-        fill: var(--fleurSmallCircleFillColor);
-    }
-
-    .fleur-small-circle-outline {
-        fill: var(--fleurSmallCircleOutlineColor);
-    }
-
-    .fleur-large-circle {
-        fill: var(--fleurLargeCircleFillColor);
-    }
-
-    .fleur-large-circle-outline {
-        fill: var(--fleurLargeCircleOutlineColor);
-    }
-
-    .fleur-plant {
-        fill: var(--fleurPlantColor);
-    }
-
     .fl-prefsEditor-separatedPanel {
         /* Solves an overlap issue between the header and the UIO buttons */
         position: relative;
