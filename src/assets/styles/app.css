@@ -128,18 +128,6 @@ https://codepen.io/MacintoshRobinson/pen/ZEzJvdo
     width: 2.5rem;
 }
 
-.screen-reader-only {
-    border-width: 0;
-    clip: rect(0, 0, 0, 0);
-    height: 0.0625rem;
-    margin: -0.0625rem;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    white-space: nowrap;
-    width: 0.0625rem;
-}
-
 .card-layout {
     cursor: pointer;
     font-size: 1.125rem;
@@ -481,6 +469,8 @@ aside h2 {
 
 .post a {
     color: var(--fl-linkColor, var(--mainColor));
+    font-weight: var(--fl-enhance-font-weight, 700);
+    text-decoration: none;
 }
 
 .page-post time,
@@ -494,12 +484,20 @@ aside h2 {
     text-transform: uppercase;
 }
 
-.posts-projects .corner-effect {
-    background-color: var(--projectsBGColor);
-    clip-path: polygon(0 0, 0 100%, calc(100% - 2.5rem) 100%, 100% calc(100% - 1.5rem), 100% 0);
+.posts-projects {
+    align-items: start;
 }
 
-.posts-projects .corner-effect:focus-within {
+.posts-projects .corner-effect {
+    background-color: var(--mainBackground);
+    box-shadow: 0 0 0 2px var(--fl-linkColor, var(--projectsCornerShadow)) inset;
+    clip-path: polygon(0 0, 0 100%, calc(100% - 2.5rem) 100%, 100% calc(100% - 1.5rem), 100% 0);
+    display: block;
+    min-height: unset;
+}
+
+.posts-projects .corner-effect:focus-within,
+.posts-projects .corner-effect:hover {
     box-shadow: 0 0 0 10px var(--fl-linkColor, var(--projectsCornerShadow)) inset;
 }
 
@@ -509,8 +507,16 @@ aside h2 {
     right: 0;
 }
 
-.posts-resources .corner-effect:focus-within::after {
+.posts-projects .corner-effect:focus-within::after {
     background-color: var(--fl-linkColor, var(--projectsCornerShadow));
+}
+
+.posts-projects .corner-effect a:hover {
+    outline: none;
+}
+
+.posts-projects .corner-effect p {
+    margin-block-start: 0;
 }
 
 .posts-news .corner-effect {
@@ -558,6 +564,7 @@ aside h2 {
     background: var(--fl-buttonBgColor, var(--mainBackground));
     border: 1px solid var(--fl-fgColor, var(--mainColor));
     color: var(--fl-buttonFgColor, var(--mainColor));
+    cursor: pointer;
     font-size: 0.875rem;
     font-weight: var(--fl-enhance-font-weight, 600);
     line-height: 1.375rem;
@@ -624,7 +631,8 @@ aside h2 {
     transform: rotate(90deg);
 }
 
-.resources-main .resources-category {
+.resources-main .resources-category button {
+    cursor: pointer;
     margin-block-end: 1.25rem;
 }
 
@@ -841,6 +849,10 @@ aside h2 {
 
 .page-index .featured-projects a {
     font-weight: 600;
+}
+
+.page-projects {
+    background: var(--fl-bgColor, var(--projectsBGColor));
 }
 
 @media all and (min-width: 40rem) {
