@@ -85,8 +85,7 @@ code {
     border-radius: 0.5rem;
     font-size: 1.1rem;
     line-height: var(--fl-lineSpace, 1.5rem);
-    padding-block: 0.2rem;
-    padding-inline: 0.5rem;
+    padding: 0.2rem 0.5rem;
 }
 
 /* Utilities */
@@ -149,7 +148,7 @@ https://codepen.io/MacintoshRobinson/pen/ZEzJvdo
     font-size: 1.5rem;
     font-weight: var(--fl-enhance-font-weight, 800);
     line-height: var(--fl-lineSpace, 1.875rem);
-    margin-block: 1rem;
+    margin: 1rem 0;
     text-align: center;
     text-decoration: none;
 }
@@ -169,7 +168,7 @@ https://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/
 /* Blocks */
 
 main {
-    padding-inline: 24px;
+    padding: 0 1.5rem;
 }
 
 main header h1 {
@@ -258,7 +257,7 @@ aside h2 {
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    padding-inline: 24px;
+    padding: 0 1.5rem;
 }
 
 .site-header a {
@@ -306,7 +305,7 @@ aside h2 {
     color: inherit;
     display: inline-block;
     font-weight: bold;
-    margin-block: 1.28125rem;
+    margin: 1.28125rem 0;
     text-decoration: none;
     text-transform: lowercase;
 }
@@ -417,7 +416,7 @@ aside h2 {
 
 .site-footer .footer-grid p:last-child,
 .site-footer .footer-grid .netlify {
-    margin-block: 0;
+    margin: 0;
 }
 
 .site-footer .footer-grid .floe p:last-of-type {
@@ -455,7 +454,7 @@ aside h2 {
 }
 
 .site-footer .floe-logo-idrc-wordmark {
-    margin-block: 1rem;
+    margin: 1rem 0;
     max-width: 14rem;
     width: 100%;
 }
@@ -581,7 +580,7 @@ aside h2 {
 }
 
 .resources-buttons {
-    margin-block: 1.5rem;
+    margin: 1.5rem 0;
 }
 
 .resources-buttons button {
@@ -690,7 +689,7 @@ aside h2 {
     font-size: var(--fl-enhance-font-size, 1.25rem);
     font-weight: var(--fl-enhance-font-weight, 700);
     line-height: var(--fl-lineSpace, 1.625rem);
-    margin-block: 1.5rem 1rem;
+    margin: 1.5rem 0 1rem 0;
     text-underline-position: from-font;
 }
 
@@ -812,7 +811,7 @@ aside h2 {
 /* page specific styling */
 
 .page-index main header h1 {
-    margin-block: 4rem;
+    margin: 4rem 0;
     text-transform: none;
 }
 
@@ -820,7 +819,7 @@ aside h2 {
     font-size: 2.25rem;
     font-weight: 800;
     line-height: var(--fl-lineSpace, 2.5rem);
-    margin-block: 0.9375rem 3.3125rem;
+    margin: 0.9375rem 0 3.3125rem 0;
 }
 
 .page-index .content {
@@ -833,7 +832,7 @@ aside h2 {
 
 .page-index .content p {
     font-size: var(--fl-enhance-font-size, 1.5rem);
-    margin-block: 1.5rem;
+    margin: 1.5rem 0;
 }
 
 .page-index .news,
@@ -921,7 +920,7 @@ aside h2 {
 
     .page-index main header h1 {
         font-size: 4.5rem;
-        margin-block: 8.25rem 4.5625rem;
+        margin: 8.25rem 0 4.5625rem 0;
         width: 55%;
     }
 
@@ -951,7 +950,7 @@ aside h2 {
     }
 
     .site-header .wrapper {
-        padding-inline: 0;
+        padding: 0;
     }
 
     .site-header-org {
@@ -960,7 +959,7 @@ aside h2 {
 
     .site-header-org,
     .site-header-nav {
-        padding-inline: 24px;
+        padding: 0 1.5rem;
     }
 
     .site-header-org > * {
@@ -977,8 +976,7 @@ aside h2 {
         background-color: var(--headerFooterBGColor);
         border-bottom: none;
         display: block !important; /* Need important to beat specificy of narrow screen menu style */
-        margin-block: 1rem;
-        margin-inline: 0;
+        margin: 1rem 0;
         position: initial;
         width: auto;
     }
