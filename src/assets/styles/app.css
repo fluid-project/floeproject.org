@@ -920,8 +920,8 @@ aside h2 {
     }
 
     .page-index .content {
-        line-height: 2.25rem;
         flex-grow: 2;
+        line-height: 2.25rem;
     }
 
     .page-index .intro {
