@@ -6,7 +6,7 @@ eleventyNavigation:
     order: 3
 pagination:
   data: collections.projects
-  size: 6
+  size: 9
   alias: posts
 permalink: "/{{ title | slug }}/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1}}/{% endif %}"
 ---

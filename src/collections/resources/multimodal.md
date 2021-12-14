@@ -17,8 +17,8 @@ these possibilities in envisioning, building and evolving tools for learning to 
   building inclusive experiences and shifting perceptions.
 * [Nexus Science Lab Video (2017)](https://youtu.be/NNwc0VYRhUU)
   See how sensors commonly found in a science lab can be connected to accessible, sonified graphs using the
-  [Nexus, a system that connects disparate technologies](https://wiki.gpii.net/w/Nexus_API), enabling new and inclusive
-  interactions that can be used to visualize and sonify data as it is gathered.
+  [Nexus, a system that connects disparate technologies](https://wiki.fluidproject.org/display/fluid/Nexus+API),
+  enabling new and inclusive interactions that can be used to visualize and sonify data as it is gathered.
 * [Nexus Inclusive Music Creation Video (2016)](https://youtu.be/7R_pz2Fz4qE)
   See a demonstration of the Nexus being used to inclusively create music using various inputs including a head tracker.
 * [Sonification](https://wiki.fluidproject.org/display/fluid/%28Floe%29+Sonification) is the audio representation of
