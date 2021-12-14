@@ -160,13 +160,13 @@ https://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/
 /* Blocks */
 
 main {
-    padding-inline: 1rem;
+    padding-inline: 1.5rem;
 }
 
 main header h1 {
-    font-size: 3.125rem;
+    font-size: 3rem;
     font-weight: 800;
-    line-height: 5rem;
+    line-height: 3.4375rem;
     margin: 2rem 0;
     text-transform: lowercase;
 }
@@ -385,8 +385,8 @@ aside h2 {
     font-weight: 600;
     letter-spacing: 0.02rem;
     line-height: 2rem;
-    margin-top: 4rem;
-    padding: 3.25rem 1rem;
+    margin-top: 5.75rem;
+    padding: 3.25rem 1.5rem;
 }
 
 .site-footer .footer-grid {
@@ -548,7 +548,7 @@ aside h2 {
 }
 
 .index-content section {
-    margin: 3rem 0;
+    margin-block-start: 2.175rem;
 }
 
 #content {
@@ -794,11 +794,12 @@ aside h2 {
 .page-index h2 {
     font-size: 2.25rem;
     font-weight: 800;
-    margin-block: 0.875rem 3.125rem;
+    line-height: 2.5rem;
+    margin-block: 0.9375rem 3.3125rem;
 }
 
 .page-index .content {
-    line-height: 2.25rem;
+    line-height: 2rem;
 }
 
 .page-index .content em {
@@ -812,6 +813,10 @@ aside h2 {
 .page-index .news,
 .page-index .featured-projects {
     border-block-start: 0.5rem solid;
+}
+
+.page-index .featured-projects h2 {
+    margin-block-end: 2.0625rem;
 }
 
 .page-index .news {
@@ -858,11 +863,16 @@ aside h2 {
 @media all and (min-width: 40rem) {
     main header h1 {
         font-size: 4rem;
+        line-height: 5rem;
     }
 
     .page-index main header h1 {
         font-size: 4.5rem;
         margin-block: 8.25rem 7.1875rem;
+    }
+
+    .page-index .content {
+        line-height: 2.25rem;
     }
 
     .fl-prefsEditor-separatedPanel {
@@ -885,7 +895,7 @@ aside h2 {
 
     .site-header-org,
     .site-header-nav {
-        padding-inline: 1rem;
+        padding-inline: 1.5rem;
     }
 
     .site-header-org > * {
