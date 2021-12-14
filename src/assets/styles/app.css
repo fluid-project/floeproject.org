@@ -84,13 +84,17 @@ code {
     padding-inline: 0.5rem;
 }
 
+/* Utilities */
+
 .wrapper {
     margin: 0 auto;
     max-width: 64rem;
     width: 100%;
 }
 
-/* Utilities */
+.capitalize-title h1 {
+    text-transform: initial;
+}
 
 .inline-list {
     list-style: none;
