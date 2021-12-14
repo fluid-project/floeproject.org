@@ -3,12 +3,12 @@
 {% set pageType = "page-resources" %}
 
 {% block content %}
-    {# <!-- Buttons to expand all or hide all -->
+    <!-- Buttons to expand all or hide all -->
     <div class="resources-buttons">
         <button class="resources-showAll">expand all</button>
         &nbsp;&nbsp;
         <button class="resources-hideAll">hide all</button>
-    </div> #}
+    </div>
 
     <ul id="content" class="resources-main">
         {% for resource in collections.resources %}
