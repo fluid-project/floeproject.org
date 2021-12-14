@@ -3,14 +3,11 @@ title: Learning to Learn
 excerpt: |
     We all learn differently. How can we develop greater understanding of our own learning needs and preferences, and
     learn to better understand the learning needs and preferences of others?
+permalink: false
 ---
 
 We all learn differently. How can we develop greater understanding of our own learning needs and preferences, and learn
 to better understand the learning needs and preferences of others?
-
-## Current Projects
-
-{% projects collections[title] %}
 
 ## Resources
 

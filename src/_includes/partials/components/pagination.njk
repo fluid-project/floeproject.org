@@ -1,0 +1,12 @@
+{% if pagination.pages.length > 1 %}
+    <nav aria-label="pagination">
+        <ol class="pagination inline-list">
+            {% if pagination.href.previous %}
+                <li class="pagination-previous"><a href="{{ pagination.href.previous }}">{{ paginationPreviousText }}</a></li>
+            {% endif %}
+            {% if pagination.href.next %}
+                <li class="pagination-next"><a href="{{ pagination.href.next }}">{{ paginationNextText }}</a></li>
+            {% endif %}
+        </ol>
+    </nav>
+{% endif %}

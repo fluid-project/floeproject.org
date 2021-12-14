@@ -55,3 +55,7 @@ If you make changes to the website, repeat the steps to build the image and star
 ### Apache License, Version 2.0 - [License text](https://www.apache.org/licenses/LICENSE-2.0)
 
 * [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+
+### Creative Commons - [Trademark usage policies](https://creativecommons.org/policies)
+
+* [Icons](https://creativecommons.org/about/downloads)

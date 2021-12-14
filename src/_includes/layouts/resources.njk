@@ -1,0 +1,33 @@
+{% extends "layouts/base.njk" %}
+
+{% set pageType = "page-resources" %}
+
+{% block content %}
+    <!-- Buttons to expand all or hide all -->
+    <div class="resources-buttons">
+        <button class="resources-showAll">expand all</button>
+        &nbsp;&nbsp;
+        <button class="resources-hideAll">hide all</button>
+    </div>
+
+    <ul id="content" class="resources-main">
+        {% for resource in collections.resources %}
+            <li class="resources-category">
+                <h2>
+                    <button aria-expanded="false" class="resources-toggleItem">
+                        <span class="resources-expand-icon" aria-hidden="true">
+                            {% svg_sprite "arrow" %}
+                        </span>
+                        <span class="resources-title">{{ resource.data.title | safe }}</span>
+                    </button>
+                </h2>
+                <div class="resources-content">
+                    {% if post.excerpt %}
+                        <p>{{ resource.data.excerpt | safe }}</p>
+                    {% endif %}
+                    {{ resource.data.content | safe }}
+                </div>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

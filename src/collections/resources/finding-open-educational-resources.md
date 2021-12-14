@@ -1,6 +1,7 @@
 ---
 title: Finding Open Educational Resources,
 excerpt: OER-specific resources, such as directories or authoring tools.
+permalink: false
 ---
 
 These sites offer OER-specific resources, such as directories or authoring tools.

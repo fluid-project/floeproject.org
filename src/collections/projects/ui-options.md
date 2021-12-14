@@ -1,7 +1,7 @@
 ---
 title: Learner Preferences and UI Options
 date: "2021-09-07"
-order: 4
+order: 6
 tags:
   - featured
   - active

@@ -1,8 +1,8 @@
 ---
-layout: layouts/posts
+layout: layouts/resources
 title: Resources
 sortAttr: "title"
 eleventyNavigation:
     key: Resources
-    order: 3
+    order: 4
 ---

@@ -1,6 +1,7 @@
 ---
 title: Privacy, Power and Autonomy
 excerpt: New technologies are impacting education, the economy and the wider world.
+permalink: false
 ---
 
 New technologies are impacting education, the economy and the wider world. How do we safeguard values such as privacy

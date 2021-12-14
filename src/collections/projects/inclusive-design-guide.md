@@ -1,7 +1,7 @@
 ---
 title: Inclusive Design Guide
 date: "2015-07-09"
-order: 1
+order: 3
 tags:
   - featured
 ---

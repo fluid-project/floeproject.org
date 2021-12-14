@@ -1,0 +1,16 @@
+{% extends "layouts/base.njk" %}
+
+{% set pageType = "page-projects" %}
+
+{% block content %}
+    <ul id="content" class="grid-layout posts-{{ eleventyNavigation.key | lower }}">
+        {# Featured Projects #}
+        {% for project in posts %}
+           {% include "partials/components/projects-item.njk" %}
+        {% endfor %}
+    </ul>
+    
+    {% set paginationPreviousText = "Prev" %}
+    {% set paginationNextText = "Next" %}
+    {% include "partials/components/pagination.njk" %}
+{% endblock %}
