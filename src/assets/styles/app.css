@@ -284,8 +284,9 @@ aside h2 {
     color: var(--headerOrgColor);
     font-size: 0.75rem;
     font-weight: 600;
-    line-height: var(--fl-lineSpace, 1.875rem);
+    line-height: var(--fl-lineSpace, 1rem);
     padding-block-start: 1rem;
+    padding-block-end: 0.5rem;
 }
 
 .site-header-org > * {
@@ -972,7 +973,7 @@ aside h2 {
     }
 
     .site-header-org {
-        padding-block-start: 2.1rem;
+        padding-block-start: 2.6rem;
     }
 
     .site-header-org,
