@@ -840,7 +840,7 @@ aside h2 {
 }
 
 .page-index .content p {
-    font-size: var(--fl-enhance-font-size, 1.5rem);
+    font-size: 1.5rem;
     margin-block: 0.75rem;
 }
 
