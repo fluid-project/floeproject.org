@@ -800,6 +800,10 @@ aside h2 {
     font-weight: 900;
 }
 
+.fl-input-enhanced .resources-main button .resources-title {
+    line-height: var(--fl-lineSpace, 2.75rem);
+}
+
 /* hide the colour filters used for theming images */
 .color-filters {
     height: 0;
