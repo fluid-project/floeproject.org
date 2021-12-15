@@ -275,8 +275,8 @@ aside h2 {
 
 .site-footer a:focus,
 .site-footer a:hover {
-    background-color: var(--headerFooterColor);
-    color: var(--headerFooterBGColor);
+    background-color: var(--fl-linkColor, var(--headerFooterColor));
+    color: var(--fl-bgColor, var(--headerFooterBGColor));
     outline: none;
 }
 
@@ -509,7 +509,7 @@ aside h2 {
 
 .posts-projects .corner-effect {
     background-color: var(--mainBackground);
-    box-shadow: 0 0 0 2px var(--fl-linkColor, var(--projectsCornerShadow)) inset;
+    box-shadow: 0 0 0 2px var(--fl-fgColor, var(--projectsCornerShadow)) inset;
     clip-path: polygon(0 0, 0 100%, calc(100% - 2.5rem) 100%, 100% calc(100% - 1.5rem), 100% 0);
     display: block;
     min-height: unset;
@@ -526,7 +526,8 @@ aside h2 {
     right: 0;
 }
 
-.posts-projects .corner-effect:focus-within::after {
+.posts-projects .corner-effect:focus-within::after,
+.posts-projects .corner-effect:hover::after {
     background-color: var(--fl-linkColor, var(--projectsCornerShadow));
 }
 
@@ -547,7 +548,12 @@ aside h2 {
 .posts-news .corner-effect:hover a {
     background-color: var(--fl-linkColor, var(--newsCornerShadow));
     color: var(--fl-bgColor);
-    outline: none;
+}
+
+.posts-news .corner-effect a:focus,
+.posts-news .corner-effect a:hover {
+    background-color: var(--fl-linkColor, var(--newsCornerShadow));
+    padding-block-end: 0;
 }
 
 .posts-news .corner-effect:focus-within,
@@ -566,21 +572,25 @@ aside h2 {
     background-color: var(--fl-linkColor, var(--newsCornerShadow));
 }
 
-.index-content section {
-    margin-block-start: 2.175rem;
-}
-
-#content {
+.content {
     font-size: 1.25rem;
     line-height: calc(var(--fl-lineSpace-factor, 1) * 1.48);
 }
 
-#content figure {
+.content figure {
     margin: 1rem;
 }
 
-#content img {
+.content img {
     max-width: 100%;
+}
+
+.content a:hover,
+.content a:focus {
+    background-color: var(--fl-linkColor, var(--headerOrgBGColor));
+    color: var(--fl-bgColor);
+    outline: none;
+    padding-block-end: 0.15rem;
 }
 
 .resources-buttons {
@@ -690,11 +700,14 @@ aside h2 {
 
 .resources-main .resources-content ul li {
     font-size: var(--fl-enhance-font-size, 1.125rem);
-    margin-block-end: 0.5rem;
+    margin-block-end: 0.35rem;
 }
 
-.resources-main .resources-content ul li a:first-child {
-    display: block;
+.resources-main .resources-content ul li a {
+    padding-block-end: 0.15rem;
+}
+
+.resources-main .resources-content ul li > p:first-child a {
     font-size: var(--fl-enhance-font-size, 1.25rem);
     font-weight: var(--fl-enhance-font-weight, 700);
     line-height: calc(var(--fl-lineSpace-factor, 1) * 1.3);
@@ -831,24 +844,28 @@ aside h2 {
     margin-block: 0.9375rem 3.3125rem;
 }
 
-.page-index .content {
+.page-index .content section {
+    margin-block-start: 2.175rem;
+}
+
+.page-index .intro-content {
     line-height: calc(var(--fl-lineSpace-factor, 1) * 1.6);
 }
 
-.page-index .content em {
+.page-index .intro-content em {
     font-weight: 700;
 }
 
-.page-index .content p {
+.page-index .intro-content p {
     font-size: 1.5rem;
     margin-block: 0.75rem;
 }
 
-.page-index .content p:first-child {
+.page-index .intro-content p:first-child {
     margin-block-start: 0;
 }
 
-.page-index .content p:last-child {
+.page-index .intro-content p:last-child {
     margin-block-end: 0;
 }
 
@@ -877,6 +894,14 @@ aside h2 {
     text-decoration-line: underline;
 }
 
+.page-index .more-link a:focus,
+.page-index .more-link a:hover {
+    background-color: var(--fl-bgColor, inherit);
+    color: var(--fl-linkColor);
+    outline: 0.125rem solid var(--fl-linkColor, #000);
+    padding-block-end: 0;
+}
+
 .page-index .more-link > span {
     justify-self: end;
 }
@@ -899,16 +924,6 @@ aside h2 {
     font-weight: 600;
 }
 
-/* this rule only applies when no contrast themes are active */
-.page-index.fl-theme-prefsEditor-default .featured-projects a:not(.page-index .more-link a):hover,
-.page-index.fl-theme-prefsEditor-default .featured-projects a:not(.page-index .more-link a):focus,
-.page-index:not([class*="fl-theme-"]) .featured-projects a:not(.page-index .more-link a):hover,
-.page-index:not([class*="fl-theme-"]) .featured-projects a:not(.page-index .more-link a):focus {
-    background-color: var(--fl-bgColor, var(--headerOrgBGColor));
-    outline: none;
-    padding-block-end: 0.15rem;
-}
-
 .page-index .intro section {
     margin-block-start: 0;
 }
@@ -919,6 +934,14 @@ aside h2 {
 
 .page-projects {
     background: var(--fl-bgColor, var(--projectsBGColor));
+}
+
+.page-projects .content a:focus,
+.page-projects .content a:hover {
+    background-color: var(--fl-bgColor, inherit);
+    color: var(--fl-linkColor);
+    outline: 0.125rem solid var(--fl-linkColor, #000);
+    padding-block-end: 0;
 }
 
 @media all and (min-width: 40rem) {
@@ -933,7 +956,7 @@ aside h2 {
         width: 55%;
     }
 
-    .page-index .content {
+    .page-index .intro-content {
         flex-grow: 2;
         flex-shrink: 2;
         line-height: calc(var(--fl-lineSpace-factor, 1) * 1.3333);
@@ -1036,7 +1059,7 @@ aside h2 {
         content: none;
     }
 
-    #content figure {
+    .content figure {
         margin: revert;
     }
 

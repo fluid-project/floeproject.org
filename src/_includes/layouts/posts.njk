@@ -3,7 +3,7 @@
 {% set pageType = "page-posts" %}
 
 {% block content %}
-    <ul id="content" class="grid-layout posts-{{ eleventyNavigation.key | lower }}">
+    <ul id="content" class="content grid-layout posts-{{ eleventyNavigation.key | lower }}">
         {% set posts = collections.all | eleventyNavigation(eleventyNavigation.key) %}
         {% for post in posts |sort(reverseSort, true, sortAttr) %}
             <li class="card-layout post corner-effect">

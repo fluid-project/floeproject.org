@@ -3,7 +3,7 @@
 {% set pageType = "page-posts-paged" %}
 
 {% block content %}
-    <ul id="content" class="grid-layout posts-{{ eleventyNavigation.key | lower }}">
+    <ul id="content" class="content grid-layout posts-{{ eleventyNavigation.key | lower }}">
         {% for post in posts %}
             {% include "partials/components/news-item.njk" %}
         {% endfor %}
