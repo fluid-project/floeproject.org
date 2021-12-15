@@ -56,6 +56,7 @@ body {
     --fleurLargeCircleFillColor: var(--fl-bgColor, #f0eb96);
     --fleurLargeCircleOutlineColor: var(--fl-fgColor, #f0eb96);
     --fleurPlantColor: var(--fl-fgColor, #00394c);
+    --icon-arrowColor: var(--fl-buttonBgColor, #000);
 
     background-color: var(--mainBackground);
     color: var(--mainColor);
@@ -496,6 +497,7 @@ aside h2 {
     font-variant: small-caps;
     letter-spacing: 0.08rem;
     line-height: var(--fl-lineSpace, 1.375rem);
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -607,9 +609,9 @@ aside h2 {
 
 .resources-main button {
     align-items: stretch;
-    background-color: var(--resourcesBGColor);
+    background-color: var(--fl-buttonBgColor, var(--resourcesBGColor));
     border: none;
-    color: var(--mainColor);
+    color: var(--fl-buttonFgColor, var(--mainColor));
     display: flex;
     font-family: var(--fl-font-family, OpenSans, Open Sans, Arial, Helvetica, sans-serif);
     font-size: 1.375rem;
@@ -619,8 +621,13 @@ aside h2 {
     width: 100%;
 }
 
+.resources-main button:focus,
+.resources-main button:hover {
+    outline-color: var(--fl-buttonFgColor);
+}
+
 .resources-main button .resources-title {
-    border: 0.625rem solid var(--resourcesBGColor);
+    border: 0.625rem solid var(--fl-buttonBgColor, var(--resourcesBGColor));
     border-inline-start: none;
     padding: 0.25rem 1rem 0.25rem 0.5rem;
     text-align: start;
@@ -628,14 +635,14 @@ aside h2 {
 }
 
 .resources-main button.expanded .resources-title {
-    border: 0.625rem solid var(--resourcesBorderColor);
+    border: 0.625rem solid var(--fl-buttonFgColor, var(--resourcesBorderColor));
     border-inline-start: none;
     font-weight: var(--fl-enhance-font-weight, 700);
 }
 
 .resources-main button .resources-expand-icon {
     align-items: center;
-    background-color: var(--resourcesBorderColor);
+    background-color: var(--fl-buttonFgColor, var(--resourcesBorderColor));
     display: flex;
     font-size: var(--fl-enhance-font-size, 1.125rem);
     font-weight: var(--fl-enhance-font-weight, 800);
@@ -796,6 +803,10 @@ aside h2 {
 
 .fl-input-enhanced .card-title {
     font-weight: 900;
+}
+
+.fl-input-enhanced .resources-main button .resources-title {
+    line-height: var(--fl-lineSpace, 2.75rem);
 }
 
 /* hide the colour filters used for theming images */
