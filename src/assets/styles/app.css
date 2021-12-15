@@ -307,7 +307,7 @@ aside h2 {
     color: inherit;
     display: inline-block;
     font-weight: bold;
-    margin: 1.28125rem 0;
+    margin-block: 1.28125rem;
     text-decoration: none;
     text-transform: lowercase;
 }
@@ -418,7 +418,7 @@ aside h2 {
 
 .site-footer .footer-grid p:last-child,
 .site-footer .footer-grid .netlify {
-    margin: 0;
+    margin-block: 0;
 }
 
 .site-footer .footer-grid .floe p:last-of-type {
@@ -456,7 +456,7 @@ aside h2 {
 }
 
 .site-footer .floe-logo-idrc-wordmark {
-    margin: 1rem 0;
+    margin-block: 1rem;
     max-width: 14rem;
     width: 100%;
 }
@@ -584,7 +584,7 @@ aside h2 {
 }
 
 .resources-buttons {
-    margin: 1.5rem 0;
+    margin-block: 1.5rem;
 }
 
 .resources-buttons button {
@@ -929,7 +929,7 @@ aside h2 {
 
     .page-index main header h1 {
         font-size: 4.25rem;
-        margin: 8.25rem 0 5.75rem 0;
+        margin-block: 8.25rem 5.75rem;
         width: 55%;
     }
 
