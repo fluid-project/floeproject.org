@@ -62,7 +62,7 @@ body {
     color: var(--mainColor);
     font-family: var(--fl-font-family, Literata, Arial, Helvetica, sans-serif);
     font-optical-sizing: none;
-    line-height: var(--fl-lineSpace);
+    line-height: var(--fl-lineSpace, 1.2);
     min-height: 100vh;
 }
 
@@ -85,8 +85,9 @@ code {
     background-color: var(--codeBGColour);
     border-radius: 0.5rem;
     font-size: 1.1rem;
-    line-height: var(--fl-lineSpace, 1.5rem);
-    padding: 0.2rem 0.5rem;
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.36);
+    padding-block: 0.2rem;
+    padding-inline: 0.5rem;
 }
 
 /* Utilities */
@@ -140,7 +141,7 @@ https://codepen.io/MacintoshRobinson/pen/ZEzJvdo
 .card-layout {
     cursor: pointer;
     font-size: 1.125rem;
-    line-height: var(--fl-lineSpace, 1.5rem);
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.33);
     min-height: 10rem;
     padding: 2rem;
 }
@@ -148,8 +149,8 @@ https://codepen.io/MacintoshRobinson/pen/ZEzJvdo
 .card-title {
     font-size: 1.5rem;
     font-weight: var(--fl-enhance-font-weight, 800);
-    line-height: var(--fl-lineSpace, 1.875rem);
-    margin: 1rem 0;
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.25);
+    margin-block: 1rem;
     text-align: center;
     text-decoration: none;
 }
@@ -175,7 +176,7 @@ main {
 main header h1 {
     font-size: 3rem;
     font-weight: 800;
-    line-height: var(--fl-lineSpace, 3.4375rem);
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.1458);
     margin: 2rem 0;
     text-transform: lowercase;
 }
@@ -183,7 +184,7 @@ main header h1 {
 main header .breadcrumbs + h1 {
     font-size: 2.25rem;
     font-weight: 700;
-    line-height: var(--fl-lineSpace, 2.875rem);
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.278);
     margin: 1rem 0 2rem 0;
     text-transform: none;
 }
@@ -284,7 +285,7 @@ aside h2 {
     color: var(--headerOrgColor);
     font-size: 0.75rem;
     font-weight: 600;
-    line-height: var(--fl-lineSpace, 1rem);
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.33);
     padding-block-end: 0.5rem;
     padding-block-start: 1rem;
 }
@@ -400,7 +401,7 @@ aside h2 {
     font-size: 1.25rem;
     font-weight: 600;
     letter-spacing: 0.02rem;
-    line-height: var(--fl-lineSpace, 2rem);
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.6);
     margin-top: 5.75rem;
     padding: 3.25rem 24px;
 }
@@ -468,7 +469,7 @@ aside h2 {
 .breadcrumbs {
     font-family: var(--fl-font-family, OpenSans, Arial, Helvetica, sans-serif);
     font-size: var(--fl-textSize, 0.8125rem);
-    line-height: var(--fl-lineSpace, 1.375rem);
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.69);
     margin-top: 2rem;
 }
 
@@ -496,7 +497,7 @@ aside h2 {
     font-size: 0.75rem;
     font-variant: small-caps;
     letter-spacing: 0.08rem;
-    line-height: var(--fl-lineSpace, 1.375rem);
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.833);
     text-align: center;
     text-transform: uppercase;
 }
@@ -570,7 +571,7 @@ aside h2 {
 
 #content {
     font-size: 1.25rem;
-    line-height: var(--fl-lineSpace, 1.85rem);
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.48);
 }
 
 #content figure {
@@ -592,7 +593,7 @@ aside h2 {
     cursor: pointer;
     font-size: 0.875rem;
     font-weight: var(--fl-enhance-font-weight, 600);
-    line-height: var(--fl-lineSpace, 1.375rem);
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.57);
     padding: 0.375rem 1rem;
 }
 
@@ -603,7 +604,7 @@ aside h2 {
 }
 
 .resources-main h2 {
-    line-height: var(--fl-lineSpace, 1.5rem);
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 0.8);
     margin: 0;
 }
 
@@ -616,7 +617,7 @@ aside h2 {
     font-family: var(--fl-font-family, OpenSans, Open Sans, Arial, Helvetica, sans-serif);
     font-size: 1.375rem;
     justify-content: space-between;
-    line-height: var(--fl-lineSpace, 2rem);
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.45);
     padding: 0;
     width: 100%;
 }
@@ -677,7 +678,7 @@ aside h2 {
 
 .resources-main .resources-content p {
     font-size: 1.25rem;
-    line-height: var(--fl-lineSpace, 1.875rem);
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.5);
 }
 
 .resources-main .resources-content ul {
@@ -695,8 +696,8 @@ aside h2 {
     display: block;
     font-size: var(--fl-enhance-font-size, 1.25rem);
     font-weight: var(--fl-enhance-font-weight, 700);
-    line-height: var(--fl-lineSpace, 1.625rem);
-    margin: 1.5rem 0 1rem 0;
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.3);
+    margin-block: 1.5rem 1rem;
     text-underline-position: from-font;
 }
 
@@ -706,7 +707,7 @@ aside h2 {
     font-size: 0.875rem;
     font-weight: var(--fl-enhance-font-weight, 600);
     grid-template-columns: [start] 1fr [end] 1fr;
-    line-height: var(--fl-lineSpace, 1.375rem);
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.57);
 }
 
 .pagination-previous {
@@ -805,10 +806,6 @@ aside h2 {
     font-weight: 900;
 }
 
-.fl-input-enhanced .resources-main button .resources-title {
-    line-height: var(--fl-lineSpace, 2.75rem);
-}
-
 /* hide the colour filters used for theming images */
 .color-filters {
     height: 0;
@@ -829,12 +826,12 @@ aside h2 {
 .page-index h2 {
     font-size: 2.25rem;
     font-weight: 800;
-    line-height: var(--fl-lineSpace, 2.5rem);
-    margin: 0.9375rem 0 3.3125rem 0;
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.11);
+    margin-block: 0.9375rem 3.3125rem;
 }
 
 .page-index .content {
-    line-height: var(--fl-lineSpace, 2rem);
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.6);
 }
 
 .page-index .content em {
@@ -926,7 +923,7 @@ aside h2 {
 @media all and (min-width: 40rem) {
     main header h1 {
         font-size: 4rem;
-        line-height: var(--fl-lineSpace, 5rem);
+        line-height: calc(var(--fl-lineSpace-factor, 1) * 1.11);
     }
 
     .page-index main header h1 {
@@ -937,7 +934,7 @@ aside h2 {
 
     .page-index .content {
         flex-grow: 2;
-        line-height: var(--fl-lineSpace, 2.25rem);
+        line-height: calc(var(--fl-lineSpace-factor, 1) * 1.8);
     }
 
     .page-index .intro {
