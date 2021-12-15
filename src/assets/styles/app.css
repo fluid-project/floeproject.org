@@ -52,9 +52,9 @@ body {
     --resourcesBGColor: var(--fl-bgColor, #e8f3e7);
     --resourcesBorderColor: var(--fl-fgColor, #bcdca9);
     --fleurSmallCircleFillColor: var(--fl-bgColor, #deeed5);
-    --fleurSmallCircleOutlineColor: var(--fl-fgColor, #deeed5);
+    --fleurSmallCircleOutlineColor: var(--fl-bgColor, #deeed5);
     --fleurLargeCircleFillColor: var(--fl-bgColor, #f0eb96);
-    --fleurLargeCircleOutlineColor: var(--fl-fgColor, #f0eb96);
+    --fleurLargeCircleOutlineColor: var(--fl-bgColor, #f0eb96);
     --fleurPlantColor: var(--fl-fgColor, #00394c);
     --icon-arrowColor: var(--fl-buttonBgColor, #000);
 
@@ -170,7 +170,7 @@ https://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/
 /* Blocks */
 
 main {
-    padding: 0 24px;
+    padding-inline: 24px;
 }
 
 main header h1 {
@@ -259,7 +259,7 @@ aside h2 {
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    padding: 0 24px;
+    padding-inline: 24px;
 }
 
 .site-header a {
@@ -841,7 +841,15 @@ aside h2 {
 
 .page-index .content p {
     font-size: var(--fl-enhance-font-size, 1.5rem);
-    margin: 1.5rem 0;
+    margin-block: 0.75rem;
+}
+
+.page-index .content p:first-child {
+    margin-block-start: 0;
+}
+
+.page-index .content p:last-child {
+    margin-block-end: 0;
 }
 
 .page-index .news,
@@ -901,16 +909,8 @@ aside h2 {
     padding-block-end: 0.15rem;
 }
 
-.page-index .content svg {
-    height: 40rem;
-    position: absolute;
-    right: 0;
-    top: -23rem;
-    width: 31rem;
-}
-
 .page-index .intro section {
-    margin-block-start: 1.125rem;
+    margin-block-start: 0;
 }
 
 .floe-fleur {
@@ -928,14 +928,15 @@ aside h2 {
     }
 
     .page-index main header h1 {
-        font-size: 4.5rem;
-        margin: 8.25rem 0 4.5625rem 0;
+        font-size: 4.25rem;
+        margin: 8.25rem 0 5.75rem 0;
         width: 55%;
     }
 
     .page-index .content {
         flex-grow: 2;
-        line-height: calc(var(--fl-lineSpace-factor, 1) * 1.8);
+        flex-shrink: 2;
+        line-height: calc(var(--fl-lineSpace-factor, 1) * 1.3333);
     }
 
     .page-index .intro {
@@ -943,9 +944,18 @@ aside h2 {
         justify-content: space-between;
     }
 
-    .floe-fleur {
+    .page-index .floe-fleur {
         display: block;
+        flex-basis: 31rem;
+        flex-grow: 1;
+        flex-shrink: 1;
+        height: 40rem;
         margin-block-start: calc(max(100%, 64rem) / -3);
+        z-index: -1;
+    }
+
+    .page-index .news {
+        margin-block-start: 8.25rem;
     }
 
     .fl-prefsEditor-separatedPanel {
@@ -959,7 +969,7 @@ aside h2 {
     }
 
     .site-header .wrapper {
-        padding: 0;
+        padding-inline: 0;
     }
 
     .site-header-org {
@@ -968,7 +978,7 @@ aside h2 {
 
     .site-header-org,
     .site-header-nav {
-        padding: 0 24px;
+        padding-inline: 24px;
     }
 
     .site-header-org > * {
