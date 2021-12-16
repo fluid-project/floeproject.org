@@ -1,6 +1,6 @@
 {
     "layout": "layouts/post",
-    "permalink": "/resources/{{ slug | default(title) | slug }}/",
+    "permalink": false,
     "eleventyNavigation": {
         "parent": "Resources"
     }

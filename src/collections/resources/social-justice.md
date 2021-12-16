@@ -1,6 +1,5 @@
 ---
 title: Social Justice, Activism and Digital Equity
-excerpt: Technology can be leveraged to advocate for social justice, build community and affect change in the world.
 ---
 
 Technology can be leveraged to advocate for social justice, build community and affect change in the world. How do we
