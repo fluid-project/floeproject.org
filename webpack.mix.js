@@ -28,7 +28,10 @@ mix.postCss("./src/assets/styles/app.css", "dist/assets/styles");
 
 // Don't modify stylesheet url() functions.
 mix.options({
-    processCssUrls: false
+    processCssUrls: false,
+    postCss: [
+        require("postcss-logical")
+    ]
 });
 
 // Enable source maps.
