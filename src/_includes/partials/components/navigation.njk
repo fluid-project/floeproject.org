@@ -7,7 +7,7 @@
         {% set siteNav = collections.all | eleventyNavigation %}
         {% for item in siteNav %}
             <li>
-                <a href="{{ item.url }}" {% if item.url === page.url %} aria-current="page"{% endif %}>
+                <a href="{{ item.url }}" {% if item.url === page.url %} aria-current="page"{% elif page.url.startsWith(item.url) %} aria-current="true"{% endif %}>
                     {{ item.title }}
                 </a>
             </li>
