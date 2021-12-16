@@ -1,0 +1,16 @@
+<nav class="site-nav" aria-label="menu">
+    <button class="disclosure-button" aria-label="menu" aria-expanded="false" aria-controls="floe-nav-menu-list">
+        {% svg_sprite "icon-menu" %}
+    </button>
+
+    <ul id="floe-nav-menu-list" class="site-nav-list">
+        {% set siteNav = collections.all | eleventyNavigation %}
+        {% for item in siteNav %}
+            <li>
+                <a href="{{ item.url }}" {% if item.url === page.url %} aria-current="page"{% elif page.url and page.url.startsWith(item.url) %} aria-current="true"{% endif %}>
+                    {{ item.title }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>

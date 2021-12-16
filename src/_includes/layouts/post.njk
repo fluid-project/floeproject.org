@@ -1,37 +1,22 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <title>News: {% if title %} {{ title }} {% else %} {{ site.title }} {% endif %} | floe</title>
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <link type="image/x-icon" href="{{ '/' | url }}assets/images/favicon.ico" rel="shortcut icon"/>
-        <!-- Foundation flex grid -->
-        {% include "partials/foundationflexgrid.html" %}
-        <script type="text/javascript" src="{{ '/' | url }}lib/infusion/infusion-uio.min.js"></script>
-        <script type="text/javascript" src="{{ '/' | url }}assets/js/floe.js"></script>
-        <script type="text/javascript" src="{{ '/' | url }}assets/js/analytics.js"></script>
-    </head>
-    <body>
-        <script type="text/javascript">
-            $(document).ready(function () {
-                floe.setupUIO("../");
-            });
-        </script>
-        {% include "partials/uio.html" %}
-        <div id="skip">
-            <a href="#content">Skip to Content</a>
-        </div>
-        <div class="floe">
-            {% include "partials/header.html" %}
-            <article id="content" class="floe-content floe-news-item">
-                <h2> News </h2>
-                <h3>{{ title }} </h3>
-                {% if permalink != "news/index.html" %}
-                    <time class="floe-date" datetime="{{ date }}">{{ date | dateFilter }}</time>
-                    {% endif %}
-             {{content | safe}}
-             </article>
-            {% include "partials/footer.html" %}
-        </div>
-    </body>
-</html>
+{% extends "layouts/base.njk" %}
+
+{% set pageType = "page-post" %}
+
+{% block pageHeader %}
+    <header>
+        <nav class="breadcrumbs">
+            {% set ancestorPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
+            {% set parent = ancestorPages[ancestorPages.length - 1] %}
+            <ul class="inline-list">
+                <li><a href="{{ parent.url }}">{{ parent.title }}</a></li>
+                <li aria-current="page">{{ title }}</li>
+            </ul>
+        </nav>
+
+        <h1>{{ title }}</h1>
+
+        {% if date %}
+            <time class="floe-date" datetime="{{ date | isoDate }}">{{ date | dateFilter }}</time>
+        {% endif %}
+    </header>
+{% endblock %}

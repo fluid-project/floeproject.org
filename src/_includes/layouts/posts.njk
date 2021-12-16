@@ -1,0 +1,20 @@
+{% extends "layouts/base.njk" %}
+
+{% set pageType = "page-posts" %}
+
+{% block content %}
+    <ul id="content" class="content grid-layout posts-{{ eleventyNavigation.key | lower }}">
+        {% set posts = collections.all | eleventyNavigation(eleventyNavigation.key) %}
+        {% for post in posts |sort(reverseSort, true, sortAttr) %}
+            <li class="card-layout post corner-effect">
+                <p><a class="card-title" href="{{ post.url }}">{{ post.title }}</a></p>
+                {% if post.date %}
+                    <time class="floe-date" datetime="{{ post.date | isoDate }}">{{ post.date | dateFilter }}</time>
+                {% endif %}
+                {% if post.excerpt %}
+                    <p>{{ post.excerpt }}</p>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

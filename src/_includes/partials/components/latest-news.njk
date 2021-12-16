@@ -1,0 +1,5 @@
+<ul class="grid-layout posts-news">
+    {% for post in collections.news | limit(3) %}
+        {% include "partials/components/news-item.njk" %}
+    {% endfor %}
+</ul>

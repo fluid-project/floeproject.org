@@ -1,0 +1,15 @@
+{% extends "layouts/base.njk" %}
+
+{% set pageType = "page-posts-paged" %}
+
+{% block content %}
+    <ul id="content" class="content grid-layout posts-{{ eleventyNavigation.key | lower }}">
+        {% for post in posts %}
+            {% include "partials/components/news-item.njk" %}
+        {% endfor %}
+    </ul>
+
+    {% set paginationPreviousText = "Newer" %}
+    {% set paginationNextText = "Older" %}
+    {% include "partials/components/pagination.njk" %}
+{% endblock %}

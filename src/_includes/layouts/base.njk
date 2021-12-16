@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>{% if title %} {{ title }} {% else %} {{ site.title }} {% endif %} | {{ site.name }}</title>
+
+        {% include "partials/global/meta.njk" %}
+        {% include "partials/global/icons.njk" %}
+
+
+        {% include "partials/global/stylesheets.njk" %}
+
+        {% include "partials/global/scripts.njk" %}
+    </head>
+    <body class="{{ pageType }} {{ pageClasses }}">
+        <nav>
+            <a id="skip" href="#content">Skip to Content</a>
+        </nav>
+        {# Due to https://bugs.webkit.org/show_bug.cgi?id=127102 we need to access the SVG filter from an embedded SVG
+        instead of an external one. #}
+        {% include "svg/filters.svg" %}
+        {% include "partials/global/header.njk" %}
+        <main>
+            <div class="wrapper">
+                {% block pageHeader %}
+                    <header>
+                        <h1>{% small_caps title, "FLOE" %}</h1>
+                    </header>
+                {% endblock %}
+                <nav class="flc-toc-tocContainer"></nav>
+                {% block content %}
+                    <div id="content" class="content">
+                        {{ content | safe }}
+                    </div>
+                {% endblock %}
+            </div>
+        </main>
+        {% include "partials/global/footer.njk" %}
+        {% uioInit %}
+    </body>
+</html>

@@ -1,0 +1,7 @@
+{
+    "layout": "layouts/post",
+    "permalink": false,
+    "eleventyNavigation": {
+        "parent": "Resources"
+    }
+}
