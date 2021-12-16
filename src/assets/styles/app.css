@@ -290,10 +290,6 @@ aside h2 {
     padding-block-start: 1rem;
 }
 
-.site-header-org > * {
-    padding-inline-start: 0.8rem;
-}
-
 .site-header-org a {
     color: var(--fl-linkColor);
     text-decoration: underline;
@@ -1004,10 +1000,6 @@ aside h2 {
     .site-header-org,
     .site-header-nav {
         padding-inline: 24px;
-    }
-
-    .site-header-org > * {
-        padding-inline-start: 1.8rem;
     }
 
     .site-nav {
