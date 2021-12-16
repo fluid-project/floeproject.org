@@ -1,62 +1,40 @@
-# `FLOE Project`
+# Contributing to the `FLOE Project` website
 
-FLOE is creating tools that help transform, augment, and personalize the learning experience.
-FLOE provides the resources needed to enable inclusive access to personally relevant, engaging learning opportunities
-for the full diversity of learners and content producers.
-The present version of the FLOE Project website is generated using [11ty](https://www.11ty.dev/).
+This document describes how to contribute content to the FLOE Project website. Please refer to the `README.md` file for
+information on how to build and run the website, as well as other information.
 
-**To run the project locally**:
+## Updating content
 
-1. Clone the project locally.
-2. Go to the folder directory where you cloned the project in terminal.
-3. Get the required node modules: `npm install`
-4. Run eleventy from the fluid-website directory `npm run start`.
-5. Open `http://localhost:8080/` to see the website.
+Content changes must be made through the GitHub repository. Please submit a Pull Request for the changes. Once
+merged to `main`, the changes will automatically be deployed to the production site.
 
-**The directory structure is as follows:**
+Content for the site is stored in the `collections` directory. Content files are written in Markdown and make use of
+YAML front matter.
 
-| File or Folder            | Description                                                                                                                                                                                                                         |
-|-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `.github`        | Directory containing the Issue templates as well as GitHub Actions workflow configuration files                                                                          |
-| `src`             | Contains all the files needed to build the site using 11ty. This includes the content for all pages and news articles, CSS files, layout and partial templates, and JavaScript files.                                               |
-| `.eleventy.js`    | The Configuration file used by 11ty in order to build the site. Specifies the collections for 11ty, [passthrough copy files](https://www.11ty.dev/docs/copy/), and other settings including the source folder for input and output. |
-| `.eleventyignore` | A list of files and folders which are ignored by Eleventy while building the site                                                                                                                                                              |
-| `.gitignore`      | A list of files and folders which won't be tracked by Git.                                                                                                                                                                          |
-| `.eslintrc.json`  | [ESLint configuration data](https://eslint.org/docs/user-guide/configuring).                                                                                                                                                        |
-| `.eslintignore`   | A list of files and folders which won't be passed through ESLint                                                                                                                                                                    |
-| `AUTHORS.md`      | List of copyright holders and contributors                                                                                                                                                                                          |
-| `Gruntfile.js`    | Grunt file used to copy data from node_modules and do linting process.                                                                                                                                                              |
-| `package.json`    | Contains scripts and a list of dependencies required to build the site, as well as general information about the repository                                                                                                                                                                             |
-| `README.md`       | Read Me file provides introduction to the repository.                                                                                                                                                                               |
+## Using Front Matter
 
-**Contributions to the project can be made in following ways:**
+Different content pages may use special front matter properties to define their appearance and behaviour on the website.
 
-1. *Submitting new blog posts or news articles*
+### Projects
 
-* Post submission through Github:
-  * Go to the `src/news` folder
-  * Create a new Markdown file with title in the following format - `YYYY-MM-DD-titleOfNewsArticle.md`.
-  * The front matter of the article must follow the given format in order to work properly.
-    Please note that the `filename` is optional and should only be used if you would like to have a URL
-    different from the `title` value.
-  * The template is as follows:
+Projects are located in `./collections/projects/` and use the following special front matter:
 
-  ```yml
-  ---
-  title: Title of News Article
-  date: 'YYYY-MM-DD'
-  filename: Shorter URL. Can also contain capital characters
-  ---
-  Content Data
-  ```
+* `order`: defines the position in the “Featured Projects” section on the home page. `order` only applies to content
+  marked with the `featured` tag.
+* `tags` - `featured`: defines whether the project is to be displayed on the front page in the “Featured Projects” and
+  is sorted by `order`. Note: All projects marked as `featured` are displayed on the home page. On the Projects index
+  those tagged with `featured` will be displayed first in the list.
+* `tags` - `active`: defines whether a project is currently actively being worked on. Projects marked as `active` will
+  appear after projects marked with `featured` and will be sorted by date. Projects with neither `active` or `featured`
+  tags will appear in the projects index list sorted by date after `active` projects.
 
-  * The URL for news articles is generated from the date and title metadata.
-  * If filename metadata is present, then output filename will be created using the date and filename
-    (instead of the default date and title filename). Use this option if the article title is too long
-    for a good filename, or for supporting legacy posts with unusual naming.
-  * The use of filename metadata in front matter is optional and should be used only if
-    automatic filename of {date}-{title} is not sufficient.
+### News
 
-If you still have any queries/doubts regarding the project, feel free to join our IRC Channel #fluid-work on Freenode.
-Feel free to create a new issue if you find any bugs in the project that requires our attention or you may
-even send a Pull Request for fixing it.
+News is located in `./collections/news/` and uses the following special front matter:
+
+* `excerpt`: a short summary or description of the news article. This appears in the News index page and on the home
+  page. News content should have `excerpt` front matter.
+
+## New Features and Bug Reports
+
+The project welcomes feature requests and bug reports from the community which can be [submitted via Github](https://github.com/fluid-project/floeproject.org/issues).

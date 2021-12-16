@@ -13,9 +13,11 @@ This repository contains the markup needed to deploy the floeproject.org website
 
 ## To Build Locally
 
-1. Get the required node modules: `npm ci`
-2. Run locally `npm start`.
-3. Open `http://localhost:8080/` to see the website.
+1. Clone the project locally.
+2. Go to the folder directory where you cloned the project.
+3. Install dependencies: `npm ci`
+4. Run locally: `npm start`.
+5. Open <http://localhost:8080/>
 
 ## To build locally using Docker
 
