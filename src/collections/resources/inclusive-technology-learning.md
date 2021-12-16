@@ -1,7 +1,5 @@
 ---
 title: Inclusive Technology for Learning
-excerpt: Articles on the possibilities of inclusive learning technologies, and selected examples.
-permalink: false
 ---
 
 Articles on the possibilities of inclusive learning technologies, and selected examples.
@@ -10,7 +8,7 @@ Articles on the possibilities of inclusive learning technologies, and selected e
 
   Learn about the coding environment that was co-design with kids with complex disabilities on the [Weavly website](https://weavly.org/)
   and try the fun and accessible activities in the [Coding Educator's Toolkit](https://weavly.org/learn/activities/?type=On-Screen).
-  
+
 * [Interactive Simulations for Science and Math](https://phet.colorado.edu/en/accessibility/prototypes)
 
   Play with PhET’s fun, free, interactive, research-based science and mathematics simulations. Some simulations (like
