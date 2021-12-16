@@ -58,7 +58,7 @@
         "postcss-dir-pseudo-class": "6.0.1",
         "postcss-logical": "5.0.1",
         "rimraf": "3.0.2",
-        "sanitize-html": "1.24.0",
+        "sanitize-html": "2.3.2",
         "sanitize.css": "11.0.1",
         "slugify": "1.6.1"
     }
