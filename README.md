@@ -14,7 +14,7 @@ This repository contains the markup needed to deploy the floeproject.org website
 ## To Build Locally
 
 1. Clone the project locally.
-2. Go to the folder directory where you cloned the project.
+2. Go to the directory where you cloned the project.
 3. Install dependencies: `npm ci`
 4. Run locally: `npm start`.
 5. Open <http://localhost:8080/>
@@ -35,7 +35,7 @@ If you make changes to the website, repeat the steps to build the image and star
 ## To deploy to a personal webserver
 
 1. Run: `npm run build`
-2. Copy the contents of `dist` directory to your server.
+2. Copy the contents of the `dist` directory to your server.
 
 ## Notes
 
@@ -46,14 +46,14 @@ If you make changes to the website, repeat the steps to build the image and star
 
 ## Third party resources included
 
-### Open Font License (OFL 1.1) - [License text](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
+### [Open Font License (OFL 1.1)](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
 
 * [Literata](https://fonts.google.com/specimen/Literata)
 
-### Apache License, Version 2.0 - [License text](https://www.apache.org/licenses/LICENSE-2.0)
+### [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
-* [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+* [Open Sans Font](https://fonts.google.com/specimen/Open+Sans)
 
-### Creative Commons - [Trademark usage policies](https://creativecommons.org/policies)
+### [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
-* [Icons](https://creativecommons.org/about/downloads)
+* [Creative Commons Icons](https://creativecommons.org/about/downloads)
