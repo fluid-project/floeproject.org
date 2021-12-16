@@ -30,6 +30,7 @@ mix.postCss("./src/assets/styles/app.css", "dist/assets/styles");
 mix.options({
     processCssUrls: false,
     postCss: [
+        require("postcss-dir-pseudo-class"),
         require("postcss-logical")
     ]
 });

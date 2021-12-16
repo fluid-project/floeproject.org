@@ -1055,7 +1055,6 @@ aside h2 {
         border-bottom: 0.625rem solid currentColor;
         font-weight: var(--fl-enhance-font-weight, normal);
         margin-left: 0;
-        padding-inline-start: 0;
     }
 
     .site-nav-list a[aria-current="page"]::before,
