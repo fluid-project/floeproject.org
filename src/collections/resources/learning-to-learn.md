@@ -33,5 +33,5 @@ to better understand the learning needs and preferences of others?
 * [The Value of Imperfection: the Wabi-Sabi Principle in Aesthetics and Learning (2010)](http://openresearch.ocadu.ca/id/eprint/1202/1/Treviranus_Value_2010.pdf)
 
   This paper explores the importance of imperfection, mistakes, problems, disagreement, and the incomplete for engaged
-  learning, and relinquishing notions of perfection, acknowledging that learners learn differently and we need diverse
+  learning, and relinquishing notions of perfection, acknowledging that learners learn differently and that we need diverse
   learners.
