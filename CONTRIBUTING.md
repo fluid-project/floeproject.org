@@ -17,7 +17,8 @@ Different content pages may use special front matter properties to define their 
 
 ### Projects
 
-Projects are located in [`./collections/projects/`](./collections/projects/) and use the following special front matter:
+Projects are located in [`./collections/projects/`](./src/collections/projects/) and use the following special front
+matter:
 
 * `order`: defines the position in the “Featured Projects” section on the home page. `order` only applies to content
   marked with the `featured` tag.
@@ -30,7 +31,7 @@ Projects are located in [`./collections/projects/`](./collections/projects/) and
 
 ### News
 
-News is located in [`./collections/news/`](./collections/news/) and uses the following special front matter:
+News is located in [`./collections/news/`](./src/collections/news/) and uses the following special front matter:
 
 * `excerpt`: a short summary or description of the news article. This appears in the News index page and on the home
   page. News content should have `excerpt` front matter.
