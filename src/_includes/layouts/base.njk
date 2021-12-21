@@ -21,12 +21,18 @@
         {% include "partials/global/header.njk" %}
         <main>
             <div class="wrapper">
+                {% block preHeader %}{% endblock %}
+
                 {% block pageHeader %}
                     <header>
                         <h1>{% small_caps title, "FLOE" %}</h1>
                     </header>
                 {% endblock %}
+                
                 <nav class="flc-toc-tocContainer"></nav>
+
+                {% block contentIntro %}{% endblock %}
+
                 {% block content %}
                     <div id="content" class="content">
                         {{ content | safe }}
