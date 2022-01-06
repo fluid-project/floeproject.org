@@ -3,6 +3,7 @@ title: Pluralistic Data Infrastructure
 date: "2021-06-09"
 tags:
   - active
+thumbnailFilename: pluralistic-data-infrastructure.png
 ---
 The [pluralistic data infrastructure](https://github.com/inclusive-design/forgiving-data/) allows learners to combine
 different personal data sources to create representations that can lead to self-discovery and new pathways for learning.
