@@ -96,6 +96,14 @@ module.exports = function (config) {
         }
     });
 
+    // Configure markdown to use smartquotes
+    let markdownIt = require("markdown-it");
+    let options = {
+        html: true,
+        typographer: true
+    };
+    config.setLibrary("md", markdownIt(options));
+
     return {
         dir: {
             input: "src",
