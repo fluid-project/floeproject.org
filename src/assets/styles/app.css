@@ -954,6 +954,11 @@ aside h2 {
     padding-block-end: 0;
 }
 
+.page-404 main {
+    margin-block-end: 15rem;
+    margin-block-start: 5rem;
+}
+
 @media all and (min-width: 40rem) {
     main header h1 {
         font-size: 4rem;
