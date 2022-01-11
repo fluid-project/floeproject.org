@@ -56,7 +56,6 @@ body {
     --fleurLargeCircleFillColor: var(--fl-bgColor, #f0eb96);
     --fleurLargeCircleOutlineColor: var(--fl-bgColor, #f0eb96);
     --fleurPlantColor: var(--fl-fgColor, #00394c);
-    --icon-arrowColor: var(--fl-buttonBgColor, #000);
 
     background-color: var(--mainBackground);
     color: var(--mainColor);
@@ -661,6 +660,8 @@ aside h2 {
 }
 
 .resources-main button .resources-expand-icon svg {
+    --icon-arrowColor: var(--fl-buttonBgColor, #000);
+
     color: var(--fl-bgColor, var(--mainColor));
     fill: none;
     height: 1.375rem;
@@ -722,14 +723,26 @@ aside h2 {
     line-height: calc(var(--fl-lineSpace-factor, 1) * 1.57);
 }
 
+.pagination svg {
+    --icon-arrowColor: var(--fl-fgColor, var(--mainColor));
+
+    fill: none;
+    height: 0.5rem;
+    vertical-align: middle;
+    width: 1rem;
+}
+
 .pagination-previous {
     grid-column-start: start;
     justify-self: start;
 }
 
-.pagination-previous::before {
-    content: "<";
+.pagination-previous-icon {
     padding-inline-end: 0.5rem;
+}
+
+.pagination-previous-icon svg {
+    transform: rotate(180deg);
 }
 
 .pagination-next {
@@ -737,8 +750,7 @@ aside h2 {
     justify-self: end;
 }
 
-.pagination-next::after {
-    content: ">";
+.pagination-next-icon {
     padding-inline-start: 0.5rem;
 }
 
