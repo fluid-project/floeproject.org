@@ -176,7 +176,6 @@ main {
 main header h1 {
     font-size: 3rem;
     font-weight: 800;
-    -webkit-hyphens: auto;
     hyphens: auto;
     line-height: calc(var(--fl-lineSpace-factor, 1) * 1.1458);
     margin: 2rem 0;
@@ -642,7 +641,6 @@ aside h2 {
 .resources-main button .resources-title {
     border: 0.625rem solid var(--fl-buttonBgColor, var(--resourcesBGColor));
     border-inline-start: none;
-    -webkit-hyphens: auto;
     hyphens: auto;
     padding: 0.25rem 1rem 0.25rem 0.5rem;
     text-align: start;
@@ -946,6 +944,27 @@ aside h2 {
     color: var(--fl-linkColor);
     outline: 0.125rem solid var(--fl-linkColor, #000);
     padding-block-end: 0;
+}
+
+@media all and (max-width: 24rem) {
+    .site-brand {
+        margin-block: clamp(0.5rem, (2 - var(--fl-textSize-factor, 1)) * 1.28125rem, 1.28125rem);
+    }
+
+    .site-header .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .site-nav {
+        margin: clamp(0, (2 - var(--fl-textSize-factor, 1)) * 0.5rem, 0.5rem);
+    }
+
+    .disclosure-button {
+        margin: clamp(0rem, (2 - var(--fl-textSize-factor, 1)) * 0.4rem, 0.4rem);
+        margin-inline-end: 0;
+        padding: 0;
+    }
 }
 
 @media all and (min-width: 40rem) {
