@@ -61,8 +61,10 @@ body {
     color: var(--mainColor);
     font-family: var(--fl-font-family, Literata, Arial, Helvetica, sans-serif);
     font-optical-sizing: none;
+    hyphens: auto;
     line-height: var(--fl-lineSpace, 1.2);
     min-height: 100vh;
+    word-break: break-word;
 }
 
 a {
@@ -175,11 +177,9 @@ main {
 main header h1 {
     font-size: 3rem;
     font-weight: 800;
-    hyphens: auto;
     line-height: calc(var(--fl-lineSpace-factor, 1) * 1.1458);
     margin: 2rem 0;
     text-transform: lowercase;
-    word-break: break-word;
 }
 
 main header .breadcrumbs + h1 {
@@ -575,9 +575,7 @@ aside h2 {
 
 .content {
     font-size: 1.25rem;
-    hyphens: auto;
     line-height: calc(var(--fl-lineSpace-factor, 1) * 1.48);
-    word-break: break-word;
 }
 
 .content figure {
@@ -644,11 +642,9 @@ aside h2 {
 .resources-main button .resources-title {
     border: 0.625rem solid var(--fl-buttonBgColor, var(--resourcesBGColor));
     border-inline-start: none;
-    hyphens: auto;
     padding: 0.25rem 1rem 0.25rem 0.5rem;
     text-align: start;
     width: 100%;
-    word-break: break-word;
 }
 
 .resources-main button.expanded .resources-title {
