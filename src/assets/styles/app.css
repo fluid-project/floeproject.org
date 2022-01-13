@@ -575,7 +575,9 @@ aside h2 {
 
 .content {
     font-size: 1.25rem;
+    hyphens: auto;
     line-height: calc(var(--fl-lineSpace-factor, 1) * 1.48);
+    word-break: break-word;
 }
 
 .content figure {
