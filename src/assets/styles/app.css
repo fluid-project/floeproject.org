@@ -177,11 +177,9 @@ main {
 main header h1 {
     font-size: 3rem;
     font-weight: 800;
-    hyphens: auto;
     line-height: calc(var(--fl-lineSpace-factor, 1) * 1.1458);
     margin: 2rem 0;
     text-transform: lowercase;
-    word-break: break-word;
 }
 
 main header .breadcrumbs + h1 {
