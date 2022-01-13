@@ -969,31 +969,52 @@ aside h2 {
         line-height: calc(var(--fl-lineSpace-factor, 1) * 1.11);
     }
 
+    .page-index main .wrapper {
+        display: grid;
+        grid-template-areas:
+            "header fleur"
+            "toc fleur"
+            "intro fleur"
+            "content content";
+        grid-template-columns: 2fr 1fr;
+        margin-block-start: 8.25rem;
+    }
+
+    .page-index .floe-fleur {
+        display: block;
+        grid-area: fleur;
+        height: 50rem;
+        width: 100%;
+    }
+
+    .page-index main header {
+        grid-area: header;
+    }
+
     .page-index main header h1 {
         font-size: 4.25rem;
-        margin-block: 8.25rem 5.75rem;
-        width: 55%;
+        margin-block: 0 5.75rem;
+        width: min(11ch, 100%);
+    }
+
+    .page-index main .flc-toc-tocContainer {
+        grid-area: toc;
+    }
+
+    .page-index .content {
+        grid-area: content;
+    }
+
+    .page-index .intro {
+        display: flex;
+        grid-area: intro;
+        justify-content: space-between;
     }
 
     .page-index .intro-content {
         flex-grow: 2;
         flex-shrink: 2;
         line-height: calc(var(--fl-lineSpace-factor, 1) * 1.3333);
-    }
-
-    .page-index .intro {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .page-index .floe-fleur {
-        display: block;
-        flex-basis: 31rem;
-        flex-grow: 1;
-        flex-shrink: 1;
-        height: 40rem;
-        margin-block-start: calc(max(100%, 64rem) / -3);
-        z-index: -1;
     }
 
     .page-index .news {
