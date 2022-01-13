@@ -235,8 +235,6 @@ aside h2 {
     display: flex;
     height: 2rem;
     justify-content: center;
-    margin: 0.4rem;
-    margin-inline-end: 1.4rem;
 }
 
 .disclosure-button svg {
@@ -961,27 +959,6 @@ aside h2 {
 .page-404 main {
     margin-block-end: 15rem;
     margin-block-start: 5rem;
-}
-
-@media all and (max-width: 24rem) {
-    .site-brand {
-        margin-block: clamp(0.5rem, (2 - var(--fl-textSize-factor, 1)) * 1.28125rem, 1.28125rem);
-    }
-
-    .site-header .wrapper {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .site-nav {
-        margin: clamp(0, (2 - var(--fl-textSize-factor, 1)) * 0.5rem, 0.5rem);
-    }
-
-    .disclosure-button {
-        margin: clamp(0rem, (2 - var(--fl-textSize-factor, 1)) * 0.4rem, 0.4rem);
-        margin-inline-end: 0;
-        padding: 0;
-    }
 }
 
 @media all and (min-width: 40rem) {
