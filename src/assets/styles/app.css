@@ -61,8 +61,10 @@ body {
     color: var(--mainColor);
     font-family: var(--fl-font-family, Literata, Arial, Helvetica, sans-serif);
     font-optical-sizing: none;
+    hyphens: auto;
     line-height: var(--fl-lineSpace, 1.2);
     min-height: 100vh;
+    word-break: break-word;
 }
 
 a {
@@ -233,8 +235,6 @@ aside h2 {
     display: flex;
     height: 2rem;
     justify-content: center;
-    margin: 0.4rem;
-    margin-inline-end: 1.4rem;
 }
 
 .disclosure-button svg {
