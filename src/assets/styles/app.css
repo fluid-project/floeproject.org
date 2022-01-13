@@ -176,9 +176,11 @@ main {
 main header h1 {
     font-size: 3rem;
     font-weight: 800;
+    hyphens: auto;
     line-height: calc(var(--fl-lineSpace-factor, 1) * 1.1458);
     margin: 2rem 0;
     text-transform: lowercase;
+    word-break: break-word;
 }
 
 main header .breadcrumbs + h1 {
@@ -963,7 +965,7 @@ aside h2 {
         display: block;
         grid-area: fleur;
         height: 50rem;
-        max-width: 100%;
+        width: 100%;
     }
 
     .page-index main header {
@@ -973,7 +975,7 @@ aside h2 {
     .page-index main header h1 {
         font-size: 4.25rem;
         margin-block: 0 5.75rem;
-        width: 55%;
+        width: min(11ch, 100%);
     }
 
     .page-index main .flc-toc-tocContainer {
