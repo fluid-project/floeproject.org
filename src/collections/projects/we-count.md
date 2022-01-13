@@ -5,6 +5,8 @@ order: 3
 tags:
   - featured
   - active
+thumbnailFilename: wecount.png
+thumbnailAltText: A photograph of a monitor showing the WeCount website
 ---
 [We Count](https://wecount.inclusivedesign.ca) is a project created to address bias, discrimination and barriers to
 participation within the field of data science and data-driven systems, including online education platforms where
