@@ -25,7 +25,7 @@ These sites offer OER-specific resources, such as directories or authoring tools
 * [Gooru](http://www.gooru.org/)
 
   Gooru is an educational technology non-profit that is dedicated to improving learning outcomes for all students by
-  making education equally accessible and empowering. Gooru uses a unique "GPS for learning" which allows each student
+  making education equally accessible and empowering. Gooru uses a unique “GPS for learning” which allows each student
   to customize learning paths and provides tools to educators to support those learners.
 
 * [K-12](http://www.k12.com/)

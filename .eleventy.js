@@ -17,6 +17,7 @@ const fs = require("fs");
 const fluidPlugin = require("eleventy-plugin-fluid");
 const navigationPlugin = require("@11ty/eleventy-navigation");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
+const sharpPlugin = require("eleventy-plugin-sharp");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 // Import filters
@@ -72,10 +73,15 @@ module.exports = function (config) {
     // Passthrough copy
     config.addPassthroughCopy({"src/_redirects": "_redirects"});
     config.addPassthroughCopy({"src/assets/images": "assets/images"});
-    config.addPassthroughCopy({"src/assets/fonts": "assets/fonts"}); // TODO: remove after updateing CSS
+    config.addPassthroughCopy({"src/assets/fonts": "assets/fonts"}); // TODO: remove after updating CSS
     config.addPassthroughCopy({"src/collections/news/images": "news/images"});
+    config.addPassthroughCopy({"src/collections/projects/images": "projects/images"});
 
     // Plugins
+    config.addPlugin(sharpPlugin({
+        urlPath: "/projects/images",
+        outputDir: "dist/projects/images"
+    }));
     config.addPlugin(fluidPlugin);
     config.addPlugin(navigationPlugin);
     config.addPlugin(rssPlugin);
@@ -95,6 +101,14 @@ module.exports = function (config) {
             }
         }
     });
+
+    // Configure markdown to use smartquotes
+    let markdownIt = require("markdown-it");
+    let options = {
+        html: true,
+        typographer: true
+    };
+    config.setLibrary("md", markdownIt(options));
 
     return {
         dir: {
