@@ -26,7 +26,7 @@ transform, augment, and personalize the learning experience.
 
 FLOE has been contributing to the [Fluid Infusion Framework](https://fluidproject.org/infusion.html) which provides a
 technical infrastructure that can be used to create tools that are flexible and transformable. One example of such a
-tool can be seen in the 'show preferences' panel at the top of this site. This tool can be implemented into any website
+tool can be seen in the “show preferences” panel at the top of this site. This tool can be implemented into any website
 and allows a learner to transform web content to meet their personal needs and preferences. More information can be
 found on the [UI Options](/ui-options) page.
 

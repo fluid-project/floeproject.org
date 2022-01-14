@@ -5,7 +5,7 @@ title: Multimodal Presentation, Content Adaptation and Personal Preferences
 Digital design offers diverse possibilities for transformation and adaptation of learning content. How do we leverage
 these possibilities in envisioning, building and evolving tools for learning to support diverse learning needs?
 
-* [User Interface Options Video (2017)](https://www.youtube.com/watch?v=63DqNgxtsrA")
+* [User Interface Options Video (2017)](https://www.youtube.com/watch?v=63DqNgxtsrA)
 
   Learn about the Fluid Project's User Interface Options (UIO) component, how it enables people to personalise web
   content to meet their unique needs, and how to integrate it into a site. UIO is now available as a
