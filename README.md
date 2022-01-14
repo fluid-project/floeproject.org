@@ -37,12 +37,17 @@ If you make changes to the website, repeat the steps to build the image and star
 1. Run: `npm run build`
 2. Copy the contents of the `dist` directory to your server.
 
+## Deploy preview
+
+Changes in the `dev` branch can be previewed and tested via the deploy preview site hosted by Netlify:
+https://dev--fluid-floeproject-org.netlify.app/
+
 ## Notes
 
-* Modifications can be done to any source file or directory except for the contents of the `dist/` directory. The `dist`
+* Modifications may be made to any source file or directory except for the contents of the `dist/` directory. The `dist`
   directory and its contents are not to be versioned since it contains the generated output made by eleventy from the
   source files and are overwritten.
-* 404 and redirets may only work when deployed to a webserver and/or to netlify.
+* Redirects may only work when deployed to a webserver or to Netlify.
 
 ## Third party resources included
 
