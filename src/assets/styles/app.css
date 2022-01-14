@@ -56,14 +56,15 @@ body {
     --fleurLargeCircleFillColor: var(--fl-bgColor, #f0eb96);
     --fleurLargeCircleOutlineColor: var(--fl-bgColor, #f0eb96);
     --fleurPlantColor: var(--fl-fgColor, #00394c);
-    --icon-arrowColor: var(--fl-buttonBgColor, #000);
 
     background-color: var(--mainBackground);
     color: var(--mainColor);
     font-family: var(--fl-font-family, Literata, Arial, Helvetica, sans-serif);
     font-optical-sizing: none;
+    hyphens: auto;
     line-height: var(--fl-lineSpace, 1.2);
     min-height: 100vh;
+    word-break: break-word;
 }
 
 a {
@@ -234,8 +235,6 @@ aside h2 {
     display: flex;
     height: 2rem;
     justify-content: center;
-    margin: 0.4rem;
-    margin-inline-end: 1.4rem;
 }
 
 .disclosure-button svg {
@@ -533,6 +532,10 @@ aside h2 {
     outline: none;
 }
 
+.posts-projects .corner-effect img {
+    margin-block-end: 0.75rem;
+}
+
 .posts-projects .corner-effect p {
     margin-block-start: 0;
 }
@@ -661,6 +664,8 @@ aside h2 {
 }
 
 .resources-main button .resources-expand-icon svg {
+    --icon-arrowColor: var(--fl-buttonBgColor, #000);
+
     color: var(--fl-bgColor, var(--mainColor));
     fill: none;
     height: 1.375rem;
@@ -722,14 +727,26 @@ aside h2 {
     line-height: calc(var(--fl-lineSpace-factor, 1) * 1.57);
 }
 
+.pagination svg {
+    --icon-arrowColor: var(--fl-fgColor, var(--mainColor));
+
+    fill: none;
+    height: 0.5rem;
+    vertical-align: middle;
+    width: 1rem;
+}
+
 .pagination-previous {
     grid-column-start: start;
     justify-self: start;
 }
 
-.pagination-previous::before {
-    content: "<";
+.pagination-previous-icon {
     padding-inline-end: 0.5rem;
+}
+
+.pagination-previous-icon svg {
+    transform: rotate(180deg);
 }
 
 .pagination-next {
@@ -737,8 +754,7 @@ aside h2 {
     justify-self: end;
 }
 
-.pagination-next::after {
-    content: ">";
+.pagination-next-icon {
     padding-inline-start: 0.5rem;
 }
 
@@ -942,37 +958,63 @@ aside h2 {
     padding-block-end: 0;
 }
 
+.page-404 main {
+    margin-block-end: 15rem;
+    margin-block-start: 5rem;
+}
+
 @media all and (min-width: 40rem) {
     main header h1 {
         font-size: 4rem;
         line-height: calc(var(--fl-lineSpace-factor, 1) * 1.11);
     }
 
+    .page-index main .wrapper {
+        display: grid;
+        grid-template-areas:
+            "header fleur"
+            "toc fleur"
+            "intro fleur"
+            "content content";
+        grid-template-columns: 2fr 1fr;
+        margin-block-start: 8.25rem;
+    }
+
+    .page-index .floe-fleur {
+        display: block;
+        grid-area: fleur;
+        height: 50rem;
+        width: 100%;
+    }
+
+    .page-index main header {
+        grid-area: header;
+    }
+
     .page-index main header h1 {
         font-size: 4.25rem;
-        margin-block: 8.25rem 5.75rem;
-        width: 55%;
+        margin-block: 0 5.75rem;
+        width: min(11ch, 100%);
+    }
+
+    .page-index main .flc-toc-tocContainer {
+        grid-area: toc;
+    }
+
+    .page-index .content {
+        grid-area: content;
+    }
+
+    .page-index .intro {
+        display: flex;
+        grid-area: intro;
+        justify-content: space-between;
     }
 
     .page-index .intro-content {
         flex-grow: 2;
         flex-shrink: 2;
         line-height: calc(var(--fl-lineSpace-factor, 1) * 1.3333);
-    }
-
-    .page-index .intro {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .page-index .floe-fleur {
-        display: block;
-        flex-basis: 31rem;
-        flex-grow: 1;
-        flex-shrink: 1;
-        height: 40rem;
-        margin-block-start: calc(max(100%, 64rem) / -3);
-        z-index: -1;
     }
 
     .page-index .news {

@@ -37,9 +37,9 @@ more diverse the perspectives, knowledge and skills, the better the collective o
 
 ## Sign-Up
 
-As preparation for our "barn raising" let's take stock of our workforce. Please RSVP by email.
+As preparation for our “barn raising” let's take stock of our workforce. Please RSVP by email.
 
-In your email, please send a short bio to speed up the "getting to know you" process within this large team (a paragraph
+In your email, please send a short bio to speed up the “getting to know you” process within this large team (a paragraph
 or a URL to a bio online).
 
 Also, please let us know which skills/resources/talents from the list below you will generously contribute.
