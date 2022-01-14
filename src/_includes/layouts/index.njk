@@ -2,16 +2,20 @@
 
 {% set pageType = "page-index" %}
 
+{% block preHeader %}
+    {% svg_sprite "fleur" %}
+{% endblock %}
+
+{% block contentIntro %}
+    <div class="intro">
+        <section class="intro-content">
+            {{ content | safe }}
+        </section>
+    </div>
+{% endblock %}
+
 {% block content %}
     <div id="content" class="content">
-        <div class="intro">
-            <section class="intro-content">
-                {{ content | safe }}
-            </section>
-
-            {% svg_sprite "fleur" %}
-        </div>
-
         <section class="news">
             <h2>News</h2>
             {% include "partials/components/latest-news.njk" %}

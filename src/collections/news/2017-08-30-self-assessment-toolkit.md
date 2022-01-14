@@ -39,7 +39,7 @@ The following images show examples of the designs we are currently developing (s
                 in their personalized collection.
             </summary>
             <p>
-                The image shows a collection of square 'touchnotes' buttons on the left with the heading "Query: When do
+                The image shows a collection of square "touchnotes" buttons on the left with the heading "Query: When do
                 I feel most clear-headed and focused?". The touchnotes in the collection include: "Focused",
                 "Good Idea", "Meditation", "Weather", "Diet", and "Sleep". An arrow points from the "Sleep" touchnote to
                 a dialog box with prompts for more information including: "Time to bed", "How many hours?", "Woke up
