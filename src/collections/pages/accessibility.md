@@ -13,7 +13,7 @@ or email [idrc@ocadu.ca](mailto:idrc@ocadu.ca).
 Other accessibility features:
 
 * web customization with _User Interface Options (UIO)_ which include a variety of controls for text and contrast modes.
-To access the settings select "show preferences" at the top right of any page.
+To access the settings select “show preferences” at the top right of any page.
 * compatibility with screen reading software and can be navigated using a keyboard or other assistive technology.
 * alternative text for images and other graphical content.
 * use of simple language where possible.
