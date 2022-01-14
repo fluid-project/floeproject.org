@@ -1,0 +1,1115 @@
+@font-face {
+    font-display: swap;
+    font-family: "Literata";
+    font-style: normal;
+    font-weight: 200 900;
+    src:
+        url("../fonts/Literata-VariableFont_opsz,wght.woff2") format('woff2-variations'),
+        url("../fonts/Literata-VariableFont_opsz,wght.woff2") format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Literata";
+    font-style: italic;
+    font-weight: 200 900;
+    src:
+        url("../fonts/Literata-Italic-VariableFont_opsz,wght.woff2") format('woff2-variations'),
+        url("../fonts/Literata-Italic-VariableFont_opsz,wght.woff2") format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "OpenSans";
+    font-weight: 200 900;
+    src:
+        url("../fonts/OpenSans-VariableFont_wdth,wght.woff2") format('woff2-variations'),
+        url("../fonts/OpenSans-VariableFont_wdth,wght.woff2") format('woff2');
+}
+
+/* Components */
+
+:root {
+    font-size: var(--fl-textSize);
+}
+
+body {
+    --codeBGColour: var(--fl-buttonBgColor, #ededed);
+    --headerFooterColor: var(--fl-fgColor, #fff);
+    --headerFooterBGColor: var(--fl-bgColor, #003749);
+    --headerFooterLinkColor: var(--fl-linkColor, var(--fl-fgColor, #fff));
+    --headerOrgColor: var(--fl-fgColor, #000);
+    --headerOrgBGColor: var(--fl-bgColor, #fdf664);
+    --mainBackground: var(--fl-bgColor, #fff);
+    --mainColor: var(--fl-fgColor, #000);
+    --mainLinkColor: var(--fl-linkColor, var(--fl-fgColor, #275287));
+    --menuExpandedColor: var(--fl-fgColor, #003749);
+    --menuExpandedBGColor: var(--fl-bgColor, #fff);
+    --projectsBGColor: var(--fl-bgColor, #fffde4);
+    --projectsCornerShadow: var(--fl-bgColor, #f0ec96);
+    --newsBGColor: var(--fl-bgColor, #e7f0f3);
+    --newsCornerShadow: var(--fl-bgColor, #a9ccdc);
+    --resourcesBGColor: var(--fl-bgColor, #e8f3e7);
+    --resourcesBorderColor: var(--fl-fgColor, #bcdca9);
+    --fleurSmallCircleFillColor: var(--fl-bgColor, #deeed5);
+    --fleurSmallCircleOutlineColor: var(--fl-bgColor, #deeed5);
+    --fleurLargeCircleFillColor: var(--fl-bgColor, #f0eb96);
+    --fleurLargeCircleOutlineColor: var(--fl-bgColor, #f0eb96);
+    --fleurPlantColor: var(--fl-fgColor, #00394c);
+
+    background-color: var(--mainBackground);
+    color: var(--mainColor);
+    font-family: var(--fl-font-family, Literata, Arial, Helvetica, sans-serif);
+    font-optical-sizing: none;
+    hyphens: auto;
+    line-height: var(--fl-lineSpace, 1.2);
+    min-height: 100vh;
+    word-break: break-word;
+}
+
+a {
+    color: var(--fl-linkColor);
+}
+
+*:focus,
+a:hover,
+button:hover {
+    outline: 0.125rem solid var(--fl-fgColor, #000);
+}
+
+a:focus,
+a:hover {
+    outline-color: var(--fl-linkColor);
+}
+
+code {
+    background-color: var(--codeBGColour);
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.36);
+    padding-block: 0.2rem;
+    padding-inline: 0.5rem;
+}
+
+/* Utilities */
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 64rem;
+    width: 100%;
+}
+
+.capitalize-title h1 {
+    text-transform: initial;
+}
+
+.small-caps {
+    font-variant: small-caps;
+}
+
+.inline-list {
+    list-style: none;
+    padding: 0;
+}
+
+.inline-list li {
+    display: inline-block;
+}
+
+.position-relative {
+    position: relative;
+}
+
+/*
+Folded corner effect based on this example:
+https://codepen.io/MacintoshRobinson/pen/ZEzJvdo
+*/
+.corner-effect {
+    background-color: inherit;
+    position: relative;
+}
+
+.corner-effect::after {
+    background-color: #efefef;
+    content: '';
+    display: block;
+    height: 4rem;
+    position: absolute;
+    transform: rotate(27deg);
+    width: 2.5rem;
+}
+
+.card-layout {
+    cursor: pointer;
+    font-size: 1.125rem;
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.33);
+    min-height: 10rem;
+    padding: 2rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: var(--fl-enhance-font-weight, 800);
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.25);
+    margin-block: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*
+.posts-grid is a responsive grid layout based on Evan Minto's work:
+https://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/
+*/
+.grid-layout {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(16rem, 100%), 1fr));
+    list-style: none;
+    padding: 0;
+}
+
+/* Blocks */
+
+main {
+    padding-inline: 24px;
+}
+
+main header h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.1458);
+    margin: 2rem 0;
+    text-transform: lowercase;
+}
+
+main header .breadcrumbs + h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.278);
+    margin: 1rem 0 2rem 0;
+    text-transform: none;
+}
+
+aside {
+    border: 0.5rem solid var(--fl-fgColor, var(--headerOrgBGColor));
+    border-radius: 1.5rem;
+    color: var(--mainColor);
+    padding: 1rem;
+}
+
+aside h2 {
+    margin-block-start: 0;
+}
+
+#skip {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+#skip:focus {
+    background-color: var(--fl-bgColor, var(--mainColor));
+    border: 0.2rem solid var(--fl-linkColor, var(--headerFooterColor));
+    clip: auto;
+    clip-path: none;
+    color: var(--fl-linkColor, var(--headerFooterColor));
+    height: auto;
+    margin: 0.4rem;
+    outline-color: var(--fl-linkColor, var(--headerFooterBGColor));
+    overflow: auto;
+    padding: 0.4rem;
+    width: auto;
+    z-index: 2;
+}
+
+.disclosure-button {
+    align-items: center;
+    align-self: flex-end;
+    background-color: var(--fl-buttonBgColor, inherit);
+    border: none;
+    color: var(--fl-buttonFgColor, currentColor);
+    display: flex;
+    height: 2rem;
+    justify-content: center;
+}
+
+.disclosure-button svg {
+    fill: var(--headerFooterColor);
+    height: 100%;
+    width: 1.7rem;
+}
+
+.site-header {
+    border-bottom: solid 0.5rem var(--fl-fgColor, var(--headerOrgBGColor));
+}
+
+.site-header,
+.site-footer {
+    background-color: var(--headerFooterBGColor);
+    color: var(--headerFooterColor);
+}
+
+.site-header .wrapper {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 24px;
+}
+
+.site-header a {
+    color: var(--headerFooterLinkColor);
+    text-decoration: none;
+}
+
+.site-header a:focus,
+.site-header button:focus,
+.site-header button:hover {
+    outline: 0.2rem solid currentColor;
+}
+
+.site-footer a:focus,
+.site-footer a:hover {
+    background-color: var(--fl-linkColor, var(--headerFooterColor));
+    color: var(--fl-bgColor, var(--headerFooterBGColor));
+    outline: none;
+}
+
+.site-header-org {
+    background-color: var(--headerOrgBGColor);
+    color: var(--headerOrgColor);
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.33);
+    padding-block-end: 0.5rem;
+    padding-block-start: 1rem;
+}
+
+.site-header-org a {
+    color: var(--fl-linkColor);
+    text-decoration: underline;
+}
+
+.site-header-org .wrapper {
+    justify-content: start;
+}
+
+.site-brand {
+    color: inherit;
+    display: inline-block;
+    font-weight: bold;
+    margin-block: 1.28125rem;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.site-brand-subtitle {
+    display: none;
+    padding-inline-start: 0.8rem;
+}
+
+.site-brand-logo svg {
+    fill: var(--headerFooterLinkColor);
+    height: 2.125rem;
+    width: 6.5rem;
+}
+
+.site-nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0.5rem;
+}
+
+.site-nav-list {
+    background-color: var(--menuExpandedBGColor);
+    border-bottom: 0.4rem solid var(--menuExpandedColor);
+    font-family: var(--fl-font-family, OpenSans, Arial, Helvetica, sans-serif);
+    inset-inline-start: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 6.32rem;
+    width: 100%;
+    z-index: 2;
+}
+
+.site-nav-list li {
+    border-bottom: 0.1rem solid var(--menuExpandedColor);
+}
+
+.site-nav-list a {
+    align-items: center;
+    background-color: var(--fl-bgColor, var(--menuExpandedBGColor));
+    color: var(--fl-linkColor, var(--menuExpandedColor));
+    display: flex;
+    height: 2.7rem;
+    padding-inline-start: 1.875rem;
+    text-decoration: underline;
+    width: 100%;
+}
+
+.site-nav-list a::before {
+    content: " ";
+    display: inline-block;
+    padding-inline-end: 0.4rem;
+    width: 1ch;
+}
+
+.site-nav-list a:focus,
+.site-nav-list a:hover {
+    background-color: var(--fl-linkColor, var(--menuExpandedColor));
+    color: var(--fl-bgColor, var(--menuExpandedBGColor));
+    outline-color: transparent;
+}
+
+.site-nav-list a[aria-current="page"],
+.site-nav-list a[aria-current="true"] {
+    font-weight: var(--fl-enhance-font-weight, bolder);
+    text-decoration: none;
+}
+
+.site-nav-list a[aria-current="page"]::before,
+.site-nav-list a[aria-current="true"]::before {
+    content: "\2713";
+}
+
+.site-nav > [aria-expanded="true"] {
+    background-color: var(--fl-buttonFgColor, var(--menuExpandedBGColor));
+    color: var(--fl-buttonBgColor, var(--menuExpandedColor));
+}
+
+.site-nav > [aria-expanded="true"] svg {
+    fill: currentColor;
+}
+
+.site-nav > [aria-expanded="false"] + .site-nav-list {
+    display: none;
+}
+
+.site-footer {
+    color: var(--headerFooterColor);
+    font-family: var(--fl-font-family, OpenSans, Arial, Helvetica, sans-serif);
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.6);
+    margin-top: 5.75rem;
+    padding: 3.25rem 24px;
+}
+
+.site-footer .footer-grid {
+    display: grid;
+    grid-template-columns: minmax(1fr, 40.1875rem);
+    row-gap: 2.625rem;
+}
+
+.site-footer .footer-grid p:first-child {
+    margin-block-start: 0;
+}
+
+.site-footer .footer-grid p:last-child,
+.site-footer .footer-grid .netlify {
+    margin-block: 0;
+}
+
+.site-footer .footer-grid .floe p:last-of-type {
+    margin-block-start: 0;
+}
+
+.site-footer a {
+    color: var(--headerFooterLinkColor);
+}
+
+.site-footer strong {
+    font-weight: 800;
+}
+
+.site-footer svg {
+    display: block;
+    fill: var(--headerFooterColor);
+    height: 5rem;
+}
+
+.site-footer .floe-logo-floe-leaf {
+    height: 2rem;
+    width: 2rem;
+}
+
+.site-footer .cc-icons svg {
+    display: inline;
+    height: 2rem;
+    width: 2rem;
+}
+
+.site-footer .floe-logo-hewlett {
+    max-width: 19rem;
+    width: 100%;
+}
+
+.site-footer .floe-logo-idrc-wordmark {
+    margin-block: 1rem;
+    max-width: 14rem;
+    width: 100%;
+}
+
+.site-footer .floe-logo-ocadu {
+    max-width: 5rem;
+    width: 100%;
+}
+
+.breadcrumbs {
+    font-family: var(--fl-font-family, OpenSans, Arial, Helvetica, sans-serif);
+    font-size: var(--fl-textSize, 0.8125rem);
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.69);
+    margin-top: 2rem;
+}
+
+.breadcrumbs li + li::before {
+    content: ">";
+    padding: 0 0.6rem;
+}
+
+.post {
+    background: #efefef;
+    display: flex;
+    flex-direction: column;
+    overflow-wrap: break-word;
+}
+
+.post a {
+    color: var(--fl-linkColor, var(--mainColor));
+    font-weight: var(--fl-enhance-font-weight, 700);
+    text-decoration: none;
+}
+
+.page-post header time,
+.post time {
+    align-self: center;
+    font-feature-settings: 'pnum' on, 'lnum' on, 'ss03' on;
+    font-size: 0.75rem;
+    font-variant: small-caps;
+    letter-spacing: 0.08rem;
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.833);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.posts-projects {
+    align-items: start;
+}
+
+.posts-projects .corner-effect {
+    background-color: var(--mainBackground);
+    box-shadow: 0 0 0 2px var(--fl-fgColor, var(--projectsCornerShadow)) inset;
+    clip-path: polygon(0 0, 0 100%, calc(100% - 2.5rem) 100%, 100% calc(100% - 1.5rem), 100% 0);
+    display: block;
+    min-height: unset;
+}
+
+.posts-projects .corner-effect:focus-within,
+.posts-projects .corner-effect:hover {
+    box-shadow: 0 0 0 10px var(--fl-linkColor, var(--projectsCornerShadow)) inset;
+}
+
+.posts-projects .corner-effect::after {
+    background-color: var(--fl-fgColor, var(--projectsCornerShadow));
+    bottom: -2rem;
+    right: 0;
+}
+
+.posts-projects .corner-effect:focus-within::after,
+.posts-projects .corner-effect:hover::after {
+    background-color: var(--fl-linkColor, var(--projectsCornerShadow));
+}
+
+.posts-projects .corner-effect a:hover {
+    outline: none;
+}
+
+.posts-projects .corner-effect img {
+    margin-block-end: 0.75rem;
+}
+
+.posts-projects .corner-effect p {
+    margin-block-start: 0;
+}
+
+.posts-news .corner-effect {
+    background-color: var(--newsBGColor);
+    clip-path: polygon(0 1.5rem, 0 100%, 100% 100%, 100% 0%, 2.5rem 0);
+}
+
+.posts-news .corner-effect a:focus,
+.posts-news .corner-effect:hover a {
+    background-color: var(--fl-linkColor, var(--newsCornerShadow));
+    color: var(--fl-bgColor);
+}
+
+.posts-news .corner-effect a:focus,
+.posts-news .corner-effect a:hover {
+    background-color: var(--fl-linkColor, var(--newsCornerShadow));
+    padding-block-end: 0;
+}
+
+.posts-news .corner-effect:focus-within,
+.posts-news .corner-effect:hover {
+    box-shadow: 0 0 0 0.625rem var(--fl-linkColor, var(--newsCornerShadow)) inset;
+}
+
+.posts-news .corner-effect::after {
+    background-color: var(--fl-fgColor, var(--newsCornerShadow));
+    left: 0;
+    top: -2rem;
+}
+
+.posts-news .corner-effect:focus-within::after,
+.posts-news .corner-effect:hover::after {
+    background-color: var(--fl-linkColor, var(--newsCornerShadow));
+}
+
+.content {
+    font-size: 1.25rem;
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.48);
+}
+
+.content figure {
+    margin: 1rem;
+}
+
+.content img {
+    max-width: 100%;
+}
+
+.content a:hover,
+.content a:focus {
+    background-color: var(--fl-linkColor, var(--headerOrgBGColor));
+    color: var(--fl-bgColor);
+    outline: none;
+    padding-block-end: 0.15rem;
+}
+
+.resources-buttons {
+    margin-block: 1.5rem;
+}
+
+.resources-buttons button {
+    background: var(--fl-buttonBgColor, var(--mainBackground));
+    border: 1px solid var(--fl-fgColor, var(--mainColor));
+    color: var(--fl-buttonFgColor, var(--mainColor));
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: var(--fl-enhance-font-weight, 600);
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.57);
+    padding: 0.375rem 1rem;
+}
+
+.resources-main {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.resources-main h2 {
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 0.8);
+    margin: 0;
+}
+
+.resources-main button {
+    align-items: stretch;
+    background-color: var(--fl-buttonBgColor, var(--resourcesBGColor));
+    border: none;
+    color: var(--fl-buttonFgColor, var(--mainColor));
+    display: flex;
+    font-family: var(--fl-font-family, OpenSans, Open Sans, Arial, Helvetica, sans-serif);
+    font-size: 1.375rem;
+    justify-content: space-between;
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.45);
+    padding: 0;
+    width: 100%;
+}
+
+.resources-main button:focus,
+.resources-main button:hover {
+    outline-color: var(--fl-buttonFgColor);
+}
+
+.resources-main button .resources-title {
+    border: 0.625rem solid var(--fl-buttonBgColor, var(--resourcesBGColor));
+    border-inline-start: none;
+    padding: 0.25rem 1rem 0.25rem 0.5rem;
+    text-align: start;
+    width: 100%;
+}
+
+.resources-main button.expanded .resources-title {
+    border: 0.625rem solid var(--fl-buttonFgColor, var(--resourcesBorderColor));
+    border-inline-start: none;
+    font-weight: var(--fl-enhance-font-weight, 700);
+}
+
+.resources-main button .resources-expand-icon {
+    align-items: center;
+    background-color: var(--fl-buttonFgColor, var(--resourcesBorderColor));
+    display: flex;
+    font-size: var(--fl-enhance-font-size, 1.125rem);
+    font-weight: var(--fl-enhance-font-weight, 800);
+    justify-content: center;
+    min-width: 3rem;
+}
+
+.resources-main button .resources-expand-icon svg {
+    --icon-arrowColor: var(--fl-buttonBgColor, #000);
+
+    color: var(--fl-bgColor, var(--mainColor));
+    fill: none;
+    height: 1.375rem;
+    width: 1rem;
+}
+
+.resources-main button.expanded .resources-expand-icon svg {
+    transform: rotate(90deg);
+}
+
+.resources-main .resources-category button {
+    cursor: pointer;
+    margin-block-end: 1.25rem;
+}
+
+.resources-main .resources-content {
+    display: none;
+}
+
+.resources-main .resources-content-show .resources-content {
+    display: block;
+    margin-block-end: 2.5rem;
+}
+
+.resources-main .resources-content p {
+    font-size: 1.25rem;
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.5);
+}
+
+.resources-main .resources-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.resources-main .resources-content ul li {
+    font-size: var(--fl-enhance-font-size, 1.125rem);
+    margin-block-end: 0.35rem;
+}
+
+.resources-main .resources-content ul li a {
+    padding-block-end: 0.15rem;
+}
+
+.resources-main .resources-content ul li > p:first-child a {
+    font-size: var(--fl-enhance-font-size, 1.25rem);
+    font-weight: var(--fl-enhance-font-weight, 700);
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.3);
+    margin-block: 1.5rem 1rem;
+    text-underline-position: from-font;
+}
+
+.pagination {
+    display: grid;
+    font-family: var(--fl-font-family, OpenSans, Arial, Helvetica, sans-serif);
+    font-size: 0.875rem;
+    font-weight: var(--fl-enhance-font-weight, 600);
+    grid-template-columns: [start] 1fr [end] 1fr;
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.57);
+}
+
+.pagination svg {
+    --icon-arrowColor: var(--fl-fgColor, var(--mainColor));
+
+    fill: none;
+    height: 0.5rem;
+    vertical-align: middle;
+    width: 1rem;
+}
+
+.pagination-previous {
+    grid-column-start: start;
+    justify-self: start;
+}
+
+.pagination-previous-icon {
+    padding-inline-end: 0.5rem;
+}
+
+.pagination-previous-icon svg {
+    transform: rotate(180deg);
+}
+
+.pagination-next {
+    grid-column-start: end;
+    justify-self: end;
+}
+
+.pagination-next-icon {
+    padding-inline-start: 0.5rem;
+}
+
+/* UIO related styles */
+
+[class*="fl-theme-"]:not(.fl-theme-prefsEditor-default) .card-layout {
+    border: 0.0625rem solid var(--fl-fgColor);
+}
+
+[class*="fl-theme-"]:not(.fl-theme-prefsEditor-default) img {
+    filter: grayscale(100%);
+}
+
+[class*="fl-theme-"]:not(.fl-theme-prefsEditor-default).fl-theme-by img,
+[class*="fl-theme-"]:not(.fl-theme-prefsEditor-default).fl-theme-bbr img {
+    mix-blend-mode: multiply;
+}
+
+/* Use an SVG filter for yellow-on-black because we want it to blend with yellow, not the black background */
+[class*="fl-theme-"]:not(.fl-theme-prefsEditor-default).fl-theme-yb img {
+    /*
+        Due to https://bugs.webkit.org/show_bug.cgi?id=127102 we need to access the SVG filter from an embedded SVG
+        instead of an external one.
+    */
+    filter: grayscale(100%) url("#yellow");
+}
+
+.fl-prefsEditor-buttons button:focus,
+.fl-prefsEditor-buttons button:hover {
+    outline: 0.125rem solid var(--fl-fgColor, currentColor);
+}
+
+.fl-prefsEditor-separatedPanel {
+    background-color: var(--headerOrgBGColor);
+    border-bottom: none;
+}
+
+.fl-prefsEditor-separatedPanel .fl-panelBar-smallScreen,
+.fl-panelBar-smallScreen .fl-prefsEditor-showHide {
+    border-radius: 0 0 1.875rem 1.875rem;
+}
+
+.fl-prefsEditor-separatedPanel .fl-panelBar-smallScreen button {
+    height: 100%;
+    text-align: center;
+}
+
+.fl-prefsEditor-separatedPanel .fl-panelBar-smallScreen button:focus,
+.fl-prefsEditor-separatedPanel .fl-panelBar-smallScreen button:hover {
+    background-color: var(--fl-buttonFgColor, #000);
+    color: var(--fl-buttonBgColor, #fff);
+}
+
+.fl-panelBar-smallScreen [aria-pressed="true"].fl-prefsEditor-showHide {
+    border-radius: 0 0 0 1.875rem;
+}
+
+.fl-panelBar-smallScreen [aria-pressed="true"].fl-prefsEditor-showHide + button {
+    border-radius: 0 0 1.875rem 0;
+}
+
+.fl-input-enhanced a,
+.fl-input-enhanced button,
+.fl-input-enhanced input,
+.fl-input-enhanced select,
+.fl-input-enhanced textarea,
+.fl-input-enhanced .fl-input-enhance {
+    font-size: var(--fl-enhance-font-size);
+}
+
+.fl-input-enhanced a {
+    font-weight: var(--fl-enhance-font-weight);
+    text-decoration: var(--fl-enhance-text-decoration);
+}
+
+.fl-input-enhanced .card-title {
+    font-weight: 900;
+}
+
+/* hide the colour filters used for theming images */
+.color-filters {
+    height: 0;
+    left: -9999em;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 0;
+}
+
+/* page specific styling */
+
+.page-index main header h1 {
+    margin: 4rem 0;
+    text-transform: none;
+}
+
+.page-index h2 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.11);
+    margin-block: 0.9375rem 3.3125rem;
+}
+
+.page-index .content section {
+    margin-block-start: 2.175rem;
+}
+
+.page-index .intro-content {
+    line-height: calc(var(--fl-lineSpace-factor, 1) * 1.6);
+}
+
+.page-index .intro-content em {
+    font-weight: 700;
+}
+
+.page-index .intro-content p {
+    font-size: 1.5rem;
+    margin-block: 0.75rem;
+}
+
+.page-index .intro-content p:first-child {
+    margin-block-start: 0;
+}
+
+.page-index .intro-content p:last-child {
+    margin-block-end: 0;
+}
+
+.page-index .news,
+.page-index .featured-projects {
+    border-block-start: 0.5rem solid;
+}
+
+.page-index .featured-projects h2 {
+    margin-block-end: 2.0625rem;
+}
+
+.page-index .news {
+    border-block-start-color: var(--fl-fgColor, var(--newsCornerShadow));
+}
+
+.page-index .more-link {
+    display: grid;
+}
+
+.page-index .more-link a {
+    font-family: var(--fl-font-family, OpenSans, Open Sans, Arial, Helvetica, sans-serif);
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: right;
+    text-decoration-line: underline;
+}
+
+.page-index .more-link a:focus,
+.page-index .more-link a:hover {
+    background-color: var(--fl-bgColor, inherit);
+    color: var(--fl-linkColor);
+    outline: 0.125rem solid var(--fl-linkColor, #000);
+    padding-block-end: 0;
+}
+
+.page-index .more-link > span {
+    justify-self: end;
+}
+
+.page-index .more-link > span::after {
+    content: ">";
+    padding-inline-start: 0.5ch;
+}
+
+.page-index .featured-projects {
+    border-block-start-color: var(--fl-fgColor, var(--projectsCornerShadow));
+}
+
+.page-index .featured-projects .grid-layout {
+    grid-column-gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(20.5rem, 100%), 1fr));
+}
+
+.page-index .featured-projects a {
+    font-weight: 600;
+}
+
+.page-index .intro section {
+    margin-block-start: 0;
+}
+
+.floe-fleur {
+    display: none;
+}
+
+.page-projects {
+    background: var(--fl-bgColor, var(--projectsBGColor));
+}
+
+.page-projects .content a:focus,
+.page-projects .content a:hover {
+    background-color: var(--fl-bgColor, inherit);
+    color: var(--fl-linkColor);
+    outline: 0.125rem solid var(--fl-linkColor, #000);
+    padding-block-end: 0;
+}
+
+.page-404 main {
+    margin-block-end: 15rem;
+    margin-block-start: 5rem;
+}
+
+@media all and (min-width: 40rem) {
+    main header h1 {
+        font-size: 4rem;
+        line-height: calc(var(--fl-lineSpace-factor, 1) * 1.11);
+    }
+
+    .page-index main .wrapper {
+        display: grid;
+        grid-template-areas:
+            "header fleur"
+            "toc fleur"
+            "intro fleur"
+            "content content";
+        grid-template-columns: 2fr 1fr;
+        margin-block-start: 8.25rem;
+    }
+
+    .page-index .floe-fleur {
+        display: block;
+        grid-area: fleur;
+        height: 50rem;
+        width: 100%;
+    }
+
+    .page-index main header {
+        grid-area: header;
+    }
+
+    .page-index main header h1 {
+        font-size: 4.25rem;
+        margin-block: 0 5.75rem;
+        width: min(11ch, 100%);
+    }
+
+    .page-index main .flc-toc-tocContainer {
+        grid-area: toc;
+    }
+
+    .page-index .content {
+        grid-area: content;
+    }
+
+    .page-index .intro {
+        display: flex;
+        grid-area: intro;
+        justify-content: space-between;
+    }
+
+    .page-index .intro-content {
+        flex-grow: 2;
+        flex-shrink: 2;
+        line-height: calc(var(--fl-lineSpace-factor, 1) * 1.3333);
+    }
+
+    .page-index .news {
+        margin-block-start: 8.25rem;
+    }
+
+    .fl-prefsEditor-separatedPanel {
+        /* Solves an overlap issue between the header and the UIO buttons */
+        position: relative;
+        z-index: 1;
+    }
+
+    .disclosure-button {
+        display: none;
+    }
+
+    .site-header .wrapper {
+        padding-inline: 0;
+    }
+
+    .site-header-org {
+        padding-block-start: 2.6rem;
+    }
+
+    .site-header-org,
+    .site-header-nav {
+        padding-inline: 24px;
+    }
+
+    .site-nav {
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: 0;
+    }
+
+    .site-nav-list {
+        background-color: var(--headerFooterBGColor);
+        border-bottom: none;
+        display: block !important; /* Need important to beat specificy of narrow screen menu style */
+        margin: 1rem 0;
+        position: initial;
+        width: auto;
+    }
+
+    .site-nav-list li {
+        border-bottom: none;
+        display: inline-block;
+        padding: 0;
+        padding-inline-end: 2rem;
+    }
+
+    .site-nav-list a {
+        background-color: inherit;
+        color: var(--fl-linkColor, currentColor);
+        font-size: 1.125rem;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    .site-nav-list a:focus,
+    .site-nav-list a:hover {
+        outline-color: var(--fl-linkColor, var(--menuExpandedBGColor));
+    }
+
+    .site-nav-list a::before {
+        content: none;
+    }
+
+    .site-nav-list a[aria-current="page"],
+    .site-nav-list a[aria-current="true"] {
+        border-bottom: 0.625rem solid currentColor;
+        font-weight: var(--fl-enhance-font-weight, normal);
+        margin-left: 0;
+    }
+
+    .site-nav-list a[aria-current="page"]::before,
+    .site-nav-list a[aria-current="true"]::before {
+        content: none;
+    }
+
+    .content figure {
+        margin: revert;
+    }
+
+    .site-footer .footer-grid {
+        column-gap: 7.875rem;
+        grid-template-columns: minmax(1fr, 40.1875rem) 1fr;
+    }
+
+    .site-footer .footer-grid .orgs {
+        align-self: start;
+        grid-column: 2;
+        grid-row-end: span 3;
+        grid-row-start: 1;
+        padding-block-start: 3rem;
+    }
+}

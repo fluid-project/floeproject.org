@@ -1,0 +1,35 @@
+{% extends "layouts/base.njk" %}
+
+{% set pageType = "page-index" %}
+
+{% block preHeader %}
+    {% svg_sprite "fleur" %}
+{% endblock %}
+
+{% block contentIntro %}
+    <div class="intro">
+        <section class="intro-content">
+            {{ content | safe }}
+        </section>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div id="content" class="content">
+        <section class="news">
+            <h2>News</h2>
+            {% include "partials/components/latest-news.njk" %}
+            <div class="more-link"><span><a href="/news/">Other news items</a></span></div>
+        </section>
+
+        <section class="featured-projects">
+            <h2>Featured Projects</h2>
+            <ul class="grid-layout">
+            {% for project in collections.featured | sort(false, true, "data.order") %}
+                <li>{{ project.templateContent | safe }}</li>
+            {% endfor %}
+            </ul>
+            <div class="more-link"><span><a href="/projects/">See more projects</a></span></div>
+        </section>
+    </div>
+{% endblock %}

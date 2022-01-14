@@ -1,0 +1,22 @@
+{% if pagination.pages.length > 1 %}
+    <nav aria-label="pagination">
+        <ol class="pagination inline-list">
+            {% if pagination.href.previous %}
+                <li class="pagination-previous">
+                    <span class="pagination-previous-icon" aria-hidden="true">
+                        {% svg_sprite "arrow" %}
+                    </span>
+                    <a href="{{ pagination.href.previous }}">{{ paginationPreviousText }}</a>
+                </li>
+            {% endif %}
+            {% if pagination.href.next %}
+                <li class="pagination-next">
+                    <a href="{{ pagination.href.next }}">{{ paginationNextText }}</a>
+                    <span class="pagination-next-icon" aria-hidden="true">
+                        {% svg_sprite "arrow" %}
+                    </span>
+                </li>
+            {% endif %}
+        </ol>
+    </nav>
+{% endif %}

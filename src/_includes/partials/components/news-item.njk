@@ -1,0 +1,9 @@
+<li class="post card-layout corner-effect">
+    {% if post.date %}
+        <time class="floe-date" datetime="{{ post.date | isoDate }}">{{ post.date | dateFilter }}</time>
+    {% endif %}
+    <a class="card-title" href="{{ post.url }}">{{ post.data.title }}</a>
+    {% if post.data.excerpt %}
+        <p>{{ post.data.excerpt }}</p>
+    {% endif %}
+</li>
