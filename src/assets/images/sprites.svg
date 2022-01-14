@@ -2,7 +2,7 @@
 
     <!-- Icons -->
 
-    <symbol id="arrow" width="16" height="21" viewBox="0 0 16 21">
+    <symbol id="arrow" viewBox="0 0 16 21">
         <path d="M2 19.5L13 10.5L2 1.5" stroke="var(--icon-arrowColor)" stroke-width="3" stroke-linecap="round"/>
     </symbol>
 
