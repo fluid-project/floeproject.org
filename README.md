@@ -40,7 +40,8 @@ If you make changes to the website, repeat the steps to build the image and star
 ## Deploy preview
 
 Changes in the `dev` branch can be previewed and tested via the deploy preview site hosted by Netlify:
-https://dev--fluid-floeproject-org.netlify.app/
+
+<https://dev--fluid-floeproject-org.netlify.app/>
 
 ## Notes
 
