@@ -727,6 +727,7 @@ aside h2 {
     line-height: calc(var(--fl-lineSpace-factor, 1) * 1.57);
 }
 
+.more-link-icon svg,
 .pagination svg {
     --icon-arrowColor: var(--fl-fgColor, var(--mainColor));
 
@@ -920,8 +921,7 @@ aside h2 {
     justify-self: end;
 }
 
-.page-index .more-link > span::after {
-    content: ">";
+.page-index .more-link > span > .more-link-icon {
     padding-inline-start: 0.5ch;
 }
 

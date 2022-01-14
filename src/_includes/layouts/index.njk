@@ -19,7 +19,14 @@
         <section class="news">
             <h2>News</h2>
             {% include "partials/components/latest-news.njk" %}
-            <div class="more-link"><span><a href="/news/">Other news items</a></span></div>
+            <div class="more-link">
+                <span>
+                    <a href="/news/">Other news items</a>
+                    <span class="more-link-icon" aria-hidden="true">
+                        {% svg_sprite "arrow" %}
+                    </span>
+                </span>
+            </div>
         </section>
 
         <section class="featured-projects">
@@ -29,7 +36,14 @@
                 <li>{{ project.templateContent | safe }}</li>
             {% endfor %}
             </ul>
-            <div class="more-link"><span><a href="/projects/">See more projects</a></span></div>
+            <div class="more-link">
+                <span>
+                    <a href="/projects/">See more projects</a>
+                    <span class="more-link-icon" aria-hidden="true">
+                        {% svg_sprite "arrow" %}
+                    </span>
+                </span>
+            </div>
         </section>
     </div>
 {% endblock %}
