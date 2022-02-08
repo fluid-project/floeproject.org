@@ -7,8 +7,11 @@ permalink: /
 
 *We share* strategies and techniques for inclusive teaching that have come out of real world situations.
 
-*We build* inclusive tools which prioritize personalized learning and individual reflection.
+*We build* inclusive tools that respect and support individual differences and learner differentiation.
 
-*We co-design* strategies, tools and techniques with marginalized learners.
+*We co-design* strategies, tools and learning experiences <ins>with</ins> learners facing barriers in education.
 
-*We are an open community* that welcomes new ideas, content and contributions in the space of Inclusive Open Education.
+*We support* emerging inclusive learning communities.
+
+*We are an open community* that welcomes new ideas, constructive critique, content and contributions in the space of
+Inclusive Open Education.
