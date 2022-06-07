@@ -1,5 +1,5 @@
 ---
-title: Indigiverse Multimedia Festival
+title: Indigeverse Multimedia Festival
 date: "2022-04-25"
 excerpt: A presentation of the ecocultural mapping project in the Salish Sea.
 ---
