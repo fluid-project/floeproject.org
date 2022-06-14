@@ -3,19 +3,20 @@ title: Indigeverse Multimedia Festival
 date: "2022-04-25"
 excerpt: A presentation of the ecocultural mapping project in the Salish Sea.
 ---
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/0v84S7DeORU"
-  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;"
-  allowfullscreen="" title="Indigeverse Presentation"></iframe>
-</div>
-
 Through FLOE, the IDRC recently participated in a panel discussion at the
 [Indigeverse Multimedia Festival](https://www.indigeverse.org/).
 Together with other project team members, we presented an overview of some
 recent work on an ecocultural mapping project. The presentation was a preview of
 an upcoming Indigenous Design Collective workshop, where we will discuss the
 project in more detail.
+
+<!--- TODO: We should implement a way of adding videos to pages instead of
+            having the markup be in the markdown file. --->
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/0v84S7DeORU"
+  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;"
+  allowfullscreen="" title="Indigeverse Presentation"></iframe>
+</div>
 
 In partnership with Indigenous and non-Indigenous partners, the project aims to
 co-create an inclusive, participatory mapping program in the Salish Sea that
