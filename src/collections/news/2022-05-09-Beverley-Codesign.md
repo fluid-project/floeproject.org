@@ -17,5 +17,5 @@ Intermediate Level students worked with more complex concepts such as loops.
 
 The codesign resulted in many new improvements for Weavly as well as improvements to the
 [facilitators guides in the Weavly Educator's Toolkit](https://weavly.org/learn/resources/page/2/).
-More [detailed information about the codesign](https://www.codelearncreate.org/blog/beverley-codesign/) 
+More [detailed information about the codesign](https://www.codelearncreate.org/blog/beverley-codesign/)
 can be found on the Coding to Learn and Create website.
