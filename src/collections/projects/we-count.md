@@ -1,9 +1,7 @@
 ---
 title: We Count
 date: "2020-10-01"
-order: 3
 tags:
-  - featured
   - active
 thumbnailFilename: wecount.png
 thumbnailAltText: A photograph of a monitor showing the WeCount website
