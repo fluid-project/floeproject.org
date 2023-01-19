@@ -35,8 +35,9 @@ FLOE contributes to many efforts in open education including:
 * the [Weavly coding environment](https://create.weavly.org/?v=1.0&t=mixed&w=Space&p=&c=abb&a=123456ABDabd),
 * the [Inverted Wordles](https://wecount.inclusivedesign.ca/views/inverted-wordles/) tool,
 * the [Coding Educator’s Toolkit](https://weavly.org/learn/),
-* [AI Education Badges](https://wecount.inclusivedesign.ca/badges/), and
-* the [Open Robot Kit](https://www.codelearncreate.org/blog/open-robot-kit/)
+* [AI Education Badges](https://wecount.inclusivedesign.ca/badges/),
+* the [Open Robot Kit](https://www.codelearncreate.org/blog/open-robot-kit/), and
+* the [Ecocultural Mapping Project](../ecocultural-mapping-project/)
 
 The FLOE project is integral to the Fluid open community, a global community of people with varied lived experience
 including designers and developers, who provide support and advice for anyone working on learning content and tools.
