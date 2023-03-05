@@ -48,7 +48,7 @@
         "@tbranyen/jsdom": "13.0.0",
         "cross-env": "7.0.3",
         "eleventy-plugin-sharp": "0.0.3",
-        "fluid-lint-all": "1.1.5",
+        "fluid-lint-all": "1.2.8",
         "html-minifier": "4.0.0",
         "image-size": "1.0.1",
         "laravel-mix": "6.0.39",
