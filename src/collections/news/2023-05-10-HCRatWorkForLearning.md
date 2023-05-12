@@ -27,5 +27,3 @@ to continue building relationships and advance collaborations.
 
 For more information about HCR @Work for Learning, visit the
 [Human Computer Relationships website](https://www.colorado.edu/project/human-computer-relationships/)
-
-
