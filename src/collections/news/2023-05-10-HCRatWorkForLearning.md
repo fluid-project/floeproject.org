@@ -21,7 +21,7 @@ research and design for learning, ideas for building designs with intentional
 and fortuitous flexibility, and opportunities and hazards of artificial
 intelligence.
 
-The IDRC hopes to invite attendees from this convening to future 
+The IDRC hopes to invite attendees from this convening to future
 [community workshops and design crits](https://wiki.fluidproject.org/display/fluid/Community+workshops+and+design+crits)
 to continue building relationships and advance collaborations.
 
