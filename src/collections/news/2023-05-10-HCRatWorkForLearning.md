@@ -1,7 +1,7 @@
 ---
 title: Human Computer Relationships at Work for Learning
 date: "2023-05-10"
-excerpt: Convening of researchers and experts om inclusive design, embodied cognition, and haptics.
+excerpt: Convening of researchers and experts on inclusive design, embodied cognition, and haptics.
 
 ---
 
