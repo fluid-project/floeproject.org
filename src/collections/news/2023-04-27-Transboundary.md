@@ -6,21 +6,23 @@ excerpt: A Transboundary Gathering - Digital Ecocultural Mapping in the Salish S
 ---
 
 The Floe team is co-organizing an Indigenous-led collaborative working meeting and
-coalition-building event with Whiteswan Environmental (WE), the American Indian Higher
-Education Consortium (AIHEC) and the Institute for Multidisciplinary Ecological Research
-in the Salish Sea (IMERSS). The gathering will bring together Indigenous and non-Indigenous
-researchers, designers, students, and government officials from Canada and the U.S. to
-consider approaches to ecocultural mapping that respect cultural safety, address issues
-of data sovereignty, protect sacred knowledge, and ensure Indigenous leadership.
+coalition-building event with
+[Whiteswan Environmental](https://www.whiteswanenvironmental.org/) (WE), the
+[American Indian Higher Education Consortium](https://www.aihec.org/) (AIHEC) and the
+[Institute for Multidisciplinary Ecological Research in the Salish Sea](https://imerss.org/)
+(IMERSS). The gathering will bring together Indigenous and non-Indigenous researchers,
+designers, students, and government officials from Canada and the U.S. to consider
+approaches to ecocultural mapping that respect cultural safety, address issues of data
+sovereignty, protect sacred knowledge, and ensure Indigenous leadership.
 
-[Digital ecocultural mapping](https://floeproject.org/ecocultural-mapping-project/)
-provides visualizations and storytelling about natural, cultural, and historical sites
-including ancestral village sites, camps, reef net locations, food sovereignty, and
-Indigenous stewardship systems. ​Taking place on the ancestral land of the Indigenous
-Lummi people, the Transboundary Gathering will act as a catalyst for establishing an
-on-going collaborative partnership to support cross-cultural ecocultural mapping efforts
-in the Salish Sea region, and to share tools and resources that will support similar
-efforts elsewhere.
+The [Digital ecocultural mapping tool](https://floeproject.org/ecocultural-mapping-project/)
+provides visualizations and storytelling about the natural, cultural, and historical
+significance of local ecological communities through the incorporation of biodiversity
+data, Indigenous language learning, art and other multi-media content. ​Taking place on
+the ancestral land of the Indigenous Lummi people, the Transboundary Gathering will act
+as a catalyst for establishing an on-going collaborative partnership to support
+cross-cultural ecocultural mapping efforts in the Salish Sea region, and to share tools
+and resources that will support similar efforts elsewhere.
 
 Participants will critically examine how an inclusive design approach can help to
 reconceptualize the design of technologies and cultural systems in ways that centre
