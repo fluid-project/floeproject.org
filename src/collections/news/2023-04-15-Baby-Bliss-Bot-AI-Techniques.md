@@ -51,11 +51,13 @@ patterns are nor exactly what the GAN has learned.  These are issues for
 possible future explorations of GAN machine learning models.
 
 ### StyleGAN3
+
 - Cindy to help here
 
 ### CLIP model
+
 - Antonio to add content here
 
 ### YOLO
-- Antonio to add content here
 
+- Antonio to add content here
