@@ -105,7 +105,8 @@ probabilistic approach to the identification of such object in a corpus of
 fixed categories.
 
 <figure style="text-align: center;">
-<img src="https://user-images.githubusercontent.com/999407/249845642-5d96f6c6-3d91-4c6d-bb22-ead7e4b86078.png" alt="Screen Shot 2023-06-29 at 11 02 36 AM">
+<img src="https://user-images.githubusercontent.com/999407/249845642-5d96f6c6-3d91-4c6d-bb22-ead7e4b86078.png"
+alt="Screen Shot 2023-06-29 at 11 02 36 AM">
 <figcaption>Screen Shot 2023-06-29 at 11 02 36 AM</figcaption>
 </figure>
 
