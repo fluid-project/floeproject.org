@@ -7,7 +7,7 @@ excerpt: Exploring AI Machine Learning models with Bliss symbols.
 A number of different artificial intelligence machine learning systems were
 explored in order to acquire a basic knowledge of such systems, how to train
 them, and what they produce, as well as an idea of their value to the
-[Baby Bliss Bot Project](https://floeproject.org/news/2023-04-12-introduction-of-baby-bliss-bot-project/).
+[Baby Bliss Bot Project](https://floeproject.org/news/2023-04-12-introduction-of-baby-bliss-bot-project).
 
 ## StyleGAN: StyleGAN2-ADA and StyleGAN3
 
