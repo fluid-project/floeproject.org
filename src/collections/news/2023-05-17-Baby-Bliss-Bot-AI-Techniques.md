@@ -66,8 +66,70 @@ potential future explorations of GAN machine learning models.
 
 ## CLIP model
 
-- Antonio to add content here
+CLIP (Contrastive Language–Image Pre-training) comprises a machine learning
+technique in which images, in addition to textual information describing those
+images are used in the training process. This approach has been recieving
+increased attention in the field of computer vision, where previous advances
+have provided high levels of accuracy in tasks such as the recognition and
+classification of objects in photographs and videos. However, it has been argued
+that state-of-the-art approaches in computer vision have various limitations,
+including for example that the systems are often able to make predictions and
+identification over a small number of categories, preventing the ability to
+identify more general and abstract features, not to mentioned the laborious work
+required in the preparation of the data when the systems are required to
+recognize new objects not previously included in the datasets.
+
+The BBB Project has started experimenting with CLIP models in order to explore
+how the use of multimodal (images and textual) data training strategies can be
+applied for a better understanding of the internal composition of Bliss symbols
+and combined words, and eventually provide avenues for the generation of new
+symbols.
+
+For this exploration, we have created an initial annotated dataset using the
+existing official [Bliss vocabulary database](https://www.blissymbolics.org/index.php/symbol-files).
+In this dataset we have used the images of each Bliss symbol and created a set
+of annotations by extracting two fields contained the official Bliss database,
+namely the “gloss”, which includes different words and synonyms and the
+"explanation", which contains a description about how one particular Bliss
+symbol was constructed.
 
 ## YOLO
 
-- Antonio to add content here
+YOLO: "You only look once" is an AI strategy widely applied to real-time object
+detection. YOLO models are currently being used in various tasks such as the
+identification of objects in self-driving cars and even face recognition
+applications. The key goal of YOLO models is to be able to train a system in
+order to identify a given object in any part of an image, and as a result,
+provide information about the position of that object as well as a
+probabilistic approach to the identification of such object in a corpus of
+fixed categories.
+
+<figure style="text-align: center;">
+<img src="https://user-images.githubusercontent.com/999407/249845642-5d96f6c6-3d91-4c6d-bb22-ead7e4b86078.png" alt="Screen Shot 2023-06-29 at 11 02 36 AM">
+<figcaption>Screen Shot 2023-06-29 at 11 02 36 AM</figcaption>
+</figure>
+
+The BBB project has started an exploration with YOLO models in order to address
+two main challenges. The first one is the extraction of Bliss symbols contained
+in the large [Bliss Archive](https://archive.org/details/blissymbolics).
+Although the data contained in the Archive has already applied Optical Character
+Recognition (OCR) methods, and most of the scanned documents and books are
+available in text format, the Bliss symbols contained in these data remain
+available only in image format. With the aim of exploring the possibility of
+training a Large Language Model (LLM) specifically to understand and generate
+Bliss sentences, we are considering the use and creation of YOLO models as an
+initial avenue for generating the data that will be needed for such Bliss LLM.
+
+The second challenge where we see YOLO models can be useful is in the recognition
+of Bliss symbols in everyday life settings. With a real-time Bliss symbol
+recognition system that is provided with live images or video of AAC user
+interacting with printed Bliss boards, we envision the possibility of assisting
+AAC users to communicate with others that do not understand Bliss, such as care
+professionals or even family members that may not know certain Bliss vocabulary.
+
+The initial steps taken in this direction are still preliminary as we have not
+been able yet to generate a large training dataset, due to the labor-intensive
+process required in labeling the data. As we move forward, we are exploring ways
+of automating certain parts of the process for image labeling as well as
+augmenting Bliss symbols data with the use of image filters which we hope can
+provide more robust training data.
