@@ -10,7 +10,7 @@ them, and what they produce, as well as an idea of their value to the
 [Baby Bliss Bot Project](/news/2023-04-12-introduction-of-baby-bliss-bot-project).
 Additionally, this exploration will provide insights into the capabilities
 and limitations of these systems.
- 
+
 ## StyleGAN: StyleGAN2-ADA and StyleGAN3
 
 A GAN (Generative Adversarial Network) is a machine learning framework for
@@ -23,7 +23,7 @@ composes a new face based on what it has learned from its training.
 
 Nvidia has developed a type of a progressive GAN called a [StyleGAN](https://en.wikipedia.org/wiki/StyleGAN).
 The system is trained first with low resolution images, and as training
-proceeds, higher resolutions are progressively introduced. Exploring StyleGAN 
+proceeds, higher resolutions are progressively introduced. Exploring StyleGAN
 models holds the promise of uncovering new Bliss characters for brainstorming.
 
 There are several versions of StyleGAN.  We investigated two of them:
