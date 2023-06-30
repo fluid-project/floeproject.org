@@ -7,7 +7,7 @@ excerpt: Exploring AI Machine Learning models with Bliss symbols.
 A number of different artificial intelligence machine learning systems were
 explored in order to acquire a basic knowledge of such systems, how to train
 them, and what they produce, as well as an idea of their value to the
-[Baby Bliss Bot Project](/news/2023-04-12-introduction-of-baby-bliss-bot-project).
+[Baby Bliss Bot Project](/news/2023-04-12-bbb-intro).
 Additionally, this exploration will provide insights into the capabilities
 and limitations of these systems.
 
@@ -92,14 +92,14 @@ brainstorming new Bliss symbols.
 
 CLIP (Contrastive Language–Image Pre-training) comprises a machine learning
 technique in which images, in addition to textual information describing those
-images are used in the training process. This approach has been recieving
+images are used in the training process. This approach has been receiving
 increased attention in the field of computer vision, where previous advances
 have provided high levels of accuracy in tasks such as the recognition and
 classification of objects in photographs and videos. However, it has been argued
 that state-of-the-art approaches in computer vision have various limitations,
 including for example that the systems are often able to make predictions and
 identification over a small number of categories, preventing the ability to
-identify more general and abstract features, not to mentioned the laborious work
+identify more general and abstract features, not to mention the laborious work
 required in the preparation of the data when the systems are required to
 recognize new objects not previously included in the datasets.
 
@@ -131,7 +131,7 @@ fixed categories.
 <figure style="text-align: center;">
 <img src="https://user-images.githubusercontent.com/999407/249845642-5d96f6c6-3d91-4c6d-bb22-ead7e4b86078.png"
 alt="Screen Shot 2023-06-29 at 11 02 36 AM">
-<figcaption>Screen Shot 2023-06-29 at 11 02 36 AM</figcaption>
+<figcaption>Figure 4. Screen Shot 2023-06-29 at 11 02 36 AM</figcaption>
 </figure>
 
 The BBB project has started an exploration with YOLO models in order to address
