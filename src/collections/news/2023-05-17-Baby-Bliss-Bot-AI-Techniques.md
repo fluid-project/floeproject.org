@@ -119,19 +119,21 @@ symbol was constructed.
 
 ## YOLO
 
-YOLO: "You only look once" is an AI strategy widely applied to real-time object
-detection. YOLO models are currently being used in various tasks such as the
-identification of objects in self-driving cars and even face recognition
-applications. The key goal of YOLO models is to be able to train a system in
-order to identify a given object in any part of an image, and as a result,
-provide information about the position of that object as well as a
-probabilistic approach to the identification of such object in a corpus of
-fixed categories.
+[YOLO](https://pjreddie.com/darknet/yolo/): "You only look once" is an AI
+strategy widely applied to real-time object detection. YOLO models are currently
+being used in various tasks such as the identification of objects in self-driving
+cars and even face recognition applications. The key goal of YOLO models is to
+be able to train a system in order to identify a given object in any part of
+an image, and as a result, provide information about the position of that object
+as well as a probabilistic approach to the identification of such object in a corpus
+of fixed categories.
 
 <figure style="text-align: center;">
-<img src="https://user-images.githubusercontent.com/999407/249845642-5d96f6c6-3d91-4c6d-bb22-ead7e4b86078.png"
-alt="Screen Shot 2023-06-29 at 11 02 36 AM">
-<figcaption>Figure 4. Screen Shot 2023-06-29 at 11 02 36 AM</figcaption>
+<img src="/news/images/yolo-prediction.png"
+alt="Image of a porch showing color boxes around the predictions detected by YOLO
+model including a dog, a bicycle and a truck">
+<figcaption>Figure 4. Image of a porch showing color boxes around the predictions
+detected by YOLO model</figcaption>
 </figure>
 
 The BBB project has started an exploration with YOLO models in order to address
