@@ -16,7 +16,7 @@ anytime and on any device or platform. The contract for this project was awarded
 [Global Public Inclusive Infrastructure](https://gpii.net/) (GPII) team, including the
 [Inclusive Design Research Center](https://idrc.ocadu.ca/) at [OCAD U](https://www.ocadu.ca/),
 [Raising the Floor International](https://raisingthefloor.org/),
-[WGBH’s National Center for Accessible Media](hhttps://www.wgbh.org/foundation/what-we-do/ncam),
+[WGBH’s National Center for Accessible Media](https://www.wgbh.org/foundation/what-we-do/ncam),
 [IBM](https://www.ibm.com/us-en/), and [Inclusive Technologies](https://www.inclusive.co.uk/).
 
 For more information about the grant, see

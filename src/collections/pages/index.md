@@ -4,7 +4,6 @@ title: Supporting diverse learners and educators
 permalink: /
 ---
 
-
 *We share* strategies and techniques for inclusive teaching that have come out of real world situations.
 
 *We build* inclusive tools that respect and support individual differences and learner differentiation.

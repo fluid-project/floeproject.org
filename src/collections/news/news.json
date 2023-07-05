@@ -1,7 +1,4 @@
 {
     "layout": "layouts/post",
-    "permalink": "/news/{{ date | slug }}-{{ slug | default(title) | slug }}/",
-    "eleventyNavigation": {
-        "parent": "News"
-    }
+    "permalink": "/news/{{ date | slugify }}-{{ slug | default(title) | slugify }}/"
 }

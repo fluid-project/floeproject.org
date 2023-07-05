@@ -1,17 +1,13 @@
 "use strict";
-const jsdom = require("@tbranyen/jsdom");
-const {JSDOM} = jsdom;
+const {parseHTML} = require("linkedom");
 const minify = require("../utils/minify.js");
-const slugify = require("slugify");
+const slugify = require("@sindresorhus/slugify");
 const getSize = require("image-size");
 
 module.exports = function (value, outputPath) {
     if (outputPath && outputPath.endsWith(".html")) {
-        const DOM = new JSDOM(value, {
-            resources: "usable"
-        });
+        let {document} = parseHTML(value);
 
-        const document = DOM.window.document;
         const articleImages = [...document.querySelectorAll("main article img, .intro img")];
         const articleHeadings = [
             ...document.querySelectorAll("main article h2, main article h3")
