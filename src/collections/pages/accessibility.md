@@ -2,6 +2,8 @@
 layout: layouts/base
 title: FLOE Project Accessibility Statement
 slug: accessibility
+eleventyNavigation:
+    key: false
 ---
 The FLOE website has been created and tested to meet accessibility preferences and needs, and complies with WCAG and
 web standards to help ensure consistent and expected behaviour across different technologies and user agents.

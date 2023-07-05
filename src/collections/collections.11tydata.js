@@ -2,17 +2,10 @@
 
 module.exports = {
     eleventyComputed: {
-        eleventyNavigation: data => {
-            if (!data.eleventyNavigation) {
-                return false;
-            }
-
-            return {
-                key: data.title,
-                ...(data.date ? {date: data.date} : {}),
-                ...(data.excerpt ? {excerpt: data.excerpt} : {}),
-                ...data.eleventyNavigation
-            };
+        eleventyNavigation: {
+            key: data => data.eleventyNavigation.key === false ? false : data.title,
+            order: data => data.eleventyNavigation.order,
+            parent: data => data.eleventyNavigation.parent
         }
     }
 };

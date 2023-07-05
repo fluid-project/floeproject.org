@@ -1071,7 +1071,6 @@ aside h2 {
         color: var(--fl-linkColor, currentColor);
         font-size: 1.125rem;
         margin: 0;
-        padding: 0;
         text-decoration: none;
     }
 

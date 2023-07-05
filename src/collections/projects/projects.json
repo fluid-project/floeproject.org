@@ -1,3 +1,6 @@
 {
-    "permalink": false
+    "permalink": false,
+    "eleventyNavigation": {
+        "parent": "Projects"
+    }
 }
