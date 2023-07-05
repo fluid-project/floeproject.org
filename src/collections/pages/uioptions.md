@@ -2,8 +2,6 @@
 layout: layouts/base
 title: UI Options
 pageClasses: capitalize-title
-eleventyNavigation:
-    key: false
 ---
 
 User Interface Options (UI Options) provides a way to enhance or improve website usability, flexibility, and

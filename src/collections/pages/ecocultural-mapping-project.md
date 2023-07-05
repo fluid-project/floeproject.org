@@ -2,8 +2,6 @@
 layout: layouts/base
 title: Ecocultural Mapping Project
 pageClasses: capitalize-title
-eleventyNavigation:
-    key: false
 ---
 The Ecocultural Mapping Project is an interdisciplinary, participatory and inclusive digital
 mapping project that aims to meaningfully braid together Indigenous ways of knowing and Western

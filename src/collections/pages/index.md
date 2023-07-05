@@ -2,8 +2,6 @@
 layout: layouts/index.njk
 title: Supporting diverse learners and educators
 permalink: /
-eleventyNavigation:
-    key: false
 ---
 
 *We share* strategies and techniques for inclusive teaching that have come out of real world situations.
