@@ -6,7 +6,7 @@
     <ul id="floe-nav-menu-list" class="site-nav-list">
         {% set siteNav = collections.all | eleventyNavigation %}
         {% for item in siteNav %}
-            {% if item.title !== false %}
+            {% if item.title !== false and not '.js' in item.url %}
             <li>
                 <a href="{{ item.url }}" {% if item.url === page.url %} aria-current="page"{% elif page.url and page.url.startsWith(item.url) %} aria-current="true"{% endif %}>
                     {{ item.title }}
