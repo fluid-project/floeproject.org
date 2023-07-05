@@ -19,9 +19,9 @@ const navigationPlugin = require("@11ty/eleventy-navigation");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const sharpPlugin = require("eleventy-plugin-sharp");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const postcss = require('postcss');
-const autoprefixer = require('autoprefixer');
-const postcssCsso = require('postcss-csso');
+const postcss = require("postcss");
+const autoprefixer = require("autoprefixer");
+const postcssCsso = require("postcss-csso");
 const postcssLogical = require("postcss-logical");
 const esbuild = require("esbuild");
 
@@ -72,9 +72,9 @@ module.exports = function (config) {
     });
 
     // Templates
-    config.addTemplateFormats('css');
-    config.addExtension('css', {
-        outputFileExtension: 'css',
+    config.addTemplateFormats("css");
+    config.addExtension("css", {
+        outputFileExtension: "css",
         compile: async (content, path) => {
             if (path !== "./src/assets/styles/app.css") {
                 return;
@@ -83,39 +83,39 @@ module.exports = function (config) {
             let output = await postcss([
                 postcssLogical,
                 autoprefixer,
-                postcssCsso,
+                postcssCsso
             ]).process(content, {
-                from: path,
+                from: path
             });
-        
+
             return async () => {
                 return output.css;
             };
         }
     });
 
-    config.addTemplateFormats('js');
+    config.addTemplateFormats("js");
 
-config.addExtension('js', {
-	outputFileExtension: 'js',
-	compile: async (content, path) => {
-        if (!path.startsWith("./src/assets/scripts")) {
-            return;
+    config.addExtension("js", {
+        outputFileExtension: "js",
+        compile: async (content, path) => {
+            if (!path.startsWith("./src/assets/scripts")) {
+                return;
+            }
+
+            return async () => {
+                let output = await esbuild.build({
+                    target: "es2020",
+                    entryPoints: [path],
+                    minify: true,
+                    bundle: true,
+                    write: false
+                });
+
+                return output.outputFiles[0].text;
+            };
         }
-
-        return async () => {
-			let output = await esbuild.build({
-				target: 'es2020',
-				entryPoints: [path],
-				minify: true,
-				bundle: true,
-				write: false,
-			});
-
-			return output.outputFiles[0].text;
-		}
-	}
-});
+    });
 
     // Transforms
     config.addTransform("htmlmin", htmlMinTransform);
