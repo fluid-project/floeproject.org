@@ -19,17 +19,12 @@ const navigationPlugin = require("@11ty/eleventy-navigation");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const sharpPlugin = require("eleventy-plugin-sharp");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const postcss = require("postcss");
-const autoprefixer = require("autoprefixer");
-const postcssCsso = require("postcss-csso");
-const postcssLogical = require("postcss-logical");
 const esbuild = require("esbuild");
 
 // Import filters
 const dateFilter = require("./src/filters/date-filter.js");
 
 // Import transforms
-const htmlMinTransform = require("./src/transforms/html-min-transform.js");
 const parseTransform = require("./src/transforms/parse-transform.js");
 
 module.exports = function (config) {
@@ -72,41 +67,18 @@ module.exports = function (config) {
     });
 
     // Templates
-    config.addTemplateFormats("css");
-    config.addExtension("css", {
-        outputFileExtension: "css",
-        compile: async (content, path) => {
-            if (path !== "./src/assets/styles/app.css") {
-                return;
-            }
-
-            let output = await postcss([
-                postcssLogical,
-                autoprefixer,
-                postcssCsso
-            ]).process(content, {
-                from: path
-            });
-
-            return async () => {
-                return output.css;
-            };
-        }
-    });
-
     config.addTemplateFormats("js");
-
     config.addExtension("js", {
         outputFileExtension: "js",
-        compile: async (content, path) => {
-            if (!path.startsWith("./src/assets/scripts")) {
+        compile: async (inputContent, inputPath) => {
+            if (!inputPath.startsWith("./src/assets/scripts")) {
                 return;
             }
 
             return async () => {
                 let output = await esbuild.build({
                     target: "es2020",
-                    entryPoints: [path],
+                    entryPoints: [inputPath],
                     minify: true,
                     bundle: true,
                     write: false
@@ -118,7 +90,6 @@ module.exports = function (config) {
     });
 
     // Transforms
-    config.addTransform("htmlmin", htmlMinTransform);
     config.addTransform("parse", parseTransform);
 
     // Passthrough copy
