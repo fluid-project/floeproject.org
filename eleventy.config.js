@@ -70,6 +70,13 @@ module.exports = function (config) {
     config.addTemplateFormats("js");
     config.addExtension("js", {
         outputFileExtension: "js",
+        compileOptions: {
+            permalink: function (contents, inputPath) {
+                if (!inputPath.startsWith("./src/assets/scripts")) {
+                    return false;
+                }
+            }
+        },
         compile: async (inputContent, inputPath) => {
             if (!inputPath.startsWith("./src/assets/scripts")) {
                 return;
