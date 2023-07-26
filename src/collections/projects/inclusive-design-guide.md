@@ -1,7 +1,7 @@
 ---
 title: Inclusive Design Guide
 date: "2015-07-09"
-order: 5
+order: 6
 tags:
   - featured
 thumbnailFilename: idg.png
