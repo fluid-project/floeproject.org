@@ -1,30 +1,30 @@
 @font-face {
     font-display: swap;
-    font-family: "Literata";
+    font-family: Literata;
     font-style: normal;
     font-weight: 200 900;
     src:
-        url("../fonts/Literata-VariableFont_opsz,wght.woff2") format('woff2-variations'),
-        url("../fonts/Literata-VariableFont_opsz,wght.woff2") format('woff2');
+        url("../fonts/Literata-VariableFont_opsz,wght.woff2") format("woff2-variations"),
+        url("../fonts/Literata-VariableFont_opsz,wght.woff2") format("woff2");
 }
 
 @font-face {
     font-display: swap;
-    font-family: "Literata";
+    font-family: Literata;
     font-style: italic;
     font-weight: 200 900;
     src:
-        url("../fonts/Literata-Italic-VariableFont_opsz,wght.woff2") format('woff2-variations'),
-        url("../fonts/Literata-Italic-VariableFont_opsz,wght.woff2") format('woff2');
+        url("../fonts/Literata-Italic-VariableFont_opsz,wght.woff2") format("woff2-variations"),
+        url("../fonts/Literata-Italic-VariableFont_opsz,wght.woff2") format("woff2");
 }
 
 @font-face {
     font-display: swap;
-    font-family: "OpenSans";
+    font-family: OpenSans;
     font-weight: 200 900;
     src:
-        url("../fonts/OpenSans-VariableFont_wdth,wght.woff2") format('woff2-variations'),
-        url("../fonts/OpenSans-VariableFont_wdth,wght.woff2") format('woff2');
+        url("../fonts/OpenSans-VariableFont_wdth,wght.woff2") format("woff2-variations"),
+        url("../fonts/OpenSans-VariableFont_wdth,wght.woff2") format("woff2");
 }
 
 /* Components */
@@ -63,7 +63,7 @@ body {
     font-optical-sizing: none;
     hyphens: auto;
     line-height: var(--fl-lineSpace, 1.2);
-    min-height: 100vh;
+    min-block-size: 100vh;
     word-break: break-word;
 }
 
@@ -94,9 +94,10 @@ code {
 /* Utilities */
 
 .wrapper {
-    margin: 0 auto;
-    max-width: 64rem;
-    width: 100%;
+    inline-size: 100%;
+    margin-block: 0;
+    margin-inline: auto;
+    max-inline-size: 64rem;
 }
 
 .capitalize-title h1 {
@@ -131,19 +132,19 @@ https://codepen.io/MacintoshRobinson/pen/ZEzJvdo
 
 .corner-effect::after {
     background-color: #efefef;
-    content: '';
+    block-size: 4rem;
+    content: "";
     display: block;
-    height: 4rem;
+    inline-size: 2.5rem;
     position: absolute;
     transform: rotate(27deg);
-    width: 2.5rem;
 }
 
 .card-layout {
     cursor: pointer;
     font-size: 1.125rem;
     line-height: calc(var(--fl-lineSpace-factor, 1) * 1.33);
-    min-height: 10rem;
+    min-block-size: 10rem;
     padding: 2rem;
 }
 
@@ -178,7 +179,8 @@ main header h1 {
     font-size: 3rem;
     font-weight: 800;
     line-height: calc(var(--fl-lineSpace-factor, 1) * 1.1458);
-    margin: 2rem 0;
+    margin-block: 2rem;
+    margin-inline: 0;
     text-transform: lowercase;
 }
 
@@ -186,7 +188,8 @@ main header .breadcrumbs + h1 {
     font-size: 2.25rem;
     font-weight: 700;
     line-height: calc(var(--fl-lineSpace-factor, 1) * 1.278);
-    margin: 1rem 0 2rem 0;
+    margin-block: 1rem 2rem;
+    margin-inline: 0;
     text-transform: none;
 }
 
@@ -202,27 +205,27 @@ aside h2 {
 }
 
 #skip {
+    block-size: 1px;
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
-    height: 1px;
+    inline-size: 1px;
     overflow: hidden;
     position: absolute;
     white-space: nowrap;
-    width: 1px;
 }
 
 #skip:focus {
     background-color: var(--fl-bgColor, var(--mainColor));
+    block-size: auto;
     border: 0.2rem solid var(--fl-linkColor, var(--headerFooterColor));
     clip: auto;
     clip-path: none;
     color: var(--fl-linkColor, var(--headerFooterColor));
-    height: auto;
+    inline-size: auto;
     margin: 0.4rem;
     outline-color: var(--fl-linkColor, var(--headerFooterBGColor));
     overflow: auto;
     padding: 0.4rem;
-    width: auto;
     z-index: 2;
 }
 
@@ -230,21 +233,21 @@ aside h2 {
     align-items: center;
     align-self: flex-end;
     background-color: var(--fl-buttonBgColor, inherit);
+    block-size: 2rem;
     border: none;
     color: var(--fl-buttonFgColor, currentColor);
     display: flex;
-    height: 2rem;
     justify-content: center;
 }
 
 .disclosure-button svg {
+    block-size: 100%;
     fill: var(--headerFooterColor);
-    height: 100%;
-    width: 1.7rem;
+    inline-size: 1.7rem;
 }
 
 .site-header {
-    border-bottom: solid 0.5rem var(--fl-fgColor, var(--headerOrgBGColor));
+    border-block-end: solid 0.5rem var(--fl-fgColor, var(--headerOrgBGColor));
 }
 
 .site-header,
@@ -269,7 +272,7 @@ aside h2 {
 .site-header a:focus,
 .site-header button:focus,
 .site-header button:hover {
-    outline: 0.2rem solid currentColor;
+    outline: 0.2rem solid currentcolor;
 }
 
 .site-footer a:focus,
@@ -302,7 +305,7 @@ aside h2 {
     color: inherit;
     display: inline-block;
     font-weight: bold;
-    margin-block: 1.28125rem;
+    margin-block: 1.2813rem;
     text-decoration: none;
     text-transform: lowercase;
 }
@@ -313,52 +316,51 @@ aside h2 {
 }
 
 .site-brand-logo svg {
+    block-size: 2.125rem;
     fill: var(--headerFooterLinkColor);
-    height: 2.125rem;
-    width: 6.5rem;
+    inline-size: 6.5rem;
 }
 
 .site-nav {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
     margin: 0.5rem;
 }
 
 .site-nav-list {
     background-color: var(--menuExpandedBGColor);
-    border-bottom: 0.4rem solid var(--menuExpandedColor);
+    border-block-end: 0.4rem solid var(--menuExpandedColor);
     font-family: var(--fl-font-family, OpenSans, Arial, Helvetica, sans-serif);
+    inline-size: 100%;
     inset-inline-start: 0;
     list-style: none;
     margin: 0;
     padding: 0;
     position: absolute;
     top: 6.32rem;
-    width: 100%;
     z-index: 2;
 }
 
 .site-nav-list li {
-    border-bottom: 0.1rem solid var(--menuExpandedColor);
+    border-block-end: 0.1rem solid var(--menuExpandedColor);
 }
 
 .site-nav-list a {
     align-items: center;
     background-color: var(--fl-bgColor, var(--menuExpandedBGColor));
+    block-size: 2.7rem;
     color: var(--fl-linkColor, var(--menuExpandedColor));
     display: flex;
-    height: 2.7rem;
+    inline-size: 100%;
     padding-inline-start: 1.875rem;
     text-decoration: underline;
-    width: 100%;
 }
 
 .site-nav-list a::before {
     content: " ";
     display: inline-block;
+    inline-size: 1ch;
     padding-inline-end: 0.4rem;
-    width: 1ch;
 }
 
 .site-nav-list a:focus,
@@ -385,7 +387,7 @@ aside h2 {
 }
 
 .site-nav > [aria-expanded="true"] svg {
-    fill: currentColor;
+    fill: currentcolor;
 }
 
 .site-nav > [aria-expanded="false"] + .site-nav-list {
@@ -399,8 +401,9 @@ aside h2 {
     font-weight: 600;
     letter-spacing: 0.02rem;
     line-height: calc(var(--fl-lineSpace-factor, 1) * 1.6);
-    margin-top: 5.75rem;
-    padding: 3.25rem 24px;
+    margin-block-start: 5.75rem;
+    padding-block: 3.25rem;
+    padding-inline: 24px;
 }
 
 .site-footer .footer-grid {
@@ -431,48 +434,49 @@ aside h2 {
 }
 
 .site-footer svg {
+    block-size: 5rem;
     display: block;
     fill: var(--headerFooterColor);
-    height: 5rem;
 }
 
 .site-footer .floe-logo-floe-leaf {
-    height: 2rem;
-    width: 2rem;
+    block-size: 2rem;
+    inline-size: 2rem;
 }
 
 .site-footer .cc-icons svg {
+    block-size: 2rem;
     display: inline;
-    height: 2rem;
-    width: 2rem;
+    inline-size: 2rem;
 }
 
 .site-footer .floe-logo-hewlett {
-    max-width: 19rem;
-    width: 100%;
+    inline-size: 100%;
+    max-inline-size: 19rem;
 }
 
 .site-footer .floe-logo-idrc-wordmark {
+    inline-size: 100%;
     margin-block: 1rem;
-    max-width: 14rem;
-    width: 100%;
+    max-inline-size: 14rem;
 }
 
 .site-footer .floe-logo-ocadu {
-    max-width: 5rem;
-    width: 100%;
+    inline-size: 100%;
+    max-inline-size: 5rem;
 }
 
 .breadcrumbs {
     font-family: var(--fl-font-family, OpenSans, Arial, Helvetica, sans-serif);
     font-size: var(--fl-textSize, 0.8125rem);
     line-height: calc(var(--fl-lineSpace-factor, 1) * 1.69);
-    margin-top: 2rem;
+    margin-block-start: 2rem;
 }
 
 .breadcrumbs li + li::before {
     content: ">";
-    padding: 0 0.6rem;
+    padding-block: 0;
+    padding-inline: 0.6rem;
 }
 
 .post {
@@ -491,7 +495,7 @@ aside h2 {
 .page-post header time,
 .post time {
     align-self: center;
-    font-feature-settings: 'pnum' on, 'lnum' on, 'ss03' on;
+    font-feature-settings: "pnum" on, "lnum" on, "ss03" on;
     font-size: 0.75rem;
     font-variant: small-caps;
     letter-spacing: 0.08rem;
@@ -509,7 +513,7 @@ aside h2 {
     box-shadow: 0 0 0 2px var(--fl-fgColor, var(--projectsCornerShadow)) inset;
     clip-path: polygon(0 0, 0 100%, calc(100% - 2.5rem) 100%, 100% calc(100% - 1.5rem), 100% 0);
     display: block;
-    min-height: unset;
+    min-block-size: unset;
 }
 
 .posts-projects .corner-effect:focus-within,
@@ -583,7 +587,7 @@ aside h2 {
 }
 
 .content img {
-    max-width: 100%;
+    max-inline-size: 100%;
 }
 
 .content a:hover,
@@ -606,7 +610,8 @@ aside h2 {
     font-size: 0.875rem;
     font-weight: var(--fl-enhance-font-weight, 600);
     line-height: calc(var(--fl-lineSpace-factor, 1) * 1.57);
-    padding: 0.375rem 1rem;
+    padding-block: 0.375rem;
+    padding-inline: 1rem;
 }
 
 .resources-main {
@@ -628,10 +633,10 @@ aside h2 {
     display: flex;
     font-family: var(--fl-font-family, OpenSans, Open Sans, Arial, Helvetica, sans-serif);
     font-size: 1.375rem;
+    inline-size: 100%;
     justify-content: space-between;
     line-height: calc(var(--fl-lineSpace-factor, 1) * 1.45);
     padding: 0;
-    width: 100%;
 }
 
 .resources-main button:focus,
@@ -642,9 +647,10 @@ aside h2 {
 .resources-main button .resources-title {
     border: 0.625rem solid var(--fl-buttonBgColor, var(--resourcesBGColor));
     border-inline-start: none;
-    padding: 0.25rem 1rem 0.25rem 0.5rem;
+    inline-size: 100%;
+    padding-block: 0.25rem;
+    padding-inline: 0.5rem 1rem;
     text-align: start;
-    width: 100%;
 }
 
 .resources-main button.expanded .resources-title {
@@ -660,16 +666,16 @@ aside h2 {
     font-size: var(--fl-enhance-font-size, 1.125rem);
     font-weight: var(--fl-enhance-font-weight, 800);
     justify-content: center;
-    min-width: 3rem;
+    min-inline-size: 3rem;
 }
 
 .resources-main button .resources-expand-icon svg {
     --icon-arrowColor: var(--fl-buttonBgColor, #000);
 
+    block-size: 1.375rem;
     color: var(--fl-bgColor, var(--mainColor));
     fill: none;
-    height: 1.375rem;
-    width: 1rem;
+    inline-size: 1rem;
 }
 
 .resources-main button.expanded .resources-expand-icon svg {
@@ -731,10 +737,10 @@ aside h2 {
 .pagination svg {
     --icon-arrowColor: var(--fl-fgColor, var(--mainColor));
 
+    block-size: 0.5rem;
     fill: none;
-    height: 0.5rem;
+    inline-size: 1rem;
     vertical-align: middle;
-    width: 1rem;
 }
 
 .pagination-previous {
@@ -790,7 +796,7 @@ aside h2 {
 
 .fl-prefsEditor-separatedPanel {
     background-color: var(--headerOrgBGColor);
-    border-bottom: none;
+    border-block-end: none;
 }
 
 .fl-prefsEditor-separatedPanel .fl-panelBar-smallScreen,
@@ -799,7 +805,7 @@ aside h2 {
 }
 
 .fl-prefsEditor-separatedPanel .fl-panelBar-smallScreen button {
-    height: 100%;
+    block-size: 100%;
     text-align: center;
 }
 
@@ -814,7 +820,7 @@ aside h2 {
 }
 
 .fl-panelBar-smallScreen [aria-pressed="true"].fl-prefsEditor-showHide + button {
-    border-radius: 0 0 1.875rem 0;
+    border-radius: 0 0 1.875rem;
 }
 
 .fl-input-enhanced a,
@@ -837,18 +843,19 @@ aside h2 {
 
 /* hide the colour filters used for theming images */
 .color-filters {
-    height: 0;
+    block-size: 0;
+    inline-size: 0;
     left: -9999em;
     margin: 0;
     padding: 0;
     position: absolute;
-    width: 0;
 }
 
 /* page specific styling */
 
 .page-index main header h1 {
-    margin: 4rem 0;
+    margin-block: 4rem;
+    margin-inline: 0;
     text-transform: none;
 }
 
@@ -905,7 +912,7 @@ aside h2 {
     font-family: var(--fl-font-family, OpenSans, Open Sans, Arial, Helvetica, sans-serif);
     font-size: 1rem;
     font-weight: 600;
-    text-align: right;
+    text-align: end;
     text-decoration-line: underline;
 }
 
@@ -981,10 +988,10 @@ aside h2 {
     }
 
     .page-index .floe-fleur {
+        block-size: 50rem;
         display: block;
         grid-area: fleur;
-        height: 50rem;
-        width: 100%;
+        inline-size: 100%;
     }
 
     .page-index main header {
@@ -993,8 +1000,8 @@ aside h2 {
 
     .page-index main header h1 {
         font-size: 4.25rem;
+        inline-size: min(11ch, 100%);
         margin-block: 0 5.75rem;
-        width: min(11ch, 100%);
     }
 
     .page-index main .flc-toc-tocContainer {
@@ -1052,15 +1059,16 @@ aside h2 {
 
     .site-nav-list {
         background-color: var(--headerFooterBGColor);
-        border-bottom: none;
+        border-block-end: none;
         display: block !important; /* Need important to beat specificy of narrow screen menu style */
-        margin: 1rem 0;
+        inline-size: auto;
+        margin-block: 1rem;
+        margin-inline: 0;
         position: initial;
-        width: auto;
     }
 
     .site-nav-list li {
-        border-bottom: none;
+        border-block-end: none;
         display: inline-block;
         padding: 0;
         padding-inline-end: 2rem;
@@ -1085,9 +1093,9 @@ aside h2 {
 
     .site-nav-list a[aria-current="page"],
     .site-nav-list a[aria-current="true"] {
-        border-bottom: 0.625rem solid currentColor;
+        border-block-end: 0.625rem solid currentcolor;
         font-weight: var(--fl-enhance-font-weight, normal);
-        margin-left: 0;
+        margin-inline-start: 0;
     }
 
     .site-nav-list a[aria-current="page"]::before,
@@ -1107,8 +1115,7 @@ aside h2 {
     .site-footer .footer-grid .orgs {
         align-self: start;
         grid-column: 2;
-        grid-row-end: span 3;
-        grid-row-start: 1;
+        grid-row: 1 / span 3;
         padding-block-start: 3rem;
     }
 }
