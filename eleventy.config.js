@@ -12,6 +12,7 @@
 
 "use strict";
 
+const pkg = require("./package.json");
 const fluidPlugin = require("eleventy-plugin-fluid");
 const navigationPlugin = require("@11ty/eleventy-navigation");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
@@ -79,6 +80,9 @@ module.exports = function (config) {
         outputDir: "_site/projects/images"
     }));
     config.addPlugin(fluidPlugin, {
+        css: {
+            browserslist: pkg.browserslist.join(", ")
+        },
         i18n: false
     });
     config.addPlugin(navigationPlugin);
