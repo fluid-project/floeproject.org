@@ -5,7 +5,7 @@
     "scripts": {
         "build": "npm-run-all -l clean build:eleventy",
         "build:eleventy": "cross-env NODE_ENV=production eleventy",
-        "clean": "rimraf dist",
+        "clean": "rimraf _site",
         "dev": "cross-env NODE_ENV=development eleventy --serve",
         "lint": "fluid-lint-all",
         "start": "npm-run-all -l clean -p start:eleventy",

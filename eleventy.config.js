@@ -109,27 +109,12 @@ module.exports = function (config) {
     // Plugins
     config.addPlugin(sharpPlugin({
         urlPath: "/projects/images",
-        outputDir: "dist/projects/images"
+        outputDir: "_site/projects/images"
     }));
     config.addPlugin(fluidPlugin);
     config.addPlugin(navigationPlugin);
     config.addPlugin(rssPlugin);
     config.addPlugin(syntaxHighlight);
-
-    // 404
-    config.setBrowserSyncConfig({
-        callbacks: {
-            ready: function (err, bs) {
-                bs.addMiddleware("*", (req, res) => {
-                    const content_404 = fs.readFileSync("dist/404.html");
-                    // Provides the 404 content without redirect.
-                    res.write(content_404);
-                    res.writeHead(404);
-                    res.end();
-                });
-            }
-        }
-    });
 
     // Configure markdown to use smartquotes
     let markdownIt = require("markdown-it");
@@ -141,9 +126,7 @@ module.exports = function (config) {
 
     return {
         dir: {
-            input: "src",
-            output: "dist",
-            includes: "_includes"
+            input: "src"
         },
         passthroughFileCopy: true,
         markdownTemplateEngine: "njk"

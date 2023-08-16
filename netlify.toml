@@ -1,0 +1,17 @@
+[build]
+  command = "npm run build"
+  publish = "_site"
+  ignore = "git log -1 --pretty=%B | grep dependabot"
+
+[dev]
+  command = "npm start"
+  targetPort = 8080
+  publish = "_site"
+  autoLaunch = false
+  framework = "#custom"
+
+# English (or default language) 404 page must come last.
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
