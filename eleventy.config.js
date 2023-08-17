@@ -12,14 +12,12 @@
 
 "use strict";
 
-const fs = require("fs");
-
+const pkg = require("./package.json");
 const fluidPlugin = require("eleventy-plugin-fluid");
 const navigationPlugin = require("@11ty/eleventy-navigation");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const sharpPlugin = require("eleventy-plugin-sharp");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const esbuild = require("esbuild");
 
 // Import filters
 const dateFilter = require("./src/filters/date-filter.js");
@@ -66,36 +64,6 @@ module.exports = function (config) {
         return text;
     });
 
-    // Templates
-    config.addTemplateFormats("js");
-    config.addExtension("js", {
-        outputFileExtension: "js",
-        compileOptions: {
-            permalink: function (contents, inputPath) {
-                if (!inputPath.startsWith("./src/assets/scripts")) {
-                    return false;
-                }
-            }
-        },
-        compile: async (inputContent, inputPath) => {
-            if (!inputPath.startsWith("./src/assets/scripts")) {
-                return;
-            }
-
-            return async () => {
-                let output = await esbuild.build({
-                    target: "es2020",
-                    entryPoints: [inputPath],
-                    minify: true,
-                    bundle: true,
-                    write: false
-                });
-
-                return output.outputFiles[0].text;
-            };
-        }
-    });
-
     // Transforms
     config.addTransform("parse", parseTransform);
 
@@ -109,41 +77,21 @@ module.exports = function (config) {
     // Plugins
     config.addPlugin(sharpPlugin({
         urlPath: "/projects/images",
-        outputDir: "dist/projects/images"
+        outputDir: "_site/projects/images"
     }));
-    config.addPlugin(fluidPlugin);
+    config.addPlugin(fluidPlugin, {
+        css: {
+            browserslist: pkg.browserslist.join(", ")
+        },
+        i18n: false
+    });
     config.addPlugin(navigationPlugin);
     config.addPlugin(rssPlugin);
     config.addPlugin(syntaxHighlight);
 
-    // 404
-    config.setBrowserSyncConfig({
-        callbacks: {
-            ready: function (err, bs) {
-                bs.addMiddleware("*", (req, res) => {
-                    const content_404 = fs.readFileSync("dist/404.html");
-                    // Provides the 404 content without redirect.
-                    res.write(content_404);
-                    res.writeHead(404);
-                    res.end();
-                });
-            }
-        }
-    });
-
-    // Configure markdown to use smartquotes
-    let markdownIt = require("markdown-it");
-    let options = {
-        html: true,
-        typographer: true
-    };
-    config.setLibrary("md", markdownIt(options));
-
     return {
         dir: {
-            input: "src",
-            output: "dist",
-            includes: "_includes"
+            input: "src"
         },
         passthroughFileCopy: true,
         markdownTemplateEngine: "njk"
