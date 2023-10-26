@@ -8,7 +8,7 @@ permalink: /
 
 *We build* inclusive tools that respect and support individual differences and learner differentiation.
 
-*We co-design* strategies, tools and learning experiences <ins>with</ins> learners facing barriers in education.
+*We co-design* strategies, tools and learning experiences <i>with</i> learners facing barriers in education.
 
 *We support* emerging inclusive learning communities.
 
