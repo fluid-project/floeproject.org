@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.3.0](https://github.com/fluid-project/floeproject.org/compare/v2.2.0...v2.3.0) (2023-11-23)
+
+
+### Features
+
+* remove analytics (resolves [#338](https://github.com/fluid-project/floeproject.org/issues/338)) ([#339](https://github.com/fluid-project/floeproject.org/issues/339)) ([0e130be](https://github.com/fluid-project/floeproject.org/commit/0e130be07cef2f4437bf6ce3825550f6ea9b82e5))
+
+
+### Bug Fixes
+
+* remove unintended use of ins tag on the main page ([#333](https://github.com/fluid-project/floeproject.org/issues/333)) ([ba3acc3](https://github.com/fluid-project/floeproject.org/commit/ba3acc3f2124a79643ea74b1c3c0dd80f173b507))
+
 ## [2.2.0](https://github.com/fluid-project/floeproject.org/compare/v2.1.0...v2.2.0) (2023-08-17)
 
 
