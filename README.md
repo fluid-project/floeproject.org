@@ -1,7 +1,5 @@
 # What is the FLOE Project
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/fac64dc9-f556-4caf-8694-3ef2f902ac9c/deploy-status)](https://app.netlify.com/sites/fluid-floeproject-org/deploys)
-
 FLOE is creating tools that help transform, augment, and personalize the learning experience.
 
 FLOE provides the resources needed to enable inclusive access to personally relevant, engaging learning opportunities
@@ -39,16 +37,16 @@ If you make changes to the website, repeat the steps to build the image and star
 
 ## Deploy preview
 
-Changes in the `dev` branch can be previewed and tested via the deploy preview site hosted by Netlify:
+Changes in the `dev` branch can be previewed and tested via the deploy preview site hosted by Cloudflare Pages:
 
-<https://dev--fluid-floeproject-org.netlify.app/>
+<https://dev.floeproject-org.pages.dev/>
 
 ## Notes
 
 * Modifications may be made to any source file or directory except for the contents of the `_site/` directory. The `_site`
   directory and its contents are not to be versioned since it contains the generated output made by eleventy from the
   source files and are overwritten.
-* Redirects may only work when deployed to a webserver or to Netlify.
+* Redirects may only work when deployed to a webserver or to Cloudflare Pages.
 
 ## Third party resources included
 
