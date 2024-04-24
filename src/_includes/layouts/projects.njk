@@ -6,10 +6,6 @@
     <ul id="content" class="content grid-layout posts-{{ eleventyNavigation.key | lower }}">
         {# Featured Projects #}
         {% for project in posts %}
-            {#
-                Project items are included directly here rather than in a partial
-                template due to an apparent race condition with the Sharp plugin.
-            #}
             <li class="post card-layout corner-effect">
                 {% if project.data.thumbnailFilename %}
                     {% if project.data.thumbnailAltText %}
@@ -18,9 +14,9 @@
                         {% set thumbnailAltText = "" %}
                     {% endif %}
 
-                    {% set thumbnail = 'src/collections/projects/images/' + project.data.thumbnailFilename | safe %}
-                    {% set thumbnail1x = thumbnail | resize({width: 500, height: null, fit: 'cover' }) | png %}
-                    <img class="thumbnail" src="{% getUrl thumbnail1x %}" alt="{{ thumbnailAltText }}" />
+                    {% set thumbnailSrc = 'src/collections/projects/images/' + project.data.thumbnailFilename | safe %}
+
+                    {% thumbnail thumbnailSrc, thumbnailAltText %}
                 {% endif %}
                 {{ project.templateContent | safe }}
             </li>

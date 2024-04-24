@@ -536,6 +536,7 @@ aside h2 {
 }
 
 .posts-projects .corner-effect img {
+    block-size: auto;
     margin-block-end: 0.75rem;
 }
 
