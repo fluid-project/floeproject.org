@@ -16,8 +16,8 @@ const pkg = require("./package.json");
 const fluidPlugin = require("eleventy-plugin-fluid");
 const navigationPlugin = require("@11ty/eleventy-navigation");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
-const sharpPlugin = require("eleventy-plugin-sharp");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const eleventyImg = require("@11ty/eleventy-img");
 
 // Import filters
 const dateFilter = require("./src/filters/date-filter.js");
@@ -63,6 +63,22 @@ module.exports = function (config) {
         });
         return text;
     });
+    config.addShortcode("thumbnail", async function (src, alt) {
+        let metadata = await eleventyImg(src, {
+            widths: [500],
+            formats: ["jpeg"],
+            urlPath: "/projects/images/",
+            outputDir: "./_site/projects/images/"
+        });
+
+        let imageAttributes = {
+            alt,
+            loading: "lazy",
+            decoding: "async"
+        };
+
+        return eleventyImg.generateHTML(metadata, imageAttributes);
+    });
 
     // Transforms
     config.addTransform("parse", parseTransform);
@@ -74,11 +90,6 @@ module.exports = function (config) {
     config.addPassthroughCopy({"src/collections/news/images": "news/images"});
     config.addPassthroughCopy({"src/collections/projects/images": "projects/images"});
 
-    // Plugins
-    config.addPlugin(sharpPlugin({
-        urlPath: "/projects/images",
-        outputDir: "_site/projects/images"
-    }));
     config.addPlugin(fluidPlugin, {
         css: {
             browserslist: pkg.browserslist.join(", ")

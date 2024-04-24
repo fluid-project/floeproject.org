@@ -18,9 +18,9 @@
                         {% set thumbnailAltText = "" %}
                     {% endif %}
 
-                    {% set thumbnail = 'src/collections/projects/images/' + project.data.thumbnailFilename | safe %}
-                    {% set thumbnail1x = thumbnail | resize({width: 500, height: null, fit: 'cover' }) | png %}
-                    <img class="thumbnail" src="{% getUrl thumbnail1x %}" alt="{{ thumbnailAltText }}" />
+                    {% set thumbnailSrc = 'src/collections/projects/images/' + project.data.thumbnailFilename | safe %}
+
+                    {% thumbnail thumbnailSrc, thumbnailAltText %}
                 {% endif %}
                 {{ project.templateContent | safe }}
             </li>
