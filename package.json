@@ -57,7 +57,7 @@
         "eslint-config-fluid": "2.1.1",
         "eslint-plugin-jsdoc": "48.2.3",
         "eslint-plugin-markdown": "3.0.1",
-        "eslint-plugin-yml": "1.8.0",
+        "eslint-plugin-yml": "1.14.0",
         "fluid-lint-all": "1.2.9",
         "husky": "8.0.3",
         "image-size": "1.0.2",
