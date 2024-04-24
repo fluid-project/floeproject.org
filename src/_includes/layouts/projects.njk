@@ -6,10 +6,6 @@
     <ul id="content" class="content grid-layout posts-{{ eleventyNavigation.key | lower }}">
         {# Featured Projects #}
         {% for project in posts %}
-            {#
-                Project items are included directly here rather than in a partial
-                template due to an apparent race condition with the Sharp plugin.
-            #}
             <li class="post card-layout corner-effect">
                 {% if project.data.thumbnailFilename %}
                     {% if project.data.thumbnailAltText %}
