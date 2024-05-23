@@ -1,5 +1,5 @@
 ---
-title: IDRC Inverted Wordles Website Now Offers Bilingual Support
+title: Bilingual Support in the Inverted Word Cloud
 date: "2024-05-22"
 slug: wordle-bilingual-support
 excerpt: The IDRC Inverted Wordles Website now supports both English and French languages.
@@ -8,6 +8,11 @@ excerpt: The IDRC Inverted Wordles Website now supports both English and French 
 The [IDRC Inverted Wordles](https://inverted-wordles.netlify.app/) website has been enhanced to provide
 bilingual support, offering both English and French language options. This update aims to cater to a broader
 range of users and improve accessibility for individuals who prefer either of these languages.
+
+In traditional word clouds, majority answers are emphasized while minority answers fade to the background. The
+Inverted Word Cloud centres minority voices by providing an option to flip the algorithm and select between
+highlighting minority or majority answers. This is a very effective tool to use in the classroom setting,
+particularly when talking about diversity and inclusion.
 
 By implementing bilingual support, the website now offers a more inclusive experience, ensuring that users can
 interact with the website in their preferred language. This enhancement not only promotes better engagement
