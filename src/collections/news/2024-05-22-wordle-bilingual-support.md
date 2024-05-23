@@ -1,6 +1,6 @@
 ---
 title: IDRC Inverted Wordles Website Now Offers Bilingual Support
-date: "2023-05-22"
+date: "2024-05-22"
 slug: wordle-bilingual-support
 excerpt: The IDRC Inverted Wordles Website now supports both English and French languages.
 ---
