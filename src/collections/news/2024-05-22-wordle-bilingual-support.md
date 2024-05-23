@@ -17,6 +17,6 @@ The addition of French language support is a significant step towards expanding 
 platform. With this feature in place, further language support can be easily incorporated by adding translations
 and making minor adjustments, allowing for future growth and adaptation to diverse linguistic communities.
 
-We encourages users to explore the bilingual features and provide feedback on their experience. Continuous
+We encourage users to explore the bilingual features and provide feedback on their experience. Continuous
 improvement and adaptation to user needs remain a top priority, ensuring that the platform remains accessible and
 engaging for a wide range of individuals.
