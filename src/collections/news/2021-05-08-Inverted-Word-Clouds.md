@@ -35,4 +35,4 @@ tool, that inverts this relationship and provides a means to amplify minority vo
     </figcaption>
 </figure>
 
-For more details, see ["Inverted Word Clouds"](https://wecount.inclusivedesign.ca/views/inverted-wordles/).
+For more details, see ["Inverted Word Clouds"](https://wecount.inclusivedesign.ca/initiatives/inverted-word-clouds/).
