@@ -1,7 +1,7 @@
 ---
 title: An Indigenous Led Transboundary Gathering
 date: "2023-09-05"
-excerpt: A Transboundary Gathering - Digital Ecocultural Mapping in the Salish Sea
+excerpt: A Transboundary Gathering - Digital Ecocultural Mapping in the Salish Sea.
 
 ---
 
