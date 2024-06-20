@@ -6,7 +6,7 @@ excerpt: Improving communication with AI for Blissymbolics users through advance
 ---
 
 To improve communication for Blissymbolics users, ongoing work is exploring the integration of Retrieval-Augmented
-Generation (RAG) into the [Baby Bliss Bot project]((https://floeproject.org/baby-bliss-bot-project/)). RAG is an
+Generation (RAG) into the [Baby Bliss Bot project](https://floeproject.org/baby-bliss-bot-project/). RAG is an
 advanced AI technique designed to enhance the accuracy of generative models by incorporating factual knowledge from
 external sources. This approach helps to overcome limitations in traditional language models, which may sometimes
 generate responses that are inaccurate or inconsistent due to relying solely on their training data.
