@@ -20,12 +20,13 @@ grammatical and syntactical rules of Blissymbolics. For example, the English sen
 blue lake" would be represented in Blissymbolics as "present: I move slowly towards lake blue." This structural
 consistency was crucial for the model's learning process.
 
-The fine-tuning was executed on the Cedar cluster, a high-performance computing resource provided by the Digital
-Research Alliance of Canada. By iteratively training the model over four epochs, the team generated multiple
-versions of the fine-tuned model. Each version was tested to evaluate its performance in translating sentences
-between English and Blissymbolics. The evaluation criteria for the converted sentences included semantic coherence,
-novelty, creativity, fluency, and readability. The results were promising, with the models, particularly those
-trained for two and three epochs, demonstrating significant improvements in translation accuracy and fluency.
+The fine-tuning was executed on the Cedar cluster, a high-performance computing resource provided by
+the [Digital Research Alliance of Canada](https://alliancecan.ca). By iteratively training the model over four epochs,
+the team generated multiple versions of the fine-tuned model. Each version was tested to evaluate its performance
+in translating sentences between English and Blissymbolics. The evaluation criteria for the converted sentences
+included semantic coherence, novelty, creativity, fluency, and readability. The results were promising, with the
+models, particularly those trained for two and three epochs, demonstrating significant improvements in translation
+accuracy and fluency.
 
 Looking ahead, the project aims to further enhance the model by expanding the dataset to include a broader variety
 of sentence structures and conducting more comprehensive evaluations. This ongoing work holds the potential to
