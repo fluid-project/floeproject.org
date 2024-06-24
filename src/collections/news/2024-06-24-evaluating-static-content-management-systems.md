@@ -1,7 +1,7 @@
 ---
 title: Evaluating Static Content Management Systems
 date: 2024-06-24
-excerpt:
+excerpt: Adopting an accessible, flexible content management system for our static websites.
 ---
 The IDRC has embraced the use of simple, static websites for many of our projects including FLOE over the last four
 years. Static websites are often built using static site generators (our favourite is [Eleventy](https://11ty.dev)),
