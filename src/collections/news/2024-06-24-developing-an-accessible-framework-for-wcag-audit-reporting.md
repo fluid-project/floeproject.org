@@ -7,7 +7,7 @@ The IDRC often conducts formal or informal audits of websites for accessibility 
 both internally and as part of our accessibility consulting work.
 
 We've used a variety of tools to document the results of these audits over the years. Recently, building on our work
-with [static websites and content management systems for them](https://floeproject.org/news/mon-jun-24-2024-00-00-00-gmt-0000-coordinated-universal-time-evaluating-static-content-management-systems/),
+with [static websites and content management systems for them](https://floeproject.org/news/2024-06-24-evaluating-static-content-management-systems/),
 we've begun developing an [Eleventy](https://11ty.dev/)-based WCAG auditing tool based on work by [Hidde de Vries](https://hidde.blog/introducing-an-eleventy-starter-project-for-wcag-reports/).
 
 Hidde's [eleventy-wcag-reporter](https://github.com/hidde/eleventy-wcag-reporter) project provides a fantastic
