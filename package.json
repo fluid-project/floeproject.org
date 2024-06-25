@@ -61,7 +61,7 @@
         "fluid-lint-all": "^1.2.11",
         "husky": "^9.0.11",
         "image-size": "^1.0.2",
-        "linkedom": "^0.15.2",
+        "linkedom": "^0.18.3",
         "lint-staged": "^15.2.2",
         "markdownlint-cli2": "^0.9.2",
         "markdownlint-config-fluid": "^0.1.5",
