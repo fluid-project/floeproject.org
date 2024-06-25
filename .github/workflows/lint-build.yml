@@ -2,7 +2,7 @@ name: Lint and build
 
 on:
   pull_request:
-    branches: [main]
+    branches: [dev, main]
 
 jobs:
   lint-build:
@@ -26,4 +26,3 @@ jobs:
         run: npm run build
         env:
           CI: true
-
