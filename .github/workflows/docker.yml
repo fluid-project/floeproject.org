@@ -2,7 +2,7 @@ name: Docker build
 
 on:
   pull_request:
-    branches: [main]
+    branches: [dev, main]
 
 jobs:
   docker:
@@ -11,4 +11,3 @@ jobs:
       - uses: actions/checkout@v4
       - name: Build with Docker
         run: docker build .
-
