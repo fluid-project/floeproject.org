@@ -1,4 +1,4 @@
 {
     "layout": "layouts/post",
-    "permalink": "/news/{{ date | slugify }}-{{ slug | default(title) | slugify }}/"
+    "permalink": "/news/{{ date | dateString }}-{{ slug | default(title) | slugify }}/"
 }
