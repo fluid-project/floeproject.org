@@ -16,12 +16,18 @@ and [OCAD University’s Inclusive Design Research Centre (IDRC)](https://idrc.o
 together close to 100 Indigenous and non-Indigenous researchers, designers, students, and government officials
 from Canada and the U.S. to consider approaches to ecocultural mapping that are rooted in the land, respect
 cultural safety, address issues of data sovereignty, protect sacred knowledge, and ensure Indigenous leadership.
+
+<figure>
 <img src="/news/images/transboundary-gathering-site.jpeg"
     alt="A group of approximately 25 people stand and sit in a grassy area by the water in front of 3 carved and
     painted Strait Salish story poles. A man wearing a blanket over his shoulders stands in front of the group and
     appears to be talking, while a woman in a woven Salish blanket and cedar hat stands near him listening.
     A white clapboard building can be seen in the background.">
-Transboundary Gathering site visit and public presentation at Pe’pi’ow’elh (English Camp) on San Juan Island.
+<figcaption>
+    Transboundary Gathering site visit and public presentation at Pe’pi’ow’elh (English Camp) on San Juan Island.
+    <em>Photo credit: Dana Ayotte</em>
+</figcaption>
+</figure>
 
 The gathering included structured conversation and discussion through facilitated social learning circles and
 community-led design sessions, singing, storytelling, tours of the land and site visits. Participants engaged
@@ -29,11 +35,15 @@ in activities at multiple locations including two ancestral village sites and th
 locations central to the present-day lives and rich ecocultural heritage of the Lummi people helped to facilitate a
 deeper understanding of the impact, benefit and challenges of ecocultural mapping in this region and beyond.
 
+<figure>
 <img src="/news/images/transboundary-gathering-participants.jpeg"
     alt='Two people stand at and actively engage with what appears to be a clothesline. Colourful pieces of paper
     with text written on them are pinned to the clothesline.  On one piece of paper can be seen the hand-written
     text "WE ARE STILL HERE" while on others can be seen the words "Know that..." and "You are your ancestors".'>
-Transboundary Gathering participants take part in a social learning activity.
+<figcaption>
+    Transboundary Gathering participants take part in a social learning activity. <em>Photo credit: Andrew Simon</em>
+</figcaption>
+</figure>
 
 ## Ecocultural Mapping
 
@@ -47,13 +57,17 @@ aims to meaningfully braid together Indigenous ways of knowing and ecological sc
 educational, ecocultural map of a region in the Salish Sea called Xetthecum in the Hul’q’umi’num’ language
 (Retreat Cove, Galiano Island, BC).
 
+<figure>
 <img src="/news/images/interactive-xetthecum-storymap.png"
     alt='A screenshot of a webpage shows the heading "Xetthecum Digital Ecocultural Mappping" and a navigational
     menu showing "The Story of Xetthecum", "About", "Explore" and "Resources". On the upper half of the page there
     is a zoomed-in map of a small area of Galiano Island showing several different regions represented by
     different colours and symbolic tiles. The map legend lists Forests, Freshwater, Marine and Woodlands.
     Text appears in a 2-column box in the bottom half of the page with the heading "Xetthecum".'>
-A screenshot of the interactive Xetthecum storymap.
+<figcaption>
+    A screenshot of the interactive Xetthecum storymap.
+</figcaption>
+</figure>
 
 This digital ecocultural storymap and [accompanying website](https://imerss.github.io/xetthecum-storymap/)
 will serve as an educational resource supporting Indigenous youth and others to learn the Hul’q’umi’num’ language,
@@ -65,11 +79,16 @@ mapping initiative that would include the
 [mapping of Pe’pi’ow’elh](https://imerss.github.io/imerss-bioinfo/Pe%27pi%27ow%27elh.html)
 (English Camp) in Lummi territory.
 
+<figure>
 <img src="/news/images/transboundary-gathering-participants-2.jpeg"
     alt="Three people sit in front of a large map printed on white paper, while two of them point at different areas
     on the map. In the background a person wearing a Coast Salish woven shawl looks on while water and trees across
     the water can be seen in the distance.">
-Transboundary Gathering participants look at a map of the Salish Sea that shows ancestral sites and place names.
+<figcaption>
+    Transboundary Gathering participants look at a map of the Salish Sea that shows ancestral sites and place names.
+    <em>Photo credit: Dana Ayotte</em>
+</figcaption>
+</figure>
 
 ## Relationship Building and Knowledge Sharing
 
@@ -79,11 +98,15 @@ relationships are essential for the success of this work; the colonial fragmenta
 by enforcement of the Canada-US border has created a barrier to the knowledge sharing and collaborative
 solution-building essential to restoring Indigenous language, culture and lands (Norman 2012; Wilson 2019).
 
+<figure>
 <img src="/news/images/whiteswan-environmental-lead-participants.jpeg"
     alt="Three people wearing Coast Salish woven clothing and cedar hats stand in front of 3 story poles with their
     hands raised in front of their bodies. One of them holds a rattle in each hand.
     In the background water and trees can be seen.">
-Members of Whiteswan Environmental lead participants in an opening prayer and song.
+<figcaption>
+    Members of Whiteswan Environmental lead participants in an opening prayer and song. <em>Photo credit: Dana Ayotte</em>
+</figcaption>
+</figure>
 
 The Transboundary Gathering acted as a catalyst for establishing an on-going collaborative partnership to support
 cross-cultural ecocultural mapping efforts in the Salish Sea region, and to share tools and resources that will
