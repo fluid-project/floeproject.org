@@ -1,5 +1,5 @@
 ---
-title: Transboundary Gathering Summary
+title: "A Transboundary Gathering: Digital Ecocultural Mapping in the Salish Sea"
 date: "2024-08-22"
 excerpt: The Transboundary Gathering, Digital Ecocultural Mapping in the Salish Sea was an Indigenous-led collaborative working meeting and coalition-building event
 ---
@@ -63,57 +63,42 @@ the challenges of cross-cultural collaboration and to consider how an inclusive 
 reconceptualize the design of technologies and cultural systems in ways that centre Indigenous leadership and
 epistemology.
 
-## Outcomes
-
-- Ongoing development of the ecocultural storymap
-- Planetarium curriculum development work with Whatcomm Intergenerational Highschool and regular meetings with Nancy
-Maryboy, Kyle, Tim Spuk (NSF)
-- New collaborative connections including
-[Niiyokamigaabaw Deondre Smiles](https://www.uvic.ca/socialsciences/geography/department/our-people/faculty/smilesdeondre.php)
-- Relationship building with Shirley, Troy, Sadie (Whiteswan Environmental)
-- Deepening of Xetthecum team relations and collaboration
-- Cross-sharing of co-design and social learning approaches (Laurel, Travis, WWU)
-- Deeper understanding of the local issues connected to the land, Lummi territory, National Parks relationship
-- Something about student leadership, mentoring, next gen “scholars” - Sadie and Sophia’s
-leadership of the design activities
-
 ## Knowledge Mobilisation
 
 Our knowledge mobilization efforts include:
 
 - Presentation of the storymap to Penelakut elders (February 2024, Galiano Island), including gathering feedback and
-further stories of place for inclusion in the map
+further stories of place for inclusion in the storymap.
 - Documentation and sharing of a
-[synthesis of the key practices, plans, and actionable approaches for ecocultural mapping research, including lessons learned](https://docs.google.com/document/d/15aE_WDgoj8CiBkbFj5zX78OknL-EIC9P/edit?rtpof=true&sd=true)
-- Relationship building and sharing of the mapping work with
-[AIHEC](https://www.aihec.org/) and [NWIC](https://www.nwic.edu/)
-during the Gathering planning process
-- Presentation to the public and to National Parks Services at Pe’pi’ow’elh (English Camp), San Juan Island
-- Documentation and sharing of research practices for cross-cultural, Indigenous-led projects, including
-[by-laws](https://docs.google.com/document/d/1K5NH0vcXn8qIS210acESq_-t5_qF-QAWjoMMMVM2zyQ/edit) and
-[co-design strategies](https://community-led.design/) (WIP)
+[synthesis of the key practices, plans, and actionable approaches for ecocultural mapping research, including lessons learned](https://docs.google.com/document/d/15aE_WDgoj8CiBkbFj5zX78OknL-EIC9P/edit?rtpof=true&sd=true).
 - Creation of a [website](https://imerss.github.io/xetthecum-storymap/)
-that provides an engaging and accessible portal into the project and the storymap
+that provides an engaging and accessible portal into the project and the storymap.
 - Dissemination of design prototypes of digital ecocultural mapping tools
 ([Xetthecum, Pe’pi’ow’elh](https://imerss.github.io/xetthecum-storymap-story/Xetthecum-Storymap-Reknitted.html#))
 that are being shared through partners’ established networks ([IMERSS](https://imerss.org/), [CRD](https://www.crd.bc.ca/),
 [IDRC](https://idrc.ocadu.ca/), [Watersheds BC](https://watershedsbc.ca/)).
+- Presentation of the project at the Indigenous Watersheds Initiative gathering (March 2024).
+- Presentation to the public and to National Parks Services at Pe’pi’ow’elh (English Camp), San Juan Island.
+- Relationship building and sharing of the mapping work with
+[AIHEC](https://www.aihec.org/) and [NWIC](https://www.nwic.edu/)
+during the Gathering planning process.
+- Documentation and sharing of research practices for cross-cultural, Indigenous-led projects, including
+[by-laws](https://docs.google.com/document/d/1K5NH0vcXn8qIS210acESq_-t5_qF-QAWjoMMMVM2zyQ/edit) and
+community-led design strategies (WIP).
 - Presentation of the Xetthecum project at [Biosonic](https://www.activepassive.ca/archive-biosonic-2023.html)
-(Galiano Island, March 2023)
-- Sharing of Xetthecum Storymap work through
+(Galiano Island, March 2023 & 2024).
+- Sharing of Xetthecum Storymap work with the broader inclusive design community through the
 [FLOE project](https://floeproject.org/news/2023-09-05-an-indigenous-led-transboundary-gathering/)
-and [WeCount Recount newsletter](https://mailchi.mp/969e334f9042/we-count-recount-may-jun-2024?e=0e5ac39be9)
-(far-reaching inclusive design community).
-- Sharing of digital ecocultural mapping work with [Data Communities for Inclusion](https://datacommunities.ca/)August
+and [WeCount Recount newsletter](https://mailchi.mp/969e334f9042/we-count-recount-may-jun-2024?e=0e5ac39be9).
+- Presentation of the digital ecocultural storymap  with [Data Communities for Inclusion](https://datacommunities.ca/) August
 2023 [CIFAR solutions network](https://cifar.ca/ai/ai-and-society/cifar-solution-networks/data-communities-for-inclusion/)
-meeting - in context of data sovereignty and data governance
+meeting in context of data sovereignty and data governance.
 
 ### Upcoming:
 
 - Presentation of the Xetthecum storymap to community members on Galiano Island in an exhibition format that will
-allow for discussion and input (October 2024)
-- Connecting with [Julia Lum](https://www.scrippscollege.edu/offices/profile/julia-lum)
-re: Inclusion of the ecocultural map and Transboundary Gathering footage in Parallax: Reimagining the Canada-U.S.
+allow for discussion and input (Yellowhouse Art Centre, October 2024).
+- Inclusion of the ecocultural storymap and Transboundary Gathering footage in Parallax: Reimagining the Canada-U.S.
 Border Venue: [The Reach Gallery Museum](https://thereach.ca/) (April 4 – August 16, 2025); touring to additional
 exhibition venuesin British Columbia Washington State in 2026 pending confirmation.
 
