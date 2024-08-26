@@ -98,16 +98,6 @@ relationships are essential for the success of this work; the colonial fragmenta
 by enforcement of the Canada-US border has created a barrier to the knowledge sharing and collaborative
 solution-building essential to restoring Indigenous language, culture and lands (Norman 2012; Wilson 2019).
 
-<figure>
-<img src="/news/images/whiteswan-environmental-lead-participants.jpeg"
-    alt="Three people wearing Coast Salish woven clothing and cedar hats stand in front of 3 story poles with their
-    hands raised in front of their bodies. One of them holds a rattle in each hand.
-    In the background water and trees can be seen.">
-<figcaption>
-    Members of Whiteswan Environmental lead participants in an opening prayer and song. <em>Photo credit: Dana Ayotte</em>
-</figcaption>
-</figure>
-
 The Transboundary Gathering acted as a catalyst for establishing an on-going collaborative partnership to support
 cross-cultural ecocultural mapping efforts in the Salish Sea region, and to share tools and resources that will
 support similar efforts elsewhere. Together with Indigenous and non-Indigenous designers, scholars and technologists,
@@ -117,6 +107,16 @@ the gathering provided an opportunity for workshop participants to extend and ap
 the challenges of cross-cultural collaboration and to consider how an inclusive design approach can help to
 reconceptualize the design of technologies and cultural systems in ways that centre Indigenous leadership and
 epistemology.
+
+<figure>
+<img src="/news/images/whiteswan-environmental-lead-participants.jpeg"
+    alt="Three people wearing Coast Salish woven clothing and cedar hats stand in front of 3 story poles with their
+    hands raised in front of their bodies. One of them holds a rattle in each hand.
+    In the background water and trees can be seen.">
+<figcaption>
+    Members of Whiteswan Environmental lead participants in an opening prayer and song. <em>Photo credit: Dana Ayotte</em>
+</figcaption>
+</figure>
 
 ## Knowledge Mobilisation
 
