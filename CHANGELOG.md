@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.3.1](https://github.com/fluid-project/floeproject.org/compare/v2.3.0...v2.3.1) (2024-08-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eleventy-plugin-fluid to v2.7.3 ([#392](https://github.com/fluid-project/floeproject.org/issues/392)) ([7b35539](https://github.com/fluid-project/floeproject.org/commit/7b35539d2cda9a5011abc62135723842dcbaf10a))
+* **deps:** update dependency infusion to v4.7.1 ([#400](https://github.com/fluid-project/floeproject.org/issues/400)) ([3cc7b37](https://github.com/fluid-project/floeproject.org/commit/3cc7b37a325a717426835080f0d96b6c068ae0c3))
+
 ## [2.3.0](https://github.com/fluid-project/floeproject.org/compare/v2.2.0...v2.3.0) (2024-06-25)
 
 
