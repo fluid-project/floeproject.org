@@ -13,7 +13,7 @@ State, with the support of the [American Indian Higher Education Consortium (AIH
 [Western Washingon University’s Centre for Community Learning](https://ccl.wwu.edu/), the
 [Institute for Multidisciplinary Ecological Research in the Salish Sea (IMERSS)](https://imerss.org/)
 and [OCAD University’s Inclusive Design Research Centre (IDRC)](https://idrc.ocadu.ca/). The gathering brought
-together close to 100 Indigenous and non-Indigenous researchers, designers, students, and government officials
+together over 100 Indigenous and non-Indigenous researchers, designers, students, and government officials
 from Canada and the U.S. to consider approaches to ecocultural mapping that are rooted in the land, respect
 cultural safety, address issues of data sovereignty, protect sacred knowledge, and ensure Indigenous leadership.
 
@@ -129,21 +129,19 @@ further stories of place for inclusion in the storymap.
 - Creation of a [website](https://imerss.github.io/xetthecum-storymap/)
 that provides an engaging and accessible portal into the project and the storymap.
 - Dissemination of design prototypes of digital ecocultural mapping tools
-([Xetthecum, Pe’pi’ow’elh](https://imerss.github.io/xetthecum-storymap-story/Xetthecum-Storymap-Reknitted.html#))
+([Xetthecum](https://imerss.github.io/xetthecum-storymap-story/Xetthecum-Storymap-Reknitted.html#),
+[Pe’pi’ow’elh](https://imerss.github.io/imerss-bioinfo/Pe'pi'ow'elh.html))
 that are being shared through partners’ established networks ([IMERSS](https://imerss.org/), [CRD](https://www.crd.bc.ca/),
 [IDRC](https://idrc.ocadu.ca/), [Watersheds BC](https://watershedsbc.ca/)).
 - Presentation of the project at the Indigenous Watersheds Initiative gathering (March 2024).
-- Presentation to the public and to National Parks Services at Pe’pi’ow’elh (English Camp), San Juan Island.
-- Relationship building and sharing of the mapping work with
-[AIHEC](https://www.aihec.org/) and [NWIC](https://www.nwic.edu/)
-during the Gathering planning process.
+- Presentation to the public and to National Parks Services at Pe’pi’ow’elh (English Camp), San Juan Island (August 2023).
 - Documentation and sharing of research practices for cross-cultural, Indigenous-led projects, including
 [by-laws](https://docs.google.com/document/d/1K5NH0vcXn8qIS210acESq_-t5_qF-QAWjoMMMVM2zyQ/edit) and
 community-led design strategies (WIP).
 - Presentation of the Xetthecum project at [Biosonic](https://www.activepassive.ca/archive-biosonic-2023.html)
 (Galiano Island, March 2023 & 2024).
 - Sharing of Xetthecum Storymap work with the broader inclusive design community through the
-[FLOE project](https://floeproject.org/news/2023-09-05-an-indigenous-led-transboundary-gathering/)
+[FLOE project](https://floeproject.org/ecocultural-mapping-project/)
 and [WeCount Recount newsletter](https://mailchi.mp/969e334f9042/we-count-recount-may-jun-2024?e=0e5ac39be9).
 - Presentation of the digital ecocultural storymap  with [Data Communities for Inclusion](https://datacommunities.ca/) August
 2023 [CIFAR solutions network](https://cifar.ca/ai/ai-and-society/cifar-solution-networks/data-communities-for-inclusion/)
