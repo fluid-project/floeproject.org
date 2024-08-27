@@ -1,6 +1,6 @@
 {
     "name": "floeproject.org",
-    "version": "2.3.0",
+    "version": "2.3.1",
     "description": "FLOE Project Website",
     "scripts": {
         "build": "npm-run-all -l clean -p build:*",
@@ -49,13 +49,13 @@
         "infusion": "^4.6.0"
     },
     "devDependencies": {
-        "@commitlint/cli": "^17.7.1",
-        "@commitlint/config-conventional": "^17.7.0",
+        "@commitlint/cli": "^19.0.0",
+        "@commitlint/config-conventional": "^19.0.0",
         "cross-env": "^7.0.3",
         "debug": "^4.3.4",
         "eslint": "^8.48.0",
         "eslint-config-fluid": "^2.1.2",
-        "eslint-plugin-jsdoc": "^48.10.2",
+        "eslint-plugin-jsdoc": "^50.0.0",
         "eslint-plugin-markdown": "^3.0.1",
         "eslint-plugin-yml": "^1.14.0",
         "fluid-lint-all": "^1.2.11",
@@ -66,7 +66,7 @@
         "markdownlint-cli2": "^0.13.0",
         "markdownlint-config-fluid": "^0.1.5",
         "npm-run-all2": "^5.0.0",
-        "rimraf": "^5.0.7",
+        "rimraf": "^6.0.0",
         "stylelint": "^14.14.0",
         "stylelint-config-fluid": "^1.0.0",
         "stylelint-use-logical-spec": "^5.0.1"
