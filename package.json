@@ -55,7 +55,7 @@
         "debug": "^4.3.4",
         "eslint": "^8.48.0",
         "eslint-config-fluid": "^2.1.2",
-        "eslint-plugin-jsdoc": "^48.10.2",
+        "eslint-plugin-jsdoc": "^50.0.0",
         "eslint-plugin-markdown": "^3.0.1",
         "eslint-plugin-yml": "^1.14.0",
         "fluid-lint-all": "^1.2.11",
