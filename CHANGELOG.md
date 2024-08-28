@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.2](https://github.com/fluid-project/floeproject.org/compare/v2.3.1...v2.3.2) (2024-08-28)
+
+
+### Bug Fixes
+
+* incorrect links and content ([#413](https://github.com/fluid-project/floeproject.org/issues/413)) ([622b78c](https://github.com/fluid-project/floeproject.org/commit/622b78c31864b43fd46f121a7603ba9c89551103))
+
 ## [2.3.1](https://github.com/fluid-project/floeproject.org/compare/v2.3.0...v2.3.1) (2024-08-27)
 
 
