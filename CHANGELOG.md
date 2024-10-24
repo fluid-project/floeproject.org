@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.4.0](https://github.com/fluid-project/floeproject.org/compare/v2.3.2...v2.4.0) (2024-10-24)
+
+
+### Features
+
+* add Vraie Idea logo in BBB project page ([#452](https://github.com/fluid-project/floeproject.org/issues/452)) ([1f58701](https://github.com/fluid-project/floeproject.org/commit/1f58701c1d6cadb2184e515266bccd8be6edc9cf))
+
 ## [2.3.2](https://github.com/fluid-project/floeproject.org/compare/v2.3.1...v2.3.2) (2024-08-28)
 
 

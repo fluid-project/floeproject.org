@@ -47,3 +47,15 @@ By delving into the intersection of AI tools, language learning, and communicati
 users, the Baby Bliss Bot project aspires to empower individuals utilizing Blissymbolics. Through
 collaborative exploration and innovation, the project strives to foster inclusivity and break barriers,
 ultimately improving the lives of nonvocal individuals within minority language systems.
+
+<br>
+<br>
+
+Funded in part by a grant from IDEA
+
+<a href="https://www.vraie-idea.ca/">
+    <img
+        src="../../assets/images/vraie-idea-logo.svg"
+        alt="Vraie-idea home"
+    >
+</a>
