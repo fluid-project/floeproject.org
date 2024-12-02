@@ -1,7 +1,7 @@
 ---
 title: Inclusive Learning Design Handbook
 date: "2011-10-17"
-order: 2
+order: 3
 tags:
   - featured
 thumbnailFilename: ildh.png
