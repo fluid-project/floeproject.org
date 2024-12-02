@@ -1,8 +1,6 @@
 ---
 title: Hearth
 date: "2021-07-13"
-tags:
-  - active
 thumbnailFilename: hearth.png
 thumbnailAltText: A screenshot of PHP code in the Hearth repository
 ---
