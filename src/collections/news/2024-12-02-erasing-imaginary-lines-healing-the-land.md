@@ -5,7 +5,8 @@ excerpt: Erasing Imaginary Lines, Healing the Land was an exhibit that took plac
 ---
 
 Erasing Imaginary Lines, Healing the Land was an exhibit that took place at the Yellowhouse Art Centre on Galiano
-Island, BC, from October 5-27, 2024. It presented the work of the [Xetthecum digital ecocultural storymap](/ecocultural-mapping-project/),
+Island, BC, from October 5-27, 2024. It presented the work of the
+[Xetthecum digital ecocultural storymap](https://imerss.github.io/xetthecum-storymap-story/Xetthecum-Storymap-Reknitted.html),
 an intergenerational, cross-cultural and community-led project focused on creating an ecocultural storymap of an area
 known as Xetthecum in the Hul’q’umi’num’ language (Retreat Cove, Galiano Island). The exhibit also featured projects
 that are related to or that inspired the Xetthecum project, including species maps of Galiano Island created by local
@@ -25,7 +26,7 @@ exploratory nature of the project. To learn more please visit the exhibit
     2020 at the start and 2024 at the end, and labelled with the increasingly longer spans of Phase I, Phase II and
     Phase III along the bottom of the banner. Various text boxes with images appear across the banner describing
     different aspects and phases of the project. Thought bubbles with questions also appear along the timeline.  Figures
-    are drawn to the left of the bannner, indicating scale. A title appears above the bannner: tth'i'wum nuw'ilum 'i'
+    are drawn to the left of the banner, indicating scale. A title appears above the banner: tth'i'wum nuw'ilum 'i'
     Xetthecum yaays, and underneath: Welcome to the Xetthecum Project">
 <figcaption>
     Project timeline design mockup.

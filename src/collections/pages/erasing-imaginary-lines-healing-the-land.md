@@ -4,7 +4,8 @@ title: "Erasing Imaginary Lines, Healing the Land: Digital Ecocultural Mapping i
 pageClasses: capitalize-title
 ---
 Erasing Imaginary Lines, Healing the Land was an exhibit that took place at the Yellowhouse Art Centre on Galiano
-Island, BC, from October 5-30, 2024. It presented the work of the [Xetthecum digital ecocultural storymap](/ecocultural-mapping-project/),
+Island, BC, from October 5-30, 2024. It presented the work of the
+[Xetthecum digital ecocultural storymap](https://imerss.github.io/xetthecum-storymap-story/Xetthecum-Storymap-Reknitted.html),
 an intergenerational, cross-cultural and community-led project focused on creating an ecocultural storymap of an area
 known as Xetthecum in the Hul’q’umi’num’ language (Retreat Cove, Galiano Island). The exhibit also featured projects
 that are related to or that inspired the Xetthecum project, including species maps of Galiano Island created by local
@@ -25,15 +26,34 @@ artists, an overview of [Whiteswan Environmental](https://www.whiteswanenvironme
 ## Opening Event
 
 The exhibit opening was part of [The Salish Sea Symposium](https://gulfislandevents.com/event/salish-sea-symposium/), an
-event organised by [IMERSS](https://imerss.org/). The symposium featured a panel discussion on Centering Indigenous
-Knowledges in Community Science, Scholarship, and Art (with Niiyokamigaabaw Deondre Smiles, Rosemary Georgeson, Jessica
-Hallenbeck, Kusemaat Shirley Williams, Briony Penn, and moderated by Jeannine Georgeson). It also featured an exhibit
-and art auction at the Galiano Inn titled Salish Sea Diatoms (featuring electron microscope images of diatoms by Lama
-Mark Webber), an IMERSS fundraising dinner, and various biodiversity-related activities around Galiano Island, including
-a demonstration of the Sentinels of Change light trap at Whaler Bay and a community scanning electron microscopy lab,
-featuring Dr. Elaine Humphrey.
+event organised by [IMERSS](https://imerss.org/) (Institute for Multidisciplinary Ecological Research in the Salish
+Sea). The symposium featured a panel discussion on Centering Indigenous Knowledges in Community Science, Scholarship,
+and Art (with Niiyokamigaabaw Deondre Smiles, Rosemary Georgeson, Jessica Hallenbeck, Kusemaat Shirley Williams, Briony
+Penn, and moderated by Jeannine Georgeson). It also featured an exhibit and art auction at the Galiano Inn titled Salish
+Sea Diatoms (featuring electron microscope images of diatoms by Lama Mark Webber), an IMERSS fundraising dinner, and
+various biodiversity-related activities around Galiano Island, including a demonstration of the Sentinels of Change
+light trap at Whaler Bay and a community scanning electron microscopy lab, featuring Dr. Elaine Humphrey.
 
-## Exhibit Descripton
+<figure>
+<img src="/projects/images/erasing-imaginary-lines-healing-the-land/opening-event.png"
+    alt="A number of people stand around in the gallery space, looking at the various parts of the exhibit and talking
+    together. One person sits at the loom, weaving.">
+<figcaption>
+    Visitors to the opening event take in the exhibit.
+</figcaption>
+</figure>
+
+<figure>
+<img src="/projects/images/erasing-imaginary-lines-healing-the-land/panel-speakers.png"
+    alt="Five people sit on one side of a table covered in a black tablecloth, with water glasses and a jugs of water in
+    front of them, while another person standing at the end of the table is holding a piece of paper and speaking.
+    Behind them are large, wooden-framed windows.">
+<figcaption>
+    The Salish Sea Symposium panel speakers are introduced to the audience.
+</figcaption>
+</figure>
+
+## Exhibit Description
 
 The following text was presented on the gallery wall:
 
@@ -54,6 +74,15 @@ community of practice that will carry this work forward.
 having honest conversations about the damaging impacts of colonialism, building relationships and learning to trust one
 another, and allowing ourselves to feel uncomfortable, fumble together, and learn from our mistakes. We invite you to
 explore the storymap, share your feedback, and become part of this evolving story too. Huy ch q’u!
+
+<figure>
+<img src="/projects/images/erasing-imaginary-lines-healing-the-land/3d-map.png"
+    alt="Beside an entrance door, a 3D map sits on a table in front of text mounted on the wall. Another map of Galiano
+    Island with text and illustrations can be seen mounted on an easel.">
+<figcaption>
+    Introductory text and a 3D map of the southern gulf islands at the entrance of the exhibit.
+</figcaption>
+</figure>
 
 ## Project Timeline
 
@@ -85,6 +114,15 @@ events. In the background of the timeline can be  seen a simple line map of the 
     alt="A person stands in front of the timeline in the gallery, reading the content.">
 <figcaption>
     A visitor takes in the content of the project timeline.
+</figcaption>
+</figure>
+
+<figure>
+<img src="/projects/images/erasing-imaginary-lines-healing-the-land/installing-timeline.png"
+    alt="Three people stand on ladders holding up the timeline banner across the wall while another person stands on the
+    floor holding the banner in place.">
+<figcaption>
+    Installing the timeline banner in the gallery.
 </figcaption>
 </figure>
 
@@ -127,9 +165,9 @@ Charlie and displayed both finished and unfinished weavings from previous projec
     centre of the room, someone sitting in front of the computer screen on which can bee seen a map, and large pieces of
     paper mounted on the wall beside the computer screen with sticky notes stuck to them.">
 <figcaption>
-    The website and storymap were set up on a large screen for visitors to experience, along with sticky notes available
-    to provide feedback and share on the wall. A coast salish loom was set up in the middle of the gallery that visitors
-    could interact with.
+    The website and storymap were set up on a large screen for visitors to experience, along with prompts encouraging
+    feedback by posting sticky notes on the wall. A coast salish loom was set up in the middle of the gallery that
+    visitors could interact with.
 </figcaption>
 </figure>
 
@@ -150,9 +188,27 @@ gallery with a Hul’q’umi’num welcome message: tth'i'wum nuw'ilum 'i' Xetth
 </figcaption>
 </figure>
 
-The exhibit also included a display by Whiteswan Environmental, a three-dimensinoal map of Galiano Island,
+The exhibit also included a display by Whiteswan Environmental, a three-dimensional map of Galiano Island,
 various maps of the island created by local artists, a display by the Galiano Conservancy, and an area highlighting
 other inspiring and related projects.
+
+<figure>
+<img src="/projects/images/erasing-imaginary-lines-healing-the-land/we-come-from-that.png"
+    alt="A map, binder, pamphlets and various small booklets lie on a table, beside which a T-shirt is on display
+    printed with the words “WE COME FROM THAT”.">
+<figcaption>
+    Display by Whiteswan Environmental.
+</figcaption>
+</figure>
+
+<figure>
+<img src="/projects/images/erasing-imaginary-lines-healing-the-land/illustrated-maps.png"
+    alt="Three illustrated maps are displayed on easels in one corner of the gallery. In front of the maps can be seen
+    two species panels with audio buttons.">
+<figcaption>
+    Three illustrated maps by various local artists on display in the exhibit.
+</figcaption>
+</figure>
 
 <figure>
 <img src="/projects/images/erasing-imaginary-lines-healing-the-land/walk-quietly.png"
