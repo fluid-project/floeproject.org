@@ -80,15 +80,15 @@ explore the storymap, share your feedback, and become part of this evolving stor
     alt="Beside an entrance door, a 3D map sits on a table in front of text mounted on the wall. Another map of Galiano
     Island with text and illustrations can be seen mounted on an easel.">
 <figcaption>
-    Introductory text and a 3D map of the southern gulf islands at the entrance of the exhibit.
+    Introductory text and a 3D map of the Southern Gulf Islands at the entrance of the exhibit.
 </figcaption>
 </figure>
 
 ## Project Timeline
 
-A large timeline (24’ X 6’) was created for the exhibit, telling the story of the project from its inception in 2020 to
-the present. The meandering timeline, with questions in thought-bubbles appearing along its path, reflects the emergent
-and exploratory nature of the project. The three phases of the project are mapped out along the timeline with text
+A large timeline was created for the exhibit, telling the story of the project from its inception in 2020 to the
+present. The meandering timeline, with questions in thought-bubbles appearing along its path, reflects the emergent and
+exploratory nature of the project. The three phases of the project are mapped out along the timeline with text
 descriptions of each phase. [Different versions of the storymap](https://imerss.github.io/xetthecum-storymap/storymap-designs.html),
 including both design explorations and implemented prototypes, are presented along the timeline with text descriptions,
 screenshots, and QR codes linking to each one. Events related to the project, such as a [BioBlitz](https://bioactnet.org/events/galiano-blitz-2023)
@@ -166,7 +166,7 @@ Charlie and displayed both finished and unfinished weavings from previous projec
     paper mounted on the wall beside the computer screen with sticky notes stuck to them.">
 <figcaption>
     The website and storymap were set up on a large screen for visitors to experience, along with prompts encouraging
-    feedback by posting sticky notes on the wall. A coast salish loom was set up in the middle of the gallery that
+    feedback by posting sticky notes on the wall. A Coast Salish loom was set up in the middle of the gallery that
     visitors could interact with.
 </figcaption>
 </figure>
