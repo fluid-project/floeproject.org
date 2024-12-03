@@ -1,6 +1,6 @@
 {
     "name": "floeproject.org",
-    "version": "2.4.0",
+    "version": "2.4.1",
     "description": "FLOE Project Website",
     "scripts": {
         "build": "npm-run-all -l clean -p build:*",
@@ -41,7 +41,7 @@
     ],
     "dependencies": {
         "@11ty/eleventy": "^2.0.1",
-        "@11ty/eleventy-img": "^4.0.2",
+        "@11ty/eleventy-img": "^5.0.0",
         "@11ty/eleventy-navigation": "^0.3.5",
         "@11ty/eleventy-plugin-rss": "^1.2.0",
         "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
@@ -63,9 +63,9 @@
         "image-size": "^1.1.1",
         "linkedom": "^0.18.4",
         "lint-staged": "^15.2.2",
-        "markdownlint-cli2": "^0.14.0",
+        "markdownlint-cli2": "^0.15.0",
         "markdownlint-config-fluid": "^0.1.5",
-        "npm-run-all2": "^6.0.0",
+        "npm-run-all2": "^7.0.0",
         "rimraf": "^6.0.0",
         "stylelint": "^14.14.0",
         "stylelint-config-fluid": "^1.0.0",
