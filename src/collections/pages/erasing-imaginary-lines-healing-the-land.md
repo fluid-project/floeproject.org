@@ -228,9 +228,14 @@ followed by additional songs performed by Lauren Mann. The event was well attend
 and drink. A decision was made to keep the exhibit up until October 30th to allow for a visit by the Gulf Islands
 district board and senior staff, who were given a tour of the exhibit.
 
+<figure>
 <img src="/projects/images/erasing-imaginary-lines-healing-the-land/music.jpg"
     alt="A man stands in front of the timeline banner holding a drum, while a woman sits at a keyboard beside him,
     looking at him. A few people can be seen facing them and sitting in chairs, along side empty chairs.">
+<figcaption>
+    Johnny Aitken and Lauren Mann perform their collaborative song “Medicine” at the closing event.
+</figcaption>
+</figure>
 
 ## Next Steps
 
