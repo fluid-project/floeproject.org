@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.4.1](https://github.com/fluid-project/floeproject.org/compare/v2.4.0...v2.4.1) (2024-12-03)
+
+
+### Bug Fixes
+
+* capitalization issues in project page ([#477](https://github.com/fluid-project/floeproject.org/issues/477)) ([571183b](https://github.com/fluid-project/floeproject.org/commit/571183b306f14f1c82081608348608ed3c17ed82))
+* **deps:** update dependency @11ty/eleventy-img to v5 ([#439](https://github.com/fluid-project/floeproject.org/issues/439)) ([4f89eae](https://github.com/fluid-project/floeproject.org/commit/4f89eae8d13c6dc3a1b8112e55150ae323b90e4d))
+* missing image caption ([#478](https://github.com/fluid-project/floeproject.org/issues/478)) ([817eeec](https://github.com/fluid-project/floeproject.org/commit/817eeecbb37cc587a4e6ad760571bcb0ae3b51fc))
+
 ## [2.4.0](https://github.com/fluid-project/floeproject.org/compare/v2.3.2...v2.4.0) (2024-10-24)
 
 
