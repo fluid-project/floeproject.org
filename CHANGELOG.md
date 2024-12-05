@@ -1,5 +1,73 @@
 # Changelog
 
+## [2.4.1](https://github.com/fluid-project/floeproject.org/compare/v2.4.0...v2.4.1) (2024-12-03)
+
+
+### Bug Fixes
+
+* capitalization issues in project page ([#477](https://github.com/fluid-project/floeproject.org/issues/477)) ([571183b](https://github.com/fluid-project/floeproject.org/commit/571183b306f14f1c82081608348608ed3c17ed82))
+* **deps:** update dependency @11ty/eleventy-img to v5 ([#439](https://github.com/fluid-project/floeproject.org/issues/439)) ([4f89eae](https://github.com/fluid-project/floeproject.org/commit/4f89eae8d13c6dc3a1b8112e55150ae323b90e4d))
+* missing image caption ([#478](https://github.com/fluid-project/floeproject.org/issues/478)) ([817eeec](https://github.com/fluid-project/floeproject.org/commit/817eeecbb37cc587a4e6ad760571bcb0ae3b51fc))
+
+## [2.4.0](https://github.com/fluid-project/floeproject.org/compare/v2.3.2...v2.4.0) (2024-10-24)
+
+
+### Features
+
+* add Vraie Idea logo in BBB project page ([#452](https://github.com/fluid-project/floeproject.org/issues/452)) ([1f58701](https://github.com/fluid-project/floeproject.org/commit/1f58701c1d6cadb2184e515266bccd8be6edc9cf))
+
+## [2.3.2](https://github.com/fluid-project/floeproject.org/compare/v2.3.1...v2.3.2) (2024-08-28)
+
+
+### Bug Fixes
+
+* incorrect links and content ([#413](https://github.com/fluid-project/floeproject.org/issues/413)) ([622b78c](https://github.com/fluid-project/floeproject.org/commit/622b78c31864b43fd46f121a7603ba9c89551103))
+
+## [2.3.1](https://github.com/fluid-project/floeproject.org/compare/v2.3.0...v2.3.1) (2024-08-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eleventy-plugin-fluid to v2.7.3 ([#392](https://github.com/fluid-project/floeproject.org/issues/392)) ([7b35539](https://github.com/fluid-project/floeproject.org/commit/7b35539d2cda9a5011abc62135723842dcbaf10a))
+* **deps:** update dependency infusion to v4.7.1 ([#400](https://github.com/fluid-project/floeproject.org/issues/400)) ([3cc7b37](https://github.com/fluid-project/floeproject.org/commit/3cc7b37a325a717426835080f0d96b6c068ae0c3))
+
+## [2.3.0](https://github.com/fluid-project/floeproject.org/compare/v2.2.0...v2.3.0) (2024-06-25)
+
+
+### Features
+
+* add a news about the bilingual support on the inverted wordles website ([b3cc7eb](https://github.com/fluid-project/floeproject.org/commit/b3cc7ebc6cba88565e3fd3a425f3e49ae85f8245))
+* add more news for the BBB project ([e029c53](https://github.com/fluid-project/floeproject.org/commit/e029c53469f9875a0671b4c07f72d85c066a0915))
+* add news article about bag-of-words technique with Bliss ([9e00c69](https://github.com/fluid-project/floeproject.org/commit/9e00c699bbae0b70324ea86e6b3292699e25af7b))
+* News article about CIFAR workshop. ([9f0d20c](https://github.com/fluid-project/floeproject.org/commit/9f0d20c410d02dc089f2fc94f907bb568a989fed))
+* News article about co-designing with children resource. ([79d30fd](https://github.com/fluid-project/floeproject.org/commit/79d30fd794590f9859b2cc123a90fa2978a7a57b))
+* News article about the codesign kit updates. ([8c78eed](https://github.com/fluid-project/floeproject.org/commit/8c78eed45e9a3321f53723f006a460c24c41de7f))
+* News article about the Data Governance Toolkit. ([b600c82](https://github.com/fluid-project/floeproject.org/commit/b600c82cb230d0e039ea69ece8bdba1500b8508e))
+* News article about the Gamepad Navigator ([e1dfc79](https://github.com/fluid-project/floeproject.org/commit/e1dfc79f591161834faed2d9dcca6d960086a271))
+* News article about the narrative based mapping framework in the ecocultural mapping project. ([1454ff4](https://github.com/fluid-project/floeproject.org/commit/1454ff42e4aeb9c5ee3a6b67ddfd9d0fb6ad1687))
+* News article about the Transboundary Gathering. ([cf7c3c2](https://github.com/fluid-project/floeproject.org/commit/cf7c3c2a4f96d5d0889d4d4447bb67b9cc853fca))
+* News article about Weavly custom backgrounds ([0065cf9](https://github.com/fluid-project/floeproject.org/commit/0065cf99915daea58c6b147fc16d57fbac1d1635))
+* remove analytics (resolves [#338](https://github.com/fluid-project/floeproject.org/issues/338)) ([#339](https://github.com/fluid-project/floeproject.org/issues/339)) ([0e130be](https://github.com/fluid-project/floeproject.org/commit/0e130be07cef2f4437bf6ce3825550f6ea9b82e5))
+* remove Netlify credit (resolves [#343](https://github.com/fluid-project/floeproject.org/issues/343)) ([#344](https://github.com/fluid-project/floeproject.org/issues/344)) ([67bbef3](https://github.com/fluid-project/floeproject.org/commit/67bbef33c7001b88b7abcb8307376efe7a450836))
+
+
+### Bug Fixes
+
+* add reference links for clarification ([373df47](https://github.com/fluid-project/floeproject.org/commit/373df47c3938e94b003da0077e3e2049dbc4c824))
+* adding a link to the co-design kit in the news article about it. ([3110f25](https://github.com/fluid-project/floeproject.org/commit/3110f2521bb1743c8a443470ef07e2f4b7b257f9))
+* address review comments ([25d5f13](https://github.com/fluid-project/floeproject.org/commit/25d5f13208c274b521b364ec8a79cba475d30d89))
+* bad link ([61545c9](https://github.com/fluid-project/floeproject.org/commit/61545c93f45d8882c4fd3868bba375a5f6a289d2))
+* Change the project name from Inverted Wordle to Inverted Word Cloud ([ac2b494](https://github.com/fluid-project/floeproject.org/commit/ac2b494312e15ba8fce696e2e28f7a0dded8557d))
+* fix a date ([91bcf6e](https://github.com/fluid-project/floeproject.org/commit/91bcf6ea939a0e1e97634c938d352e52d0504ab5))
+* fix a typo ([5ff28e6](https://github.com/fluid-project/floeproject.org/commit/5ff28e65dfc638e88eb9842fe392d7ef3c63c128))
+* fix references to WeCount URLs for the inverted word clouds website ([dd68d98](https://github.com/fluid-project/floeproject.org/commit/dd68d982981639b66320105ebf39f4b4ad2a745b))
+* news date url issue (resolves [#367](https://github.com/fluid-project/floeproject.org/issues/367)) ([#369](https://github.com/fluid-project/floeproject.org/issues/369)) ([bb561d2](https://github.com/fluid-project/floeproject.org/commit/bb561d27eafd5ef0dfc1afd3a79bd5a666c50259))
+* remove extra brackets ([3a27757](https://github.com/fluid-project/floeproject.org/commit/3a27757a9fef7f17739809dbe6719d0cc5d7ee9f))
+* remove unintended use of ins tag on the main page ([#333](https://github.com/fluid-project/floeproject.org/issues/333)) ([ba3acc3](https://github.com/fluid-project/floeproject.org/commit/ba3acc3f2124a79643ea74b1c3c0dd80f173b507))
+* rename the word "wordle" with "word cloud" ([96a01c2](https://github.com/fluid-project/floeproject.org/commit/96a01c2d2a3034380d370611a14c2bdecb9a1236))
+* replace abandoned eleventy-plugin-sharp with eleventy-img ([#349](https://github.com/fluid-project/floeproject.org/issues/349)) ([bfeb4c1](https://github.com/fluid-project/floeproject.org/commit/bfeb4c11e53950bb99b9cac36ede9fd121146d24))
+* update the inverted word clouds to use the new URL ([baa1d8f](https://github.com/fluid-project/floeproject.org/commit/baa1d8fe5f97afed84171230c856d21a6bc3553f))
+
 ## [2.2.0](https://github.com/fluid-project/floeproject.org/compare/v2.1.0...v2.2.0) (2023-08-17)
 
 

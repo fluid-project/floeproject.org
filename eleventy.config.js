@@ -49,6 +49,13 @@ module.exports = function (config) {
 
     // Filters
     config.addFilter("dateFilter", dateFilter);
+    config.addFilter("dateString", (date) => {
+        if (typeof date === "string") {
+            return date;
+        }
+        const dateObject = new Date(date);
+        return dateObject.toISOString().split("T")[0];
+    });
 
     // Shortcodes
     config.addShortcode("svg_sprite", function (sprite, altText, ariaHidden = true) {
