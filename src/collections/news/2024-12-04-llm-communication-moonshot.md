@@ -2,7 +2,7 @@
 title: Large Language Model Communication Moonshot
 date: "2024-12-04"
 slug: llm-communication-moonshot
-excerpt: LLM Communication Moonshot
+excerpt: Large Language Models are trained using data from phonetic-based languages.  The goal is to expand LLMs to work with meaning-based languages such as Blissymbolics. 
 ---
 <figure style="text-align: center">
   <img src="/news/images/moonshotBliss.png" alt="'moonshot' or 'lofty goal' written in Blissymbolics">
