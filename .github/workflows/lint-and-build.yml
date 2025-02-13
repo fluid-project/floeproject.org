@@ -1,0 +1,19 @@
+name: Lint and build
+
+on:
+  pull_request:
+    branches: [dev, main]
+
+jobs:
+  lint-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          cache: npm
+      - name: Install dependencies, lint files and run build
+        run: |
+          npm ci
+          npm run lint
+          npm run build
