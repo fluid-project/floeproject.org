@@ -1,7 +1,7 @@
 ---
 title: Hearth
 date: "2021-07-13"
-thumbnailFilename: hearth.png
+thumbnailImage: /projects/images/hearth.png
 thumbnailAltText: A screenshot of PHP code in the Hearth repository
 ---
 [Hearth](https://github.com/fluid-project/hearth) supports the creation of libraries for open educational resources.

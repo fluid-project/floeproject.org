@@ -1,0 +1,101 @@
+backend:
+  name: github
+  branch: main
+  squash_merges: true
+  repo: fluid-project/floeproject.org
+  base_url: https://auth.incd.ca
+  commit_messages:
+    create: 'chore(cms): create "{{path}}"'
+    update: 'chore(cms): update "{{path}}"'
+    delete: 'chore(cms): delete "{{path}}"'
+    uploadMedia: 'chore(cms): upload "{{path}}"'
+    deleteMedia: 'chore(cms): delete "{{path}}"'
+media_folder: src/media
+public_folder: /media
+slug:
+  encoding: ascii
+  clean_accents: true
+output:
+  omit_empty_optional_fields: true
+collections:
+  - name: news
+    label: News
+    label_singular: News Item
+    icon: newspaper
+    folder: src/collections/news
+    slug: "{{fields.date}}-{{fields.title}}"
+    create: true
+    media_folder: /src/collections/news/images
+    public_folder: /news/images
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Date, name: date, widget: datetime, time_format: false}
+      - label: Slug
+        name: slug
+        widget: string
+        required: false
+        preview: false
+
+      - label: Excerpt
+        name: excerpt
+        widget: text
+        required: false
+        preview: false
+
+      - {label: Body, name: body, widget: markdown}
+  - name: projects
+    label: Projects
+    label_singular: Project
+    icon: inventory
+    folder: src/collections/projects
+    slug: "{{fields.title}}"
+    create: true
+    media_folder: /src/collections/projects/images
+    public_folder: /projects/images
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Date, name: date, widget: datetime, time_format: false}
+      - {label: Order, name: order, widget: number, min: 0, required: false, preview: false}
+      - label: Tags
+        name: tags
+        widget: list
+        required: false
+        preview: false
+
+      - {label: Thumbnail Image, name: thumbnailImage, widget: image}
+      - {label: Thumbnail Alternative Text, name: thumbnailAltText, widget: text}
+      - {label: Body, name: body, widget: markdown}
+  - name: resources
+    label: Resources
+    label_singular: resource
+    icon: inventory_2
+    folder: src/collections/resources
+    slug: "{{fields.title}}"
+    create: true
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Body, name: body, widget: markdown}
+  - label: Metadata
+    name: metadata
+    files:
+      - label: Site Data
+        name: site_data
+        delete: false
+        file: src/_data/site.json
+        fields:
+          - {label: Site Name, name: name, widget: string}
+          - {label: Site Title, name: title, widget: string}
+          - {label: Site Description, name: shortDesc, widget: string}
+          - {label: Site Url, name: url, widget: string, type: url}
+          - label: Author Email
+            name: authorEmail
+            widget: string
+            type: email
+
+          - {label: Author Name, name: authorName, widget: string}
+          - label: Author Website
+            name: authorWebsite
+            widget: string
+            type: url
+
+          - {label: Favicon Path, name: faviconPath, widget: string}

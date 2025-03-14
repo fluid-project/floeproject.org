@@ -92,6 +92,7 @@ module.exports = function (config) {
 
     // Passthrough copy
     config.addPassthroughCopy({"src/_redirects": "_redirects"});
+    config.addPassthroughCopy({"src/admin/config.yml": "admin/config.yml"});
     config.addPassthroughCopy({"src/assets/images": "assets/images"});
     config.addPassthroughCopy({"src/assets/fonts": "assets/fonts"}); // TODO: remove after updating CSS
     config.addPassthroughCopy({"src/collections/news/images": "news/images"});

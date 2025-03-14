@@ -3,7 +3,7 @@ title: We Count
 date: "2020-10-01"
 tags:
   - active
-thumbnailFilename: wecount.png
+thumbnailImage: /projects/images/wecount.png
 thumbnailAltText: A photograph of a monitor showing the WeCount website
 ---
 [We Count](https://wecount.inclusivedesign.ca) is a project created to address bias, discrimination and barriers to

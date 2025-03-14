@@ -4,7 +4,7 @@ date: "2011-10-17"
 order: 3
 tags:
   - featured
-thumbnailFilename: ildh.png
+thumbnailImage: /projects/images/ildh.png
 thumbnailAltText: A photograph of a monitor showing the ILDH website
 ---
 The [Inclusive Learning Design Handbook](https://handbook.floeproject.org/) assists teachers, content creators, Web

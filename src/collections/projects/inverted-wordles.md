@@ -3,7 +3,7 @@ title: Inverted Word Cloud
 date: "2021-05-08"
 tags:
   - active
-thumbnailFilename: inverted-wordle.png
+thumbnailImage: /projects/images/inverted-wordle.png
 thumbnailAltText: A collection of terms arranged to show the least common responses more prominently
 ---
 The [Inverted Word Cloud](https://wecount.inclusivedesign.ca/initiatives/inverted-word-clouds/) tool allows learners,

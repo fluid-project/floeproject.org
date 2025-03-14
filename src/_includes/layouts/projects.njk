@@ -7,14 +7,14 @@
         {# Featured Projects #}
         {% for project in posts %}
             <li class="post card-layout corner-effect">
-                {% if project.data.thumbnailFilename %}
+                {% if project.data.thumbnailImage %}
                     {% if project.data.thumbnailAltText %}
                         {% set thumbnailAltText = project.data.thumbnailAltText %}
                     {% else %}
                         {% set thumbnailAltText = "" %}
                     {% endif %}
 
-                    {% set thumbnailSrc = 'src/collections/projects/images/' + project.data.thumbnailFilename | safe %}
+                    {% set thumbnailSrc = 'src/collections' + project.data.thumbnailImage | safe %}
 
                     {% thumbnail thumbnailSrc, thumbnailAltText %}
                 {% endif %}

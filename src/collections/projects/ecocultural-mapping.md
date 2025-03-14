@@ -5,7 +5,7 @@ order: 4
 tags:
   - featured
   - active
-thumbnailFilename: xetthecum.png
+thumbnailImage: /projects/images/xetthecum.png
 thumbnailAltText: A screenshot of the xetthecum ecocultural mapping tool.
 ---
 The [Ecocultural Mapping Project](/ecocultural-mapping-project/) braids together Indigenous ways of
