@@ -1,6 +1,6 @@
 {
     "name": "floeproject.org",
-    "version": "2.4.2",
+    "version": "2.5.0",
     "description": "FLOE Project Website",
     "scripts": {
         "build": "npm-run-all -l clean -p build:*",
@@ -61,7 +61,7 @@
         "eslint-plugin-yml": "^1.14.0",
         "fluid-lint-all": "^1.2.11",
         "husky": "^9.0.11",
-        "image-size": "^2.0.0",
+        "image-size": "^1.1.1",
         "linkedom": "^0.18.4",
         "lint-staged": "^15.2.2",
         "markdownlint-cli2": "^0.15.0",
