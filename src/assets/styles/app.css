@@ -121,6 +121,11 @@ code {
     position: relative;
 }
 
+.hanging-indent {
+    margin-inline-start: 2rem;
+    text-indent: -2rem;
+}
+
 /*
 Folded corner effect based on this example:
 https://codepen.io/MacintoshRobinson/pen/ZEzJvdo

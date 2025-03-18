@@ -59,9 +59,19 @@ The threat of doing harm should slow us down. If ever there was a moment for hig
 
 ### **References**
 
+
+<div class="hanging-indent">
+
 Buolamwini, J. (n.d.). *Algorithmic Justice League*. MIT Media Lab. Retrieved October 8, 2023, from https://www.media.mit.edu/projects/algorithmic-justice-league/overview/  
+
 Buolamwini, J. (2020, June 4). We Must Fight Face Surveillance to Protect Black Lives. *OneZero*. https://onezero.medium.com/we-must-fight-face-surveillance-to-protect-black-lives-5ffcd0b4c28a  
+
 Buolamwini, J. (2023). *Unmasking AI : my mission to protect what is human in a world of machines* (First edition.). Random House.  
+
 Knappenberger, B. (Director). (2014, July 1). *The Internet’s Own Boy: The Story of Aaron Swartz* \[Video recording\]. Participant. https://www.youtube.com/watch?v=9vz06QO3UkQ  
+
 Mitchell, J. (2024). *Framework for Accessible and Equitable Artificial Intelligence (AI) in Education*. https://openlibrary.ecampusontario.ca/item-details/  
+
 Students, C. by, University, F. and S. at O., College, M., University, B., University, T., University, N., Windsor, U. of, & Toronto-Mississauga, U. of. (2022). *Learning to be Human Together*. OCAD University, Learning to be Human Together Team. https://ecampusontario.pressbooks.pub/onhumanlearn/
+
+</div>
