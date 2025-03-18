@@ -12,7 +12,7 @@ San Francisco focused on aligning primary and secondary curriculum in crisis con
 
 <figure>
     <img
-        src="/news/images/Design-2-Align_panel.png"
+        src="/assets/media/Design-2-Align_panel.png"
         alt="A panel of refugee coaches, host community coach, and Education Officers from Kakuma Refugee Camp and
             Dadaab Refugee Camp share their on-the-ground experiences with the team."
         >
@@ -44,7 +44,7 @@ contributors then feed rich and diverse adjustments back to the rubric.
 
 <figure>
     <img
-        src="/news/images/Design-2-Align_activity.png"
+        src="/assets/media/Design-2-Align_activity.png"
         alt="The Hackathon team broke into various small groups to tackle specific areas of the curriculum alignment
             project."
         >
@@ -55,7 +55,7 @@ contributors then feed rich and diverse adjustments back to the rubric.
 
 <figure>
     <img
-        src="/news/images/Design-2-Align_team.png"
+        src="/assets/media/Design-2-Align_team.png"
         alt="The Hackathon team at the San Francisco Google offices."
         >
     <figcaption>

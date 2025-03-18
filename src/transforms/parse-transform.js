@@ -8,11 +8,12 @@ module.exports = function (value, outputPath) {
     if (outputPath && outputPath.endsWith(".html")) {
         let {document} = parseHTML(value);
 
-        const articleImages = [...document.querySelectorAll("main article img, .intro img")];
+        const articleImages = [...document.querySelectorAll("main article img, .intro img, .project-subpage .content img")];
         const articleHeadings = [
             ...document.querySelectorAll("main article h2, main article h3")
         ];
         const articleEmbeds = [...document.querySelectorAll("main article iframe")];
+        const projectHrs = [...document.querySelectorAll(".project-page .content hr")];
 
         if (articleImages.length) {
             articleImages.forEach(image => {
@@ -76,6 +77,43 @@ module.exports = function (value, outputPath) {
 
                     embed.replaceWith(player);
                 }
+            });
+        }
+
+        if (projectHrs.length) {
+            projectHrs.forEach(hr => {
+                const btn = document.createElement("button");
+                btn.setAttribute("aria-expanded", false);
+                btn.innerHTML = `<svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L6.16129 7L11 1" stroke="var(--fl-linkColor, currentColor)" stroke-linecap="round"/>
+                </svg> <span>read more</span>
+                `;
+
+                const wrapper = document.createElement("div");
+
+                const getContent = (elem) => {
+                    let elems = [];
+                    while (elem.nextElementSibling) {
+                        elems.push(elem.nextElementSibling);
+                        elem = elem.nextElementSibling;
+                    }
+
+                    // Delete the old versions of the content nodes
+                    elems.forEach((node) => {
+                        node.parentNode.removeChild(node);
+                    });
+
+                    return elems;
+                };
+
+                let contents = getContent(hr);
+
+                contents.forEach(node => {
+                    wrapper.appendChild(node);
+                });
+
+                hr.parentNode.append(wrapper);
+                hr.replaceWith(btn);
             });
         }
 

@@ -20,7 +20,7 @@ and autonomy with promising but challenging technologies such as AI, and avoid e
 
   The segment from the _Spark_ radio show on the CBC explores issues of inclusion and artificial intelligence.
 
-* [Beyond the Rhetoric of Algorithmic Solutionism (2018)](https://points.datasociety.net/beyond-the-rhetoric-of-algorithmic-solutionism-8e0f9cdada53)
+* [Beyond the Rhetoric of Algorithmic Solutionism (2018)](https://web.archive.org/web/20180113133825/https://points.datasociety.net/beyond-the-rhetoric-of-algorithmic-solutionism-8e0f9cdada53)
 
   This is a short review of the book “Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor”.
 

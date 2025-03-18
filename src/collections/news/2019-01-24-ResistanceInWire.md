@@ -30,4 +30,4 @@ learners were interviewed and/or surveyed regarding their use of this simulation
 gathered through these interviews was used to inform the development of the simulation resulting in making it accessible
 to many learners with disabilities, using elegant visual, auditory, and interaction design.
 
-![Resistance in a Wire Simulation](/news/images/RIAW.png)
+![Resistance in a Wire Simulation](/assets/media/RIAW.png)

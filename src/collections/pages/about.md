@@ -17,7 +17,7 @@ The FLOE project develops and gathers strategies and techniques that can be used
 These are shared through a variety of open guides and toolkits including:
 
 * the [Community-Led Co-design Kit](https://co-design.inclusivedesign.ca/),
-* the [Inclusive Learning Design Handbook](https://handbook.floeproject.org/followaccessibilityprinciples),
+* the [Inclusive Learning Design Handbook](https://handbook.floeproject.org/approaches/follow-accessibility-principles/),
 * the [Inclusive Design Guide](https://guide.inclusivedesign.ca/), and
 * [SNOW](https://snow.idrc.ocadu.ca/).
 

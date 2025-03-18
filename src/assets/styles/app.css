@@ -121,6 +121,11 @@ code {
     position: relative;
 }
 
+.hanging-indent {
+    margin-inline-start: 2rem;
+    text-indent: -2rem;
+}
+
 /*
 Folded corner effect based on this example:
 https://codepen.io/MacintoshRobinson/pen/ZEzJvdo
@@ -191,6 +196,10 @@ main header .breadcrumbs + h1 {
     margin-block: 1rem 2rem;
     margin-inline: 0;
     text-transform: none;
+}
+
+.project-subpage main header .breadcrumbs + h1 {
+    font-size: 3rem;
 }
 
 aside {
@@ -489,10 +498,12 @@ aside h2 {
     color: var(--fl-linkColor, var(--mainColor));
     font-weight: var(--fl-enhance-font-weight, 700);
     text-decoration: none;
+    text-wrap: balance;
 }
 
 .page-post header time,
-.post time {
+.post time,
+.post .floe-publisher {
     align-self: center;
     font-feature-settings: "pnum" on, "lnum" on, "ss03" on;
     font-size: 0.75rem;
@@ -501,6 +512,10 @@ aside h2 {
     line-height: calc(var(--fl-lineSpace-factor, 1) * 1.833);
     text-align: center;
     text-transform: uppercase;
+}
+
+.post .floe-author {
+    text-align: center;
 }
 
 .posts-projects {
@@ -575,6 +590,116 @@ aside h2 {
 .posts-news .corner-effect:focus-within::after,
 .posts-news .corner-effect:hover::after {
     background-color: var(--fl-linkColor, var(--newsCornerShadow));
+}
+
+.project-page h2 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: calc(24 / 36);
+    margin-block-end: 3.25rem;
+}
+
+.project-page div.content + h2 {
+    border-block-start: solid 0.5rem var(--fl-fgColor, #ece190);
+    margin-block-start: 3rem;
+    padding-block-start: 0.875rem;
+}
+
+.project-page .content [aria-expanded] {
+    appearance: none;
+    background-color: transparent;
+    border: 0;
+    display: block;
+    font-family: OpenSans, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-inline-start: auto;
+}
+
+.project-page .content [aria-expanded] span {
+    text-decoration: underline;
+}
+
+.project-page .content [aria-expanded="true"] svg {
+    transform: rotate(180deg);
+}
+
+.project-page .content [aria-expanded="false"] + div {
+    display: none;
+}
+
+.project-page .content [aria-expanded="true"] + div {
+    display: block;
+}
+
+.project-subpage .authorship {
+    font-size: 1.5rem;
+    line-height: 1.25;
+}
+
+.posts-project-subpages + h2 {
+    margin-block-start: 6.8125rem;
+}
+
+.posts-project-subpages .card-layout {
+    align-items: center;
+    box-shadow: 0 0 0 0.125rem var(--fl-linkColor, var(--projectsCornerShadow)) inset;
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+    justify-content: flex-start;
+    padding-inline: 1rem;
+}
+
+.posts-project-subpages .card-layout > * {
+    text-wrap: balance;
+}
+
+.posts-project-subpages .card-layout svg {
+    margin-block-start: auto;
+}
+
+.posts-project-subpages .corner-effect {
+    background-color: var(--projectsBGColor);
+    clip-path: polygon(0 1.5rem, 0 100%, 100% 100%, 100% 0%, 2.5rem 0);
+}
+
+.posts-project-subpages:nth-of-type(3n + 2) {
+    --projectsCornerShadow: #bcdca9;
+    --projectsBGColor: #e8f3e7;
+}
+
+.posts-project-subpages:nth-of-type(3n + 3) {
+    --projectsCornerShadow: var(--newsCornerShadow);
+    --projectsBGColor: var(--newsBGColor);
+}
+
+.posts-project-subpages .corner-effect a:focus,
+.posts-project-subpages .corner-effect:hover a {
+    background-color: var(--fl-linkColor, var(--projectsCornerShadow));
+    color: var(--fl-bgColor);
+}
+
+.posts-project-subpages .corner-effect a:focus,
+.posts-project-subpages .corner-effect a:hover {
+    background-color: var(--fl-linkColor, var(--projectsCornerShadow));
+    padding-block-end: 0;
+}
+
+.posts-project-subpages .corner-effect:focus-within,
+.posts-project-subpages .corner-effect:hover {
+    box-shadow: 0 0 0 0.625rem var(--fl-linkColor, var(--projectsCornerShadow)) inset;
+}
+
+.posts-project-subpages .corner-effect::after {
+    background-color: var(--fl-fgColor, var(--projectsCornerShadow));
+    left: 0;
+    top: -2rem;
+}
+
+.posts-project-subpages .corner-effect:focus-within::after,
+.posts-project-subpages .corner-effect:hover::after {
+    background-color: var(--fl-linkColor, var(--projectsCornerShadow));
 }
 
 .content {

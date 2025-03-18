@@ -2,10 +2,10 @@
 title: Large Language Model Communication Moonshot
 date: "2024-12-04"
 slug: llm-communication-moonshot
-excerpt: Large Language Models are trained using data from phonetic-based languages.  The goal is to expand LLMs to work with meaning-based languages such as Blissymbolics. 
+excerpt: Large Language Models are trained using data from phonetic-based languages.  The goal is to expand LLMs to work with meaning-based languages such as Blissymbolics.
 ---
 <figure style="text-align: center">
-  <img src="/news/images/moonshotBliss.png" alt="'moonshot' or 'lofty goal' written in Blissymbolics">
+  <img src="/assets/media/moonshotBliss.png" alt="'moonshot' or 'lofty goal' written in Blissymbolics">
 </figure>
 
 In 1962, U.S. President Kennedy made a famous speech where he promoted the idea

@@ -24,9 +24,9 @@ self-assessment.
 The following images show examples of the designs we are currently developing (select to enlarge):
 
 <figure>
-    <a href="/news/images/Self-reflection-Figure-1.png">
+    <a href="/assets/media/Self-reflection-Figure-1.png">
         <img
-            src="/news/images/Self-reflection-Figure-1-thumb.png"
+            src="/assets/media/Self-reflection-Figure-1-thumb.png"
             alt="A learner can choose to be prompted for more detailed information when they select a touchnote
                 in their personalized collection."
             aria-details="det1"
@@ -51,9 +51,9 @@ The following images show examples of the designs we are currently developing (s
 </figure>
 
 <figure>
-    <a href="/news/images/Self-reflection-Figure-2.png">
+    <a href="/assets/media/Self-reflection-Figure-2.png">
         <img
-            src="/news/images/Self-reflection-Figure-2-thumb.png"
+            src="/assets/media/Self-reflection-Figure-2-thumb.png"
             alt="Data collected through touch-notes and automated tracking (e.g. weather) is presented
                 back to the learner in a personalized format."
             aria-details="det2"
@@ -76,9 +76,9 @@ The following images show examples of the designs we are currently developing (s
 </figure>
 
 <figure>
-    <a href="/news/images/Self-reflection-Figure-3.png">
+    <a href="/assets/media/Self-reflection-Figure-3.png">
         <img
-            src="/news/images/Self-reflection-Figure-3-thumb.png"
+            src="/assets/media/Self-reflection-Figure-3-thumb.png"
             alt="A wireframe of a mobile interface showing a possible exploratory entry point into the self-assessment
                 toolkit."
             aria-details="det3"

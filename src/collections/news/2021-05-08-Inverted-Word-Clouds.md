@@ -12,7 +12,7 @@ tool, that inverts this relationship and provides a means to amplify minority vo
 
 <figure>
     <img
-        src="/news/images/wordle.jpg"
+        src="/assets/media/wordle.jpg"
         alt="A screenshot showing a word cloud generated for the question,
             What are the three most important problems to be addressed by inclusive design?"
     >

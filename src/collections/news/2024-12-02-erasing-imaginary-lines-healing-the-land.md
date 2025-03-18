@@ -11,7 +11,7 @@ an intergenerational, cross-cultural and community-led project focused on creati
 known as Xetthecum in the Hul’q’umi’num’ language (Retreat Cove, Galiano Island). The exhibit also featured projects
 that are related to or that inspired the Xetthecum project, including species maps of Galiano Island created by local
 artists, an overview of [Whiteswan Environmental](https://www.whiteswanenvironmental.org/)’s work, and a
-[digital project gallery](https://imerss.github.io/xetthecum-storymap/files/inspiring_projects.html). A Coast Salish
+[digital project gallery](https://imerss.github.io/xetthecum-storymap/related-projects.html). A Coast Salish
 loom was set up in the middle of the space, inviting visitors to do some weaving and providing a cultural, visual and
 physical gathering point for the exhibit.
 
@@ -21,7 +21,7 @@ exploratory nature of the project. To learn more please visit the exhibit
 [project page](/erasing-imaginary-lines-healing-the-land-digital-ecocultural-mapping-in-the-salish-sea-and-beyond/).
 
 <figure>
-<img src="/news/images/erasing-imaginary-lines-healing-the-land-project-timeline.png"
+<img src="/assets/media/erasing-imaginary-lines-healing-the-land-project-timeline.png"
     alt="A design mockup of the project timeline which includes a meandering teal line along the bottom labelled with
     2020 at the start and 2024 at the end, and labelled with the increasingly longer spans of Phase I, Phase II and
     Phase III along the bottom of the banner. Various text boxes with images appear across the banner describing
@@ -34,7 +34,7 @@ exploratory nature of the project. To learn more please visit the exhibit
 </figure>
 
 <figure>
-<img src="/projects/images/erasing-imaginary-lines-healing-the-land/set-up.png"
+<img src="/assets/media/set-up.png"
     alt="A gallery space with windows on one side and with several tables set up around the room. One table supports a
     3D map and another has a large computer screen on it, with a keyboard and chair in front. Mounted on the far wall is
     a large timeline banner taking up the entire width of the wall. A Coast Salish loom is set up in the middle of the

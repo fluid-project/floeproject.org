@@ -1,0 +1,574 @@
+[
+  {
+    "from": "/accessibilitysprint2015",
+    "to": "/"
+  },
+  {
+    "from": "/accessibilitysprint2015.html",
+    "to": "/"
+  },
+  {
+    "from": "/prefseditors",
+    "to": "/news/2014-04-21-prefseditors/"
+  },
+  {
+    "from": "/prefseditors.html",
+    "to": "/news/2014-04-21-prefseditors/"
+  },
+  {
+    "from": "/preference-editing-tools/",
+    "to": "/news/2014-04-21-prefseditors/"
+  },
+  {
+    "from": "/resources",
+    "to": "/resources/"
+  },
+  {
+    "from": "/resources.html",
+    "to": "/resources/"
+  },
+  {
+    "from": "/security",
+    "to": "/news/2015-03-19-security/"
+  },
+  {
+    "from": "/security.html",
+    "to": "/news/2015-03-19-security/"
+  },
+  {
+    "from": "/security-architecture/",
+    "to": "/news/2015-03-19-security/"
+  },
+  {
+    "from": "/ui-options",
+    "to": "/ui-options/"
+  },
+  {
+    "from": "/ui-options.html",
+    "to": "/ui-options/"
+  },
+  {
+    "from": "/news/2012-02-28-updates-to-ildh",
+    "to": "/news/2012-02-28-updates-to-ildh/"
+  },
+  {
+    "from": "/news/2012-02-28-updates-to-ildh.html",
+    "to": "/news/2012-02-28-updates-to-ildh/"
+  },
+  {
+    "from": "/news/2012-03-06-webinar-outside-in",
+    "to": "/news/2012-03-06-webinar-outside-in/"
+  },
+  {
+    "from": "/news/2012-03-06-webinar-outside-in.html",
+    "to": "/news/2012-03-06-webinar-outside-in/"
+  },
+  {
+    "from": "/news/2012-10-12-project-update",
+    "to": "/news/2012-10-12-project-update/"
+  },
+  {
+    "from": "/news/2012-10-12-project-update.html",
+    "to": "/news/2012-10-12-project-update/"
+  },
+  {
+    "from": "/news/2012-10-15-floe-open-ed",
+    "to": "/news/2012-10-15-floe-open-ed/"
+  },
+  {
+    "from": "/news/2012-10-15-floe-open-ed.html",
+    "to": "/news/2012-10-15-floe-open-ed/"
+  },
+  {
+    "from": "/news/2012-10-19-plans-for-floe-year-three",
+    "to": "/news/2012-10-19-plans-for-floe-year-three/"
+  },
+  {
+    "from": "/news/2012-10-19-plans-for-floe-year-three.html",
+    "to": "/news/2012-10-19-plans-for-floe-year-three/"
+  },
+  {
+    "from": "/news/2012-10-24-jutta-zoomer-mag",
+    "to": "/news/2012-10-24-jutta-zoomer-mag/"
+  },
+  {
+    "from": "/news/2012-10-24-jutta-zoomer-mag.html",
+    "to": "/news/2012-10-24-jutta-zoomer-mag/"
+  },
+  {
+    "from": "/news/2012-12-05-floe-deployment-feasibility-study-funded",
+    "to": "/news/2012-12-05-floe-deployment-feasibility-study-funded/"
+  },
+  {
+    "from": "/news/2012-12-05-floe-deployment-feasibility-study-funded.html",
+    "to": "/news/2012-12-05-floe-deployment-feasibility-study-funded/"
+  },
+  {
+    "from": "/news/2012-12-05-floe-leads-inclusive-design-workshop-at-big-ideas-fest",
+    "to": "/news/2012-12-05-workshop-big-ideas-fest/"
+  },
+  {
+    "from": "/news/2012-12-05-floe-leads-inclusive-design-workshop-at-big-ideas-fest.html",
+    "to": "/news/2012-12-05-workshop-big-ideas-fest/"
+  },
+  {
+    "from": "/news/2013-03-05-fluid-releases-new-video-player",
+    "to": "/news/2013-03-05-fluid-releases-new-video-player/"
+  },
+  {
+    "from": "/news/2013-03-05-fluid-releases-new-video-player.html",
+    "to": "/news/2013-03-05-fluid-releases-new-video-player/"
+  },
+  {
+    "from": "/news/2013-11-05-call-for-contributions-wai-accessible-e-learning-online-symposium",
+    "to": "/news/2013-11-05-wai-a11y-e-learning-symposium/"
+  },
+  {
+    "from": "/news/2013-11-05-call-for-contributions-wai-accessible-e-learning-online-symposium.html",
+    "to": "/news/2013-11-05-wai-a11y-e-learning-symposium/"
+  },
+  {
+    "from": "/news/2013-11-12-inclusive-design-of-oers",
+    "to": "/news/2013-11-12-inclusive-design-of-oers/"
+  },
+  {
+    "from": "/news/2013-11-12-inclusive-design-of-oers.html",
+    "to": "/news/2013-11-12-inclusive-design-of-oers/"
+  },
+  {
+    "from": "/news/2014-03-01-edupub2-workshop",
+    "to": "/news/2014-03-01-edupub2-workshop/"
+  },
+  {
+    "from": "/news/2014-03-01-edupub2-workshop.html",
+    "to": "/news/2014-03-01-edupub2-workshop/"
+  },
+  {
+    "from": "/news/2014-03-10-harnessing-the-open-web",
+    "to": "/news/2014-03-10-harnessing-the-open-web/"
+  },
+  {
+    "from": "/news/2014-03-10-harnessing-the-open-web.html",
+    "to": "/news/2014-03-10-harnessing-the-open-web/"
+  },
+  {
+    "from": "/news/2014-03-18-metadata-editing-components",
+    "to": "/news/2014-03-18-metadata-editing-components/"
+  },
+  {
+    "from": "/news/2014-03-18-metadata-editing-components.html",
+    "to": "/news/2014-03-18-metadata-editing-components/"
+  },
+  {
+    "from": "/news/2014-03-24-floe-presentations-at-csun",
+    "to": "/news/2014-03-24-floe-presentations-at-csun/"
+  },
+  {
+    "from": "/news/2014-03-24-floe-presentations-at-csun.html",
+    "to": "/news/2014-03-24-floe-presentations-at-csun/"
+  },
+  {
+    "from": "/news/2014-03-28-workshop-inclusive-technology-in-the-classroom",
+    "to": "/news/2014-03-28-workshop-inclusive-technology-in-the-classroom/"
+  },
+  {
+    "from": "/news/2014-03-28-workshop-inclusive-technology-in-the-classroom.html",
+    "to": "/news/2014-03-28-workshop-inclusive-technology-in-the-classroom/"
+  },
+  {
+    "from": "/news/2014-04-04-panel-presentation-a11y-in-oer",
+    "to": "/news/2014-04-04-panel-presentation-a11y-in-oer/"
+  },
+  {
+    "from": "/news/2014-04-04-panel-presentation-a11y-in-oer.html",
+    "to": "/news/2014-04-04-panel-presentation-a11y-in-oer/"
+  },
+  {
+    "from": "/news/2014-04-15-floe-at-hci",
+    "to": "/news/2014-04-15-floe-at-hci/"
+  },
+  {
+    "from": "/news/2014-04-15-floe-at-hci.html",
+    "to": "/news/2014-04-15-floe-at-hci/"
+  },
+  {
+    "from": "/news/2014-04-21-metadata-search",
+    "to": "/news/2014-04-21-metadata-search/"
+  },
+  {
+    "from": "/news/2014-04-21-metadata-search.html",
+    "to": "/news/2014-04-21-metadata-search/"
+  },
+  {
+    "from": "/news/2014-09-30-lumen-learning",
+    "to": "/news/2014-09-30-lumen-learning/"
+  },
+  {
+    "from": "/news/2014-09-30-lumen-learning.html",
+    "to": "/news/2014-09-30-lumen-learning/"
+  },
+  {
+    "from": "/news/2015-01-13-oer-a11y-sprint",
+    "to": "/news/2015-01-13-oer-a11y-sprint/"
+  },
+  {
+    "from": "/news/2015-01-13-oer-a11y-sprint.html",
+    "to": "/news/2015-01-13-oer-a11y-sprint/"
+  },
+  {
+    "from": "/news/2015-03-26-uio-wp-plugin",
+    "to": "/news/2015-03-26-uio-wp-plugin/"
+  },
+  {
+    "from": "/news/2015-03-26-uio-wp-plugin.html",
+    "to": "/news/2015-03-26-uio-wp-plugin/"
+  },
+  {
+    "from": "/news/2015-05-08-workshop-business-advantages",
+    "to": "/news/2015-05-08-workshop-business-advantages/"
+  },
+  {
+    "from": "/news/2015-05-08-workshop-business-advantages.html",
+    "to": "/news/2015-05-08-workshop-business-advantages/"
+  },
+  {
+    "from": "/news/2015-11-16-phet",
+    "to": "/news/2015-11-16-phet/"
+  },
+  {
+    "from": "/news/2015-11-16-phet.html",
+    "to": "/news/2015-11-16-phet/"
+  },
+  {
+    "from": "/news/2016-03-28-upcoming-talks-on-inclusive-digital-education",
+    "to": "/news/2016-03-28-upcoming-talks-on-inclusive-digital-education/"
+  },
+  {
+    "from": "/news/2016-03-28-upcoming-talks-on-inclusive-digital-education.html",
+    "to": "/news/2016-03-28-upcoming-talks-on-inclusive-digital-education/"
+  },
+  {
+    "from": "/news/2016-11-30-deep-conference-2016",
+    "to": "/news/2016-11-30-deep-2016/"
+  },
+  {
+    "from": "/news/2016-11-30-deep-conference-2016.html",
+    "to": "/news/2016-11-30-deep-2016/"
+  },
+  {
+    "from": "/news/2016-11-30-iidex-2016",
+    "to": "/news/2016-11-30-iidex-2016/"
+  },
+  {
+    "from": "/news/2016-11-30-iidex-2016.html",
+    "to": "/news/2016-11-30-iidex-2016/"
+  },
+  {
+    "from": "/news/2016-11-30-un-international-day-of-persons-with-disabilities",
+    "to": "/news/2016-11-30-un-international-day-of-persons-with-disabilities/"
+  },
+  {
+    "from": "/news/2016-11-30-un-international-day-of-persons-with-disabilities.html",
+    "to": "/news/2016-11-30-un-international-day-of-persons-with-disabilities/"
+  },
+  {
+    "from": "/news/2017-07-19-inclusive-science-lab",
+    "to": "/news/2017-07-19-inclusive-science-lab/"
+  },
+  {
+    "from": "/news/2017-07-19-inclusive-science-lab.html",
+    "to": "/news/2017-07-19-inclusive-science-lab/"
+  },
+  {
+    "from": "/news/2017-08-30-self-assessment-toolkit",
+    "to": "/news/2017-08-30-self-assessment-toolkit/"
+  },
+  {
+    "from": "/news/2017-08-30-self-assessment-toolkit.html",
+    "to": "/news/2017-08-30-self-assessment-toolkit/"
+  },
+  {
+    "from": "/news/2017-12-11-cast-cisl",
+    "to": "/news/2017-12-11-cast-cisl/"
+  },
+  {
+    "from": "/news/2017-12-11-cast-cisl.html",
+    "to": "/news/2017-12-11-cast-cisl/"
+  },
+  {
+    "from": "/news/2018-01-31-uioplus",
+    "to": "/news/2018-01-31-uio-plus/"
+  },
+  {
+    "from": "/news/2018-01-31-uioplus.html",
+    "to": "/news/2018-01-31-uio-plus/"
+  },
+  {
+    "from": "/news/2018-04-18-new-content-added-to-inclusive-design-resources",
+    "to": "/news/2018-04-18-inclusive-design-resources/"
+  },
+  {
+    "from": "/news/2018-04-18-new-content-added-to-inclusive-design-resources.html",
+    "to": "/news/2018-04-18-inclusive-design-resources/"
+  },
+  {
+    "from": "/news/2018-06-19-el-planeta-es-la-escuela",
+    "to": "/news/2018-06-19-el-planeta-es-la-escuela/"
+  },
+  {
+    "from": "/news/2018-06-19-el-planeta-es-la-escuela.html",
+    "to": "/news/2018-06-19-el-planeta-es-la-escuela/"
+  },
+  {
+    "from": "/news/2018-08-30-cities-co-design",
+    "to": "/news/2018-08-30-cities-co-design/"
+  },
+  {
+    "from": "/news/2018-08-30-cities-co-design.html",
+    "to": "/news/2018-08-30-cities-co-design/"
+  },
+  {
+    "from": "/news/2018-09-17-gsoc2018",
+    "to": "/news/2018-09-17-gsoc-2018/"
+  },
+  {
+    "from": "/news/2018-09-17-gsoc2018.html",
+    "to": "/news/2018-09-17-gsoc-2018/"
+  },
+  {
+    "from": "/news/2018-11-08-deep2018",
+    "to": "/news/2018-11-08-deep-2018/"
+  },
+  {
+    "from": "/news/2018-11-08-deep2018.html",
+    "to": "/news/2018-11-08-deep-2018/"
+  },
+  {
+    "from": "/news/2019-01-24-resistanceinwire",
+    "to": "/news/2019-01-24-resistance-in-wire/"
+  },
+  {
+    "from": "/news/2019-01-24-resistanceinwire.html",
+    "to": "/news/2019-01-24-resistance-in-wire/"
+  },
+  {
+    "from": "/news/2019-02-07-cisl-site-and-demo",
+    "to": "/news/2019-02-07-cisl-site-and-demo/"
+  },
+  {
+    "from": "/news/2019-02-07-cisl-site-and-demo.html",
+    "to": "/news/2019-02-07-cisl-site-and-demo/"
+  },
+  {
+    "from": "/news/2019-03-20-nroc-2019",
+    "to": "/news/2019-03-20-nroc-2019/"
+  },
+  {
+    "from": "/news/2019-03-20-nroc-2019.html",
+    "to": "/news/2019-03-20-nroc-2019/"
+  },
+  {
+    "from": "/news/2019-03-22-ocad-oe-week",
+    "to": "/news/2019-03-22-ocad-oe-week/"
+  },
+  {
+    "from": "/news/2019-03-22-ocad-oe-week.html",
+    "to": "/news/2019-03-22-ocad-oe-week/"
+  },
+  {
+    "from": "/news/2019-06-28-code-learn-create",
+    "to": "/news/2019-06-28-code-learn-create/"
+  },
+  {
+    "from": "/news/2019-06-28-code-learn-create.html",
+    "to": "/news/2019-06-28-code-learn-create/"
+  },
+  {
+    "from": "/news/2019-07-02-guelph-accessibility-conference",
+    "to": "/news/2019-07-02-guelph-accessibility-conference/"
+  },
+  {
+    "from": "/news/2019-07-02-guelph-accessibility-conference.html",
+    "to": "/news/2019-07-02-guelph-accessibility-conference/"
+  },
+  {
+    "from": "/news/2019-08-12-coding-prototype-co-design",
+    "to": "/news/2019-08-12-coding-prototype-co-design/"
+  },
+  {
+    "from": "/news/2019-08-12-coding-prototype-co-design.html",
+    "to": "/news/2019-08-12-coding-prototype-co-design/"
+  },
+  {
+    "from": "/news/2019-10-23-sjrk-f2f",
+    "to": "/news/2019-10-23-sjrk-f2f/"
+  },
+  {
+    "from": "/news/2019-10-23-sjrk-f2f.html",
+    "to": "/news/2019-10-23-sjrk-f2f/"
+  },
+  {
+    "from": "/news/2019-11-05-design-2-align",
+    "to": "/news/2019-11-05-design-2-align/"
+  },
+  {
+    "from": "/news/2019-11-05-design-2-align.html",
+    "to": "/news/2019-11-05-design-2-align/"
+  },
+  {
+    "from": "/news/2020-03-27-odao-update",
+    "to": "/news/2020-03-27-odao-update/"
+  },
+  {
+    "from": "/news/2020-03-27-odao-update.html",
+    "to": "/news/2020-03-27-odao-update/"
+  },
+  {
+    "from": "/news/2020-05-20-deep-update",
+    "to": "/news/2020-05-20-deep-update/"
+  },
+  {
+    "from": "/news/2020-05-20-deep-update.html",
+    "to": "/news/2020-05-20-deep-update/"
+  },
+  {
+    "from": "/news/2020-06-28-aihec-update",
+    "to": "/news/2020-06-28-aihec-update/"
+  },
+  {
+    "from": "/news/2020-06-28-aihec-update.html",
+    "to": "/news/2020-06-28-aihec-update/"
+  },
+  {
+    "from": "/news/2020-07-02-wecountupdate",
+    "to": "/news/2020-07-02-we-count-update/"
+  },
+  {
+    "from": "/news/2020-07-02-wecountupdate.html",
+    "to": "/news/2020-07-02-we-count-update/"
+  },
+  {
+    "from": "/news/2020-07-14-new-resources-from-coding-to-learn",
+    "to": "/news/2020-07-14-new-resources-from-coding-to-learn/"
+  },
+  {
+    "from": "/news/2020-07-14-new-resources-from-coding-to-learn.html",
+    "to": "/news/2020-07-14-new-resources-from-coding-to-learn/"
+  },
+  {
+    "from": "/news/2020-07-15-platform-co-op-update",
+    "to": "/news/2020-07-15-platform-co-op-update/"
+  },
+  {
+    "from": "/news/2020-07-15-platform-co-op-update.html",
+    "to": "/news/2020-07-15-platform-co-op-update/"
+  },
+  {
+    "from": "/news/2020-08-28-new-guide-on-creating-open-educational-resources-published",
+    "to": "/news/2020-08-28-guide-creating-oer/"
+  },
+  {
+    "from": "/news/2020-08-28-new-guide-on-creating-open-educational-resources-published.html",
+    "to": "/news/2020-08-28-guide-creating-oer/"
+  },
+  {
+    "from": "/news/2020-11-05-creating-flexible-and-adaptable-content-with-learners-paper-published",
+    "to": "/news/2020-11-05-idl-paper/"
+  },
+  {
+    "from": "/news/2020-11-05-creating-flexible-and-adaptable-content-with-learners-paper-published.html",
+    "to": "/news/2020-11-05-idl-paper/"
+  },
+  {
+    "from": "/news/2021-03-11-open-robot-kit",
+    "to": "/news/2021-03-11-open-robot-kit/"
+  },
+  {
+    "from": "/news/2021-03-11-open-robot-kit.html",
+    "to": "/news/2021-03-11-open-robot-kit/"
+  },
+  {
+    "from": "/news/2021-04-08-wecountbadges",
+    "to": "/news/2021-04-08-we-count-badges/"
+  },
+  {
+    "from": "/news/2021-04-08-wecountbadges.html",
+    "to": "/news/2021-04-08-we-count-badges/"
+  },
+  {
+    "from": "/news/2021-05-08-inverted-wordles",
+    "to": "/news/2021-05-08-inverted-word-clouds/"
+  },
+  {
+    "from": "/news/2021-05-08-inverted-wordles.html",
+    "to": "/news/2021-05-08-inverted-word-clouds/"
+  },
+  {
+    "from": "/news/2021-05-16-improving-weavly-through-art-workshops",
+    "to": "/news/2021-05-16-improving-weavly-through-art-workshops/"
+  },
+  {
+    "from": "/news/2021-05-16-improving-weavly-through-art-workshops.html",
+    "to": "/news/2021-05-16-improving-weavly-through-art-workshops/"
+  },
+  {
+    "from": "/news/2021-06-09-pluralistic-data-infrastructure",
+    "to": "/news/2021-06-09-pluralistic-data-infrastructure/"
+  },
+  {
+    "from": "/news/2021-06-09-pluralistic-data-infrastructure.html",
+    "to": "/news/2021-06-09-pluralistic-data-infrastructure/"
+  },
+  {
+    "from": "/news/2021-06-09-portable-personal-data-preferences-community-group",
+    "to": "/news/2021-06-09-portable-personal-data-preferences-community-group/"
+  },
+  {
+    "from": "/news/2021-06-09-portable-personal-data-preferences-community-group.html",
+    "to": "/news/2021-06-09-portable-personal-data-preferences-community-group/"
+  },
+  {
+    "from": "/news/2021-07-06-reducing-barriers-to-virtual-health",
+    "to": "/news/2021-07-06-reducing-barriers-to-virtual-health/"
+  },
+  {
+    "from": "/news/2021-07-06-reducing-barriers-to-virtual-health.html",
+    "to": "/news/2021-07-06-reducing-barriers-to-virtual-health/"
+  },
+  {
+    "from": "/news/2021-07-13-web-site-starter-kits",
+    "to": "/news/2021-07-13-web-site-starter-kits/"
+  },
+  {
+    "from": "/news/2021-07-13-web-site-starter-kits.html",
+    "to": "/news/2021-07-13-web-site-starter-kits/"
+  },
+  {
+    "from": "/news/2021-09-07-infusion-3-release",
+    "to": "/news/2021-09-07-infusion-3-release/"
+  },
+  {
+    "from": "/news/2021-09-07-infusion-3-release.html",
+    "to": "/news/2021-09-07-infusion-3-release/"
+  },
+  {
+    "from": "/baby-bliss-bot-project/",
+    "to": "/projects/baby-bliss-bot/",
+    "status": "301"
+  },
+  {
+    "from": "/ecocultural-mapping-project/",
+    "to": "/projects/ecocultural-mapping/",
+    "status": "301"
+  },
+  {
+    "from": "/ui-options/",
+    "to": "/projects/ui-options/",
+    "status": "301"
+  },
+  {
+    "from": "/erasing-imaginary-lines-healing-the-land/",
+    "to": "/projects/erasing-imaginary-lines-healing-the-land/",
+    "status": "301"
+  }
+]

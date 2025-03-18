@@ -18,7 +18,7 @@ from Canada and the U.S. to consider approaches to ecocultural mapping that are 
 cultural safety, address issues of data sovereignty, protect sacred knowledge, and ensure Indigenous leadership.
 
 <figure>
-<img src="/news/images/transboundary-gathering-site.jpeg"
+<img src="/assets/media/transboundary-gathering-site.jpeg"
     alt="A group of approximately 25 people stand and sit in a grassy area by the water in front of 3 carved and
     painted Strait Salish story poles. A man wearing a blanket over his shoulders stands in front of the group and
     appears to be talking, while a woman in a woven Salish blanket and cedar hat stands near him listening.
@@ -36,7 +36,7 @@ locations central to the present-day lives and rich ecocultural heritage of the 
 deeper understanding of the impact, benefit and challenges of ecocultural mapping in this region and beyond.
 
 <figure>
-<img src="/news/images/transboundary-gathering-participants.jpeg"
+<img src="/assets/media/transboundary-gathering-participants.jpeg"
     alt='Two people stand at and actively engage with what appears to be a clothesline. Colourful pieces of paper
     with text written on them are pinned to the clothesline.  On one piece of paper can be seen the hand-written
     text "WE ARE STILL HERE" while on others can be seen the words "Know that..." and "You are your ancestors".'>
@@ -58,7 +58,7 @@ educational, ecocultural map of a region in the Salish Sea called Xetthecum in t
 (Retreat Cove, Galiano Island, BC).
 
 <figure>
-<img src="/news/images/interactive-xetthecum-storymap.png"
+<img src="/assets/media/interactive-xetthecum-storymap.png"
     alt='A screenshot of a webpage shows the heading "Xetthecum Digital Ecocultural Mappping" and a navigational
     menu showing "The Story of Xetthecum", "About", "Explore" and "Resources". On the upper half of the page there
     is a zoomed-in map of a small area of Galiano Island showing several different regions represented by
@@ -80,7 +80,7 @@ mapping initiative that would include the
 (English Camp) in Lummi territory.
 
 <figure>
-<img src="/news/images/transboundary-gathering-participants-2.jpeg"
+<img src="/assets/media/transboundary-gathering-participants-2.jpeg"
     alt="Three people sit in front of a large map printed on white paper, while two of them point at different areas
     on the map. In the background a person wearing a Coast Salish woven shawl looks on while water and trees across
     the water can be seen in the distance.">
@@ -109,7 +109,7 @@ reconceptualize the design of technologies and cultural systems in ways that cen
 epistemology.
 
 <figure>
-<img src="/news/images/whiteswan-environmental-lead-participants.jpeg"
+<img src="/assets/media/whiteswan-environmental-lead-participants.jpeg"
     alt="Three people wearing Coast Salish woven clothing and cedar hats stand in front of 3 story poles with their
     hands raised in front of their bodies. One of them holds a rattle in each hand.
     In the background water and trees can be seen.">

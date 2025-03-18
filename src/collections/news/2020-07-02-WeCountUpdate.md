@@ -15,7 +15,7 @@ are openly available.
 
 <figure>
     <img
-        src="/news/images/we-count-smart-city.png"
+        src="/assets/media/we-count-smart-city.png"
         alt="An illustration of a resident answering their front door, with a person in an authoratative uniform on the
             other side."
         >
@@ -39,4 +39,4 @@ are openly available.
 
 * [We Count evaluates the Toronto Quayside Master Innovation and Development plan](https://wecount.inclusivedesign.ca/views/project-we-count-evaluates-torontos-quayside-master-innovation-and-development-plan/)
 * [Video of We Count Co-Creation in practice](https://youtu.be/t8KaR3-v_V8)
-* We Count is collecting [open learning resources on ethics in AI and machine learning](https://wecount.inclusivedesign.ca/learn/)
+* We Count is collecting [open learning resources on ethics in AI and machine learning](https://wecount.inclusivedesign.ca/resources/)

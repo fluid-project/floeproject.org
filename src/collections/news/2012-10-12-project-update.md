@@ -15,4 +15,4 @@ We have been collaborating with [OER Commons](https://www.oercommons.org/) in se
 * contributing to the design and development of [Open Author](https://www.oercommons.org/authoring-overview).
 
 Our development team is also working on a [fully accessible, open source HTML5 video player](https://wiki.fluidproject.org/display/fluid/%28Floe%29%20video%20player%20mockups%20%28final%29).
-You can try the [demo](https://build-videoplayer.fluidproject.org/demos/mammals).
+You can try the [demo](https://build-videoplayer.fluidproject.org/demos/Mammals).

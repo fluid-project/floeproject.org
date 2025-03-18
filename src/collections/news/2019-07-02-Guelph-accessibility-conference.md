@@ -19,7 +19,7 @@ range of topics from changing educational practice to the future of artificial i
 
 <figure>
     <img
-        src="/news/images/guelph-2019-jt.png"
+        src="/assets/media/guelph-2019-jt.png"
         alt="Jutta Treviranus's opening keynote slides"
         aria-details="det1"
     >

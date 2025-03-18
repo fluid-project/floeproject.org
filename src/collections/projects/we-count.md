@@ -1,9 +1,13 @@
 ---
+uuid: 87391302-3be8-43b8-bfad-15fdda1dd2f8
 title: We Count
-date: "2020-10-01"
+linking:
+  type: link
+  link: https://wecount.inclusivedesign.ca
+date: 2020-10-01
 tags:
   - active
-thumbnailFilename: wecount.png
+thumbnailImage: /assets/media/wecount.png
 thumbnailAltText: A photograph of a monitor showing the WeCount website
 ---
 [We Count](https://wecount.inclusivedesign.ca) is a project created to address bias, discrimination and barriers to

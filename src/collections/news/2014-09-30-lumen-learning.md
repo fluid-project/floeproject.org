@@ -1,12 +1,12 @@
 ---
 title: Lumen Learning
-date: "2014-09-30"
-excerpt: |
-    Lumen Learning has been selected to receive funding as part of the Next Generation Courseware Challenge, from the
-    Bill & Melinda Gates Foundation, to build exemplary, affordable digital course materials that improve student
-    success among low-income and disadvantaged learners.
+date: 2014-09-30
+slug: ''
+excerpt: |-
+  Lumen Learning has been selected to receive funding as part of the Next Generation Courseware Challenge, from the
+  Bill & Melinda Gates Foundation, to build exemplary, affordable digital course materials that improve student
+  success among low-income and disadvantaged learners.
 ---
-
 [Lumen Learning](https://lumenlearning.com/) has been selected to receive funding as part of the
 [Next Generation Courseware Challenge](https://www.gatesfoundation.org/Ideas/Media-Center/Press-Releases/2014/09/Gates-Foundation-Announces-Finalists-for-$20-Million-in-Digital-Courseware-Investments),
 a $20 million grant competition from the [Bill & Melinda Gates Foundation](https://www.gatesfoundation.org/) to build

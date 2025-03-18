@@ -1,9 +1,13 @@
 ---
+uuid: a228a176-7390-4030-b292-b1bf443c27cc
 title: Inverted Word Cloud
-date: "2021-05-08"
+linking:
+  type: link
+  link: https://wecount.inclusivedesign.ca/initiatives/inverted-word-clouds/
+date: 2021-05-08
 tags:
   - active
-thumbnailFilename: inverted-wordle.png
+thumbnailImage: /assets/media/inverted-wordle.png
 thumbnailAltText: A collection of terms arranged to show the least common responses more prominently
 ---
 The [Inverted Word Cloud](https://wecount.inclusivedesign.ca/initiatives/inverted-word-clouds/) tool allows learners,
