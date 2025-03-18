@@ -13,7 +13,7 @@ embodied cognition, and haptics from around the world gathered to share ideas,
 discuss challenges, and collaborate on new approaches bringing together insights
 from their respective fields.
 
-<img src="/news/images/hcr-retreat.jpg"
+<img src="/assets/media/hcr-retreat.jpg"
 alt="Group photo of attendees at the HCR retreat.">
 
 The IDRC shared methods of incorporating inclusive design practices for

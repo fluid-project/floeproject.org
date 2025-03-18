@@ -1,0 +1,46 @@
+{% extends "layouts/base.njk" %}
+
+{% set pageClasses = "project-page capitalize-title" %}
+
+{% block content %}
+    <div id="content" class="content">
+        {{ content | safe }}
+
+        {% set subpages = collections.projectSubpages | eleventyNavigation(eleventyNavigation.key) %}
+    </div>
+    {%- if subpages.length %}
+    {% set subject = '' %}
+    {% for subpage in subpages %}
+        {% if subject != subpage.subject %}
+        {% set subject = subpage.subject %}
+    {% if loop.index0 > 0 %}
+    </ul>
+    {% endif %}
+    <h2>{{ subject }}</h2>
+    <ul class="content grid-layout posts-project-subpages">
+        {% endif %}
+        <li class="post card-layout corner-effect">
+            {% if subpage.publisher %}
+                <p class="floe-publisher">{{ subpage.publisher }}</p>
+            {% endif %}
+            <a class="card-title" href="{{ subpage.url }}">{{ subpage.title }}</a>
+            {% if subpage.thumbnailImage and subpage.thumbnailAltText %}
+            {% svgWithAttributes 'src/' + subpage.thumbnailImage, subpage.thumbnailAltText %}
+            {% endif %}
+            {% if subpage.authors %}
+                <p class="floe-author">{{ subpage.authors }}</p>
+            {% endif %}
+        </li>
+        {% endfor%}
+    </ul>
+    {% endif %}
+    <script>
+        const btn = document.querySelector('.content [aria-expanded]');
+        if (btn) {
+            btn.addEventListener('click', function (event) {
+                const expanded = event.target.closest('button').getAttribute('aria-expanded') === 'true' || false;
+                event.target.closest('button').setAttribute('aria-expanded', !expanded);
+            });
+        }
+    </script>
+{% endblock %}

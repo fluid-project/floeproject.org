@@ -45,6 +45,7 @@
         "@11ty/eleventy-navigation": "^0.3.5",
         "@11ty/eleventy-plugin-rss": "^1.2.0",
         "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+        "eleventy-plugin-broken-links": "^2.2.1",
         "eleventy-plugin-fluid": "^2.7.1",
         "infusion": "^4.6.0"
     },

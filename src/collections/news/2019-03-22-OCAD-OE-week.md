@@ -9,11 +9,11 @@ excerpt: |
 
 Members of the FLOE team recently participated in [OCAD University's](https://www.ocadu.ca/)
 [Open Education Week](https://www.openeducationweek.org/) event,
-[Guerilla Education! A Very Hands-On Open Education Week Event](https://www2.ocadu.ca/event/guerrilla-education-a-very-hands-on-open-education-week-event).
+[Guerilla Education! A Very Hands-On Open Education Week Event](https://web.archive.org/web/20211207015910/http://www2.ocadu.ca/event/guerrilla-education-a-very-hands-on-open-education-week-event).
 
 <figure>
     <img
-        src="/news/images/ocad-open-ed.png"
+        src="/assets/media/ocad-open-ed.png"
         alt="One of panelist Jairus Khan's slides, about elements of openness."
         aria-details="det1"
     >

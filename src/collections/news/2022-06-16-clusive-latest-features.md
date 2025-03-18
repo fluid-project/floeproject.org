@@ -51,7 +51,7 @@ with tricky passages of text. Select a word, sentence, or more and click the
 into different languages, simplify difficult words in the passage, or show
 images that help struggling readers understand difficult words.
 
-<img src="/news/images/clusive-transformation.png" alt="text transformation using images" width="640">
+<img src="/assets/media/clusive-transformation.png" alt="text transformation using images" width="640">
 
 ### Keyboard shortcuts
 
@@ -61,4 +61,4 @@ accessibility aid for students who use alternative input devices, but can also
 be a great time-saver for everyone.  To see all of Clusive’s keyboard shortcuts,
 just hit Alt-k (Windows) or Option-k (Mac).
 
-<img src="/news/images/clusive-keyboard.png" alt="keyboard shortcuts" width="640">
+<img src="/assets/media/clusive-keyboard.png" alt="keyboard shortcuts" width="640">

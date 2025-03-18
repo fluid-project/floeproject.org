@@ -13,7 +13,7 @@ As part of a series of activities happening under the project
 (SJRK) project, [Karisma Foundation](https://www.karisma-foundation.org/) organised a <time datetime="P3D">3-day</time>
 gathering that took place on <time datetime="2018-05-24">May 24th</time>-<time datetime="2018-05-26">26th</time> at
 [Platohedro](https://platohedro.org/) in Medellín, Colombia. Members of the Floe team joined rural students from the
-agricultural region of Fresno and women from [Motivando a la Gyal](https://platohedro.org/motivando-a-la-gyal/) for a
+agricultural region of Fresno and women from [Motivando a la Gyal](https://web.archive.org/web/20170420193718/https://platohedro.org/motivando-a-la-gyal/) for a
 series of workshops, storytelling and knowledge sharing. During the workshops participants explored ideas of inclusion
 and diversity using activities such as collaborative art making as a starting point for both individual and group
 storytelling.
@@ -33,9 +33,9 @@ representatives introduced inclusive design ideas and methods as well as Open Ed
 students at their rural schools.
 
 <figure>
-    <a href="/news/images/Medellin_art.png">
+    <a href="/assets/media/Medellin_art.png">
         <img
-            src="/news/images/Medellin_art_thumb.png"
+            src="/assets/media/Medellin_art_thumb.png"
             alt="Collaborative Art Activity in Medellin, Colombia"
             aria-details="det1"
         >

@@ -12,11 +12,11 @@ that works with the
 [Weavly](https://create.weavly.org/)
 coding environment.
 
-<img src="/news/images/OpenRobot.jpg"
+<img src="/assets/media/OpenRobot.jpg"
 alt="A prototype of an open robot with a purple chassis and two blue motors.">
 
 After initial design and prototype work by
-[Tetra TMU](https://tetraryerson.ca/)
+[Tetra TMU](https://ca.linkedin.com/company/tetratmu)
 students, the Floe team continued to iterate on the Tetra TMU Art Bot, focusing on a
 dual motor design. During these iterations, two microcontroller platforms, multiple
 DC motors and multiple chassis were tested.

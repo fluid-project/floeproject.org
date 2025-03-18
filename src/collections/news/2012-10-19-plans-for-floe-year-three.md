@@ -12,7 +12,7 @@ work we've been doing on personalized learning. During the first two years of th
 * developed the [Inclusive Learning Design Handbook (ILDH)](https://handbook.floeproject.org/);
 * worked with our partner, [ISKME](https://www.iskme.org/),
 to enable personalization of [OER Commons](https://www.oercommons.org/);
-* created an [accessible, transformable, open source HTML5 video player](https://build-videoplayer.fluidproject.org/demos/mammals).
+* created an [accessible, transformable, open source HTML5 video player](https://build-videoplayer.fluidproject.org/demos/Mammals).
 
 Moving forward, our plans include
 

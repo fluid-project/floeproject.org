@@ -6,7 +6,7 @@ excerpt: Telegraphic prompting of large language models using Blissymbolics
 ---
 
 <figure style="text-align: center">
-  <img src="/news/images/Horse.jpg" alt="Horse brown eat quickly oats dried">
+  <img src="/assets/media/Horse.jpg" alt="Horse brown eat quickly oats dried">
 </figure>
 
 There is a technique for prompting Large Language Models (LLMs) with limited information and requesting them to respond with full sentences.  The technique is called a "bag of words" where a small number of the most important words in a sentence are passed to an LLM with a prompt to fill in the rest.  For example, the bag of words might be "Sun, brightly" to convey that the sun is shining brightly. A test of the [phi-3 LLM](https://news.microsoft.com/source/features/ai/the-phi-3-small-language-models-with-big-potential/) used the prompt:
@@ -45,6 +45,3 @@ Three LLMs were tested with a pair of Conceptual Bliss sentences using the promp
 For more information about the tests and results, see the article [Conceptual Bliss, LLaMa-2, Mistral, and Chat-GPT](https://gist.github.com/klown/cc3bcd4dacbfafb775ad8a9883a3fa53).
 
 The bag-of-words technique using Bliss shows promise in terms of providing a way for a user to give partial information about what they intend to say, and then prompting an LLM to suggest a complete sentence. This could speed up an AAC user's communication since they would not need to enter full sentences to convey some meaning. Possible improvements include having the LLM provide a few suggestions so that the user can choose the one that is closest to what they meant.  Another improvement is to combine the bag-of-words technique with contexts such as a history of the conversation thus far, or background information about the user, or both.  The contexts could further narrow the LLM's response and be closer to what the user intended.
-
-
-

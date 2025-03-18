@@ -1,7 +1,11 @@
 ---
+uuid: 8cd29eb9-9d36-488e-b069-516d23dd9572
 title: Hearth
-date: "2021-07-13"
-thumbnailImage: /projects/images/hearth.png
+linking:
+  type: link
+  link: https://github.com/fluid-project/hearth
+date: 2021-07-13
+thumbnailImage: /assets/media/hearth.png
 thumbnailAltText: A screenshot of PHP code in the Hearth repository
 ---
 [Hearth](https://github.com/fluid-project/hearth) supports the creation of libraries for open educational resources.

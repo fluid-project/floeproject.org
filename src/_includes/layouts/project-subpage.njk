@@ -1,0 +1,30 @@
+{% extends "layouts/base.njk" %}
+
+{% set pageClasses = "project-subpage capitalize-title" %}
+
+{% block pageHeader %}
+    <header>
+        <nav class="breadcrumbs">
+            {% set ancestorPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
+            {% set parent = ancestorPages[ancestorPages.length - 1] %}
+            <ul class="inline-list">
+                <li><a href="{{ parent.url }}">{{ parent.title }}</a></li>
+                <li aria-current="page">{{ title }}</li>
+            </ul>
+        </nav>
+
+        <h1>{{ title }}</h1>
+
+        <p class="authorship">
+            <strong>{{ authors }}</strong><br />
+            <strong>{{ publisher }}
+        </p>
+    </header>
+{% endblock %}
+
+{% block content %}
+    <div id="content" class="content">
+        
+        {{ content | safe }}
+    </div>
+{% endblock %}

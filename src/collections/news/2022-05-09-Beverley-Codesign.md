@@ -8,7 +8,7 @@ From March 24th to May 2nd, 2022, a series of co-design sessions were held at an
 elementary school in the Greater Toronto Area that specializes in working with
 students with intellectual and physical disabilities.
 
-<img src="/news/images/Weavly-codesign.png"
+<img src="/assets/media/Weavly-codesign.png"
     alt="Facilitators showing how to build a Weavly program on a Promethean board." width="640">
 
 Four classes with students in different age groups participated in learning basic

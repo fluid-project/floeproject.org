@@ -14,14 +14,14 @@ to better understand the learning needs and preferences of others?
 
   MyL3 enables learners to keep track of their progress, and personalize their learning goals and learning experience
   through self-reflection. [See the evolution](https://docs.google.com/document/d/1oIqIgJ3H7R_sj7ybrUYq-QZj0Zs-kU3wjUa_rNrHVZM/edit)
-  of the tools and the [current designs](https://files.inclusivedesign.ca/s/Irsq4w24gFgEGqF#pdfviewer).
+  of the tools and the current designs.
 
 * [Learning Differences &amp; Digital Equity in the Classroom (2018)](http://openresearch.ocadu.ca/id/eprint/2152/1/Treviranus_LearningDifferencesinClassroom_2018.pdf)
 
   Read about digital equity in the classroom for students with learning differences, as well as the role of technology
   in the provision of equitable education for the full diversity of students.
 
-* [Inclusive Learning Experiences](https://handbook.floeproject.org/CreatingInclusiveLearningExperiences.html)
+* [Inclusive Learning Experiences](https://handbook.floeproject.org/approaches/create-inclusive-learning-experiences/)
 
   Learn about building positive and constructive environments for self-learning and self-reflection with learners who
   have diverse learning needs and preferences.

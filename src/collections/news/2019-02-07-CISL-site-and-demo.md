@@ -17,7 +17,7 @@ will make digital educational materials accessible, flexible, and engaging for a
 
 The FLOE project is working as a partner on the CISL project to integrate FLOE tools such as
 [Learner Options](https://build.fluidproject.org/infusion/demos/prefsFramework/) into the
-[CISL Reader](http://cisl-demo.cast.org/index-readium.html?pub=serp-paper-or-plastic) and other parts of the software
+[CISL Reader](https://web.archive.org/web/20211015194631/http://demo.cast.org/cisl-demo/) and other parts of the software
 suite, and to apply its principles of inclusive design for learning.
 
-[![Screenshot of the CISL Reader demo](/news/images/CISL-reader.png)](http://demo.cast.org/cisl-demo/)
+[![Screenshot of the CISL Reader demo](/assets/media/CISL-reader.png)](https://web.archive.org/web/20211015194631/http://demo.cast.org/cisl-demo/)

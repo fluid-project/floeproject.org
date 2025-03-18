@@ -3,20 +3,18 @@ backend:
   branch: main
   squash_merges: true
   repo: fluid-project/floeproject.org
-  base_url: https://auth.incd.ca
+  base_url: "https://auth.incd.ca"
   commit_messages:
     create: 'chore(cms): create "{{path}}"'
     update: 'chore(cms): update "{{path}}"'
     delete: 'chore(cms): delete "{{path}}"'
     uploadMedia: 'chore(cms): upload "{{path}}"'
     deleteMedia: 'chore(cms): delete "{{path}}"'
-media_folder: src/media
-public_folder: /media
+media_folder: src/assets/media
+public_folder: /assets/media
 slug:
   encoding: ascii
   clean_accents: true
-output:
-  omit_empty_optional_fields: true
 collections:
   - name: news
     label: News
@@ -24,25 +22,29 @@ collections:
     icon: newspaper
     folder: src/collections/news
     slug: "{{fields.date}}-{{fields.title}}"
+    preview_path: "/news/{{fields.date}}-{{fields.slug | default('{{fields.title}}')}}/"
     create: true
-    media_folder: /src/collections/news/images
-    public_folder: /news/images
     fields:
-      - {label: Title, name: title, widget: string}
-      - {label: Date, name: date, widget: datetime, time_format: false}
+      - label: Title
+        name: title
+        widget: string
+      - label: Date
+        name: date
+        widget: datetime
+        time_format: false
       - label: Slug
         name: slug
         widget: string
         required: false
         preview: false
-
       - label: Excerpt
         name: excerpt
         widget: text
         required: false
         preview: false
-
-      - {label: Body, name: body, widget: markdown}
+      - label: Body
+        name: body
+        widget: markdown
   - name: projects
     label: Projects
     label_singular: Project
@@ -50,31 +52,157 @@ collections:
     folder: src/collections/projects
     slug: "{{fields.title}}"
     create: true
-    media_folder: /src/collections/projects/images
-    public_folder: /projects/images
+    summary: "{{fields.title}}"
+    sortable_fields:
+      fields:
+        - title
+        - date
+        - order
     fields:
-      - {label: Title, name: title, widget: string}
-      - {label: Date, name: date, widget: datetime, time_format: false}
-      - {label: Order, name: order, widget: number, min: 0, required: false, preview: false}
+      - label: UUID
+        name: uuid
+        widget: hidden
+        default: "{{ uuid }}"
+      - label: Title
+        name: title
+        widget: string
+      - label: Short Title
+        name: shortTitle
+        widget: string
+        required: false
+      - label: Linking Options
+        name: linking
+        widget: object
+        i18n: duplicate
+        types:
+          - label: Project Page
+            name: page
+            fields:
+              - label: Title for URL
+                name: slug
+                widget: string
+                hint: >-
+                  Enter a short form of the project title to be used in the URL.
+                  Only lowercase letters, numbers and hyphens should be used,
+                  e.g. 'sample-project'. This must be unique.
+          - label: External Link
+            name: link
+            fields:
+              - label: External Project Website
+                name: link
+                widget: string
+                type: url
+                hint: >-
+                  If you want the project to link to an external site instead of
+                  display a page on this website, enter a URL here.
+      - label: Date
+        name: date
+        widget: datetime
+        time_format: false
+      - label: Order
+        name: order
+        widget: number
+        required: false
+        preview: false
       - label: Tags
         name: tags
         widget: list
         required: false
         preview: false
-
-      - {label: Thumbnail Image, name: thumbnailImage, widget: image}
-      - {label: Thumbnail Alternative Text, name: thumbnailAltText, widget: text}
-      - {label: Body, name: body, widget: markdown}
+      - label: Thumbnail Image
+        name: thumbnailImage
+        widget: image
+        preview: false
+      - label: "Thumbnail Alternative Text,"
+        name: "thumbnailAltText,"
+        widget: "text,"
+        preview: false
+      - label: Preview
+        name: preview
+        widget: markdown
+        preview: false
+        required: false
+      - label: Body
+        name: body
+        widget: markdown
+        required: false
+  - name: projectSubpages
+    label: Project Subpages
+    label_singular: Project Subpage
+    icon: menu_open
+    folder: src/collections/project-subpages
+    create: true
+    sortable_fields: [title, order]
+    fields:
+      - label: UUID
+        name: uuid
+        widget: hidden
+        default: "{{uuid}}"
+      - label: Title
+        name: title
+        widget: string
+        required: true
+        hint: The title of the project subpage.
+      - label: Title for URL
+        name: slug
+        widget: string
+        required: true
+        hint: "By default, the project name will be converted to a URL-safe format and used in the URL. To override this, enter a project name for the URL consisting only of lower case letters, numbers and hyphens, e.g. 'sample-project'. This must be unique."
+      - label: Publisher
+        name: publisher
+        widget: string
+        required: false
+        hint: The publisher associated with the project subpage.
+      - label: Author(s)
+        name: authors
+        widget: string
+        required: false
+        hint: The authors associated with the project subpage.
+      - label: Subject
+        name: subject
+        widget: string
+        required: false
+      - label: Parent Project
+        name: parent
+        widget: relation
+        collection: projects
+        value_field: linking.slug
+        search_fields: [title]
+        display_fields: [title]
+        required: true
+        hint: This indicates which project is the parent.
+      - label: Order
+        name: order
+        widget: number
+        required: false
+        hint: Order in which the project should appear.
+      - label: Thumbnail Image
+        name: thumbnailImage
+        widget: image
+        required: false
+      - label: Thumbnail Image Alt Text
+        name: thumbnailAltText
+        widget: string
+        required: false
+        hint: "If alt text is left blank, 'Thumbnail image for [Title]' will be used by default."
+      - label: Body
+        name: body
+        required: false
+        widget: markdown
   - name: resources
     label: Resources
     label_singular: resource
     icon: inventory_2
     folder: src/collections/resources
-    slug: "{{fields.title}}"
+    slug: "{{ fields.title }}"
     create: true
     fields:
-      - {label: Title, name: title, widget: string}
-      - {label: Body, name: body, widget: markdown}
+      - label: Title
+        name: title
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
   - label: Metadata
     name: metadata
     files:
@@ -83,19 +211,53 @@ collections:
         delete: false
         file: src/_data/site.json
         fields:
-          - {label: Site Name, name: name, widget: string}
-          - {label: Site Title, name: title, widget: string}
-          - {label: Site Description, name: shortDesc, widget: string}
-          - {label: Site Url, name: url, widget: string, type: url}
+          - label: Site Name
+            name: name
+            widget: string
+          - label: Site Title
+            name: title
+            widget: string
+          - label: Site Description
+            name: shortDesc
+            widget: string
+          - label: Site Url
+            name: url
+            widget: string
+            type: url
           - label: Author Email
             name: authorEmail
             widget: string
             type: email
-
-          - {label: Author Name, name: authorName, widget: string}
+          - label: Author Name
+            name: authorName
+            widget: string
           - label: Author Website
             name: authorWebsite
             widget: string
             type: url
-
-          - {label: Favicon Path, name: faviconPath, widget: string}
+          - label: Favicon Path
+            name: faviconPath
+            widget: string
+      - label: Redirects
+        name: redirects
+        delete: false
+        file: src/_data/redirects.json
+        fields:
+          - name: redirects
+            label: Redirects
+            label_singular: Redirect
+            widget: list
+            root: true
+            fields:
+              - name: from
+                label: From
+              - name: to
+                label: To
+              - name: status
+                label: Status
+                widget: select
+                options:
+                  - 301
+                  - 302
+                required: false
+                preview: false

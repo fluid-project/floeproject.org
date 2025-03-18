@@ -15,7 +15,7 @@ added to the Guide including the [Collaborative Art Warmup](https://guide.inclus
 [Virtuous Tornado](https://guide.inclusivedesign.ca/activities/virtuous-tornado/), and
 [Web of Strings](https://guide.inclusivedesign.ca/activities/web-of-strings/). We invite you to give them a try!
 
-In addition, [Creating Inclusive Learning Experiences](https://handbook.floeproject.org/creatinginclusivelearningexperiences)
+In addition, [Creating Inclusive Learning Experiences](https://handbook.floeproject.org/approaches/create-inclusive-learning-experiences/)
 is a new entry to the [Inclusive Learning Design Handbook](https://handbook.floeproject.org/). This entry describes ways
 of addressing and embracing learning differences in both formal and informal education, with a focus on cultivating
 learners’ self-knowledge and encouraging self-reflection throughout the learning process.
@@ -30,9 +30,9 @@ Watch for new entries about Create-a-Thons in both the Inclusive Design Guide an
 Handbook, as well as a restructuring of the Handbook that will improve navigation and findability of content.
 
 <figure>
-    <a href="/news/images/collaborative_art.png">
+    <a href="/assets/media/collaborative_art.png">
         <img
-            src="/news/images/collaborative_art_thumb.png"
+            src="/assets/media/collaborative_art_thumb.png"
             alt="Example of collaborative art created using the Collaborative Art Warmup Activity."
             aria-details="det1"
         >

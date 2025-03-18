@@ -1,0 +1,18 @@
+<svg width="169" height="120" viewBox="0 0 169 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.75" d="M60 120C93.1371 120 120 93.1371 120 60C120 26.8629 93.1371 0 60 0C26.8629 0 0 26.8629 0 60C0 93.1371 26.8629 120 60 120Z" fill="var(--fl-fgColor, #A9CCDC)"/>
+<path d="M120.992 111.133C146.449 111.133 167.086 90.2847 167.086 64.5667C167.086 38.8486 146.449 18 120.992 18C95.5354 18 74.8984 38.8486 74.8984 64.5667C74.8984 90.2847 95.5354 111.133 120.992 111.133Z" stroke="var(--fl-fgColor, #003749)" stroke-width="3" stroke-linejoin="round"/>
+<path d="M138.82 34.878C134.642 24.7376 128.377 18.2215 121.35 18.0085C121.341 18.0085 121.333 18.0085 121.324 18.0085C121.312 18.0085 121.303 18.0085 121.29 18.0085C121.188 18.0085 121.09 18.0085 120.988 18.0085C120.886 18.0085 120.788 18.0085 120.686 18.0085C120.673 18.0085 120.664 18.0085 120.652 18.0085C120.643 18.0085 120.634 18.0085 120.626 18.0085C113.599 18.2215 107.33 24.7418 103.156 34.878" stroke="var(--fl-fgColor, #003749)" stroke-width="3" stroke-linejoin="round"/>
+<path d="M103.165 94.2554C107.347 104.421 113.642 110.946 120.69 111.125C120.792 111.125 120.89 111.125 120.992 111.125C121.095 111.125 121.193 111.125 121.295 111.125C128.348 110.946 134.638 104.417 138.82 94.2554" stroke="var(--fl-fgColor, #003749)" stroke-width="3" stroke-linejoin="round"/>
+<path d="M167.086 64.5664H150.562" stroke="var(--fl-fgColor, #003749)" stroke-width="3" stroke-linejoin="round"/>
+<path d="M91.4229 64.5664H74.8984" stroke="var(--fl-fgColor, #003749)" stroke-width="3" stroke-linejoin="round"/>
+<path d="M150.562 38.4897C152.806 37.8849 155.076 37.2163 157.755 36.4709" stroke="var(--fl-fgColor, #003749)" stroke-width="3" stroke-linejoin="round"/>
+<path d="M84.2212 36.4922C86.8404 37.2332 89.153 37.8976 91.423 38.4981" stroke="var(--fl-fgColor, #003749)" stroke-width="3" stroke-linejoin="round"/>
+<path d="M150.562 90.6438C152.806 91.2486 155.076 91.9172 157.755 92.6625" stroke="var(--fl-fgColor, #003749)" stroke-width="3" stroke-linejoin="round"/>
+<path d="M84.2212 92.6409C86.8404 91.8999 89.153 91.2355 91.423 90.635" stroke="var(--fl-fgColor, #003749)" stroke-width="3" stroke-linejoin="round"/>
+<path d="M120.988 111.129V94.2554" stroke="var(--fl-fgColor, #003749)" stroke-width="3" stroke-linejoin="round"/>
+<path d="M120.988 34.878V18" stroke="var(--fl-fgColor, #003749)" stroke-width="3" stroke-linejoin="round"/>
+<path d="M145.843 39.6394H96.1333V89.4939H145.843V39.6394Z" stroke="var(--fl-fgColor, #003749)" stroke-width="3" stroke-linejoin="round"/>
+<path d="M110.588 70.1245H122.866" stroke="var(--fl-fgColor, #003749)" stroke-width="3" stroke-linejoin="round"/>
+<path d="M125.775 76.0145L116.64 55.1375L107.5 76.0145" stroke="var(--fl-fgColor, #003749)" stroke-width="3" stroke-linejoin="round"/>
+<path d="M132.338 54.0386V76.747" stroke="var(--fl-fgColor, #003749)" stroke-width="3" stroke-linejoin="round"/>
+</svg>

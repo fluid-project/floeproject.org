@@ -11,7 +11,7 @@ intergenerational activities from a different perspective: Coding!
 Through this partnership, we are exploring how coding can enrich interactions between
 different generations and encourage them to share stories and exchange life experiences.
 
-<img src="/news/images/Intergenerational.png"
+<img src="/assets/media/Intergenerational.png"
 alt="A senior and a child working together using Weavly.">
 
 We are running a series of 5 co-design workshops with a group of senior adults and

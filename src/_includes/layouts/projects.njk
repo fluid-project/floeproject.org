@@ -14,11 +14,15 @@
                         {% set thumbnailAltText = "" %}
                     {% endif %}
 
-                    {% set thumbnailSrc = 'src/collections' + project.data.thumbnailImage | safe %}
+                    {% set thumbnailSrc = 'src' + project.data.thumbnailImage | safe %}
 
                     {% thumbnail thumbnailSrc, thumbnailAltText %}
                 {% endif %}
+                {% if project.data.preview %}
+                {% renderString project.data.preview, "md" %}
+                {% else %}
                 {{ project.templateContent | safe }}
+                {% endif %}
             </li>
         {% endfor %}
     </ul>

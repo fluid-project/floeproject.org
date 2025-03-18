@@ -35,7 +35,7 @@ a formal educational setting, where teachers and students could directly access 
 data as well as stories of place.
 
 <figure>
-<img src="/news/images/ecocultural-mapping.png"
+<img src="/assets/media/ecocultural-mapping.png"
 alt="A prototype of an open robot with a purple chassis and two blue motors." />
 <figcaption>
 Figure 1. Story Map visualizations created during Phase III of the Xetthecum pilot project,

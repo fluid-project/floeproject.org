@@ -1,0 +1,7 @@
+---
+eleventyExcludeFromCollections: true
+permalink: /_redirects
+---
+{% for redirect in redirects -%}
+{{ redirect.from }} {{ redirect.to }}{% if redirect.status %} {{ redirect.status }}{% endif %}
+{% endfor %}

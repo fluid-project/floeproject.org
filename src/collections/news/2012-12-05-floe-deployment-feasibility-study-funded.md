@@ -20,4 +20,4 @@ anytime and on any device or platform. The contract for this project was awarded
 [IBM](https://www.ibm.com/us-en/), and [Inclusive Technologies](https://www.inclusive.co.uk/).
 
 For more information about the grant, see
-[Dept. of Education Funds Project Supporting Expanded Level of Disability Access](https://www.iskme.org/media/press-releases/dept-education-funds-project-supporting-expanded-level-disability-access)
+[Dept. of Education Funds Project Supporting Expanded Level of Disability Access](https://web.archive.org/web/20130521004957/https://www.iskme.org/media/press-releases/dept-education-funds-project-supporting-expanded-level-disability-access)

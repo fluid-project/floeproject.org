@@ -7,7 +7,7 @@ excerpt: |
     visitors to adjust things like text size, text style, contrast, and line spacing.
 ---
 
-A WordPress plugin is now available for [Learner Options](https://build-infusion.fluidproject.org/demos/uioptions/). The
+A WordPress plugin is now available for [Learner Options](https://build-infusion.fluidproject.org/demos/uiOptions/). The
 plugin adds the Learner Options component to any WordPress site, allowing visitors to adjust things like text size, text
 style, contrast, and line spacing.
 
