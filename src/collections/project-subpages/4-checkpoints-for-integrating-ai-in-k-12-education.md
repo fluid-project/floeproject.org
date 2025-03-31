@@ -2,7 +2,7 @@
 uuid: 9b1e0948-4e0a-4328-a6c4-8b3618a4f55e
 title: 4 Checkpoints For Integrating AI In K-12 Education
 slug: 4-checkpoints-for-integrating-ai-in-k-12-education
-publisher: Learner-Centred Collaborative
+publisher: Learner-Centered Collaborative
 authors: Devin Vodicka
 subject: Inclusive AI Design
 parent: ai-in-education
