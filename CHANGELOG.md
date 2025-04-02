@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.5.1](https://github.com/fluid-project/floeproject.org/compare/v2.5.0...v2.5.1) (2025-04-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @11ty/eleventy-navigation to v1 ([#535](https://github.com/fluid-project/floeproject.org/issues/535)) ([81f7df6](https://github.com/fluid-project/floeproject.org/commit/81f7df6e657d2278da8a12f677dca796b02e7646))
+* **deps:** update dependency @11ty/eleventy-navigation to v1.0.2 ([#539](https://github.com/fluid-project/floeproject.org/issues/539)) ([6d4802e](https://github.com/fluid-project/floeproject.org/commit/6d4802e526238a27844ab30d7cdabead120826d4))
+* **deps:** update dependency @11ty/eleventy-navigation to v1.0.3 ([#541](https://github.com/fluid-project/floeproject.org/issues/541)) ([4104e2f](https://github.com/fluid-project/floeproject.org/commit/4104e2fd6cb22b2514c87c98511496dcbe16644d))
+* **deps:** update dependency @11ty/eleventy-navigation to v1.0.4 ([#542](https://github.com/fluid-project/floeproject.org/issues/542)) ([d903d49](https://github.com/fluid-project/floeproject.org/commit/d903d4940b1dad039ad2e7b6f3f5dc7946535d0b))
+
 ## [2.5.0](https://github.com/fluid-project/floeproject.org/compare/v2.4.2...v2.5.0) (2025-03-18)
 
 
