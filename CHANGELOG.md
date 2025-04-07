@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.2](https://github.com/fluid-project/floeproject.org/compare/v2.5.1...v2.5.2) (2025-04-07)
+
+
+### Bug Fixes
+
+* pages should be editable ([#546](https://github.com/fluid-project/floeproject.org/issues/546)) ([8866d2a](https://github.com/fluid-project/floeproject.org/commit/8866d2a3dd4116e955e3e1feb91eef76720ee3c6))
+
 ## [2.5.1](https://github.com/fluid-project/floeproject.org/compare/v2.5.0...v2.5.1) (2025-04-02)
 
 
