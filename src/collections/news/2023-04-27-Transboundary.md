@@ -1,16 +1,15 @@
 ---
 title: A Transboundary Gathering
-date: "2023-04-27"
+date: 2023-04-27
+slug: ''
 excerpt: A Transboundary Gathering - Digital Ecocultural Mapping in the Salish Sea
-
 ---
-
 The Floe team is co-organizing an Indigenous-led collaborative working meeting and
 coalition-building event with
 [Whiteswan Environmental](https://www.whiteswanenvironmental.org/) (WE), the
 [American Indian Higher Education Consortium](https://www.aihec.org/) (AIHEC) and the
 [Institute for Multidisciplinary Ecological Research in the Salish Sea](https://imerss.org/)
-(IMERSS). The gathering will bring together Indigenous and non-Indigenous researchers,
+(IMERSS). The gathering will bring together Indigenous and non-Indigenous researchers, 
 designers, students, and government officials from Canada and the U.S. to consider
 approaches to ecocultural mapping that respect cultural safety, address issues of data
 sovereignty, protect sacred knowledge, and ensure Indigenous leadership.
