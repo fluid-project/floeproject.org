@@ -16,6 +16,38 @@ slug:
   encoding: ascii
   clean_accents: true
 collections:
+  - name: pages
+    label: Pages
+    label_singular: Page
+    icon: article
+    folder: src/collections/pages
+    create: true
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Slug
+        name: slug
+        widget: string
+        required: false
+        preview: false
+      - label: Navigation
+        name: eleventyNavigation
+        widget: object
+        required: false
+        preview: false
+        fields:
+          - label: Key
+            name: key
+            widget: string
+          - label: Order
+            name: order
+            widget: number
+            min: 0
+      - label: Body
+        name: body
+        widget: markdown
+        required: false
   - name: news
     label: News
     label_singular: News Item
