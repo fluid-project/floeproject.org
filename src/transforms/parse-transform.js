@@ -2,9 +2,9 @@
 const {parseHTML} = require("linkedom");
 const minify = require("../utils/minify.js");
 const slugify = require("@sindresorhus/slugify");
-const getSize = require("image-size");
+const { imageSizeFromFile } = require("image-size/fromFile");
 
-module.exports = function (value, outputPath) {
+module.exports = async function (value, outputPath) {
     if (outputPath && outputPath.endsWith(".html")) {
         let {document} = parseHTML(value);
 
@@ -16,13 +16,13 @@ module.exports = function (value, outputPath) {
         const projectHrs = [...document.querySelectorAll(".project-page .content hr")];
 
         if (articleImages.length) {
-            articleImages.forEach(image => {
+            articleImages.forEach(async image => {
                 image.setAttribute("loading", "lazy");
 
                 const file = image.getAttribute("src");
 
                 if (file.indexOf("http") < 0) {
-                    const dimensions = getSize("src" + file);
+                    const dimensions = await imageSizeFromFile("src" + file);
 
                     image.setAttribute("width", dimensions.width);
                     image.setAttribute("height", dimensions.height);;

@@ -8,7 +8,7 @@ linking:
 date: 2025-03-14
 order: 10
 thumbnailImage: /assets/media/ai-in-education.svg
-thumbnailAltText: TODO
+thumbnailAltText: "Illustration of an atom superimposed over a colour wheel of overlapping circles, with the text 'AI in Education: Opportunities and Risks' to the right."
 preview: '[AI in Education](/projects/ai-in-education/) is a collection of articles from leading educators and researchers, supported by the William and Flora Hewlett Foundation in partnership with Etika Insights.'
 ---
 A collection of articles from leading educators and researchers, supported by the William and Flora Hewlett Foundation in partnership with Etika Insights. These comprehensive examinations of AI's role in education, highlight both opportunities and risks while emphasizing the importance of responsible implementation.
