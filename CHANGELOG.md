@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.3](https://github.com/fluid-project/floeproject.org/compare/v2.5.2...v2.5.3) (2025-04-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @11ty/eleventy-img to v6.0.2 ([#548](https://github.com/fluid-project/floeproject.org/issues/548)) ([e224b80](https://github.com/fluid-project/floeproject.org/commit/e224b8068cdd1d812d4b9fc26e6679a166fc4b8e))
+
 ## [2.5.2](https://github.com/fluid-project/floeproject.org/compare/v2.5.1...v2.5.2) (2025-04-07)
 
 
