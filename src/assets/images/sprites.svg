@@ -9,7 +9,7 @@
 
     <symbol id="back-arrow" viewBox="0 0 8 12">
         <path d="M7 1L1 6.16129L7 11" stroke="var(--icon-arrowColor)" stroke-linecap="round" fill="none" />
-    </svg>
+    </symbol>
 
 
     <symbol id="icon-menu" viewBox="0 0 20 20">
