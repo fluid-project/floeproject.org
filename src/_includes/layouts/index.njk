@@ -33,7 +33,11 @@
             <h2>Featured Projects</h2>
             <ul class="grid-layout">
             {% for project in collections.featured | sort(false, true, "data.order") %}
+                {% if project.data.preview and project.data.preview != '' %}
+                <li>{{ project.data.preview | markdown | safe }}</li>
+                {% else %}
                 <li>{{ project.templateContent | safe }}</li>
+                {% endif %}
             {% endfor %}
             </ul>
             <div class="more-link">
