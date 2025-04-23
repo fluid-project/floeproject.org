@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.4](https://github.com/fluid-project/floeproject.org/compare/v2.5.3...v2.5.4) (2025-04-23)
+
+
+### Bug Fixes
+
+* update images in project ([#557](https://github.com/fluid-project/floeproject.org/issues/557)) ([5244365](https://github.com/fluid-project/floeproject.org/commit/5244365d940b8ddfe0d7bdbeb494823e4b47d87f))
+
 ## [2.5.3](https://github.com/fluid-project/floeproject.org/compare/v2.5.2...v2.5.3) (2025-04-23)
 
 
