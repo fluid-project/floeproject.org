@@ -3,7 +3,7 @@ uuid: 6c1aea3f-c15e-47dc-98bd-5d76dfd39e9f
 title: Procurement of AI tools in K-12 and Higher Education
 slug: procurement-of-ai-tools-in-k-12-and-higher-education
 publisher: Digital Promise
-authors: Patti Ruiz and Sierra Noakes
+authors: Pati Ruiz and Sierra Noakes
 subject: AI’s impact on K-12 and Higher Ed
 parent: ai-in-education
 order: 90
