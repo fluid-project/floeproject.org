@@ -1,5 +1,20 @@
 # Changelog
 
+## [2.6.0](https://github.com/fluid-project/floeproject.org/compare/v2.5.4...v2.6.0) (2025-08-05)
+
+
+### Features
+
+* add 7 new news items ([#602](https://github.com/fluid-project/floeproject.org/issues/602)) ([4a4a095](https://github.com/fluid-project/floeproject.org/commit/4a4a0956d7e7393dba13653c4a197d1bd0e28681))
+
+
+### Bug Fixes
+
+* **deps:** update dependency @11ty/eleventy-img to v6.0.3 ([#568](https://github.com/fluid-project/floeproject.org/issues/568)) ([4ac80ef](https://github.com/fluid-project/floeproject.org/commit/4ac80efaf64a376477688654524f6f2746ca0114))
+* **deps:** update dependency @11ty/eleventy-img to v6.0.4 ([#577](https://github.com/fluid-project/floeproject.org/issues/577)) ([bfb2b4c](https://github.com/fluid-project/floeproject.org/commit/bfb2b4c47131f7df0d7b801c33abb54523a3f066))
+* **deps:** update dependency @11ty/eleventy-plugin-syntaxhighlight to v5.0.1 ([#569](https://github.com/fluid-project/floeproject.org/issues/569)) ([814e171](https://github.com/fluid-project/floeproject.org/commit/814e1717c8cc1d51b30664b8a2982101e6ff4e0f))
+* **deps:** update dependency @11ty/eleventy-plugin-syntaxhighlight to v5.0.2 ([#600](https://github.com/fluid-project/floeproject.org/issues/600)) ([05f95c8](https://github.com/fluid-project/floeproject.org/commit/05f95c82f484482590d99e26aaa494a79cd9f5ed))
+
 ## [2.5.4](https://github.com/fluid-project/floeproject.org/compare/v2.5.3...v2.5.4) (2025-04-23)
 
 
