@@ -1,11 +1,10 @@
 ---
 title: Data Communities for Inclusion Case Studies
-date: "2025-01-10"
+date: 2025-01-10
 slug: data-communities-for-inclusion-case-studies
-excerpt: New case studies were recently added to the Data Communities for Inclusion Toolkit
+excerpt: Case studies in the Data Communities for Inclusion Toolkit that highlight community driven approaches to designing platforms and data governance tools.
 ---
-
-Four new case studies were recently added to the [Data Communities for Inclusion Toolkit](https://datacommunities.ca/toolkit/), each highlighting creative, community-driven approaches to design platforms and data governance tools that reflect the values of care, equity, and autonomy.
+Four new case studies were recently added to the [Data Communities for Inclusion Toolkit](https://datacommunities.ca/toolkit/), each highlighting creative, community-driven approaches to designing platforms and data governance tools that reflect the values of care, equity, and autonomy.
 
 The first case study is about [SEWA’s journey of making platforms work for workers](https://datacommunities.ca/toolkit/making-platforms-work-for-workers-data-commons-and-platform-co-ops/). The case study features SEWA’s evolving digital strategies shaped by its members, LabourNet’s platform experiments to bring more structure and visibility to gig work, and Equal Care’s ongoing efforts to decentralize care work in the UK.
 
