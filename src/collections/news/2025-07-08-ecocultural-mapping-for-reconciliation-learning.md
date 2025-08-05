@@ -2,7 +2,7 @@
 title: Ecocultural Mapping for Reconciliation & Learning
 date: 2025-07-08
 slug: ecocultural-mapping-for-reconciliantion-learning
-excerpt: Workshop for public school board members to support development and enrichment of Indigenous education through culturally responsive education.
+excerpt: Workshop for public school board members to support the development and enrichment of Indigenous education through culturally responsive education.
 ---
 The [Ecocultural Mapping project](https://floeproject.org/projects/ecocultural-mapping/ "https://floeproject.org/projects/ecocultural-mapping/") was presented at the [CSBA Congress and National Trustee Gathering on Indigenous Education](https://www.mbschoolboards.ca/about/csba-congress-2025/ "https://www.mbschoolboards.ca/about/csba-congress-2025/") (July 3-4, 2025) in a workshop titled **Mapping Stories, Healing Lands: Ecocultrual Mapping for Reconciliation & Learning.**
 
