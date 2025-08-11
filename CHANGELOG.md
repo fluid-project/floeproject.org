@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.7.0](https://github.com/fluid-project/floeproject.org/compare/v2.6.0...v2.7.0) (2025-08-11)
+
+
+### Features
+
+* add article about baby bliss bot's adaptive palette implementation of indicators and modifiers. ([#603](https://github.com/fluid-project/floeproject.org/issues/603)) ([c08d447](https://github.com/fluid-project/floeproject.org/commit/c08d4478068a3ca15b763645ba5eb89cd6dc4b90))
+
+
+### Bug Fixes
+
+* update date for bbb ([#607](https://github.com/fluid-project/floeproject.org/issues/607)) ([15d6a06](https://github.com/fluid-project/floeproject.org/commit/15d6a0664507cc9e2319c71ed72b85ed45fedbc4))
+
 ## [2.6.0](https://github.com/fluid-project/floeproject.org/compare/v2.5.4...v2.6.0) (2025-08-05)
 
 
