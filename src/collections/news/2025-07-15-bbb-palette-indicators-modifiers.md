@@ -1,6 +1,6 @@
 ---
 title: Bliss Adaptive Palette - Composing with Indicators and Modifiers
-date: "2025-08-08"
+date: "2025-07-15"
 slug: bbb-palette-indicators-modifiers
 excerpt: Creating new blissymbolics vocabulary with indicators and modifiers
 ---
