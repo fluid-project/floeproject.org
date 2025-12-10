@@ -60,11 +60,28 @@ ultimately improving the lives of nonvocal individuals within minority language 
 <br>
 <br>
 
-Funded in part by a grant from IDEA
+Funded in part by a grant from IDEA, NFRF & Government of Canada
 
 <a href="https://www.vraie-idea.ca/">
     <img
-        src="/assets/images/vraie-idea-logo.svg"
+        src="/assets/images/vraie-idea-logo.jpg"
         alt="Vraie-idea home"
+        width="337"
+    >
+</a>
+<br/>
+<a href="https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/index-eng.aspx">
+    <img
+        src="/assets/images/nfrf-logo.jpg"
+        alt="New Frontiers in Research Fund"
+        width="337"
+    >
+</a>
+<br/>
+<a href="https://www.canada.ca/en.html">
+    <img
+        src="/assets/images/government-of-canada-vector-logo.jpg"
+        alt="Government of Canada home"
+        width="337"
     >
 </a>
