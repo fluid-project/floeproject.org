@@ -1,8 +1,8 @@
 ---
-title: Co-designing Guidelines for Accessibility and Inclusion in Standards Development
+title: Improving the Standards Development Process
 date: 2025-09-18
 slug: guidelines-accessible-standards
-excerpt: Improving accessibility and inclusion in the standards development process.
+excerpt: Co-designing Guidelines for Accessibility and Inclusion in Standards Development
 ---
 
 As part of the [All Standards with Us project](https://standards.inclusivedesign.ca/projects/all-standards/), a series of three co-design sessions was held to identify and address accessibility and inclusion barriers in the standards development process. The sessions were grounded in participatory design principles, centering the lived experiences of Disabled and Deaf individuals.
