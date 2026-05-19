@@ -136,11 +136,11 @@ Cindy Li: cli@ocadu.ca
 - Andrea Lee
 - Angelika Seeschaaf-Veres
 - Boguslaw Ubik-Perski
-- Thaksha Krish
 - Margareta Jennische
 - Michael Pivar
 - Shirley McNaughton
 - Susie Blackstien-Adler
+- Thaksha Krish
 
 <br>
 
