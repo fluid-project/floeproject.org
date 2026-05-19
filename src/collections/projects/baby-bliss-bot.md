@@ -15,7 +15,7 @@ preview: The [Baby Bliss Bot Project](/projects/baby-bliss-bot/) uses AI tools f
 thumbnailAltText: A screenshot of a Bliss standard chart with English translation
 ---
 
-![Blissymbolics and human-centered AI for the purpose of inclusion in ](/assets/media/bliss-project-name.png "A sentence in bliss saying 'Blissymbolics and human-centered AI for the purpose of inclusion'")
+![Blissymbolics and human-centered AI for the purpose of inclusion in](/assets/media/bliss-project-name.png "A sentence in bliss saying 'Blissymbolics and human-centered AI for the purpose of inclusion'")
 
 The Baby Bliss Bot project delves into the realm of using AI tools for language development
 and translation to enhance communication for AAC users who rely on a minority language system.
@@ -62,7 +62,6 @@ collaborative exploration and innovation, the project strives to foster inclusiv
 ultimately improving the lives of nonvocal individuals within minority language systems.
 
 <br>
-<br>
 
 ## Academic outputs
 
@@ -76,6 +75,8 @@ ultimately improving the lives of nonvocal individuals within minority language 
 - [Large Language Model Communication Moonshot](https://floeproject.org/news/2024-12-04-llm-communication-moonshot/ "https://floeproject.org/news/2024-12-04-llm-communication-moonshot/")
 - [Bliss Adaptive Palette - Composing with Indicators and Modifiers](https://floeproject.org/news/2025-07-15-bbb-palette-indicators-modifiers/ "https://floeproject.org/news/2025-07-15-bbb-palette-indicators-modifiers/")
 
+<br>
+
 ### Presentations
 
 **Final ISAAC Presentation**
@@ -84,13 +85,15 @@ The rapid advancement of AI - particularly Large Language Models (LLMs) - offers
 
 <https://www.youtube.com/watch?v=lLgNm_g5slc>
 
+<br>
+
 ## Live website
 
 [Live Deploy of the Adaptive Palette](https://adaptive-palette.pages.dev/ "https://adaptive-palette.pages.dev/")
 
 [Sunburst Keyboard Design Ideas](https://cindyli.github.io/sunburst_keyboard/ "https://cindyli.github.io/sunburst_keyboard/")
 
-### 
+<br>
 
 ## Working documents
 
@@ -100,27 +103,46 @@ The rapid advancement of AI - particularly Large Language Models (LLMs) - offers
 - [Adaptive Palette Github Repository](https://github.com/inclusive-design/adaptive-palette/ "https://github.com/inclusive-design/adaptive-palette/")
 - [Releases](https://github.com/accessibility-exchange/platform/releases "https://github.com/accessibility-exchange/platform/releases")
 
+<br>
+
 ### Design
 
 - [Draft Design of Adaptive Palette](https://www.figma.com/file/JqOOpNKBVVXVSGjaGx8Mbr/BBB-Palette-Design?type=design&node-id=0-1&mode=design&t=pxbiuuJ9VAM2MH2u-0 "https://www.figma.com/file/JqOOpNKBVVXVSGjaGx8Mbr/BBB-Palette-Design?type=design&node-id=0-1&mode=design&t=pxbiuuJ9VAM2MH2u-0")
+
+<br>
 
 ## Communication
 
 IDRC Contact
 Cindy Li: cli@ocadu.ca
 
+<br>
+
 ## Project Team
 
-### Development
+### Technical Development
 
-- Cindy Li 
-- Joseph Scheuhammer 
 - [Antonio Gamba-Bari](mailto:lodeanto@gmail.com "mailto:lodeanto@gmail.com")
 - Antranig Basman
+- Cindy Li 
+- Daniel Cho
 - David Rokeby
 - Hannes Ljusås
+- Joseph Scheuhammer 
 - Justin Obara
-- Daniel Cho
+
+### UI/UX Development
+
+- Andrea Lee
+- Angelika Seeschaaf-Veres
+- Boguslaw Ubik-Perski
+- Thaksha Krish
+- Margareta Jennische
+- Michael Pivar
+- Shirley McNaughton
+- Susie Blackstien-Adler
+
+<br>
 
 ## Funded by
 
