@@ -1,6 +1,7 @@
 ---
 uuid: eef7f2fc-2e68-4066-8385-aca05d96073e
 title: Baby Bliss Bot
+shortTitle: ''
 linking:
   type: page
   slug: baby-bliss-bot
@@ -10,9 +11,12 @@ tags:
   - featured
   - active
 thumbnailImage: /assets/media/bliss-board.png
-thumbnailAltText: A screenshot of a Bliss standard chart with English translation
 preview: The [Baby Bliss Bot Project](/projects/baby-bliss-bot/) uses AI tools for language development and translation to enhance communication for AAC users who rely on a minority language system.
+thumbnailAltText: A screenshot of a Bliss standard chart with English translation
 ---
+
+![Blissymbolics and human-centered AI for the purpose of inclusion in ](/assets/media/bliss-project-name.png "A sentence in bliss saying 'Blissymbolics and human-centered AI for the purpose of inclusion'")
+
 The Baby Bliss Bot project delves into the realm of using AI tools for language development
 and translation to enhance communication for AAC users who rely on a minority language system.
 This article examines the background of Blissymbolics, the potential of AI technology, and
@@ -59,6 +63,66 @@ ultimately improving the lives of nonvocal individuals within minority language 
 
 <br>
 <br>
+
+## Academic outputs
+
+### Articles
+
+- [Baby Bliss Bot Project](https://floeproject.org/baby-bliss-bot-project/ "https://floeproject.org/baby-bliss-bot-project/")
+- [Baby Bliss Bot - Experiments with AI](https://floeproject.org/news/2023-05-17-babyblissbot-ai-experiments/ "https://floeproject.org/news/2023-05-17-babyblissbot-ai-experiments/")
+- [Fine-Tuning Llama2 for Enhancing Blissymbolics Translation](https://floeproject.org/news/2024-04-26-fine-tuning-llama2/ "https://floeproject.org/news/2024-04-26-fine-tuning-llama2/")
+- [Bliss, Bag of Words, and Telegraphic Prompting of LLMs](https://floeproject.org/news/2024-03-19-bag-of-words-with-bliss/ "https://floeproject.org/news/2024-03-19-bag-of-words-with-bliss/")
+- [Exploring Retrieval-Augmented Generation (RAG) for Baby Bliss Bot](https://floeproject.org/news/2024-05-10-exploring-rag/ "https://floeproject.org/news/2024-05-10-exploring-rag/")
+- [Large Language Model Communication Moonshot](https://floeproject.org/news/2024-12-04-llm-communication-moonshot/ "https://floeproject.org/news/2024-12-04-llm-communication-moonshot/")
+- [Bliss Adaptive Palette - Composing with Indicators and Modifiers](https://floeproject.org/news/2025-07-15-bbb-palette-indicators-modifiers/ "https://floeproject.org/news/2025-07-15-bbb-palette-indicators-modifiers/")
+
+### Presentations
+
+**Final ISAAC Presentation**
+
+The rapid advancement of AI - particularly Large Language Models (LLMs) - offers exciting possibilities to enhance communication for AAC users. The inclusive design project described in this paper, titled Baby Bliss Bot, is led by a group of AI programmers collaborating with AAC users as co-designers in an interdisciplinary initiative. It uses Blissymbolics in its first phase to explore how the LLMs of AI can be leveraged to support AAC users in learning language and in communicating meaningfully across contexts and dialogue types - at home, in school, at work and from inquiry and discovery, to humour, creativity and beyond. Blissymbolics was chosen as the GRS in Phase One because of its comprehensive language capabilities and affordances that facilitated a multi-tiered approach. Through collaborative experimentation, the project investigates not only how to make AI systems more inclusive for outliers and minorities, but also how to design alternative training methods and interfaces. The aim is to support context-aware, personalized expression that respects the individuality of each AAC user. 
+
+<https://www.youtube.com/watch?v=lLgNm_g5slc>
+
+## Live website
+
+[Live Deploy of the Adaptive Palette](https://adaptive-palette.pages.dev/ "https://adaptive-palette.pages.dev/")
+
+[Sunburst Keyboard Design Ideas](https://cindyli.github.io/sunburst_keyboard/ "https://cindyli.github.io/sunburst_keyboard/")
+
+### 
+
+## Working documents
+
+### Code
+
+- [Baby Bliss Bot Github Repository](https://github.com/inclusive-design/baby-bliss-bot/ "https://github.com/inclusive-design/baby-bliss-bot/")
+- [Adaptive Palette Github Repository](https://github.com/inclusive-design/adaptive-palette/ "https://github.com/inclusive-design/adaptive-palette/")
+- [Releases](https://github.com/accessibility-exchange/platform/releases "https://github.com/accessibility-exchange/platform/releases")
+
+### Design
+
+- [Draft Design of Adaptive Palette](https://www.figma.com/file/JqOOpNKBVVXVSGjaGx8Mbr/BBB-Palette-Design?type=design&node-id=0-1&mode=design&t=pxbiuuJ9VAM2MH2u-0 "https://www.figma.com/file/JqOOpNKBVVXVSGjaGx8Mbr/BBB-Palette-Design?type=design&node-id=0-1&mode=design&t=pxbiuuJ9VAM2MH2u-0")
+
+## Communication
+
+IDRC Contact
+Cindy Li: cli@ocadu.ca
+
+## Project Team
+
+### Development
+
+- Cindy Li 
+- Joseph Scheuhammer 
+- [Antonio Gamba-Bari](mailto:lodeanto@gmail.com "mailto:lodeanto@gmail.com")
+- Antranig Basman
+- David Rokeby
+- Hannes Ljusås
+- Justin Obara
+- Daniel Cho
+
+## Funded by
 
 Funded in part by a grant from IDEA, NFRF & Government of Canada
 
