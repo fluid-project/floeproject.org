@@ -83,7 +83,7 @@ ultimately improving the lives of nonvocal individuals within minority language 
 
 The rapid advancement of AI - particularly Large Language Models (LLMs) - offers exciting possibilities to enhance communication for AAC users. The inclusive design project described in this paper, titled Baby Bliss Bot, is led by a group of AI programmers collaborating with AAC users as co-designers in an interdisciplinary initiative. It uses Blissymbolics in its first phase to explore how the LLMs of AI can be leveraged to support AAC users in learning language and in communicating meaningfully across contexts and dialogue types - at home, in school, at work and from inquiry and discovery, to humour, creativity and beyond. Blissymbolics was chosen as the GRS in Phase One because of its comprehensive language capabilities and affordances that facilitated a multi-tiered approach. Through collaborative experimentation, the project investigates not only how to make AI systems more inclusive for outliers and minorities, but also how to design alternative training methods and interfaces. The aim is to support context-aware, personalized expression that respects the individuality of each AAC user. 
 
-<https://www.youtube.com/watch?v=lLgNm_g5slc>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lLgNm_g5slc?si=oqUWpVeHd8DJYa4f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <br>
 
@@ -101,7 +101,7 @@ The rapid advancement of AI - particularly Large Language Models (LLMs) - offers
 
 - [Baby Bliss Bot Github Repository](https://github.com/inclusive-design/baby-bliss-bot/ "https://github.com/inclusive-design/baby-bliss-bot/")
 - [Adaptive Palette Github Repository](https://github.com/inclusive-design/adaptive-palette/ "https://github.com/inclusive-design/adaptive-palette/")
-- [Releases](https://github.com/accessibility-exchange/platform/releases "https://github.com/accessibility-exchange/platform/releases")
+- [Releases](https://github.com/inclusive-design/adaptive-palette/releases "https://github.com/inclusive-design/adaptive-palette/releases")
 
 <br>
 
