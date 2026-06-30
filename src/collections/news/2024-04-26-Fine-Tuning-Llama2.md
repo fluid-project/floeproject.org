@@ -1,6 +1,6 @@
 ---
 title: Fine-Tuning Llama2 for Enhancing Blissymbolics Translation
-date: "2024-04-26"
+date: 2024-04-26
 slug: fine-tuning-llama2
 excerpt: Gain insight into the proficiency of a large language model in mastering Blissymbolics sentence structures.
 ---
@@ -32,3 +32,31 @@ Looking ahead, the project aims to further enhance the model by expanding the da
 of sentence structures and conducting more comprehensive evaluations. This ongoing work holds the potential to
 advance assistive communication technology, making Blissymbolics more accessible and easier to use for individuals
 relying on this unique language.
+
+## Funders
+
+Funded in part by a grant from IDEA, NFRF & Government of Canada
+<br/>
+<a href="https://www.vraie-idea.ca/">
+    <img
+        src="/assets/images/vraie-idea-logo.jpg"
+        alt="Vraie-idea home"
+        width="337"
+    >
+</a>
+<br/>
+<a href="https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/index-eng.aspx">
+    <img
+        src="/assets/images/nfrf-logo.jpg"
+        alt="New Frontiers in Research Fund"
+        width="337"
+    >
+</a>
+<br/>
+<a href="https://www.canada.ca/en.html">
+    <img
+        src="/assets/images/government-of-canada-vector-logo.jpg"
+        alt="Government of Canada home"
+        width="337"
+    >
+</a>
