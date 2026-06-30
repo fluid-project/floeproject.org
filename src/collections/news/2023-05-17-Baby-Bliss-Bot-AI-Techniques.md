@@ -1,7 +1,7 @@
 ---
 title: Baby Bliss Bot - Experiments with AI
+date: 2023-05-17
 slug: babyblissbot-ai-experiments
-date: "2023-05-17"
 excerpt: Exploring AI Machine Learning models with Bliss symbols.
 ---
 
@@ -168,3 +168,13 @@ process required in labeling the data. As we move forward, we are exploring ways
 of automating certain parts of the process for image labeling as well as
 augmenting Bliss symbols data with the use of image filters which we hope can
 provide more robust training data.
+
+## Funders
+
+<br></br>
+
+![New Frontiers in Research Fund logo](/assets/media/nfrf-logo.jpg)
+
+<br></br>
+
+![Vraie Idea logo](/assets/media/vraie-idea-logo.jpg)
