@@ -171,10 +171,27 @@ provide more robust training data.
 
 ## Funders
 
-<br></br>
-
-![New Frontiers in Research Fund logo](/assets/media/nfrf-logo.jpg)
-
-<br></br>
-
-![Vraie Idea logo](/assets/media/vraie-idea-logo.jpg)
+Funded in part by a grant from IDEA, NFRF & Government of Canada
+<a href="https://www.vraie-idea.ca/">
+    <img
+        src="/assets/images/vraie-idea-logo.jpg"
+        alt="Vraie-idea home"
+        width="337"
+    >
+</a>
+<br/>
+<a href="https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/index-eng.aspx">
+    <img
+        src="/assets/images/nfrf-logo.jpg"
+        alt="New Frontiers in Research Fund"
+        width="337"
+    >
+</a>
+<br/>
+<a href="https://www.canada.ca/en.html">
+    <img
+        src="/assets/images/government-of-canada-vector-logo.jpg"
+        alt="Government of Canada home"
+        width="337"
+    >
+</a>
