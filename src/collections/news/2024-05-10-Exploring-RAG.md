@@ -28,6 +28,7 @@ it can handle a wide range of queries accurately and effectively, thereby enhanc
 ## Funders
 
 Funded in part by a grant from IDEA, NFRF & Government of Canada
+<br/>
 <a href="https://www.vraie-idea.ca/">
     <img
         src="/assets/images/vraie-idea-logo.jpg"
