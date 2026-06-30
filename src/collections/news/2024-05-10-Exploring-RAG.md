@@ -1,6 +1,6 @@
 ---
 title: Exploring Retrieval-Augmented Generation (RAG) for Baby Bliss Bot
-date: "2024-05-10"
+date: 2024-05-10
 slug: exploring-rag
 excerpt: Improving communication with AI for Blissymbolics users through advanced retrieval techniques.
 ---
@@ -24,3 +24,30 @@ and contextually appropriate answers to user queries.
 The ongoing exploration of RAG for Baby Bliss Bot represents an advancement in technology at improving communication
 accessibility for Blissymbolics users. Moving forward, researchers plan to further refine RAG's capabilities to ensure
 it can handle a wide range of queries accurately and effectively, thereby enhancing user experience and usability.
+
+## Funders
+
+Funded in part by a grant from IDEA, NFRF & Government of Canada
+<a href="https://www.vraie-idea.ca/">
+    <img
+        src="/assets/images/vraie-idea-logo.jpg"
+        alt="Vraie-idea home"
+        width="337"
+    >
+</a>
+<br/>
+<a href="https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/index-eng.aspx">
+    <img
+        src="/assets/images/nfrf-logo.jpg"
+        alt="New Frontiers in Research Fund"
+        width="337"
+    >
+</a>
+<br/>
+<a href="https://www.canada.ca/en.html">
+    <img
+        src="/assets/images/government-of-canada-vector-logo.jpg"
+        alt="Government of Canada home"
+        width="337"
+    >
+</a>
