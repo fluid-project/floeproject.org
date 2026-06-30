@@ -1,9 +1,10 @@
 ---
 title: Large Language Model Communication Moonshot
-date: "2024-12-04"
+date: 2024-12-04
 slug: llm-communication-moonshot
 excerpt: Large Language Models are trained using data from phonetic-based languages.  The goal is to expand LLMs to work with meaning-based languages such as Blissymbolics.
 ---
+
 <figure style="text-align: center">
   <img src="/assets/media/moonshotBliss.png" alt="'moonshot' or 'lofty goal' written in Blissymbolics">
 </figure>
@@ -57,3 +58,31 @@ data available, presenting a challenge for using them with LLMs. The project's
 approach will provide a way to extend and stretch language models in these
 low-resource areas, making communication more accessible and supportive for a
 wider range of users.
+
+## Funders
+
+Funded in part by a grant from IDEA, NFRF & Government of Canada
+<br/>
+<a href="https://www.vraie-idea.ca/">
+    <img
+        src="/assets/images/vraie-idea-logo.jpg"
+        alt="Vraie-idea home"
+        width="337"
+    >
+</a>
+<br/>
+<a href="https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/index-eng.aspx">
+    <img
+        src="/assets/images/nfrf-logo.jpg"
+        alt="New Frontiers in Research Fund"
+        width="337"
+    >
+</a>
+<br/>
+<a href="https://www.canada.ca/en.html">
+    <img
+        src="/assets/images/government-of-canada-vector-logo.jpg"
+        alt="Government of Canada home"
+        width="337"
+    >
+</a>
