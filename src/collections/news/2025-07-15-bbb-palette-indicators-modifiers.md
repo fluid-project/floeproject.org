@@ -1,6 +1,6 @@
 ---
 title: Bliss Adaptive Palette - Composing with Indicators and Modifiers
-date: "2025-07-15"
+date: 2025-07-15
 slug: bbb-palette-indicators-modifiers
 excerpt: Creating new blissymbolics vocabulary with indicators and modifiers
 ---
@@ -46,3 +46,29 @@ Figure 3 shows using of the "opposite" modifier as a prefix to create a symbol t
 
 There are 18 modifiers in the authorized vocabulary currently.  Since modifiers can be applied in combination with each other, many new Bliss-words can be created by the resulting compositions.  Along with indicators, Blissymbolics provides a constructive way of composing Bliss-words from existing ones and thereby representing many different concepts.  The adaptive palette software encodes the rules for indicators and modifiers in order to allow users to compose sequences of Bliss symbols from a basic set of symbols.  In fact, all of the examples here were created by using the palette and taking screen shots of the composed symbol.  In this way the palette mirrors some of the compositional features of the Bliss language that allows users to combine existing symbols to "spell" other concepts, and thereby express themselves.
 
+## Funders
+
+Funded in part by a grant from IDEA, NFRF & Government of Canada
+<a href="https://www.vraie-idea.ca/">
+    <img
+        src="/assets/images/vraie-idea-logo.jpg"
+        alt="Vraie-idea home"
+        width="337"
+    >
+</a>
+<br/>
+<a href="https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/index-eng.aspx">
+    <img
+        src="/assets/images/nfrf-logo.jpg"
+        alt="New Frontiers in Research Fund"
+        width="337"
+    >
+</a>
+<br/>
+<a href="https://www.canada.ca/en.html">
+    <img
+        src="/assets/images/government-of-canada-vector-logo.jpg"
+        alt="Government of Canada home"
+        width="337"
+    >
+</a>
