@@ -52,6 +52,7 @@ The bag-of-words technique using Bliss shows promise in terms of providing a way
 ## Funders
 
 Funded in part by a grant from IDEA, NFRF & Government of Canada
+<br/>
 <a href="https://www.vraie-idea.ca/">
     <img
         src="/assets/images/vraie-idea-logo.jpg"
