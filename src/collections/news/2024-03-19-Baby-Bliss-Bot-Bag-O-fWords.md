@@ -1,6 +1,6 @@
 ---
 title: Bliss, Bag of Words, and Telegraphic Prompting of LLMs
-date: "2024-03-19"
+date: 2024-03-19
 slug: bag-of-words-with-bliss
 excerpt: Telegraphic prompting of large language models using Blissymbolics
 ---
@@ -34,14 +34,44 @@ See the figure at the top of this article for the sentence using actual Bliss sy
 Three LLMs were tested with a pair of Conceptual Bliss sentences using the prompt "What does this express: '&hellip;'?, where the ellipsis was replaced with the Bliss sentence.  The results were encouraging.
 
 [Llama-2](https://www.llama2.ai/):
+
 > The brown horse is quickly eating dried oats.
 
 [Mistral](https://auth.mistral.ai/ui/login?flow=71096bb2-6453-494d-8549-940f4f102bce):
+
 > A brown horse quickly eats dried oats.
 
 [Chat-GPT 3.5](https://chatgpt.com/):
+
 > The phrase describes a brown horse quickly eating dried oats.
 
 For more information about the tests and results, see the article [Conceptual Bliss, LLaMa-2, Mistral, and Chat-GPT](https://gist.github.com/klown/cc3bcd4dacbfafb775ad8a9883a3fa53).
 
 The bag-of-words technique using Bliss shows promise in terms of providing a way for a user to give partial information about what they intend to say, and then prompting an LLM to suggest a complete sentence. This could speed up an AAC user's communication since they would not need to enter full sentences to convey some meaning. Possible improvements include having the LLM provide a few suggestions so that the user can choose the one that is closest to what they meant.  Another improvement is to combine the bag-of-words technique with contexts such as a history of the conversation thus far, or background information about the user, or both.  The contexts could further narrow the LLM's response and be closer to what the user intended.
+
+## Funders
+
+Funded in part by a grant from IDEA, NFRF & Government of Canada
+<a href="https://www.vraie-idea.ca/">
+    <img
+        src="/assets/images/vraie-idea-logo.jpg"
+        alt="Vraie-idea home"
+        width="337"
+    >
+</a>
+<br/>
+<a href="https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/index-eng.aspx">
+    <img
+        src="/assets/images/nfrf-logo.jpg"
+        alt="New Frontiers in Research Fund"
+        width="337"
+    >
+</a>
+<br/>
+<a href="https://www.canada.ca/en.html">
+    <img
+        src="/assets/images/government-of-canada-vector-logo.jpg"
+        alt="Government of Canada home"
+        width="337"
+    >
+</a>
