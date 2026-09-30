@@ -11,6 +11,7 @@ tags:
   - featured
   - active
 thumbnailImage: /assets/media/bliss-board.png
+thumbnailAltText,: ''
 preview: The [Baby Bliss Bot Project](/projects/baby-bliss-bot/) uses AI tools for language development and translation to enhance communication for AAC users who rely on a minority language system.
 thumbnailAltText: A screenshot of a Bliss standard chart with English translation
 ---
@@ -119,6 +120,10 @@ Cindy Li: cli@ocadu.ca
 <br>
 
 ## Project Team
+
+### Team Lead
+
+- [Jutta Treviranus](https://www.linkedin.com/in/juttatreviranus/)
 
 ### Technical Development
 
