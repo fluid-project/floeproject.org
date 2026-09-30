@@ -123,7 +123,7 @@ Cindy Li: cli@ocadu.ca
 
 ### Team Lead
 
-- [Jutta Treviranus](https://www.linkedin.com/in/juttatreviranus/)
+- [Jutta Treviranus](https://idrc.ocadu.ca/about/team/jutta-treviranus/)
 
 ### Technical Development
 
