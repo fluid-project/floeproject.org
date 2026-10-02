@@ -54,7 +54,7 @@
         "@commitlint/config-conventional": "^19.0.0",
         "cross-env": "^7.0.3",
         "debug": "^4.3.4",
-        "eslint": "^8.48.0",
+        "eslint": "^10.0.0",
         "eslint-config-fluid": "^2.1.2",
         "eslint-plugin-jsdoc": "^50.0.0",
         "eslint-plugin-markdown": "^3.0.1",
