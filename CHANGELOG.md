@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.8.0](https://github.com/fluid-project/floeproject.org/compare/v2.7.0...v2.8.0) (2026-10-28)
+
+
+### Features
+
+* add new funder logos ([#647](https://github.com/fluid-project/floeproject.org/issues/647)) ([d26cfa3](https://github.com/fluid-project/floeproject.org/commit/d26cfa3a1cb6d6d184c7b7b84e5a9fabe2caa400))
+
+
+### Bug Fixes
+
+* switch auth base_url ([e1337cf](https://github.com/fluid-project/floeproject.org/commit/e1337cf79968f3092c3346ca9cfaa85c37396314))
+
 ## [2.7.0](https://github.com/fluid-project/floeproject.org/compare/v2.6.0...v2.7.0) (2025-08-11)
 
 
