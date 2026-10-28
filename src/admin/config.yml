@@ -3,7 +3,7 @@ backend:
   branch: main
   squash_merges: true
   repo: fluid-project/floeproject.org
-  base_url: "https://auth.incd.ca"
+  base_url: https://sveltia-cms-auth.idrc.workers.dev
   commit_messages:
     create: 'chore(cms): create "{{path}}"'
     update: 'chore(cms): update "{{path}}"'
