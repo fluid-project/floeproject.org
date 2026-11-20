@@ -1,8 +1,8 @@
 ---
-title: Large Language Model Communication Moonshot
+title: Language Model Communication Moonshot
 date: 2024-12-04
-slug: llm-communication-moonshot
-excerpt: Large Language Models are trained using data from phonetic-based languages.  The goal is to expand LLMs to work with meaning-based languages such as Blissymbolics.
+slug: lm-communication-moonshot
+excerpt: Large Language Models are trained using data from phonetic-based languages.  The goal is to expand the language model to work with meaning-based languages such as Blissymbolics.
 ---
 
 <figure style="text-align: center">
@@ -43,18 +43,18 @@ in a sentential manner based on the [fundamental rules](https://www.blissymbolic
 composition.
 
 One of the latest goals of the [Baby Bliss Bot](https://floeproject.org/baby-bliss-bot-project/)
-project is to extend and expand the capabilities of phonetic-based LLMs to
+project is to extend and expand the capabilities of phonetic-based language models to
 handle meaning-based symbol systems like Blissymbolics. Another aspect of the
 1960s moonshot was the positive side effects from the technologies that were
 developed. They proved useful beyond the field of space exploration and
 with a variety of beneficial outcomes for society. The hope is that stretching
-the capabilities of LLMs with a minority symbol system will have similar
+the capabilities of language models with a minority symbol system will have similar
 unforeseen but advantageous side effects. The research opens up new
-possibilities to adapt LLMs to other symbol-based communication systems, such as
+possibilities to adapt language models to other symbol-based communication systems, such as
 [Picture Communication Symbols](https://us.tobiidynavox.com/products/picture-communication-symbols-pcs),
 [SymbolStix](https://www.n2y.com/symbolstix-prime/) and [Widget Symbols](https://www.widgit.com/),
 and to other minority languages. These systems usually have smaller amounts of
-data available, presenting a challenge for using them with LLMs. The project's
+data available, presenting a challenge for using them with language models. The project's
 approach will provide a way to extend and stretch language models in these
 low-resource areas, making communication more accessible and supportive for a
 wider range of users.
@@ -64,7 +64,7 @@ wider range of users.
 Funded in part by a grant from IDEA, NFRF & Government of Canada
 <br/>
 <a href="https://www.vraie-idea.ca/">
-    <img
+    \<img
         src="/assets/images/vraie-idea-logo.jpg"
         alt="Vraie-idea home"
         width="337"
@@ -72,7 +72,7 @@ Funded in part by a grant from IDEA, NFRF & Government of Canada
 </a>
 <br/>
 <a href="https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/index-eng.aspx">
-    <img
+    \<img
         src="/assets/images/nfrf-logo.jpg"
         alt="New Frontiers in Research Fund"
         width="337"
@@ -80,7 +80,7 @@ Funded in part by a grant from IDEA, NFRF & Government of Canada
 </a>
 <br/>
 <a href="https://www.canada.ca/en.html">
-    <img
+    \<img
         src="/assets/images/government-of-canada-vector-logo.jpg"
         alt="Government of Canada home"
         width="337"
