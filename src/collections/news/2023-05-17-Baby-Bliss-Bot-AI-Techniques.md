@@ -151,7 +151,7 @@ Although the data contained in the Archive has already applied Optical Character
 Recognition (OCR) methods, and most of the scanned documents and books are
 available in text format, the Bliss symbols contained in these data remain
 available only in image format. With the aim of exploring the possibility of
-training a Large Language Model (LLM) specifically to understand and generate
+training a small language model specifically to understand and generate
 Bliss sentences, we are considering the use and creation of YOLO models as an
 initial avenue for generating the data that will be needed for such Bliss LLM.
 
@@ -174,7 +174,7 @@ provide more robust training data.
 Funded in part by a grant from IDEA, NFRF & Government of Canada
 <br/>
 <a href="https://www.vraie-idea.ca/">
-    <img
+    \<img
         src="/assets/images/vraie-idea-logo.jpg"
         alt="Vraie-idea home"
         width="337"
@@ -182,7 +182,7 @@ Funded in part by a grant from IDEA, NFRF & Government of Canada
 </a>
 <br/>
 <a href="https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/index-eng.aspx">
-    <img
+    \<img
         src="/assets/images/nfrf-logo.jpg"
         alt="New Frontiers in Research Fund"
         width="337"
@@ -190,7 +190,7 @@ Funded in part by a grant from IDEA, NFRF & Government of Canada
 </a>
 <br/>
 <a href="https://www.canada.ca/en.html">
-    <img
+    \<img
         src="/assets/images/government-of-canada-vector-logo.jpg"
         alt="Government of Canada home"
         width="337"
