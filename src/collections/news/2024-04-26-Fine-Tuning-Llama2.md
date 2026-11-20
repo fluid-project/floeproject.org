@@ -2,17 +2,17 @@
 title: Fine-Tuning Llama2 for Enhancing Blissymbolics Translation
 date: 2024-04-26
 slug: fine-tuning-llama2
-excerpt: Gain insight into the proficiency of a large language model in mastering Blissymbolics sentence structures.
+excerpt: Gain insight into the proficiency of a language model in mastering Blissymbolics sentence structures.
 ---
 
 [Baby Bliss Bot project](https://floeproject.org/baby-bliss-bot-project/) has fine-tuned the Llama2 model to
 enhance translation between English sentences and Blissymbolics sentences. Blissymbolics, a symbol language
 used primarily by individuals with physical disabilities who are non-speaking, presents a unique challenge for
-computational linguistics. The goal was to evaluate how well a large language model (LLM) can learn the
+computational linguistics. The goal was to evaluate how well a language model (LM) can learn the
 conversion between English and Blissymbolics sentence structures, thereby improving communication for
 Blissymbolics users.
 
-The fine-tuning process began with the Llama2 model, a large language model pretrained by Meta, known for its
+The fine-tuning process began with the Llama2 model, a small language model pretrained by Meta, known for its
 robust performance in natural language processing tasks. The researchers utilized a dataset containing 967 pairs
 of English sentences, structured according to standard English grammatical rules, and Blissymbolics sentences.
 Blissymbolics sentences are composed using corresponding English words for Bliss symbols while adhering to the
@@ -38,7 +38,7 @@ relying on this unique language.
 Funded in part by a grant from IDEA, NFRF & Government of Canada
 <br/>
 <a href="https://www.vraie-idea.ca/">
-    <img
+    \<img
         src="/assets/images/vraie-idea-logo.jpg"
         alt="Vraie-idea home"
         width="337"
@@ -46,7 +46,7 @@ Funded in part by a grant from IDEA, NFRF & Government of Canada
 </a>
 <br/>
 <a href="https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/index-eng.aspx">
-    <img
+    \<img
         src="/assets/images/nfrf-logo.jpg"
         alt="New Frontiers in Research Fund"
         width="337"
@@ -54,7 +54,7 @@ Funded in part by a grant from IDEA, NFRF & Government of Canada
 </a>
 <br/>
 <a href="https://www.canada.ca/en.html">
-    <img
+    \<img
         src="/assets/images/government-of-canada-vector-logo.jpg"
         alt="Government of Canada home"
         width="337"
