@@ -32,7 +32,7 @@ Crippled Children's Centre in 1971. Blissymbols offer a written semantic languag
 that serves as a valuable alternative for nonvocal individuals, such as those with cerebral palsy,
 who face obstacles in acquiring phonological language skills.
 
-The rapid advancement of AI technology, particularly Large Language Models (LLMs), presents not only a
+The rapid advancement of AI technology, particularly Language Models (LMs), presents not only a
 tremendous opportunity to enhance societal engagement for nonvocal individuals but also comes with
 many risks for a group that is not recognized or included in the training data. The Baby Bliss Bot
 (BBB) project is a community-led investigation to explore the possibilities and challenges of
@@ -71,9 +71,9 @@ ultimately improving the lives of nonvocal individuals within minority language 
 - [Baby Bliss Bot Project](https://floeproject.org/baby-bliss-bot-project/ "https://floeproject.org/baby-bliss-bot-project/")
 - [Baby Bliss Bot - Experiments with AI](https://floeproject.org/news/2023-05-17-babyblissbot-ai-experiments/ "https://floeproject.org/news/2023-05-17-babyblissbot-ai-experiments/")
 - [Fine-Tuning Llama2 for Enhancing Blissymbolics Translation](https://floeproject.org/news/2024-04-26-fine-tuning-llama2/ "https://floeproject.org/news/2024-04-26-fine-tuning-llama2/")
-- [Bliss, Bag of Words, and Telegraphic Prompting of LLMs](https://floeproject.org/news/2024-03-19-bag-of-words-with-bliss/ "https://floeproject.org/news/2024-03-19-bag-of-words-with-bliss/")
+- [Bliss, Bag of Words, and Telegraphic Prompting of LMs](https://floeproject.org/news/2024-03-19-bag-of-words-with-bliss/ "https://floeproject.org/news/2024-03-19-bag-of-words-with-bliss/")
 - [Exploring Retrieval-Augmented Generation (RAG) for Baby Bliss Bot](https://floeproject.org/news/2024-05-10-exploring-rag/ "https://floeproject.org/news/2024-05-10-exploring-rag/")
-- [Large Language Model Communication Moonshot](https://floeproject.org/news/2024-12-04-llm-communication-moonshot/ "https://floeproject.org/news/2024-12-04-llm-communication-moonshot/")
+- [Language Model Communication Moonshot](https://floeproject.org/news/2024-12-04-llm-communication-moonshot/ "https://floeproject.org/news/2024-12-04-llm-communication-moonshot/")
 - [Bliss Adaptive Palette - Composing with Indicators and Modifiers](https://floeproject.org/news/2025-07-15-bbb-palette-indicators-modifiers/ "https://floeproject.org/news/2025-07-15-bbb-palette-indicators-modifiers/")
 
 <br>
@@ -82,7 +82,7 @@ ultimately improving the lives of nonvocal individuals within minority language 
 
 **Final ISAAC Presentation**
 
-The rapid advancement of AI - particularly Large Language Models (LLMs) - offers exciting possibilities to enhance communication for AAC users. The inclusive design project described in this paper, titled Baby Bliss Bot, is led by a group of AI programmers collaborating with AAC users as co-designers in an interdisciplinary initiative. It uses Blissymbolics in its first phase to explore how the LLMs of AI can be leveraged to support AAC users in learning language and in communicating meaningfully across contexts and dialogue types - at home, in school, at work and from inquiry and discovery, to humour, creativity and beyond. Blissymbolics was chosen as the GRS in Phase One because of its comprehensive language capabilities and affordances that facilitated a multi-tiered approach. Through collaborative experimentation, the project investigates not only how to make AI systems more inclusive for outliers and minorities, but also how to design alternative training methods and interfaces. The aim is to support context-aware, personalized expression that respects the individuality of each AAC user. 
+The rapid advancement of AI - particularly Language Models (LMs) - offers exciting possibilities to enhance communication for AAC users. The inclusive design project described in this paper, titled Baby Bliss Bot, is led by a group of AI programmers collaborating with AAC users as co-designers in an interdisciplinary initiative. It uses Blissymbolics in its first phase to explore how the LMs of AI can be leveraged to support AAC users in learning language and in communicating meaningfully across contexts and dialogue types - at home, in school, at work and from inquiry and discovery, to humour, creativity and beyond. Blissymbolics was chosen as the GRS in Phase One because of its comprehensive language capabilities and affordances that facilitated a multi-tiered approach. Through collaborative experimentation, the project investigates not only how to make AI systems more inclusive for outliers and minorities, but also how to design alternative training methods and interfaces. The aim is to support context-aware, personalized expression that respects the individuality of each AAC user. 
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lLgNm_g5slc?si=oqUWpVeHd8DJYa4f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
